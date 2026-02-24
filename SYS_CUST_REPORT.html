@@ -1,0 +1,1015 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=MS950" />
+<script src="SYS_CUST_REPORT/report.js" type="text/javascript"></script>
+<link href="SYS_CUST_REPORT/report.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="banner">
+<table width="98%"><tr>
+<td><h2 class="banner">SYS_CUST_REPORT</h2></td>
+</tr></table></div>
+<div id="maintabs">
+<div class="currentmaintab" onclick="onSelectMainTab(this, 0)">
+<div>
+<p>資料欄</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 1)">
+<div>
+<p>限制條件</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 2)">
+<div>
+<p>授權</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 3)">
+<div>
+<p>統計資料</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 4)">
+<div>
+<p>觸發程式</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 5)">
+<div>
+<p>相依性</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 6)">
+<div>
+<p>詳細資訊</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 7)">
+<div>
+<p>分割區</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 8)">
+<div>
+<p>索引</p>
+</div>
+</div>
+</div>
+<br/>
+<div id="masterreports">
+<div id="Master.0">
+<div class="currentmasterreport">
+<table id="Table.0" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>COLUMN_NAME</th>
+<th>DATA_TYPE</th>
+<th>NULLABLE</th>
+<th>DATA_DEFAULT</th>
+<th>COLUMN_ID</th>
+<th>COMMENTS</th>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 0)" class="currentrow">
+<td class="currentcell">REPORT_TYPE_ID</td>
+<td class="currentcell">NUMBER</td>
+<td class="currentcell">Yes</td>
+<td class="currentcell">null</td>
+<td class="currentcell">1</td>
+<td class="currentcell">報表類型(SYS_CUST_REPORT_TYPE.REPORT_TYPE_ID)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 1)">
+<td>REPORT_ID</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>null</td>
+<td>2</td>
+<td>系統產生唯一的值</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 2)">
+<td>REPORT_NAME</td>
+<td>VARCHAR2(100&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>3</td>
+<td>報表名稱</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 3)">
+<td>REPORT_DESC</td>
+<td>VARCHAR2(250&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>4</td>
+<td>描述</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 4)">
+<td>UPDATE_USERID</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>null</td>
+<td>5</td>
+<td>資料異動人員</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 5)">
+<td>UPDATE_TIME</td>
+<td>DATE</td>
+<td>Yes</td>
+<td>SYSDATE</td>
+<td>6</td>
+<td>資料異動時間</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 6)">
+<td>MASTER_DETAIL</td>
+<td>CHAR(1&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>'N'</td>
+<td>7</td>
+<td>是否為Master/Detail</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 7)">
+<td>CHART_MAIN</td>
+<td>VARCHAR2(25&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>8</td>
+<td>圖形主要欄位</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 8)">
+<td>CHART_SECOND</td>
+<td>VARCHAR2(25&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>9</td>
+<td>圖形次要欄位</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 9)">
+<td>CHART_VALUE</td>
+<td>VARCHAR2(25&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>10</td>
+<td>圖形的數值欄位</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 10)">
+<td>TRAVEL_CARD</td>
+<td>VARCHAR2(25&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>11</td>
+<td>是否需對應至流程卡資料</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 11)">
+<td>SAMPLE_NAME</td>
+<td>VARCHAR2(25&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>12</td>
+<td>範本檔名稱</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 12)">
+<td>ENABLED</td>
+<td>VARCHAR2(1&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>'Y'</td>
+<td>13</td>
+<td>資料是否有效</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 13)">
+<td>SAVE_DETAIL</td>
+<td>VARCHAR2(1&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>'N'</td>
+<td>14</td>
+<td>是否需同時儲存細項資料</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 14)">
+<td>DETAIL_POSITION</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>0</td>
+<td>15</td>
+<td>0:&nbsp;Bottom;&nbsp;1:&nbsp;Right</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 15)">
+<td>CHART_TYPE</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>0</td>
+<td>16</td>
+<td>圖形類別</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 16)">
+<td>GRID_COL</td>
+<td>VARCHAR2(100&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>17</td>
+<td>2D資料行欄位名稱</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 17)">
+<td>GRID_ROW</td>
+<td>VARCHAR2(100&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>18</td>
+<td>2D資料列欄位名稱</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 18)">
+<td>GRID_VALUE</td>
+<td>VARCHAR2(100&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>19</td>
+<td>2D資料數值欄位</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 19)">
+<td>SUM_COL</td>
+<td>VARCHAR2(25&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>'N'</td>
+<td>20</td>
+<td>2D資料行是否需要總計欄位</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 20)">
+<td>SUM_ROW</td>
+<td>VARCHAR2(25&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>'N'</td>
+<td>21</td>
+<td>2D資料列是否需要總計欄位</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 21)">
+<td>GRID_VERTICAL</td>
+<td>VARCHAR2(1&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>'N'</td>
+<td>22</td>
+<td>(此欄位已無使用)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 22)">
+<td>GRID_COL_TYPE</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>0</td>
+<td>23</td>
+<td>2D資料行類型(0:Sum(Field);1:Field;2:Sum(SQL);3:SQL)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 23)">
+<td>GRID_ROW_TYPE</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>0</td>
+<td>24</td>
+<td>2D資料列類型(0:Sum(Fields);1:Fields;2:Sum(SQL-Fields);3:SQL-Fields)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 24)">
+<td>CHART_MASTER</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>0</td>
+<td>25</td>
+<td>圖的資料來源(0:Data;1:2D)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 25)">
+<td>CHART_VALUE_TYPE</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>0</td>
+<td>26</td>
+<td>圖形的數值類型(0:Sum;1:Data)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 26)">
+<td>REPORT_ENG</td>
+<td>VARCHAR2(100&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>27</td>
+<td>報表名稱(英文)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 27)">
+<td>REPORT_TW</td>
+<td>VARCHAR2(100&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>28</td>
+<td>報表名稱(繁體中文)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 28)">
+<td>DISPLAY_IDX</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>null</td>
+<td>29</td>
+<td>顯示順序</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 29)">
+<td>DATA_LOAD</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>0</td>
+<td>30</td>
+<td>資料載入方式(0:&nbsp;一般,&nbsp;1:&nbsp;批量,&nbsp;2:&nbsp;分頁)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 30)">
+<td>REPORT_CN</td>
+<td>VARCHAR2(100&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>31</td>
+<td>若有定義則使用此檔案,&nbsp;未定義則使用CCustomerReport.DLL</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 31)">
+<td>REPORT_TRA</td>
+<td>VARCHAR2(100&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>32</td>
+<td>報表名稱(繁體中文)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 32)">
+<td>DETAIL_CMD</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>0</td>
+<td>33</td>
+<td>是否有明細SQL&nbsp;(0:沒有&nbsp;1:有)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 33)">
+<td>CONNECT_MODE</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>0</td>
+<td>34</td>
+<td>連線模式(0:APServer&nbsp;1:ODAC)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 34)">
+<td>MAX_RECORD</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>0</td>
+<td>35</td>
+<td>最大筆數(0:不檢查)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 35)">
+<td>LOG_FLAG</td>
+<td>VARCHAR2(1&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>'N'</td>
+<td>36</td>
+<td>是否記錄Log&nbsp;(Y:是&nbsp;N:否)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 36)">
+<td>FORM_LOAD</td>
+<td>VARCHAR2(1&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>'N'</td>
+<td>37</td>
+<td>是否啟動查詢(Y:是&nbsp;N:否)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 37)">
+<td>RELOAD_CONDITION</td>
+<td>VARCHAR2(1&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>'N'</td>
+<td>38</td>
+<td>是否記錄參數(Y:是&nbsp;N:否)</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 38)">
+<td>FOR_PIVOT</td>
+<td>VARCHAR2(1&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>'N'</td>
+<td>39</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 39)">
+<td>DEFAULT_FILENAME</td>
+<td>VARCHAR2(100&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>40</td>
+<td>範本檔名</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 40)">
+<td>REFRESH_FLAG</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>0</td>
+<td>41</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 41)">
+<td>REPORT_SQL</td>
+<td>CLOB</td>
+<td>Yes</td>
+<td>null</td>
+<td>42</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 42)">
+<td>DETAIL_SQL</td>
+<td>CLOB</td>
+<td>Yes</td>
+<td>null</td>
+<td>43</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 43)">
+<td>SAMPLE_FILE</td>
+<td>BLOB</td>
+<td>Yes</td>
+<td>null</td>
+<td>44</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 44)">
+<td>REPORT_VN</td>
+<td>VARCHAR2(150&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>45</td>
+<td>null</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="Master.1">
+<div class="masterreport">
+<table id="Table.1" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>CONSTRAINT_NAME</th>
+<th>CONSTRAINT_TYPE</th>
+<th>SEARCH_CONDITION</th>
+<th>R_OWNER</th>
+<th>R_TABLE_NAME</th>
+<th>R_CONSTRAINT_NAME</th>
+<th>DELETE_RULE</th>
+<th>STATUS</th>
+<th>DEFERRABLE</th>
+<th>VALIDATED</th>
+<th>GENERATED</th>
+<th>BAD</th>
+<th>RELY</th>
+<th>LAST_CHANGE</th>
+<th>INDEX_OWNER</th>
+<th>INDEX_NAME</th>
+<th>INVALID</th>
+<th>VIEW_RELATED</th>
+</tr>
+</table>
+<br/>
+<hr/>
+<br/><div id="ChildTabs.1">
+<div class="currentchildtab" onclick="onSelectChildTab(this, 0)">
+<div>
+<p>資料欄</p>
+</div>
+</div>
+</div>
+<br/>
+<div id="ChildReports.1">
+</div>
+</div>
+</div>
+<div id="Master.2">
+<div class="masterreport">
+<table id="Table.2" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>PRIVILEGE</th>
+<th>GRANTEE</th>
+<th>GRANTABLE</th>
+<th>GRANTOR</th>
+<th>OBJECT_NAME</th>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 0)" class="currentrow">
+<td class="currentcell">ALTER</td>
+<td class="currentcell">SYS_USER</td>
+<td class="currentcell">NO</td>
+<td class="currentcell">SAJET</td>
+<td class="currentcell">SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 1)">
+<td>DELETE</td>
+<td>SYS_USER</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 2)">
+<td>INSERT</td>
+<td>SYS_USER</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 3)">
+<td>SELECT</td>
+<td>SYS_USER</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 4)">
+<td>UPDATE</td>
+<td>SYS_USER</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 5)">
+<td>ON&nbsp;COMMIT&nbsp;REFRESH</td>
+<td>SYS_USER</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 6)">
+<td>QUERY&nbsp;REWRITE</td>
+<td>SYS_USER</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 7)">
+<td>DEBUG</td>
+<td>SYS_USER</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 8)">
+<td>FLASHBACK</td>
+<td>SYS_USER</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 9)">
+<td>ALTER</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 10)">
+<td>DELETE</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 11)">
+<td>INDEX</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 12)">
+<td>INSERT</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 13)">
+<td>SELECT</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 14)">
+<td>UPDATE</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 15)">
+<td>REFERENCES</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 16)">
+<td>ON&nbsp;COMMIT&nbsp;REFRESH</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 17)">
+<td>QUERY&nbsp;REWRITE</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 18)">
+<td>DEBUG</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 2, 19)">
+<td>FLASHBACK</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="Master.3">
+<div class="masterreport">
+<table id="Table.3" cellpadding="0" cellspacing="0" summary="">
+<th>NAME</th>
+<th>VALUE</th>
+</tr>
+<tr>
+<td>NUM_ROWS</td>
+<td>30</td>
+</tr>
+<tr>
+<td>BLOCKS</td>
+<td>34</td>
+</tr>
+<tr>
+<td>AVG_ROW_LEN</td>
+<td>768</td>
+</tr>
+<tr>
+<td>SAMPLE_SIZE</td>
+<td>30</td>
+</tr>
+<tr>
+<td>LAST_ANALYZED</td>
+<td>30-12月-25&nbsp;22:00:03</td>
+</tr>
+<tr>
+<td>LAST_ANALYZED_SINCE</td>
+<td>30-12月-25&nbsp;22:00:03</td>
+</tr>
+</table>
+<br/>
+<hr/>
+<br/><div id="ChildTabs.3">
+<div class="currentchildtab" onclick="onSelectChildTab(this, 0)">
+<div>
+<p>資料欄統計資料</p>
+</div>
+</div>
+</div>
+<br/>
+<div id="ChildReports.3">
+</div>
+</div>
+</div>
+<div id="Master.4">
+<div class="masterreport">
+<table id="Table.4" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>TRIGGER_NAME</th>
+<th>TRIGGER_TYPE</th>
+<th>TRIGGER_OWNER</th>
+<th>TRIGGERING_EVENT</th>
+<th>STATUS</th>
+<th>TABLE_NAME</th>
+</tr>
+</table>
+<br/>
+<hr/>
+<br/><div id="ChildTabs.4">
+<div class="currentchildtab" onclick="onSelectChildTab(this, 0)">
+<div>
+<p></p>
+</div>
+</div>
+</div>
+<br/>
+<div id="ChildReports.4">
+</div>
+</div>
+</div>
+<div id="Master.5">
+<div class="masterreport">
+<table id="Table.5" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>OWNER</th>
+<th>NAME</th>
+<th>TYPE</th>
+<th>REFERENCED_OWNER</th>
+<th>REFERENCED_NAME</th>
+<th>REFERENCED_TYPE</th>
+</tr>
+</table>
+<br/>
+<hr/>
+<br/><div id="ChildTabs.5">
+<div class="currentchildtab" onclick="onSelectChildTab(this, 0)">
+<div>
+<p>參照</p>
+</div>
+</div>
+</div>
+<br/>
+<div id="ChildReports.5">
+</div>
+</div>
+</div>
+<div id="Master.6">
+<div class="masterreport">
+<table id="Table.6" cellpadding="0" cellspacing="0" summary="">
+<th>NAME</th>
+<th>VALUE</th>
+</tr>
+<tr>
+<td>CREATED</td>
+<td>03-6月&nbsp;-25&nbsp;15:43:49</td>
+</tr>
+<tr>
+<td>LAST_DDL_TIME</td>
+<td>03-6月&nbsp;-25&nbsp;15:48:43</td>
+</tr>
+<tr>
+<td>OWNER</td>
+<td>SAJET</td>
+</tr>
+<tr>
+<td>TABLE_NAME</td>
+<td>SYS_CUST_REPORT</td>
+</tr>
+<tr>
+<td>TABLESPACE_NAME</td>
+<td>SYSBS</td>
+</tr>
+<tr>
+<td>CLUSTER_NAME</td>
+<td>null</td>
+</tr>
+<tr>
+<td>IOT_NAME</td>
+<td>null</td>
+</tr>
+<tr>
+<td>STATUS</td>
+<td>VALID</td>
+</tr>
+<tr>
+<td>PCT_FREE</td>
+<td>10</td>
+</tr>
+<tr>
+<td>PCT_USED</td>
+<td>null</td>
+</tr>
+<tr>
+<td>INI_TRANS</td>
+<td>1</td>
+</tr>
+<tr>
+<td>MAX_TRANS</td>
+<td>255</td>
+</tr>
+<tr>
+<td>INITIAL_EXTENT</td>
+<td>262144</td>
+</tr>
+<tr>
+<td>NEXT_EXTENT</td>
+<td>1048576</td>
+</tr>
+<tr>
+<td>MIN_EXTENTS</td>
+<td>1</td>
+</tr>
+<tr>
+<td>MAX_EXTENTS</td>
+<td>2147483645</td>
+</tr>
+<tr>
+<td>PCT_INCREASE</td>
+<td>null</td>
+</tr>
+<tr>
+<td>FREELISTS</td>
+<td>null</td>
+</tr>
+<tr>
+<td>FREELIST_GROUPS</td>
+<td>null</td>
+</tr>
+<tr>
+<td>LOGGING</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>BACKED_UP</td>
+<td>N</td>
+</tr>
+<tr>
+<td>NUM_ROWS</td>
+<td>30</td>
+</tr>
+<tr>
+<td>BLOCKS</td>
+<td>34</td>
+</tr>
+<tr>
+<td>EMPTY_BLOCKS</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AVG_SPACE</td>
+<td>0</td>
+</tr>
+<tr>
+<td>CHAIN_CNT</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AVG_ROW_LEN</td>
+<td>768</td>
+</tr>
+<tr>
+<td>AVG_SPACE_FREELIST_BLOCKS</td>
+<td>0</td>
+</tr>
+<tr>
+<td>NUM_FREELIST_BLOCKS</td>
+<td>0</td>
+</tr>
+<tr>
+<td>DEGREE</td>
+<td>1</td>
+</tr>
+<tr>
+<td>INSTANCES</td>
+<td>1</td>
+</tr>
+<tr>
+<td>CACHE</td>
+<td>N</td>
+</tr>
+<tr>
+<td>TABLE_LOCK</td>
+<td>ENABLED</td>
+</tr>
+<tr>
+<td>SAMPLE_SIZE</td>
+<td>30</td>
+</tr>
+<tr>
+<td>LAST_ANALYZED</td>
+<td>30-12月-25&nbsp;22:00:03</td>
+</tr>
+<tr>
+<td>PARTITIONED</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>IOT_TYPE</td>
+<td>null</td>
+</tr>
+<tr>
+<td>OBJECT_ID_TYPE</td>
+<td>null</td>
+</tr>
+<tr>
+<td>TABLE_TYPE_OWNER</td>
+<td>null</td>
+</tr>
+<tr>
+<td>TABLE_TYPE</td>
+<td>null</td>
+</tr>
+<tr>
+<td>TEMPORARY</td>
+<td>N</td>
+</tr>
+<tr>
+<td>SECONDARY</td>
+<td>N</td>
+</tr>
+<tr>
+<td>NESTED</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>BUFFER_POOL</td>
+<td>DEFAULT</td>
+</tr>
+<tr>
+<td>ROW_MOVEMENT</td>
+<td>DISABLED</td>
+</tr>
+<tr>
+<td>GLOBAL_STATS</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>USER_STATS</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>DURATION</td>
+<td>null</td>
+</tr>
+<tr>
+<td>SKIP_CORRUPT</td>
+<td>DISABLED</td>
+</tr>
+<tr>
+<td>MONITORING</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>CLUSTER_OWNER</td>
+<td>null</td>
+</tr>
+<tr>
+<td>DEPENDENCIES</td>
+<td>DISABLED</td>
+</tr>
+<tr>
+<td>COMPRESSION</td>
+<td>DISABLED</td>
+</tr>
+<tr>
+<td>COMPRESS_FOR</td>
+<td>null</td>
+</tr>
+<tr>
+<td>DROPPED</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>COMMENTS</td>
+<td>客製化報表資料表</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="Master.7">
+<div class="masterreport">
+<table id="Table.7" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>PARTITION_NAME</th>
+<th>LAST_ANALYZED</th>
+<th>NUM_ROWS</th>
+<th>BLOCKS</th>
+<th>SAMPLE_SIZE</th>
+<th>HIGH_VALUE</th>
+</tr>
+</table>
+<br/>
+<hr/>
+<br/><div id="ChildTabs.7">
+<div class="currentchildtab" onclick="onSelectChildTab(this, 0)">
+<div>
+<p></p>
+</div>
+</div>
+</div>
+<br/>
+<div id="ChildReports.7">
+</div>
+</div>
+</div>
+<div id="Master.8">
+<div class="masterreport">
+<table id="Table.8" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>INDEX_OWNER</th>
+<th>INDEX_NAME</th>
+<th>UNIQUENESS</th>
+<th>STATUS</th>
+<th>INDEX_TYPE</th>
+<th>TEMPORARY</th>
+<th>PARTITIONED</th>
+<th>FUNCIDX_STATUS</th>
+<th>JOIN_INDEX</th>
+<th>COLUMNS</th>
+<th>COLUMN_EXPRESSION</th>
+</tr>
+</table>
+<br/>
+<hr/>
+<br/><div id="ChildTabs.8">
+<div class="currentchildtab" onclick="onSelectChildTab(this, 0)">
+<div>
+<p></p>
+</div>
+</div>
+</div>
+<br/>
+<div id="ChildReports.8">
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

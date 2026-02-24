@@ -1,0 +1,3283 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=MS950" />
+<script src="SYS_BIN/report.js" type="text/javascript"></script>
+<link href="SYS_BIN/report.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="banner">
+<table width="98%"><tr>
+<td><h2 class="banner">SYS_BIN</h2></td>
+</tr></table></div>
+<div id="maintabs">
+<div class="currentmaintab" onclick="onSelectMainTab(this, 0)">
+<div>
+<p>資料欄</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 1)">
+<div>
+<p>限制條件</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 2)">
+<div>
+<p>授權</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 3)">
+<div>
+<p>統計資料</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 4)">
+<div>
+<p>觸發程式</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 5)">
+<div>
+<p>相依性</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 6)">
+<div>
+<p>詳細資訊</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 7)">
+<div>
+<p>分割區</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 8)">
+<div>
+<p>索引</p>
+</div>
+</div>
+</div>
+<br/>
+<div id="masterreports">
+<div id="Master.0">
+<div class="currentmasterreport">
+<table id="Table.0" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>COLUMN_NAME</th>
+<th>DATA_TYPE</th>
+<th>NULLABLE</th>
+<th>DATA_DEFAULT</th>
+<th>COLUMN_ID</th>
+<th>COMMENTS</th>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 0)" class="currentrow">
+<td class="currentcell">BIN_ID</td>
+<td class="currentcell">NUMBER</td>
+<td class="currentcell">No</td>
+<td class="currentcell">null</td>
+<td class="currentcell">1</td>
+<td class="currentcell">BIN&nbsp;ID</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 1)">
+<td>BIN_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>No</td>
+<td>null</td>
+<td>2</td>
+<td>BIN&nbsp;名稱</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 2)">
+<td>BIN_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>3</td>
+<td>BIN&nbsp;描述</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 3)">
+<td>OFFSET</td>
+<td>NUMBER</td>
+<td>No</td>
+<td>0</td>
+<td>4</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 4)">
+<td>BIN0_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>5</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 5)">
+<td>BIN1_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>6</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 6)">
+<td>BIN2_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>7</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 7)">
+<td>BIN3_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>8</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 8)">
+<td>BIN4_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>9</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 9)">
+<td>BIN5_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>10</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 10)">
+<td>BIN6_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>11</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 11)">
+<td>BIN7_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>12</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 12)">
+<td>BIN8_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>13</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 13)">
+<td>BIN9_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>14</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 14)">
+<td>BIN10_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>15</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 15)">
+<td>BIN11_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>16</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 16)">
+<td>BIN12_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>17</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 17)">
+<td>BIN13_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>18</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 18)">
+<td>BIN14_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>19</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 19)">
+<td>BIN15_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>20</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 20)">
+<td>BIN16_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>21</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 21)">
+<td>BIN17_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>22</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 22)">
+<td>BIN18_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>23</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 23)">
+<td>BIN19_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>24</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 24)">
+<td>BIN20_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>25</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 25)">
+<td>BIN21_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>26</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 26)">
+<td>BIN22_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>27</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 27)">
+<td>BIN23_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>28</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 28)">
+<td>BIN24_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>29</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 29)">
+<td>BIN25_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>30</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 30)">
+<td>BIN26_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>31</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 31)">
+<td>BIN27_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>32</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 32)">
+<td>BIN28_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>33</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 33)">
+<td>BIN29_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>34</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 34)">
+<td>BIN30_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>35</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 35)">
+<td>BIN31_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>36</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 36)">
+<td>BIN32_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>37</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 37)">
+<td>BIN33_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>38</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 38)">
+<td>BIN34_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>39</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 39)">
+<td>BIN35_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>40</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 40)">
+<td>BIN36_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>41</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 41)">
+<td>BIN37_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>42</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 42)">
+<td>BIN38_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>43</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 43)">
+<td>BIN39_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>44</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 44)">
+<td>BIN40_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>45</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 45)">
+<td>BIN41_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>46</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 46)">
+<td>BIN42_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>47</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 47)">
+<td>BIN43_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>48</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 48)">
+<td>BIN44_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>49</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 49)">
+<td>BIN45_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>50</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 50)">
+<td>BIN46_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>51</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 51)">
+<td>BIN47_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>52</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 52)">
+<td>BIN48_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>53</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 53)">
+<td>BIN49_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>54</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 54)">
+<td>BIN50_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>55</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 55)">
+<td>BIN51_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>56</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 56)">
+<td>BIN52_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>57</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 57)">
+<td>BIN53_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>58</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 58)">
+<td>BIN54_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>59</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 59)">
+<td>BIN55_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>60</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 60)">
+<td>BIN56_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>61</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 61)">
+<td>BIN57_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>62</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 62)">
+<td>BIN58_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>63</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 63)">
+<td>BIN59_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>64</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 64)">
+<td>BIN60_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>65</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 65)">
+<td>BIN61_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>66</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 66)">
+<td>BIN62_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>67</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 67)">
+<td>BIN63_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>68</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 68)">
+<td>BIN64_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>69</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 69)">
+<td>BIN65_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>70</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 70)">
+<td>BIN66_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>71</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 71)">
+<td>BIN67_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>72</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 72)">
+<td>BIN68_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>73</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 73)">
+<td>BIN69_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>74</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 74)">
+<td>BIN70_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>75</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 75)">
+<td>BIN71_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>76</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 76)">
+<td>BIN72_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>77</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 77)">
+<td>BIN73_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>78</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 78)">
+<td>BIN74_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>79</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 79)">
+<td>BIN75_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>80</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 80)">
+<td>BIN76_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>81</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 81)">
+<td>BIN77_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>82</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 82)">
+<td>BIN78_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>83</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 83)">
+<td>BIN79_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>84</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 84)">
+<td>BIN80_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>85</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 85)">
+<td>BIN81_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>86</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 86)">
+<td>BIN82_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>87</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 87)">
+<td>BIN83_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>88</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 88)">
+<td>BIN84_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>89</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 89)">
+<td>BIN85_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>90</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 90)">
+<td>BIN86_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>91</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 91)">
+<td>BIN87_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>92</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 92)">
+<td>BIN88_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>93</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 93)">
+<td>BIN89_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>94</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 94)">
+<td>BIN90_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>95</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 95)">
+<td>BIN91_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>96</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 96)">
+<td>BIN92_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>97</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 97)">
+<td>BIN93_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>98</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 98)">
+<td>BIN94_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>99</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 99)">
+<td>BIN95_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>100</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 100)">
+<td>BIN96_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>101</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 101)">
+<td>BIN97_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>102</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 102)">
+<td>BIN98_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>103</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 103)">
+<td>BIN99_PROPERTY</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>104</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 104)">
+<td>BIN0_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>105</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 105)">
+<td>BIN1_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>106</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 106)">
+<td>BIN2_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>107</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 107)">
+<td>BIN3_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>108</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 108)">
+<td>BIN4_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>109</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 109)">
+<td>BIN5_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>110</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 110)">
+<td>BIN6_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>111</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 111)">
+<td>BIN7_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>112</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 112)">
+<td>BIN8_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>113</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 113)">
+<td>BIN9_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>114</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 114)">
+<td>BIN10_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>115</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 115)">
+<td>BIN11_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>116</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 116)">
+<td>BIN12_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>117</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 117)">
+<td>BIN13_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>118</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 118)">
+<td>BIN14_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>119</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 119)">
+<td>BIN15_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>120</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 120)">
+<td>BIN16_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>121</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 121)">
+<td>BIN17_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>122</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 122)">
+<td>BIN18_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>123</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 123)">
+<td>BIN19_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>124</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 124)">
+<td>BIN20_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>125</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 125)">
+<td>BIN21_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>126</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 126)">
+<td>BIN22_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>127</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 127)">
+<td>BIN23_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>128</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 128)">
+<td>BIN24_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>129</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 129)">
+<td>BIN25_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>130</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 130)">
+<td>BIN26_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>131</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 131)">
+<td>BIN27_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>132</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 132)">
+<td>BIN28_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>133</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 133)">
+<td>BIN29_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>134</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 134)">
+<td>BIN30_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>135</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 135)">
+<td>BIN31_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>136</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 136)">
+<td>BIN32_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>137</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 137)">
+<td>BIN33_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>138</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 138)">
+<td>BIN34_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>139</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 139)">
+<td>BIN35_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>140</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 140)">
+<td>BIN36_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>141</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 141)">
+<td>BIN37_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>142</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 142)">
+<td>BIN38_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>143</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 143)">
+<td>BIN39_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>144</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 144)">
+<td>BIN40_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>145</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 145)">
+<td>BIN41_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>146</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 146)">
+<td>BIN42_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>147</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 147)">
+<td>BIN43_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>148</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 148)">
+<td>BIN44_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>149</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 149)">
+<td>BIN45_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>150</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 150)">
+<td>BIN46_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>151</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 151)">
+<td>BIN47_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>152</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 152)">
+<td>BIN48_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>153</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 153)">
+<td>BIN49_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>154</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 154)">
+<td>BIN50_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>155</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 155)">
+<td>BIN51_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>156</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 156)">
+<td>BIN52_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>157</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 157)">
+<td>BIN53_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>158</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 158)">
+<td>BIN54_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>159</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 159)">
+<td>BIN55_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>160</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 160)">
+<td>BIN56_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>161</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 161)">
+<td>BIN57_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>162</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 162)">
+<td>BIN58_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>163</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 163)">
+<td>BIN59_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>164</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 164)">
+<td>BIN60_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>165</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 165)">
+<td>BIN61_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>166</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 166)">
+<td>BIN62_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>167</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 167)">
+<td>BIN63_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>168</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 168)">
+<td>BIN64_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>169</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 169)">
+<td>BIN65_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>170</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 170)">
+<td>BIN66_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>171</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 171)">
+<td>BIN67_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>172</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 172)">
+<td>BIN68_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>173</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 173)">
+<td>BIN69_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>174</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 174)">
+<td>BIN70_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>175</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 175)">
+<td>BIN71_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>176</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 176)">
+<td>BIN72_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>177</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 177)">
+<td>BIN73_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>178</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 178)">
+<td>BIN74_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>179</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 179)">
+<td>BIN75_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>180</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 180)">
+<td>BIN76_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>181</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 181)">
+<td>BIN77_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>182</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 182)">
+<td>BIN78_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>183</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 183)">
+<td>BIN79_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>184</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 184)">
+<td>BIN80_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>185</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 185)">
+<td>BIN81_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>186</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 186)">
+<td>BIN82_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>187</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 187)">
+<td>BIN83_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>188</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 188)">
+<td>BIN84_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>189</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 189)">
+<td>BIN85_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>190</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 190)">
+<td>BIN86_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>191</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 191)">
+<td>BIN87_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>192</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 192)">
+<td>BIN88_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>193</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 193)">
+<td>BIN89_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>194</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 194)">
+<td>BIN90_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>195</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 195)">
+<td>BIN91_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>196</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 196)">
+<td>BIN92_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>197</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 197)">
+<td>BIN93_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>198</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 198)">
+<td>BIN94_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>199</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 199)">
+<td>BIN95_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>200</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 200)">
+<td>BIN96_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>201</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 201)">
+<td>BIN97_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>202</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 202)">
+<td>BIN98_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>203</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 203)">
+<td>BIN99_DESC</td>
+<td>VARCHAR2(200&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>204</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 204)">
+<td>BIN0_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>205</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 205)">
+<td>BIN1_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>206</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 206)">
+<td>BIN2_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>207</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 207)">
+<td>BIN3_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>208</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 208)">
+<td>BIN4_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>209</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 209)">
+<td>BIN5_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>210</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 210)">
+<td>BIN6_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>211</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 211)">
+<td>BIN7_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>212</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 212)">
+<td>BIN8_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>213</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 213)">
+<td>BIN9_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>214</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 214)">
+<td>BIN10_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>215</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 215)">
+<td>BIN11_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>216</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 216)">
+<td>BIN12_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>217</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 217)">
+<td>BIN13_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>218</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 218)">
+<td>BIN14_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>219</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 219)">
+<td>BIN15_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>220</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 220)">
+<td>BIN16_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>221</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 221)">
+<td>BIN17_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>222</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 222)">
+<td>BIN18_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>223</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 223)">
+<td>BIN19_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>224</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 224)">
+<td>BIN20_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>225</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 225)">
+<td>BIN21_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>226</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 226)">
+<td>BIN22_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>227</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 227)">
+<td>BIN23_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>228</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 228)">
+<td>BIN24_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>229</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 229)">
+<td>BIN25_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>230</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 230)">
+<td>BIN26_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>231</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 231)">
+<td>BIN27_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>232</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 232)">
+<td>BIN28_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>233</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 233)">
+<td>BIN29_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>234</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 234)">
+<td>BIN30_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>235</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 235)">
+<td>BIN31_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>236</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 236)">
+<td>BIN32_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>237</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 237)">
+<td>BIN33_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>238</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 238)">
+<td>BIN34_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>239</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 239)">
+<td>BIN35_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>240</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 240)">
+<td>BIN36_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>241</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 241)">
+<td>BIN37_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>242</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 242)">
+<td>BIN38_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>243</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 243)">
+<td>BIN39_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>244</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 244)">
+<td>BIN40_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>245</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 245)">
+<td>BIN41_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>246</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 246)">
+<td>BIN42_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>247</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 247)">
+<td>BIN43_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>248</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 248)">
+<td>BIN44_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>249</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 249)">
+<td>BIN45_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>250</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 250)">
+<td>BIN46_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>251</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 251)">
+<td>BIN47_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>252</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 252)">
+<td>BIN48_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>253</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 253)">
+<td>BIN49_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>254</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 254)">
+<td>BIN50_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>255</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 255)">
+<td>BIN51_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>256</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 256)">
+<td>BIN52_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>257</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 257)">
+<td>BIN53_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>258</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 258)">
+<td>BIN54_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>259</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 259)">
+<td>BIN55_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>260</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 260)">
+<td>BIN56_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>261</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 261)">
+<td>BIN57_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>262</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 262)">
+<td>BIN58_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>263</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 263)">
+<td>BIN59_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>264</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 264)">
+<td>BIN60_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>265</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 265)">
+<td>BIN61_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>266</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 266)">
+<td>BIN62_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>267</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 267)">
+<td>BIN63_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>268</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 268)">
+<td>BIN64_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>269</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 269)">
+<td>BIN65_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>270</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 270)">
+<td>BIN66_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>271</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 271)">
+<td>BIN67_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>272</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 272)">
+<td>BIN68_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>273</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 273)">
+<td>BIN69_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>274</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 274)">
+<td>BIN70_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>275</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 275)">
+<td>BIN71_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>276</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 276)">
+<td>BIN72_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>277</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 277)">
+<td>BIN73_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>278</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 278)">
+<td>BIN74_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>279</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 279)">
+<td>BIN75_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>280</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 280)">
+<td>BIN76_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>281</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 281)">
+<td>BIN77_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>282</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 282)">
+<td>BIN78_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>283</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 283)">
+<td>BIN79_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>284</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 284)">
+<td>BIN80_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>285</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 285)">
+<td>BIN81_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>286</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 286)">
+<td>BIN82_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>287</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 287)">
+<td>BIN83_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>288</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 288)">
+<td>BIN84_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>289</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 289)">
+<td>BIN85_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>290</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 290)">
+<td>BIN86_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>291</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 291)">
+<td>BIN87_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>292</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 292)">
+<td>BIN88_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>293</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 293)">
+<td>BIN89_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>294</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 294)">
+<td>BIN90_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>295</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 295)">
+<td>BIN91_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>296</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 296)">
+<td>BIN92_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>297</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 297)">
+<td>BIN93_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>298</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 298)">
+<td>BIN94_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>299</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 299)">
+<td>BIN95_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>300</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 300)">
+<td>BIN96_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>301</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 301)">
+<td>BIN97_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>302</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 302)">
+<td>BIN98_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>303</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 303)">
+<td>BIN99_SP_NAME</td>
+<td>VARCHAR2(50&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>null</td>
+<td>304</td>
+<td>null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 304)">
+<td>UPDATE_USERID</td>
+<td>NUMBER</td>
+<td>Yes</td>
+<td>null</td>
+<td>305</td>
+<td>資料異動人員</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 305)">
+<td>UPDATE_TIME</td>
+<td>DATE</td>
+<td>Yes</td>
+<td>null</td>
+<td>306</td>
+<td>資料異動時間</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 0, 306)">
+<td>ENABLED</td>
+<td>VARCHAR2(10&nbsp;BYTE)</td>
+<td>Yes</td>
+<td>'Y'</td>
+<td>307</td>
+<td>null</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="Master.1">
+<div class="masterreport">
+<table id="Table.1" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>CONSTRAINT_NAME</th>
+<th>CONSTRAINT_TYPE</th>
+<th>SEARCH_CONDITION</th>
+<th>R_OWNER</th>
+<th>R_TABLE_NAME</th>
+<th>R_CONSTRAINT_NAME</th>
+<th>DELETE_RULE</th>
+<th>STATUS</th>
+<th>DEFERRABLE</th>
+<th>VALIDATED</th>
+<th>GENERATED</th>
+<th>BAD</th>
+<th>RELY</th>
+<th>LAST_CHANGE</th>
+<th>INDEX_OWNER</th>
+<th>INDEX_NAME</th>
+<th>INVALID</th>
+<th>VIEW_RELATED</th>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 1, 0)" class="currentrow">
+<td class="currentcell">SYS_BIN_PK</td>
+<td class="currentcell">Primary_Key</td>
+<td class="currentcell">null</td>
+<td class="currentcell">null</td>
+<td class="currentcell">null</td>
+<td class="currentcell">null</td>
+<td class="currentcell">null</td>
+<td class="currentcell">ENABLED</td>
+<td class="currentcell">NOT&nbsp;DEFERRABLE</td>
+<td class="currentcell">VALIDATED</td>
+<td class="currentcell">USER&nbsp;NAME</td>
+<td class="currentcell">null</td>
+<td class="currentcell">null</td>
+<td class="currentcell">11-11月-21</td>
+<td class="currentcell">SAJET</td>
+<td class="currentcell">SYS_BIN_PK</td>
+<td class="currentcell">null</td>
+<td class="currentcell">null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 1, 1)">
+<td>SYS_C0011630</td>
+<td>Check</td>
+<td>"BIN_NAME"&nbsp;IS&nbsp;NOT&nbsp;NULL</td>
+<td>null</td>
+<td>null</td>
+<td>null</td>
+<td>null</td>
+<td>ENABLED</td>
+<td>NOT&nbsp;DEFERRABLE</td>
+<td>VALIDATED</td>
+<td>GENERATED&nbsp;NAME</td>
+<td>null</td>
+<td>null</td>
+<td>11-11月-21</td>
+<td>null</td>
+<td>null</td>
+<td>null</td>
+<td>null</td>
+</tr>
+</table>
+<br/>
+<hr/>
+<br/><div id="ChildTabs.1">
+<div class="currentchildtab" onclick="onSelectChildTab(this, 0)">
+<div>
+<p>資料欄</p>
+</div>
+</div>
+</div>
+<br/>
+<div id="ChildReports.1">
+<div id="Child.0.0.1">
+<div class="currentchildreport"><table id="Table.2" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>COLUMN_NAME</th>
+<th>COLUMN_POSITION</th>
+</tr>
+<tr onclick="table_onSelectRow(this, 2)" class="currentrow">
+<td class="currentcell">BIN_ID</td>
+<td class="currentcell">1</td>
+</tr>
+<tr onclick="table_onSelectRow(this, 2)">
+<td>OFFSET</td>
+<td>2</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="Child.0.1.1">
+<div class="childreport"><table id="Table.3" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>COLUMN_NAME</th>
+<th>COLUMN_POSITION</th>
+</tr>
+<tr onclick="table_onSelectRow(this, 3)" class="currentrow">
+<td class="currentcell">BIN_NAME</td>
+<td class="currentcell">null</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="Master.2">
+<div class="masterreport">
+<table id="Table.4" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>PRIVILEGE</th>
+<th>GRANTEE</th>
+<th>GRANTABLE</th>
+<th>GRANTOR</th>
+<th>OBJECT_NAME</th>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 4, 0)" class="currentrow">
+<td class="currentcell">DELETE</td>
+<td class="currentcell">SYS_USER</td>
+<td class="currentcell">NO</td>
+<td class="currentcell">SAJET</td>
+<td class="currentcell">SYS_BIN</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 4, 1)">
+<td>INSERT</td>
+<td>SYS_USER</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_BIN</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 4, 2)">
+<td>SELECT</td>
+<td>SYS_USER</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_BIN</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 4, 3)">
+<td>UPDATE</td>
+<td>SYS_USER</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_BIN</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 4, 4)">
+<td>DELETE</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_BIN</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 4, 5)">
+<td>INSERT</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_BIN</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 4, 6)">
+<td>SELECT</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_BIN</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 4, 7)">
+<td>UPDATE</td>
+<td>SMT</td>
+<td>NO</td>
+<td>SAJET</td>
+<td>SYS_BIN</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="Master.3">
+<div class="masterreport">
+<table id="Table.5" cellpadding="0" cellspacing="0" summary="">
+<th>NAME</th>
+<th>VALUE</th>
+</tr>
+<tr>
+<td>NUM_ROWS</td>
+<td>18101</td>
+</tr>
+<tr>
+<td>BLOCKS</td>
+<td>1762</td>
+</tr>
+<tr>
+<td>AVG_ROW_LEN</td>
+<td>641</td>
+</tr>
+<tr>
+<td>SAMPLE_SIZE</td>
+<td>18101</td>
+</tr>
+<tr>
+<td>LAST_ANALYZED</td>
+<td>06-10月-21</td>
+</tr>
+<tr>
+<td>LAST_ANALYZED_SINCE</td>
+<td>06-10月-21</td>
+</tr>
+</table>
+<br/>
+<hr/>
+<br/><div id="ChildTabs.3">
+<div class="currentchildtab" onclick="onSelectChildTab(this, 0)">
+<div>
+<p>資料欄統計資料</p>
+</div>
+</div>
+</div>
+<br/>
+<div id="ChildReports.3">
+</div>
+</div>
+</div>
+<div id="Master.4">
+<div class="masterreport">
+<table id="Table.6" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>TRIGGER_NAME</th>
+<th>TRIGGER_TYPE</th>
+<th>TRIGGER_OWNER</th>
+<th>TRIGGERING_EVENT</th>
+<th>STATUS</th>
+<th>TABLE_NAME</th>
+</tr>
+</table>
+<br/>
+<hr/>
+<br/><div id="ChildTabs.4">
+<div class="currentchildtab" onclick="onSelectChildTab(this, 0)">
+<div>
+<p></p>
+</div>
+</div>
+</div>
+<br/>
+<div id="ChildReports.4">
+</div>
+</div>
+</div>
+<div id="Master.5">
+<div class="masterreport">
+<table id="Table.7" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>OWNER</th>
+<th>NAME</th>
+<th>TYPE</th>
+<th>REFERENCED_OWNER</th>
+<th>REFERENCED_NAME</th>
+<th>REFERENCED_TYPE</th>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 7, 0)" class="currentrow">
+<td class="currentcell">SAJET</td>
+<td class="currentcell">V_BIN</td>
+<td class="currentcell">VIEW</td>
+<td class="currentcell">SAJET</td>
+<td class="currentcell">SYS_BIN</td>
+<td class="currentcell">TABLE</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 7, 1)">
+<td>SAJET</td>
+<td>FVBINDEFSPEC</td>
+<td>VIEW</td>
+<td>SAJET</td>
+<td>SYS_BIN</td>
+<td>TABLE</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 7, 2)">
+<td>SAJET</td>
+<td>V_BIN_DEF</td>
+<td>VIEW</td>
+<td>SAJET</td>
+<td>SYS_BIN</td>
+<td>TABLE</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 7, 3)">
+<td>SAJET</td>
+<td>V_BINSUM</td>
+<td>VIEW</td>
+<td>SAJET</td>
+<td>SYS_BIN</td>
+<td>TABLE</td>
+</tr>
+</table>
+<br/>
+<hr/>
+<br/><div id="ChildTabs.5">
+<div class="currentchildtab" onclick="onSelectChildTab(this, 0)">
+<div>
+<p>參照</p>
+</div>
+</div>
+</div>
+<br/>
+<div id="ChildReports.5">
+<div id="Child.0.0.5">
+<div class="currentchildreport"><table id="Table.8" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>OWNER</th>
+<th>NAME</th>
+<th>TYPE</th>
+<th>REFERENCED_OWNER</th>
+<th>REFERENCED_NAME</th>
+<th>REFERENCED_TYPE</th>
+</tr>
+</table>
+</div>
+</div>
+<div id="Child.0.1.5">
+<div class="childreport"><table id="Table.9" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>OWNER</th>
+<th>NAME</th>
+<th>TYPE</th>
+<th>REFERENCED_OWNER</th>
+<th>REFERENCED_NAME</th>
+<th>REFERENCED_TYPE</th>
+</tr>
+</table>
+</div>
+</div>
+<div id="Child.0.2.5">
+<div class="childreport"><table id="Table.10" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>OWNER</th>
+<th>NAME</th>
+<th>TYPE</th>
+<th>REFERENCED_OWNER</th>
+<th>REFERENCED_NAME</th>
+<th>REFERENCED_TYPE</th>
+</tr>
+</table>
+</div>
+</div>
+<div id="Child.0.3.5">
+<div class="childreport"><table id="Table.11" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>OWNER</th>
+<th>NAME</th>
+<th>TYPE</th>
+<th>REFERENCED_OWNER</th>
+<th>REFERENCED_NAME</th>
+<th>REFERENCED_TYPE</th>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="Master.6">
+<div class="masterreport">
+<table id="Table.12" cellpadding="0" cellspacing="0" summary="">
+<th>NAME</th>
+<th>VALUE</th>
+</tr>
+<tr>
+<td>CREATED</td>
+<td>11-11月-21</td>
+</tr>
+<tr>
+<td>LAST_DDL_TIME</td>
+<td>11-11月-21</td>
+</tr>
+<tr>
+<td>OWNER</td>
+<td>SAJET</td>
+</tr>
+<tr>
+<td>TABLE_NAME</td>
+<td>SYS_BIN</td>
+</tr>
+<tr>
+<td>TABLESPACE_NAME</td>
+<td>SYSSN</td>
+</tr>
+<tr>
+<td>CLUSTER_NAME</td>
+<td>null</td>
+</tr>
+<tr>
+<td>IOT_NAME</td>
+<td>null</td>
+</tr>
+<tr>
+<td>STATUS</td>
+<td>VALID</td>
+</tr>
+<tr>
+<td>PCT_FREE</td>
+<td>10</td>
+</tr>
+<tr>
+<td>PCT_USED</td>
+<td>null</td>
+</tr>
+<tr>
+<td>INI_TRANS</td>
+<td>1</td>
+</tr>
+<tr>
+<td>MAX_TRANS</td>
+<td>255</td>
+</tr>
+<tr>
+<td>INITIAL_EXTENT</td>
+<td>14680064</td>
+</tr>
+<tr>
+<td>NEXT_EXTENT</td>
+<td>1048576</td>
+</tr>
+<tr>
+<td>MIN_EXTENTS</td>
+<td>1</td>
+</tr>
+<tr>
+<td>MAX_EXTENTS</td>
+<td>2147483645</td>
+</tr>
+<tr>
+<td>PCT_INCREASE</td>
+<td>null</td>
+</tr>
+<tr>
+<td>FREELISTS</td>
+<td>null</td>
+</tr>
+<tr>
+<td>FREELIST_GROUPS</td>
+<td>null</td>
+</tr>
+<tr>
+<td>LOGGING</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>BACKED_UP</td>
+<td>N</td>
+</tr>
+<tr>
+<td>NUM_ROWS</td>
+<td>18101</td>
+</tr>
+<tr>
+<td>BLOCKS</td>
+<td>1762</td>
+</tr>
+<tr>
+<td>EMPTY_BLOCKS</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AVG_SPACE</td>
+<td>0</td>
+</tr>
+<tr>
+<td>CHAIN_CNT</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AVG_ROW_LEN</td>
+<td>641</td>
+</tr>
+<tr>
+<td>AVG_SPACE_FREELIST_BLOCKS</td>
+<td>0</td>
+</tr>
+<tr>
+<td>NUM_FREELIST_BLOCKS</td>
+<td>0</td>
+</tr>
+<tr>
+<td>DEGREE</td>
+<td>1</td>
+</tr>
+<tr>
+<td>INSTANCES</td>
+<td>1</td>
+</tr>
+<tr>
+<td>CACHE</td>
+<td>N</td>
+</tr>
+<tr>
+<td>TABLE_LOCK</td>
+<td>ENABLED</td>
+</tr>
+<tr>
+<td>SAMPLE_SIZE</td>
+<td>18101</td>
+</tr>
+<tr>
+<td>LAST_ANALYZED</td>
+<td>06-10月-21</td>
+</tr>
+<tr>
+<td>PARTITIONED</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>IOT_TYPE</td>
+<td>null</td>
+</tr>
+<tr>
+<td>OBJECT_ID_TYPE</td>
+<td>null</td>
+</tr>
+<tr>
+<td>TABLE_TYPE_OWNER</td>
+<td>null</td>
+</tr>
+<tr>
+<td>TABLE_TYPE</td>
+<td>null</td>
+</tr>
+<tr>
+<td>TEMPORARY</td>
+<td>N</td>
+</tr>
+<tr>
+<td>SECONDARY</td>
+<td>N</td>
+</tr>
+<tr>
+<td>NESTED</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>BUFFER_POOL</td>
+<td>DEFAULT</td>
+</tr>
+<tr>
+<td>ROW_MOVEMENT</td>
+<td>DISABLED</td>
+</tr>
+<tr>
+<td>GLOBAL_STATS</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>USER_STATS</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>DURATION</td>
+<td>null</td>
+</tr>
+<tr>
+<td>SKIP_CORRUPT</td>
+<td>DISABLED</td>
+</tr>
+<tr>
+<td>MONITORING</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>CLUSTER_OWNER</td>
+<td>null</td>
+</tr>
+<tr>
+<td>DEPENDENCIES</td>
+<td>DISABLED</td>
+</tr>
+<tr>
+<td>COMPRESSION</td>
+<td>DISABLED</td>
+</tr>
+<tr>
+<td>COMPRESS_FOR</td>
+<td>null</td>
+</tr>
+<tr>
+<td>DROPPED</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>COMMENTS</td>
+<td>null</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="Master.7">
+<div class="masterreport">
+<table id="Table.13" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>PARTITION_NAME</th>
+<th>LAST_ANALYZED</th>
+<th>NUM_ROWS</th>
+<th>BLOCKS</th>
+<th>SAMPLE_SIZE</th>
+<th>HIGH_VALUE</th>
+</tr>
+</table>
+<br/>
+<hr/>
+<br/><div id="ChildTabs.7">
+<div class="currentchildtab" onclick="onSelectChildTab(this, 0)">
+<div>
+<p></p>
+</div>
+</div>
+</div>
+<br/>
+<div id="ChildReports.7">
+</div>
+</div>
+</div>
+<div id="Master.8">
+<div class="masterreport">
+<table id="Table.14" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>INDEX_OWNER</th>
+<th>INDEX_NAME</th>
+<th>UNIQUENESS</th>
+<th>STATUS</th>
+<th>INDEX_TYPE</th>
+<th>TEMPORARY</th>
+<th>PARTITIONED</th>
+<th>FUNCIDX_STATUS</th>
+<th>JOIN_INDEX</th>
+<th>COLUMNS</th>
+<th>COLUMN_EXPRESSION</th>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 14, 0)" class="currentrow">
+<td class="currentcell">SAJET</td>
+<td class="currentcell">SYS_BIN_PK</td>
+<td class="currentcell">UNIQUE</td>
+<td class="currentcell">VALID</td>
+<td class="currentcell">NORMAL</td>
+<td class="currentcell">N</td>
+<td class="currentcell">NO</td>
+<td class="currentcell">null</td>
+<td class="currentcell">NO</td>
+<td class="currentcell">BIN_ID,&nbsp;OFFSET</td>
+<td class="currentcell">null</td>
+</tr>
+<tr onclick="table_onSelectMasterRow(this, 14, 1)">
+<td>SAJET</td>
+<td>IDX_SYS_BIN_1</td>
+<td>UNIQUE</td>
+<td>VALID</td>
+<td>NORMAL</td>
+<td>N</td>
+<td>NO</td>
+<td>null</td>
+<td>NO</td>
+<td>BIN_NAME,&nbsp;OFFSET</td>
+<td>null</td>
+</tr>
+</table>
+<br/>
+<hr/>
+<br/><div id="ChildTabs.8">
+<div class="currentchildtab" onclick="onSelectChildTab(this, 0)">
+<div>
+<p></p>
+</div>
+</div>
+</div>
+<br/>
+<div id="ChildReports.8">
+<div id="Child.0.0.8">
+<div class="currentchildreport"><table id="Table.15" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>INDEX_OWNER</th>
+<th>INDEX_NAME</th>
+<th>TABLE_OWNER</th>
+<th>TABLE_NAME</th>
+<th>COLUMN_NAME</th>
+<th>COLUMN_POSITION</th>
+<th>COLUMN_LENGTH</th>
+<th>CHAR_LENGTH</th>
+<th>DESCEND</th>
+</tr>
+<tr onclick="table_onSelectRow(this, 15)" class="currentrow">
+<td class="currentcell">SAJET</td>
+<td class="currentcell">SYS_BIN_PK</td>
+<td class="currentcell">SAJET</td>
+<td class="currentcell">SYS_BIN</td>
+<td class="currentcell">BIN_ID</td>
+<td class="currentcell">1</td>
+<td class="currentcell">22</td>
+<td class="currentcell">0</td>
+<td class="currentcell">ASC</td>
+</tr>
+<tr onclick="table_onSelectRow(this, 15)">
+<td>SAJET</td>
+<td>SYS_BIN_PK</td>
+<td>SAJET</td>
+<td>SYS_BIN</td>
+<td>OFFSET</td>
+<td>2</td>
+<td>22</td>
+<td>0</td>
+<td>ASC</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="Child.0.1.8">
+<div class="childreport"><table id="Table.16" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>INDEX_OWNER</th>
+<th>INDEX_NAME</th>
+<th>TABLE_OWNER</th>
+<th>TABLE_NAME</th>
+<th>COLUMN_NAME</th>
+<th>COLUMN_POSITION</th>
+<th>COLUMN_LENGTH</th>
+<th>CHAR_LENGTH</th>
+<th>DESCEND</th>
+</tr>
+<tr onclick="table_onSelectRow(this, 16)" class="currentrow">
+<td class="currentcell">SAJET</td>
+<td class="currentcell">IDX_SYS_BIN_1</td>
+<td class="currentcell">SAJET</td>
+<td class="currentcell">SYS_BIN</td>
+<td class="currentcell">BIN_NAME</td>
+<td class="currentcell">1</td>
+<td class="currentcell">50</td>
+<td class="currentcell">50</td>
+<td class="currentcell">ASC</td>
+</tr>
+<tr onclick="table_onSelectRow(this, 16)">
+<td>SAJET</td>
+<td>IDX_SYS_BIN_1</td>
+<td>SAJET</td>
+<td>SYS_BIN</td>
+<td>OFFSET</td>
+<td>2</td>
+<td>22</td>
+<td>0</td>
+<td>ASC</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
