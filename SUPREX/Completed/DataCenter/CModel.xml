@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+  <English>
+    <Message Name="Model Name" Value="Model Name"/>
+    <Message Name="Model Type" Value="Model Type"/>
+    <Message Name="Description" Value="Description"/>
+    <Message Name="Description2" Value="Description2"/>
+    <Message Name="Default Route" Value="Default Route"/>
+    <Message Name="Rule Set" Value="Rule Set"/>
+    <Message Name="Sampling Plan" Value="Sampling Plan"/>
+    <Message Name="Burnin Time" Value="Burnin Time"/>
+    <Message Name="Customer" Value="Customer"/>
+    <Message Name="Packing Spec" Value="Packing Spec"/>
+    <Message Name="Pallet Qty" Value="Pallet Qty"/>
+    <Message Name="Carton Qty" Value="Carton Qty"/>
+    <Message Name="Box Qty" Value="Box Qty"/>
+    <Message Name="(Minus.)" Value="(Minus.)"/>
+    <Message Name="Model - Part Link" Value="Model - Part Link"/>
+    <Message Name="PART_NO" Value="Part No"/>
+    <Message Name="PART_TYPE" Value="Part Type"/>
+    <Message Name="SPEC1" Value="Spec1"/>
+    <Message Name="SPEC2" Value="Spec2"/>
+    <Message Name="Part No" Value="Part No"/>
+    <Message Name="Select All" Value="Select All"/>
+    <Message Name="Select None" Value="Select None"/>
+    <Message Name="Filter : Part" Value="Filter : Part"/>
+    <Message Name="PKSPEC_NAME" Value="Packing Spec"/>
+    <Message Name="PALLET_QTY" Value="Pallet Qty"/>
+    <Message Name="CARTON_QTY" Value="Carton Qty"/>
+    <Message Name="BOX_QTY" Value="Box Qty"/>
+    <Message Name="Value must be integer" Value="Value must be integer"/>
+    <Message Name="Customer Error" Value="Customer Error"/>
+    <Message Name="Packing Spec Duplicate" Value="Packing Spec Duplicate"/>
+    <Message Name="CUSTOMER_CODE" Value="Customer Code"/>
+    <Message Name="CUSTOMER_NAME" Value="Customer Name"/>
+		<Message Name="PROCESS_CODE" Value="Process Code"/>
+		<Message Name="PROCESS_NAME" Value="Process Name"/>
+  </English>
+  <繁體中文>
+    <Message Name="Model Name" Value="機種名稱"/>
+    <Message Name="Model Type" Value="機種類型"/>
+    <Message Name="Description" Value="機種描述"/>
+    <Message Name="Description2" Value="機種描述(2)"/>
+    <Message Name="Default Route" Value="預設途程"/>
+    <Message Name="Rule Set" Value="規則集合"/>
+    <Message Name="Sampling Plan" Value="抽驗計畫"/>
+    <Message Name="Burnin Time" Value="燒機時間"/>
+    <Message Name="Customer" Value="客戶"/>
+    <Message Name="Packing Spec" Value="包裝方式"/>
+    <Message Name="Pallet Qty" Value="棧板數"/>
+    <Message Name="Carton Qty" Value="箱數"/>
+    <Message Name="Box Qty" Value="彩盒數"/>
+    <Message Name="(Minus.)" Value="(分)"/>
+    <Message Name="Model - Part Link" Value="機種-料號關係"/>
+		<Message Name="Model - Process Link" Value="機種-製程關係"/>
+		<Message Name="PART_NO" Value="料號"/>
+    <Message Name="PART_TYPE" Value="料號類型"/>
+    <Message Name="SPEC1" Value="料號規格1"/>
+    <Message Name="SPEC2" Value="料號規格2"/>
+    <Message Name="Part No" Value="料號"/>
+    <Message Name="Spec1" Value="料號規格1"/>
+    <Message Name="Spec2" Value="料號規格2"/>
+    <Message Name="Select All" Value="全選"/>
+    <Message Name="Select None" Value="取消全選"/>
+		<Message Name="Filter : Part" Value="過濾:料號"/>
+		<Message Name="Filter : Process" Value="過濾:製程"/>
+		<Message Name="PKSPEC_NAME" Value="包裝方式"/>
+    <Message Name="PALLET_QTY" Value="棧板數"/>
+    <Message Name="CARTON_QTY" Value="箱數"/>
+    <Message Name="BOX_QTY" Value="彩盒數"/>
+    <Message Name="Value must be integer" Value="值必須為數字"/>
+    <Message Name="Customer Error" Value="客戶錯誤"/>
+    <Message Name="Packing Spec Duplicate" Value="包裝方式重複"/>
+    <Message Name="Model Code" Value="機種代碼"/>
+		<Message Name="CUSTOMER_CODE" Value="客戶代碼"/>
+		<Message Name="CUSTOMER_NAME" Value="客戶名稱"/>
+		<Message Name="PROCESS_CODE" Value="製程代碼"/>
+		<Message Name="PROCESS_NAME" Value="製程名稱"/>
+		<Message Name="Process Code" Value="製程代碼"/>
+		<Message Name="Process Name" Value="製程名稱"/>
+		<Message Name="Operation SEQ" Value="工序"/>
+		<Message Name="Operation SEQ is null" Value="工作站工序為空"/>
+		<Message Name="Pls select process" Value="請選擇製程"/>
+		<Message Name="Set Process" Value="設置工序"/>
+		<Message Name="Pls select default route" Value="請設置預設途程"/>
+		<Message Name="Operation SEQ is set" Value="工序序號已設定"/>
+
+	</繁體中文>
+  <简体中文>
+    <Message Name="Model Name" Value="机种名称"/>
+    <Message Name="Model Type" Value="机种类型"/>
+    <Message Name="Description" Value="机种描述"/>
+    <Message Name="Description2" Value="机种描述(2)"/>
+    <Message Name="Default Route" Value="预设途程"/>
+    <Message Name="Rule Set" Value="规则集合"/>
+    <Message Name="Sampling Plan" Value="抽验计画"/>
+    <Message Name="Burnin Time" Value="烧机时间"/>
+    <Message Name="Customer" Value="客户"/>
+    <Message Name="Packing Spec" Value="包装方式"/>
+    <Message Name="Pallet Qty" Value="栈板数"/>
+    <Message Name="Carton Qty" Value="箱数"/>
+    <Message Name="Box Qty" Value="彩盒数"/>
+    <Message Name="(Minus.)" Value="(分)"/>
+		<Message Name="Model - Part Link" Value="机种-料号关系"/>
+		<Message Name="Model - Process Link" Value="机种-制程关系"/>
+		<Message Name="PART_NO" Value="料号"/>
+    <Message Name="PART_TYPE" Value="料号类型"/>
+    <Message Name="SPEC1" Value="料号规格1"/>
+    <Message Name="SPEC2" Value="料号规格2"/>
+    <Message Name="Part No" Value="料号"/>
+    <Message Name="Spec1" Value="料号规格1"/>
+    <Message Name="Spec2" Value="料号规格2"/>
+    <Message Name="Select All" Value="全选"/>
+    <Message Name="Select None" Value="取消全选"/>
+    <Message Name="Filter : Part" Value="过滤:料号"/>
+		<Message Name="Filter : Process" Value="過濾:制程"/>
+		<Message Name="PKSPEC_NAME" Value="包装方式"/>
+    <Message Name="PALLET_QTY" Value="栈板数"/>
+    <Message Name="CARTON_QTY" Value="箱数"/>
+    <Message Name="BOX_QTY" Value="彩盒数"/>
+    <Message Name="Value must be integer" Value="值必须为数字"/>
+    <Message Name="Customer Error" Value="客户错误"/>
+    <Message Name="Packing Spec Duplicate" Value="包装方式重复"/>
+    <Message Name="Model Code" Value="机种代码"/>
+    <Message Name="CUSTOMER_CODE" Value="客户代码"/>
+    <Message Name="CUSTOMER_NAME" Value="客户名称"/>
+		<Message Name="PROCESS_CODE" Value="制程代码"/>
+		<Message Name="PROCESS_NAME" Value="制程名称"/>
+		<Message Name="Process Code" Value="制程代码"/>
+		<Message Name="Process Name" Value="制程名称"/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="Model Name" Value="Tên model"/><Message Name="Model Type" Value="Loại model"/><Message Name="Description" Value="Mô tả"/><Message Name="Description2" Value="Mô tả (2)"/><Message Name="Default Route" Value="Lộ trình mặc định"/><Message Name="Rule Set" Value="Bộ quy tắc"/><Message Name="Sampling Plan" Value="Kế hoạch lấy mẫu"/><Message Name="Burnin Time" Value="Thời gian burn-in"/><Message Name="Customer" Value="Khách hàng"/><Message Name="Packing Spec" Value="Quy cách đóng gói"/><Message Name="Pallet Qty" Value="Số lượng pallet"/><Message Name="Carton Qty" Value="Số lượng thùng"/><Message Name="Box Qty" Value="Số lượng hộp"/><Message Name="(Minus.)" Value="(Trừ)"/><Message Name="Model - Part Link" Value="Liên kết Model - Part"/><Message Name="PART_NO" Value="Mã linh kiện"/><Message Name="PART_TYPE" Value="Loại linh kiện"/><Message Name="SPEC1" Value="Thông số 1"/><Message Name="SPEC2" Value="Thông số 2"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="Select All" Value="Chọn tất cả"/><Message Name="Select None" Value="Bỏ chọn tất cả"/><Message Name="Filter : Part" Value="Lọc: Linh kiện"/><Message Name="Filter : Process" Value="Lọc: Công đoạn"/><Message Name="PKSPEC_NAME" Value="Quy cách đóng gói"/><Message Name="PALLET_QTY" Value="Số lượng pallet"/><Message Name="CARTON_QTY" Value="Số lượng thùng"/><Message Name="BOX_QTY" Value="Số lượng hộp"/><Message Name="Value must be integer" Value="Giá trị phải là số nguyên"/><Message Name="Customer Error" Value="Lỗi khách hàng"/><Message Name="Packing Spec Duplicate" Value="Quy cách đóng gói bị trùng"/><Message Name="Model Code" Value="Mã model"/><Message Name="CUSTOMER_CODE" Value="Mã khách hàng"/><Message Name="CUSTOMER_NAME" Value="Tên khách hàng"/><Message Name="PROCESS_CODE" Value="Mã công đoạn"/><Message Name="PROCESS_NAME" Value="Tên công đoạn"/><Message Name="Process Code" Value="Mã công đoạn"/><Message Name="Process Name" Value="Tên công đoạn"/><Message Name="Operation SEQ" Value="Thứ tự công đoạn"/><Message Name="Operation SEQ is null" Value="Thứ tự công đoạn trống"/><Message Name="Pls select process" Value="Vui lòng chọn công đoạn"/><Message Name="Set Process" Value="Thiết lập công đoạn"/><Message Name="Pls select default route" Value="Vui lòng chọn lộ trình mặc định"/><Message Name="Operation SEQ is set" Value="Thứ tự công đoạn đã được thiết lập"/></Ngôn_ngữ_Việt></Chroma>

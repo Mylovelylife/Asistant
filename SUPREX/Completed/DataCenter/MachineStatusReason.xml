@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <English>
+    <Message Name="Status Name" Value="Status Name" />
+    <Message Name="Status Description" Value="Status Description" />
+    <Message Name="Reason Code" Value="Reason Code" />
+    <Message Name="Description" Value="Description" />
+    <Message Name="Export completed" Value="Export completed" />
+  </English>
+  <繁體中文>
+    <Message Name="Status Name" Value="狀態名稱" />
+    <Message Name="Status Description" Value="狀態描述" />
+    <Message Name="Reason Code" Value="原因代碼" />
+    <Message Name="Description" Value="原因描述" />
+    <Message Name="Export completed" Value="匯出完成" />
+	<Message Name="Integer and english characters only" Value="限制輸入英數字" />
+  </繁體中文>
+  <简体中文>			
+    <Message Name="Status Name" Value="状态名称" />
+    <Message Name="Status Description" Value="状态描述" />
+    <Message Name="Reason Code" Value="原因代码" />			
+    <Message Name="Description" Value="原因描述" />
+    <Message Name="Export completed" Value="汇出完成" />
+	<Message Name="Integer and english characters only" Value="限制输入英数字" />
+  </简体中文>			
+
+<Ngôn_ngữ_Việt><Message Name="Status Name" Value="Tên Trạng Thái" /><Message Name="Status Description" Value="Mô Tả Trạng Thái" /><Message Name="Reason Code" Value="Mã Lý Do" /><Message Name="Description" Value="Mô Tả Lý Do" /><Message Name="Export completed" Value="Xuất Dữ Liệu Hoàn Tất" /><Message Name="Integer and english characters only" Value="Chỉ Được Nhập Chữ Và Số (English + Số)" /></Ngôn_ngữ_Việt></Chroma>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <English>
+    <Message Name="Append" Value="Append"/>
+    <Message Name="Modify" Value="Modify"/>
+    <Message Name="Disabled" Value="Disabled"/>
+    <Message Name="Enabled" Value="Enabled"/>
+    <Message Name="Delete" Value="Delete"/>
+    <Message Name="Export" Value="Export"/>
+    <Message Name="Filter" Value="Filter"/>
+    <Message Name="Repair Code" Value="Repair Code"/>
+    <Message Name="Repair Type" Value="Repair Type"/>
+    <Message Name="Description" Value="Description"/>
+    <Message Name="Description2" Value="Description 2"/>
+    <Message Name="OK" Value="OK"/>
+    <Message Name="Cancel" Value="Cancel"/>
+
+    <Message Name="History" Value="History Log"/>
+    <Message Name="History Log" Value="History Log"/>
+    <Message Name="ENABLED" Value="Enabled"/>
+    <Message Name="EMP_NAME" Value="Emp Name"/>
+    <Message Name="UPDATE_TIME" Value="Update Time"/>
+
+    <Message Name="Confirm" Value="Confirm"/>
+    <Message Name="Data is null" Value="Data is null"/>
+    <Message Name="Data Duplicate" Value="Data Duplicate"/>
+  </English>
+  <繁體中文>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Disabled" Value="停用"/>
+    <Message Name="Enabled" Value="啟用"/>
+    <Message Name="Delete" Value="刪除"/>
+    <Message Name="Export" Value="匯出"/>
+    <Message Name="Filter" Value="條件"/>
+    <Message Name="Repair Code" Value="維修代碼"/>
+    <Message Name="Repair Type" Value="維修類型"/>
+    <Message Name="Description" Value="描述"/>
+    <Message Name="Description2" Value="描述二"/>
+    <Message Name="OK" Value="確定"/>
+    <Message Name="Cancel" Value="取消"/>
+
+    <Message Name="History" Value="歷史記錄"/>
+    <Message Name="History Log" Value="歷史記錄"/>
+    <Message Name="ENABLED" Value="啟用"/>
+    <Message Name="EMP_NAME" Value="操作人員"/>
+    <Message Name="UPDATE_TIME" Value="異動時間"/>
+
+    <Message Name="Confirm" Value="確認"/>
+    <Message Name="Data is null" Value="資料不可為空"/>
+    <Message Name="Data Duplicate" Value="資料重複"/>
+  </繁體中文>
+<Ngôn_ngữ_Việt><Message Name="Append" Value="Thêm mới"/><Message Name="Modify" Value="Chỉnh sửa"/><Message Name="Disabled" Value="Tắt"/><Message Name="Enabled" Value="Bật"/><Message Name="Delete" Value="Xóa"/><Message Name="Export" Value="Xuất dữ liệu"/><Message Name="Filter" Value="Điều kiện lọc"/><Message Name="Repair Code" Value="Mã sửa chữa"/><Message Name="Repair Type" Value="Loại sửa chữa"/><Message Name="Description" Value="Mô tả"/><Message Name="Description2" Value="Mô tả 2"/><Message Name="OK" Value="Đồng ý"/><Message Name="Cancel" Value="Hủy"/><Message Name="History" Value="Lịch sử"/><Message Name="History Log" Value="Nhật ký lịch sử"/><Message Name="ENABLED" Value="Bật"/><Message Name="EMP_NAME" Value="Người thao tác"/><Message Name="UPDATE_TIME" Value="Thời gian cập nhật"/><Message Name="Confirm" Value="Xác nhận"/><Message Name="Data is null" Value="Dữ liệu không được để trống"/><Message Name="Data Duplicate" Value="Dữ liệu trùng lặp"/></Ngôn_ngữ_Việt></Chroma>

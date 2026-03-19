@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<繁體中文>
+		<Message Name="Defect Type Code" Value="不良類型代碼" />
+		<Message Name="Defect Type Desc" Value="不良類型描述" />
+		<Message Name="Emp No" Value="責任人編號" />
+		<Message Name="Emp Name" Value="責任人" />
+		<Message Name="Data No Exist" Value="數據不存在" />
+		<Message Name="Data Modify OK" Value="數據修改成功" />
+		<Message Name="Data ALTER OK" Value="數據修改成功" />
+		<Message Name="Data Is Null" Value="數據為空" />
+		<Message Name="OK" Value="確定" />
+		<Message Name="CANCEL" Value="取消" />
+		<Message Name="EMP_NO" Value="人員編號" />
+		<Message Name="EMP_NAME" Value="更新人員" />
+		<Message Name="Must choose a Defect type." Value="請選擇不良類型" />
+		<Message Name="Existing reference cannot be deleted." Value="存在參考資料不可刪除" />
+
+	</繁體中文>
+	<简体中文>
+		<Message Name="Defect Type Code" Value="不良类型代码" />
+		<Message Name="Defect Type Desc" Value="不良类型描述" />
+		<Message Name="Emp No" Value="责任人编号" />
+		<Message Name="Emp Name" Value="责任人" />
+		<Message Name="Data No Exist" Value="数据不存在" />
+		<Message Name="Data Modify OK" Value="数据修改成功" />
+		<Message Name="Data ALTER OK" Value="数据修改成功" />
+		<Message Name="Data Is Null" Value="数据为空" />
+		<Message Name="OK" Value="确定" />
+		<Message Name="CANCEL" Value="取消" />
+		<Message Name="EMP_NO" Value="人员编号" />
+		<Message Name="EMP_NAME" Value="更新人员" />
+		<Message Name="Must choose a Defect type." Value="請選擇不良類型" />
+		<Message Name="Existing reference cannot be deleted." Value="存在参考数据不可删除" />
+
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Defect Type Code" Value="Mã Loại Lỗi" /><Message Name="Defect Type Desc" Value="Mô Tả Loại Lỗi" /><Message Name="Emp No" Value="Mã Người Phụ Trách" /><Message Name="Emp Name" Value="Người Phụ Trách" /><Message Name="Data No Exist" Value="Dữ Liệu Không Tồn Tại" /><Message Name="Data Modify OK" Value="Cập Nhật Dữ Liệu Thành Công" /><Message Name="Data ALTER OK" Value="Cập Nhật Dữ Liệu Thành Công" /><Message Name="Data Is Null" Value="Dữ Liệu Trống" /><Message Name="OK" Value="Xác Nhận" /><Message Name="CANCEL" Value="Hủy" /><Message Name="EMP_NO" Value="Mã Nhân Viên" /><Message Name="EMP_NAME" Value="Người Cập Nhật" /><Message Name="Must choose a Defect type." Value="Vui Lòng Chọn Loại Lỗi" /><Message Name="Existing reference cannot be deleted." Value="Không Thể Xóa Vì Đang Được Tham Chiếu" /></Ngôn_ngữ_Việt></Chroma>

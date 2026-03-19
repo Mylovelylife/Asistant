@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+		<Message Name="FEEDER_TYPE" Value="Feeder Type"/>
+	</English>
+	<繁體中文>
+		<Message Name="Max Maintain Count" Value="最大保養次數"/>
+		<Message Name="Max Days" Value="最大使用天數"/>
+		<Message Name="Warning Days" Value="警告天數"/>
+		<Message Name="Warning Count" Value="警告次數"/>
+		<Message Name="Max Count" Value="最大使用次數"/>
+		<Message Name="Feeder Type" Value="料架類型"/>
+		<Message Name="Type Description" Value="類型描述"/>
+		<Message Name="Group" Value="群組"/>
+		<Message Name="Description" Value="料架描述"/>
+		<Message Name="Feeder No" Value="料架編號"/>
+		<Message Name="Feeder No also delete" Value="料架編號會同時被刪除"/>
+		<Message Name="Sure to Delete" Value="是否確定刪除"/>
+		<Message Name="Used Count" Value="已使用次數"/>
+		<Message Name="FEEDER_TYPE" Value="料架類型"/>
+		<Message Name="Feeder Type Group" Value="群組"/>
+		<Message Name="Type Group" Value="群組"/>
+		<Message Name="Maintenance" Value="保養"/>
+		<Message Name="Maintenance Log" Value="保養記錄"/>
+		<Message Name="USED_COUNT" Value="已使用次數"/>
+		<Message Name="FEEDER_NO" Value="料架編號"/>
+		<Message Name="MEMO" Value="備註"/>
+		<Message Name="Memo" Value="備註"/>
+		<Message Name="" Value=""/>
+		<Message Name="" Value=""/>
+		<Message Name="" Value=""/>
+
+	</繁體中文>
+	<简体中文>
+		<Message Name="Max Maintain Count" Value="最大保养次数"/>
+		<Message Name="Max Days" Value="最大使用天数"/>
+		<Message Name="Warning Days" Value="警告天数"/>
+		<Message Name="Warning Count" Value="警告次数"/>
+		<Message Name="Max Count" Value="最大使用次数"/>
+		<Message Name="Feeder Type" Value="料架类型"/>
+		<Message Name="Type Description" Value="类型描述"/>
+		<Message Name="Group" Value="群组"/>
+		<Message Name="Description" Value="料架描述"/>
+		<Message Name="Feeder No" Value="料架编号"/>
+		<Message Name="Feeder No also delete" Value="料架编号会同时被删除"/>
+		<Message Name="Sure to Delete" Value="是否确定删除"/>
+		<Message Name="Used Count" Value="已使用次数"/>
+		<Message Name="FEEDER_TYPE" Value="料架类型"/>
+		<Message Name="Feeder Type Group" Value="群组"/>
+		<Message Name="Type Group" Value="群组"/>
+	</简体中文>
+
+<Ngôn_ngữ_Việt><Message Name="Max Maintain Count" Value="Số lần bảo trì tối đa"/><Message Name="Max Days" Value="Số ngày sử dụng tối đa"/><Message Name="Warning Days" Value="Số ngày cảnh báo"/><Message Name="Warning Count" Value="Số lần cảnh báo"/><Message Name="Max Count" Value="Số lần sử dụng tối đa"/><Message Name="Feeder Type" Value="Loại giá cấp liệu"/><Message Name="Type Description" Value="Mô tả loại"/><Message Name="Group" Value="Nhóm"/><Message Name="Description" Value="Mô tả giá cấp liệu"/><Message Name="Feeder No" Value="Mã giá cấp liệu"/><Message Name="Feeder No also delete" Value="Mã giá cấp liệu sẽ bị xóa đồng thời"/><Message Name="Sure to Delete" Value="Bạn có chắc muốn xóa không?"/><Message Name="Used Count" Value="Số lần đã sử dụng"/><Message Name="FEEDER_TYPE" Value="Loại giá cấp liệu"/><Message Name="Feeder Type Group" Value="Nhóm"/><Message Name="Type Group" Value="Nhóm"/><Message Name="Maintenance" Value="Bảo trì"/><Message Name="Maintenance Log" Value="Lịch sử bảo trì"/><Message Name="USED_COUNT" Value="Số lần đã sử dụng"/><Message Name="FEEDER_NO" Value="Mã giá cấp liệu"/><Message Name="MEMO" Value="Ghi chú"/><Message Name="Memo" Value="Ghi chú"/><Message Name="" Value=""/><Message Name="" Value=""/><Message Name="" Value=""/></Ngôn_ngữ_Việt></Chroma>

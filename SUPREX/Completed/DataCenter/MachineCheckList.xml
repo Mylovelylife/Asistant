@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <English>
+
+  </English>
+  <繁體中文>
+    <Message Name="MACHINE_TYPE_ID" Value="設備類型ID" />
+    <Message Name="MACHINE_TYPE_NAME" Value="機台類型名稱" />
+    <Message Name="PROCESS_ID" Value="製程編號" />
+    <Message Name="PROCESS_CODE" Value="製程式號" />
+    <Message Name="PROCESS_NAME" Value="製程名稱" />
+    <Message Name="CHECK_LIST_NAME" Value="點檢表名稱" />
+    <Message Name="FREQUENCY" Value="頻率" />
+    <Message Name="PHASE" Value="投入/產出" />
+    <Message Name="UPDATE_USERID" Value="資料異動人員" />
+    <Message Name="UPDATE_TIME" Value="資料異動時間" />
+    <Message Name="ENABLED" Value="資料是否有效" />
+    <Message Name="Please Input Default Value." Value="請輸入預設資料" />
+    <Message Name="Please Create List item." Value="請新增選項" />
+    <Message Name="Please Input min Value." Value="請輸入下限值" />
+    <Message Name="Please Input Max Value." Value="請輸入上限值" />
+    <Message Name="Please Input Spec Value" Value="請輸入規格值" />
+    <Message Name="Please Input min Value in Number" Value="請輸入下限值為數字" />
+    <Message Name="Please Input Max Value in Number" Value="請輸入上限值為數字" />
+    <Message Name="Please Input Spec Value in Number" Value="請輸入規格值為數字" />
+    <Message Name="Check Data Error." Value="檢查輸入資料錯誤" />
+    <Message Name="Error." Value="錯誤." />
+    <Message Name="OK" Value="確認" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Add" Value="新增" />
+    <Message Name="Add Error." Value="新增錯誤." />
+    <Message Name="Part No" Value="料號" />
+    <Message Name="Version" Value="版本" />
+    <Message Name="ITEM_NAME" Value="項目名稱" />
+    <Message Name="ITEM_PHASE" Value="項目階段" />
+    <Message Name="ITEM_TYPE" Value="項目分類" />
+    <Message Name="ITEM_ID" Value="項目編碼" />
+    <Message Name="Item ID" Value="項目編碼" />
+    <Message Name="ITEM_NAME_DESC" Value="項目描述" />
+    <Message Name="Item Desc" Value="項目描述" />
+    <Message Name="SP_NAME" Value="呼叫程序" />
+    <Message Name="SP_MESSAGE" Value="提示使用者訊息" />
+    <Message Name="SP Name" Value="呼叫程序" />
+    <Message Name="SP Message" Value="提示使用者訊息" />
+    <Message Name="ITEM_SEQ" Value="項目顯示順序" />
+    <Message Name="VALUE_TYPE" Value="數值類型" />
+    <Message Name="INPUT_TYPE" Value="輸入方式" />
+    <Message Name="VALUE_DEFAULT" Value="預設值" />
+    <Message Name="VALUE_LIST" Value="項目清單" />
+    <Message Name="VALUE_LIST_SPEC" Value="規格" />
+    <Message Name="Spec" Value="規格" />
+    <Message Name="NECESSARY" Value="必要輸入欄位" />
+    <Message Name="CONVERT_TYPE" Value="輸入值轉換" />
+    <Message Name="UPDATE_USERID" Value="資料異動人員" />
+    <Message Name="UPDATE_TIME" Value="資料異動時間" />
+    <Message Name="ENABLED" Value="資料是否有效" />
+    <Message Name="Item Seq" Value="項目顯示順序" />
+    <Message Name="Item Name" Value="項目名稱" />
+    <Message Name="Item Phase" Value="項目階段" />
+    <Message Name="Value Type" Value="數值類型" />
+    <Message Name="Input Type" Value="輸入方式" />
+    <Message Name="Default" Value="預設值" />
+    <Message Name="Item List" Value="項目清單" />
+    <Message Name="Convert Type" Value="輸入值轉換" />
+    <Message Name="Range" Value="範圍" />
+    <Message Name="EMP_NO" Value="資料異動人員" />
+    <Message Name="Necessary" Value="必要輸入欄位" />
+    <Message Name="Item Sequence" Value="順序" />
+    <Message Name="Choose" Value="目標料號製程" />
+    <Message Name="Please Input Item Value in Number" Value="請輸入值為數字" />
+    <Message Name="Item" Value="項目" />
+    <Message Name="Key In" Value="輸入" />
+    <Message Name="Select List" Value="選項清單" />
+    <Message Name="PART NO" Value="料號" />
+    <Message Name="Alert Msg" Value="彈出訊息" />
+    <Message Name="Alert" Value="彈出訊息" />
+    <Message Name="Alert Type" Value="訊息類型" />
+    <Message Name="Title" Value="標題" />
+    <Message Name="Content" Value="內容" />
+    <Message Name="ALERT_TYPE" Value="訊息類型" />
+    <Message Name="ITEM_TITLE" Value="訊息標題" />
+    <Message Name="ITEM_CONTENT" Value="訊息內容" />
+    <Message Name="WIP IN" Value="投入" />
+    <Message Name="WIP OUT" Value="產出" />
+    <Message Name="Info" Value="通知" />
+    <Message Name="Warn" Value="警告" />
+    <Message Name="Error" Value="錯誤" />
+    <Message Name="Needed Item Cannot Be Empty" Value="必輸項不能為空" />
+    <Message Name="Item Name Already Exist" Value="名稱或序號已存在" />
+    <Message Name="Item Name Or Seq Already Exist" Value="名稱或序號已存在" />
+    <Message Name="VERSION" Value="版本" />
+    <Message Name="Info" Value="通知" />
+    <Message Name="Please Select a Alert Item." Value="請選擇一個項目" />
+    <Message Name="Info" Value="通知" />
+    <Message Name="Property" Value="屬性" />
+    <Message Name="PROPERTY_NAME" Value="屬性名稱" />
+    <Message Name="PROPERTY_VALUE" Value="屬性值" />
+    <Message Name="PROPERTY_ID" Value="屬性ID" />
+    <Message Name="Value Type Are Not The Same" Value="數值型別不相同" />
+    <Message Name="Property Not Find" Value="料號裡沒有找到這個屬性" />
+    <Message Name="Character" Value="文字" />
+    <Message Name="Number" Value="數字" />
+    <Message Name="Key In" Value="輸入值" />
+    <Message Name="Select List" Value="數值列表" />
+    <Message Name="None" Value="不轉換" />
+    <Message Name="Uppercase" Value="轉大寫" />
+    <Message Name="Lowercase" Value="轉小寫" />
+    <Message Name="UnNecessary" Value="不必要" />
+    <Message Name="necessary" Value="必要" />
+    <Message Name="Everytime" Value="每次" />
+    <Message Name="Every Shift" Value="每班" />
+    <Message Name="Store Procedure" Value="特殊邏輯" />
+    <Message Name="Every Day" Value="每日" />
+    <Message Name="Every WEEK_DAY" Value="每週" />
+    <Message Name="BY_WEEK_DAY" Value="每週對校日" />
+    <Message Name="Sunday" Value="星期日" />
+    <Message Name="Monday" Value="星期一" />
+    <Message Name="Tuesday" Value="星期二" />
+    <Message Name="Wednesday" Value="星期三" />
+    <Message Name="Thursday" Value="星期四" />
+    <Message Name="Friday" Value="星期五" />
+    <Message Name="Saturday" Value="星期六" />
+    <Message Name="DAY_TYPE" Value="班別" />
+    <Message Name="Please Input Item Name." Value="請輸入項目名稱" />
+	  <Message Name="Item Sequence is Duplicate." Value="項目序號重複" />
+  	<Message Name="Please Input Max Value bigger then Min Value" Value="範圍最大值需大於最小值" />
+    <Message Name="Please Input Spec Value Between Max and Min Value" Value="規格需介於最大值與最小值之間" />
+    <Message Name="EMP_NAME" Value="員工名稱" />
+    <Message Name="Delete" Value="刪除" />
+    <Message Name="Spec Not Exist In List Item" Value="規格不在清單內" />
+    <Message Name="{0} Data In List Item Is Empty" Value="第 {0} 筆項目清單為空" />
+    <Message Name="Item Name is duplicate." Value="項目名稱重覆" />
+    <Message Name="Please Input Item Desc" Value="請輸入項目描述" />
+	<Message Name="SPC_ITEM" Value="SPC管制項目" />
+	<Message Name="SPC_ITEM_VALUE" Value="SPC管制項目内容" />
+	<Message Name="PROGRAM_NAME" Value="方案" />
+	<Message Name="S_SPC_ITEM" Value="測試項目" />
+    <Message Name="This store procedure couldn't found" Value="找不到此呼叫程序" />
+    <Message Name="PART_NO" Value="料號" />
+  </繁體中文>
+  <简体中文>
+    <Message Name="MACHINE_TYPE_ID" Value="设备类型ID" />
+    <Message Name="MACHINE_TYPE_NAME" Value="机台类型名称" />
+    <Message Name="PROCESS_ID" Value="制程编号" />
+    <Message Name="PROCESS_CODE" Value="制程代码" />
+    <Message Name="PROCESS_NAME" Value="制程名称" />
+    <Message Name="CHECK_LIST_NAME" Value="點檢表名稱" />
+    <Message Name="FREQUENCY" Value="频率" />
+    <Message Name="PHASE" Value="项目阶段" />
+    <Message Name="UPDATE_USERID" Value="资料异动人员" />
+    <Message Name="UPDATE_TIME" Value="资料异动时间" />
+    <Message Name="ENABLED" Value="资料是否有效" />
+    <Message Name="Please Create List item." Value="请新增选项" />
+    <Message Name="Please Input min Value." Value="请输入下限值" />
+    <Message Name="Please Input Max Value." Value="请输入上限值" />
+    <Message Name="Please Input Spec Value" Value="请输入规格值" />
+    <Message Name="Please Input min Value in Number" Value="请输入下限值为数字" />
+    <Message Name="Please Input Max Value in Number" Value="请输入上限值为数字" />
+    <Message Name="Please Input Spec Value in Number" Value="请输入规格值为数字" />
+    <Message Name="Error." Value="错误." />
+    <Message Name="OK" Value="确认" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Add" Value="新增" />
+    <Message Name="Add Error." Value="新增错误." />
+    <Message Name="Version" Value="版本" />
+    <Message Name="ITEM_NAME" Value="项目名称" />
+    <Message Name="ITEM_PHASE" Value="项目阶段" />
+    <Message Name="ITEM_TYPE" Value="项目分类" />
+    <Message Name="ITEM_SEQ" Value="项目显示顺序" />  
+    <Message Name="ITEM_ID" Value="项目编码" />
+    <Message Name="Item ID" Value="项目编码" />
+    <Message Name="ITEM_NAME_DESC" Value="项目描述" />
+    <Message Name="Item Desc" Value="项目描述" />
+    <Message Name="SP_NAME" Value="呼叫程序" />
+    <Message Name="SP_MESSAGE" Value="提示使用者讯息" />
+    <Message Name="SP Name" Value="呼叫程序" />
+    <Message Name="SP Message" Value="提示使用者讯息" />
+    <Message Name="VALUE_TYPE" Value="数值类型" />
+    <Message Name="INPUT_TYPE" Value="输入方式" />
+    <Message Name="VALUE_DEFAULT" Value="默认值" />
+    <Message Name="VALUE_LIST" Value="项目列表" />
+    <Message Name="VALUE_LIST_SPEC" Value="规格" />
+    <Message Name="Spec" Value="规格" />
+    <Message Name="NECESSARY" Value="必要输入字段" />
+    <Message Name="CONVERT_TYPE" Value="输入值转换" />
+    <Message Name="UPDATE_USERID" Value="资料异动人员" />
+    <Message Name="UPDATE_TIME" Value="数据异动时间" />
+    <Message Name="ENABLED" Value="资料是否有效" />
+    <Message Name="Item Seq" Value="项目显示顺序" />
+    <Message Name="Item Name" Value="项目名称" />
+    <Message Name="Item Phase" Value="项目阶段" />
+    <Message Name="Value Type" Value="数值类型" />
+    <Message Name="Input Type" Value="输入方式" />
+    <Message Name="Default" Value="默认值" />
+    <Message Name="Item List" Value="项目列表" />
+    <Message Name="Convert Type" Value="输入值转换" />
+    <Message Name="Range" Value="范围" />
+    <Message Name="EMP_NO" Value="资料异动人员" />
+    <Message Name="Necessary" Value="必要输入字段" />
+    <Message Name="Collapse" Value="折迭" />
+    <Message Name="Expand" Value="展开" />
+    <Message Name="Item Sequence" Value="顺序" />
+    <Message Name="Please Input Item Value in Number" Value="请输入值为数字" />
+    <Message Name="Item" Value="项目" />
+    <Message Name="Key In" Value="输入" />
+    <Message Name="Select List" Value="选项列表" />
+    <Message Name="PART_NO" Value="料号" />
+    <Message Name="PART_TYPE" Value="料号类型" />
+    <Message Name="MATERIAL_TYPE" Value="必要" />
+    <Message Name="Alert Msg" Value="制程消息" />
+    <Message Name="Alert" Value="弹出消息" />
+    <Message Name="Alert Type" Value="消息类型" />
+    <Message Name="Title" Value="标题" />
+    <Message Name="Content" Value="内容" />
+    <Message Name="ALERT_TYPE" Value="消息类型" />
+    <Message Name="ITEM_TITLE" Value="消息标题" />
+    <Message Name="ITEM_CONTENT" Value="消息内容" />
+    <Message Name="WIP IN" Value="投入" />
+    <Message Name="WIP OUT" Value="产出" />
+    <Message Name="Info" Value="通知" />
+    <Message Name="Warn" Value="警告" />
+    <Message Name="Error" Value="错误" />
+    <Message Name="Needed Item Cannot Be Empty" Value="必输项不能为空" />
+    <Message Name="Item Name Already Exist" Value="名称或序号已存在" />
+    <Message Name="Item Name Or Seq Already Exist" Value="名称或序号已存在" />
+    <Message Name="PROCESS" Value="制程" />
+    <Message Name="PART_ID" Value="料号ID" />
+    <Message Name="VERSION" Value="版本" />
+    <Message Name="Info" Value="通知" />
+    <Message Name="Please Select a Alert Item." Value="请选择一个弹出项" />
+    <Message Name="Info" Value="通知" />
+    <Message Name="Property" Value="属性" />
+    <Message Name="PROPERTY_NAME" Value="属性名称" />
+    <Message Name="PROPERTY_VALUE" Value="属性值" />
+    <Message Name="PROPERTY_ID" Value="属性ID" />
+    <Message Name="Value Type Are Not The Same" Value="值类型不相同" />
+    <Message Name="Character" Value="文字" />
+    <Message Name="Number" Value="数字" />
+    <Message Name="Key In" Value="输入值" />
+    <Message Name="Select List" Value="数值列表" />
+    <Message Name="None" Value="不转换" />
+    <Message Name="Uppercase" Value="转大写" />
+    <Message Name="Lowercase" Value="转小写" />
+    <Message Name="UnNecessary" Value="不必要" />
+    <Message Name="necessary" Value="必要" />
+    <Message Name="KEYIN_FLAG" Value="是否输入物料批次" />
+    <Message Name="ITEM_PN" Value="物料编号" />
+    <Message Name="QTY" Value="数量" />
+    <Message Name="Info" Value="通知" />
+    <Message Name="Item Part No" Value="物料编号" />
+    <Message Name="Qty" Value="数量" />
+    <Message Name="Phase" Value="项目阶段" />
+    <Message Name="Please Select One Material Item." Value="请选择项目" />
+    <Message Name="Everytime" Value="每次" />
+    <Message Name="Every Shift" Value="每班" />
+    <Message Name="Store Procedure" Value="特殊逻辑" />
+    <Message Name="Every Day" Value="每日" />
+    <Message Name="Every WEEK_DAY" Value="每週" />
+    <Message Name="BY_WEEK_DAY" Value="每週对校日" />
+    <Message Name="Sunday" Value="星期日" />
+    <Message Name="Monday" Value="星期一" />
+    <Message Name="Tuesday" Value="星期二" />
+    <Message Name="Wednesday" Value="星期三" />
+    <Message Name="Thursday" Value="星期四" />
+    <Message Name="Friday" Value="星期五" />
+    <Message Name="Saturday" Value="星期六" />
+    <Message Name="DAY_TYPE" Value="班別" />
+	  <Message Name="Please Input Item Name." Value="请输入项目名称" />
+  	<Message Name="Item Sequence is Duplicate." Value="项目序号重复" />
+    <Message Name="Please Input Max Value bigger then Min Value" Value="范围最大值需大于最小值" />
+    <Message Name="Please Input Spec Value Between Max and Min Value" Value="规格需介於最大值与最小值之间" />
+    <Message Name="EMP_NAME" Value="员工名称" />
+    <Message Name="Delete" Value="删除" />
+    <Message Name="Spec Not Exist In List Item" Value="规格不在清单内" />
+    <Message Name="{0} Data In List Item Is Empty" Value="第 {0} 笔项目清单为空" />
+    <Message Name="Item Name is duplicate." Value="项目名称重覆" />
+    <Message Name="Please Input Item Desc" Value="请输入项目描述" />
+	  <Message Name="SPC_ITEM" Value="SPC管制项目" />
+	  <Message Name="SPC_ITEM_VALUE" Value="SPC管制项目内容" />
+	  <Message Name="PROGRAM_NAME" Value="方案" />
+	  <Message Name="S_SPC_ITEM" Value="测试项目" />
+    <Message Name="This store procedure couldn't found" Value="找不到此呼叫程序" />
+    <Message Name="PART_NO" Value="料号" />
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="MACHINE_TYPE_ID" Value="ID Loại Thiết Bị" /><Message Name="MACHINE_TYPE_NAME" Value="Tên Loại Máy" /><Message Name="PROCESS_ID" Value="ID Công Đoạn" /><Message Name="PROCESS_CODE" Value="Mã Công Đoạn" /><Message Name="PROCESS_NAME" Value="Tên Công Đoạn" /><Message Name="CHECK_LIST_NAME" Value="Tên Bảng Kiểm Tra" /><Message Name="FREQUENCY" Value="Tần Suất" /><Message Name="PHASE" Value="Nhập/Xuất" /><Message Name="UPDATE_USERID" Value="Người Cập Nhật" /><Message Name="UPDATE_TIME" Value="Thời Gian Cập Nhật" /><Message Name="ENABLED" Value="Hiệu Lực" /><Message Name="Please Input Default Value." Value="Vui Lòng Nhập Giá Trị Mặc Định" /><Message Name="Please Create List item." Value="Vui Lòng Thêm Mục Danh Sách" /><Message Name="Please Input min Value." Value="Vui Lòng Nhập Giá Trị Tối Thiểu" /><Message Name="Please Input Max Value." Value="Vui Lòng Nhập Giá Trị Tối Đa" /><Message Name="Please Input Spec Value" Value="Vui Lòng Nhập Giá Trị Quy Cách" /><Message Name="Please Input min Value in Number" Value="Vui Lòng Nhập Giá Trị Tối Thiểu Dạng Số" /><Message Name="Please Input Max Value in Number" Value="Vui Lòng Nhập Giá Trị Tối Đa Dạng Số" /><Message Name="Please Input Spec Value in Number" Value="Vui Lòng Nhập Giá Trị Quy Cách Dạng Số" /><Message Name="Check Data Error." Value="Lỗi Kiểm Tra Dữ Liệu" /><Message Name="Error." Value="Lỗi" /><Message Name="OK" Value="Xác Nhận" /><Message Name="Cancel" Value="Hủy" /><Message Name="Add" Value="Thêm" /><Message Name="Add Error." Value="Lỗi Khi Thêm" /><Message Name="Part No" Value="Mã Linh Kiện" /><Message Name="Version" Value="Phiên Bản" /><Message Name="ITEM_NAME" Value="Tên Mục" /><Message Name="ITEM_PHASE" Value="Giai Đoạn Mục" /><Message Name="ITEM_TYPE" Value="Loại Mục" /><Message Name="ITEM_ID" Value="Mã Mục" /><Message Name="Item ID" Value="Mã Mục" /><Message Name="ITEM_NAME_DESC" Value="Mô Tả Mục" /><Message Name="Item Desc" Value="Mô Tả Mục" /><Message Name="SP_NAME" Value="Tên Thủ Tục Gọi" /><Message Name="SP_MESSAGE" Value="Thông Báo Cho Người Dùng" /><Message Name="SP Name" Value="Tên Thủ Tục Gọi" /><Message Name="SP Message" Value="Thông Báo Cho Người Dùng" /><Message Name="ITEM_SEQ" Value="Thứ Tự Hiển Thị" /><Message Name="VALUE_TYPE" Value="Loại Giá Trị" /><Message Name="INPUT_TYPE" Value="Cách Nhập" /><Message Name="VALUE_DEFAULT" Value="Giá Trị Mặc Định" /><Message Name="VALUE_LIST" Value="Danh Sách Mục" /><Message Name="VALUE_LIST_SPEC" Value="Quy Cách" /><Message Name="Spec" Value="Quy Cách" /><Message Name="NECESSARY" Value="Bắt Buộc Nhập" /><Message Name="CONVERT_TYPE" Value="Chuyển Đổi Giá Trị Nhập" /><Message Name="Item Seq" Value="Thứ Tự Hiển Thị" /><Message Name="Item Name" Value="Tên Mục" /><Message Name="Item Phase" Value="Giai Đoạn Mục" /><Message Name="Value Type" Value="Loại Giá Trị" /><Message Name="Input Type" Value="Cách Nhập" /><Message Name="Default" Value="Mặc Định" /><Message Name="Item List" Value="Danh Sách Mục" /><Message Name="Convert Type" Value="Chuyển Đổi Giá Trị" /><Message Name="Range" Value="Phạm Vi" /><Message Name="EMP_NO" Value="Mã Nhân Viên" /><Message Name="Necessary" Value="Bắt Buộc" /><Message Name="Item Sequence" Value="Thứ Tự" /><Message Name="Choose" Value="Chọn Công Đoạn Của Mã Linh Kiện" /><Message Name="Please Input Item Value in Number" Value="Vui Lòng Nhập Giá Trị Dạng Số" /><Message Name="Item" Value="Mục" /><Message Name="Key In" Value="Nhập" /><Message Name="Select List" Value="Danh Sách Chọn" /><Message Name="PART NO" Value="Mã Linh Kiện" /><Message Name="Alert Msg" Value="Thông Báo" /><Message Name="Alert" Value="Thông Báo" /><Message Name="Alert Type" Value="Loại Thông Báo" /><Message Name="Title" Value="Tiêu Đề" /><Message Name="Content" Value="Nội Dung" /><Message Name="ALERT_TYPE" Value="Loại Thông Báo" /><Message Name="ITEM_TITLE" Value="Tiêu Đề Mục" /><Message Name="ITEM_CONTENT" Value="Nội Dung Mục" /><Message Name="WIP IN" Value="Nhập" /><Message Name="WIP OUT" Value="Xuất" /><Message Name="Info" Value="Thông Tin" /><Message Name="Warn" Value="Cảnh Báo" /><Message Name="Error" Value="Lỗi" /><Message Name="Needed Item Cannot Be Empty" Value="Mục Bắt Buộc Không Được Để Trống" /><Message Name="Item Name Already Exist" Value="Tên Hoặc Thứ Tự Đã Tồn Tại" /><Message Name="Item Name Or Seq Already Exist" Value="Tên Hoặc Thứ Tự Đã Tồn Tại" /><Message Name="VERSION" Value="Phiên Bản" /><Message Name="Please Select a Alert Item." Value="Vui Lòng Chọn Một Thông Báo" /><Message Name="Property" Value="Thuộc Tính" /><Message Name="PROPERTY_NAME" Value="Tên Thuộc Tính" /><Message Name="PROPERTY_VALUE" Value="Giá Trị Thuộc Tính" /><Message Name="PROPERTY_ID" Value="ID Thuộc Tính" /><Message Name="Value Type Are Not The Same" Value="Loại Giá Trị Không Khớp" /><Message Name="Property Not Find" Value="Không Tìm Thấy Thuộc Tính Trong Mã Linh Kiện" /><Message Name="Character" Value="Ký Tự" /><Message Name="Number" Value="Số" /><Message Name="None" Value="Không Chuyển Đổi" /><Message Name="Uppercase" Value="Chuyển Chữ Hoa" /><Message Name="Lowercase" Value="Chuyển Chữ Thường" /><Message Name="UnNecessary" Value="Không Bắt Buộc" /><Message Name="necessary" Value="Bắt Buộc" /><Message Name="Everytime" Value="Mỗi Lần" /><Message Name="Every Shift" Value="Mỗi Ca" /><Message Name="Store Procedure" Value="Thủ Tục Đặc Biệt" /><Message Name="Every Day" Value="Mỗi Ngày" /><Message Name="Every WEEK_DAY" Value="Mỗi Tuần" /><Message Name="BY_WEEK_DAY" Value="Ngày Đối Soát Trong Tuần" /><Message Name="Sunday" Value="Chủ Nhật" /><Message Name="Monday" Value="Thứ Hai" /><Message Name="Tuesday" Value="Thứ Ba" /><Message Name="Wednesday" Value="Thứ Tư" /><Message Name="Thursday" Value="Thứ Năm" /><Message Name="Friday" Value="Thứ Sáu" /><Message Name="Saturday" Value="Thứ Bảy" /><Message Name="DAY_TYPE" Value="Loại Ca" /><Message Name="Please Input Item Name." Value="Vui Lòng Nhập Tên Mục" /><Message Name="Item Sequence is Duplicate." Value="Thứ Tự Mục Bị Trùng" /><Message Name="Please Input Max Value bigger then Min Value" Value="Giá Trị Tối Đa Phải Lớn Hơn Tối Thiểu" /><Message Name="Please Input Spec Value Between Max and Min Value" Value="Quy Cách Phải Nằm Giữa Giá Trị Tối Thiểu Và Tối Đa" /><Message Name="EMP_NAME" Value="Tên Nhân Viên" /><Message Name="Delete" Value="Xóa" /><Message Name="Spec Not Exist In List Item" Value="Quy Cách Không Nằm Trong Danh Sách" /><Message Name="{0} Data In List Item Is Empty" Value="Dòng {0} Trong Danh Sách Mục Bị Trống" /><Message Name="Item Name is duplicate." Value="Tên Mục Bị Trùng" /><Message Name="Please Input Item Desc" Value="Vui Lòng Nhập Mô Tả Mục" /><Message Name="SPC_ITEM" Value="Hạng Mục Kiểm Soát SPC" /><Message Name="SPC_ITEM_VALUE" Value="Nội Dung SPC" /><Message Name="PROGRAM_NAME" Value="Chương Trình" /><Message Name="S_SPC_ITEM" Value="Hạng Mục Kiểm Tra" /><Message Name="This store procedure couldn't found" Value="Không Tìm Thấy Thủ Tục Gọi" /><Message Name="PART_NO" Value="Mã Linh Kiện" /></Ngôn_ngữ_Việt></Chroma>

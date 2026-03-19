@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+  <English>
+    <Message Name="Sampling Plan Name" Value="Sampling Plan Name"/>
+    <Message Name="Description" Value="Description"/>
+	<Message Name="Sampling Plan Group" Value="Sampling Plan Group"/>
+    <Message Name="Min Lot Size" Value="Min Lot Size"/>
+    <Message Name="Max Lot Size" Value="Max Lot Size"/>
+    <Message Name="Sample Size" Value="Sample Size"/>
+    <Message Name="Critical Rej." Value="Critical Rej."/>
+    <Message Name="Major Rej." Value="Major Rej."/>
+    <Message Name="Minor Rej." Value="Minor Rej."/>
+    <Message Name="Unit" Value="Unit"/>
+    <Message Name="Min Size can't bigger than Max Size" Value="Min Size can't bigger than Max Size"/>
+    <Message Name="When unit = %, Sample Size need to between 0 to 100" Value="When unit = %, Sample Size need to between 0 to 100"/>
+    <Message Name="Sampling Plan Level" Value="Sampling Plan Level"/>
+    <Message Name="Lot Size" Value="Lot Size"/>
+    <Message Name="Normal" Value="Normal"/>
+    <Message Name="Tight" Value="Tight"/>
+    <Message Name="Reduced" Value="Reduced"/>
+    <Message Name="No Inspect" Value="No Inspect"/>
+    <Message Name="has one or more Detail" Value="has one or more Detail"/>
+    <Message Name="Can not delete it" Value="Can not delete it"/>
+    <Message Name="has one or more Part" Value="has one or more Part"/>
+  </English>
+  <繁體中文>
+    <Message Name="Sampling Plan Name" Value="抽驗計畫"/>
+    <Message Name="Description" Value="抽驗計畫描述"/>
+	<Message Name="Sampling Plan Group" Value="抽驗計畫群組名稱"/>
+    <Message Name="Min Lot Size" Value="批量範圍下限"/>
+    <Message Name="Max Lot Size" Value="批量範圍上限"/>
+    <Message Name="Sample Size" Value="抽驗數量"/>
+    <Message Name="Critical Rej." Value="重缺批退標準"/>
+    <Message Name="Major Rej." Value="主缺批退標準"/>
+    <Message Name="Minor Rej." Value="次缺批退標準"/>
+    <Message Name="Unit" Value="單位"/>
+    <Message Name="Min Size can't bigger than Max Size" Value="批量範圍下限不可大於批量範圍上限"/>
+    <Message Name="When unit = %, Sample Size need to between 0 to 100" Value="當單位為%時，抽驗數量須介於0-100之間"/>
+    <Message Name="Sampling Plan Level" Value="抽驗計畫等級"/>
+    <Message Name="Lot Size" Value="批量範圍"/>
+    <Message Name="Normal" Value="正常"/>
+    <Message Name="Tight" Value="加嚴"/>
+    <Message Name="Reduced" Value="減量"/>
+    <Message Name="No Inspect" Value="免驗"/>
+    <Message Name="has one or more Detail" Value="已包含細項資料"/>
+    <Message Name="Can not delete it" Value="不可刪除"/>
+    <Message Name="has one or more Part" Value="已包含料號預設資料"/>
+  </繁體中文>
+  <简体中文>
+    <Message Name="Sampling Plan Name" Value="抽验计划"/>
+    <Message Name="Description" Value="抽验计划描述"/>
+    <Message Name="Sampling Plan Group" Value="抽验计画群组名称"/>
+	<Message Name="Min Lot Size" Value="批量范围下限"/>
+    <Message Name="Max Lot Size" Value="批量范围上限"/>
+    <Message Name="Sample Size" Value="抽验数量"/>
+    <Message Name="Critical Rej." Value="重缺批退标准"/>
+    <Message Name="Major Rej." Value="主缺批退标准"/>
+    <Message Name="Minor Rej." Value="次缺批退标准"/>
+    <Message Name="Unit" Value="单位"/>
+    <Message Name="Min Size can't bigger than Max Size" Value="批量范围下限不可大于批量范围上限"/>
+    <Message Name="When unit = %, Sample Size need to between 0 to 100" Value="当单位为%时，抽验数量须介于0-100之间"/>
+    <Message Name="Sampling Plan Level" Value="抽验计划等级"/>
+    <Message Name="Lot Size" Value="批量范围"/>
+    <Message Name="Normal" Value="正常"/>
+    <Message Name="Tight" Value="加严"/>
+    <Message Name="Reduced" Value="减量"/>
+    <Message Name="No Inspect" Value="免验"/>
+    <Message Name="has one or more Detail" Value="已包含细项资料"/>
+    <Message Name="Can not delete it" Value="不可删除"/>
+    <Message Name="has one or more Part" Value="已包含料号默认资料"/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="Sampling Plan Name" Value="Tên kế hoạch lấy mẫu"/><Message Name="Description" Value="Mô tả kế hoạch lấy mẫu"/><Message Name="Sampling Plan Group" Value="Nhóm kế hoạch lấy mẫu"/><Message Name="Min Lot Size" Value="Kích thước lô tối thiểu"/><Message Name="Max Lot Size" Value="Kích thước lô tối đa"/><Message Name="Sample Size" Value="Số lượng mẫu"/><Message Name="Critical Rej." Value="Mức loại bỏ lỗi nghiêm trọng"/><Message Name="Major Rej." Value="Mức loại bỏ lỗi chủ yếu"/><Message Name="Minor Rej." Value="Mức loại bỏ lỗi thứ yếu"/><Message Name="Unit" Value="Đơn vị"/><Message Name="Min Size can't bigger than Max Size" Value="Kích thước tối thiểu không được lớn hơn kích thước tối đa"/><Message Name="When unit = %, Sample Size need to between 0 to 100" Value="Khi đơn vị là %, số lượng mẫu phải nằm trong khoảng 0 đến 100"/><Message Name="Sampling Plan Level" Value="Cấp độ kế hoạch lấy mẫu"/><Message Name="Lot Size" Value="Phạm vi kích thước lô"/><Message Name="Normal" Value="Bình thường"/><Message Name="Tight" Value="Tăng cường"/><Message Name="Reduced" Value="Giảm bớt"/><Message Name="No Inspect" Value="Miễn kiểm tra"/><Message Name="has one or more Detail" Value="Đã bao gồm dữ liệu chi tiết"/><Message Name="Can not delete it" Value="Không thể xóa mục này"/><Message Name="has one or more Part" Value="Đã bao gồm dữ liệu mặc định cho mã linh kiện"/></Ngôn_ngữ_Việt></Chroma>

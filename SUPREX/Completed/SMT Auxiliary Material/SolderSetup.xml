@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+		<Message Name="OK" Value="OK"/>
+		<Message Name="Wait Time" Value="Wait Time"/>
+		<Message Name="Mix Time" Value="Mix Time"/>
+		<Message Name="Mount Time" Value="Mount Time"/>
+		<Message Name="Unmount Time" Value="Unmount Time"/>
+		<Message Name="Return Count" Value="Return Count"/>
+		<Message Name="Date Code" Value="Date Code"/>
+		<Message Name="Min." Value="Min."/>
+		<Message Name="Hour" Value="Hour"/>
+		<Message Name="Solder Setup" Value="Solder Setup"/>
+		<Message Name="Please input wait time" Value="Please input wait time"/>
+		<Message Name="Please input mix time" Value="Please input mix time"/>
+		<Message Name="Please input mount time" Value="Please input mount time"/>
+		<Message Name="Please input unmount time" Value="Please input unmount time"/>
+		<Message Name="Please input return count" Value="Please input return count"/>
+		<Message Name="Please input wait option" Value="Please input wait option"/>
+		<Message Name="Please input mount option" Value="Please input mount option"/>
+		<Message Name="Please input unmount option" Value="Please input unmount option"/>
+		<Message Name="Please input return count option" Value="Please input return count option"/>
+		<Message Name="Please input date code option" Value="Please input date code option"/>
+		<Message Name="Please input mix option" Value="Please input mix option"/>
+		<Message Name="Warning" Value="Warning"/>
+		<Message Name="Unenforceable" Value="Unenforceable"/>
+		<Message Name="Data Saved" Value="Data Saved"/>
+	</English>
+	<繁體中文>
+		<Message Name="OK" Value="確定"/>
+		<Message Name="Wait Time" Value="回溫時間"/>
+		<Message Name="Mix Time" Value="攪拌時間"/>
+		<Message Name="Mount Time" Value="已開封期限"/>
+		<Message Name="Unmount Time" Value="未開封期限"/>
+		<Message Name="Return Count" Value="回冰次數"/>
+		<Message Name="Date Code" Value="保存期限"/>
+		<Message Name="Expiration Date" Value="保存期限"/>
+		<Message Name="Min." Value="分"/>
+		<Message Name="Hour" Value="小時"/>
+		<Message Name="Solder Setup" Value="錫膏設定"/>
+		<Message Name="Please input wait time" Value="請輸入回溫時間"/>
+		<Message Name="Please input mount time" Value="請輸入開封期限"/>
+		<Message Name="Please input mix time" Value="請輸入攪拌時間"/>
+		<Message Name="Please input unmount time" Value="請輸入未開封期限"/>
+		<Message Name="Please input return count" Value="請輸入回冰次數"/>
+		<Message Name="Please input wait option" Value="請輸入回溫選項"/>
+		<Message Name="Please input mount option" Value="請輸入開封期限選項"/>
+		<Message Name="Please input unmount option" Value="請輸入未開封期限選項"/>
+		<Message Name="Please input return count option" Value="請輸入回冰次數選項"/>
+		<Message Name="Please input date code option" Value="請輸入Date Code選項"/>
+		<Message Name="Please input mix option" Value="請輸入攪拌分鐘選項"/>
+		<Message Name="Warning" Value="警告"/>
+		<Message Name="Unenforceable" Value="強制停止執行"/>
+		<Message Name="Data Saved" Value="資料已儲存"/>
+		<Message Name="Expiration Date" Value="有效日期"/>
+	</繁體中文>
+	<简体中文>
+		<Message Name="OK" Value="确定"/>
+		<Message Name="Wait Time" Value="回温时间"/>
+		<Message Name="Mix Time" Value="搅拌时间"/>
+		<Message Name="Mount Time" Value="已开封期限"/>
+		<Message Name="Unmount Time" Value="未开封期限"/>
+		<Message Name="Return Count" Value="回冰次数"/>
+		<Message Name="Date Code" Value="保存期限"/>
+		<Message Name="Expiration Date" Value="保存期限"/>
+		<Message Name="Min." Value="分"/>
+		<Message Name="Hour" Value="小时"/>
+		<Message Name="Solder Setup" Value="锡膏设定"/>
+		<Message Name="Please input wait time" Value="请输入回温时间"/>
+		<Message Name="Please input mount time" Value="请输入开封期限"/>
+		<Message Name="Please input mix time" Value="请输入搅拌时间"/>
+		<Message Name="Please input unmount time" Value="请输入未开封期限"/>
+		<Message Name="Please input return count" Value="请输入回冰次数"/>
+		<Message Name="Please input wait option" Value="请输入回温选项"/>
+		<Message Name="Please input mount option" Value="请输入开封期限选项"/>
+		<Message Name="Please input unmount option" Value="请输入未开封期限选项"/>
+		<Message Name="Please input return count option" Value="请输入回冰次数选项"/>
+		<Message Name="Please input date code option" Value="请输入Date Code选项"/>
+		<Message Name="Please input mix option" Value="请输入搅拌分钟选项"/>
+		<Message Name="Warning" Value="警告"/>
+		<Message Name="Unenforceable" Value="强制停止执行"/>
+		<Message Name="Data Saved" Value="资料已储存"/>
+		<Message Name="Expiration Date" Value="有效日期"/>
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="OK" Value="Xác nhận"/><Message Name="Wait Time" Value="Thời gian hồi nhiệt"/><Message Name="Mix Time" Value="Thời gian khuấy"/><Message Name="Mount Time" Value="Hạn dùng sau khi mở nắp"/><Message Name="Unmount Time" Value="Hạn dùng khi chưa mở nắp"/><Message Name="Return Count" Value="Số lần đưa lại vào tủ lạnh"/><Message Name="Date Code" Value="Hạn sử dụng"/><Message Name="Expiration Date" Value="Ngày hết hạn"/><Message Name="Min." Value="Phút"/><Message Name="Hour" Value="Giờ"/><Message Name="Solder Setup" Value="Thiết lập kem hàn"/><Message Name="Please input wait time" Value="Vui lòng nhập thời gian hồi nhiệt"/><Message Name="Please input mix time" Value="Vui lòng nhập thời gian khuấy"/><Message Name="Please input mount time" Value="Vui lòng nhập hạn mở nắp"/><Message Name="Please input unmount time" Value="Vui lòng nhập hạn chưa mở nắp"/><Message Name="Please input return count" Value="Vui lòng nhập số lần đưa lại vào tủ lạnh"/><Message Name="Please input wait option" Value="Vui lòng nhập tùy chọn hồi nhiệt"/><Message Name="Please input mount option" Value="Vui lòng nhập tùy chọn hạn mở nắp"/><Message Name="Please input unmount option" Value="Vui lòng nhập tùy chọn hạn chưa mở nắp"/><Message Name="Please input return count option" Value="Vui lòng nhập tùy chọn số lần đưa lại vào tủ lạnh"/><Message Name="Please input date code option" Value="Vui lòng nhập tùy chọn Date Code"/><Message Name="Please input mix option" Value="Vui lòng nhập tùy chọn phút khuấy"/><Message Name="Warning" Value="Cảnh báo"/><Message Name="Unenforceable" Value="Dừng cưỡng chế thực thi"/><Message Name="Data Saved" Value="Dữ liệu đã lưu"/></Ngôn_ngữ_Việt></Chroma>

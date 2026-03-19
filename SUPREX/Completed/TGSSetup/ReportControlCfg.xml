@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <English>
+    <Message Name="MAIL_GROUP_NAME" Value="Mail Group"/>
+    <Message Name="FIELD_NAME" Value="Field Name"/>
+    <Message Name="FIELD_DESC" Value="Display Name"/>
+    <Message Name="SHOW_POSITION" Value="Position"/>
+    <Message Name="FONT_COLOR" Value="Font Color"/>
+    <Message Name="BRUSH_COLOR" Value="Brush Color"/>
+    <Message Name="SBOW_OPERATOR" Value="Operator"/>
+    <Message Name="VISIBLE" Value="Visible"/>
+    <Message Name="ROW_STYLE" Value="Row Style"/>
+    <Message Name="SEQ" Value="Seq"/>
+    <Message Name="FIELD_VALUE" Value="Field Value"/>
+    <Message Name="SUBJECT_TITLE" Value="Subject Title"/>
+    <Message Name="EMP_NAME" Value="Name"/>
+  </English>
+  <繁體中文>
+    <Message Name="Copy To" Value="複製到"/>
+    <Message Name="Copy From" Value="由..複製"/>
+    <Message Name="Event Type" Value="告警類型"/>
+    <Message Name="Mail Group" Value="通知群組"/>
+    <Message Name="Item Code" Value="告警項目代碼"/>
+    <Message Name="Data is null" Value="資料未輸入"/>
+    <Message Name="Item Desc" Value="告警項目說明"/>
+    <Message Name="Necessary" Value="必要發送"/>
+    <Message Name="Condition" Value="條件發送"/>
+    <Message Name="Assign" Value="套用"/>
+    <Message Name="Part No" Value="料號"/>
+    <Message Name="Step" Value="層級"/>
+    <Message Name="Level" Value="告警等級"/>
+    <Message Name="Auto Close" Value="自動結束"/>
+    <Message Name="Auto Alarm" Value="直接發送"/>
+    <Message Name="Mail Group" Value="通知群組"/>
+    <Message Name="Select All" Value="全部勾選"/>
+    <Message Name="Select None" Value="取消全選"/>
+    <Message Name="Event Time" Value="可處理時間"/>
+    <Message Name="Machine Type" Value="機台類型"/>
+    <Message Name="Auto Alarm cann't delete!" Value="自動告警不可刪除"/>
+    <Message Name="Line" Value="線別"/>
+    <Message Name="Stage" Value="區段"/>
+    <Message Name="Process" Value="製程"/>
+    <Message Name="Terminal" Value="工作站"/>
+    <Message Name="(Mins.)" Value="(分)"/>
+    <Message Name="Mail Subject" Value="郵件主旨"/>
+    <Message Name="Include Detail Data" Value="含細項資料"/>
+    <Message Name="PDLINE_NAME" Value="線別"/>
+    <Message Name="PDLINE_DESC" Value="線別描述"/>
+    <Message Name="STAGE_NAME" Value="區段"/>
+    <Message Name="STAGE_DESC" Value="區段描述"/>
+    <Message Name="PROCESS_NAME" Value="製程"/>
+    <Message Name="PROCESS_DESC" Value="製程描述"/>
+    <Message Name="Event Name" Value="事件"/>
+    <Message Name="Factory" Value="廠別"/>
+    <Message Name="Station" Value="工作站"/>
+    <Message Name="Minor" Value="一般"/>
+    <Message Name="Major" Value="嚴重"/>
+    <Message Name="Critical" Value="極嚴重"/>
+    <Message Name="Show Member" Value="顯示成員"/>
+    <Message Name="EMP_NO" Value="工號"/>
+    <Message Name="MEMBER_NAME" Value="姓名"/>
+    <Message Name="Notice" Value="通知"/>
+    <Message Name="Catagory" Value="分類"/>
+    <Message Name="Parameter" Value="參數"/>
+    <Message Name="Event Catagory" Value="分類"/>
+    <Message Name="Event Parameter" Value="參數"/>
+    <Message Name="About Yield Rate" Value="製程良率"/>
+    <Message Name="Every N Hours" Value="每N小時"/>
+    <Message Name="Product Qty" Value="生產數量"/>
+    <Message Name="Yield Rate" Value="良率"/>
+    <Message Name="Qty" Value="數量"/>
+    <Message Name="Daily" Value="日"/>
+    <Message Name="Weekly" Value="週"/>
+    <Message Name="Monthly" Value="月"/>
+    <Message Name="Daily Type" Value="週期類型"/>
+    <Message Name="FIELD_NAME" Value="欄位名稱"/>
+    <Message Name="FIELD_DESC" Value="顯示名稱"/>
+    <Message Name="SHOW_POSITION" Value="欄位對齊"/>
+    <Message Name="Font Color" Value="字型顏色"/>
+    <Message Name="Brush Color" Value="筆刷顏色"/>
+    <Message Name="FONT_COLOR" Value="字型顏色"/>
+    <Message Name="BRUSH_COLOR" Value="筆刷顏色"/>
+    <Message Name="Operator" Value="操作元"/>
+    <Message Name="SHOW_OPERATOR" Value="操作元"/>
+    <Message Name="Field Name" Value="欄位名稱"/>
+    <Message Name="VISIBLE" Value="可見"/>
+    <Message Name="Field Value" Value="欄位數值"/>
+    <Message Name="For" Value="對"/>
+    <Message Name="Row Style" Value="整行變色"/>
+    <Message Name="ROW_STYLE" Value="整行變色"/>
+    <Message Name="Seq" Value="順序"/>
+    <Message Name="SEQ" Value="順序"/>
+    <Message Name="FIELD_VALUE" Value="欄位數值"/>
+    <Message Name="Color" Value="顏色"/>
+    <Message Name="Field" Value="欄位"/>
+    <Message Name="Head" Value="起始字元"/>
+    <Message Name="Tail" Value="結束字元"/>
+    <Message Name="Column" Value="直條圖"/>
+    <Message Name="Line" Value="折線圖"/>
+		<Message Name="Pointer" Value="泡泡圖"/>
+		<Message Name="Doughnut" Value="環圈圖"/>
+		<Message Name="Pie" Value="圓餅圖"/>
+		<Message Name="Bar" Value="橫條圖"/>
+		<Message Name="Area" Value="區域圖"/>
+    <Message Name="EMP_NAME" Value="姓名"/>
+    <Message Name="EMAIL" Value="電子郵件"/>
+    <Message Name="Macro" Value="執行巨集"/>
+    <Message Name="Only DLL files can be used" Value="僅可使用DLL檔案"/>
+    <Message Name="Table Column" Value="資料行"/>
+    <Message Name="Table Row" Value="資料列"/>
+    <Message Name="SHOW_TYPE" Value="欄位類型"/>
+    <Message Name="SHOW_DESC" Value="顯示類型"/>
+  </繁體中文>
+  <简体中文>
+    <Message Name="Copy To" Value="复制到"/>
+    <Message Name="Copy From" Value="由..复制"/>
+    <Message Name="Event Type" Value="告警类型"/>
+    <Message Name="Mail Group" Value="通知群组"/>
+    <Message Name="Item Code" Value="告警项目代码"/>
+    <Message Name="Data is null" Value="数据未输入"/>
+    <Message Name="Item Desc" Value="告警项目说明"/>
+    <Message Name="Necessary" Value="必要发送"/>
+    <Message Name="Condition" Value="条件发送"/>
+    <Message Name="Assign" Value="套用"/>
+    <Message Name="Part No" Value="料号"/>
+    <Message Name="Step" Value="层级"/>
+    <Message Name="Level" Value="告警等级"/>
+    <Message Name="Auto Close" Value="自动结束"/>
+    <Message Name="Auto Alarm" Value="直接发送"/>
+    <Message Name="Mail Group" Value="通知群组"/>
+    <Message Name="Select All" Value="全部勾选"/>
+    <Message Name="Select None" Value="取消全选"/>
+    <Message Name="Event Time" Value="可处理时间"/>
+    <Message Name="Machine Type" Value="机台类型"/>
+    <Message Name="Auto Alarm cann't delete!" Value="自动告警不可删除"/>
+    <Message Name="Line" Value="线别"/>
+    <Message Name="Stage" Value="区段"/>
+    <Message Name="Process" Value="制程"/>
+    <Message Name="Terminal" Value="工作站"/>
+    <Message Name="(Mins.)" Value="(分)"/>
+    <Message Name="Mail Subject" Value="邮件主旨"/>
+    <Message Name="Include Detail Data" Value="含细项资料"/>
+    <Message Name="PDLINE_NAME" Value="线别"/>
+    <Message Name="PDLINE_DESC" Value="线别描述"/>
+    <Message Name="STAGE_NAME" Value="区段"/>
+    <Message Name="STAGE_DESC" Value="区段描述"/>
+    <Message Name="PROCESS_NAME" Value="制程"/>
+    <Message Name="PROCESS_DESC" Value="制程描述"/>
+    <Message Name="Event Name" Value="事件"/>
+    <Message Name="Factory" Value="厂别"/>
+    <Message Name="Station" Value="工作站"/>
+    <Message Name="Minor" Value="一般"/>
+    <Message Name="Major" Value="严重"/>
+    <Message Name="Critical" Value="极严重"/>
+    <Message Name="Show Member" Value="显示成员"/>
+    <Message Name="EMP_NO" Value="工号"/>
+    <Message Name="MEMBER_NAME" Value="姓名"/>
+    <Message Name="Notice" Value="通知"/>
+    <Message Name="Catagory" Value="分类"/>
+    <Message Name="Parameter" Value="参数"/>
+    <Message Name="Event Catagory" Value="分类"/>
+    <Message Name="Event Parameter" Value="参数"/>
+    <Message Name="About Yield Rate" Value="制程良率"/>
+    <Message Name="Every N Hours" Value="每N小时"/>
+    <Message Name="Product Qty" Value="生产数量"/>
+    <Message Name="Yield Rate" Value="良率"/>
+    <Message Name="Qty" Value="数量"/>
+    <Message Name="Daily" Value="日"/>
+    <Message Name="Weekly" Value="周"/>
+    <Message Name="Monthly" Value="月"/>
+    <Message Name="Daily Type" Value="周期类型"/>
+    <Message Name="FIELD_NAME" Value="域名"/>
+    <Message Name="FIELD_DESC" Value="显示名称"/>
+    <Message Name="SHOW_POSITION" Value="字段对齐"/>
+    <Message Name="Font Color" Value="字型颜色"/>
+    <Message Name="Brush Color" Value="笔刷颜色"/>
+    <Message Name="FONT_COLOR" Value="字型颜色"/>
+    <Message Name="BRUSH_COLOR" Value="笔刷颜色"/>
+    <Message Name="Operator" Value="操作元"/>
+    <Message Name="SHOW_OPERATOR" Value="操作元"/>
+    <Message Name="Field Name" Value="域名"/>
+    <Message Name="VISIBLE" Value="可见"/>
+    <Message Name="Field Value" Value="字段数值"/>
+    <Message Name="For" Value="对"/>
+    <Message Name="Row Style" Value="整行变色"/>
+    <Message Name="ROW_STYLE" Value="整行变色"/>
+    <Message Name="Seq" Value="顺序"/>
+    <Message Name="SEQ" Value="顺序"/>
+    <Message Name="FIELD_VALUE" Value="字段数值"/>
+    <Message Name="Color" Value="颜色"/>
+    <Message Name="Field" Value="字段"/>
+    <Message Name="Head" Value="起始字符"/>
+    <Message Name="Tail" Value="终止符"/>
+    <Message Name="HEAD_VALUE" Value="起始字符"/>
+    <Message Name="TAIL_VALUE" Value="终止符"/>
+    <Message Name="BEFORE_SQL" Value="发送前SQL"/>
+    <Message Name="AFTER_SQL" Value="发送后SQL"/>
+    <Message Name="Before SQL" Value="发送前SQL"/>
+    <Message Name="After SQL" Value="发送后SQL"/>
+    <Message Name="MAIL_FIELD" Value="邮件字段"/>
+    <Message Name="MAIL_SEP" Value="分开发送"/>
+    <Message Name="Mail Field" Value="邮件字段"/>
+    <Message Name="For Mail Separate" Value="分开发送"/>
+    <Message Name="SUBJECT_TITLE" Value="邮件主旨"/>
+    <Message Name="EMP_NAME" Value="姓名"/>
+    <Message Name="EMAIL" Value="电子邮件"/>
+    <Message Name="Macro" Value="执行宏"/>
+    <Message Name="Only DLL files can be used" Value="仅可使用DLL档案"/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="Only DLL files can be used" Value="Chỉ dùng được tập tin DLL"/><Message Name="Pointer" Value="Biểu đồ bong bóng"/><Message Name="EMP_NAME" Value="Tên nhân viên"/><Message Name="FIELD_DESC" Value="Tên hiển thị"/><Message Name="Bar" Value="Biểu đồ thanh"/><Message Name="SHOW_TYPE" Value="Loại hiển thị"/><Message Name="Condition" Value="Gửi theo điều kiện"/><Message Name="Copy From" Value="Sao chép từ"/><Message Name="EMP_NO" Value="Mã nhân viên"/><Message Name="Mail Group" Value="Nhóm thông báo"/><Message Name="Tail" Value="Ký tự cuối"/><Message Name="Line" Value="Biểu đồ đường"/><Message Name="PDLINE_NAME" Value="PDLINE_NAME"/><Message Name="Level" Value="Mức cảnh báo"/><Message Name="Station" Value="Trạm"/><Message Name="MAIL_FIELD" Value="MAIL_FIELD"/><Message Name="BRUSH_COLOR" Value="Màu nền"/><Message Name="Minor" Value="Nhẹ"/><Message Name="TAIL_VALUE" Value="TAIL_VALUE"/><Message Name="Column" Value="Biểu đồ cột"/><Message Name="Pie" Value="Biểu đồ tròn"/><Message Name="ROW_STYLE" Value="Kiểu hàng"/><Message Name="Every N Hours" Value="Mỗi N giờ"/><Message Name="SHOW_DESC" Value="Mô tả hiển thị"/><Message Name="Event Type" Value="Loại cảnh báo"/><Message Name="Assign" Value="Áp dụng"/><Message Name="PDLINE_DESC" Value="PDLINE_DESC"/><Message Name="SHOW_OPERATOR" Value="SHOW_OPERATOR"/><Message Name="Table Column" Value="Cột dữ liệu"/><Message Name="Daily Type" Value="Loại chu kỳ"/><Message Name="Seq" Value="Seq"/><Message Name="Field" Value="Trường"/><Message Name="Data is null" Value="Chưa nhập dữ liệu"/><Message Name="FIELD_VALUE" Value="Giá trị trường"/><Message Name="Step" Value="Cấp"/><Message Name="Show Member" Value="Hiện thành viên"/><Message Name="MAIL_GROUP_NAME" Value="Nhóm thư"/><Message Name="Auto Alarm" Value="Gửi trực tiếp"/><Message Name="HEAD_VALUE" Value="HEAD_VALUE"/><Message Name="After SQL" Value="After SQL"/><Message Name="Stage" Value="Khu vực"/><Message Name="Item Desc" Value="Mô tả mục cảnh báo"/><Message Name="Parameter" Value="Tham số"/><Message Name="Terminal" Value="Trạm làm việc"/><Message Name="FIELD_NAME" Value="Tên trường"/><Message Name="SEQ" Value="Thứ tự"/><Message Name="Field Value" Value="Field Value"/><Message Name="Table Row" Value="Hàng dữ liệu"/><Message Name="For Mail Separate" Value="For Mail Separate"/><Message Name="(Mins.)" Value="(phút)"/><Message Name="STAGE_DESC" Value="STAGE_DESC"/><Message Name="Area" Value="Biểu đồ vùng"/><Message Name="Select None" Value="Bỏ chọn tất cả"/><Message Name="Row Style" Value="Đổi màu cả hàng"/><Message Name="FONT_COLOR" Value="Màu chữ"/><Message Name="Product Qty" Value="Số lượng sản xuất"/><Message Name="Brush Color" Value="Màu nền"/><Message Name="Doughnut" Value="Biểu đồ donut"/><Message Name="Event Time" Value="Thời gian xử lý"/><Message Name="Include Detail Data" Value="Bao gồm chi tiết"/><Message Name="Critical" Value="Rất nghiêm trọng"/><Message Name="Yield Rate" Value="Tỷ lệ đạt"/><Message Name="For" Value="Cho"/><Message Name="VISIBLE" Value="Hiển thị"/><Message Name="STAGE_NAME" Value="STAGE_NAME"/><Message Name="Font Color" Value="Màu chữ"/><Message Name="Color" Value="Màu"/><Message Name="Necessary" Value="Bắt buộc gửi"/><Message Name="MAIL_SEP" Value="MAIL_SEP"/><Message Name="Process" Value="Quy trình"/><Message Name="SBOW_OPERATOR" Value="Toán tử"/><Message Name="SHOW_POSITION" Value="Vị trí"/><Message Name="Event Parameter" Value="Event Parameter"/><Message Name="AFTER_SQL" Value="AFTER_SQL"/><Message Name="SUBJECT_TITLE" Value="Tiêu đề"/><Message Name="Operator" Value="Toán tử"/><Message Name="Weekly" Value="Tuần"/><Message Name="PROCESS_NAME" Value="PROCESS_NAME"/><Message Name="About Yield Rate" Value="Tỷ lệ yield"/><Message Name="Before SQL" Value="Before SQL"/><Message Name="BEFORE_SQL" Value="BEFORE_SQL"/><Message Name="Event Catagory" Value="Event Catagory"/><Message Name="Notice" Value="Thông báo"/><Message Name="EMAIL" Value="Email"/><Message Name="Auto Alarm cann't delete!" Value="Không thể xóa cảnh báo tự động"/><Message Name="Qty" Value="Số lượng"/><Message Name="Part No" Value="Mã liệu"/><Message Name="Macro" Value="Thực thi macro"/><Message Name="Machine Type" Value="Loại máy"/><Message Name="Catagory" Value="Phân loại"/><Message Name="Copy To" Value="Sao chép đến"/><Message Name="MEMBER_NAME" Value="Tên"/><Message Name="Item Code" Value="Mã mục cảnh báo"/><Message Name="Daily" Value="Ngày"/><Message Name="Auto Close" Value="Tự động đóng"/><Message Name="Major" Value="Nặng"/><Message Name="Mail Field" Value="Mail Field"/><Message Name="Field Name" Value="Tên trường"/><Message Name="Head" Value="Ký tự đầu"/><Message Name="Select All" Value="Chọn tất cả"/><Message Name="Mail Subject" Value="Tiêu đề email"/><Message Name="Factory" Value="Nhà máy"/><Message Name="Monthly" Value="Tháng"/><Message Name="PROCESS_DESC" Value="PROCESS_DESC"/><Message Name="Event Name" Value="Tên sự kiện"/></Ngôn_ngữ_Việt></Chroma>

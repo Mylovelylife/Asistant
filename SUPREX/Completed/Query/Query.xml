@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <English>
+    <Message Name="EMP_NAME" Value="Update User"/>
+    <Message Name="UPDATE_TIME" Value="Update Time"/>
+    <Message Name="ENABLED" Value="Enabled"/>
+  </English>
+  <繁體中文>
+    <Message Name="EMP_NAME" Value="異動人員"/>
+    <Message Name="UPDATE_TIME" Value="異動時間"/>
+    <Message Name="ENABLED" Value="是否有效"/>
+    <Message Name="Disabled" Value="停用"/>
+    <Message Name="Delete" Value="刪除"/>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Export" Value="匯出"/>
+    <Message Name="All" Value="全部"/>
+    <Message Name="Filter" Value="過濾條件"/>
+    <Message Name="History Log" Value="歷史紀錄"/>
+    <Message Name="OK" Value="確定"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Search" Value="尋找"/>
+    <Message Name="Remove" Value="移除"/>
+    <Message Name="Data Duplicate" Value="資料重複"/>
+    <Message Name="Data Append OK" Value="資料新增成功"/>
+    <Message Name="Append Other Data" Value="繼續新增其他資料"/>
+    <Message Name="Data is null" Value="資料未輸入"/>
+    <Message Name="ENG" Value="英文"/>
+    <Message Name="TRA" Value="繁體中文"/>
+    <Message Name="Query" Value="查詢"/>
+    <Message Name="Record Count :" Value="資料筆數:"/>
+    <Message Name="Data" Value="資料"/>
+    <Message Name="SIM" Value=" 簡體中文"/>
+  </繁體中文>
+  <简体中文>
+    <Message Name="EMP_NAME" Value="异动人员"/>
+    <Message Name="UPDATE_TIME" Value="异动时间"/>
+    <Message Name="ENABLED" Value="是否有效"/>
+    <Message Name="Disabled" Value="停用"/>
+    <Message Name="Delete" Value="删除"/>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Export" Value="汇出"/>
+    <Message Name="All" Value="全部"/>
+    <Message Name="Filter" Value="过滤条件"/>
+    <Message Name="History Log" Value="历史纪录"/>
+    <Message Name="OK" Value="确定"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Search" Value="寻找"/>
+    <Message Name="Remove" Value="移除"/>
+    <Message Name="Data Duplicate" Value="资料重复"/>
+    <Message Name="Data Append OK" Value="资料新增成功"/>
+    <Message Name="Append Other Data" Value="继续新增其他资料"/>
+    <Message Name="Data is null" Value="资料未输入"/>
+    <Message Name="ENG" Value="英文"/>
+    <Message Name="TRA" Value="繁体中文"/>
+    <Message Name="Query" Value="查询"/>
+    <Message Name="Record Count :" Value="资料笔数:"/>
+    <Message Name="Data" Value="资料"/>
+    <Message Name="SIM" Value="简体中文"/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="EMP_NAME" Value="Người cập nhật"/><Message Name="UPDATE_TIME" Value="Thời gian cập nhật"/><Message Name="ENABLED" Value="Có hiệu lực"/><Message Name="Disabled" Value="Vô hiệu"/><Message Name="Delete" Value="Xóa"/><Message Name="Append" Value="Thêm mới"/><Message Name="Modify" Value="Chỉnh sửa"/><Message Name="Export" Value="Xuất dữ liệu"/><Message Name="All" Value="Tất cả"/><Message Name="Filter" Value="Điều kiện lọc"/><Message Name="History Log" Value="Lịch sử ghi nhận"/><Message Name="OK" Value="Đồng ý"/><Message Name="Cancel" Value="Hủy"/><Message Name="Search" Value="Tìm kiếm"/><Message Name="Remove" Value="Gỡ bỏ"/><Message Name="Data Duplicate" Value="Dữ liệu trùng lặp"/><Message Name="Data Append OK" Value="Thêm dữ liệu thành công"/><Message Name="Append Other Data" Value="Tiếp tục thêm dữ liệu khác"/><Message Name="Data is null" Value="Dữ liệu chưa nhập"/><Message Name="ENG" Value="Tiếng Anh"/><Message Name="TRA" Value="Tiếng Hoa Phồn thể"/><Message Name="Query" Value="Truy vấn"/><Message Name="Record Count :" Value="Số lượng dữ liệu:"/><Message Name="Data" Value="Dữ liệu"/><Message Name="SIM" Value="Tiếng Hoa Giản thể"/></Ngôn_ngữ_Việt></Chroma>

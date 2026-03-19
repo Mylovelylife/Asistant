@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>  
+  <繁體中文>
+    <Message Name="Route Name" Value="途程名稱"/>
+    <Message Name="Save" Value="儲存"/>
+    <Message Name="Collapse" Value="摺疊"/>
+    <Message Name="Expand" Value="展開"/>
+    <Message Name="Unnecessary" Value="非必要製程"/>
+    <Message Name="Necessary" Value="必要製程"/>
+    <Message Name="Change Route Name" Value="修改途程名稱"/>
+    <Message Name="Copy Roue From" Value="由...複製途程"/>
+    <Message Name="New Route Name" Value="新途程名稱"/>
+    <Message Name="Copy From" Value="由..複製"/>
+    <Message Name="Time" Value="時間"/>
+    <Message Name="By ID" Value="依編號"/>
+    <Message Name="By Name" Value="依名稱"/>
+    <Message Name="Save OK" Value="儲存完成"/>
+    <Message Name="Move" Value="移動"/>
+    <Message Name="From" Value="來源"/>
+    <Message Name="To" Value="目的"/>
+    <Message Name="Can not add Repair Process" Value="維修站不可放在正常流程或回流站下"/>
+    <Message Name="Not Repair Process" Value="非維修站"/>
+    <Message Name="Must add Repair Process" Value="只能加入維修站"/>
+    <Message Name="Return Process is not at this Route" Value="回流站不在此流程中"/>
+    <Message Name="Process Duplicate" Value="製程重複"/>
+    <Message Name="Delete Route" Value="刪除途程"/>
+    <Message Name="Delete Process" Value="刪除此製程"/>
+    <Message Name="Route had Changed,Save" Value="途程資料有變更,是否儲存"/>
+    <Message Name="Default Input Process" Value="預設投入站"/>
+    <Message Name="Setup Default Input Process" Value="設定為工單預設投入站"/>
+    <Message Name="Setup OK" Value="設定完成"/>
+    <Message Name="Can not have many Repair Process" Value="不可有多個維修站"/>
+    <Message Name="Route Description" Value="途程描述"/>
+    <Message Name="Save? Confirm current route work order not in production!" Value="是否保存？請確認當前途程下的工單沒有在生產！"/>
+
+  </繁體中文>
+<Ngôn_ngữ_Việt><Message Name="Route Name" Value="Tên lộ trình"/><Message Name="Save" Value="Lưu"/><Message Name="Collapse" Value="Thu gọn"/><Message Name="Expand" Value="Mở rộng"/><Message Name="Unnecessary" Value="Công đoạn không bắt buộc"/><Message Name="Necessary" Value="Công đoạn bắt buộc"/><Message Name="Change Route Name" Value="Đổi tên lộ trình"/><Message Name="Copy Roue From" Value="Sao chép lộ trình từ"/><Message Name="New Route Name" Value="Tên lộ trình mới"/><Message Name="Copy From" Value="Sao chép từ"/><Message Name="Time" Value="Thời gian"/><Message Name="By ID" Value="Theo mã"/><Message Name="By Name" Value="Theo tên"/><Message Name="Save OK" Value="Lưu thành công"/><Message Name="Move" Value="Di chuyển"/><Message Name="From" Value="Từ"/><Message Name="To" Value="Đến"/><Message Name="Can not add Repair Process" Value="Không thể thêm trạm sửa chữa vào dưới quy trình bình thường hoặc trạm hồi lưu"/><Message Name="Not Repair Process" Value="Không phải trạm sửa chữa"/><Message Name="Must add Repair Process" Value="Chỉ có thể thêm trạm sửa chữa"/><Message Name="Return Process is not at this Route" Value="Trạm hồi lưu không nằm trong lộ trình này"/><Message Name="Process Duplicate" Value="Công đoạn trùng lặp"/><Message Name="Delete Route" Value="Xóa lộ trình"/><Message Name="Delete Process" Value="Xóa công đoạn"/><Message Name="Route had Changed,Save" Value="Lộ trình đã thay đổi, có lưu lại không?"/><Message Name="Default Input Process" Value="Trạm投入 mặc định"/><Message Name="Setup Default Input Process" Value="Thiết lập làm trạm投入 mặc định của WO"/><Message Name="Setup OK" Value="Thiết lập thành công"/><Message Name="Can not have many Repair Process" Value="Không được có nhiều trạm sửa chữa"/><Message Name="Route Description" Value="Mô tả lộ trình"/><Message Name="Save? Confirm current route work order not in production!" Value="Bạn có muốn lưu? Hãy xác nhận công lệnh trong lộ trình này không còn sản xuất!"/></Ngôn_ngữ_Việt></Chroma>

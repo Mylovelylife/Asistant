@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文>
+    <Message Name="Gateway ID" Value="閘道編號"/>
+    <Message Name="Gateway Description (English)" Value="閘道描述 (英文)"/>
+    <Message Name="Gateway Description (Chinese)" Value="閘道描述 (中文)"/>
+    <Message Name="Status" Value="狀態"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Save" Value="儲存"/>
+    <Message Name="Enabled" Value="可用"/>
+    <Message Name="Disabled" Value="隱藏"/>
+    <Message Name="TGS Server" Value="TGS 伺服器"/>
+    <Message Name="Driver ID" Value="驅動程式編號"/>
+    <Message Name="Gateway Description" Value="閘道描述"/>
+    <Message Name="Count" Value="個數"/>
+    <Message Name="Driver Name" Value="驅動程式名稱"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Delete" Value="刪除"/>
+    <Message Name="TGS Group Layout" Value="TGS 分布"/>
+    <Message Name="Driver Description" Value="驅動程式描述"/>
+    <Message Name="TGS Driver List" Value="TGS 驅動程式列表"/>
+    <Message Name="No." Value="編號"/>
+    <Message Name="Port Name" Value="埠名稱"/>
+    <Message Name="Port Type" Value="埠類型"/>
+    <Message Name="Max Len" Value="最大長度"/>
+    <Message Name="In/Out Port" Value="輸入/輸出埠"/>
+  </繁體中文>
+  <简体中文>
+    <Message Name="Gateway ID" Value="网关编号"/>
+    <Message Name="Gateway Description (English)" Value="网关描述 (英文)"/>
+    <Message Name="Gateway Description (Chinese)" Value="网关描述 (中文)"/>
+    <Message Name="Status" Value="状态"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Save" Value="储存"/>
+    <Message Name="Enabled" Value="可用"/>
+    <Message Name="Disabled" Value="隐藏"/>
+    <Message Name="TGS Server" Value="TGS 服务器"/>
+    <Message Name="Driver ID" Value="驱动程序编号"/>
+    <Message Name="Gateway Description" Value="网关描述"/>
+    <Message Name="Count" Value="个数"/>
+    <Message Name="Driver Name" Value="驱动程序名称"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Delete" Value="删除"/>
+    <Message Name="TGS Group Layout" Value="TGS 分布"/>
+    <Message Name="Driver Description" Value="驱动程序描述"/>
+    <Message Name="TGS Driver List" Value="TGS 驱动程序列表"/>
+    <Message Name="No." Value="编号"/>
+    <Message Name="Port Name" Value="埠名称"/>
+    <Message Name="Port Type" Value="埠类型"/>
+    <Message Name="Max Len" Value="最大长度"/>
+    <Message Name="In/Out Port" Value="输入/输出埠"/>
+  </简体中文>
+
+<Ngôn_ngữ_Việt><Message Name="Gateway Description" Value="Mô tả Gateway"/><Message Name="TGS Driver List" Value="Danh sách Driver TGS"/><Message Name="Delete" Value="Xóa"/><Message Name="TGS Server" Value="Máy chủ TGS"/><Message Name="Port Type" Value="Loại cổng"/><Message Name="Gateway ID" Value="ID Gateway"/><Message Name="Gateway Description (Chinese)" Value="Mô tả Gateway (Tiếng Hoa)"/><Message Name="Disabled" Value="Ẩn"/><Message Name="Driver Description" Value="Mô tả Driver"/><Message Name="Modify" Value="Chỉnh sửa"/><Message Name="TGS Group Layout" Value="Bố trí nhóm TGS"/><Message Name="Driver Name" Value="Tên Driver"/><Message Name="Port Name" Value="Tên cổng"/><Message Name="No." Value="Số thứ tự"/><Message Name="Count" Value="Số lượng"/><Message Name="Driver ID" Value="Mã Driver"/><Message Name="Max Len" Value="Độ dài tối đa"/><Message Name="Status" Value="Trạng thái"/><Message Name="In/Out Port" Value="Cổng vào/ra"/><Message Name="Gateway Description (English)" Value="Mô tả Gateway (Tiếng Anh)"/><Message Name="Save" Value="Lưu"/><Message Name="Cancel" Value="Hủy"/><Message Name="Enabled" Value="Kích hoạt"/></Ngôn_ngữ_Việt></Chroma>

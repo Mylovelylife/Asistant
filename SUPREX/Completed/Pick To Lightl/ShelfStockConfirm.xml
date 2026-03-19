@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<简体中文>
+		<Message Name="Check Stock" Value="核对库存开始"/>
+		<Message Name="Finish" Value="核对库存结束"/>
+		<Message Name="Location" Value="储位号"/>
+		<Message Name="Shelf No" Value="货架号"/>
+		<Message Name="Status" Value="储位状态"/>
+		<Message Name="QTY" Value="数量"/>
+		<Message Name="Task Not Completed" Value="有下架任务未完成"/>
+		<Message Name="Check OK" Value="核对完成"/>
+	</简体中文>
+	<繁體中文>
+		<Message Name="Check Stock" Value="核對庫存開始"/>
+		<Message Name="Finish" Value="核對庫存結束"/>
+		<Message Name="Location" Value="儲位號"/>
+		<Message Name="Shelf No" Value="貨架號"/>
+		<Message Name="Status" Value="儲位元狀態"/>
+		<Message Name="QTY" Value="數量"/>
+		<Message Name="Task Not Completed" Value="有下架任務未完成"/>
+		<Message Name="Check OK" Value="核對完成"/>
+		<Message Name="Light Loc" Value="亮燈位"/>
+		<Message Name="No Check Data" Value="無需核對"/>
+	</繁體中文>
+<Ngôn_ngữ_Việt><Message Name="Check Stock" Value="Bắt đầu kiểm tra tồn kho"/><Message Name="Finish" Value="Kết thúc kiểm tra tồn kho"/><Message Name="Location" Value="Mã vị trí"/><Message Name="Shelf No" Value="Mã kệ"/><Message Name="Status" Value="Trạng thái vị trí"/><Message Name="QTY" Value="Số lượng"/><Message Name="Task Not Completed" Value="Có nhiệm vụ tháo xuống chưa hoàn thành"/><Message Name="Check OK" Value="Hoàn tất kiểm tra"/><Message Name="Light Loc" Value="Vị trí đèn sáng"/><Message Name="No Check Data" Value="Không cần kiểm tra"/></Ngôn_ngữ_Việt></Chroma>

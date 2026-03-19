@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <English>
+    <Message Name="WORK_ORDER" Value="Work Order"/>
+    <Message Name="PART_NO" Value="Part No"/>
+    <Message Name="SPEC1" Value="Spec1"/>
+    <Message Name="SPEC2" Value="Spec2"/>
+    <Message Name="PROCESS_NAME" Value="Process Name"/>
+    <Message Name="TERMINAL_NAME" Value="Terminal Name"/>
+    <Message Name="MACHINE_NAME" Value="Machine Name"/>
+    <Message Name="MACHINE_DESC" Value="Machine Desc"/>
+    <Message Name="PROCESS_DESC" Value="Process Desc"/>
+    <Message Name="PROCESS_DESC2" Value="Process Desc2"/>
+    <Message Name="STAGE_NAME" Value="Stage Name"/>
+    <Message Name="STAGE_DESC" Value="Stage Desc"/>
+    <Message Name="STAGE_DESC2" Value="Stage Desc2"/>
+    <Message Name="PART_TYPE" Value="Part Type"/>
+    <Message Name="INCOMING_NO" Value="Incoming No"/>
+    <Message Name="SERIAL_NUMBER" Value="Serial Number"/>
+    <Message Name="MODEL_NAME" Value="Model Name"/>
+    <Message Name="PDLINE_NAME" Value="Line Name"/>
+    <Message Name="MACHINE_DESC2" Value="Machine Desc2"/>
+    <Message Name="MACHINE_CODE" Value="Machine Code"/>
+    <Message Name="MACHINE_TYPE_NAME" Value="Machine Type"/>
+    <Message Name="MACHINE_TYPE_DESC" Value="Machine Type Desc"/>
+    <Message Name="TOOLING_NO" Value="Tooling No"/>
+    <Message Name="TOOLING_TYPE" Value="Tooling Type"/>
+    <Message Name="SUB_PART_NO" Value="替代料號"/>
+    <Message Name="EMP_NAME" Value="異動人員"/>
+    <Message Name="DUE_DATE" Value="到期日"/>
+    <Message Name="LIMIT_FLAG" Value="限用"/>
+    <Message Name="CER_NO" Value="驗證單號"/>
+    <Message Name="CER_MODEL" Value="機種"/>
+    <Message Name="SUB_MEMO" Value="備註"/>
+    <Message Name="PM" Value="生管主管"/>
+    <Message Name="PM_TIME" Value="生管主管簽核時間"/>
+    <Message Name="PE" Value="產工"/>
+    <Message Name="PE_TIME" Value="產工簽核時間"/>
+    <Message Name="PEM" Value="產工主管"/>
+    <Message Name="PEM_TIME" Value="產工主管簽核時間"/>
+    <Message Name="EMPTY_FLAG" Value="用畢"/>
+    <Message Name="ALARM_FLAG" Value="不告警"/>
+    <Message Name="CREATE_DATE" Value="建立日期"/>
+    <Message Name="VERIFY_FLAG" Value="關聯"/>
+  </English>
+  <繁體中文>
+    <Message Name="WORK_ORDER" Value="工單"/>
+    <Message Name="PART_NO" Value="料號"/>
+    <Message Name="SPEC1" Value="規格描述1"/>
+    <Message Name="SPEC2" Value="規格描述2"/>
+    <Message Name="PROCESS_NAME" Value="製程名稱"/>
+    <Message Name="TERMINAL_NAME" Value="工作站"/>
+    <Message Name="MACHINE_NAME" Value="機台名稱"/>
+    <Message Name="MACHINE_DESC" Value="機台描述"/>
+    <Message Name="PROCESS_DESC" Value="製程描述"/>
+    <Message Name="PROCESS_DESC2" Value="製程描述2"/>
+    <Message Name="STAGE_NAME" Value="區段名稱"/>
+    <Message Name="STAGE_DESC" Value="區段描述"/>
+    <Message Name="STAGE_DESC2" Value="區段描述2"/>
+    <Message Name="PART_TYPE" Value="料號類型"/>
+    <Message Name="INCOMING_NO" Value="入庫單號"/>
+    <Message Name="SERIAL_NUMBER" Value="序號"/>
+    <Message Name="MODEL_NAME" Value="機種名稱"/>
+    <Message Name="PDLINE_NAME" Value="生產線"/>
+    <Message Name="MACHINE_DESC2" Value="機台描述2"/>
+    <Message Name="MACHINE_CODE" Value="機台代碼"/>
+    <Message Name="MACHINE_TYPE_NAME" Value="機台類型"/>
+    <Message Name="MACHINE_TYPE_DESC" Value="機台類型描述"/>
+    <Message Name="SUB_PART_NO" Value="替代料號"/>
+    <Message Name="EMP_NAME" Value="異動人員"/>
+    <Message Name="DUE_DATE" Value="到期日"/>
+    <Message Name="LIMIT_FLAG" Value="限用"/>
+    <Message Name="CER_NO" Value="驗證單號"/>
+    <Message Name="CER_MODEL" Value="機種"/>
+    <Message Name="SUB_MEMO" Value="備註"/>
+    <Message Name="PM" Value="生管主管"/>
+    <Message Name="PM_TIME" Value="生管主管簽核時間"/>
+    <Message Name="PE" Value="產工"/>
+    <Message Name="PE_TIME" Value="產工簽核時間"/>
+    <Message Name="PEM" Value="產工主管"/>
+    <Message Name="PEM_TIME" Value="產工主管簽核時間"/>
+    <Message Name="EMPTY_FLAG" Value="用畢"/>
+    <Message Name="ALARM_FLAG" Value="不告警"/>
+    <Message Name="CREATE_DATE" Value="建立日期"/>
+    <Message Name="VERIFY_FLAG" Value="關聯"/>
+  </繁體中文>
+  <简体中文>
+    <Message Name="WORK_ORDER" Value="工单"/>
+    <Message Name="PART_NO" Value="料号"/>
+    <Message Name="SPEC1" Value="物料类型"/>
+    <Message Name="SPEC2" Value="物料描述"/>
+    <Message Name="PROCESS_NAME" Value="制程名称"/>
+    <Message Name="TERMINAL_NAME" Value="工作站"/>
+    <Message Name="MACHINE_NAME" Value="机台名称"/>
+    <Message Name="MACHINE_DESC" Value="机台描述"/>
+    <Message Name="PROCESS_DESC" Value="制程描述"/>
+    <Message Name="PROCESS_DESC2" Value="制程描述2"/>
+    <Message Name="STAGE_NAME" Value="区段名称"/>
+    <Message Name="STAGE_DESC" Value="区段描述"/>
+    <Message Name="STAGE_DESC2" Value="区段描述2"/>
+    <Message Name="PART_TYPE" Value="料号类型"/>
+    <Message Name="INCOMING_NO" Value="入库单号"/>
+    <Message Name="SERIAL_NUMBER" Value="序号"/>
+    <Message Name="MODEL_NAME" Value="机种名称"/>
+    <Message Name="PDLINE_NAME" Value="车间"/>
+    <Message Name="MACHINE_DESC2" Value="机台描述2"/>
+    <Message Name="MACHINE_CODE" Value="机台代码"/>
+    <Message Name="MACHINE_TYPE_NAME" Value="机台类型"/>
+    <Message Name="MACHINE_TYPE_DESC" Value="机台类型描述"/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="WORK_ORDER" Value="Lệnh sản xuất"/><Message Name="PART_NO" Value="Mã linh kiện"/><Message Name="SPEC1" Value="Thông số 1"/><Message Name="SPEC2" Value="Thông số 2"/><Message Name="PROCESS_NAME" Value="Tên công đoạn"/><Message Name="TERMINAL_NAME" Value="Trạm làm việc"/><Message Name="MACHINE_NAME" Value="Tên máy"/><Message Name="MACHINE_DESC" Value="Mô tả máy"/><Message Name="PROCESS_DESC" Value="Mô tả công đoạn"/><Message Name="PROCESS_DESC2" Value="Mô tả công đoạn 2"/><Message Name="STAGE_NAME" Value="Tên giai đoạn"/><Message Name="STAGE_DESC" Value="Mô tả giai đoạn"/><Message Name="STAGE_DESC2" Value="Mô tả giai đoạn 2"/><Message Name="PART_TYPE" Value="Loại linh kiện"/><Message Name="INCOMING_NO" Value="Mã phiếu nhập"/><Message Name="SERIAL_NUMBER" Value="Số seri"/><Message Name="MODEL_NAME" Value="Tên model"/><Message Name="PDLINE_NAME" Value="Dây chuyền"/><Message Name="MACHINE_DESC2" Value="Mô tả máy 2"/><Message Name="MACHINE_CODE" Value="Mã máy"/><Message Name="MACHINE_TYPE_NAME" Value="Loại máy"/><Message Name="MACHINE_TYPE_DESC" Value="Mô tả loại máy"/><Message Name="TOOLING_NO" Value="Mã đồ gá"/><Message Name="TOOLING_TYPE" Value="Loại đồ gá"/><Message Name="SUB_PART_NO" Value="Mã vật liệu thay thế"/><Message Name="EMP_NAME" Value="Người cập nhật"/><Message Name="DUE_DATE" Value="Ngày hết hạn"/><Message Name="LIMIT_FLAG" Value="Hạn dùng"/><Message Name="CER_NO" Value="Số chứng nhận"/><Message Name="CER_MODEL" Value="Model"/><Message Name="SUB_MEMO" Value="Ghi chú"/><Message Name="PM" Value="Quản lý sản xuất"/><Message Name="PM_TIME" Value="Thời gian duyệt của quản lý sản xuất"/><Message Name="PE" Value="Công nghệ sản xuất"/><Message Name="PE_TIME" Value="Thời gian duyệt của PE"/><Message Name="PEM" Value="Trưởng bộ phận PE"/><Message Name="PEM_TIME" Value="Thời gian duyệt của trưởng PE"/><Message Name="EMPTY_FLAG" Value="Đã dùng hết"/><Message Name="ALARM_FLAG" Value="Không cảnh báo"/><Message Name="CREATE_DATE" Value="Ngày tạo"/><Message Name="VERIFY_FLAG" Value="Liên kết"/></Ngôn_ngữ_Việt></Chroma>

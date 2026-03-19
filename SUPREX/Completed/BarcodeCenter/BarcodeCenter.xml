@@ -1,0 +1,29 @@
+﻿<Chroma>
+  <繁體中文>
+    <Message Name="Box No" Value="彩盒" />
+    <Message Name="Carton No" Value="外箱" />
+    <Message Name="Customer SN" Value="客戶序號" />
+    <Message Name="MAC" Value="MAC" />
+    <Message Name="Pallet No" Value="棧板" />
+    <Message Name="Serial Number" Value="廠內序號" />
+    <Message Name="Panel No" Value="大板" />
+  </繁體中文>
+<Ngôn_ngữ_Việt>
+  <Message Name="Box No" Value="Hộp màu (Box)" />
+<Message Name="Carton No" Value="Thùng ngoài" />
+<Message Name="Customer SN" Value="Số serial khách hàng" />
+<Message Name="MAC" Value="MAC" />
+<Message Name="Pallet No" Value="Pallet" />
+<Message Name="Serial Number" Value="Số serial nội bộ" />
+<Message Name="Panel No" Value="Bảng lớn (Panel)" />
+</Ngôn_ngữ_Việt>
+  <简体中文>
+    <Message Name="Box No" Value="彩盒" />
+    <Message Name="Carton No" Value="外箱" />
+    <Message Name="Customer SN" Value="客户序号" />
+    <Message Name="MAC" Value="MAC" />
+    <Message Name="Pallet No" Value="栈板" />
+    <Message Name="Serial Number" Value="厂内序号" />
+    <Message Name="Panel No" Value="大板" />			
+  </简体中文>	
+</Chroma>

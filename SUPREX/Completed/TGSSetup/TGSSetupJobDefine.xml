@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文>
+    <Message Name="Job Type" Value="工作類型"/>
+    <Message Name="Sproc Name" Value="預存程序名稱"/>
+    <Message Name="Job Seq" Value="工作次序"/>
+    <Message Name="Job Link" Value="工作連結"/>
+    <Message Name="Job ID" Value="工作編號"/>
+    <Message Name="Job Desc(English)" Value="工作描述(英文)"/>
+    <Message Name="Job Desc(Chinese)" Value="工作描述(中文)"/>
+    <Message Name="Delete" Value="刪除"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="Job List" Value="工作清單"/>
+    <Message Name="Owner" Value="持有者"/>
+    <Message Name="Procedure" Value="程序"/>
+    <Message Name="Enabled" Value="可用"/>
+    <Message Name="Disabled" Value="隱藏"/>
+    <Message Name="All" Value="全部"/>
+    <Message Name="Job Type Maintain" Value="工作類型維護"/>
+    <Message Name="Job Type Name" Value="工作類型名稱"/>
+    <Message Name="Job Description(Chinese)" Value="工作描述(中文)"/>
+    <Message Name="Job Description(English)" Value="工作描述(英文)"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Save" Value="儲存"/>    
+  </繁體中文>
+  <简体中文>
+    <Message Name="Job Type" Value="工作类型"/>
+    <Message Name="Sproc Name" Value="预存程序名称"/>
+    <Message Name="Job Seq" Value="工作次序"/>
+    <Message Name="Job Link" Value="工作连结"/>
+    <Message Name="Job ID" Value="工作编号"/>
+    <Message Name="Job Desc(English)" Value="工作描述(英文)"/>
+    <Message Name="Job Desc(Chinese)" Value="工作描述(中文)"/>
+    <Message Name="Delete" Value="删除"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="Job List" Value="工作清单"/>
+    <Message Name="Owner" Value="持有者"/>
+    <Message Name="Procedure" Value="程序"/>
+    <Message Name="Enabled" Value="可用"/>
+    <Message Name="Disabled" Value="隐藏"/>
+    <Message Name="All" Value="全部"/>
+    <Message Name="Job Type Maintain" Value="工作类型维护"/>
+    <Message Name="Job Type Name" Value="工作类型名称"/>
+    <Message Name="Job Description(Chinese)" Value="工作描述(中文)"/>
+    <Message Name="Job Description(English)" Value="工作描述(英文)"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Save" Value="储存"/>    
+  </简体中文>
+
+<Ngôn_ngữ_Việt><Message Name="Append" Value="Thêm mới"/><Message Name="Job Type Maintain" Value="Bảo trì loại công việc"/><Message Name="Job Description(English)" Value="Mô tả công việc (Tiếng Anh)"/><Message Name="Job List" Value="Danh sách công việc"/><Message Name="Delete" Value="Xóa"/><Message Name="Job Type Name" Value="Tên loại công việc"/><Message Name="Owner" Value="Người sở hữu"/><Message Name="Disabled" Value="Ẩn"/><Message Name="Job ID" Value="Mã công việc"/><Message Name="Job Seq" Value="Thứ tự công việc"/><Message Name="Modify" Value="Chỉnh sửa"/><Message Name="Job Type" Value="Loại công việc"/><Message Name="Job Link" Value="Liên kết công việc"/><Message Name="Procedure" Value="Thủ tục"/><Message Name="Job Description(Chinese)" Value="Mô tả công việc (Tiếng Hoa)"/><Message Name="Sproc Name" Value="Tên thủ tục lưu trữ"/><Message Name="Save" Value="Lưu"/><Message Name="Cancel" Value="Hủy"/><Message Name="All" Value="Tất cả"/><Message Name="Job Desc(English)" Value="Mô tả công việc (Tiếng Anh)"/><Message Name="Job Desc(Chinese)" Value="Mô tả công việc (Tiếng Hoa)"/><Message Name="Enabled" Value="Kích hoạt"/></Ngôn_ngữ_Việt></Chroma>

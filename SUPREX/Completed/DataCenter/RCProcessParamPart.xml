@@ -1,0 +1,2495 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Chroma>
+  <English>
+    <Message Name="Part No" Value="Part No" />
+    <Message Name="Version" Value="Version" />
+    <Message Name="Customer" Value="Customer" />
+    <Message Name="Part Type" Value="Part Type" />
+    <Message Name="Document Type" Value="Document Type" />
+    <Message Name="STR Copy" Value="STR Copy" />
+
+    <Message Name="Product Data" Value="Product Data" />
+    <Message Name="Part No. no Product Data" Value="Part No. no Product Data" />
+    <Message Name="Planned Lot Cycle Time(Day)" Value="Planned Lot Cycle Time(Day)" />
+    <Message Name="Planned Lot Yield(Lot)" Value="Planned Lot Yield(Lot)" />
+    <Message Name="Product Information" Value="Product Information" />
+    <Message Name="Package Type" Value="Package Type" />
+    <Message Name="Pin Number" Value="Pin Number" />
+    <Message Name="Wafer Size" Value="Wafer Size" />
+    <Message Name="Index X (mil)" Value="Index X (mil)" />
+    <Message Name="Y(mil)" Value="Y(mil)" />
+    <Message Name="Flash/Notch Direction" Value="Flash/Notch Direction" />
+    <Message Name="Total Test Die" Value="Total Test Die" />
+    <Message Name="Gross Die" Value="Gross Die" />
+    <Message Name="Probing Direction" Value="Probing Direction" />
+
+    <Message Name="Equipment" Value="Equipment" />
+    <Message Name="MACHINE_ID" Value="Machine Id" />
+    <Message Name="MACHINE_CODE" Value="Machine Code" />
+    <Message Name="MACHINE_DESC" Value="Machine Desc" />
+    <Message Name="MACHINE_LOC" Value="Machine Loc" />
+    <Message Name="Machine Code" Value="Machine Code" />
+    <Message Name="MACHINE_TYPE_NAME" Value="Machine Type Name" />
+    <Message Name="MACHINE_TYPE_DESC" Value="Machine Type Desc" />
+    <Message Name="PRIORITY" Value="Priority" />
+    <Message Name="SORT" Value="Sort" />
+
+    <Message Name="Fixture" Value="Fixture" />
+    <Message Name="TOOLING_ID" Value="Tooling Id" />
+    <Message Name="TOOLING_NAME" Value="Tooling Name" />
+    <Message Name="TOOLING_DESC" Value="Tooling Desc" />
+    <Message Name="TOOLING_NO" Value="Tooling No" />
+    <Message Name="Tooling Name" Value="Tooling Name" />
+
+    <Message Name="Program" Value="Program" />
+    <Message Name="Program Name" Value="Program Name" />
+    <Message Name="Release Date" Value="Release Date" />
+    <Message Name="BIN Name" Value="BIN Name" />
+    <Message Name="BIN_NAME" Value="BIN Name" />
+    <Message Name="Program Related Information" Value="Program Related Information" />
+    <Message Name="Test Temperature" Value="Test Temperature" />
+    <Message Name="Program Note" Value="Program Note" />
+    <Message Name="Environment Change" Value="Environment Change" />
+    <Message Name="Production Mode Verify(If Environment Change is 'Yes')" Value="Production Mode Verify(If Environment Change is 'Yes')" />
+    <Message Name="Site Times(s)" Value="Site Times(s)" />
+    <Message Name="Site Index Times(s)" Value="Site Index Times(s)" />
+    <Message Name="Site Count" Value="Site Count" />
+    <Message Name="1ea Times(s)" Value="1ea Times(s)" />
+    <Message Name="Release Yield(%)" Value="Release Yield(%)" />
+    <Message Name="BIN_ID" Value="BIN ID" />
+    <Message Name="BIN_NAME" Value="BIN Name" />
+    <Message Name="BIN_DESC" Value="BIN Desc" />
+
+    <Message Name="Judgment Inspection Standard" Value="Judgment Inspection Standard" />
+
+    <Message Name="Hold Name" Value="Hold Name" />
+    <Message Name="Hold Name Already Exist" Value="Hold Name Already Exist" />
+    <Message Name="Hold Name not Exist" Value="Hold Name not Exist" />
+    <Message Name="HOLD_CODE_DESC" Value="Hold Code Desc" />
+    <Message Name="HOLD_CODE" Value="Hold Code" />
+    <Message Name="HOLD_NAME" Value="Hold Name" />
+
+    <Message Name="TANGO_CLASS" Value="Tango Class" />
+    <Message Name="TANGO_CONTENT" Value="Tango Content" />
+    <Message Name="Rule Class" Value="Rule Class" />
+    <Message Name="sub Rule" Value="Sub Rule" />
+    <Message Name="PARAM_NAME" Value="Param Name" />
+    <Message Name="PARAM_VALUE" Value="Param Value" />
+
+    <Message Name="Run Card Maintain" Value="Run Card Maintain" />
+    <Message Name="RUNCARD_SEQ" Value="Run Card SEQ" />
+    <Message Name="CHECK_EN" Value="Check EN" />
+    <Message Name="CHECK_TC" Value="Check TC" />
+    <Message Name="OPERATION_EN" Value="Operation EN" />
+    <Message Name="OPERATION_TC" Value="Operation TC" />
+    <Message Name="Run Card Seq" Value="Run Card Seq" />
+    <Message Name="Checking matters" Value="Checking matters" />
+    <Message Name="Precautions for operation" Value="Precautions for operation" />
+
+    <Message Name="Stage Name" Value="Stage Name" />
+    <Message Name="Stage Description" Value="Description" />
+    <Message Name="Stage Code" Value="Stage Code" />
+    <Message Name="Process Name" Value="Process Name" />
+    <Message Name="Description" Value="Description" />
+    <Message Name="Description2" Value="Description2" />
+    <Message Name="Process Code" Value="Process Code" />
+    <Message Name="Operate Type" Value="Operate Type" />
+    <Message Name="STAGE_NAME" Value="Stage Name" />
+    <Message Name="has one or more Processes" Value="has one or more Processes" />
+    <Message Name="Can not delete it" Value="Can not delete it" />
+    <Message Name="has one or more Terminals" Value="has one or more Terminals" />
+    <Message Name="Please Select a Item." Value="Please Select a Item." />
+    <Message Name="Please Select One Item." Value="Please Select One Item." />
+    <Message Name="Delete the Item?" Value="Delete the Item?" />
+    <Message Name="Delete Item : " Value="Delete Item : " />
+    <Message Name=" Error." Value=" Error." />
+    <Message Name="Please Input Part No." Value="Please Input Part No" />
+    <Message Name="Please Select Target Process." Value="Please Select Target Process" />
+    <Message Name="Delete Item Error." Value="Delete Item Error" />
+    <Message Name="Error Part No." Value="Error Part No" />
+    <Message Name="Error Copy Part No." Value="Error Copy Part No" />
+    <Message Name="Add another one" Value="Add another one" />
+    <Message Name="Add Error." Value="Add Error" />
+    <Message Name="Please Input Default Value." Value="Please Input Default Value" />
+    <Message Name="Please Create List item." Value="Please Create List item" />
+    <Message Name="Please Input min Value." Value="Please Input min Value" />
+    <Message Name="Please Input Max Value." Value="Please Input Max Value" />
+    <Message Name="Please Input min Value in Number" Value="Please Input min Value in Number" />
+    <Message Name="Please Input Max Value in Number" Value="Please Input Max Value in Number" />
+    <Message Name="Item Sequence is Duplicate." Value="Item Sequence is Duplicate" />
+    <Message Name="Please Input Item Name." Value="Please Input Item Name" />
+    <Message Name="Item Name is duplicate." Value="Item Name is duplicate" />
+    <Message Name="Check Data Error." Value="Check Data Error" />
+    <Message Name="Error." Value="Error" />
+    <Message Name="Please Choose Process." Value="Please Choose Process" />
+    <Message Name="Data Duplcate in " Value="Data Duplcate in " />
+    <Message Name="Error Copy." Value="Error Copy" />
+    <Message Name="Origin" Value="Origin" />
+    <Message Name="Target" Value="Target" />
+    <Message Name="Select All" Value="Select All" />
+    <Message Name="OK" Value="OK" />
+    <Message Name="Cancel" Value="Cancel" />
+    <Message Name="Process" Value="Process" />
+    <Message Name="Add" Value="Add" />
+    <Message Name="Modify" Value="Modify" />
+
+    <Message Name="Process Condition" Value="Process Condition" />
+    <Message Name="Data Collection" Value="Data Collection" />
+    <Message Name="SN Process Condition" Value="SN Process Condition" />
+    <Message Name="SN Data Collection" Value="SN Data Collection" />
+    <Message Name="ITEM_NAME" Value="Item Name" />
+    <Message Name="ITEM_NAME_DESC" Value="Item Name Desc" />
+    <Message Name="ITEM_PHASE" Value="Item Phase" />
+    <Message Name="ITEM_TYPE" Value="Item Type" />
+    <Message Name="ITEM_SEQ" Value="Item Seq" />
+    <Message Name="VALUE_TYPE" Value="Value Type" />
+    <Message Name="INPUT_TYPE" Value="Input Type" />
+    <Message Name="VALUE_DEFAULT" Value="Value Default" />
+    <Message Name="VALUE_LIST" Value="Value List" />
+    <Message Name="NECESSARY" Value="Necessary" />
+    <Message Name="CONVERT_TYPE" Value="Convert Type" />
+    <Message Name="UPDATE_USERID" Value="Update Userid" />
+    <Message Name="UPDATE_TIME" Value="Update Time" />
+    <Message Name="ENABLED" Value="Enabled" />
+    <Message Name="Item Seq" Value="Item Seq" />
+    <Message Name="Item Name" Value="Item Name" />
+    <Message Name="Item Phase" Value="Item Phase" />
+    <Message Name="Value Type" Value="Value Type" />
+    <Message Name="Input Type" Value="Input Type" />
+    <Message Name="Default" Value="Default" />
+    <Message Name="Item List" Value="Item List" />
+    <Message Name="Convert Type" Value="Convert Type" />
+    <Message Name="Range" Value="Range" />
+    <Message Name="EMP_NO" Value="Emp No" />
+    <Message Name="Necessary" Value="Necessary" />
+    <Message Name="Collapse" Value="Collapse" />
+    <Message Name="Expand" Value="Expand" />
+    <Message Name="Copy" Value="Copy" />
+    <Message Name="Item Sequence" Value="Item Sequence" />
+    <Message Name="Choose" Value="Choose" />
+    <Message Name="Copy Part Parameter" Value="Copy Part Parameter" />
+    <Message Name="Please Input Item Value in Number" Value="Please Input Item Value in Number" />
+    <Message Name="Item" Value="Item" />
+    <Message Name="Key In" Value="Key In" />
+    <Message Name="Select List" Value="Select List" />
+    <Message Name="PART_NO" Value="Part No" />
+    <Message Name="PART_TYPE" Value="Part Type" />
+    <Message Name="SPEC1" Value="Spec1" />
+    <Message Name="SPEC2" Value="Spec2" />
+    <Message Name="MATERIAL_TYPE" Value="Material Type" />
+    <Message Name="Alert Msg" Value="Alert Msg" />
+    <Message Name="Alert" Value="Alert" />
+    <Message Name="Alert Type" Value="Alert Type" />
+    <Message Name="Title" Value="Title" />
+    <Message Name="Content" Value="Content" />
+    <Message Name="ALERT_TYPE" Value="Alert Type" />
+    <Message Name="ITEM_TITLE" Value="Item Title" />
+    <Message Name="ITEM_CONTENT" Value="Item Content" />
+    <Message Name="WIP IN" Value="Wip In" />
+    <Message Name="WIP OUT" Value="Wip Out" />
+    <Message Name="Info" Value="Info" />
+    <Message Name="Warn" Value="Warn" />
+    <Message Name="Error" Value="Error" />
+    <Message Name="Needed Item Cannot Be Empty" Value="Needed Item Cannot Be Empty" />
+    <Message Name="Item Name Already Exist" Value="Item Name Already Exist" />
+    <Message Name="Item Name Or Seq Already Exist" Value="Item Name Or Seq Already Exist" />
+    <Message Name="PROCESS" Value="Process" />
+    <Message Name="PART_ID" Value="Part ID" />
+    <Message Name="VERSION" Value="Version" />
+    <Message Name="Please Select a Alert Item." Value="Please Select a Alert Item" />
+    <Message Name="Link" Value="Link" />
+    <Message Name="Print" Value="Print" />
+    <Message Name="Property" Value="Property" />
+    <Message Name="PROPERTY_NAME" Value="Property Name" />
+    <Message Name="PROPERTY_VALUE" Value="Property Value" />
+    <Message Name="PROPERTY_ID" Value="Property ID" />
+    <Message Name="Value Type Are Not The Same" Value="Value Type Are Not The Same" />
+    <Message Name="Property Not Find" Value="Property Not Find" />
+    <Message Name="Varchar2" Value="Character" />
+    <Message Name="Number" Value="Number" />
+    <Message Name="Key In" Value="Key In" />
+    <Message Name="Select List" Value="Select List" />
+    <Message Name="None" Value="None" />
+    <Message Name="Uppercase" Value="Uppercase" />
+    <Message Name="Lowercase" Value="Lowercase" />
+    <Message Name="UnNecessary" Value="UnNecessary" />
+    <Message Name="Necessary" Value="Necessary" />
+    <Message Name="SAMPLING_ID" Value="Sampling ID" />
+    <Message Name="Sampling ID" Value="Sampling ID" />
+    <Message Name="SAMPLING_TYPE" Value="Sampling Type" />
+    <Message Name="SAMPLING_DESC" Value="Sampling Desc" />
+    <Message Name="Sampling Plan Not Find" Value="Sampling Plan Not Find" />
+
+    <Message Name="KEYIN_FLAG" Value="Keyin Flag" />
+    <Message Name="ITEM_PN" Value="Item PN" />
+    <Message Name="QTY" Value="Qty" />
+    <Message Name="UNIT_USED" Value="Unit Used" />
+    <Message Name="DEFAULT_LOTNO" Value="Default LotNo" />
+    <Message Name="Material" Value="Material" />
+    <Message Name="Tester" Value="Tester"/>
+    <Message Name="Expected effective date" Value="Expected effective date"/>
+    <Message Name="Version" Value="Version	"/>
+    <Message Name="LR Leader" Value="LR Leader"/>
+    <Message Name="Effective Date" Value="Effective Date"/>
+    <Message Name="Program" Value="Program"/>
+    <Message Name="OI corresponding product program" Value="OI corresponding product program"/>
+    <Message Name="Prober Card" Value="Prober Card"/>
+    <Message Name="Prober/Handler" Value="Prober/Handler"/>
+    <Message Name="D/B NO" Value="D/B NO"/>
+    <Message Name="C/B NO" Value="C/B NO"/>
+    <Message Name="C/K NO" Value="C/K NO"/>
+    <Message Name="L/B NO" Value="L/B NO"/>
+    <Message Name="Directory" Value="Directory"/>
+    <Message Name="Test Time" Value="Test Time"/>
+    <Message Name="Interface" Value="Interface"/>
+    <Message Name="Bake Time(hr)" Value="Bake Time(hr)"/>
+    <Message Name="Hold Limit(Wafer)" Value="Hold Limit(Wafer)"/>
+    <Message Name="Hold Limit(Lot)" Value="Hold Limit(Lot)"/>
+    <Message Name="TEMP/SOAK" Value="TEMP/SOAK"/>
+    <Message Name="Special Yield" Value="Special Yield"/>
+    <Message Name="Scrap Limits" Value="v"/>
+    <Message Name="Option" Value="Option"/>
+    <Message Name="Module Limits" Value="Module Limits"/>
+    <Message Name="Prober File" Value="Prober File"/>
+    <Message Name="O/S" Value="O/S"/>
+    <Message Name="Handle File 1" Value="Handle File 1"/>
+    <Message Name="Modle 1" Value="Modle 1"/>
+    <Message Name="Value 1" Value="Value 1"/>
+    <Message Name="Handle File 2" Value="Handle File 2"/>
+    <Message Name="Modle 2" Value="Modle 2"/>
+    <Message Name="Value 2" Value="Value 2"/>
+    <Message Name="Environment 1" Value="Environment 1"/>
+    <Message Name="Office Version" Value="Office Version"/>
+    <Message Name="OS Version" Value="OS Version"/>
+    <Message Name="Test module" Value="Test module"/>
+    <Message Name="Environment 2" Value="Environment 2"/>
+    <Message Name="Program" Value="Program"/>
+    <Message Name="Environment 3" Value="Environment 3"/>
+    <Message Name="Double Contact Function" Value="Double Contact Function"/>
+    <Message Name="Double Repeat Function" Value="Double Repeat Function"/>
+    <Message Name="OI Version" Value="OI Version"/>
+    <Message Name="Download Tango CPB" Value="Download Tango CPB"/>
+    <Message Name="TestBIN" Value="TestBIN"/>
+    <Message Name="Retest" Value="Retest"/>
+    <Message Name="Soaking Time" Value="Soaking Time"/>
+    <Message Name="Clear needle number" Value="Clear needle number"/>
+    <Message Name="Temperature" Value="Temperature"/>
+    <Message Name="Map shift check die (X)" Value="Map shift check die (X)"/>
+    <Message Name="Map shift check die (Y)" Value="Map shift check die (Y)"/>
+    <Message Name="Correlation wafer ID" Value="Correlation wafer ID"/>
+    <Message Name="Script name" Value="Script name"/>
+    <Message Name="Test Program Condition" Value="Test Program Condition"/>
+    <Message Name="Test_Code 1" Value="Test Code 1"/>
+    <Message Name="Test_Code 2" Value="Test Code 2"/>
+    <Message Name="Test_Code 3" Value="Test Code 3"/>
+    <Message Name="Test_Code 4" Value="Test Code 4"/>
+    <Message Name="Test_Code 5" Value="Test Code 5"/>
+    <Message Name="Clean setting(CP/FT)" Value="Clean setting(CP/FT)"/>
+    <Message Name="Contact count" Value="Contact count"/>
+    <Message Name="Interval (a) Die" Value="Interval (a) Die"/>
+    <Message Name="(b) wafer" Value="(b) wafer"/>
+    <Message Name="Overdrive Mode" Value="Overdrive Mode"/>
+    <Message Name="Over drive Limit(%)" Value="Over drive Limit(%)"/>
+
+    <Message Name="Item Part No" Value="Item Part No" />
+    <Message Name="Qty" Value="Qty" />
+    <Message Name="KeyIn Lot No" Value="KeyIn Lot No" />
+    <Message Name="Default Lot No" Value="Default Lot No" />
+    <Message Name="Unit Used" Value="Unit Used" />
+    <Message Name="Phase" Value="Phase" />
+    <Message Name="Item Part No is duplicate." Value="Item Part No is duplicate" />
+    <Message Name="Please Input Item Part No." Value="Please Input Item Part No" />
+    <Message Name="Please Select One Material Item." Value="Please Select One Material Item" />
+    <Message Name="MATERIAL_LOT_NO" Value="Material Lot No" />
+    <Message Name="TOTAL_QTY" Value="Total Qty" />
+    <Message Name="CURRENT_QTY" Value="Current Qty" />
+    <Message Name="Item Part No Empty" Value="Item Part No Empty" />
+    <Message Name="Please Input Qty." Value="Please Input Qty" />
+    <Message Name="Item Sequence is Duplicate." Value="Item Sequence is Duplicate" />
+    <Message Name="Sub PN" Value="Sub PN" />
+    <Message Name="Sub Material Duplicate" Value="Sub Material Duplicate" />
+    <Message Name="Substitute material" Value="Substitute material" />
+    <Message Name="Item Part No is Sub Material." Value="Item Part No is Sub Material" />
+    <Message Name="Sub Material Is Item Part No" Value="Sub Material Is Item Part No" />
+    <Message Name="TO_SPC" Value="TO_SPC" />
+    <Message Name="Item ID" Value="Item ID" />
+
+    <Message Name="Attribute Name" Value="Attribute Name" />
+    <Message Name="ATTRIBUTE_NAME" Value="Attribute Name" />
+    <Message Name="Check List" Value="Check List" />
+    <Message Name="Procedure Rule" Value="Procedure Rule" />
+
+    <Message Name="SP_NAME" Value="SP Name" />
+    <Message Name="SP_MESSAGE" Value="SP Message" />
+    <Message Name="HOLD_RC" Value="Hold RC" />
+    <Message Name="Hold Machine" Value="Hold Machine" />
+    <Message Name="HOLD_MACHINE" Value="Hold Machine" />
+    <Message Name="HOLD_DESC" Value="Hold Desc" />
+    <Message Name="SP_ALARM_EMAIL" Value="SP Alarm Email" />
+
+    <Message Name="Frequence Type" Value="Frequence Type" />
+    <Message Name="FREQUENCE_TYPE" Value="Frequence Type" />
+    <Message Name="Each" Value="Each" />
+    <Message Name="Sampling" Value="Sampling" />
+    <Message Name="Freq_Rate is Empty" Value="Frequency Rate is Empty" />
+    <Message Name="Freq_Rate must be greater than 1" Value="Frequency Rate must be greater than 1" />
+    <Message Name="RC" Value="RC" />
+    <Message Name="EveryTime" Value="EveryTime" />
+    <Message Name="By WO" Value="By WO" />
+
+    <Message Name="Please Select SP_NAME." Value="Please Select SP_NAME" />
+    <Message Name="Copy Sampling Data" Value="Copy Sampling Data" />
+    <Message Name="FREQUENCE_TYPE_SP" Value="FREQUENCE_TYPE_SP" />
+    <Message Name="Please Input SPC ITEM" Value="Please Input SPC ITEM" />
+    <Message Name="Measuring Points" Value="Measuring Points"/>
+    <Message Name="MEASURING_POINTS" Value="Measuring Points"/>
+    <Message Name="FREQUENCE_RATE" Value="Frequence Rate"/>
+    <Message Name="Other" Value="Other" />
+
+    <Message Name="Test Flow / Test Time" Value="Test Flow / Test Time"/>
+    <Message Name="Test Specification maintenance" Value="Test Specification maintenance" />
+    <Message Name="Machine Type" Value="Machine Type"/>
+    <Message Name="Bake(min)" Value="Bake(Min)"/>
+    <Message Name="Bake(degree)" Value="Bake(degree)"/>
+    <Message Name="Bake(Hrs)" Value="Bake(Hrs)"/>
+    <Message Name="Sampling Plan" Value="Sampling Plan"/>
+    <Message Name="Standard Time(s)" Value="Standard Time(s)"/>
+    <Message Name="Release Yield" Value="Release Yield"/>
+    <Message Name="Low Yield Rate" Value="Low Yield Rate"/>
+    <Message Name="Note" Value="Note"/>
+    <Message Name="Production Mode Verify" Value="Production Mode Verify" />
+    <Message Name="(If Testing Environment Change is 'Yes')" Value="(If Testing Environment Change is 'Yes')" />
+    <Message Name="Yes" Value="Yes" />
+    <Message Name="No" Value="No" />
+    <Message Name="Delete" Value="Delete" />
+    <Message Name="Main Machine" Value="Main Machine" />
+    <Message Name="Sub Machine" Value="Sub Machine" />
+    <Message Name="Main machine already exist" Value="Main machine already exist" />
+    <Message Name="Sub machine already exist" Value="Sub machine already exist" />
+
+    <Message Name="First value can't be -" Value="First value can't be -" />
+    <Message Name="Last value can't be -" Value="Last value can't be -" />
+    <Message Name="can't use double - symbol" Value="can't use double - symbol" />
+    <Message Name="series must be ascending" Value="series must be ascending" />
+    <Message Name="duplicate value found:" Value="duplicate value found:" />
+    <Message Name="Error Input:" Value="Error Input:" />
+    <Message Name="amount can't be empty" Value="amount can't be empty" />
+    <Message Name="bin no. can't be empty" Value="bin no. can't be empty" />
+    <Message Name="can't be null" Value="can't be null" />
+    <Message Name="Bin combination rules" Value="Bin combination rules" />
+
+    <Message Name="TESTER" Value="TESTER" />
+    <Message Name="OI_PROGRAM_PRODUCT" Value="OI PROGRAM PRODUCT" />
+    <Message Name="PROGRAM" Value="PROGRAM" />
+    <Message Name="TEST_PROGRAM_VER" Value="TEST PROGRAM VER" />
+    <Message Name="SITE_NO" Value="SITENO" />
+    <Message Name="PATTERN" Value="PATTERN" />
+    <Message Name="JOB" Value="JOB" />
+    <Message Name="UPDATE_EMP" Value="Update Emp" />
+    <Message Name="UPDATE_TIME" Value="Update Time" />
+
+    <Message Name="confirm" Value="confirm" />
+    <Message Name="cancel" Value="cancel" />
+    <Message Name="Success" Value="Success" />
+    <Message Name="ProcessID can't be null" Value="ProcessID can't be null" />
+
+    <Message Name="Data already exists, please delete first to create new one." Value="Data already exists, please delete first to create new one." />
+    <Message Name="Confirm delete?" Value="Confirm delete?" />
+    <Message Name="Save result" Value="Save result" />
+    <Message Name="Bin number only accept numeric." Value="Bin number only accept numeric." />
+    <Message Name="can't duplicate" Value="can't duplicate" />
+    <Message Name="please select one option" Value="please select one option" />
+    <Message Name="please select other option" Value="please select other option" />
+
+    <Message Name="Attribute Name" Value="SAP Attr. Name" />
+    <Message Name="ATTRIBUTE_NAME" Value="SAP Attr. Name" />
+    <Message Name="ATTRIBUTE_DESC" Value="SAP Attr. Desc" />
+    <Message Name="ATTRIBUTE_TYPE" Value="SAP Attr. Type" />
+    <Message Name="FREQUENCE_TYPE_SP" Value="Copy Sampling Data" />
+    <Message Name="Other" Value="Other" />
+
+    <Message Name="CP_TYPE" Value="TYPE" />
+    <Message Name="FT_TYPE" Value="TYPE" />
+    <Message Name="TANGO_FLAG" Value="Tango" />
+    <Message Name="ENG_FLAG" Value="eng" />
+    <Message Name="OP_FLAG" Value="op" />
+    <Message Name="Add" Value="Add" />
+    <Message Name="Modify" Value="Modify" />
+    <Message Name="Delete" Value="Delete" />
+    <Message Name="Main Machine" Value="Main Machine" />
+    <Message Name="Sub Machine" Value="Sub Machine" />
+
+    <Message Name="PART NAME" Value="PART NAME" />
+    <Message Name="BIN NO" Value="BIN NO" />
+    <Message Name="BIN QUANTITY" Value="BIN QUANTITY" />
+    <Message Name="BIN QTY" Value="BIN QTY" />
+    <Message Name="NEW BIN NO" Value="NEW BIN NO" />
+    <Message Name="NEW PART NAME" Value="NEW PART NAME" />
+    <Message Name="ROUTE NAME" Value="ROUTE NAME" />
+    <Message Name="NEW PROCESS NAME" Value="NEW PROCESS NAME" />
+    <Message Name="GO_PROCESS" Value="GO_PROCESS" />
+    <Message Name="Please select new part id first" Value="Please select new part id first" />
+    <Message Name="Please finish check bin process first" Value="Please finish check bin process first" />
+    <Message Name="BIN NO already exists" Value="BIN NO already exists" />
+    <Message Name="Please select node." Value="Please select node." />
+    <Message Name="Bin quantity only accept number or empty string" Value="Bin quantity only accept number or empty string" />
+    <Message Name="Bin quantity and bin qty can't be both empty string" Value="Bin quantity and bin qty can't be both empty string" />
+    <Message Name="Bin qty only accept number or empty string" Value="Bin qty only accept number or empty string" />
+    <Message Name="Bin quantity only accept number or empty string" Value="Bin quantity only accept number or empty string" />
+    <Message Name="Part don't have route setting" Value="Part don't have route setting" />
+    <Message Name="Tester can't be empty" Value="Tester can't be empty" />
+    <Message Name="Prober file can't be empty" Value="Prober file can't be empty" />
+    <Message Name="Bake time can't be empty" Value="Bake time can't be empty" />
+    <Message Name="Temp/Soak can't be empty" Value="Temp/Soak can't be empty" />
+    <Message Name="Temperature can't be empty" Value="Temperature can't be empty" />
+    <Message Name="Soaking time can't be empty" Value="Soaking time can't be empty" />
+
+    <Message Name="Test Flow / Test Time Already Exist" Value="Test Flow / Test Time Already Exist" />
+    <Message Name="Test Flow / Test Time no Exist" Value="Test Flow / Test Time no Exist" />
+    <Message Name="Test Program no Exist" Value="Test Program no Exist" />
+    <Message Name="Please select MainMachine first" Value="Please select MainMachine first" />
+    <Message Name="L/B Group" Value="L/B Group" />
+    <Message Name="P/C Group" Value="P/C Group" />
+    <Message Name="TOOLING GROUP" Value="TOOLING GROUP" />
+    <Message Name="Site Times(s)" Value="Site Times(s)" />
+    <Message Name="Site Test Time can't be empty" Value="Site Test Time can't be empty" />
+    <Message Name="Release Yield can't be empty" Value="Release Yield can't be empty" />
+    <Message Name="Standard Time(s)" Value="Standard Time(s)"/>
+    <Message Name="Machine Type" Value="Machine Types"/>
+    <Message Name="Machine Settings" Value="Machine Settings"/>
+    <Message Name="Add Machine" Value="Add Machine"/>
+    <Message Name="Delete Machine" Value="Delete Machine"/>
+    <Message Name="Show All Machine" Value="Show All Machine"/>
+    <Message Name="Please set machine type first" Value="Please set machine type first"/>
+    <Message Name="Test Program Already Exist" Value="Test Program Already Exist"/>
+    <Message Name="Bin Already Exist" Value="Bin Already Exist"/>
+    <Message Name="Machine already exist" Value="Machine already exist"/>
+    <Message Name="P/C Tooling Group" Value="P/C Tooling Group" />
+    <Message Name="L/B Tooling Group" Value="L/B Tooling Group" />
+    <Message Name="Temperature Min" Value="Temperature Min"/>
+    <Message Name="Temperature Max" Value="Temperature Max"/>
+    <Message Name="Times(s)" Value="Times(s)"/>
+    <Message Name="Add PCTool" Value="Add PCTool"/>
+    <Message Name="Delete PCTool" Value="Delete PCTool"/>
+    <Message Name="Add LBTool" Value="Add LBTool"/>
+    <Message Name="Delete LBTool" Value="Delete LBTool"/>
+    <Message Name="BIN_NO" Value="BIN NO"/>
+    <Message Name="BIN_PROPERTY" Value="BIN PROPERTY"/>
+    <Message Name="BIN_DESC" Value="BIN DESC"/>
+    <Message Name="Test Specification maintenance Already Exist" Value="Test Specification maintenance Already Exist"/>
+    <Message Name="Test Specification maintenance no Exist" Value="Test Specification maintenance no Exist"/>
+    <Message Name="GROUP_ID" Value="GROUP_ID"/>
+    <Message Name="GROUP_NO" Value="GROUP_NO"/>
+    <Message Name="Group id already exists" Value="Group id already exists"/>
+    <Message Name="copy parameter" Value="copy parameter"/>Bin Combination Settings
+    <Message Name="Bin Combination Settings" Value="Bin Combination Settings"/>
+    <Message Name="Calculate" Value="Calculate"/>
+    <Message Name="TYPE" Value="TYPE"/>
+    <Message Name="Priority" Value="Priority"/>
+    <Message Name="CHK" Value="CHK"/>
+    <Message Name="Bin Number" Value="Bin Number"/>
+    <Message Name="Upload Customer VMMAP (Inkless)" Value="Upload Customer VMMAP (Inkless)"/>
+
+    <Message Name="RECIPE_COPY" Value="Recipe Copy" />
+    <Message Name="CUSTOMER_NAME" Value="Customer Name" />
+    <Message Name="PD_STYLE" Value="Device NO" />
+    <Message Name="PRODUCT_TYPE" Value="Product Type" />
+    <Message Name="SELECT" Value="Select" />
+    <Message Name="CLEAR" Value="Clear" />
+    <Message Name="PROCESS_NAME" Value="Process Name" />
+    <Message Name="SELECT_ALL" Value="Select All" />
+    <Message Name="RECIPE_COPY_NOTICE" Value="I have understood the impact and risks of implementing this function, and I am willing to take all responsibilities" />
+    <Message Name="RECIPE_COPY_COMPLETE" Value="Recipe Copy Complete" />
+    <Message Name="NO_RECIPE_COPY_DATA" Value="No select recipe copy data" />
+    <Message Name="PRERELEASE_MACHINE" Value="Prerelease Machine" />
+    <Message Name="COPY_TO_PROCESS" Value="Copy To Process" />
+    <Message Name="MACHINE_COPY_COMPLETE" Value="Machine Copy Complete" />
+    <Message Name="NO_MACHINE_COPY_DATA" Value="No Machine Copy Data" />
+
+    <Message Name="Create Sign Flow" Value="Create Sign Flow" />
+    <Message Name="Agree Sign Flow" Value="Agree Sign Flow" />
+    <Message Name="Reject Sign Flow" Value="Reject Sign Flow" />
+    <Message Name="Refresh" Value="Refresh" />
+    <Message Name="Group Name" Value="Group Name" />
+    <Message Name="MEMO" Value="MEMO" />
+    <Message Name="Edit Completed" Value="Edit Completed" />
+    <Message Name="Agree" Value="Agree" />
+    <Message Name="Reject" Value="Reject" />
+    <Message Name="Sign Off Result" Value="Sign Off Result" />
+    <Message Name="Are you sure to initiate the sign-off process?" Value="Are you sure to initiate the sign-off process?" />
+    <Message Name="The sign-off process has been successfully initiated" Value="The sign-off process has been successfully initiated" />
+    <Message Name="After agreeing to initiate the sign-off process, each department can begin to maintain the recipe, are you sure?" Value="After agreeing to initiate the sign-off process, each department can begin to maintain the recipe, are you sure?" />
+    <Message Name="The sign-off process has been successfully initiated, each department can begin to maintain the recipe" Value="The sign-off process has been successfully initiated, each department can begin to maintain the recipe" />
+    <Message Name="Your approval result is agree" Value="Your approval result is agree" />
+    <Message Name="Your approval result is reject" Value="Your approval result is reject" />
+    <Message Name="After the recipe of process maintenance is completed, it cannot be modified again, are you sure?" Value="After the recipe of process maintenance is completed, it cannot be modified again, are you sure?" />
+    <Message Name="Unable to get mail server settings" Value="Unable to get mail server settings" />
+    <Message Name="Sign Flow" Value="Sign Flow" />
+    <Message Name="Pleae new add BIN NO first" Value="Pleae new add BIN NO first" />
+
+    <Message Name="GROUP_NAME" Value="Group Name" />
+    <Message Name="PROCESS_CODE" Value="Process Code" />
+    <Message Name="STATUS" Value="Status" />
+    <Message Name="REJECT_GROUP_NAME" Value="Reject Group Name" />
+    <Message Name="UPDATE_USER" Value="Update User" />
+    <Message Name="UPDATE_TIME" Value="Update Time" />
+    <Message Name="Close" Value="Close" />
+    <Message Name="Log" Value="Log" />
+
+    <Message Name="Bake(min) can't be empty." Value="Bake(min) can't be empty." />
+    <Message Name="Delete machine settings first" Value="Delete machine settings first"/>
+    <Message Name="Please select machine first" Value="Please select machine first"/>
+    <Message Name="Attach File" Value="Attach File"/>
+
+    <Message Name="Deselect" Value="Deselect" />
+    <Message Name="UpLoadFile" Value="UpLoadFile"/>
+    <Message Name="AlreadyUpFile" Value="AlreadyUpFile"/>
+    <Message Name="LoadFile" Value="LoadFile"/>
+    <Message Name="Selected" Value="Selected"/>
+    <Message Name="DownLoad" Value="DownLoad"/>
+    <Message Name="SelectFile" Value="SelectFile"/>
+    <Message Name="StartUp" Value="StartUp"/>
+    <Message Name="Cancel" Value="Cancel"/>
+    <Message Name="FileName" Value="FileName"/>
+    <Message Name="FilePath" Value="FilePath"/>
+    <Message Name="FILE_NAME" Value="FileName"/>
+    <Message Name="EMP_NAME" Value="Emp Name"/>
+    <Message Name="UPDATE_TIME" Value="Update Time"/>
+    <Message Name="FILE_PATH" Value="File Path"/>
+    <Message Name="SelectFileContent" Value="Select File Content"/>
+    <Message Name="FileContent" Value="FileContent"/>
+    <Message Name="DownLoad Success" Value="DownLoad Success！"/>
+    <Message Name="DownloadFileCount" Value="DownloadFileCount"/>
+    <Message Name="UpLoad Success" Value="UpLoad Success！"/>
+    <Message Name="Server Not Exists This File" Value="Server Not Exists This File"/>
+    <Message Name="DownLoad Path is Null,Selected Please" Value="DownLoad Path is Null,Selected Please"/>
+    <Message Name="Server's Path or User or Pwd,is null at once " Value="Server's Path or User or Pwd,is null at once"/>
+    <Message Name="please check table :sys_base ,and program = 'ProcessParam_Attach'" Value="please check table :sys_base ,and program = 'ProcessParam_Attach'"/>
+    <Message Name="View" Value="View"/>
+    <Message Name="File not found" Value="File not found"/>
+
+    <Message Name="DeleteContent" Value="DeleteContent"/>
+    <Message Name="Delete success" Value="Delete success"/>
+    <Message Name="Please upload file first." Value="Please upload file first."/>
+
+    <Message Name="Save" Value="Save"/>
+    <Message Name="Please key in memo!!" Value="Please key in memo!!"/>
+    <Message Name="Saved..." Value="Saved"/>
+    <Message Name="Select Process" Value="Select Process"/>
+    <Message Name="Notice" Value="Notice"/>
+    <Message Name="Select files" Value="Select files"/>
+    <Message Name="All files" Value="All files"/>
+    <Message Name="Confirm cancel?" Value="Confirm cancel?" />
+    <Message Name="UPLOAD_EMP" Value="Upload Emp"/>
+    <Message Name="NO" Value="No"/>
+    <Message Name="Time Control" Value="Time Control"/>
+    <Message Name="QTime" Value="QTime"/>
+    <Message Name="Hold Code" Value="Hold Code"/>
+    <Message Name="Please Select Hold Code" Value="Please Select Hold Code"/>
+    <Message Name="Clear" Value="Clear"/>
+    <Message Name="Condition Parameter" Value="Condition Parameter"/>
+    <Message Name="Collection Parameter" Value="Collection Parameter"/>
+    <Message Name="Rule Parameter" Value="Rule Parameter"/>
+    <Message Name="Program Parameter" Value="Program Parameter"/>
+    <Message Name="To SPC" Value="To SPC"/>
+    <Message Name="SPC_ITEM" Value="SPC Item"/>
+    <Message Name="Up" Value="Up"/>
+    <Message Name="Down" Value="Down"/>
+    <Message Name="fPartSelect" Value="Part Select"/>
+    <Message Name="Equipment Collection Parameter" Value="Equipment Collection Parameter"/>
+    <Message Name="fMachineType" Value="Machine Type"/>
+    <Message Name="Machine Select" Value="Machine Select"/>
+
+    <Message Name="PROGRAM_NAME" Value="Program"/>
+    <Message Name="SPC_CHART_TYPE" Value="SPC Chart Type"/>
+    <Message Name="SPC_CHART" Value="SPC Chart"/>
+    <Message Name="PARAM_GROUP_NAME" Value="Group Name"/>
+    <Message Name="Param Group Name" Value="Group Name"/>
+  </English>
+  <繁體中文>
+    <Message Name="Part No" Value="料號" />
+    <Message Name="Version" Value="版本" />
+    <Message Name="Customer" Value="客戶" />
+    <Message Name="Part Type" Value="料號類型" />
+    <Message Name="Document Type" Value="文件類型" />
+    <Message Name="STR Copy" Value="STR複製" />
+
+    <Message Name="Product Data" Value="產品資料" />
+    <Message Name="Part No. no Product Data" Value="料號未建置產品資料" />
+    <Message Name="Planned Lot Cycle Time(Day)" Value="計畫批次週期(天)" />
+    <Message Name="Planned Lot Yield(Lot)" Value="計畫批次產量(批)" />
+    <Message Name="Product Information" Value="產品訊息" />
+    <Message Name="Package Type" Value="封裝型態" />
+    <Message Name="Pin Number" Value="腳數" />
+    <Message Name="Wafer Size" Value="序號尺寸" />
+    <Message Name="Index X (mil)" Value="Index X (mil)" />
+    <Message Name="Y(mil)" Value="Y(mil)" />
+    <Message Name="Flash/Notch Direction" Value="Flash缺口方向" />
+    <Message Name="Total Test Die" Value="總測試Die" />
+    <Message Name="Gross Die" Value="總Die數" />
+    <Message Name="Probing Direction" Value="探測方向" />
+
+    <Message Name="Equipment" Value="機台" />
+    <Message Name="MACHINE_ID" Value="機台ID" />
+    <Message Name="MACHINE_CODE" Value="機台代碼" />
+    <Message Name="MACHINE_DESC" Value="機台描述" />
+    <Message Name="MACHINE_LOC" Value="機台位置" />
+    <Message Name="Machine Code" Value="機台代碼" />
+    <Message Name="MACHINE_TYPE_NAME" Value="機台類型名稱" />
+    <Message Name="MACHINE_TYPE_DESC" Value="機台類型描述" />
+    <Message Name="PRIORITY" Value="優先順序" />
+    <Message Name="SORT" Value="優先順序" />
+
+    <Message Name="Tooling" Value="治具" />
+    <Message Name="Tooling Type" Value="治具群組" />
+    <Message Name="Tooling Parameter" Value="治具參數" />
+    <Message Name="Machine Type" Value="機台類型" />
+    <Message Name="MACHINE_NAME" Value="機台名稱" />
+    <Message Name="Machine" Value="機台" />
+    <Message Name="Data Append OK" Value="資料新增成功" />
+    <Message Name="Please Input Machine" Value="請輸入機台" />
+    <Message Name="All Machine" Value="全機台" />
+    <Message Name="Please Input Machine Type" Value="請輸入機台類型" />
+    <Message Name="Please Input Tooling" Value="請輸入治具" />
+    <Message Name="TOOLING_NAME" Value="治具名稱" />
+    <Message Name="TOOLING_DESC" Value="治具描述" />
+    <Message Name="TOOLING_NO" Value="治具群組" />
+    <Message Name="Tooling Name" Value="治具名稱" />
+
+    <Message Name="Program" Value="程式管理" />
+    <Message Name="Program Name" Value="程式名稱" />
+    <Message Name="Release Date" Value="發佈日期" />
+    <Message Name="BIN Name" Value="BIN名稱" />
+    <Message Name="BIN_NAME" Value="BIN名稱" />
+    <Message Name="Program Related Information" Value="程式管理相關資訊" />
+    <Message Name="Test Temperature" Value="測試溫度" />
+    <Message Name="Program Note" Value="程序說明" />
+    <Message Name="Environment Change" Value="環境變更" />
+    <Message Name="Production Mode Verify(If Environment Change is 'Yes')" Value="生產模式驗證（如果環境變更為“是”）" />
+    <Message Name="Test Temperature" Value="測試溫度" />
+    <Message Name="Site Times(s)" Value="站點時間(秒)" />
+    <Message Name="Site Index Times(s)" Value="Site Index Times(秒)" />
+    <Message Name="Site Count" Value="Site Count" />
+    <Message Name="1ea Times(s)" Value="1ea時間(秒)" />
+    <Message Name="Release Yield(%)" Value="放行良率(%)" />
+    <Message Name="BIN_ID" Value="BIN ID" />
+    <Message Name="BIN_NAME" Value="BIN名稱" />
+    <Message Name="BIN_DESC" Value="BIN描述" />
+
+    <Message Name="Judgment Inspection Standard" Value="判定檢驗標準" />
+
+    <Message Name="Hold Name" Value="鎖定名稱" />
+    <Message Name="Hold Name Already Exist" Value="鎖定名稱已設定" />
+    <Message Name="Hold Name not Exist" Value="鎖定名稱未設定" />
+    <Message Name="HOLD_CODE_DESC" Value="鎖定代碼描述" />
+    <Message Name="HOLD_CODE" Value="鎖定代碼" />
+    <Message Name="HOLD_NAME" Value="鎖定名稱" />
+
+    <Message Name="TANGO_CLASS" Value="主分類" />
+    <Message Name="TANGO_CONTENT" Value="次規則" />
+    <Message Name="Rule Class" Value="主分類" />
+    <Message Name="sub Rule" Value="次規則" />
+    <Message Name="PARAM_NAME" Value="主分類" />
+    <Message Name="PARAM_VALUE" Value="選項" />
+
+    <Message Name="Run Card Maintain" Value="Run Card維護" />
+    <Message Name="RUNCARD_SEQ" Value="項目顯示順序" />
+    <Message Name="CHECK_EN" Value="點檢事項(英文)" />
+    <Message Name="CHECK_TC" Value="點檢事項(繁中)" />
+    <Message Name="OPERATION_EN" Value="作業注意事項(英文)" />
+    <Message Name="OPERATION_TC" Value="作業注意事項(繁中)" />
+    <Message Name="Run Card Seq" Value="項目顯示順序" />
+    <Message Name="Checking matters" Value="點檢事項(英文)" />
+    <Message Name="Precautions for operation" Value="作業注意事項(英文)" />
+
+
+    <Message Name="Stage Name" Value="區段名稱" />
+    <Message Name="Stage Description" Value="區段描述" />
+    <Message Name="Stage Code" Value="區段代碼" />
+    <Message Name="Process Name" Value="製程名稱" />
+    <Message Name="Description" Value="製程描述" />
+    <Message Name="Description2" Value="製程描述(2)" />
+    <Message Name="Process Code" Value="製程代碼" />
+    <Message Name="Operate Type" Value="製程類型" />
+    <Message Name="STAGE_NAME" Value="區段名稱" />
+    <Message Name="has one or more Processes" Value="已包含製程資料" />
+    <Message Name="Can not delete it" Value="不可刪除" />
+    <Message Name="has one or more Terminals" Value="已包含工作站資料" />
+    <Message Name="Please Select a Item." Value="請選擇產品製程參數專案" />
+    <Message Name="Please Select One Item." Value="請選擇一個產品製程參數專案" />
+    <Message Name="Delete the Item?" Value="刪除此產品製程參數" />
+    <Message Name="Delete Item : " Value="刪除產品製程參數: " />
+    <Message Name=" Error." Value=" 錯誤." />
+    <Message Name="Please Input Part No." Value="請輸入料號" />
+    <Message Name="Please Select Target Process." Value="請選擇製程" />
+    <Message Name="Delete Item Error." Value="刪除此產品製程參數錯誤" />
+    <Message Name="Error Part No." Value="料號錯誤" />
+    <Message Name="Error Copy Part No." Value="複製料號產品製程參數錯誤" />
+    <Message Name="Add another one" Value="新增其他產品製程參數" />
+    <Message Name="Add Error." Value="新增產品製程參數錯誤" />
+    <Message Name="Please Input Default Value." Value="請輸入預設資料" />
+    <Message Name="Please Create List item." Value="請新增選項" />
+    <Message Name="Please Input min Value." Value="請輸入下限值" />
+    <Message Name="Please Input Max Value." Value="請輸入上限值" />
+    <Message Name="Please Input min Value in Number" Value="請輸入下限值為數字" />
+    <Message Name="Please Input Max Value in Number" Value="請輸入上限值為數字" />
+    <Message Name="Item Sequence is Duplicate." Value="產品製程參數顯示順序重複" />
+    <Message Name="Please Input Item Name." Value="請輸入產品製程參數名稱" />
+    <Message Name="Please Input Item ID and Name" Value="請輸入項目編號及名稱" />
+    <Message Name="Item Name is duplicate." Value="產品製程參數名稱重複" />
+    <Message Name="Check Data Error." Value="檢查輸入資料錯誤" />
+    <Message Name="Error." Value="錯誤." />
+    <Message Name="Please Choose Process." Value="請選擇製程" />
+    <Message Name="Data Duplcate in " Value="資料重複 - 產品製程參數: " />
+    <Message Name="Error Copy." Value="複製料號產品製程參數錯誤" />
+    <Message Name="Origin" Value="來源料號製程" />
+    <Message Name="Target" Value="目標料號製程" />
+    <Message Name="Select All" Value="全選" />
+    <Message Name="OK" Value="確認" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Process" Value="製程" />
+    <Message Name="Add" Value="新增" />
+    <Message Name="Modify" Value="修改" />
+    <Message Name="Up" Value="上移"/>
+    <Message Name="Down" Value="下移"/>
+
+    <Message Name="Process Condition" Value="製程條件" />
+    <Message Name="Data Collection" Value="資料收集" />
+    <Message Name="SN Process Condition" Value="序號製程條件" />
+    <Message Name="SN Data Collection" Value="序號資料收集" />
+    <Message Name="ITEM_NAME" Value="項目編號" />
+    <Message Name="ITEM_NAME_DESC" Value="項目名稱" />
+    <Message Name="ITEM_PHASE" Value="項目階段" />
+    <Message Name="ITEM_TYPE" Value="項目分類" />
+    <Message Name="ITEM_SEQ" Value="項目顯示順序" />
+    <Message Name="VALUE_TYPE" Value="數值類型" />
+    <Message Name="INPUT_TYPE" Value="輸入方式" />
+    <Message Name="VALUE_DEFAULT" Value="預設值" />
+    <Message Name="VALUE_LIST" Value="項目列表" />
+    <Message Name="NECESSARY" Value="必要輸入欄位" />
+    <Message Name="CONVERT_TYPE" Value="輸入值轉換" />
+    <Message Name="UPDATE_USERID" Value="資料異動人員" />
+    <Message Name="UPDATE_TIME" Value="資料異動時間" />
+    <Message Name="ENABLED" Value="資料是否有效" />
+    <Message Name="Item Seq" Value="項目顯示順序" />
+    <Message Name="Item Name" Value="項目名稱" />
+    <Message Name="Item Phase" Value="項目階段" />
+    <Message Name="Value Type" Value="數值類型" />
+    <Message Name="Input Type" Value="輸入方式" />
+    <Message Name="Default" Value="預設值" />
+    <Message Name="Item List" Value="項目列表" />
+    <Message Name="Convert Type" Value="輸入值轉換" />
+    <Message Name="Range" Value="範圍" />
+    <Message Name="EMP_NO" Value="資料異動人員" />
+    <Message Name="Necessary" Value="必要輸入欄位" />
+    <Message Name="Collapse" Value="摺疊" />
+    <Message Name="Expand" Value="展開" />
+    <Message Name="Copy" Value="複製料號製程參數" />
+    <Message Name="Item Sequence" Value="順序" />
+    <Message Name="Choose" Value="目標料號製程" />
+    <Message Name="Copy Part Parameter" Value="複製料號產品製程參數" />
+    <Message Name="Please Input Item Value in Number" Value="請輸入值為數字" />
+    <Message Name="Item" Value="項目" />
+    <Message Name="Key In" Value="輸入" />
+    <Message Name="Select List" Value="選項清單" />
+    <Message Name="PART_NO" Value="料號" />
+    <Message Name="PART_TYPE" Value="料號類型" />
+    <Message Name="SPEC1" Value="產品型號" />
+    <Message Name="SPEC2" Value="規格" />
+    <Message Name="MATERIAL_TYPE" Value="必要" />
+    <Message Name="Alert Msg" Value="製程消息" />
+    <Message Name="Alert" Value="彈出消息" />
+    <Message Name="Alert Type" Value="消息類型" />
+    <Message Name="Title" Value="標題" />
+    <Message Name="Content" Value="內容" />
+    <Message Name="ALERT_TYPE" Value="訊息類型" />
+    <Message Name="ITEM_TITLE" Value="訊息標題" />
+    <Message Name="ITEM_CONTENT" Value="訊息內容" />
+    <Message Name="WIP IN" Value="投入" />
+    <Message Name="WIP OUT" Value="產出" />
+    <Message Name="Info" Value="通知" />
+    <Message Name="Warn" Value="警告" />
+    <Message Name="Error" Value="錯誤" />
+    <Message Name="Needed Item Cannot Be Empty" Value="必輸項不能為空" />
+    <Message Name="Item Name Already Exist" Value="名稱或序號已存在" />
+    <Message Name="Item Name Or Seq Already Exist" Value="名稱或序號已存在" />
+    <Message Name="PROCESS" Value="製程" />
+    <Message Name="PART_ID" Value="料號ID" />
+    <Message Name="VERSION" Value="版本" />
+    <Message Name="Info" Value="通知" />
+    <Message Name="Please Select a Alert Item." Value="請選擇一個項目" />
+    <Message Name="Info" Value="通知" />
+    <Message Name="Link" Value="網路連結" />
+    <Message Name="Print" Value="列印" />
+    <Message Name="Property" Value="屬性" />
+    <Message Name="PROPERTY_NAME" Value="屬性名稱" />
+    <Message Name="PROPERTY_VALUE" Value="屬性值" />
+    <Message Name="PROPERTY_ID" Value="屬性ID" />
+    <Message Name="Value Type Are Not The Same" Value="數值型別不相同" />
+    <Message Name="Property Not Find" Value="料號裡沒有找到這個屬性" />
+    <Message Name="Varchar2" Value="文字" />
+    <Message Name="Character" Value="文字" />
+    <Message Name="Number" Value="數字" />
+    <Message Name="Key In" Value="輸入值" />
+    <Message Name="Select List" Value="數值列表" />
+    <Message Name="None" Value="不轉換" />
+    <Message Name="Uppercase" Value="轉大寫" />
+    <Message Name="Lowercase" Value="轉小寫" />
+    <Message Name="UnNecessary" Value="不必要" />
+    <Message Name="Necessary" Value="必要" />
+    <Message Name="SAMPLING_ID" Value="抽樣計畫" />
+    <Message Name="Sampling ID" Value="抽樣計畫" />
+    <Message Name="SAMPLING_TYPE" Value="抽樣計畫名稱" />
+    <Message Name="SAMPLING_DESC" Value="抽樣計畫描述" />
+    <Message Name="Sampling Plan Not Find" Value="無此抽樣計畫" />
+
+    <Message Name="KEYIN_FLAG" Value="是否輸入物料批次" />
+    <Message Name="ITEM_PN" Value="物料編號" />
+    <Message Name="QTY" Value="數量" />
+    <Message Name="UNIT_USED" Value="單位用量" />
+    <Message Name="DEFAULT_LOTNO" Value="默認物料批次" />
+    <Message Name="Material" Value="製程物料" />
+    <Message Name="Tester" Value="測試機台"/>
+    <Message Name="Expected effective date" Value="預計生效日期"/>
+    <Message Name="Version" Value="版本	"/>
+    <Message Name="LR Leader" Value="LR組長"/>
+    <Message Name="Effective Date" Value="生效日期"/>
+    <Message Name="Program" Value="程式管理"/>
+    <Message Name="OI corresponding product program" Value="OI對應產品程式"/>
+    <Message Name="Prober Card" Value="針測器卡"/>
+    <Message Name="Prober/Handler" Value="針測器/處理程序"/>
+    <Message Name="D/B NO" Value="D/B編號"/>
+    <Message Name="C/B NO" Value="C/B編號"/>
+    <Message Name="C/K NO" Value="C/K編號"/>
+    <Message Name="L/B NO" Value="L/B編號"/>
+    <Message Name="Directory" Value="目錄"/>
+    <Message Name="Test Time" Value="測試時間"/>
+    <Message Name="Interface" Value="接口"/>
+    <Message Name="Bake Time(hr)" Value="烘烤時間(hr)"/>
+    <Message Name="Hold Limit(Wafer)" Value="保持限制(序號)"/>
+    <Message Name="Hold Limit(Lot)" Value="保持限制(批)"/>
+    <Message Name="TEMP/SOAK" Value="溫度/浸泡"/>
+    <Message Name="Special Yield" Value="指定產率"/>
+    <Message Name="Scrap Limits" Value="報廢限制"/>
+    <Message Name="Option" Value="選項"/>
+    <Message Name="Module Limits" Value="模組限制"/>
+    <Message Name="Prober File" Value="針測器文件"/>
+    <Message Name="O/S" Value="O/S"/>
+    <Message Name="Handle File 1" Value="Handle File 1"/>
+    <Message Name="Modle 1" Value="模型1"/>
+    <Message Name="Value 1" Value="值1"/>
+    <Message Name="Handle File 2" Value="Handle File 2"/>
+    <Message Name="Modle 2" Value="Modle 2"/>
+    <Message Name="Value 2" Value="Value 2"/>
+    <Message Name="Environment 1" Value="Environment 1"/>
+    <Message Name="Office Version" Value="Office版本"/>
+    <Message Name="OS Version" Value="OS版本"/>
+    <Message Name="Test module" Value="測試模組"/>
+    <Message Name="Environment 2" Value="環境2"/>
+    <Message Name="Program" Value="程式管理"/>
+    <Message Name="Environment 3" Value="環境3"/>
+    <Message Name="Double Contact Function" Value="Double Contact功能"/>
+    <Message Name="Double Repeat Function" Value="Double Repeat功能"/>
+    <Message Name="OI Version" Value="OI版本"/>
+    <Message Name="Download Tango CPB" Value="Download Tango CPB"/>
+    <Message Name="TestBIN" Value="TestBIN"/>
+    <Message Name="Retest" Value="Retest"/>
+    <Message Name="Soaking Time" Value="Soaking Time"/>
+    <Message Name="Clear needle number" Value="清針顆數"/>
+    <Message Name="Temperature" Value="溫度"/>
+    <Message Name="Map shift check die (X)" Value="地圖移位檢查die(X)"/>
+    <Message Name="Map shift check die (Y)" Value="地圖移位檢查die(Y)"/>
+    <Message Name="Correlation wafer ID" Value="相關序號ID"/>
+    <Message Name="Script name" Value="腳本名稱"/>
+    <Message Name="Test Program Condition" Value="測試程序條件"/>
+    <Message Name="Test_Code 1" Value="測試代碼1"/>
+    <Message Name="Test_Code 2" Value="測試代碼2"/>
+    <Message Name="Test_Code 3" Value="測試代碼3"/>
+    <Message Name="Test_Code 4" Value="測試代碼4"/>
+    <Message Name="Test_Code 5" Value="測試代碼5"/>
+    <Message Name="Clean setting(CP/FT)" Value="清潔設置(CP/FT)"/>
+    <Message Name="Contact count" Value="接觸計次"/>
+    <Message Name="Interval (a) Die" Value="間隔(a) Die"/>
+    <Message Name="(b) wafer" Value="(b)序號"/>
+    <Message Name="Overdrive Mode" Value="高速模式"/>
+    <Message Name="Over drive Limit(%)" Value="高速模式限制(%)"/>
+
+    <Message Name="Item Part No" Value="物料編號" />
+    <Message Name="Qty" Value="數量" />
+    <Message Name="KeyIn Lot No" Value="是否輸入物料批次" />
+    <Message Name="Default Lot No" Value="默認批次" />
+    <Message Name="Unit Used" Value="批次用量" />
+    <Message Name="Phase" Value="專案階段" />
+    <Message Name="Item Part No is duplicate." Value="物料編號重複" />
+    <Message Name="Please Input Item Part No." Value="請輸入物料編號" />
+    <Message Name="Please Select One Material Item." Value="請選擇項目" />
+    <Message Name="MATERIAL_LOT_NO" Value="物料批次" />
+    <Message Name="TOTAL_QTY" Value="總量" />
+    <Message Name="CURRENT_QTY" Value="當前剩餘量" />
+    <Message Name="Item Part No Empty" Value="物料為空" />
+    <Message Name="Please Input Qty." Value="請輸入物料數量" />
+    <Message Name="Item Sequence is Duplicate." Value="產品製程參數顯示順序重複" />
+    <Message Name="Sub PN" Value="替代料" />
+    <Message Name="Sub Material Duplicate" Value="替代料重複" />
+    <Message Name="Substitute material" Value="替代料" />
+    <Message Name="Item Part No is Sub Material." Value="已經作為替代料使用" />
+    <Message Name="Sub Material Is Item Part No" Value="已經作為主料使用" />
+    <Message Name="TO_SPC" Value="傳入SPC" />
+    <Message Name="Item ID" Value="項目編號" />
+
+    <Message Name="Attribute Name" Value="SAP 屬性名稱" />
+    <Message Name="ATTRIBUTE_NAME" Value="SAP 屬性名稱" />
+    <Message Name="ATTRIBUTE_DESC" Value="SAP 屬性描述" />
+    <Message Name="ATTRIBUTE_TYPE" Value="SAP 屬性類型" />
+    <Message Name="Check List" Value="點檢表" />
+    <Message Name="Procedure Rule" Value="特殊管控邏輯" />
+
+    <Message Name="SP_NAME" Value="呼叫程序" />
+    <Message Name="SP_MESSAGE" Value="提示使用者訊息" />
+    <Message Name="HOLD_RC" Value="是否鎖定生產批號" />
+    <Message Name="Hold Machine" Value="是否鎖定機台" />
+    <Message Name="HOLD_MACHINE" Value="是否鎖定機台" />
+    <Message Name="HOLD_DESC" Value="鎖定代碼描述" />
+    <Message Name="SP_ALARM_EMAIL" Value="程序警示信" />
+
+    <Message Name="Frequence Type" Value="抽樣頻率" />
+    <Message Name="FREQUENCE_TYPE" Value="抽樣頻率" />
+    <Message Name="Each" Value="每" />
+    <Message Name="Sampling" Value="抽樣" />
+    <Message Name="Freq_Rate is Empty" Value="頻率為空" />
+    <Message Name="Freq_Rate must be greater than 1" Value="頻率必須大於1" />
+    <Message Name="RC" Value="生產批" />
+    <Message Name="EveryTime" Value="每次" />
+    <Message Name="By WO" Value="工單" />
+    <Message Name="yes" Value="是" />
+    <Message Name="no" Value="否" />
+
+    <Message Name="Please Select SP_NAME." Value="請選擇呼叫程序" />
+    <Message Name="Copy Sampling Data" Value="複製抽樣數據" />
+    <Message Name="FREQUENCE_TYPE_SP" Value="複製抽樣數據" />
+    <Message Name="Please Input SPC ITEM" Value="請輸入SPC ITEM" />
+    <Message Name="Measuring Points" Value="量測點數"/>
+    <Message Name="MEASURING_POINTS" Value="量測點數"/>
+    <Message Name="FREQUENCE_RATE" Value="頻率數量"/>
+    <Message Name="Other" Value="其它" />
+
+    <Message Name="Test Flow / Test Time" Value="測試流程"/>
+    <Message Name="Test Specification maintenance" Value="測試規範維護" />
+    <Message Name="Machine Type" Value="機台類型"/>
+    <Message Name="Bake(min)" Value="烘烤時間(Min)"/>
+    <Message Name="Bake(degree)" Value="烘烤溫度(degree)"/>
+    <Message Name="Bake(Hrs)" Value="烘烤時間(Hrs)"/>
+    <Message Name="Sampling Plan" Value="抽樣計畫"/>
+    <Message Name="Standard Time(s)" Value="標準時間(秒)"/>
+    <Message Name="Release Yield" Value="放行良率"/>
+    <Message Name="Low Yield Rate" Value="最低產率"/>
+    <Message Name="Note" Value="註解"/>
+    <Message Name="Bake(min)" Value="烘烤時間(min)"/>
+    <Message Name="Production Mode Verify" Value="生產模式驗證" />
+    <Message Name="(If Testing Environment Change is 'Yes')" Value="（如果測試環境變更為“是”）" />
+    <Message Name="Yes" Value="是" />
+    <Message Name="No" Value="否" />
+    <Message Name="Delete" Value="刪除" />
+    <Message Name="Main Machine" Value="主機台" />
+    <Message Name="Sub Machine" Value="副機台" />
+    <Message Name="Main machine already exist" Value="主機台已經存在" />
+    <Message Name="Sub machine already exist" Value="副機台已經存在" />
+
+    <Message Name="First value can't be -" Value="第一個值不能是 -" />
+    <Message Name="Last value can't be -" Value="最後一個值不能是 -" />
+    <Message Name="can't use double - symbol" Value="不能使用雙-符號" />
+    <Message Name="series must be ascending" Value="數值必須升序排列" />
+    <Message Name="duplicate value found:" Value="號碼重覆" />
+    <Message Name="Error Input:" Value="錯誤輸入" />
+    <Message Name="amount can't be empty" Value="數值不能為空" />
+    <Message Name="bin no. can't be empty" Value="Bin號不能為空" />
+    <Message Name="can't be null" Value="不能為空" />
+    <Message Name="Bin combination rules" Value="Bin別組合規則" />
+
+    <Message Name="TESTER" Value="測試機台" />
+    <Message Name="OI_PROGRAM_PRODUCT" Value="OI產品型號" />
+    <Message Name="PROGRAM" Value="程式管理" />
+    <Message Name="TEST_PROGRAM_VER" Value="測試程式版本" />
+    <Message Name="SITE_NO" Value="站點編號" />
+    <Message Name="PATTERN" Value="模式" />
+    <Message Name="JOB" Value="工作" />
+    <Message Name="UPDATE_EMP" Value="更新人員" />
+    <Message Name="UPDATE_TIME" Value="更新時間" />
+
+    <Message Name="confirm" Value="確認" />
+    <Message Name="cancel" Value="取消" />
+    <Message Name="Success" Value="成功" />
+    <Message Name="ProcessID can't be null" Value="ProcessID 不能為空" />
+
+    <Message Name="Data already exists, please delete first to create new one." Value="數據已存在，請先刪除後再增加新數據" />
+    <Message Name="Confirm delete?" Value="確認刪除?" />
+    <Message Name="Save result?" Value="是否存檔?" />
+    <Message Name="Bin number only accept numeric." Value="Bin號僅接受數字." />
+    <Message Name="can't duplicate" Value="不能重覆" />
+    <Message Name="please select one option" Value="請選擇一個選項" />
+    <Message Name="please select other option" Value="請選擇其它選項" />
+
+    <Message Name="PART NAME" Value="料號" />
+    <Message Name="BIN NO" Value="BIN 號碼" />
+    <Message Name="BIN QUANTITY" Value="切幾批" />
+    <Message Name="BIN QTY" Value="每批數量" />
+    <Message Name="NEW BIN NO" Value="新的BIN號碼" />
+    <Message Name="NEW PART NAME" Value="新切批轉換料號" />
+    <Message Name="ROUTE NAME" Value="途程" />
+    <Message Name="NEW PROCESS NAME" Value="站點" />
+    <Message Name="GO_PROCESS" Value="跳站" />
+    <Message Name="Please select new part id first" Value="請選擇新切批轉換料號" />
+    <Message Name="Please finish check bin process first" Value="BIN尚未設定" />
+    <Message Name="BIN NO already exists" Value="BIN 號碼已經存在" />
+    <Message Name="Please select node." Value="請選擇站點." />
+    <Message Name="Bin quantity only accept number or empty string" Value="Bin 切批數量只接受數字及空值" />
+    <Message Name="Bin quantity and bin qty can't be both empty string" Value="Bin 切批數量及每批數量不能同時空值" />
+    <Message Name="Bin qty only accept number or empty string" Value="Bin 每批數量只接受數字及空值" />
+    <Message Name="Part don't have route setting" Value="料號尚未設定途程" />
+    <Message Name="Please Input Part No." Value="請輸入料號" />
+    <Message Name="Tester can't be empty" Value="測試機台不能為空" />
+    <Message Name="Prober file can't be empty" Value="針測器文件不能為空" />
+    <Message Name="Bake time can't be empty" Value="烘烤時間不能為空" />
+    <Message Name="Temp/Soak can't be empty" Value="溫度/浸泡不能為空" />
+    <Message Name="Temperature can't be empty" Value="溫度不能為空" />
+    <Message Name="Soaking time can't be empty" Value="浸泡時間不能為空" />
+
+    <Message Name="Test Flow / Test Time Already Exist" Value="測試流程 / 測試時間已存在" />
+    <Message Name="Test Flow / Test Time no Exist" Value="測試流程 / 測試時間不存在" />
+    <Message Name="Test Program no Exist" Value="程式管理不存在" />
+    <Message Name="Please select MainMachine first" Value="請先選擇主機台" />
+    <Message Name="L/B Group" Value="L/B 群組" />
+    <Message Name="P/C Group" Value="P/C 群組" />
+    <Message Name="TOOLING_GROUP" Value="零配件群組" />
+    <Message Name="Site Times(s)" Value="站點時間(秒)" />
+    <Message Name="Site Test Time can't be empty" Value="站點測試時間不能為空" />
+    <Message Name="Release Yield can't be empty" Value="放行良率不能為空" />
+    <Message Name="Standard Time(s)" Value="標準時間(秒)"/>
+    <Message Name="Machine Type" Value="機台類型"/>
+    <Message Name="Machine Settings" Value="機台設定"/>
+    <Message Name="Add Machine" Value="新增機台"/>
+    <Message Name="Delete Machine" Value="刪除機台"/>
+    <Message Name="Show All Machine" Value="顯示所有機台"/>
+    <Message Name="Please set machine type first" Value="請先設定機台類型"/>
+    <Message Name="Test Program Already Exist" Value="程式管理已經存在"/>
+    <Message Name="Bin Already Exist" Value="Bin 已經存在"/>
+    <Message Name="Machine already exist" Value="機台已經存在"/>
+    <Message Name="P/C Tooling Group" Value="P/C 治具群組" />
+    <Message Name="L/B Tooling Group" Value="L/B 治具群組" />
+    <Message Name="Temperature Min" Value="最低溫度"/>
+    <Message Name="Temperature Max" Value="最高溫度"/>
+    <Message Name="Times(s)" Value="時間(秒)"/>
+    <Message Name="Add PCTool" Value="新增"/>
+    <Message Name="Delete PCTool" Value="刪除"/>
+    <Message Name="Add LBTool" Value="新增"/>
+    <Message Name="Delete LBTool" Value="刪除"/>
+    <Message Name="BIN_NO" Value="BIN NO"/>
+    <Message Name="BIN_PROPERTY" Value="BIN 屬性"/>
+    <Message Name="BIN_DESC" Value="BIN 描述"/>
+    <Message Name="Test Specification maintenance Already Exist" Value="測試規範維護已經存在"/>
+    <Message Name="Test Specification maintenance no Exist" Value="測試規範維護不存在"/>
+    <Message Name="GROUP_ID" Value="群组ID"/>
+    <Message Name="GROUP_NO" Value="群組編號"/>
+    <Message Name="Group id already exists" Value="群組ID已存在"/>
+    <Message Name="copy parameter" Value="複製參數"/>
+    <Message Name="Bin Combination Settings" Value="BIN別組合設定"/>
+    <Message Name="Calculate" Value="運算式"/>
+    <Message Name="TYPE" Value="類型"/>
+    <Message Name="Priority" Value="優先順序"/>
+    <Message Name="CHK" Value="檢查順序"/>
+    <Message Name="Bin Number" Value="Bin號碼"/>
+    <Message Name="Upload Customer VMMAP (Inkless)" Value="上傳客戶VMMAP (Inkless)"/>
+
+    <Message Name="RECIPE_COPY" Value="Recipe複製" />
+    <Message Name="CUSTOMER_NAME" Value="客戶名稱" />
+    <Message Name="PD_STYLE" Value="產品型號" />
+    <Message Name="PRODUCT_TYPE" Value="產品類型" />
+    <Message Name="SELECT" Value="選取" />
+    <Message Name="CLEAR" Value="清除" />
+    <Message Name="PROCESS_NAME" Value="站點名稱" />
+    <Message Name="SELECT_ALL" Value="選擇全部" />
+    <Message Name="RECIPE_COPY_NOTICE" Value="我已明瞭執行此功能會造成的影響和風險，並願意承擔所有責任" />
+    <Message Name="RECIPE_COPY_COMPLETE" Value="製程參數複製完成" />
+    <Message Name="NO_RECIPE_COPY_DATA" Value="請選擇要複製的Recipe資料" />
+    <Message Name="PRERELEASE_MACHINE" Value="預放機台" />
+    <Message Name="MACHINE_PROCESS_COPY" Value="套用至其他站點" />
+    <Message Name="COPY_TO_PROCESS" Value="複製到站點" />
+    <Message Name="MACHINE_COPY_COMPLETE" Value="複製完成" />
+    <Message Name="NO_MACHINE_COPY_DATA" Value="請選擇站點" />
+
+    <Message Name="Create Sign Flow" Value="發起簽核流程" />
+    <Message Name="Agree Sign Flow" Value="同意進入簽核流程" />
+    <Message Name="Reject Sign Flow" Value="不同意進入簽核流程" />
+    <Message Name="Refresh" Value="重新整理" />
+    <Message Name="Group Name" Value="部門單位" />
+    <Message Name="MEMO" Value="簽核備註" />
+    <Message Name="Edit Completed" Value="維護完成" />
+    <Message Name="Agree" Value="同意" />
+    <Message Name="Reject" Value="不同意" />
+    <Message Name="Sign Off Result" Value="簽核結果" />
+    <Message Name="Are you sure to initiate the sign-off process?" Value="請確認是否發起簽核流程?" />
+    <Message Name="The sign-off process has been successfully initiated" Value="已成功發起簽核流程" />
+    <Message Name="After agreeing to initiate the sign-off process, each department can begin to maintain the recipe, are you sure?" Value="同意進入簽核流程後, 各部門即可維護產品參數, 請確認是否繼續?" />
+    <Message Name="The sign-off process has been successfully initiated, each department can begin to maintain the recipe" Value="已進入簽核流程, 各部門可開始維護產品參數" />
+    <Message Name="Your approval result is agree" Value="您的簽核結果為同意" />
+    <Message Name="Your approval result is reject" Value="您的簽核結果為不同意" />
+    <Message Name="After the recipe of process maintenance is completed, it cannot be modified again, are you sure?" Value="產品參數維護完成後, 將不能再次修改, 請確認是否繼續?" />
+    <Message Name="Unable to get mail server settings" Value="無法取得MAIL參數設定" />
+    <Message Name="Sign Flow" Value="簽核作業" />
+    <Message Name="Pleae new add BIN NO first" Value="請先新增BIN別" />
+
+    <Message Name="GROUP_NAME" Value="簽核部門" />
+    <Message Name="PROCESS_CODE" Value="駁回站點" />
+    <Message Name="STATUS" Value="簽核狀態" />
+    <Message Name="REJECT_GROUP_NAME" Value="駁回部門" />
+    <Message Name="UPDATE_USER" Value="簽核人員" />
+    <Message Name="UPDATE_TIME" Value="簽核時間" />
+    <Message Name="Close" Value="關閉" />
+    <Message Name="Log" Value="簽核履歷" />
+
+    <Message Name="Bake(min) can't be empty." Value="烘烤時間(min)不能為空" />
+    <Message Name="Delete machine settings first" Value="請先刪除機台設定"/>
+    <Message Name="Please select machine first" Value="請先選取機台"/>
+    <Message Name="Attach File" Value="附檔"/>
+
+    <Message Name="Deselect" Value="取消" />
+    <Message Name="UpLoadFile" Value="上傳文件"/>
+    <Message Name="AlreadyUpFile" Value="伺服器檔案"/>
+    <Message Name="LoadFile" Value="本地檔案"/>
+    <Message Name="Selected" Value="選擇"/>
+    <Message Name="DownLoad" Value="下載"/>
+    <Message Name="SelectFile" Value="選擇檔案..."/>
+    <Message Name="StartUp" Value="開始上傳"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="FileName" Value="檔案名稱"/>
+    <Message Name="FilePath" Value="檔案路徑"/>
+    <Message Name="FILE_NAME" Value="檔案名稱"/>
+    <Message Name="EMP_NAME" Value="操作人"/>
+    <Message Name="UPDATE_TIME" Value="更新時間"/>
+    <Message Name="FILE_PATH" Value="檔案路徑"/>
+    <Message Name="SelectFileContent" Value="查看檔案內容"/>
+    <Message Name="FileContent" Value="查看"/>
+    <Message Name="DownLoad Success" Value="下載完成！"/>
+    <Message Name="DownloadFileCount" Value="下載檔案數"/>
+    <Message Name="UpLoad Success" Value="上傳成功！"/>
+    <Message Name="Server Not Exists This File" Value="伺服器不存在這個檔案"/>
+    <Message Name="DownLoad Path is Null,Selected Please" Value="下載路徑未輸入，請選擇路徑"/>
+    <Message Name="Server's Path or User or Pwd,is null at once " Value="伺服器路徑or帳戶or密碼，其中有一個為空！"/>
+    <Message Name="please check table :sys_base ,and program = 'ProcessParam_Attach'" Value="請檢查表:sys_base ,條件 program = 'ProcessParam_Attach'"/>
+    <Message Name="View" Value="檢視附檔"/>
+    <Message Name="File not found" Value="找不到檔案"/>
+
+    <Message Name="DeleteContent" Value="刪除"/>
+    <Message Name="Delete success" Value="刪除成功"/>
+    <Message Name="Please upload file first." Value="請先上傳檔案!"/>
+
+    <Message Name="Save" Value="儲存"/>
+    <Message Name="Please key in memo!!" Value="請輸入備註"/>
+    <Message Name="Saved..." Value="儲存完畢"/>
+    <Message Name="Select Process" Value="選取製程站點"/>
+    <Message Name="Notice" Value="注意"/>
+    <Message Name="Select files" Value="選取檔案"/>
+    <Message Name="All files" Value="所有檔案"/>
+    <Message Name="Confirm cancel?" Value="確認取消?" />
+    <Message Name="UPLOAD_EMP" Value="上傳人員"/>
+    <Message Name="NO" Value="編號"/>
+    <Message Name="Time Control" Value="時間管控"/>
+    <Message Name="QTime" Value="閒置時間(分鐘)"/>
+    <Message Name="Hold Code" Value="鎖定代碼"/>
+    <Message Name="Please Select Hold Code" Value="請輸入鎖定代碼"/>
+    <Message Name="Clear" Value="清除"/>
+    <Message Name="Condition Parameter" Value="製程條件參數"/>
+    <Message Name="Collection Parameter" Value="資料收集參數"/>
+    <Message Name="Rule Parameter" Value="特殊管控邏輯"/>
+    <Message Name="Program Parameter" Value="程式管理參數"/>
+    <Message Name="To SPC" Value="是否傳送給SPC"/>
+    <Message Name="SPC_ITEM" Value="SPC管制項目"/>
+    <Message Name="fPartSelect" Value="選擇料號"/>
+    <Message Name="Equipment Collection Parameter" Value="設備採集參數"/>
+    <Message Name="fMachineType" Value="機台類型"/>
+    <Message Name="Machine Select" Value="選擇機台"/>
+
+    <Message Name="PROGRAM_NAME" Value="方案"/>
+    <Message Name="SPC_CHART_TYPE" Value="SPC圖表類型"/>
+    <Message Name="SPC_CHART" Value="SPC圖表"/>
+    <Message Name="PARAM_GROUP_NAME" Value="群組名稱"/>
+    <Message Name="Param Group Name" Value="群組名稱"/>
+
+    <Message Name="Recipe" Value="機台配方"/>
+    <Message Name="RECIPE_ID" Value="機台配方"/>
+    <Message Name="Query" Value="查詢"/>
+
+    <Message Name="MenuEdit" Value="修改"/>
+    <Message Name="Machine Type Name" Value="機臺類型名稱"/>
+    <Message Name="Priority" Value="優先順序"/>
+    <Message Name="Machine Type Description" Value="機臺類型描述"/>
+
+    <Message Name="fPartRecipeCopy" Value="當前料號製程參數複製"/>
+    <Message Name="Part Recipe Copy" Value="當前料號製程參數複製"/>
+    <Message Name="ROUTE_NAME" Value="途程名稱"/>
+    <Message Name="Data duplication" Value="資料重複"/>
+
+    <Message Name="DISABLED" Value="禁用"/>
+    <Message Name="MACHINE_ENABLED" Value="是否啟用"/>
+    <Message Name="Enabled" Value="啟用"/>
+    <Message Name="Disabled" Value="禁用"/>
+    <Message Name="Date" Value="日期"/>
+    <Message Name="When the value type is date, the input method can only choose input/EAP" Value="數值類型為日期時，輸入方式僅可選擇 輸入/EAP"/>
+	<Message Name="Database exception, copy failed." Value="資料庫異常，複製失敗"/>
+
+	  <Message Name="Saving Data..." Value="複製資料中..."/>
+	  <Message Name="Data recipe... Please do not close" Value="複製資料中... 請勿關閉視窗"/>
+    <Message Name="Default value doesn't exist in Item List." Value="預設值不存在於項目列表內"/>
+  </繁體中文>
+  <简体中文>
+    <Message Name="Part No" Value="料号" />
+    <Message Name="Version" Value="版本" />
+    <Message Name="Customer" Value="客戶" />
+    <Message Name="Part Type" Value="料号类型" />
+    <Message Name="Document Type" Value="文件类型" />
+    <Message Name="STR Copy" Value="STR复制" />
+
+    <Message Name="Product Data" Value="产品资料" />
+    <Message Name="Part No. no Product Data" Value="料号未建置产品资料" />
+    <Message Name="Planned Lot Cycle Time(Day)" Value="计画批次周期(天)" />
+    <Message Name="Planned Lot Yield(Lot)" Value="计画批次产量(批)" />
+    <Message Name="Product Information" Value="产品讯息" />
+    <Message Name="Package Type" Value="封装型态" />
+    <Message Name="Pin Number" Value="脚数" />
+    <Message Name="Wafer Size" Value="序号尺寸" />
+    <Message Name="Index X (mil)" Value="Index X (mil)" />
+    <Message Name="Y(mil)" Value="Y(mil)" />
+    <Message Name="Flash/Notch Direction" Value="Flash缺口方向" />
+    <Message Name="Total Test Die" Value="总测试Die" />
+    <Message Name="Gross Die" Value="总Die数" />
+    <Message Name="Probing Direction" Value="探测方向" />
+
+    <Message Name="Equipment" Value="机台" />
+    <Message Name="MACHINE_ID" Value="机台ID" />
+    <Message Name="MACHINE_CODE" Value="机台代码" />
+    <Message Name="MACHINE_DESC" Value="机台描述" />
+    <Message Name="MACHINE_LOC" Value="机台位置" />
+    <Message Name="Machine Code" Value="机台代码" />
+    <Message Name="MACHINE_TYPE_NAME" Value="机台类型名称" />
+    <Message Name="MACHINE_TYPE_DESC" Value="机台类型描述" />
+    <Message Name="PRIORITY" Value="优先顺序" />
+    <Message Name="SORT" Value="优先顺序" />
+
+    <Message Name="Tooling" Value="治具" />
+    <Message Name="Tooling Type" Value="治具群组" />
+    <Message Name="Tooling Parameter" Value="治具参数" />
+    <Message Name="Machine Type" Value="机台类型" />
+    <Message Name="MACHINE_NAME" Value="机台名称" />
+    <Message Name="Machine" Value="机台" />
+    <Message Name="Data Append OK" Value="资料新增成功" />
+    <Message Name="Please Input Machine" Value="请输入机台" />
+    <Message Name="All Machine" Value="全机台" />
+    <Message Name="Please Input Machine Type" Value="请输入机台类型" />
+    <Message Name="Please Input Tooling" Value="请输入治具" />
+    <Message Name="TOOLING_NAME" Value="治具名称" />
+    <Message Name="TOOLING_DESC" Value="治具描述" />
+    <Message Name="TOOLING_NO" Value="治具群组" />
+    <Message Name="Tooling Name" Value="治具名称" />
+
+    <Message Name="Program" Value="程式管理" />
+    <Message Name="Program Name" Value="程式名称" />
+    <Message Name="Release Date" Value="发布日期" />
+    <Message Name="BIN Name" Value="BIN名称" />
+    <Message Name="BIN_NAME" Value="BIN名称" />
+    <Message Name="Program Related Information" Value="程式管理相关资讯" />
+    <Message Name="Test Temperature" Value="测试温度" />
+    <Message Name="Program Note" Value="程序说明" />
+    <Message Name="Environment Change" Value="环境变更" />
+    <Message Name="Production Mode Verify(If Environment Change is 'Yes')" Value="生产模式验证（如果环境变更为“是”）" />
+    <Message Name="Site Times(s)" Value="站点时间(秒)" />
+    <Message Name="Site Index Times(s)" Value="Site Index Times(秒)" />
+    <Message Name="Site Count" Value="Site Count" />
+    <Message Name="1ea Times(s)" Value="1ea时间(秒)" />
+    <Message Name="Release Yield(%)" Value="放行良率(%)" />
+    <Message Name="BIN_ID" Value="BIN ID" />
+    <Message Name="BIN_NAME" Value="BIN名称" />
+    <Message Name="BIN_DESC" Value="BIN描述" />
+
+    <Message Name="Judgment Inspection Standard" Value="判定检验标准" />
+
+    <Message Name="Hold Name" Value="锁定名称" />
+    <Message Name="Hold Name Already Exist" Value="锁定名称已设定" />
+    <Message Name="Hold Name not Exist" Value="锁定名称未设定" />
+    <Message Name="HOLD_CODE_DESC" Value="锁定代码描述" />
+    <Message Name="HOLD_CODE" Value="锁定代码" />
+    <Message Name="HOLD_NAME" Value="锁定代码名称" />
+
+    <Message Name="TANGO_CLASS" Value="主分类" />
+    <Message Name="TANGO_CONTENT" Value="次规则" />
+    <Message Name="Rule Class" Value="主分类" />
+    <Message Name="sub Rule" Value="次规则" />
+    <Message Name="PARAM_NAME" Value="主分类" />
+    <Message Name="PARAM_VALUE" Value="选项" />
+
+    <Message Name="Run Card Maintain" Value="Run Card维护" />
+    <Message Name="RUNCARD_SEQ" Value="项目显示顺序" />
+    <Message Name="CHECK_EN" Value="点检事项(英文)" />
+    <Message Name="CHECK_TC" Value="点检事项(繁中)" />
+    <Message Name="OPERATION_EN" Value="作业注意事项(英文)" />
+    <Message Name="OPERATION_TC" Value="作业注意事项(繁中)" />
+    <Message Name="Run Card Seq" Value="项目显示顺序" />
+    <Message Name="Checking matters" Value="点检事项(英文)" />
+    <Message Name="Precautions for operation" Value="作业注意事项(英文)" />
+
+    <Message Name="Stage Name" Value="区段名称" />
+    <Message Name="Stage Description" Value="区段描述" />
+    <Message Name="Stage Code" Value="区段代码" />
+    <Message Name="Process Name" Value="制程名称" />
+    <Message Name="Description" Value="制程描述" />
+    <Message Name="Description2" Value="制程描述(2)" />
+    <Message Name="Process Code" Value="制程代码" />
+    <Message Name="Operate Type" Value="制程类型" />
+    <Message Name="STAGE_NAME" Value="区段名称" />
+    <Message Name="has one or more Processes" Value="已包含制程资料" />
+    <Message Name="Can not delete it" Value="不可删除" />
+    <Message Name="has one or more Terminals" Value="已包含工作站资料" />
+    <Message Name="Please Select a Item." Value="请选择产品制程参数项目" />
+    <Message Name="Please Select One Item." Value="请选择一个产品制程参数项目" />
+    <Message Name="Delete the Item?" Value="删除此产品制程参数" />
+    <Message Name="Delete Item : " Value="删除产品制程参数: " />
+    <Message Name=" Error." Value=" 错误." />
+    <Message Name="Please Input Part No." Value="请输入料号" />
+    <Message Name="Please Select Target Process." Value="请选择制程" />
+    <Message Name="Delete Item Error." Value="删除此产品制程参数错误" />
+    <Message Name="Error Part No." Value="料号错误" />
+    <Message Name="Error Copy Part No." Value="复制料号产品制程参数错误" />
+    <Message Name="Add another one" Value="新增其他产品制程参数" />
+    <Message Name="Add Error." Value="新增产品制程参数错误" />
+    <Message Name="Please Input Default Value." Value="请输入默认数据" />
+    <Message Name="Please Create List item." Value="请新增选项" />
+    <Message Name="Please Input min Value." Value="请输入下限值" />
+    <Message Name="Please Input Max Value." Value="请输入上限值" />
+    <Message Name="Please Input min Value in Number" Value="请输入下限值为数字" />
+    <Message Name="Please Input Max Value in Number" Value="请输入上限值为数字" />
+    <Message Name="Item Sequence is Duplicate." Value="产品制程参数显示顺序重复" />
+    <Message Name="Please Input Item Name." Value="请输入产品制程参数名称" />
+    <Message Name="Please Input Item ID and Name" Value="请输入项目编号及名称" />
+    <Message Name="Item Name is duplicate." Value="产品制程参数名称重复" />
+    <Message Name="Check Data Error." Value="检查输入数据错误" />
+    <Message Name="Error." Value="错误." />
+    <Message Name="Please Choose Process." Value="请选择制程" />
+    <Message Name="Data Duplcate in " Value="数据重复 - 产品制程参数: " />
+    <Message Name="Error Copy." Value="复制料号产品制程参数错误" />
+    <Message Name="Origin" Value="来源料号制程" />
+    <Message Name="Target" Value="目标料号制程" />
+    <Message Name="Select All" Value="全选" />
+    <Message Name="OK" Value="确认" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Process" Value="制程" />
+    <Message Name="Add" Value="新增" />
+    <Message Name="Modify" Value="修改" />
+    <Message Name="Up" Value="上移"/>
+    <Message Name="Down" Value="下移"/>
+
+    <Message Name="Process Condition" Value="制程条件" />
+    <Message Name="Data Collection" Value="资料收集" />
+    <Message Name="SN Process Condition" Value="组件制程条件" />
+    <Message Name="SN Data Collection" Value="组件数据收集" />
+    <Message Name="ITEM_NAME" Value="项目编号" />
+    <Message Name="ITEM_NAME_DESC" Value="项目名称" />
+    <Message Name="ITEM_PHASE" Value="项目阶段" />
+    <Message Name="ITEM_TYPE" Value="项目分类" />
+    <Message Name="ITEM_SEQ" Value="项目显示顺序" />
+    <Message Name="VALUE_TYPE" Value="数值类型" />
+    <Message Name="INPUT_TYPE" Value="输入方式" />
+    <Message Name="VALUE_DEFAULT" Value="默认值" />
+    <Message Name="VALUE_LIST" Value="项目列表" />
+    <Message Name="NECESSARY" Value="必要输入字段" />
+    <Message Name="CONVERT_TYPE" Value="输入值转换" />
+    <Message Name="UPDATE_USERID" Value="资料异动人员" />
+    <Message Name="UPDATE_TIME" Value="数据异动时间" />
+    <Message Name="ENABLED" Value="资料是否有效" />
+    <Message Name="Item Seq" Value="项目显示顺序" />
+    <Message Name="Item Name" Value="项目名称" />
+    <Message Name="Item Phase" Value="项目阶段" />
+    <Message Name="Value Type" Value="数值类型" />
+    <Message Name="Input Type" Value="输入方式" />
+    <Message Name="Default" Value="默认值" />
+    <Message Name="Item List" Value="项目列表" />
+    <Message Name="Convert Type" Value="输入值转换" />
+    <Message Name="Range" Value="范围" />
+    <Message Name="EMP_NO" Value="资料异动人员" />
+    <Message Name="Necessary" Value="必要输入字段" />
+    <Message Name="Collapse" Value="折迭" />
+    <Message Name="Expand" Value="展开" />
+    <Message Name="Copy" Value="复制料号制程参数" />
+    <Message Name="Item Sequence" Value="顺序" />
+    <Message Name="Choose" Value="目标料号制程" />
+    <Message Name="Copy Part Parameter" Value="复制料号产品制程参数" />
+    <Message Name="Please Input Item Value in Number" Value="请输入值为数字" />
+    <Message Name="Item" Value="项目" />
+    <Message Name="Key In" Value="输入" />
+    <Message Name="Select List" Value="选项列表" />
+    <Message Name="PART_NO" Value="料号" />
+    <Message Name="PART_TYPE" Value="料号类型" />
+    <Message Name="SPEC1" Value="产品型号" />
+    <Message Name="SPEC2" Value="规格" />
+    <Message Name="MATERIAL_TYPE" Value="必要" />
+    <Message Name="Alert Msg" Value="制程消息" />
+    <Message Name="Alert" Value="弹出消息" />
+    <Message Name="Alert Type" Value="消息类型" />
+    <Message Name="Title" Value="标题" />
+    <Message Name="Content" Value="内容" />
+    <Message Name="ALERT_TYPE" Value="消息类型" />
+    <Message Name="ITEM_TITLE" Value="消息标题" />
+    <Message Name="ITEM_CONTENT" Value="消息内容" />
+    <Message Name="WIP IN" Value="投入" />
+    <Message Name="WIP OUT" Value="产出" />
+    <Message Name="Info" Value="通知" />
+    <Message Name="Warn" Value="警告" />
+    <Message Name="Error" Value="错误" />
+    <Message Name="Needed Item Cannot Be Empty" Value="必输项不能为空" />
+    <Message Name="Item Name Already Exist" Value="名称或序号已存在" />
+    <Message Name="Item Name Or Seq Already Exist" Value="名称或序号已存在" />
+    <Message Name="PROCESS" Value="制程" />
+    <Message Name="PART_ID" Value="料号ID" />
+    <Message Name="VERSION" Value="版本" />
+    <Message Name="Info" Value="通知" />
+    <Message Name="Please Select a Alert Item." Value="请选择一个弹出项" />
+    <Message Name="Info" Value="通知" />
+    <Message Name="Link" Value="网路连结" />
+    <Message Name="Print" Value="打印" />
+    <Message Name="Property" Value="属性" />
+    <Message Name="PROPERTY_NAME" Value="属性名称" />
+    <Message Name="PROPERTY_VALUE" Value="属性值" />
+    <Message Name="PROPERTY_ID" Value="属性ID" />
+    <Message Name="Value Type Are Not The Same" Value="值类型不相同" />
+    <Message Name="Property Not Find" Value="料号里没有找到这个属性" />
+    <Message Name="Varchar2" Value="文字" />
+    <Message Name="Character" Value="文字" />
+    <Message Name="Number" Value="数字" />
+    <Message Name="Key In" Value="输入值" />
+    <Message Name="Select List" Value="数值列表" />
+    <Message Name="None" Value="不转换" />
+    <Message Name="Uppercase" Value="转大写" />
+    <Message Name="Lowercase" Value="转小写" />
+    <Message Name="UnNecessary" Value="不必要" />
+    <Message Name="Necessary" Value="必要" />
+    <Message Name="SAMPLING_ID" Value="抽样计画" />
+    <Message Name="Sampling ID" Value="抽样计画" />
+    <Message Name="SAMPLING_TYPE" Value="抽样计画名称" />
+    <Message Name="SAMPLING_DESC" Value="抽样计画描述" />
+    <Message Name="Sampling Plan Not Find" Value="无此抽样计画" />
+
+    <Message Name="KEYIN_FLAG" Value="是否输入物料批次" />
+    <Message Name="ITEM_PN" Value="物料编号" />
+    <Message Name="QTY" Value="数量" />
+    <Message Name="UNIT_USED" Value="单位用量" />
+    <Message Name="DEFAULT_LOTNO" Value="默认物料批次" />
+    <Message Name="Material" Value="制程物料" />
+    <Message Name="Tester" Value="测试机台"/>
+    <Message Name="Expected effective date" Value="预计生效日期"/>
+    <Message Name="Version" Value="版本"/>
+    <Message Name="LR Leader" Value="LR组长"/>
+    <Message Name="Effective Date" Value="生效日期"/>
+    <Message Name="Program" Value="程式管理"/>
+    <Message Name="OI corresponding product program" Value="OI对应产品程式"/>
+    <Message Name="Prober Card" Value="针测器卡"/>
+    <Message Name="Prober/Handler" Value="针测器/处理程序"/>
+    <Message Name="D/B NO" Value="D/B编号"/>
+    <Message Name="C/B NO" Value="C/B编号"/>
+    <Message Name="C/K NO" Value="C/K编号"/>
+    <Message Name="L/B NO" Value="L/B编号"/>
+    <Message Name="Directory" Value="目录"/>
+    <Message Name="Test Time" Value="测试时间"/>
+    <Message Name="Interface" Value="接口"/>
+    <Message Name="Bake Time(hr)" Value="烘烤时间(hr)"/>
+    <Message Name="Hold Limit(Wafer)" Value="保持限制(序号)"/>
+    <Message Name="Hold Limit(Lot)" Value="保持限制(批)"/>
+    <Message Name="TEMP/SOAK" Value="温度/浸泡"/>
+    <Message Name="Special Yield" Value="指定产率"/>
+    <Message Name="Scrap Limits" Value="报废限制"/>
+    <Message Name="Option" Value="选项"/>
+    <Message Name="Module Limits" Value="模组限制"/>
+    <Message Name="Prober File" Value="针测器文件"/>
+    <Message Name="O/S" Value="O/S"/>
+    <Message Name="Handle File 1" Value="Handle File 1"/>
+    <Message Name="Modle 1" Value="模型1"/>
+    <Message Name="Value 1" Value="值1"/>
+    <Message Name="Handle File 2" Value="Handle File 2"/>
+    <Message Name="Modle 2" Value="Modle 2"/>
+    <Message Name="Value 2" Value="Value 2"/>
+    <Message Name="Environment 1" Value="Environment 1"/>
+    <Message Name="Office Version" Value="Office版本"/>
+    <Message Name="OS Version" Value="OS版本"/>
+    <Message Name="Test module" Value="测试模组"/>
+    <Message Name="Environment 2" Value="环境2"/>
+    <Message Name="Environment 3" Value="环境3"/>
+    <Message Name="Program" Value="程式管理"/>
+    <Message Name="Double Contact Function" Value="Double Contact功能"/>
+    <Message Name="Double Repeat Function" Value="Double Repeat功能"/>
+    <Message Name="OI Version" Value="OI版本"/>
+    <Message Name="Download Tango CPB" Value="Download Tango CPB"/>
+    <Message Name="TestBIN" Value="TestBIN"/>
+    <Message Name="Retest" Value="Retest"/>
+    <Message Name="Soaking Time" Value="Soaking Time"/>
+    <Message Name="Clear needle number" Value="清针颗数"/>
+    <Message Name="Temperature" Value="温度"/>
+    <Message Name="Map shift check die (X)" Value="地图移位检查die(X)"/>
+    <Message Name="Map shift check die (Y)" Value="地图移位检查die(Y)"/>
+    <Message Name="Correlation wafer ID" Value="相关序号ID"/>
+    <Message Name="Script name" Value="脚本名称"/>
+    <Message Name="Test Program Condition" Value="测试程序条件"/>
+    <Message Name="Test_Code 1" Value="测试代码1"/>
+    <Message Name="Test_Code 2" Value="测试代码2"/>
+    <Message Name="Test_Code 3" Value="测试代码3"/>
+    <Message Name="Test_Code 4" Value="测试代码4"/>
+    <Message Name="Test_Code 5" Value="测试代码5"/>
+    <Message Name="Clean setting(CP/FT)" Value="清洁设置(CP/FT)"/>
+    <Message Name="Contact count" Value="接触计次"/>
+    <Message Name="Interval (a) Die" Value="间隔(a) Die"/>
+    <Message Name="(b) wafer" Value="(b)序号"/>
+    <Message Name="Overdrive Mode" Value="高速模式"/>
+    <Message Name="Over drive Limit(%)" Value="高速模式限制(%)"/>
+
+
+    <Message Name="Item Part No" Value="物料编号" />
+    <Message Name="Qty" Value="数量" />
+    <Message Name="KeyIn Lot No" Value="是否输入物料批次" />
+    <Message Name="Default Lot No" Value="默认批次" />
+    <Message Name="Unit Used" Value="批次用量" />
+    <Message Name="Phase" Value="项目阶段" />
+    <Message Name="Item Part No is duplicate." Value="物料编号重复" />
+    <Message Name="Please Input Item Part No." Value="请输入物料编号" />
+    <Message Name="Please Select One Material Item." Value="请选择项目" />
+    <Message Name="MATERIAL_LOT_NO" Value="物料批次" />
+    <Message Name="TOTAL_QTY" Value="总量" />
+    <Message Name="CURRENT_QTY" Value="当前剩余量" />
+    <Message Name="Item Part No Empty" Value="物料为空" />
+    <Message Name="Please Input Qty." Value="请输入物料数量" />
+    <Message Name="Item Sequence is Duplicate." Value="产品制程参数显示顺序重复" />
+    <Message Name="Sub PN" Value="替代料" />
+    <Message Name="Sub Material Duplicate" Value="替代料重复" />
+    <Message Name="Substitute material" Value="替代料" />
+    <Message Name="Item Part No is Sub Material." Value="已经作为替代料使用" />
+    <Message Name="Sub Material Is Item Part No" Value="已经作为主料使用" />
+    <Message Name="TO_SPC" Value="传入SPC" />
+    <Message Name="Item ID" Value="项目编号" />
+
+    <Message Name="Attribute Name" Value="SAP 属性名称" />
+    <Message Name="ATTRIBUTE_NAME" Value="SAP 属性名称" />
+    <Message Name="ATTRIBUTE_DESC" Value="SAP 属性描述" />
+    <Message Name="ATTRIBUTE_TYPE" Value="SAP 属性类型" />
+    <Message Name="Check List" Value="点检表" />
+    <Message Name="Procedure Rule" Value="特殊管控逻辑" />
+
+    <Message Name="SP_NAME" Value="呼叫程序" />
+    <Message Name="SP_MESSAGE" Value="提示使用者讯息" />
+    <Message Name="HOLD_RC" Value="是否锁定生产批号" />
+    <Message Name="Hold Machine" Value="是否锁定机台" />
+    <Message Name="HOLD_MACHINE" Value="是否锁定机台" />>
+    <Message Name="HOLD_DESC" Value="锁定代码描述" />
+    <Message Name="SP_ALARM_EMAIL" Value="程序警示信" />
+
+    <Message Name="Frequence Type" Value="抽样频率" />
+    <Message Name="FREQUENCE_TYPE" Value="抽样频率" />
+    <Message Name="Each" Value="每" />
+    <Message Name="Sampling" Value="抽样" />
+    <Message Name="Freq_Rate is Empty" Value="频率为空" />
+    <Message Name="Freq_Rate must be greater than 1" Value="频率必须大于1" />
+    <Message Name="RC" Value="生产批" />
+    <Message Name="EveryTime" Value="每次" />
+    <Message Name="By WO" Value="工单" />
+    <Message Name="yes" Value="是" />
+    <Message Name="no" Value="否" />
+
+    <Message Name="Please Select SP_NAME." Value="请选择呼叫程序" />
+    <Message Name="Copy Sampling Data" Value="复制抽样数据" />
+    <Message Name="FREQUENCE_TYPE_SP" Value="复制抽样数据" />
+    <Message Name="Please Input SPC ITEM" Value="请输入SPC ITEM" />
+    <Message Name="Measuring Points" Value="量测点数"/>
+    <Message Name="MEASURING_POINTS" Value="量测点数"/>
+    <Message Name="FREQUENCE_RATE" Value="频率数量"/>
+    <Message Name="Other" Value="其它" />
+
+    <Message Name="Test Flow / Test Time" Value="测试流程"/>
+    <Message Name="Test Specification maintenance" Value="測試規範維護" />
+    <Message Name="Machine Type" Value="机台类型"/>
+    <Message Name="Bake(min)" Value="烘烤时间(Min)"/>
+    <Message Name="Bake(degree)" Value="烘烤温度(degree)"/>
+    <Message Name="Bake(Hrs)" Value="烘烤时间(Hrs)"/>
+    <Message Name="Sampling Plan" Value="抽样计画"/>
+    <Message Name="Standard Time(s)" Value="标准时间(秒)"/>
+    <Message Name="Release Yield" Value="放行良率"/>
+    <Message Name="Low Yield Rate" Value="最低產率"/>
+    <Message Name="Note" Value="注解"/>
+    <Message Name="Production Mode Verify" Value="生产模式验证" />
+    <Message Name="(If Testing Environment Change is 'Yes')" Value="（如果测试环境变更为“是”）" />
+    <Message Name="Yes" Value="是" />
+    <Message Name="No" Value="否" />
+    <Message Name="Delete" Value="删除" />
+    <Message Name="Main Machine" Value="主机台" />
+    <Message Name="Sub Machine" Value="副机台" />
+    <Message Name="Main machine already exist" Value="主机台已经存在" />
+    <Message Name="Sub machine already exist" Value="副机台已经存在" />
+
+    <Message Name="First value can't be -" Value="第一个值不能是 -" />
+    <Message Name="Last value can't be -" Value="最后一个值不能是 -" />
+    <Message Name="can't use double - symbol" Value="不能使用双-符号" />
+    <Message Name="series must be ascending" Value="数值必须升序排列" />
+    <Message Name="duplicate value found:" Value="號碼重覆" />
+    <Message Name="Error Input:" Value="错误输入" />
+    <Message Name="amount can't be empty" Value="数值不能为空" />
+    <Message Name="bin no. can't be empty" Value="Bin号不能为空" />
+    <Message Name="can't be null" Value="不能为空" />
+    <Message Name="Bin combination rules" Value="Bin别组合规则" />
+
+    <Message Name="TESTER" Value="测试机台" />
+    <Message Name="OI_PROGRAM_PRODUCT" Value="OI产品型号" />
+    <Message Name="PROGRAM" Value="程式管理" />
+    <Message Name="TEST_PROGRAM_VER" Value="测试程式版本" />
+    <Message Name="SITE_NO" Value="站点编号" />
+    <Message Name="PATTERN" Value="模式" />
+    <Message Name="JOB" Value="工作" />
+    <Message Name="UPDATE_EMP" Value="更新人员" />
+    <Message Name="UPDATE_TIME" Value="更新时间" />
+
+    <Message Name="confirm" Value="确认" />
+    <Message Name="cancel" Value="取消" />
+    <Message Name="Success" Value="成功" />
+    <Message Name="ProcessID can't be null" Value="ProcessID 不能为空 " />
+
+    <Message Name="Data already exists, please delete first to create new one." Value="数据已存在，请先删除后再增加新数据" />
+    <Message Name="Confirm delete?" Value="确认删除?" />
+    <Message Name="Save result?" Value="是否存档?" />
+    <Message Name="Bin number only accept numeric." Value="Bin号仅接受数字." />
+    <Message Name="can't duplicate" Value="不能重覆" />
+    <Message Name="please select one option" Value="请选择一个选项" />
+    <Message Name="please select other option" Value="請选择其它选项" />
+
+    <Message Name="PART NAME" Value="料号" />
+    <Message Name="BIN NO" Value="BIN 号码" />
+    <Message Name="BIN QUANTITY" Value="切几批" />
+    <Message Name="BIN QTY" Value="BIN 号码切出来每批数量" />
+    <Message Name="NEW BIN NO" Value="切出来新的BIN号码" />
+    <Message Name="NEW PART NAME" Value="新切批转换料号" />
+    <Message Name="ROUTE NAME" Value="途程" />
+    <Message Name="NEW PROCESS NAME" Value="站点" />
+    <Message Name="GO_PROCESS" Value="跳站" />
+    <Message Name="Please select new part id first" Value="请选择新切批转换料号" />
+    <Message Name="Please finish check bin process first" Value="BIN尚未设定" />
+    <Message Name="BIN NO already exists" Value="BIN号码已经存在" />
+    <Message Name="Please select node." Value="请选择站点." />
+    <Message Name="Bin quantity only accept number or empty string" Value="Bin 切批数量只接受数字及空值" />
+    <Message Name="Bin quantity and bin qty can't be both empty string" Value="Bin 切批数量及每批数量不能同时空值" />
+    <Message Name="Bin qty only accept number or empty string" Value="Bin 每批数量只接受数字及空值" />
+    <Message Name="Part don't have route setting" Value="料号尚未设定途程" />
+    <Message Name="Please Input Part No." Value="请输入料号" />
+    <Message Name="Tester can't be empty" Value="测试机台不能为空" />
+    <Message Name="Prober file can't be empty" Value="针测器文件不能为空" />
+    <Message Name="Bake time can't be empty" Value="烘烤时间不能为空" />
+    <Message Name="Temp/Soak can't be empty" Value="温度/浸泡不能为空" />
+    <Message Name="Temperature can't be empty" Value="温度不能为空" />
+    <Message Name="Soaking time can't be empty" Value="浸泡时间不能为空" />
+
+    <Message Name="Test Flow / Test Time Already Exist" Value="测试流程/测试时间已存在" />
+    <Message Name="Test Flow / Test Time no Exist" Value="测试流程/测试时间不存在" />
+    <Message Name="Test Program no Exist" Value="程式管理不存在" />
+    <Message Name="Please select MainMachine first" Value="请先选择主机台" />
+    <Message Name="L/B Group" Value="L/B 群组" />
+    <Message Name="P/C Group" Value="P/C 群组" />
+    <Message Name="TOOLING_GROUP" Value="零配件 群组" />
+    <Message Name="Site Times(s)" Value="站点时间(秒)" />
+    <Message Name="Site Test Time can't be empty" Value="站点测试时间不能为空" />
+    <Message Name="Release Yield can't be empty" Value="放行良率不能为空" />
+    <Message Name="Standard Time(s)" Value="标准时间(秒)"/>
+    <Message Name="Machine Type" Value="机台类型"/>
+    <Message Name="Machine Settings" Value="机台设定"/>
+    <Message Name="Add Machine" Value="新增机台"/>
+    <Message Name="Delete Machine" Value="删除机台"/>
+    <Message Name="Show All Machine" Value="显示所有机台"/>
+    <Message Name="Please set machine type first" Value="请先设定机台类型"/>
+    <Message Name="Test Program Already Exist" Value="程式管理已经存在"/>
+    <Message Name="Bin Already Exist" Value="Bin 已经存在"/>
+    <Message Name="Machine already exist" Value="机台已经存在"/>
+    <Message Name="P/C Tooling Group" Value="P/C 治具群组" />
+    <Message Name="L/B Tooling Group" Value="L/B 治具群组" />
+    <Message Name="Temperature Min" Value="最低温度"/>
+    <Message Name="Temperature Max" Value="最高温度"/>
+    <Message Name="Times(s)" Value="时间(秒)"/>
+    <Message Name="Add PCTool" Value="新增"/>
+    <Message Name="Delete PCTool" Value="删除"/>
+    <Message Name="Add LBTool" Value="新增"/>
+    <Message Name="Delete LBTool" Value="删除"/>
+    <Message Name="BIN_NO" Value="BIN NO"/>
+    <Message Name="BIN_PROPERTY" Value="BIN 属性"/>
+    <Message Name="BIN_DESC" Value="BIN 描述"/>
+    <Message Name="Test Specification maintenance Already Exist" Value="测试规范维护已经存在"/>
+    <Message Name="Test Specification maintenance no Exist" Value="测试规范维护不存在"/>
+    <Message Name="GROUP_ID" Value="群组ID"/>
+    <Message Name="GROUP_NO" Value="群组编号"/>
+    <Message Name="Group id already exists" Value="群组ID已存在"/>
+    <Message Name="copy parameter" Value="复制参数"/>
+    <Message Name="Bin Combination Settings" Value="BIN别组合设定"/>
+    <Message Name="Calculate" Value="运算式"/>
+    <Message Name="TYPE" Value="类型"/>
+    <Message Name="Priority" Value="优先顺序"/>
+    <Message Name="CHK" Value="检查顺序"/>
+    <Message Name="Bin Number" Value="Bin号码"/>
+    <Message Name="Upload Customer VMMAP (Inkless)" Value="上传客户VMMAP (Inkless)"/>
+
+    <Message Name="RECIPE_COPY" Value="Recipe复制" />
+    <Message Name="CUSTOMER_NAME" Value="客户名称" />
+    <Message Name="PD_STYLE" Value="产品型号" />
+    <Message Name="PRODUCT_TYPE" Value="产品类型" />
+    <Message Name="SELECT" Value="选取" />
+    <Message Name="CLEAR" Value="清除" />
+    <Message Name="PROCESS_NAME" Value="站点名称" />
+    <Message Name="SELECT_ALL" Value="选择全部" />
+    <Message Name="RECIPE_COPY_NOTICE" Value="我已明了执行此功能会造成的影响和风险，并愿意承担所有责任" />
+    <Message Name="RECIPE_COPY_COMPLETE" Value="制程参数复制完成" />
+    <Message Name="NO_RECIPE_COPY_DATA" Value="请选择要复制的Recipe资料" />
+    <Message Name="PRERELEASE_MACHINE" Value="预放机台" />
+    <Message Name="MACHINE_PROCESS_COPY" Value="套用至其他站点" />
+    <Message Name="COPY_TO_PROCESS" Value="複製到站點" />
+    <Message Name="MACHINE_COPY_COMPLETE" Value="复制完成" />
+    <Message Name="NO_MACHINE_COPY_DATA" Value="请选择站点" />
+
+    <Message Name="Create Sign Flow" Value="发起签核流程" />
+    <Message Name="Agree Sign Flow" Value="同意进入签核流程" />
+    <Message Name="Reject Sign Flow" Value="不同意进入签核流程" />
+    <Message Name="Refresh" Value="重新整理" />
+    <Message Name="Group Name" Value="部门单位" />
+    <Message Name="MEMO" Value="签核备注" />
+    <Message Name="Edit Completed" Value="维护完成" />
+    <Message Name="Agree" Value="同意" />
+    <Message Name="Reject" Value="不同意" />
+    <Message Name="Sign Off Result" Value="签核结果" />
+    <Message Name="Are you sure to initiate the sign-off process?" Value="请确认是否发起签核流程?" />
+    <Message Name="The sign-off process has been successfully initiated" Value="已成功发起签核流程" />
+    <Message Name="After agreeing to initiate the sign-off process, each department can begin to maintain the recipe, are you sure?" Value="同意进入签核流程后, 各部门即可维护产品参数, 请确认是否继续?" />
+    <Message Name="The sign-off process has been successfully initiated, each department can begin to maintain the recipe" Value="已进入签核流程, 各部门可开始维护产品参数" />
+    <Message Name="Your approval result is agree" Value="您的签核结果为同意" />
+    <Message Name="Your approval result is reject" Value="您的签核结果为不同意" />
+    <Message Name="After the recipe of process maintenance is completed, it cannot be modified again, are you sure?" Value="产品参数维护完成后, 将不能再次修改, 请确认是否继续?" />
+    <Message Name="Unable to get mail server settings" Value="无法取得MAIL参数设定" />
+    <Message Name="Sign Flow" Value="签核作业" />
+    <Message Name="Pleae new add BIN NO first" Value="请先新增BIN别" />
+
+    <Message Name="GROUP_NAME" Value="签核部门" />
+    <Message Name="PROCESS_CODE" Value="驳回站点" />
+    <Message Name="STATUS" Value="签核状态" />
+    <Message Name="REJECT_GROUP_NAME" Value="驳回部门" />
+    <Message Name="UPDATE_USER" Value="签核人员" />
+    <Message Name="UPDATE_TIME" Value="签核时间" />
+    <Message Name="Close" Value="关闭" />
+    <Message Name="Log" Value="签核履历" />
+
+    <Message Name="Bake(min) can't be empty." Value="烘烤时间(min)不能为空" />
+    <Message Name="Delete machine settings first" Value="请先删除机台设定"/>
+    <Message Name="Please select machine first" Value="请先选取机台"/>
+    <Message Name="Attach File" Value="附档"/>
+
+    <Message Name="Deselect" Value="取消" />
+    <Message Name="UpLoadFile" Value="上传文件"/>
+    <Message Name="AlreadyUpFile" Value="服务器文件"/>
+    <Message Name="LoadFile" Value="本地文件"/>
+    <Message Name="Selected" Value="选择"/>
+    <Message Name="DownLoad" Value="下载"/>
+    <Message Name="SelectFile" Value="选择文件..."/>
+    <Message Name="StartUp" Value="开始上传"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="FileName" Value="文件名"/>
+    <Message Name="FilePath" Value="文件路径"/>
+    <Message Name="FILE_NAME" Value="文件名"/>
+    <Message Name="EMP_NAME" Value="操作人"/>
+    <Message Name="UPDATE_TIME" Value="更新时间"/>
+    <Message Name="FILE_PATH" Value="文件路径"/>
+    <Message Name="SelectFileContent" Value="查看文件内容"/>
+    <Message Name="FileContent" Value="查看"/>
+    <Message Name="DownLoad Success" Value="下载完成！"/>
+    <Message Name="DownloadFileCount" Value="下载文件数"/>
+    <Message Name="UpLoad Success" Value="上传成功！"/>
+    <Message Name="Server Not Exists This File" Value="伺服器不存在这个档案"/>
+    <Message Name="DownLoad Path is Null,Selected Please" Value="下载路径未输入，请选择路径"/>
+    <Message Name="Server's Path or User or Pwd,is null at once " Value="服务器路径or账户or密码，其中有一个为空！"/>
+    <Message Name="please check table :sys_base ,and program = 'ProcessParam_Attach'" Value="请检查表:sys_base ,条件 program = 'ProcessParam_Attach'"/>
+    <Message Name="View" Value="检视文件"/>
+    <Message Name="File not found" Value="找不到文件"/>
+
+    <Message Name="DeleteContent" Value="刪除"/>
+    <Message Name="Delete success" Value="删除成功"/>
+    <Message Name="Please upload file first." Value="请先上传档案!"/>
+
+    <Message Name="Save" Value="储存"/>
+    <Message Name="Please key in memo!!" Value="请输入备注"/>
+    <Message Name="Saved..." Value="储存完毕"/>
+    <Message Name="Select Process" Value="选取制程站点"/>
+    <Message Name="Notice" Value="注意"/>
+    <Message Name="Select files" Value="选取档案"/>
+    <Message Name="All files" Value="所有档案"/>
+    <Message Name="Confirm cancel?" Value="确认取消?" />
+    <Message Name="UPLOAD_EMP" Value="上传人员"/>
+    <Message Name="NO" Value="编号"/>
+
+    <Message Name="Time Control" Value="时间管控"/>
+    <Message Name="QTime" Value="闲置时间(分钟)"/>
+    <Message Name="Hold Code" Value="锁定代码"/>
+    <Message Name="Please Select Hold Code" Value="请输入锁定代码"/>
+    <Message Name="Clear" Value="清除"/>
+    <Message Name="Condition Parameter" Value="制程条件参数"/>
+    <Message Name="Collection Parameter" Value="资料收集参数"/>
+    <Message Name="Rule Parameter" Value="特殊管控逻辑"/>
+    <Message Name="Program Parameter" Value="程式管理参数"/>
+    <Message Name="To SPC" Value="是否传送给SPC"/>
+    <Message Name="SPC_ITEM" Value="SPC管制项目"/>
+    <Message Name="fPartSelect" Value="选择料号"/>
+    <Message Name="Equipment Collection Parameter" Value="设备采集参数"/>
+    <Message Name="fMachineType" Value="机台类型"/>
+    <Message Name="Machine Select" Value="选择机台"/>
+
+    <Message Name="PROGRAM_NAME" Value="方案"/>
+    <Message Name="SPC_CHART_TYPE" Value="SPC图表类型"/>
+    <Message Name="SPC_CHART" Value="SPC图表"/>
+    <Message Name="PARAM_GROUP_NAME" Value="群组名称"/>
+    <Message Name="Param Group Name" Value="群组名称"/>
+
+
+    <Message Name="Recipe" Value="机台配方"/>
+    <Message Name="RECIPE_ID" Value="机台配方"/>
+    <Message Name="Query" Value="查询"/>
+
+    <Message Name="MenuEdit" Value="修改"/>
+    <Message Name="Machine Type Name" Value="机台类型名称"/>
+    <Message Name="Priority" Value="优先顺序"/>
+    <Message Name="Machine Type Description" Value="机台类型描述"/>
+
+    <Message Name="fPartRecipeCopy" Value="当前料号制程参数复制"/>
+    <Message Name="Part Recipe Copy" Value="当前料号制程参数复制"/>
+    <Message Name="ROUTE_NAME" Value="途程名称"/>
+    <Message Name="Data duplication" Value="资料重复"/>
+
+    <Message Name="DISABLED" Value="禁用"/>
+    <Message Name="MACHINE_ENABLED" Value="是否启用"/>
+    <Message Name="Enabled" Value="启用"/>
+    <Message Name="Disabled" Value="禁用"/>
+
+    <Message Name="Date" Value="日期"/>
+    <Message Name="When the value type is date, the input method can only choose input/EAP" Value="数值类型为日期时，输入方式仅可选择 输入/EAP"/>
+	<Message Name="Database exception, copy failed." Value="资料库异常，复制失败"/>
+
+	  <Message Name="Saving Data..." Value="复制资料中..."/>
+	  <Message Name="Data recipe... Please do not close" Value="复制资料中... 请勿关闭视窗"/>
+    <Message Name="Default value doesn't exist in Item List." Value="预设值不存在于项目列表内"/>
+  </简体中文>
+  <Ngôn_ngữ_Việt>
+<Message Name="Part No" Value="Mã linh kiện" />
+<Message Name="Version" Value="Phiên bản" />
+<Message Name="Customer" Value="Khách hàng" />
+<Message Name="Part Type" Value="Loại mã linh kiện" />
+<Message Name="Document Type" Value="Loại tài liệu" />
+<Message Name="STR Copy" Value="Sao chép STR" />
+
+<Message Name="Product Data" Value="Dữ liệu sản phẩm" />
+<Message Name="Part No. no Product Data" Value="Mã linh kiện chưa thiết lập dữ liệu sản phẩm" />
+<Message Name="Planned Lot Cycle Time(Day)" Value="Chu kỳ lô kế hoạch (ngày)" />
+<Message Name="Planned Lot Yield(Lot)" Value="Sản lượng lô kế hoạch (lô)" />
+<Message Name="Product Information" Value="Thông tin sản phẩm" />
+<Message Name="Package Type" Value="Loại đóng gói" />
+<Message Name="Pin Number" Value="Số chân" />
+<Message Name="Wafer Size" Value="Kích thước số serial" />
+<Message Name="Index X (mil)" Value="Index X (mil)" />
+<Message Name="Y(mil)" Value="Y (mil)" />
+<Message Name="Flash/Notch Direction" Value="Hướng Flat/Notch" />
+<Message Name="Total Test Die" Value="Tổng số Die kiểm tra" />
+<Message Name="Gross Die" Value="Tổng số Die" />
+<Message Name="Probing Direction" Value="Hướng Probing" />
+
+<Message Name="Equipment" Value="Thiết bị" />
+<Message Name="MACHINE_ID" Value="ID máy" />
+<Message Name="MACHINE_CODE" Value="Mã máy" />
+<Message Name="MACHINE_DESC" Value="Mô tả máy" />
+<Message Name="MACHINE_LOC" Value="Vị trí máy" />
+<Message Name="Machine Code" Value="Mã máy" />
+<Message Name="MACHINE_TYPE_NAME" Value="Tên loại máy" />
+<Message Name="MACHINE_TYPE_DESC" Value="Mô tả loại máy" />
+<Message Name="PRIORITY" Value="Thứ tự ưu tiên" />
+<Message Name="SORT" Value="Thứ tự ưu tiên" />
+
+<Message Name="Tooling" Value="Đồ gá" />
+<Message Name="Tooling Type" Value="Nhóm đồ gá" />
+<Message Name="Tooling Parameter" Value="Tham số đồ gá" />
+<Message Name="Machine Type" Value="Loại máy" />
+<Message Name="MACHINE_NAME" Value="Tên máy" />
+<Message Name="Machine" Value="Máy" />
+<Message Name="Data Append OK" Value="Thêm dữ liệu thành công" />
+<Message Name="Please Input Machine" Value="Vui lòng nhập máy" />
+<Message Name="All Machine" Value="Tất cả máy" />
+<Message Name="Please Input Machine Type" Value="Vui lòng nhập loại máy" />
+<Message Name="Please Input Tooling" Value="Vui lòng nhập đồ gá" />
+<Message Name="TOOLING_NAME" Value="Tên đồ gá" />
+<Message Name="TOOLING_DESC" Value="Mô tả đồ gá" />
+<Message Name="TOOLING_NO" Value="Nhóm đồ gá" />
+<Message Name="Tooling Name" Value="Tên đồ gá" />
+
+<Message Name="Program" Value="Quản lý chương trình" />
+<Message Name="Program Name" Value="Tên chương trình" />
+<Message Name="Release Date" Value="Ngày phát hành" />
+<Message Name="BIN Name" Value="Tên BIN" />
+<Message Name="BIN_NAME" Value="Tên BIN" />
+<Message Name="Program Related Information" Value="Thông tin liên quan chương trình" />
+<Message Name="Test Temperature" Value="Nhiệt độ kiểm tra" />
+<Message Name="Program Note" Value="Ghi chú chương trình" />
+<Message Name="Environment Change" Value="Thay đổi môi trường" />
+<Message Name="Production Mode Verify(If Environment Change is 'Yes')" Value="Xác nhận chế độ sản xuất (nếu thay đổi môi trường là 'Có')" />
+<Message Name="Test Temperature" Value="Nhiệt độ kiểm tra" />
+<Message Name="Site Times(s)" Value="Thời gian mỗi site (giây)" />
+<Message Name="Site Index Times(s)" Value="Thời gian lập chỉ số site (giây)" />
+<Message Name="Site Count" Value="Số lượng site" />
+<Message Name="1ea Times(s)" Value="Thời gian 1ea (giây)" />
+<Message Name="Release Yield(%)" Value="Tỷ lệ đạt phát hành (%)" />
+<Message Name="BIN_ID" Value="BIN ID" />
+<Message Name="BIN_NAME" Value="Tên BIN" />
+<Message Name="BIN_DESC" Value="Mô tả BIN" />
+<Message Name="Judgment Inspection Standard" Value="Tiêu chuẩn phán định kiểm tra" />
+<Message Name="Hold Name" Value="Tên chặn" />
+<Message Name="Hold Name Already Exist" Value="Tên chặn đã được thiết lập" />
+<Message Name="Hold Name not Exist" Value="Tên chặn chưa được thiết lập" />
+<Message Name="HOLD_CODE_DESC" Value="Mô tả mã chặn" />
+<Message Name="HOLD_CODE" Value="Mã chặn" />
+<Message Name="HOLD_NAME" Value="Tên chặn" />
+<Message Name="TANGO_CLASS" Value="Loại chính" />
+<Message Name="TANGO_CONTENT" Value="Quy tắc phụ" />
+<Message Name="Rule Class" Value="Loại chính" />
+<Message Name="sub Rule" Value="Quy tắc phụ" />
+<Message Name="PARAM_NAME" Value="Loại chính" />
+<Message Name="PARAM_VALUE" Value="Tùy chọn" />
+<Message Name="Run Card Maintain" Value="Bảo trì Run Card" />
+<Message Name="RUNCARD_SEQ" Value="Thứ tự hiển thị mục" />
+<Message Name="CHECK_EN" Value="Hạng mục kiểm tra (tiếng Anh)" />
+<Message Name="CHECK_TC" Value="Hạng mục kiểm tra (phồn thể)" />
+<Message Name="OPERATION_EN" Value="Lưu ý thao tác (tiếng Anh)" />
+<Message Name="OPERATION_TC" Value="Lưu ý thao tác (phồn thể)" />
+<Message Name="Run Card Seq" Value="Thứ tự hiển thị mục" />
+<Message Name="Checking matters" Value="Hạng mục kiểm tra (tiếng Anh)" />
+<Message Name="Precautions for operation" Value="Lưu ý thao tác (tiếng Anh)" />
+<Message Name="Stage Name" Value="Tên khu đoạn" />
+<Message Name="Stage Description" Value="Mô tả khu đoạn" />
+<Message Name="Stage Code" Value="Mã khu đoạn" />
+<Message Name="Process Name" Value="Tên công đoạn" />
+<Message Name="Description" Value="Mô tả công đoạn" />
+<Message Name="Description2" Value="Mô tả công đoạn (2)" />
+<Message Name="Process Code" Value="Mã công đoạn" />
+<Message Name="Operate Type" Value="Loại công đoạn" />
+<Message Name="STAGE_NAME" Value="Tên khu đoạn" />
+<Message Name="has one or more Processes" Value="Đã bao gồm dữ liệu công đoạn" />
+<Message Name="Can not delete it" Value="Không thể xóa" />
+<Message Name="has one or more Terminals" Value="Đã bao gồm dữ liệu trạm làm việc" />
+<Message Name="Please Select a Item." Value="Vui lòng chọn mục tham số công đoạn sản phẩm" />
+<Message Name="Please Select One Item." Value="Vui lòng chọn một mục tham số công đoạn sản phẩm" />
+<Message Name="Delete the Item?" Value="Xóa tham số công đoạn sản phẩm này?" />
+<Message Name="Delete Item : " Value="Xóa tham số công đoạn sản phẩm: " />
+<Message Name=" Error." Value=" Lỗi." />
+<Message Name="Please Input Part No." Value="Vui lòng nhập mã linh kiện" />
+<Message Name="Please Select Target Process." Value="Vui lòng chọn công đoạn" />
+<Message Name="Delete Item Error." Value="Lỗi khi xóa tham số công đoạn sản phẩm" />
+<Message Name="Error Part No." Value="Mã linh kiện sai" />
+<Message Name="Error Copy Part No." Value="Lỗi sao chép tham số công đoạn sản phẩm" />
+<Message Name="Add another one" Value="Thêm tham số công đoạn sản phẩm khác" />
+<Message Name="Add Error." Value="Lỗi thêm tham số công đoạn sản phẩm" />
+<Message Name="Please Input Default Value." Value="Vui lòng nhập giá trị mặc định" />
+<Message Name="Please Create List item." Value="Vui lòng thêm tùy chọn" />
+<Message Name="Please Input min Value." Value="Vui lòng nhập giá trị tối thiểu" />
+<Message Name="Please Input Max Value." Value="Vui lòng nhập giá trị tối đa" />
+<Message Name="Please Input min Value in Number" Value="Giá trị tối thiểu phải là số" />
+<Message Name="Please Input Max Value in Number" Value="Giá trị tối đa phải là số" />
+<Message Name="Item Sequence is Duplicate." Value="Thứ tự hiển thị tham số trùng lặp" />
+<Message Name="Please Input Item Name." Value="Vui lòng nhập tên tham số công đoạn sản phẩm" />
+<Message Name="Please Input Item ID and Name" Value="Vui lòng nhập mã mục và tên mục" />
+<Message Name="Item Name is duplicate." Value="Tên tham số công đoạn sản phẩm bị trùng" />
+<Message Name="Check Data Error." Value="Dữ liệu nhập vào không hợp lệ" />
+<Message Name="Error." Value="Lỗi." />
+<Message Name="Please Choose Process." Value="Vui lòng chọn công đoạn" />
+<Message Name="Data Duplcate in " Value="Dữ liệu trùng lặp - Tham số công đoạn sản phẩm: " />
+<Message Name="Error Copy." Value="Lỗi sao chép tham số công đoạn sản phẩm" />
+<Message Name="Origin" Value="Công đoạn nguồn" />
+<Message Name="Target" Value="Công đoạn mục tiêu" />
+<Message Name="Select All" Value="Chọn tất cả" />
+<Message Name="OK" Value="Xác nhận" />
+<Message Name="Cancel" Value="Hủy" />
+<Message Name="Process" Value="Công đoạn" />
+<Message Name="Add" Value="Thêm" />
+<Message Name="Modify" Value="Sửa" />
+<Message Name="Up" Value="Di chuyển lên" />
+<Message Name="Down" Value="Di chuyển xuống" />
+
+<Message Name="Process Condition" Value="Điều kiện công đoạn" />
+<Message Name="Data Collection" Value="Thu thập dữ liệu" />
+<Message Name="SN Process Condition" Value="Điều kiện công đoạn theo SN" />
+<Message Name="SN Data Collection" Value="Thu thập dữ liệu theo SN" />
+<Message Name="ITEM_NAME" Value="Mã mục" />
+<Message Name="ITEM_NAME_DESC" Value="Tên mục" />
+<Message Name="ITEM_PHASE" Value="Giai đoạn mục" />
+<Message Name="ITEM_TYPE" Value="Loại mục" />
+<Message Name="ITEM_SEQ" Value="Thứ tự hiển thị" />
+<Message Name="VALUE_TYPE" Value="Loại giá trị" />
+<Message Name="INPUT_TYPE" Value="Phương thức nhập" />
+<Message Name="VALUE_DEFAULT" Value="Giá trị mặc định" />
+<Message Name="VALUE_LIST" Value="Danh sách mục" />
+<Message Name="NECESSARY" Value="Trường bắt buộc" />
+<Message Name="CONVERT_TYPE" Value="Chuyển đổi giá trị nhập" />
+<Message Name="UPDATE_USERID" Value="Người chỉnh sửa" />
+<Message Name="UPDATE_TIME" Value="Thời gian chỉnh sửa" />
+<Message Name="ENABLED" Value="Có hiệu lực" />
+<Message Name="Item Seq" Value="Thứ tự hiển thị" />
+<Message Name="Item Name" Value="Tên mục" />
+<Message Name="Item Phase" Value="Giai đoạn mục" />
+<Message Name="Value Type" Value="Loại giá trị" />
+<Message Name="Input Type" Value="Phương thức nhập" />
+<Message Name="Default" Value="Giá trị mặc định" />
+<Message Name="Item List" Value="Danh sách mục" />
+<Message Name="Convert Type" Value="Loại chuyển đổi" />
+<Message Name="Range" Value="Phạm vi" />
+<Message Name="EMP_NO" Value="Người chỉnh sửa" />
+<Message Name="Necessary" Value="Bắt buộc" />
+<Message Name="Collapse" Value="Thu gọn" />
+<Message Name="Expand" Value="Mở rộng" />
+<Message Name="Copy" Value="Sao chép tham số công đoạn sản phẩm" />
+<Message Name="Item Sequence" Value="Thứ tự" />
+<Message Name="Choose" Value="Công đoạn mục tiêu" />
+<Message Name="Copy Part Parameter" Value="Sao chép tham số công đoạn sản phẩm" />
+<Message Name="Please Input Item Value in Number" Value="Giá trị phải là số" />
+<Message Name="Item" Value="Mục" />
+<Message Name="Key In" Value="Nhập tay" />
+<Message Name="Select List" Value="Danh sách chọn" />
+<Message Name="PART_NO" Value="Mã linh kiện" />
+<Message Name="PART_TYPE" Value="Loại mã linh kiện" />
+<Message Name="SPEC1" Value="Mẫu sản phẩm" />
+<Message Name="SPEC2" Value="Quy cách" />
+<Message Name="MATERIAL_TYPE" Value="Bắt buộc" />
+<Message Name="Alert Msg" Value="Thông báo công đoạn" />
+<Message Name="Alert" Value="Thông báo" />
+<Message Name="Alert Type" Value="Loại thông báo" />
+<Message Name="Title" Value="Tiêu đề" />
+<Message Name="Content" Value="Nội dung" />
+<Message Name="ALERT_TYPE" Value="Loại thông báo" />
+<Message Name="ITEM_TITLE" Value="Tiêu đề thông báo" />
+<Message Name="ITEM_CONTENT" Value="Nội dung thông báo" />
+<Message Name="WIP IN" Value="Nhập công đoạn" />
+<Message Name="WIP OUT" Value="Xuất công đoạn" />
+<Message Name="Info" Value="Thông tin" />
+<Message Name="Warn" Value="Cảnh báo" />
+<Message Name="Error" Value="Lỗi" />
+<Message Name="Needed Item Cannot Be Empty" Value="Trường bắt buộc không được để trống" />
+<Message Name="Item Name Already Exist" Value="Tên hoặc thứ tự đã tồn tại" />
+<Message Name="Item Name Or Seq Already Exist" Value="Tên hoặc thứ tự đã tồn tại" />
+<Message Name="PROCESS" Value="Công đoạn" />
+<Message Name="PART_ID" Value="ID mã linh kiện" />
+<Message Name="VERSION" Value="Phiên bản" />
+<Message Name="Info" Value="Thông tin" />
+<Message Name="Please Select a Alert Item." Value="Vui lòng chọn một mục" />
+<Message Name="Link" Value="Liên kết" />
+<Message Name="Print" Value="In" />
+<Message Name="Property" Value="Thuộc tính" />
+<Message Name="PROPERTY_NAME" Value="Tên thuộc tính" />
+<Message Name="PROPERTY_VALUE" Value="Giá trị thuộc tính" />
+<Message Name="PROPERTY_ID" Value="ID thuộc tính" />
+<Message Name="Value Type Are Not The Same" Value="Kiểu giá trị không giống nhau" />
+<Message Name="Property Not Find" Value="Không tìm thấy thuộc tính trong mã linh kiện" />
+<Message Name="Varchar2" Value="Chuỗi ký tự" />
+<Message Name="Character" Value="Chuỗi ký tự" />
+<Message Name="Number" Value="Số" />
+<Message Name="Key In" Value="Nhập giá trị" />
+<Message Name="Select List" Value="Danh sách giá trị" />
+<Message Name="None" Value="Không chuyển đổi" />
+<Message Name="Uppercase" Value="Chuyển thành chữ in hoa" />
+<Message Name="Lowercase" Value="Chuyển thành chữ thường" />
+<Message Name="UnNecessary" Value="Không bắt buộc" />
+<Message Name="Necessary" Value="Bắt buộc" />
+<Message Name="SAMPLING_ID" Value="Kế hoạch lấy mẫu" />
+<Message Name="Sampling ID" Value="Kế hoạch lấy mẫu" />
+<Message Name="SAMPLING_TYPE" Value="Tên kế hoạch lấy mẫu" />
+<Message Name="SAMPLING_DESC" Value="Mô tả kế hoạch lấy mẫu" />
+<Message Name="Sampling Plan Not Find" Value="Không có kế hoạch lấy mẫu này" />
+<Message Name="KEYIN_FLAG" Value="Nhập lô vật liệu hay không" />
+<Message Name="ITEM_PN" Value="Mã vật liệu" />
+<Message Name="QTY" Value="Số lượng" />
+<Message Name="UNIT_USED" Value="Lượng dùng mỗi đơn vị" />
+<Message Name="DEFAULT_LOTNO" Value="Lô vật liệu mặc định" />
+<Message Name="Material" Value="Vật liệu công đoạn" />
+<Message Name="Tester" Value="Máy kiểm tra" />
+<Message Name="Expected effective date" Value="Ngày dự kiến hiệu lực" />
+<Message Name="Version" Value="Phiên bản" />
+<Message Name="LR Leader" Value="Tổ trưởng LR" />
+<Message Name="Effective Date" Value="Ngày hiệu lực" />
+<Message Name="Program" Value="Quản lý chương trình" />
+<Message Name="OI corresponding product program" Value="Chương trình sản phẩm tương ứng OI" />
+<Message Name="Prober Card" Value="Thẻ prober" />
+<Message Name="Prober/Handler" Value="Prober/Handler" />
+<Message Name="D/B NO" Value="Số D/B" />
+<Message Name="C/B NO" Value="Số C/B" />
+<Message Name="C/K NO" Value="Số C/K" />
+<Message Name="L/B NO" Value="Số L/B" />
+<Message Name="Directory" Value="Thư mục" />
+<Message Name="Test Time" Value="Thời gian kiểm tra" />
+<Message Name="Interface" Value="Giao diện" />
+<Message Name="Bake Time(hr)" Value="Thời gian sấy (giờ)" />
+<Message Name="Hold Limit(Wafer)" Value="Giới hạn giữ (wafer)" />
+<Message Name="Hold Limit(Lot)" Value="Giới hạn giữ (lô)" />
+<Message Name="TEMP/SOAK" Value="Nhiệt độ / ngâm" />
+<Message Name="Special Yield" Value="Tỷ lệ yield chỉ định" />
+<Message Name="Scrap Limits" Value="Giới hạn phế phẩm" />
+<Message Name="Option" Value="Tùy chọn" />
+<Message Name="Module Limits" Value="Giới hạn module" />
+<Message Name="Prober File" Value="Tệp prober" />
+<Message Name="O/S" Value="O/S" />
+<Message Name="Handle File 1" Value="Tệp handle 1" />
+<Message Name="Modle 1" Value="Mô hình 1" />
+<Message Name="Value 1" Value="Giá trị 1" />
+<Message Name="Handle File 2" Value="Tệp handle 2" />
+<Message Name="Modle 2" Value="Mô hình 2" />
+<Message Name="Value 2" Value="Giá trị 2" />
+<Message Name="Environment 1" Value="Environment 1" />
+<Message Name="Office Version" Value="Phiên bản Office" />
+<Message Name="OS Version" Value="Phiên bản OS" />
+<Message Name="Test module" Value="Module kiểm tra" />
+<Message Name="Environment 2" Value="Môi trường 2" />
+<Message Name="Program" Value="Quản lý chương trình" />
+<Message Name="Environment 3" Value="Môi trường 3" />
+<Message Name="Double Contact Function" Value="Chức năng Double Contact" />
+<Message Name="Double Repeat Function" Value="Chức năng Double Repeat" />
+<Message Name="OI Version" Value="Phiên bản OI" />
+<Message Name="Download Tango CPB" Value="Download Tango CPB" />
+<Message Name="TestBIN" Value="TestBIN" />
+<Message Name="Retest" Value="Retest" />
+<Message Name="Soaking Time" Value="Soaking Time" />
+<Message Name="Clear needle number" Value="Số die làm sạch kim" />
+<Message Name="Temperature" Value="Nhiệt độ" />
+<Message Name="Map shift check die (X)" Value="Kiểm tra lệch bản đồ die (X)" />
+<Message Name="Map shift check die (Y)" Value="Kiểm tra lệch bản đồ die (Y)" />
+<Message Name="Correlation wafer ID" Value="ID wafer tương quan" />
+<Message Name="Script name" Value="Tên script" />
+<Message Name="Test Program Condition" Value="Điều kiện chương trình kiểm tra" />
+<Message Name="Test_Code 1" Value="Mã kiểm tra 1" />
+<Message Name="Test_Code 2" Value="Mã kiểm tra 2" />
+<Message Name="Test_Code 3" Value="Mã kiểm tra 3" />
+<Message Name="Test_Code 4" Value="Mã kiểm tra 4" />
+<Message Name="Test_Code 5" Value="Mã kiểm tra 5" />
+<Message Name="Clean setting(CP/FT)" Value="Thiết lập làm sạch (CP/FT)" />
+<Message Name="Contact count" Value="Số lần tiếp xúc" />
+<Message Name="Interval (a) Die" Value="Khoảng cách (a) die" />
+<Message Name="(b) wafer" Value="(b) wafer" />
+<Message Name="Overdrive Mode" Value="Chế độ tốc độ cao" />
+<Message Name="Over drive Limit(%)" Value="Giới hạn chế độ tốc độ cao (%)" />
+
+<Message Name="Item Part No" Value="Mã vật liệu" />
+<Message Name="Qty" Value="Số lượng" />
+<Message Name="KeyIn Lot No" Value="Nhập lô vật liệu hay không" />
+<Message Name="Default Lot No" Value="Lô mặc định" />
+<Message Name="Unit Used" Value="Lượng dùng mỗi lô" />
+<Message Name="Phase" Value="Giai đoạn dự án" />
+<Message Name="Item Part No is duplicate." Value="Mã vật liệu bị trùng" />
+<Message Name="Please Input Item Part No." Value="Vui lòng nhập mã vật liệu" />
+<Message Name="Please Select One Material Item." Value="Vui lòng chọn một mục vật liệu" />
+<Message Name="MATERIAL_LOT_NO" Value="Lô vật liệu" />
+<Message Name="TOTAL_QTY" Value="Tổng số lượng" />
+<Message Name="CURRENT_QTY" Value="Số lượng còn lại hiện tại" />
+<Message Name="Item Part No Empty" Value="Mã vật liệu trống" />
+<Message Name="Please Input Qty." Value="Vui lòng nhập số lượng vật liệu" />
+<Message Name="Item Sequence is Duplicate." Value="Thứ tự hiển thị tham số trùng lặp" />
+<Message Name="Sub PN" Value="Vật liệu thay thế" />
+<Message Name="Sub Material Duplicate" Value="Vật liệu thay thế bị trùng" />
+<Message Name="Substitute material" Value="Vật liệu thay thế" />
+<Message Name="Item Part No is Sub Material." Value="Đã được dùng làm vật liệu thay thế" />
+<Message Name="Sub Material Is Item Part No" Value="Đã được dùng làm vật liệu chính" />
+<Message Name="TO_SPC" Value="Gửi vào SPC" />
+<Message Name="Item ID" Value="Mã mục" />
+
+<Message Name="Attribute Name" Value="Tên thuộc tính SAP" />
+<Message Name="ATTRIBUTE_NAME" Value="Tên thuộc tính SAP" />
+<Message Name="ATTRIBUTE_DESC" Value="Mô tả thuộc tính SAP" />
+<Message Name="ATTRIBUTE_TYPE" Value="Loại thuộc tính SAP" />
+<Message Name="Check List" Value="Phiếu kiểm tra" />
+<Message Name="Procedure Rule" Value="Logic kiểm soát đặc biệt" />
+
+<Message Name="SP_NAME" Value="Thủ tục được gọi" />
+<Message Name="SP_MESSAGE" Value="Thông báo nhắc người dùng" />
+<Message Name="HOLD_RC" Value="Có khóa mã lô sản xuất hay không" />
+<Message Name="Hold Machine" Value="Có khóa máy hay không" />
+<Message Name="HOLD_MACHINE" Value="Có khóa máy hay không" />
+<Message Name="HOLD_DESC" Value="Mô tả mã khóa" />
+<Message Name="SP_ALARM_EMAIL" Value="Email cảnh báo chương trình" />
+
+<Message Name="Frequence Type" Value="Tần suất lấy mẫu" />
+<Message Name="FREQUENCE_TYPE" Value="Tần suất lấy mẫu" />
+<Message Name="Each" Value="Mỗi" />
+<Message Name="Sampling" Value="Lấy mẫu" />
+<Message Name="Freq_Rate is Empty" Value="Tần suất trống" />
+<Message Name="Freq_Rate must be greater than 1" Value="Tần suất phải lớn hơn 1" />
+<Message Name="RC" Value="Lô sản xuất" />
+<Message Name="EveryTime" Value="Mỗi lần" />
+<Message Name="By WO" Value="Theo công lệnh" />
+<Message Name="yes" Value="Có" />
+<Message Name="no" Value="Không" />
+<Message Name="Please Select SP_NAME." Value="Vui lòng chọn chương trình gọi (SP_NAME)" />
+<Message Name="Copy Sampling Data" Value="Sao chép dữ liệu lấy mẫu" />
+<Message Name="FREQUENCE_TYPE_SP" Value="Sao chép dữ liệu lấy mẫu" />
+<Message Name="Please Input SPC ITEM" Value="Vui lòng nhập mục SPC" />
+<Message Name="Measuring Points" Value="Số điểm đo" />
+<Message Name="MEASURING_POINTS" Value="Số điểm đo" />
+<Message Name="FREQUENCE_RATE" Value="Tần suất" />
+<Message Name="Other" Value="Khác" />
+
+<Message Name="Test Flow / Test Time" Value="Quy trình kiểm tra / Thời gian kiểm tra" />
+<Message Name="Test Specification maintenance" Value="Bảo trì quy cách kiểm tra" />
+<Message Name="Machine Type" Value="Loại máy" />
+<Message Name="Bake(min)" Value="Thời gian sấy (phút)" />
+<Message Name="Bake(degree)" Value="Nhiệt độ sấy (độ)" />
+<Message Name="Bake(Hrs)" Value="Thời gian sấy (giờ)" />
+<Message Name="Sampling Plan" Value="Kế hoạch lấy mẫu" />
+<Message Name="Standard Time(s)" Value="Thời gian chuẩn (giây)" />
+<Message Name="Release Yield" Value="Tỷ lệ đạt yêu cầu" />
+<Message Name="Low Yield Rate" Value="Tỷ lệ sản lượng thấp nhất" />
+<Message Name="Note" Value="Ghi chú" />
+<Message Name="Bake(min)" Value="Thời gian sấy (phút)" />
+<Message Name="Production Mode Verify" Value="Xác nhận chế độ sản xuất" />
+<Message Name="(If Testing Environment Change is 'Yes')" Value="(Nếu môi trường kiểm tra thay đổi thành 'Có')" />
+<Message Name="Yes" Value="Có" />
+<Message Name="No" Value="Không" />
+<Message Name="Delete" Value="Xóa" />
+<Message Name="Main Machine" Value="Máy chính" />
+<Message Name="Sub Machine" Value="Máy phụ" />
+<Message Name="Main machine already exist" Value="Máy chính đã tồn tại" />
+<Message Name="Sub machine already exist" Value="Máy phụ đã tồn tại" />
+
+<Message Name="First value can't be -" Value="Giá trị đầu tiên không được là '-'" />
+<Message Name="Last value can't be -" Value="Giá trị cuối không được là '-'" />
+<Message Name="can't use double - symbol" Value="Không được dùng hai dấu '-'" />
+<Message Name="series must be ascending" Value="Chuỗi giá trị phải theo thứ tự tăng dần" />
+<Message Name="duplicate value found:" Value="Phát hiện giá trị trùng:" />
+<Message Name="Error Input:" Value="Lỗi nhập liệu:" />
+<Message Name="amount can't be empty" Value="Giá trị không được để trống" />
+<Message Name="bin no. can't be empty" Value="Số BIN không được để trống" />
+<Message Name="can't be null" Value="Không được để trống" />
+<Message Name="Bin combination rules" Value="Quy tắc kết hợp BIN" />
+
+<Message Name="TESTER" Value="Máy kiểm tra" />
+<Message Name="OI_PROGRAM_PRODUCT" Value="Mã sản phẩm OI" />
+<Message Name="PROGRAM" Value="Quản lý chương trình" />
+<Message Name="TEST_PROGRAM_VER" Value="Phiên bản chương trình kiểm tra" />
+<Message Name="SITE_NO" Value="Mã trạm" />
+<Message Name="PATTERN" Value="Mẫu" />
+<Message Name="JOB" Value="Công việc" />
+<Message Name="UPDATE_EMP" Value="Người cập nhật" />
+<Message Name="UPDATE_TIME" Value="Thời gian cập nhật" />
+
+<Message Name="confirm" Value="Xác nhận" />
+<Message Name="cancel" Value="Hủy" />
+<Message Name="Success" Value="Thành công" />
+<Message Name="ProcessID can't be null" Value="ProcessID không được để trống" />
+
+<Message Name="Data already exists, please delete first to create new one." Value="Dữ liệu đã tồn tại, vui lòng xóa trước khi tạo mới." />
+<Message Name="Confirm delete?" Value="Xác nhận xóa?" />
+<Message Name="Save result?" Value="Lưu kết quả?" />
+<Message Name="Bin number only accept numeric." Value="Số BIN chỉ chấp nhận số." />
+<Message Name="can't duplicate" Value="Không được trùng lặp" />
+<Message Name="please select one option" Value="Vui lòng chọn một tùy chọn" />
+<Message Name="please select other option" Value="Vui lòng chọn tùy chọn khác" />
+
+<Message Name="PART NAME" Value="Mã linh kiện" />
+<Message Name="BIN NO" Value="Số BIN" />
+<Message Name="BIN QUANTITY" Value="Số lô cắt" />
+<Message Name="BIN QTY" Value="Số lượng mỗi lô" />
+<Message Name="NEW BIN NO" Value="Số BIN mới" />
+<Message Name="NEW PART NAME" Value="Mã linh kiện chuyển đổi" />
+<Message Name="ROUTE NAME" Value="Tên tuyến trình" />
+<Message Name="NEW PROCESS NAME" Value="Tên trạm mới" />
+<Message Name="GO_PROCESS" Value="Bỏ qua công đoạn" />
+<Message Name="Please select new part id first" Value="Vui lòng chọn mã linh kiện mới trước" />
+<Message Name="Please finish check bin process first" Value="BIN chưa được thiết lập" />
+<Message Name="BIN NO already exists" Value="Số BIN đã tồn tại" />
+<Message Name="Please select node." Value="Vui lòng chọn trạm." />
+<Message Name="Bin quantity only accept number or empty string" Value="Số lô cắt chỉ chấp nhận số hoặc để trống" />
+<Message Name="Bin quantity and bin qty can't be both empty string" Value="Số lô cắt và số lượng mỗi lô không được đồng thời để trống" />
+<Message Name="Bin qty only accept number or empty string" Value="Số lượng mỗi lô chỉ chấp nhận số hoặc để trống" />
+<Message Name="Part don't have route setting" Value="Linh kiện chưa có thiết lập tuyến trình" />
+<Message Name="Please Input Part No." Value="Vui lòng nhập mã linh kiện" />
+<Message Name="Tester can't be empty" Value="Máy kiểm tra không được để trống" />
+<Message Name="Prober file can't be empty" Value="Tệp prober không được để trống" />
+<Message Name="Bake time can't be empty" Value="Thời gian sấy không được để trống" />
+<Message Name="Temp/Soak can't be empty" Value="Nhiệt độ / ngâm không được để trống" />
+<Message Name="Temperature can't be empty" Value="Nhiệt độ không được để trống" />
+<Message Name="Soaking time can't be empty" Value="Thời gian ngâm không được để trống" />
+
+<Message Name="Test Flow / Test Time Already Exist" Value="Quy trình / thời gian kiểm tra đã tồn tại" />
+<Message Name="Test Flow / Test Time no Exist" Value="Quy trình / thời gian kiểm tra không tồn tại" />
+<Message Name="Test Program no Exist" Value="Chương trình kiểm tra không tồn tại" />
+<Message Name="Please select MainMachine first" Value="Vui lòng chọn máy chính trước" />
+<Message Name="L/B Group" Value="Nhóm L/B" />
+<Message Name="P/C Group" Value="Nhóm P/C" />
+<Message Name="TOOLING_GROUP" Value="Nhóm phụ tùng" />
+<Message Name="Site Times(s)" Value="Thời gian trạm (giây)" />
+<Message Name="Site Test Time can't be empty" Value="Thời gian kiểm tra trạm không được để trống" />
+<Message Name="Release Yield can't be empty" Value="Tỷ lệ đạt yêu cầu không được để trống" />
+<Message Name="Standard Time(s)" Value="Thời gian chuẩn (giây)" />
+<Message Name="Machine Type" Value="Loại máy" />
+<Message Name="Machine Settings" Value="Cài đặt máy" />
+<Message Name="Add Machine" Value="Thêm máy" />
+<Message Name="Delete Machine" Value="Xóa máy" />
+<Message Name="Show All Machine" Value="Hiển thị tất cả máy" />
+<Message Name="Please set machine type first" Value="Vui lòng thiết lập loại máy trước" />
+<Message Name="Test Program Already Exist" Value="Chương trình kiểm tra đã tồn tại" />
+<Message Name="Bin Already Exist" Value="BIN đã tồn tại" />
+<Message Name="Machine already exist" Value="Máy đã tồn tại" />
+<Message Name="P/C Tooling Group" Value="Nhóm dụng cụ P/C" />
+<Message Name="L/B Tooling Group" Value="Nhóm dụng cụ L/B" />
+<Message Name="Temperature Min" Value="Nhiệt độ thấp nhất" />
+<Message Name="Temperature Max" Value="Nhiệt độ cao nhất" />
+<Message Name="Times(s)" Value="Thời gian (giây)" />
+<Message Name="Add PCTool" Value="Thêm" />
+<Message Name="Delete PCTool" Value="Xóa" />
+<Message Name="Add LBTool" Value="Thêm" />
+<Message Name="Delete LBTool" Value="Xóa" />
+<Message Name="BIN_NO" Value="Số BIN" />
+<Message Name="BIN_PROPERTY" Value="Thuộc tính BIN" />
+<Message Name="BIN_DESC" Value="Mô tả BIN" />
+<Message Name="Test Specification maintenance Already Exist" Value="Quy cách kiểm tra đã tồn tại" />
+<Message Name="Test Specification maintenance no Exist" Value="Quy cách kiểm tra không tồn tại" />
+<Message Name="GROUP_ID" Value="Mã nhóm" />
+<Message Name="GROUP_NO" Value="Số nhóm" />
+<Message Name="Group id already exists" Value="Mã nhóm đã tồn tại" />
+<Message Name="copy parameter" Value="Sao chép tham số" />
+<Message Name="Bin Combination Settings" Value="Thiết lập kết hợp BIN" />
+<Message Name="Calculate" Value="Biểu thức" />
+<Message Name="TYPE" Value="Loại" />
+<Message Name="Priority" Value="Ưu tiên" />
+<Message Name="CHK" Value="Thứ tự kiểm tra" />
+<Message Name="Bin Number" Value="Số BIN" />
+<Message Name="Upload Customer VMMAP (Inkless)" Value="Tải lên VMMAP của khách hàng (Inkless)" />
+<Message Name="RECIPE_COPY" Value="Sao chép Recipe" />
+<Message Name="CUSTOMER_NAME" Value="Tên khách hàng" />
+<Message Name="PD_STYLE" Value="Model sản phẩm" />
+<Message Name="PRODUCT_TYPE" Value="Loại sản phẩm" />
+<Message Name="SELECT" Value="Chọn" />
+<Message Name="CLEAR" Value="Xóa" />
+<Message Name="PROCESS_NAME" Value="Tên trạm" />
+<Message Name="SELECT_ALL" Value="Chọn tất cả" />
+<Message Name="RECIPE_COPY_NOTICE" Value="Tôi đã hiểu rõ ảnh hưởng và rủi ro khi thực hiện chức năng này và đồng ý chịu mọi trách nhiệm" />
+<Message Name="RECIPE_COPY_COMPLETE" Value="Sao chép tham số công đoạn đã hoàn tất" />
+<Message Name="NO_RECIPE_COPY_DATA" Value="Vui lòng chọn dữ liệu Recipe cần sao chép" />
+<Message Name="PRERELEASE_MACHINE" Value="Máy pre-release" />
+<Message Name="MACHINE_PROCESS_COPY" Value="Áp dụng cho trạm khác" />
+<Message Name="COPY_TO_PROCESS" Value="Sao chép đến trạm" />
+<Message Name="MACHINE_COPY_COMPLETE" Value="Sao chép máy hoàn tất" />
+<Message Name="NO_MACHINE_COPY_DATA" Value="Vui lòng chọn trạm" />
+
+<Message Name="Create Sign Flow" Value="Khởi tạo quy trình ký duyệt" />
+<Message Name="Agree Sign Flow" Value="Đồng ý vào quy trình ký duyệt" />
+<Message Name="Reject Sign Flow" Value="Không đồng ý vào quy trình ký duyệt" />
+<Message Name="Refresh" Value="Làm mới" />
+<Message Name="Group Name" Value="Đơn vị bộ phận" />
+<Message Name="MEMO" Value="Ghi chú ký duyệt" />
+<Message Name="Edit Completed" Value="Bảo trì hoàn tất" />
+<Message Name="Agree" Value="Đồng ý" />
+<Message Name="Reject" Value="Không đồng ý" />
+<Message Name="Sign Off Result" Value="Kết quả ký duyệt" />
+<Message Name="Are you sure to initiate the sign-off process?" Value="Vui lòng xác nhận có khởi tạo quy trình ký duyệt hay không?" />
+<Message Name="The sign-off process has been successfully initiated" Value="Đã khởi tạo quy trình ký duyệt thành công" />
+<Message Name="After agreeing to initiate the sign-off process, each department can begin to maintain the recipe, are you sure?" Value="Sau khi đồng ý vào quy trình ký duyệt, các bộ phận có thể bắt đầu duy trì tham số sản phẩm, bạn có chắc muốn tiếp tục không?" />
+<Message Name="The sign-off process has been successfully initiated, each department can begin to maintain the recipe" Value="Đã vào quy trình ký duyệt, các bộ phận có thể bắt đầu duy trì tham số sản phẩm" />
+<Message Name="Your approval result is agree" Value="Kết quả ký duyệt của bạn là Đồng ý" />
+<Message Name="Your approval result is reject" Value="Kết quả ký duyệt của bạn là Không đồng ý" />
+<Message Name="After the recipe of process maintenance is completed, it cannot be modified again, are you sure?" Value="Sau khi duy trì tham số sản phẩm hoàn tất sẽ không thể sửa đổi, bạn có chắc muốn tiếp tục không?" />
+<Message Name="Unable to get mail server settings" Value="Không thể lấy thiết lập tham số máy chủ MAIL" />
+<Message Name="Sign Flow" Value="Tác vụ ký duyệt" />
+<Message Name="Pleae new add BIN NO first" Value="Vui lòng thêm BIN trước" />
+<Message Name="GROUP_NAME" Value="Bộ phận ký duyệt" />
+<Message Name="PROCESS_CODE" Value="Trạm bị từ chối" />
+<Message Name="STATUS" Value="Trạng thái ký duyệt" />
+<Message Name="REJECT_GROUP_NAME" Value="Bộ phận từ chối" />
+<Message Name="UPDATE_USER" Value="Người ký duyệt" />
+<Message Name="UPDATE_TIME" Value="Thời gian ký duyệt" />
+<Message Name="Close" Value="Đóng" />
+<Message Name="Log" Value="Lịch sử ký duyệt" />
+<Message Name="Bake(min) can't be empty." Value="Thời gian sấy (min) không được để trống" />
+<Message Name="Delete machine settings first" Value="Vui lòng xóa thiết lập máy trước" />
+<Message Name="Please select machine first" Value="Vui lòng chọn máy trước" />
+<Message Name="Attach File" Value="Đính kèm tập tin" />
+<Message Name="Deselect" Value="Bỏ chọn" />
+<Message Name="UpLoadFile" Value="Tải lên tập tin" />
+<Message Name="AlreadyUpFile" Value="Tập tin trên máy chủ" />
+<Message Name="LoadFile" Value="Tập tin nội bộ" />
+<Message Name="Selected" Value="Đã chọn" />
+<Message Name="DownLoad" Value="Tải xuống" />
+<Message Name="SelectFile" Value="Chọn tập tin..." />
+<Message Name="StartUp" Value="Bắt đầu tải lên" />
+<Message Name="Cancel" Value="Hủy" />
+<Message Name="FileName" Value="Tên tập tin" />
+<Message Name="FilePath" Value="Đường dẫn tập tin" />
+<Message Name="FILE_NAME" Value="Tên tập tin" />
+<Message Name="EMP_NAME" Value="Người thao tác" />
+<Message Name="UPDATE_TIME" Value="Thời gian cập nhật" />
+<Message Name="FILE_PATH" Value="Đường dẫn tập tin" />
+<Message Name="SelectFileContent" Value="Xem nội dung tập tin" />
+<Message Name="FileContent" Value="Xem" />
+<Message Name="DownLoad Success" Value="Tải xuống hoàn tất!" />
+<Message Name="DownloadFileCount" Value="Số tập tin tải xuống" />
+<Message Name="UpLoad Success" Value="Tải lên thành công!" />
+<Message Name="Server Not Exists This File" Value="Máy chủ không tồn tại tập tin này" />
+<Message Name="DownLoad Path is Null,Selected Please" Value="Chưa chọn đường dẫn tải xuống, vui lòng chọn đường dẫn" />
+<Message Name="Server's Path or User or Pwd,is null at once " Value="Đường dẫn, tài khoản hoặc mật khẩu máy chủ có một giá trị bị trống!" />
+<Message Name="please check table :sys_base ,and program = 'ProcessParam_Attach'" Value="Vui lòng kiểm tra bảng: sys_base với điều kiện program = 'ProcessParam_Attach'" />
+<Message Name="View" Value="Xem tập tin đính kèm" />
+<Message Name="File not found" Value="Không tìm thấy tập tin" />
+<Message Name="DeleteContent" Value="Xóa" />
+<Message Name="Delete success" Value="Xóa thành công" />
+<Message Name="Please upload file first." Value="Vui lòng tải lên tập tin trước!" />
+<Message Name="Save" Value="Lưu" />
+<Message Name="Please key in memo!!" Value="Vui lòng nhập ghi chú" />
+<Message Name="Saved..." Value="Đã lưu xong" />
+<Message Name="Select Process" Value="Chọn trạm công đoạn" />
+<Message Name="Notice" Value="Lưu ý" />
+<Message Name="Select files" Value="Chọn tập tin" />
+<Message Name="All files" Value="Tất cả tập tin" />
+<Message Name="Confirm cancel?" Value="Xác nhận hủy?" />
+<Message Name="UPLOAD_EMP" Value="Người tải lên" />
+<Message Name="NO" Value="Số thứ tự" />
+<Message Name="Time Control" Value="Quản lý thời gian" />
+<Message Name="QTime" Value="Thời gian chờ (phút)" />
+<Message Name="Hold Code" Value="Mã khóa" />
+<Message Name="Please Select Hold Code" Value="Vui lòng nhập mã khóa" />
+<Message Name="Clear" Value="Xóa" />
+<Message Name="Condition Parameter" Value="Tham số điều kiện công đoạn" />
+<Message Name="Collection Parameter" Value="Tham số thu thập dữ liệu" />
+<Message Name="Rule Parameter" Value="Tham số logic kiểm soát đặc biệt" />
+<Message Name="Program Parameter" Value="Tham số quản lý chương trình" />
+<Message Name="To SPC" Value="Gửi đến SPC hay không" />
+<Message Name="SPC_ITEM" Value="Hạng mục kiểm soát SPC" />
+<Message Name="fPartSelect" Value="Chọn mã linh kiện" />
+<Message Name="Equipment Collection Parameter" Value="Tham số thu thập thiết bị" />
+<Message Name="fMachineType" Value="Loại máy" />
+<Message Name="Machine Select" Value="Chọn máy" />
+<Message Name="PROGRAM_NAME" Value="Chương trình" />
+<Message Name="SPC_CHART_TYPE" Value="Loại biểu đồ SPC" />
+<Message Name="SPC_CHART" Value="Biểu đồ SPC" />
+<Message Name="PARAM_GROUP_NAME" Value="Tên nhóm" />
+<Message Name="Param Group Name" Value="Tên nhóm" />
+<Message Name="Recipe" Value="Recipe máy" />
+<Message Name="RECIPE_ID" Value="Recipe máy" />
+<Message Name="Query" Value="Truy vấn" />
+<Message Name="MenuEdit" Value="Chỉnh sửa" />
+<Message Name="Machine Type Name" Value="Tên loại máy" />
+<Message Name="Priority" Value="Mức ưu tiên" />
+<Message Name="Machine Type Description" Value="Mô tả loại máy" />
+<Message Name="fPartRecipeCopy" Value="Sao chép tham số công đoạn của mã linh kiện hiện tại" />
+<Message Name="Part Recipe Copy" Value="Sao chép tham số công đoạn của mã linh kiện hiện tại" />
+<Message Name="ROUTE_NAME" Value="Tên tuyến trình" />
+<Message Name="Data duplication" Value="Dữ liệu trùng lặp" />
+<Message Name="DISABLED" Value="Không dùng" />
+<Message Name="MACHINE_ENABLED" Value="Có kích hoạt hay không" />
+<Message Name="Enabled" Value="Kích hoạt" />
+<Message Name="Disabled" Value="Không dùng" />
+<Message Name="Date" Value="Ngày" />
+<Message Name="When the value type is date, the input method can only choose input/EAP" Value="Khi kiểu giá trị là ngày, phương thức nhập chỉ được chọn Nhập/EAP" />
+<Message Name="Database exception, copy failed." Value="Lỗi cơ sở dữ liệu, sao chép thất bại" />
+<Message Name="Saving Data..." Value="Đang sao chép dữ liệu..." />
+<Message Name="Data recipe... Please do not close" Value="Đang sao chép dữ liệu... vui lòng không đóng cửa sổ" />
+<Message Name="Default value doesn't exist in Item List." Value="Giá trị mặc định không tồn tại trong danh sách mục"/>
+  </Ngôn_ngữ_Việt>
+
+</Chroma>

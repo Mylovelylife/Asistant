@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+	</English>
+	<繁體中文>
+		<Message Name="Table Code" Value="Table 代碼"/>
+		<Message Name="Table Desc" Value="Table 描述"/>
+	</繁體中文>
+	<简体中文>
+    <Message Name="Table Code" Value="Table 代码"/>
+    <Message Name="Table Desc" Value="Table 描述"/>
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Table Code" Value="Mã bảng"/><Message Name="Table Desc" Value="Mô tả bảng"/></Ngôn_ngữ_Việt></Chroma>

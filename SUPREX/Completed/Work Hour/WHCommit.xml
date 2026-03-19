@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+		
+	</English>
+	<繁體中文>
+		<Message Name="Wo" Value="工單"/>
+		<Message Name="User" Value="報工人員"/>
+		<Message Name="User:" Value="報工人員："/>
+		<Message Name="Info:" Value="匯總"/>
+		<Message Name="Detail:" Value="明細"/>
+		<Message Name="Line" Value="線別"/>
+		<Message Name="Is_over" Value="是否報工"/>
+		<Message Name="Is Over" Value="是否報工"/>
+		<Message Name="Date" Value="報工日期"/>
+		<Message Name="Search" Value="查詢"/>
+		<Message Name="Query" Value="查詢"/>
+		<Message Name="Work Order" Value="工單"/>
+		<Message Name="WORK_ORDER" Value="工單"/>
+		<Message Name="WO_START_DATE" Value="生產日期"/>
+		<Message Name="PDLine" Value="生產線別"/>
+		<Message Name="PDLine:" Value="生產線別："/>
+		<Message Name="Report Number" Value="報工人數"/>
+		<Message Name="Report Number:" Value="報工人數："/>
+		<Message Name="Cost Center" Value="成本中心"/>
+		<Message Name="Cost Center:" Value="報工成本中心："/>
+		<Message Name="Target Qty" Value="目標數"/>
+		<Message Name="Output Qty" Value="產出數"/>
+		<Message Name="NG Output Qty" Value="NG產出數"/>
+		<Message Name="Good Qty" Value="已報良品數"/>
+		<Message Name="Good Qty:" Value="報工良品數："/>
+		<Message Name="Bad Qty" Value="已報不良品數"/>
+		<Message Name="Bad Qty:" Value="報工不良品數："/>
+		<Message Name="Work Hours" Value="已報工時"/>
+		<Message Name="Work Hours(H):" Value="報工工時(H)："/>
+		<Message Name="Machine Hours" Value="已報機時"/>
+		<Message Name="Machine Hours(H):" Value="報工機時(H)："/>
+		<Message Name="EMP_COUNT" Value="報工人數"/>
+		<Message Name="Report Time" Value="報工時間"/>
+		<Message Name="Report Order" Value="報工單號"/>
+		<Message Name="Status" Value="狀態"/>
+		<Message Name="Car" Value="周轉車"/>
+		<Message Name="Carton No" Value="箱號"/>
+		<Message Name="Pallet No" Value="棧板號"/>
+		<Message Name="S/N" Value="S/N"/>
+		<Message Name="Qty" Value="數量"/>
+		<Message Name="Out Process" Value="產出制程"/>
+		<Message Name="Type" Value="類型"/>
+		<Message Name="Part No" Value="料號"/>
+		<Message Name="Detail" Value="工時明細"/>
+		<Message Name="Total" Value="報工匯總"/>
+		<Message Name="Check" Value="全選"/>
+		<Message Name="Add" Value="新增報工"/>
+		<Message Name="Append" Value="新增報工"/>
+		<Message Name="Data is null" Value="數據為空"/>
+		<Message Name="Data not exits" Value="資料不存在"/>
+		<Message Name="SCRAP_QTY" Value="NG產出數"/>
+		<Message Name="Work_Center" Value="報工成本中心"/>
+		<Message Name="B_goodqty" Value="報工良品數"/>
+		<Message Name="B_ngqty" Value="報工不良品數"/>
+		<Message Name="B_user" Value="報工人員"/>
+		<Message Name="B_machine(H)" Value="報工機時(H)"/>
+		<Message Name="B_workhours(H)" Value="報工工時(H)"/>
+		<Message Name="B_empqty" Value="報工人數"/>
+		<Message Name="OK" Value="確定"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="PDLINE_NAME" Value="線別"/>
+		<Message Name="PART_NO" Value="料號"/>
+		<Message Name="SPEC1" Value="規格"/>
+		<Message Name="EMP_NO" Value="工號"/>
+		<Message Name="EMP_NAME" Value="姓名"/>
+		<Message Name="NG,Report goodqty above outqty" Value="NG,報工良品總數超出產出數"/>
+		<Message Name="NG,Report ngqty above scrapqty" Value="NG，報工不良品數超出不良數"/>
+		<Message Name="NG,b_user error" Value="NG,報工人員錯誤"/>
+		<Message Name="NG,pdline error" Value="NG,線別錯誤"/>
+		<Message Name="Should be int" Value="必須是整數"/>
+		<Message Name="Should be Decimal" Value="必須是數位"/>
+		<Message Name="Please Input Three charactors at least" Value="請至少輸入3個字元"/>
+		<Message Name="Machine Hour Import" Value="機時匯入"/>
+		<Message Name="Operation ID" Value="工時ID"/>
+		<Message Name="Operation SEQ" Value="工段序號"/>
+		<Message Name="Resource SEQ" Value="資源序號"/>
+		<Message Name="Resource Code" Value="資源名稱"/>
+		<Message Name="Resource Type" Value="資源屬性"/>
+		<Message Name="Work Hour" Value="報工工時"/>
+		<Message Name="Emp Work Hour" Value="工時"/>
+		<Message Name="Total Work Hour" Value="總工時"/>
+		<Message Name="Reason" Value="異常原因"/>
+		<Message Name="Reference" Value="備註"/>
+		<Message Name="Reason:" Value="異常原因:"/>
+		<Message Name="Reference:" Value="備註:"/>
+		<Message Name="Transaction Date" Value="報工日期"/>
+		<Message Name="Emp Name" Value="姓名"/>
+		<Message Name="REASON_ID" Value="異常ID"/>
+		<Message Name="REASON_NAME" Value="異常原因"/>
+		<Message Name="REASON_DESC" Value="異常描述"/>
+		<Message Name="Work Hour Over" Value="報工已完成"/>
+		<Message Name="No Over" Value="未報工"/>
+		<Message Name="Yes Over" Value="已報工"/>
+		<Message Name="Work Order is null" Value="工單號碼為空"/>
+		<Message Name="Operation SEQ is null" Value="工段序號為空"/>
+		<Message Name="Work Hour is null" Value="報工工時為空"/>
+		<Message Name="Reason Error" Value="異常原因錯誤"/>
+		<Message Name="" Value=""/>
+		<Message Name="" Value=""/>
+
+
+	</繁體中文>
+	<简体中文>
+		<Message Name="Wo" Value="工单"/>
+		<Message Name="User" Value="报工人员"/>
+		<Message Name="User:" Value="报工人员："/>
+		<Message Name="Info:" Value="汇总"/>
+		<Message Name="Detail:" Value="明细"/>
+		<Message Name="Line" Value="线别"/>
+		<Message Name="Is_over" Value="是否报工完结"/>
+		<Message Name="Is Over" Value="是否报工完结"/>
+		<Message Name="Date" Value="生产日期"/>
+		<Message Name="Search" Value="查询"/>
+		<Message Name="Query" Value="查询"/>
+		<Message Name="Work Order" Value="工单"/>
+		<Message Name="WO_START_DATE" Value="生产日期"/>
+		<Message Name="PDLine" Value="生产线别"/>
+		<Message Name="PDLine:" Value="生产线别："/>
+		<Message Name="Report Number" Value="报工人数"/>
+		<Message Name="Report Number:" Value="报工人数："/>
+		<Message Name="Cost Center" Value="成本中心"/>
+		<Message Name="Cost Center:" Value="报工成本中心："/>
+		<Message Name="Target Qty" Value="目标数"/>
+		<Message Name="Output Qty" Value="产出数"/>
+		<Message Name="NG Output Qty" Value="NG产出数"/>
+		<Message Name="Good Qty" Value="已报良品数"/>
+		<Message Name="Good Qty:" Value="报工良品数："/>
+		<Message Name="Bad Qty" Value="已报不良品数"/>
+		<Message Name="Bad Qty:" Value="报工不良品数："/>
+		<Message Name="Work Hours" Value="已报工时"/>
+		<Message Name="Work Hours(H):" Value="报工工时(H)："/>
+		<Message Name="Machine Hours" Value="已报机时"/>
+		<Message Name="Machine Hours(H):" Value="报工机时(H)："/>
+		<Message Name="EMP_COUNT" Value="报工人数"/>
+		<Message Name="Report Time" Value="报工时间"/>
+		<Message Name="Report Order" Value="报工单号"/>
+		<Message Name="Status" Value="状态"/>
+		<Message Name="Car" Value="周转车"/>
+		<Message Name="Carton No" Value="箱号"/>
+		<Message Name="Pallet No" Value="栈板号"/>
+		<Message Name="S/N" Value="S/N"/>
+		<Message Name="Qty" Value="数量"/>
+		<Message Name="Out Process" Value="产出制程"/>
+		<Message Name="Type" Value="类型"/>
+		<Message Name="Part No" Value="料号"/>
+		<Message Name="Detail" Value="产出明细"/>
+		<Message Name="Total" Value="报工汇总"/>
+		<Message Name="Check" Value="全选"/>
+		<Message Name="Add" Value="新增报工"/>
+		<Message Name="Append" Value="新增报工"/>
+		<Message Name="Data is null" Value="数据为空"/>
+		<Message Name="Data not exits" Value="数据不存在"/>
+		<Message Name="SCRAP_QTY" Value="NG产出数"/>
+		<Message Name="Work_Center" Value="报工成本中心"/>
+		<Message Name="B_goodqty" Value="报工良品数"/>
+		<Message Name="B_ngqty" Value="报工不良品数"/>
+		<Message Name="B_user" Value="报工人员"/>
+		<Message Name="B_machine(H)" Value="报工机时(H)"/>
+		<Message Name="B_workhours(H)" Value="报工工时(H)"/>
+		<Message Name="B_empqty" Value="报工人数"/>
+		<Message Name="OK" Value="确定"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="PDLINE_NAME" Value="线别"/>
+		<Message Name="PART_NO" Value="料号"/>
+		<Message Name="SPEC1" Value="规格"/>
+		<Message Name="EMP_NO" Value="工号"/>
+		<Message Name="EMP_NAME" Value="姓名"/>
+		<Message Name="NG,Report goodqty above outqty" Value="NG,报工良品总数超出产出数"/>
+		<Message Name="NG,Report ngqty above scrapqty" Value="NG，报工不良品数超出不良数"/>
+		<Message Name="NG,b_user error" Value="NG,报工人员错误"/>
+		<Message Name="NG,pdline error" Value="NG,线别错误"/>
+		<Message Name="Should be int" Value="必须是整数"/>
+		<Message Name="Should be Decimal" Value="必须是数字"/>
+		<Message Name="Please Input Three charactors at least" Value="请至少输入3个字符"/>
+		<Message Name="" Value=""/>
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="" Value=""/><Message Name="Info:" Value="Tổng hợp"/><Message Name="User:" Value="Người báo công:"/><Message Name="Total Work Hour" Value="Tổng công giờ"/><Message Name="EMP_NAME" Value="Tên nhân viên"/><Message Name="Detail" Value="Chi tiết công giờ"/><Message Name="EMP_NO" Value="Mã nhân viên"/><Message Name="Line" Value="Line"/><Message Name="PDLINE_NAME" Value="Line"/><Message Name="Report Order" Value="Mã báo công"/><Message Name="Report Number:" Value="Số người báo công:"/><Message Name="Good Qty" Value="Số lượng tốt đã báo"/><Message Name="Work Order" Value="Công lệnh"/><Message Name="Car" Value="Xe chuyển"/><Message Name="Machine Hours(H):" Value="Giờ máy (H):"/><Message Name="Out Process" Value="Công đoạn đầu ra"/><Message Name="Work Hour is null" Value="Công giờ trống"/><Message Name="B_ngqty" Value="Số lượng NG"/><Message Name="B_machine(H)" Value="Giờ máy (H)"/><Message Name="Report Number" Value="Số người báo công"/><Message Name="REASON_DESC" Value="Mô tả nguyên nhân"/><Message Name="S/N" Value="S/N"/><Message Name="Data is null" Value="Dữ liệu trống"/><Message Name="NG,Report goodqty above outqty" Value="NG, tổng số lượng tốt vượt quá sản lượng"/><Message Name="PDLine:" Value="Line sản xuất:"/><Message Name="Machine Hour Import" Value="Nhập giờ máy"/><Message Name="Reference" Value="Ghi chú"/><Message Name="Operation SEQ" Value="Thứ tự công đoạn"/><Message Name="Work Order is null" Value="Mã công lệnh trống"/><Message Name="Resource Code" Value="Tên tài nguyên"/><Message Name="Work_Center" Value="Trung tâm chi phí"/><Message Name="B_goodqty" Value="Số lượng tốt"/><Message Name="No Over" Value="Chưa báo công"/><Message Name="Bad Qty" Value="Số lượng NG đã báo"/><Message Name="Date" Value="Ngày báo công"/><Message Name="Type" Value="Loại"/><Message Name="WORK_ORDER" Value="Công lệnh"/><Message Name="Emp Work Hour" Value="Công giờ"/><Message Name="Good Qty:" Value="Số lượng tốt:"/><Message Name="Please Input Three charactors at least" Value="Vui lòng nhập ít nhất 3 ký tự"/><Message Name="Emp Name" Value="Tên nhân viên"/><Message Name="Detail:" Value="Chi tiết"/><Message Name="Add" Value="Thêm báo công"/><Message Name="Machine Hours" Value="Giờ máy đã báo"/><Message Name="WO_START_DATE" Value="Ngày sản xuất"/><Message Name="Reason:" Value="Nguyên nhân:"/><Message Name="Transaction Date" Value="Ngày báo công"/><Message Name="PART_NO" Value="Mã liệu"/><Message Name="Pallet No" Value="Số pallet"/><Message Name="Check" Value="Chọn tất cả"/><Message Name="Carton No" Value="Số thùng"/><Message Name="Yes Over" Value="Đã báo công"/><Message Name="Reason" Value="Nguyên nhân"/><Message Name="User" Value="Người báo công"/><Message Name="REASON_ID" Value="ID nguyên nhân"/><Message Name="B_workhours(H)" Value="Công giờ (H)"/><Message Name="Should be Decimal" Value="Phải là số"/><Message Name="NG Output Qty" Value="Số NG"/><Message Name="Output Qty" Value="Số lượng sản xuất"/><Message Name="Data not exits" Value="Dữ liệu không tồn tại"/><Message Name="Resource Type" Value="Thuộc tính tài nguyên"/><Message Name="Operation ID" Value="ID công đoạn"/><Message Name="Work Hours(H):" Value="Công giờ (H):"/><Message Name="Report Time" Value="Thời gian báo công"/><Message Name="Cost Center" Value="Trung tâm chi phí"/><Message Name="Status" Value="Trạng thái"/><Message Name="Query" Value="Truy vấn"/><Message Name="Total" Value="Tổng báo công"/><Message Name="Search" Value="Tìm kiếm"/><Message Name="Qty" Value="Số lượng"/><Message Name="Part No" Value="Mã liệu"/><Message Name="EMP_COUNT" Value="Số người báo công"/><Message Name="Append" Value="Thêm báo công"/><Message Name="Work Hour" Value="Công giờ"/><Message Name="Resource SEQ" Value="Thứ tự tài nguyên"/><Message Name="NG,pdline error" Value="NG, line sai"/><Message Name="Operation SEQ is null" Value="Thứ tự công đoạn trống"/><Message Name="Work Hour Over" Value="Báo công đã hoàn tất"/><Message Name="B_user" Value="Người báo công"/><Message Name="Reference:" Value="Ghi chú:"/><Message Name="PDLine" Value="Line sản xuất"/><Message Name="Cost Center:" Value="Trung tâm chi phí:"/><Message Name="Target Qty" Value="Số mục tiêu"/><Message Name="Reason Error" Value="Nguyên nhân sai"/><Message Name="SCRAP_QTY" Value="Số NG"/><Message Name="NG,Report ngqty above scrapqty" Value="NG, số lượng NG vượt quá số NG"/><Message Name="SPEC1" Value="Quy cách"/><Message Name="Bad Qty:" Value="Số lượng NG:"/><Message Name="REASON_NAME" Value="Nguyên nhân"/><Message Name="Is_over" Value="Đã báo công?"/><Message Name="B_empqty" Value="Số người"/><Message Name="Should be int" Value="Phải là số nguyên"/><Message Name="Wo" Value="Công lệnh"/><Message Name="Cancel" Value="Hủy"/><Message Name="NG,b_user error" Value="NG, người báo công sai"/><Message Name="OK" Value="Xác nhận"/><Message Name="Is Over" Value="Đã báo công?"/><Message Name="Work Hours" Value="Công giờ đã báo"/></Ngôn_ngữ_Việt></Chroma>

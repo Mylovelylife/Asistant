@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+  <English>
+    <Message Name="PART_NO" Value="Part No"/>
+    <Message Name="SPEC1" Value="Spec1"/>
+    <Message Name="SPEC2" Value="Spec2"/>
+    <Message Name="Part No" Value="Part No"/>
+    <Message Name="Length" Value="Length"/>
+    <Message Name="From1" Value="From1"/>
+    <Message Name="To1" Value="To1"/>
+    <Message Name="Fix1" Value="Fix1"/>
+    <Message Name="From2" Value="From2"/>
+    <Message Name="To2" Value="To2"/>
+    <Message Name="Fix2" Value="Fix2"/>
+    <Message Name="Feature1" Value="Feature1"/>
+    <Message Name="Feature2" Value="Feature2"/>
+    <Message Name="Part No Error" Value="Part No Error"/>
+    <Message Name="(Length of Fix1) and (Form1 ~ To1) is not the same" Value="(Length of Fix1) and (Form1 ~ To1) is not the same"/>
+    <Message Name="(Length of Fix2) and (Form2 ~ To2) is not the same" Value="(Length of Fix2) and (Form2 ~ To2) is not the same"/>
+    <Message Name="Total Length" Value="Total Length"/>
+    <Message Name="Length of (Fix1+Fix2)" Value="Length of (Fix1+Fix2)"/>
+  </English>
+  <繁體中文>
+    <Message Name="PART_NO" Value="料號"/>
+    <Message Name="SPEC1" Value="規格一"/>
+    <Message Name="SPEC2" Value="規格二"/>
+    <Message Name="Part No" Value="料號"/>
+    <Message Name="Length" Value="長度"/>
+    <Message Name="From1" Value="起始位1"/>
+    <Message Name="To1" Value="結束位1"/>
+    <Message Name="Fix1" Value="固定碼內容1"/>
+    <Message Name="From2" Value="起始位2"/>
+    <Message Name="To2" Value="結束位2"/>
+    <Message Name="Fix2" Value="固定碼內容2"/>
+    <Message Name="Feature1" Value="第一組固定碼特徵"/>
+    <Message Name="Feature2" Value="第二組固定碼特徵"/>
+    <Message Name="Part No Error" Value="料號錯誤"/>
+    <Message Name="(Length of Fix1) and (Form1 ~ To1) is not the same" Value="(固定碼1)與(起始位1到結束位1)的長度不同"/>
+    <Message Name="(Length of Fix2) and (Form2 ~ To2) is not the same" Value="(固定碼2)與(起始位2到結束位2)的長度不同"/>
+    <Message Name="Total Length" Value="總長度"/>
+    <Message Name="Length of (Fix1+Fix2)" Value="長度總和(固定碼1+固定碼2)"/>
+    <Message Name="ENABLED" Value="狀態"/>
+    <Message Name="EMP_NAME" Value="異動人員"/>
+    <Message Name="UPDATE_TIME" Value="異動時間"/>
+  </繁體中文>
+<Ngôn_ngữ_Việt><Message Name="PART_NO" Value="Mã linh kiện"/><Message Name="SPEC1" Value="Thông số 1"/><Message Name="SPEC2" Value="Thông số 2"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="Length" Value="Độ dài"/><Message Name="From1" Value="Vị trí bắt đầu 1"/><Message Name="To1" Value="Vị trí kết thúc 1"/><Message Name="Fix1" Value="Chuỗi cố định 1"/><Message Name="From2" Value="Vị trí bắt đầu 2"/><Message Name="To2" Value="Vị trí kết thúc 2"/><Message Name="Fix2" Value="Chuỗi cố định 2"/><Message Name="Feature1" Value="Đặc tính cố định 1"/><Message Name="Feature2" Value="Đặc tính cố định 2"/><Message Name="Part No Error" Value="Lỗi mã linh kiện"/><Message Name="(Length of Fix1) and (Form1 ~ To1) is not the same" Value="Độ dài (Chuỗi cố định 1) và (Vị trí 1 ~ Vị trí kết thúc 1) không trùng khớp"/><Message Name="(Length of Fix2) and (Form2 ~ To2) is not the same" Value="Độ dài (Chuỗi cố định 2) và (Vị trí 2 ~ Vị trí kết thúc 2) không trùng khớp"/><Message Name="Total Length" Value="Tổng độ dài"/><Message Name="Length of (Fix1+Fix2)" Value="Độ dài tổng cộng (Chuỗi cố định 1 + Chuỗi cố định 2)"/><Message Name="ENABLED" Value="Trạng thái"/><Message Name="EMP_NAME" Value="Người cập nhật"/><Message Name="UPDATE_TIME" Value="Thời gian cập nhật"/></Ngôn_ngữ_Việt></Chroma>

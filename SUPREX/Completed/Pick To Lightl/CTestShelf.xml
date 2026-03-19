@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+<English>
+<Message Name="Item Type Name" Value="Item Type Name"/>
+    <Message Name="Item Type Code" Value="Item Type Code"/>
+    <Message Name="Item Type Description" Value="Item Type Description"/>
+    <Message Name="Item Type Description2" Value="Item Type Description2"/>
+    <Message Name="Item Code" Value="Item Code"/>
+    <Message Name="Item Name" Value="Item Name"/>
+    <Message Name="Description" Value="Item Description"/>
+    <Message Name="Description2" Value="Item Description22"/>
+    <Message Name="Has Value" Value="Has Value"/>
+    <Message Name="Value Type" Value="Value Type"/>
+    <Message Name="Number" Value="Number"/>
+    <Message Name="Character" Value="Character"/>
+    <Message Name="Min Inspect Qty" Value="Min Inspect Qty"/>
+    <Message Name="Detail Data also delete" Value="Detail Data also delete"/>
+</English>
+	<繁體中文>
+		<Message Name="Shelf No" Value="貨架編號"/>
+		<Message Name="Ip" Value="伺服器IP"/>
+		<Message Name="Port" Value="伺服器埠"/>
+		<Message Name="Location" Value="儲位"/>
+		<Message Name="Light Loc" Value="燈光儲位"/>
+		<Message Name="Shelf Name" Value="貨架名稱"/>
+		<Message Name="Spec" Value="貨架描述"/>
+		<Message Name="PanelSide" Value="貨架面"/>
+		<Message Name="Description2" Value="測試小項描述"/>
+		<Message Name="Has Value" Value="是否為數值"/>
+		<Message Name="Value Type" Value="數數值型別"/>
+		<Message Name="Number" Value="數字"/>
+		<Message Name="Character" Value="文字"/>
+		<Message Name="Min Inspect Qty" Value="最少檢驗個數"/>
+		<Message Name="Detail Data also delete" Value="細項資料也會被同時刪除"/>
+		<Message Name="Test Function" Value="檢驗方法"/>
+		<Message Name="Special Feature" Value="特殊特性"/>
+	</繁體中文>
+  <简体中文>
+    <Message Name="Shelf No" Value="货架编号"/>
+    <Message Name="Ip" Value="服务器IP"/>
+    <Message Name="Port" Value="服务器端口"/>
+    <Message Name="Location" Value="储位"/>
+    <Message Name="Light Loc" Value="灯光储位"/>
+    <Message Name="Shelf Name" Value="货架名称"/>
+	<Message Name="Spec" Value="货架描述"/>
+    <Message Name="PanelSide" Value="货架面"/>
+    <Message Name="Description2" Value="测试小项描述"/>
+    <Message Name="Has Value" Value="是否为数值"/>
+    <Message Name="Value Type" Value="数值类型"/>
+    <Message Name="Number" Value="数字"/>
+    <Message Name="Character" Value="文字"/>
+    <Message Name="Min Inspect Qty" Value="最少检验个数"/>
+    <Message Name="Detail Data also delete" Value="细项资料也会被同时删除"/>
+	<Message Name="Test Function" Value="检验方法"/>
+	<Message Name="Special Feature" Value="特殊特性"/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="Shelf No" Value="Mã kệ"/><Message Name="Ip" Value="IP máy chủ"/><Message Name="Port" Value="Cổng máy chủ"/><Message Name="Location" Value="Vị trí lưu trữ"/><Message Name="Light Loc" Value="Vị trí đèn"/><Message Name="Shelf Name" Value="Tên kệ"/><Message Name="Spec" Value="Mô tả kệ"/><Message Name="PanelSide" Value="Mặt kệ"/><Message Name="Description2" Value="Mô tả hạng mục kiểm tra"/><Message Name="Has Value" Value="Có phải giá trị số"/><Message Name="Value Type" Value="Kiểu giá trị số"/><Message Name="Number" Value="Số"/><Message Name="Character" Value="Ký tự"/><Message Name="Min Inspect Qty" Value="Số lượng kiểm tra tối thiểu"/><Message Name="Detail Data also delete" Value="Dữ liệu chi tiết cũng sẽ bị xóa"/><Message Name="Test Function" Value="Phương pháp kiểm tra"/><Message Name="Special Feature" Value="Đặc tính đặc biệt"/></Ngôn_ngữ_Việt></Chroma>

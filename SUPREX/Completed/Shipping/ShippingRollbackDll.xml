@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文>
+    <Message Name="Qty" Value="數量"/>
+    <Message Name="Revoke" Value="撤銷"/>
+    <Message Name="Delivery Notice" Value="出貨單號"/>
+    <Message Name="No." Value="編號"/>
+    <Message Name="Shipping Date" Value="出貨日期"/>
+    <Message Name="Shippng To" Value="目的地"/>
+    <Message Name="Container" Value="貨櫃號"/>
+    <Message Name="Vehicle No" Value="車號"/>
+    <Message Name="Warranty Date" Value="保固日期"/>
+    <Message Name="Shipping Qty" Value="出貨數量"/>
+    <Message Name="Employee" Value="員工"/>
+    <Message Name="Shipping" Value="出貨"/>
+    <Message Name="Delete" Value="刪除"/>
+    <Message Name="Delivery Notice Error" Value="出貨單號錯誤"/>
+    <Message Name="Shipping Detail" Value="出貨明細"/>
+    <Message Name="Revoke By DN" Value="依出貨單撤銷"/>
+    <Message Name="Revoke By DN Item" Value="依出貨單項次撤銷"/>
+    <Message Name="Revoke By SN" Value="依序號撤銷"/>
+    <Message Name="Pallet No" Value="棧棧號"/>
+    <Message Name="Carton No" Value="箱號"/>
+    <Message Name="Box No" Value="彩盒號"/>
+    <Message Name="Serial Number" Value="序號"/>
+    <Message Name="Customer S/N" Value="客戶序號"/>
+    <Message Name="Shipping Detail" Value="出貨明細"/>
+    <Message Name="Type" Value="出貨類型"/>
+    <Message Name="Part No" Value="料號"/>
+    <Message Name="DN No" Value="出貨單號"/>
+    <Message Name="Input Data" Value="輸入序號"/>
+    <Message Name="Shipping Type" Value="出貨類型"/>
+    <Message Name="Select All" Value="全選"/>
+    <Message Name="Select None" Value="全不選"/>
+    <Message Name="Version" Value="版本"/>
+    <Message Name="Ship Qty" Value="出貨數量"/>
+    <Message Name="Input Value" Value="輸入值"/>
+    <Message Name="DN Item" Value="出貨項次"/>
+    <Message Name="Error" Value="錯誤"/>
+    <Message Name="Are you sure?" Value="確定嗎?"/>
+    <Message Name="Data in Page Revoke By DN Item will be clear immediately" Value="依出貨單項次撤銷頁次資料將立即被清除"/>
+	<Message Name="has not Finish !" Value="還沒完成！"/>
+	<Message Name=", Not Found Shipping Data !" Value="，找不到出貨資料"/>
+	<Message Name="Duplicate" Value="重複"/>
+	<Message Name="Ship Qty" Value="出貨數量"/>
+    <Message Name="DN No Error !" Value="出貨單號錯誤 ！"/>
+    <Message Name="DN No has not Finish !" Value="出貨單號還未完成！"/>
+    <Message Name="DN No Not Found Shipping Data !" Value="此出貨單號未找到運輸資料"/>
+    <Message Name="Delivery Notice Error!" Value="發貨通知錯誤！"/>
+    <Message Name="Revoke Shipping. Are you sure ?" Value="確定要撤銷發貨嗎"/>
+    <Message Name="Input Value Error!" Value="輸入數值錯誤"/>
+	<Message Name="You will change page to " Value="你將變更頁次到  "/>  
+	<Message Name="Data in Page 'Revoke By DN' will be clear immediately." Value="'依出貨單撤銷'頁次資料將立即被清除"/>
+    <Message Name="Data in Page 'Revoke By SN' will be clear immediately." Value="'依序號撤銷'頁次資料將立即被清除"/>  
+  </繁體中文>
+  <简体中文>
+  	<Message Name="Qty" Value="数量"/>
+  	<Message Name="Revoke" Value="撤销"/>
+  	<Message Name="Delivery Notice" Value="出货单号"/>
+  	<Message Name="No." Value="编号"/>
+  	<Message Name="Shipping Date" Value="出货日期"/>
+  	<Message Name="Shippng To" Value="目的地"/>
+  	<Message Name="Container" Value="货柜号"/>
+  	<Message Name="Vehicle No" Value="车号"/>
+  	<Message Name="Warranty Date" Value="保固日期"/>
+  	<Message Name="Shipping Qty" Value="出货数量"/>
+  	<Message Name="Employee" Value="员工"/>
+  	<Message Name="Shipping" Value="出货"/>
+  	<Message Name="Delete" Value="删除"/>
+  	<Message Name="Delivery Notice Error" Value="出货单号错误"/>
+  	<Message Name="Shipping Detail" Value="出货明细"/>
+  	<Message Name="Revoke By DN" Value="依出货单撤销"/>
+  	<Message Name="Revoke By DN Item" Value="依出货单项次撤销"/>
+  	<Message Name="Revoke By SN" Value="依序号撤销"/>
+  	<Message Name="Pallet No" Value="栈栈号"/>
+  	<Message Name="Carton No" Value="箱号"/>
+  	<Message Name="Box No" Value="彩盒号"/>
+  	<Message Name="Serial Number" Value="序号"/>
+  	<Message Name="Customer S/N" Value="客户序号"/>
+  	<Message Name="Shipping Detail" Value="出货明细"/>
+  	<Message Name="Type" Value="出货类型"/>
+  	<Message Name="Part No" Value="料号"/>
+  	<Message Name="DN No" Value="出货单号"/>
+  	<Message Name="Input Data" Value="输入序号"/>
+  	<Message Name="Shipping Type" Value="出货类型"/>
+  	<Message Name="Select All" Value="全选"/>
+  	<Message Name="Select None" Value="全不选"/>
+  	<Message Name="Version" Value="版本"/>
+  	<Message Name="Ship Qty" Value="出货数量"/>
+  	<Message Name="Input Value" Value="输入值"/>
+  	<Message Name="Revoke Shipping. Are you sure?" Value="撤销出货资料,确定吗?"/>
+  	<Message Name="DN Item" Value="出货项次"/>
+  	<Message Name="Error" Value="错误"/>
+  	<Message Name="Are you sure?" Value="确定吗?"/>
+  	<Message Name="Data in Page Revoke By DN Item will be clear immediately" Value="依出货单项次撤销页次资料将立即被清除"/>
+    <Message Name="has not Finish !" Value="还没完成！"/>
+    <Message Name=", Not Found Shipping Data !" Value="，找不到出货资料"/>
+    <Message Name="Duplicate" Value="重複"/>
+    <Message Name="Ship Qty" Value="出货数量"/>
+	<Message Name="DN No Error !" Value="出货单号错误 ！"/>
+	<Message Name="DN No has not Finish !" Value="出货单号还未完成！"/>
+	<Message Name="DN No Not Found Shipping Data !" Value="此出货单号未找到运输资料"/>
+	<Message Name="Delivery Notice Error!" Value="发货通知错误！"/>
+	<Message Name="Input Value Error!" Value="输入数值错误"/>
+	<Message Name="You will change page to " Value="你将变更页次到  "/>
+	<Message Name="Data in Page 'Revoke By DN' will be clear immediately." Value="'依出货单撤销'页次资料将立即被清除"/>
+	<Message Name="Data in Page 'Revoke By SN' will be clear immediately." Value="'依序号撤销'页次资料将立即被清除"/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="Qty" Value="Số lượng"/><Message Name="Revoke" Value="Hủy bỏ"/><Message Name="Delivery Notice" Value="Mã phiếu xuất hàng"/><Message Name="No." Value="Số thứ tự"/><Message Name="Shipping Date" Value="Ngày xuất hàng"/><Message Name="Shippng To" Value="Điểm đến"/><Message Name="Container" Value="Số container"/><Message Name="Vehicle No" Value="Số xe"/><Message Name="Warranty Date" Value="Ngày bảo hành"/><Message Name="Shipping Qty" Value="Số lượng xuất hàng"/><Message Name="Employee" Value="Nhân viên"/><Message Name="Shipping" Value="Xuất hàng"/><Message Name="Delete" Value="Xóa"/><Message Name="Delivery Notice Error" Value="Mã phiếu xuất hàng sai"/><Message Name="Shipping Detail" Value="Chi tiết xuất hàng"/><Message Name="Revoke By DN" Value="Hủy theo phiếu xuất hàng"/><Message Name="Revoke By DN Item" Value="Hủy theo mục của phiếu xuất hàng"/><Message Name="Revoke By SN" Value="Hủy theo số seri"/><Message Name="Pallet No" Value="Mã pallet"/><Message Name="Carton No" Value="Mã thùng"/><Message Name="Box No" Value="Mã hộp màu"/><Message Name="Serial Number" Value="Số seri"/><Message Name="Customer S/N" Value="Số seri khách hàng"/><Message Name="Shipping Detail" Value="Chi tiết xuất hàng"/><Message Name="Type" Value="Loại xuất hàng"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="DN No" Value="Mã phiếu xuất hàng"/><Message Name="Input Data" Value="Nhập số seri"/><Message Name="Shipping Type" Value="Loại xuất hàng"/><Message Name="Select All" Value="Chọn tất cả"/><Message Name="Select None" Value="Bỏ chọn tất cả"/><Message Name="Version" Value="Phiên bản"/><Message Name="Ship Qty" Value="Số lượng xuất hàng"/><Message Name="Input Value" Value="Giá trị nhập vào"/><Message Name="DN Item" Value="Mục xuất hàng"/><Message Name="Error" Value="Lỗi"/><Message Name="Are you sure?" Value="Bạn có chắc không?"/><Message Name="Data in Page Revoke By DN Item will be clear immediately" Value="Dữ liệu trang 'Hủy theo mục phiếu xuất hàng' sẽ bị xóa ngay lập tức"/><Message Name="has not Finish !" Value="Chưa hoàn tất!"/><Message Name=", Not Found Shipping Data !" Value=" , không tìm thấy dữ liệu xuất hàng"/><Message Name="Duplicate" Value="Trùng lặp"/><Message Name="Ship Qty" Value="Số lượng xuất hàng"/><Message Name="DN No Error !" Value="Mã phiếu xuất hàng sai!"/><Message Name="DN No has not Finish !" Value="Mã phiếu xuất hàng chưa hoàn tất!"/><Message Name="DN No Not Found Shipping Data !" Value="Không tìm thấy dữ liệu vận chuyển cho mã phiếu này"/><Message Name="Delivery Notice Error!" Value="Lỗi thông báo xuất hàng!"/><Message Name="Revoke Shipping. Are you sure ?" Value="Bạn có chắc muốn hủy xuất hàng không?"/><Message Name="Input Value Error!" Value="Giá trị nhập không hợp lệ"/><Message Name="You will change page to " Value="Bạn sẽ chuyển trang đến "/><Message Name="Data in Page 'Revoke By DN' will be clear immediately." Value="'Hủy theo phiếu xuất hàng' – dữ liệu trang sẽ bị xóa ngay lập tức"/><Message Name="Data in Page 'Revoke By SN' will be clear immediately." Value="'Hủy theo số seri' – dữ liệu trang sẽ bị xóa ngay lập tức"/></Ngôn_ngữ_Việt></Chroma>

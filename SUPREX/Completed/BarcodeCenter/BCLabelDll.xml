@@ -1,0 +1,391 @@
+﻿<Chroma>
+	<English />
+	<繁體中文>
+		<Message Name="OK" Value="確定" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Deafult Value" Value="預設值" />
+		<Message Name="Search" Value="搜尋條件" />
+		<Message Name="Import" Value="匯入序號" />
+		<Message Name="Import SMT SN" Value="匯入SMT序號" />
+		<Message Name="Work Order" Value="工單" />
+		<Message Name="Target Qty" Value="目標量" />
+		<Message Name="Customer" Value="客戶" />
+		<Message Name="Part No" Value="料號" />
+		<Message Name="Release" Value="展開序號" />
+		<Message Name="W/O Type" Value="工單類型" />
+		<Message Name="W/O Due Date" Value="預計完成日期" />
+		<Message Name="Master W/O" Value="母工單" />
+		<Message Name="Route Name" Value="途程名稱" />
+		<Message Name="Remark" Value="備註說明" />
+		<Message Name="Production Line" Value="生產線別" />
+		<Message Name="PO Number" Value="訂單編號" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="Start Process" Value="工單投入站" />
+		<Message Name="End Process" Value="工單產出站" />
+		<Message Name="Input Qty" Value="投入數" />
+		<Message Name="W/O Information" Value="工單資訊" />
+		<Message Name="Rule Name" Value="規則名稱" />
+		<Message Name="Calculate" Value="計算" />
+		<Message Name="Start Number" Value="開始號" />
+		<Message Name="Release Qty" Value="展開數量" />
+		<Message Name="Code" Value="代碼" />
+		<Message Name="Qty" Value="數量" />
+		<Message Name="Default" Value="預設" />
+		<Message Name="Print Method" Value="列印方式" />
+		<Message Name="Print Qty" Value="列印數量" />
+		<Message Name="Print" Value="列印" />
+		<Message Name="Print Configuration" Value="列印設定" />
+		<Message Name="Label File" Value="標籤檔" />
+		<Message Name="Label Information" Value="標籤資訊" />
+		<Message Name="Sub Qty" Value="子板數量" />
+		<Message Name="End Number" Value="結束號" />
+		<Message Name="Print Test Page" Value="列印測試頁" />
+		<Message Name="WORK_ORDER" Value="工單" />
+		<Message Name="TARGET_QTY" Value="目標量" />
+		<Message Name="PART_NO" Value="料號" />
+		<Message Name="SPEC1" Value="描述" />
+		<Message Name="SPEC2" Value="描述2" />
+		<Message Name="Start No" Value="起始號" />
+		<Message Name="End No" Value="結束號" />
+		<Message Name="Total" Value="總計" />
+		<Message Name="List" Value="列表" />
+		<Message Name="Import OK" Value="匯入成功" />
+		<Message Name="No Data" Value="無數據" />
+		<Message Name="Please Setup System Parameter" Value="請先設定系統參數值" />
+		<Message Name="Work Order Error" Value="工單錯誤" />
+		<Message Name="Rule not Define" Value="編碼規則未定義" />
+		<Message Name="Value must be the integer" Value="輸入值必須為數字格式" />
+		<Message Name="Value must be bigger than 0" Value="輸入值必須大於0" />
+		<Message Name="Release Qty Different" Value="展開數量不同" />
+		<Message Name="Please Waiting Another Release" Value="請等待其他電腦完成動作" />
+		<Message Name="Ignore Empty Character" Value="忽略空白字元" />
+		<Message Name="Start Number NG" Value="起始號錯誤" />
+		<Message Name="Length Error" Value="長度錯誤" />
+		<Message Name="Data not Exist" Value="資料不存在" />
+		<Message Name="had been Used" Value="已被使用" />
+		<Message Name="Start Sequence Different" Value="開始流水號不同" />
+		<Message Name="Data Duplicate" Value="資料重複" />
+		<Message Name="Please input Work Order" Value="請輸入工單號" />
+		<Message Name="Qty is not enough" Value="數量不足" />
+		<Message Name="All Number had been Used" Value="所有號碼皆已被使用" />
+		<Message Name="Max" Value="最大值" />
+		<Message Name="Available" Value="可用" />
+		<Message Name="Maximum" Value="最大" />
+		<Message Name="Released" Value="已用" />
+		<Message Name="(Sequence)" Value="(流水號)" />
+		<Message Name="(All Character)" Value="(所有字元)" />
+		<Message Name="START_NO" Value="開始號" />
+		<Message Name="Part No Different" Value="料號不一致" />
+		<Message Name="WO BOM Not Define MAC Part" Value="工單BOM表內未包含MAC型態的料號" />
+		<Message Name="No Available MAC" Value="所有號碼皆已被使用,沒有可以使用的MAC" />
+		<Message Name="MAC is assigned to Part No" Value="MAC被指定給料號" />
+		<Message Name="Can not Over Release" Value="不可超領" />
+		<Message Name="Sure to Over Release" Value="確定要超領" />
+		<Message Name="Remark is null" Value="備註未輸入" />
+		<Message Name="Over Release" Value="超領" />
+		<Message Name="Unit" Value="申請單位" />
+		<Message Name="Applicant" Value="申請人" />
+		<Message Name="Reason" Value="原因" />
+		<Message Name="SERIAL_NUMBER" Value="序號" />
+		<Message Name="CUSTOMER_SN" Value="出貨序號" />
+		<Message Name="VERSION" Value="版本" />
+		<Message Name="PDLINE_NAME" Value="線別" />
+		<Message Name="STAGE_NAME" Value="區段" />
+		<Message Name="PROCESS_NAME" Value="製程" />
+		<Message Name="TERMINAL_NAME" Value="站別" />
+		<Message Name="OUT_PROCESS_TIME" Value="出站時間" />
+		<Message Name="IN_PROCESS_TIME" Value="進站時間" />
+		<Message Name="OUT_PDLINE_TIME" Value="產出時間" />
+		<Message Name="IN_PDLINE_TIME" Value="投產時間" />
+		<Message Name="REWORK_NO" Value="重工單號" />
+		<Message Name="REWORK_EMPLOYEE" Value="重工人員" />
+		<Message Name="REWORK_TIME" Value="重工時間" />
+		<Message Name="CURRENT_STATUS" Value="狀態" />
+		<Message Name="EMP_NAME" Value="過站人員" />
+		<Message Name="NEXT_PROCESS" Value="下一製程" />
+		<Message Name="SCRAP" Value="報廢" />
+		<Message Name="QC_NO" Value="抽驗批號" />
+		<Message Name="QC_RESULT" Value="抽驗結果" />
+		<Message Name="PALLET_NO" Value="棧板號" />
+		<Message Name="CARTON_NO" Value="箱號" />
+		<Message Name="BOX_NO" Value="彩盒號" />
+		<Message Name="SHIPPING_NO" Value="出貨單號" />
+		<Message Name="WARRANTY" Value="保固期限" />
+		<Message Name="ENC_CNT" Value="ECN次數" />
+		<Message Name="CUSTOMER_NAME" Value="客戶名稱" />
+		<Message Name="ENC_CNT" Value="ECN次數" />
+		<Message Name="WIP_QTY" Value="數量" />
+		<Message Name="Released" Value="已展號" />
+		<Message Name="Print Qty:" Value="列印數量:" />
+		<Message Name="Master label is not correct, check SYS_LABEL setting please." Value="主標籤未設定正確，請確認系統標籤設定(SYS_LABEL)" />
+		<Message Name="Open Print Soft Fail" Value="打開列印軟體失敗" />
+		<Message Name="Close Print Soft Fail" Value="關閉列印軟體失敗" />
+		<Message Name="Panel No" Value="板邊號" />
+		<Message Name="Insert Fail. Please Release Serial Number." Value="寫入失敗，請先展開生產序號。" />
+		<Message Name="Insert Fail. No Panel." Value="寫入失敗，無板邊號。" />
+		<Message Name="Suffix" Value="後置碼" />
+		<Message Name="Duplicate CSN" Value="重複CSN" />
+		<Message Name="Change" Value="替換" />
+		<Message Name="Close" Value="關閉" />
+		<Message Name="MAC Count" Value="MAC數量" />
+		<Message Name="Please Set WO Route" Value="請維護工單途程" />
+		<Message Name="Please Set WO Part" Value="請維護工單料號" />
+		<Message Name="Work Order Status Error Not In (Prepare/Release/WIP)" Value="工單狀態錯誤，工單需要是(Prepare/Release/WIP)狀態" />
+		<Message Name="Releasing! Confirm to close the page?" Value="條碼展開中，是否關閉頁面？" />
+		<Message Name="" Value="" />
+		<Message Name="" Value="" />
+
+	</繁體中文>
+        <Ngôn_ngữ_Việt>
+  <Message Name="OK" Value="Xác nhận" />
+<Message Name="Cancel" Value="Hủy" />
+<Message Name="Deafult Value" Value="Giá trị mặc định" />
+<Message Name="Search" Value="Điều kiện tìm kiếm" />
+<Message Name="Import" Value="Nhập số serial" />
+<Message Name="Import SMT SN" Value="Nhập số serial SMT" />
+<Message Name="Work Order" Value="Lệnh sản xuất" />
+<Message Name="Target Qty" Value="Số lượng mục tiêu" />
+<Message Name="Customer" Value="Khách hàng" />
+<Message Name="Part No" Value="Mã linh kiện" />
+<Message Name="Release" Value="Tạo dãy số" />
+<Message Name="W/O Type" Value="Loại lệnh sản xuất" />
+<Message Name="W/O Due Date" Value="Ngày hoàn thành dự kiến" />
+<Message Name="Master W/O" Value="Lệnh sản xuất mẹ" />
+<Message Name="Route Name" Value="Tên tuyến công đoạn" />
+<Message Name="Remark" Value="Ghi chú" />
+<Message Name="Production Line" Value="Dây chuyền sản xuất" />
+<Message Name="PO Number" Value="Số đơn đặt hàng (PO)" />
+<Message Name="Version" Value="Phiên bản" />
+<Message Name="Start Process" Value="Trạm bắt đầu" />
+<Message Name="End Process" Value="Trạm kết thúc" />
+<Message Name="Input Qty" Value="Số lượng đưa vào" />
+<Message Name="W/O Information" Value="Thông tin lệnh sản xuất" />
+<Message Name="Rule Name" Value="Tên quy tắc" />
+<Message Name="Calculate" Value="Tính toán" />
+<Message Name="Start Number" Value="Số bắt đầu" />
+<Message Name="Release Qty" Value="Số lượng tạo dãy" />
+<Message Name="Code" Value="Mã" />
+<Message Name="Qty" Value="Số lượng" />
+<Message Name="Default" Value="Mặc định" />
+<Message Name="Print Method" Value="Phương thức in" />
+<Message Name="Print Qty" Value="Số lượng in" />
+<Message Name="Print" Value="In" />
+<Message Name="Print Configuration" Value="Cấu hình in" />
+<Message Name="Label File" Value="Tập tin nhãn" />
+<Message Name="Label Information" Value="Thông tin nhãn" />
+<Message Name="Sub Qty" Value="Số lượng bảng con" />
+<Message Name="End Number" Value="Số kết thúc" />
+<Message Name="Print Test Page" Value="In trang thử nghiệm" />
+
+<Message Name="WORK_ORDER" Value="Lệnh sản xuất" />
+<Message Name="TARGET_QTY" Value="Số lượng mục tiêu" />
+<Message Name="PART_NO" Value="Mã linh kiện" />
+<Message Name="SPEC1" Value="Mô tả" />
+<Message Name="SPEC2" Value="Mô tả 2" />
+<Message Name="Start No" Value="Số bắt đầu" />
+<Message Name="End No" Value="Số kết thúc" />
+<Message Name="Total" Value="Tổng cộng" />
+<Message Name="List" Value="Danh sách" />
+<Message Name="Import OK" Value="Nhập thành công" />
+<Message Name="No Data" Value="Không có dữ liệu" />
+<Message Name="Please Setup System Parameter" Value="Vui lòng thiết lập tham số hệ thống" />
+<Message Name="Work Order Error" Value="Lỗi lệnh sản xuất" />
+<Message Name="Rule not Define" Value="Chưa định nghĩa quy tắc mã hóa" />
+<Message Name="Value must be the integer" Value="Giá trị phải là số nguyên" />
+<Message Name="Value must be bigger than 0" Value="Giá trị phải lớn hơn 0" />
+<Message Name="Release Qty Different" Value="Số lượng tạo dãy không一致" />
+<Message Name="Please Waiting Another Release" Value="Vui lòng chờ máy khác完成操作" />
+<Message Name="Ignore Empty Character" Value="Bỏ qua ký tự trống" />
+<Message Name="Start Number NG" Value="Số bắt đầu không hợp lệ" />
+<Message Name="Length Error" Value="Độ dài không hợp lệ" />
+<Message Name="Data not Exist" Value="Dữ liệu không tồn tại" />
+<Message Name="had been Used" Value="Đã được sử dụng" />
+<Message Name="Start Sequence Different" Value="Chuỗi bắt đầu không一致" />
+<Message Name="Data Duplicate" Value="Dữ liệu trùng lặp" />
+<Message Name="Please input Work Order" Value="Vui lòng nhập số lệnh sản xuất" />
+<Message Name="Qty is not enough" Value="Số lượng không đủ" />
+<Message Name="All Number had been Used" Value="Tất cả số đã được sử dụng" />
+<Message Name="Max" Value="Giá trị tối đa" />
+<Message Name="Available" Value="Có thể dùng" />
+<Message Name="Maximum" Value="Tối đa" />
+<Message Name="Released" Value="Đã tạo dãy" />
+<Message Name="(Sequence)" Value="(Chuỗi số)" />
+<Message Name="(All Character)" Value="(Toàn bộ ký tự)" />
+<Message Name="START_NO" Value="Số bắt đầu" />
+<Message Name="Part No Different" Value="Mã linh kiện không一致" />
+<Message Name="WO BOM Not Define MAC Part" Value="BOM của lệnh sản xuất không包含 linh kiện loại MAC" />
+<Message Name="No Available MAC" Value="Không còn MAC可使用" />
+<Message Name="MAC is assigned to Part No" Value="MAC đã được gán cho mã linh kiện" />
+<Message Name="Can not Over Release" Value="Không thể vượt mức cấp phát" />
+<Message Name="Sure to Over Release" Value="Xác nhận cấp phát vượt mức?" />
+<Message Name="Remark is null" Value="Chưa nhập ghi chú" />
+<Message Name="Over Release" Value="Cấp phát vượt mức" />
+<Message Name="Unit" Value="Đơn vị申请" />
+<Message Name="Applicant" Value="Người申请" />
+<Message Name="Reason" Value="Lý do" />
+<Message Name="SERIAL_NUMBER" Value="Số serial" />
+<Message Name="CUSTOMER_SN" Value="Serial xuất hàng" />
+<Message Name="VERSION" Value="Phiên bản" />
+<Message Name="PDLINE_NAME" Value="Dây chuyền" />
+<Message Name="STAGE_NAME" Value="Công đoạn" />
+<Message Name="PROCESS_NAME" Value="Quy trình" />
+<Message Name="TERMINAL_NAME" Value="Trạm" />
+<Message Name="OUT_PROCESS_TIME" Value="Thời gian thoát trạm" />
+<Message Name="IN_PROCESS_TIME" Value="Thời gian vào trạm" />
+<Message Name="OUT_PDLINE_TIME" Value="Thời gian hoàn thành" />
+<Message Name="IN_PDLINE_TIME" Value="Thời gian đưa vào sản xuất" />
+<Message Name="REWORK_NO" Value="Mã rework" />
+<Message Name="REWORK_EMPLOYEE" Value="Nhân viên rework" />
+<Message Name="REWORK_TIME" Value="Thời gian rework" />
+<Message Name="CURRENT_STATUS" Value="Trạng thái" />
+<Message Name="EMP_NAME" Value="Người qua trạm" />
+<Message Name="NEXT_PROCESS" Value="Công đoạn tiếp theo" />
+<Message Name="SCRAP" Value="Phế phẩm" />
+<Message Name="QC_NO" Value="Số lô kiểm tra" />
+<Message Name="QC_RESULT" Value="Kết quả kiểm tra" />
+<Message Name="PALLET_NO" Value="Số pallet" />
+<Message Name="CARTON_NO" Value="Số thùng" />
+<Message Name="BOX_NO" Value="Số hộp" />
+<Message Name="SHIPPING_NO" Value="Số đơn giao hàng" />
+<Message Name="WARRANTY" Value="Thời hạn bảo hành" />
+<Message Name="ENC_CNT" Value="Số lần ECN" />
+<Message Name="CUSTOMER_NAME" Value="Tên khách hàng" />
+<Message Name="WIP_QTY" Value="Số lượng WIP" />
+<Message Name="Released" Value="Đã cấp số" />
+<Message Name="Print Qty:" Value="Số lượng in:" />
+<Message Name="Master label is not correct, check SYS_LABEL setting please." 
+         Value="Nhãn chính không đúng，vui lòng kiểm tra thiết lập SYS_LABEL" />
+<Message Name="Open Print Soft Fail" Value="Mở phần mềm in thất bại" />
+<Message Name="Close Print Soft Fail" Value="Đóng phần mềm in thất bại" />
+<Message Name="Panel No" Value="Mã panel" />
+<Message Name="Insert Fail. Please Release Serial Number." 
+         Value="Ghi thất bại，vui lòng tạo dãy serial trước." />
+<Message Name="Insert Fail. No Panel." Value="Ghi thất bại — thiếu mã panel." />
+<Message Name="Suffix" Value="Hậu tố" />
+<Message Name="Duplicate CSN" Value="CSN trùng lặp" />
+<Message Name="Change" Value="Thay thế" />
+<Message Name="Close" Value="Đóng" />
+<Message Name="MAC Count" Value="Số lượng MAC" />
+<Message Name="Please Set WO Route" Value="Vui lòng thiết lập tuyến công đoạn cho WO" />
+<Message Name="Please Set WO Part" Value="Vui lòng thiết lập linh kiện cho WO" />
+<Message Name="Work Order Status Error Not In (Prepare/Release/WIP)"  Value="Trạng thái lệnh sản xuất không hợp lệ — phải ở trạng thái Prepare/Release/WIP" />
+<Message Name="Releasing! Confirm to close the page?"  Value="Đang tạo dãy mã，xác nhận đóng trang?" />
+<Message Name="" Value="" />
+<Message Name="" Value="" />
+        </Ngôn_ngữ_Việt>
+	<简体中文>
+		<Message Name="OK" Value="确定" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Deafult Value" Value="预设值" />
+		<Message Name="Search" Value="搜寻条件" />
+		<Message Name="Work Order" Value="工单" />
+		<Message Name="Target Qty" Value="目标量" />
+		<Message Name="Customer" Value="客户" />
+		<Message Name="Part No" Value="料号" />
+		<Message Name="Release" Value="展开序号" />
+		<Message Name="W/O Type" Value="工单类型" />
+		<Message Name="W/O Due Date" Value="预计完成日期" />
+		<Message Name="Master W/O" Value="主工单" />
+		<Message Name="Route Name" Value="途程名称" />
+		<Message Name="Remark" Value="备注说明" />
+		<Message Name="Production Line" Value="生产线别" />
+		<Message Name="PO Number" Value="订单编号" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="Start Process" Value="工单投入站" />
+		<Message Name="End Process" Value="工单产出站" />
+		<Message Name="Input Qty" Value="投入数" />
+		<Message Name="W/O Information" Value="工单资讯" />
+		<Message Name="Rule Name" Value="规则名称" />
+		<Message Name="Calculate" Value="计算" />
+		<Message Name="Start Number" Value="开始号" />
+		<Message Name="Release Qty" Value="展开数量" />
+		<Message Name="Code" Value="代码" />
+		<Message Name="Qty" Value="数量" />
+		<Message Name="Default" Value="预设" />
+		<Message Name="Print Method" Value="列印方式" />
+		<Message Name="Print Qty" Value="列印数量" />
+		<Message Name="Print" Value="列印" />
+		<Message Name="Print Configuration" Value="列印设定" />
+		<Message Name="Label File" Value="标签档" />
+		<Message Name="Label Information" Value="标签资讯" />
+		<Message Name="Sub Qty" Value="子板数量" />
+		<Message Name="End Number" Value="结束号" />
+		<Message Name="Print Test Page" Value="列印测试页" />
+		<Message Name="WORK_ORDER" Value="工单" />
+		<Message Name="TARGET_QTY" Value="目标量" />
+		<Message Name="PART_NO" Value="料号" />
+		<Message Name="SPEC1" Value="描述" />
+		<Message Name="SPEC2" Value="描述2" />
+		<Message Name="Start No" Value="起始号" />
+		<Message Name="End No" Value="结束号" />
+		<Message Name="Total" Value="总计" />
+		<Message Name="List" Value="列表" />
+		<Message Name="Please Setup System Parameter" Value="请先设定系统参数值" />
+		<Message Name="Work Order Error" Value="工单错误" />
+		<Message Name="Rule not Define" Value="编码规则未定义" />
+		<Message Name="Value must be the integer" Value="输入值必须为数字格式" />
+		<Message Name="Value must be bigger than 0" Value="输入值必须大於0" />
+		<Message Name="Release Qty Different" Value="展开数量不同" />
+		<Message Name="Please Waiting Another Release" Value="请等待其他电脑完成动作" />
+		<Message Name="Ignore Empty Character" Value="忽略空白字元" />
+		<Message Name="Start Number NG" Value="起始号错误" />
+		<Message Name="Length Error" Value="长度错误" />
+		<Message Name="Data not Exist" Value="资料不存在" />
+		<Message Name="had been Used" Value="已被使用" />
+		<Message Name="Start Sequence Different" Value="开始流水号不同" />
+		<Message Name="Data Duplicate" Value="资料重复" />
+		<Message Name="Please input Work Order" Value="请输入工单号" />
+		<Message Name="Qty is not enough" Value="数量不足" />
+		<Message Name="All Number had been Used" Value="所有号码皆已被使用" />
+		<Message Name="Max" Value="最大值" />
+		<Message Name="Available" Value="可用" />
+		<Message Name="Maximum" Value="最大" />
+		<Message Name="Released" Value="已用" />
+		<Message Name="(Sequence)" Value="(流水号)" />
+		<Message Name="(All Character)" Value="(所有字元)" />
+		<Message Name="START_NO" Value="开始号" />
+		<Message Name="Part No Different" Value="料号不一致" />
+		<Message Name="WO BOM Not Define MAC Part" Value="工单BOM表内未包含MAC型态的料号" />
+		<Message Name="No Available MAC" Value="所有号码皆已被使用,没有可以使用的MAC" />
+		<Message Name="MAC is assigned to Part No" Value="MAC被指定给料号" />
+		<Message Name="Can not Over Release" Value="不可超领" />
+		<Message Name="Sure to Over Release" Value="确定要超领" />
+		<Message Name="Remark is null" Value="备注未输入" />
+		<Message Name="Over Release" Value="超领" />
+		<Message Name="Unit" Value="申请单位" />
+		<Message Name="Applicant" Value="申请人" />
+		<Message Name="Reason" Value="原因" />
+		<Message Name="SERIAL_NUMBER" Value="序号" />
+		<Message Name="CUSTOMER_SN" Value="出货序号" />
+		<Message Name="VERSION" Value="版本" />
+		<Message Name="PDLINE_NAME" Value="线别" />
+		<Message Name="STAGE_NAME" Value="区段" />
+		<Message Name="PROCESS_NAME" Value="制程" />
+		<Message Name="TERMINAL_NAME" Value="站别" />
+		<Message Name="OUT_PROCESS_TIME" Value="出站时间" />
+		<Message Name="IN_PROCESS_TIME" Value="进站时间" />
+		<Message Name="OUT_PDLINE_TIME" Value="产出时间" />
+		<Message Name="IN_PDLINE_TIME" Value="投产时间" />
+		<Message Name="REWORK_NO" Value="重工单号" />
+		<Message Name="REWORK_EMPLOYEE" Value="重工人员" />
+		<Message Name="REWORK_TIME" Value="重工时间" />
+		<Message Name="CURRENT_STATUS" Value="状态" />
+		<Message Name="EMP_NAME" Value="过站人员" />
+		<Message Name="NEXT_PROCESS" Value="下一制程" />
+		<Message Name="SCRAP" Value="报废" />
+		<Message Name="QC_NO" Value="抽验批号" />
+		<Message Name="QC_RESULT" Value="抽验结果" />
+		<Message Name="PALLET_NO" Value="栈板号" />
+		<Message Name="CARTON_NO" Value="箱号" />
+		<Message Name="BOX_NO" Value="彩盒号" />
+		<Message Name="SHIPPING_NO" Value="出货单号" />
+		<Message Name="WARRANTY" Value="保固期限" />
+		<Message Name="ENC_CNT" Value="ECN次数" />
+		<Message Name="CUSTOMER_NAME" Value="客户名称" />
+		<Message Name="ENC_CNT" Value="ECN次数" />
+		<Message Name="WIP_QTY" Value="数量" />
+		<Message Name="Released" Value="已展号" />
+		<Message Name="Print Qty:" Value="列印数量:" />
+		<Message Name="Master label is not correct, check SYS_LABEL setting please." Value="主標籤未設定正確，請確認系統標籤設定(SYS_LABEL)" />
+	</简体中文>
+</Chroma>

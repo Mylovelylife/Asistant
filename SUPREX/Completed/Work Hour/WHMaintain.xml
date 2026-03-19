@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+	</English>
+	<繁體中文>
+		<Message Name="Total Time" Value="總耗時( 分 )"/>
+		<Message Name="modify_success" Value="成功"/>
+		<Message Name="modify_fail" Value="失敗"/>
+		<Message Name="Online" Value="開線"/>
+		<Message Name="Description" Value="描述"/>
+		<Message Name="Invalid" Value="異常"/>
+		<Message Name="Pre-Material" Value="備料"/>
+		<Message Name="Part No" Value="料號"/>
+		<Message Name="Note" Value="備註"/>
+		<Message Name="Choose" Value="選擇"/>
+		<Message Name="All" Value="全部"/>
+		<Message Name="Confirm" Value="確認"/>
+		<Message Name="End" Value="結束"/>
+		<Message Name="Create" Value="建立"/>
+		<Message Name="PDLine" Value="線別"/>
+		<Message Name="Fixed Worker" Value="固定工作人數"/>
+		<Message Name="person" Value="人"/>
+		<Message Name="can not over limit by" Value="不能超出上限："/>
+		<Message Name="EMP" Value="員工"/>
+		<Message Name="EMP Name" Value="員工名稱"/>
+		<Message Name="EMP No" Value="員工編號"/>
+		<Message Name="Start Time" Value="開始時間"/>
+		<Message Name="End Time" Value="結束時間"/>
+		<Message Name="Current Worker" Value="當前人員數"/>
+		<Message Name="Dismiss" Value="下崗"/>
+		<Message Name="is on different Line" Value="在不同的線別上"/>
+		<Message Name="Sure to modify note ?" Value="確認修改備註 ?"/>
+		<Message Name="Sure to do Preparation Material ?" Value="確認開始備料 ?"/>
+		<Message Name="Sure to Complete Preparation Material ?" Value="確定完成備料 ?"/>
+		<Message Name="Invalid Code" Value="異常代碼"/>
+		<Message Name="W/O" Value="工單"/>
+		<Message Name="Type" Value="類型"/>
+		<Message Name="Terminal" Value="工作站"/>
+		<Message Name="Search" Value="搜尋"/>
+		<Message Name="OK" Value="確定"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Please enter less one word to search" Value="請輸入最少一個字符來查詢"/>
+		<Message Name="material_part_search_fail" Value="沒有料號對應到此開頭 , 請重新輸入"/>
+		<Message Name="material_wo_search_fail" Value="沒有工單對應到此開頭 , 請重新輸入"/>
+		<Message Name="machine_search_fail" Value="該線別無對應機台"/>
+		<Message Name="keypress_error" Value="找不到資料"/>
+		<Message Name="Pre-Machine" Value="架站"/>
+		<Message Name="Machine Code" Value="機台名稱"/>
+		<Message Name="Code" Value="代碼"/>
+		<Message Name="Create by" Value="建立方式"/>
+		<Message Name="Current Time" Value="現在時間"/>
+		<Message Name="Sure to do Preparation Machine ?" Value="確認開始架站 ?"/>
+		<Message Name="Sure to Complete Preparation Machine ?" Value="確定完成架站 ?"/>
+		<Message Name="Time Duplicate" Value="時間重複"/>
+		<Message Name="Update Time" Value="更新時間"/>
+		<Message Name="Update User" Value="更新人員"/>
+		<Message Name="Interval" Value="作業時間"/>
+		<Message Name="Interval_error" Value="作業時間需大於 0 (分)"/>
+		<Message Name="Idle" Value="非必要工時"/>
+		<Message Name="No Data Checked" Value="無資料被選取"/>
+		<Message Name="open_confirm" Value="確定開線 ?"/>
+		<Message Name="close_confirm" Value="確定關線 ?"/>
+		<Message Name="Line Status" Value="線別狀態"/>
+		<Message Name="open_now" Value="開啟中"/>
+		<Message Name="close_now" Value="關閉中"/>
+
+		<Message Name="PDLINE_NAME" Value="線別名稱"/>
+		<Message Name="PART_NO" Value="料號"/>
+		<Message Name="WORK_ORDER" Value="工單"/>
+		<Message Name="WO_SCHEDULE_DATE" Value="預計投產日期"/>
+		<Message Name="TARGET_QTY" Value="目標量"/>
+		<Message Name="PREPARATION_TIME" Value="備料耗時 (分)"/>
+		<Message Name="fHistory" Value="歷史紀錄查詢"/>
+		<Message Name="fDetail" Value="詳細紀錄查詢"/>
+		<Message Name="S_A" Value="全選"/>
+		<Message Name="C_A" Value="全不選"/>
+		<Message Name="New" Value="新增"/>
+		<Message Name="W/O" Value="主工單"/>
+		<Message Name="Detail" Value="細節"/>
+		<Message Name="Date Range" Value="時間區間"/>
+		<Message Name="Beat" Value="超出時間"/>
+		<Message Name="Status" Value="類型"/>
+		<Message Name="SN" Value="生產序號"/>
+		<Message Name="Date" Value="日期"/>
+		<Message Name="Buffer" Value="寬放時間"/>
+
+		<Message Name="Unprocessed" Value="未處理"/>
+		<Message Name="Error Man" Value="異常_人為"/>
+		<Message Name="Error Machine" Value="異常_機器"/>
+		<Message Name="Error Material" Value="異常_物料"/>
+		<Message Name="Error Method" Value="異常_方法"/>
+		<Message Name="Error Enviroment" Value="異常_環境"/>
+		<Message Name="First Product Check" Value="異常_首件檢查"/>
+		<Message Name="New Procduct Test" Value="異常_新產品試做"/>
+		<Message Name="Material Processing" Value="異常_材料加工"/>
+		<Message Name="Others" Value="異常_其他"/>
+		<Message Name="Change Line" Value="除外_換線/開收線"/>
+		<Message Name="No Scheduled" Value="除外_無排程"/>
+		<Message Name="Break Time" Value="除外_休息時間"/>
+		<Message Name="Education" Value="除外_教育訓練"/>
+
+		<Message Name="Error Code" Value="類型"/>
+		<Message Name="Responsible Department" Value="責任部門"/>
+
+
+		<Message Name="Down" Value="離崗"/>
+		<Message Name="Down All" Value="全部員工離崗"/>
+		<Message Name="SURE TO DOWN ALL EMP?" Value="確定要讓全部員工離崗嗎?"/>
+		<Message Name="No EMP online" Value="請先維護員工上崗"/>
+		<Message Name="NO CLOSE LINE" Value="請先關線"/>
+		<Message Name="Work Order" Value="工單"/>
+		<Message Name="ERP SEQ" Value="工序"/>
+		<Message Name="EMP online" Value="員工已上崗"/>
+		<Message Name="Sure to chage Work Order" Value="確認換工單上崗"/>
+		<Message Name="Sure to chage PDline" Value="確認換線上崗"/>
+		<Message Name="Select" Value="選擇"/>
+		<Message Name="" Value=""/>
+		<Message Name="" Value=""/>
+		<Message Name="" Value=""/>
+
+	</繁體中文>
+<Ngôn_ngữ_Việt><Message Name="modify_success" Value="Thành công"/><Message Name="Pre-Material" Value="Chuẩn bị vật料"/><Message Name="Date Range" Value="Khoảng thời gian"/><Message Name="Detail" Value="Chi tiết"/><Message Name="Description" Value="Mô tả"/><Message Name="can not over limit by" Value="Không được vượt quá giới hạn:"/><Message Name="fHistory" Value="Tra lịch sử"/><Message Name="PDLINE_NAME" Value="Tên line"/><Message Name="Update User" Value="Người cập nhật"/><Message Name="Sure to Complete Preparation Material ?" Value="Xác nhận hoàn thành chuẩn bị vật liệu?"/><Message Name="Time Duplicate" Value="Thời gian bị trùng"/><Message Name="Work Order" Value="Công lệnh"/><Message Name="close_now" Value="Đang đóng"/><Message Name="End Time" Value="Thời gian kết thúc"/><Message Name="Sure to do Preparation Material ?" Value="Xác nhận bắt đầu chuẩn bị vật liệu?"/><Message Name="Fixed Worker" Value="Số nhân lực cố định"/><Message Name="New Procduct Test" Value="Bất thường - Sản phẩm mới thử nghiệm"/><Message Name="open_confirm" Value="Xác nhận mở line?"/><Message Name="No Scheduled" Value="Ngoại lệ - Không có lịch"/><Message Name="Error Method" Value="Bất thường - Phương pháp"/><Message Name="Error Enviroment" Value="Bất thường - Môi trường"/><Message Name="is on different Line" Value="đang ở line khác"/><Message Name="Others" Value="Bất thường - Khác"/><Message Name="Break Time" Value="Ngoại lệ - Nghỉ giải lao"/><Message Name="Sure to chage Work Order" Value="Xác nhận đổi công lệnh"/><Message Name="Dismiss" Value="Rời trạm"/><Message Name="Responsible Department" Value="Bộ phận chịu trách nhiệm"/><Message Name="Sure to chage PDline" Value="Xác nhận đổi line"/><Message Name="No EMP online" Value="Vui lòng bảo trì nhân viên lên trạm trước"/><Message Name="Date" Value="Ngày"/><Message Name="Error Machine" Value="Bất thường - Máy móc"/><Message Name="Please enter less one word to search" Value="Vui lòng nhập ít nhất 1 ký tự để tìm kiếm"/><Message Name="NO CLOSE LINE" Value="Vui lòng đóng line trước"/><Message Name="Type" Value="Loại"/><Message Name="WO_SCHEDULE_DATE" Value="Ngày dự kiến sản xuất"/><Message Name="Select" Value="Chọn"/><Message Name="WORK_ORDER" Value="Công lệnh"/><Message Name="Change Line" Value="Ngoại lệ - Đổi line / mở-đóng line"/><Message Name="close_confirm" Value="Xác nhận đóng line?"/><Message Name="S_A" Value="Chọn tất cả"/><Message Name="EMP" Value="Nhân viên"/><Message Name="Down" Value="Rời trạm"/><Message Name="Terminal" Value="Trạm làm việc"/><Message Name="Online" Value="Mở line"/><Message Name="New" Value="Thêm mới"/><Message Name="W/O" Value="Công lệnh"/><Message Name="material_wo_search_fail" Value="Không tìm thấy công lệnh phù hợp, vui lòng nhập lại"/><Message Name="Current Worker" Value="Số người hiện tại"/><Message Name="Create by" Value="Tạo bởi"/><Message Name="PART_NO" Value="Mã liệu"/><Message Name="No Data Checked" Value="Không có dữ liệu được chọn"/><Message Name="End" Value="Kết thúc"/><Message Name="Sure to modify note ?" Value="Xác nhận sửa ghi chú?"/><Message Name="Create" Value="Tạo mới"/><Message Name="C_A" Value="Bỏ chọn tất cả"/><Message Name="Choose" Value="Chọn"/><Message Name="Total Time" Value="Tổng thời gian (phút)"/><Message Name="Education" Value="Ngoại lệ - Đào tạo"/><Message Name="PREPARATION_TIME" Value="Thời gian chuẩn bị (phút)"/><Message Name="EMP No" Value="Mã nhân viên"/><Message Name="Beat" Value="Thời gian vượt mức"/><Message Name="Error Man" Value="Bất thường - Nhân sự"/><Message Name="open_now" Value="Đang mở"/><Message Name="TARGET_QTY" Value="Sản lượng mục tiêu"/><Message Name="Confirm" Value="Xác nhận"/><Message Name="modify_fail" Value="Thất bại"/><Message Name="Sure to do Preparation Machine ?" Value="Xác nhận bắt đầu chuẩn bị máy?"/><Message Name="SN" Value="Số SN"/><Message Name="Start Time" Value="Thời gian bắt đầu"/><Message Name="Idle" Value="Thời gian không cần thiết"/><Message Name="Invalid" Value="Bất thường"/><Message Name="Status" Value="Loại"/><Message Name="Unprocessed" Value="Chưa xử lý"/><Message Name="Search" Value="Tìm kiếm"/><Message Name="All" Value="Tất cả"/><Message Name="Invalid Code" Value="Mã bất thường"/><Message Name="Error Code" Value="Loại bất thường"/><Message Name="Line Status" Value="Trạng thái line"/><Message Name="machine_search_fail" Value="Line không có máy tương ứng"/><Message Name="Interval" Value="Thời gian tác nghiệp"/><Message Name="Down All" Value="Rời trạm toàn bộ"/><Message Name="SURE TO DOWN ALL EMP?" Value="Xác nhận cho toàn bộ nhân viên rời trạm?"/><Message Name="Part No" Value="Mã liệu"/><Message Name="Current Time" Value="Thời gian hiện tại"/><Message Name="EMP online" Value="Nhân viên đã lên trạm"/><Message Name="First Product Check" Value="Bất thường - Kiểm tra First Article"/><Message Name="Interval_error" Value="Thời gian tác nghiệp phải lớn hơn 0 (phút)"/><Message Name="keypress_error" Value="Không tìm thấy dữ liệu"/><Message Name="EMP Name" Value="Tên nhân viên"/><Message Name="Sure to Complete Preparation Machine ?" Value="Xác nhận hoàn thành chuẩn bị máy?"/><Message Name="Update Time" Value="Thời gian cập nhật"/><Message Name="PDLine" Value="Line"/><Message Name="person" Value="người"/><Message Name="Buffer" Value="Thời gian buffer"/><Message Name="Error Material" Value="Bất thường - Vật liệu"/><Message Name="Pre-Machine" Value="Chuẩn bị máy"/><Message Name="Note" Value="Ghi chú"/><Message Name="Material Processing" Value="Bất thường - Gia công vật liệu"/><Message Name="material_part_search_fail" Value="Không tìm thấy mã liệu phù hợp, vui lòng nhập lại"/><Message Name="Machine Code" Value="Mã máy"/><Message Name="fDetail" Value="Tra chi tiết"/><Message Name="Cancel" Value="Hủy"/><Message Name="Code" Value="Mã"/><Message Name="OK" Value="Xác nhận"/><Message Name="ERP SEQ" Value="Công đoạn ERP"/></Ngôn_ngữ_Việt></Chroma>

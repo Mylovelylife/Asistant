@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文>
+    <Message Name="Scan Input" Value="掃描輸入"/>
+    <Message Name="Serial Number" Value="序號"/>
+    <Message Name="Key Part" Value="主要料件"/>
+    <Message Name="Select/Clear All" Value="選擇/清除 全部"/>
+    <Message Name="Execute" Value="執行"/>
+    <Message Name="Auto Depart" Value="自動拆解"/>
+    <Message Name="Key Part Cont" Value="料件數量"/>
+    <Message Name="Work Order" Value="工單"/>
+    <Message Name="Process Name" Value="製程名稱"/>
+    <Message Name="Part No" Value="料件編號"/>
+    <Message Name="Item Part SN" Value="零件序號"/>
+    <Message Name="Item Group" Value="零件群組"/>
+    <Message Name="Employee Name" Value="員工名稱"/>
+    <Message Name="This Serial Number has no Key Part" Value="這組序號沒有關鍵料件"/>
+    <Message Name="Total" Value="共"/>
+    <Message Name=" Key Part(s) will been Depart" Value="個關鍵料件將被移除"/>
+    <Message Name="Continue?" Value="繼續?"/>
+    <Message Name=" Key Part(s) Dpart Complete" Value="組關鍵料件移除完成"/>
+    <Message Name="Please Select the front of Check Box of Key Part Serial Number, First" Value="請先勾選關鍵料件序號"/>
+    <Message Name="Serial Number Error" Value="序號錯誤"/>
+    <Message Name="Execute" Value="執行"/>
+    <Message Name="KPSN of Serial Number is not Complete dismantling，Unable Recovery to previous state" Value="序號的組件未拆解完成，無法還原至上一階"/>
+    <Message Name="Recovery to previous state Complete" Value="完成還原至上一階作業"/>
+    <Message Name="No Travel Data" Value="無過站紀錄"/>
+    <Message Name="No Previous State" Value="無上一階資訊"/>
+    <Message Name="recovery" Value="還原至上一階料號"/>
+    <Message Name="Update Time" Value="組裝時間"/>
+    <Message Name="Selected" Value="選擇"/>
+  </繁體中文>
+<Ngôn_ngữ_Việt><Message Name="Scan Input" Value="Quét nhập"/><Message Name="Serial Number" Value="Số seri"/><Message Name="Key Part" Value="Linh kiện chính"/><Message Name="Select/Clear All" Value="Chọn/Xóa tất cả"/><Message Name="Execute" Value="Thực thi"/><Message Name="Auto Depart" Value="Tách tự động"/><Message Name="Key Part Cont" Value="Số lượng linh kiện"/><Message Name="Work Order" Value="Lệnh sản xuất"/><Message Name="Process Name" Value="Tên công đoạn"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="Item Part SN" Value="Số seri linh kiện"/><Message Name="Item Group" Value="Nhóm linh kiện"/><Message Name="Employee Name" Value="Tên nhân viên"/><Message Name="This Serial Number has no Key Part" Value="Số seri này không có linh kiện chính"/><Message Name="Total" Value="Tổng"/><Message Name=" Key Part(s) will been Depart" Value=" linh kiện chính sẽ được tách ra"/><Message Name="Continue?" Value="Tiếp tục?"/><Message Name=" Key Part(s) Dpart Complete" Value="Tách linh kiện chính hoàn tất"/><Message Name="Please Select the front of Check Box of Key Part Serial Number, First" Value="Vui lòng chọn số seri linh kiện chính trước"/><Message Name="Serial Number Error" Value="Lỗi số seri"/><Message Name="KPSN of Serial Number is not Complete dismantling，Unable Recovery to previous state" Value="Linh kiện của số seri chưa được tách hoàn tất, không thể khôi phục về trạng thái trước đó"/><Message Name="Recovery to previous state Complete" Value="Khôi phục về trạng thái trước đó hoàn tất"/><Message Name="No Travel Data" Value="Không có dữ liệu qua trạm"/><Message Name="No Previous State" Value="Không có trạng thái trước đó"/><Message Name="recovery" Value="Khôi phục về mã linh kiện trước đó"/><Message Name="Update Time" Value="Thời gian lắp ráp"/><Message Name="Selected" Value="Đã chọn"/></Ngôn_ngữ_Việt></Chroma>

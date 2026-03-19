@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Chroma>
+  
+	
+  <English>
+    
+		
+    <Message Name="SELECT" Value="Select"/>
+    
+
+		
+    <Message Name="has one or more Processes" Value="has one or more Processes"/>
+    
+		
+    <Message Name="Can not delete it" Value="Can not delete it"/>
+    
+		
+    <Message Name="has one or more Terminals" Value="has one or more Terminals"/>
+    
+
+		
+    <Message Name="PROCESS_CODE" Value="Process Code"/>
+    
+		
+    <Message Name="PROCESS_NAME" Value="Process Name"/>
+    
+		
+    <Message Name="PROCESS_DESC" Value="Process Description"/>
+    
+		
+    <Message Name="COUNT" Value="Defect Count"/>
+    
+
+		
+    <Message Name="DEFECT_TYPE" Value="Defect Type"/>
+    
+		
+    <Message Name="DEFECT_CODE" Value="Defect Code"/>
+    
+		
+    <Message Name="DEFECT_NAME" Value="Defect Name"/>
+    
+		
+    <Message Name="DEFECT_DESC" Value="Defect Description"/>
+    
+		
+    <Message Name="EMP_NAME" Value="Updator"/>
+    
+		
+    <Message Name="UPDATE_TIME" Value="Update Time"/>
+    
+		
+    <Message Name="STAGE_NAME" Value="Attribution Stage"/>
+    
+	
+  </English>
+  
+
+	
+  <繁體中文>
+    
+		
+    <Message Name="SELECT" Value="選取"/>
+    
+
+		
+    <Message Name="has one or more Processes" Value="已包含製程資料"/>
+    
+		
+    <Message Name="Can not delete it" Value="不可刪除"/>
+    
+		
+    <Message Name="has one or more Terminals" Value="已包含工作站資料"/>
+    
+
+		
+    <Message Name="Please Select a Item." Value="請選擇產品製程參數項目"/>
+    
+		
+    <Message Name="Please Select One Item." Value="請選擇一個產品製程參數項目"/>
+    
+		
+    <Message Name="Delete the Item?" Value="刪除此產品製程參數"/>
+    
+		
+    <Message Name="Delete Item : " Value="刪除產品製程參數: "/>
+    
+		
+    <Message Name="Check Input Data Error." Value="輸入資料檢查錯誤"/>
+    
+		
+    <Message Name="Data Duplicate" Value="資料重複"/>
+    
+		
+    <Message Name="Data is null" Value="請輸入製程"/>
+    
+		
+    <Message Name="Delete Item Error." Value="刪除此產品製程參數錯誤"/>
+    
+		
+    <Message Name="Process Description" Value="製程描述"/>
+    
+		
+    <Message Name="Defect Code" Value="不良現象代碼"/>
+    
+		
+    <Message Name="Defect Description" Value="不良現象描述"/>
+    
+		
+    <Message Name="EMP NO" Value="更新資料人員"/>
+    
+		
+    <Message Name="Update Time" Value="更新時間"/>
+    
+		
+    <Message Name="Select All" Value="全選"/>
+    
+
+		
+    <Message Name="PROCESS_CODE" Value="製程代碼"/>
+    
+		
+    <Message Name="PROCESS_NAME" Value="製程名稱"/>
+    
+		
+    <Message Name="PROCESS_DESC" Value="製程描述"/>
+    
+		
+    <Message Name="COUNT" Value="不良現象筆數"/>
+    
+
+		
+    <Message Name="DEFECT_TYPE" Value="不良類型"/>
+    
+		
+    <Message Name="DEFECT_CODE" Value="不良現象代碼"/>
+    
+		
+    <Message Name="DEFECT_NAME" Value="不良現象名稱"/>
+    
+		
+    <Message Name="DEFECT_DESC" Value="不良現象描述"/>
+    
+		
+    <Message Name="STAGE_NAME" Value="區段"/>
+    
+	
+  </繁體中文>
+  
+	
+  <简体中文>
+    
+		
+    <Message Name="SELECT" Value="选取"/>
+    
+
+		
+    <Message Name="has one or more Processes" Value="已包含制程资料"/>
+    
+		
+    <Message Name="Can not delete it" Value="不可删除"/>
+    
+		
+    <Message Name="has one or more Terminals" Value="已包含工作站资料"/>
+    
+
+		
+    <Message Name="Please Select a Item." Value="请选择产品制程参数项目"/>
+    
+		
+    <Message Name="Please Select One Item." Value="请选择一个产品制程参数项目"/>
+    
+		
+    <Message Name="Delete the Item?" Value="删除此产品制程参数"/>
+    
+		
+    <Message Name="Delete Item : " Value="删除产品制程参数: "/>
+    
+		
+    <Message Name="Check Input Data Error." Value="输入数据检查错误"/>
+    
+		
+    <Message Name="Data Duplicate" Value="数据重复"/>
+    
+		
+    <Message Name="Data is null" Value="请输入制程"/>
+    
+		
+    <Message Name="Delete Item Error." Value="删除此产品制程参数错误"/>
+    
+		
+    <Message Name="Process Description" Value="制程描述"/>
+    
+		
+    <Message Name="Defect Code" Value="不良现象代码"/>
+    
+		
+    <Message Name="Defect Description" Value="不良现象描述"/>
+    
+		
+    <Message Name="EMP NO" Value="更新资料人员"/>
+    
+		
+    <Message Name="Update Time" Value="更新时间"/>
+    
+		
+    <Message Name="Select All" Value="全选"/>
+    
+
+		
+    <Message Name="PROCESS_CODE" Value="制程代码"/>
+    
+		
+    <Message Name="PROCESS_NAME" Value="制程名称"/>
+    
+		
+    <Message Name="PROCESS_DESC" Value="制程描述"/>
+    
+		
+    <Message Name="COUNT" Value="不良现象笔数"/>
+    
+
+		
+    <Message Name="DEFECT_TYPE" Value="不良类型"/>
+    
+		
+    <Message Name="DEFECT_CODE" Value="不良现象代码"/>
+    
+		
+    <Message Name="DEFECT_NAME" Value="不良现象名称"/>
+    
+		
+    <Message Name="DEFECT_DESC" Value="不良现象描述"/>
+    
+		
+    <Message Name="STAGE_NAME" Value="区段"/>
+    
+
+	
+  </简体中文>
+  
+
+  <Ngôn_ngữ_Việt>
+    <Message Name="SELECT" Value="Chọn"/>
+    <Message Name="has one or more Processes" Value="Đã Bao Gồm Dữ Liệu Công Đoạn"/>
+    <Message Name="Can not delete it" Value="Không Thể Xóa"/>
+    <Message Name="has one or more Terminals" Value="Đã Bao Gồm Dữ Liệu Trạm"/>
+    <Message Name="Please Select a Item." Value="Vui Lòng Chọn Một Hạng Mục"/>
+    <Message Name="Please Select One Item." Value="Vui Lòng Chọn Một Hạng Mục"/>
+    <Message Name="Delete the Item?" Value="Xóa Hạng Mục Này?"/>
+    <Message Name="Delete Item : " Value="Xóa Hạng Mục:"/>
+    <Message Name="Check Input Data Error." Value="Lỗi Kiểm Tra Dữ Liệu Nhập"/>
+    <Message Name="Data Duplicate" Value="Dữ Liệu Trùng Lặp"/>
+    <Message Name="Data is null" Value="Vui Lòng Nhập Công Đoạn"/>
+    <Message Name="Delete Item Error." Value="Lỗi Khi Xóa Hạng Mục"/>
+    <Message Name="Process Description" Value="Mô Tả Công Đoạn"/>
+    <Message Name="Defect Code" Value="Mã Hiện Tượng Lỗi"/>
+    <Message Name="Defect Description" Value="Mô Tả Hiện Tượng Lỗi"/>
+    <Message Name="EMP NO" Value="Người Cập Nhật"/>
+    <Message Name="Update Time" Value="Thời Gian Cập Nhật"/>
+    <Message Name="Select All" Value="Chọn Tất Cả"/>
+    <Message Name="PROCESS_CODE" Value="Mã Công Đoạn"/>
+    <Message Name="PROCESS_NAME" Value="Tên Công Đoạn"/>
+    <Message Name="PROCESS_DESC" Value="Mô Tả Công Đoạn"/>
+    <Message Name="COUNT" Value="Số Lượng Hiện Tượng Lỗi"/>
+    <Message Name="DEFECT_TYPE" Value="Loại Lỗi"/>
+    <Message Name="DEFECT_CODE" Value="Mã Hiện Tượng Lỗi"/>
+    <Message Name="DEFECT_NAME" Value="Tên Hiện Tượng Lỗi"/>
+    <Message Name="DEFECT_DESC" Value="Mô Tả Hiện Tượng Lỗi"/>
+    <Message Name="EMP_NAME" Value="Người Cập Nhật"/>
+    <Message Name="UPDATE_TIME" Value="Thời Gian Cập Nhật"/>
+    <Message Name="STAGE_NAME" Value="Khu Vực"/>
+  </Ngôn_ngữ_Việt>
+</Chroma>

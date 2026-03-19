@@ -1,0 +1,816 @@
+<Chroma>
+  <English>
+    <Message Name="Exit" Value="Do you want to exit?" />
+    <Message Name="APServerFail" Value="AP Server Fail!" />
+    <Message Name="PasswordError" Value="Password Error!" />
+    <Message Name="PasswordEmpty" Value="Password Empty!" />
+    <Message Name="NewPasswordError" Value="New Password Error!" />
+    <Message Name="UserNotFound" Value="Account Not Found!" />
+    <Message Name="DatabaseError" Value="Database NG!" />
+    <Message Name="FileNotFound" Value="File not found!" />
+    <Message Name="ChangeSucceed" Value="Change Password OK." />
+    <Message Name="DeleteData" Value="Do you want to delete this data?" />
+    <Message Name="NewPasswordEmpty" Value="New Password Empty!" />
+    <Message Name="FullScreenCoverage" Value="Full Screen Coverage" />
+    <Message Name="Maximized" Value="Maximized" />
+    <Message Name="Normal" Value="Normal" />
+  </English>
+  <繁體中文>
+    <Message Name="Home" Value="目錄" />
+    <Message Name="Application is already running" Value="程式已在執行" />
+    <Message Name="System closing" Value="確認關閉系統" />
+    <Message Name="Confirm close System" Value="確認關閉系統" />
+    <Message Name="Opened Apps" Value="已經開啟的程式" />
+    <Message Name="Show Opened Applications" Value="顯示目前已經開啟的程式" />
+    <Message Name="Close Active Application" Value="關閉目前程式" />
+    <Message Name="FontSize" Value="字體大小" />
+    <Message Name="Change FontSize" Value="改變目前程式字體大小" />
+    <Message Name="L" Value="大" />
+    <Message Name="D" Value="預" />
+    <Message Name="M" Value="中" />
+    <Message Name="S" Value="小" />
+    <Message Name="Large" Value="大字" />
+    <Message Name="Medium" Value="中字" />
+    <Message Name="Default" Value="預設" />
+    <Message Name="Small" Value="小字" />
+    <Message Name="Large Font" Value="設定目前程式採用大字體" />
+    <Message Name="Medium Font" Value="設定目前程式採用中字體" />
+    <Message Name="Default Font" Value="設定目前程式採用預設字體" />
+    <Message Name="Small Font" Value="設定目前程式採用小字體" />
+    <Message Name="Setting" Value="設定" />
+    <Message Name="About" Value="關於" />
+    <Message Name="Version" Value="版本" />
+    <Message Name="Check AP Server" Value="檢查連線" />
+    <Message Name="Account or password Error, please try again" Value="帳號密碼輸入錯誤，請重新輸入" />
+    <Message Name="Check AP Server Error, Press Retry or Exit" Value="檢查連線失敗，請重試或離開系統" />
+    <Message Name="Independent Window" Value="獨立視窗" />
+    <Message Name="Exit" Value="確定要離開?" />
+    <Message Name="APServerFail" Value="AP Server錯誤!" />
+    <Message Name="PasswordError" Value="密碼錯誤!" />
+    <Message Name="PasswordEmpty" Value="未輸入密碼!" />
+    <Message Name="NewPasswordError" Value="新密碼與確認密碼不符合!" />
+    <Message Name="UserNotFound" Value="查無此使用者!" />
+    <Message Name="DatabaseError" Value="資料庫錯誤!" />
+    <Message Name="FileNotFound" Value="檔案不存在!" />
+    <Message Name="ChangeSucceed" Value="密碼更改成功." />
+    <Message Name="DeleteData" Value="確定要刪除資料?" />
+    <Message Name="Refresh" Value="重新整理?" />
+    <Message Name="Host" Value="主機" />
+    <Message Name="Language" Value="語言" />
+    <Message Name="Account" Value="帳號" />
+    <Message Name="Password" Value="密碼" />
+    <Message Name="Close" Value="關閉" />
+    <Message Name="Logout?" Value="登出?" />
+    <Message Name="Login" Value="登入" />
+    <Message Name="&amp;Exit" Value="離開(&amp;X)" />
+    <Message Name="&amp;System" Value="系統(&amp;S)" />
+    <Message Name="&amp;Login" Value="登入(&amp;L)" />
+    <Message Name="Logout" Value="登出" />
+    <Message Name="Exit System" Value="離開系統" />
+    <Message Name="&amp;Logout" Value="登出(&amp;L)" />
+    <Message Name="Change Password" Value="變更密碼" />
+    <Message Name="&amp;Change Password" Value="變更密碼(&amp;C)" />
+    <Message Name="&amp;Window" Value="視窗(&amp;W)" />
+    <Message Name="&amp;Cascade" Value="階梯式並排(&amp;C)" />
+    <Message Name="&amp;OK" Value="確定(&amp;O)" />
+    <Message Name="Tile &amp;Horizontally" Value="水平並排(&amp;H)" />
+    <Message Name="Tile &amp;Vertically" Value="垂直並排(&amp;V)" />
+    <Message Name="&amp;Minimize All" Value="全部最小化(&amp;M)" />
+    <Message Name="&amp;Show All" Value="全部顯示(&amp;S)" />
+    <Message Name="Close &amp;All" Value="全部關閉(&amp;A)" />
+    <Message Name="&amp;Help" Value="說明(&amp;H)" />
+    <Message Name="&amp;About" Value="關於(&amp;A)" />
+    <Message Name="About" Value="關於" />
+    <Message Name="&amp;Option" Value="選項(&amp;O)" />
+    <Message Name="Hide &amp;Bottom" Value="隱藏底部(&amp;B)" />
+    <Message Name="Hide MES &amp;Label" Value="隱藏MES標籤(&amp;L)" />
+    <Message Name="Skin" Value="面板" />
+    <Message Name="Font:" Value="字型:" />
+    <Message Name="Change Font" Value="變更字型" />
+    <Message Name="Font" Value="字型" />
+    <Message Name="Large Font" Value="大字型" />
+    <Message Name="Small Font" Value="小字型" />
+    <Message Name="Show &amp;Host" Value="顯示連線主機(&amp;H)" />
+    <Message Name="User Name: " Value="使用者: " />
+    <Message Name="Version: {0}" Value="版本: {0}" />
+    <Message Name="Button" Value="按鈕" />
+    <Message Name="Module" Value="模組" />
+    <Message Name="Function List" Value="功能列示" />
+    <Message Name="Function" Value="功能" />
+    <Message Name="Background" Value="背景" />
+    <Message Name="Login" Value="登入畫面" />
+    <Message Name="Save" Value="儲存" />
+    <Message Name="None" Value="不選任何模組" />
+    <Message Name="Module Select" Value="模組選取" />
+    <Message Name="Load Image" Value="載入底圖" />
+    <Message Name="First Module" Value="選取第一個模組" />
+    <Message Name="Password Empty!" Value="密碼未填!" />
+    <Message Name="NewPasswordEmpty" Value="新密碼未填!" />
+    <Message Name="Error" Value="錯誤" />
+    <Message Name="Warning" Value="警告" />
+    <Message Name="Confirm" Value="確認" />
+    <Message Name="Current Password" Value="原密碼" />
+    <Message Name="New Password" Value="新密碼" />
+    <Message Name="Confirm Password" Value="確認密碼" />
+    <Message Name="OK" Value="確定" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Module Style" Value="模組樣式" />
+    <Message Name="General" Value="一般" />
+    <Message Name="ComboBox" Value="下拉選單" />
+    <Message Name="2xComboBox" Value="二維下拉選單" />
+    <Message Name="UserQuit" Value="已離職" />
+    <Message Name="UserDisabled" Value="已停用" />
+    <Message Name="Loading {0} Error, please Try again!" Value="載入 {0} 時發生錯誤，請再嘗試一次" />
+    <Message Name="ReTry" Value="重試" />
+    <Message Name="Check Connection by All XML Files for APServer in Host Directory" Value="檢查所有APServer在Host資料夾中的XML檔案" />
+    <Message Name="Check [{0}] Download Necessity,g_download={1},NeedFirstDownload={2}" Value="檢查 [{0}] 下載的必要性,g_download={1},NeedFirstDownload={2}" />
+    <Message Name="Check [{0}] Dll Files for Download" Value="檢查 [{0}] 需要下載的檔案" />
+    <Message Name="Create {0}'s Sub Menu" Value="建立{0}的子目錄選單" />
+    <Message Name="Logoff" Value="登出" />
+    <Message Name="Back to Menu" Value="返回目錄" />
+    <Message Name="Close All" Value="關閉全部" />
+    <Message Name="File Name【{0}】and it's {1}Class Name【{2}】{1}is null.{1}Please check the name in brackets." Value="檔案名稱【{0}】以及該 {1}類別名稱【{2}】{1}不存在。{1}請檢核對括弧內名稱。" />
+    <Message Name="Error Loading【{0}】" Value="【{0}】 載入錯誤" />
+    <Message Name="Components Version - Recommended updates：{0}" Value="元件版本資訊 - 建議更新：{0} 個" />
+    <Message Name="Components Version - All components are the latest version." Value="元件版本資訊 - 目前程式及模組均為最新版本" />
+    <Message Name="Recommend" Value="建議" />
+    <Message Name="Version DB Uncertified" Value="未認證" />
+    <Message Name="Detect older systems function modules" Value="偵測到舊版的系統功能模組" />
+    <Message Name="Older modules may cause system incompatibilities or unexpected interruption, recommend update the following module list to the latest version." Value="舊版的模組可能會導致系統功能不相容或不正常而導致意外中斷，建議將下列舊版的模組更新後，再繼續使用本系統。" />
+    <Message Name="Ignore and continue" Value="忽略並繼續執行系統" />
+    <Message Name="The system will automatically start after" Value="系統將於倒數後啟動" />
+    <Message Name="Module version database Uncertified" Value="模組版本資料庫尚未認證" />
+    <Message Name="Please update the Module Version DB to the latest Version." Value="請更新模組版本資料庫。" />
+    <Message Name="Fail" Value="失敗" />
+    <Message Name="Empty" Value="資料空白" />
+    <Message Name="Success" Value="成功" />
+    <Message Name="{1} has a inner name conflict!{0}This error will cause the module can not be closed properly.{0} Database Name　= {4}{0} Type of Name    　= {2}.{3}" Value="{1} 發生內部名稱衝突!{0}此錯誤將導致該模組無法正常關閉.{0} 資料庫名稱 = {2}.{3}{0} 型別名稱     = {4}" />
+    <Message Name="Server Dashboard" Value="伺服器儀表板" />
+    <Message Name="Download File Error" Value="下載檔案錯誤" />
+    <Message Name="Account or password Error, please try again." Value="帳號或密碼錯誤，請重新確認" />
+    <Message Name="User Not Exist in MES Account.&#xD;&#xA; Please build it first." Value="使用者帳號不存在於 MES系統中.&#xD;&#xA; 請先建立MES帳號." />
+    <Message Name="Account is Disabled." Value="帳號已停用" />
+    <Message Name="FullScreenCoverage" Value="覆蓋工作列" />
+    <Message Name="Maximized" Value="最大化" />
+    <Message Name="Normal" Value="往下還原" />
+    <Message Name="You got" Value="你有" />
+    <Message Name="messages" Value="個訊息" />
+    <Message Name="Show the detail Window." Value="顯示詳細視窗" />
+    <Message Name="Message" Value="訊息功能" />
+    <Message Name="New Password not equal to Confirm Password!" Value="新舊密碼不吻合" />
+    <Message Name="Password complexity does not match the policy." Value="密碼複雜度與政策不匹配" />
+    <Message Name="'s Role" Value="的角色" />
+    <Message Name="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=UserQuit backparam.Length=[2]]" Value="登入錯誤：使用者已離職" />
+    <Message Name="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=PasswordEmpty backparam.Length=[2]]" Value="登入錯誤：密碼空白" />
+    <Message Name="Login Fail. User Account is Quit." Value="登入錯誤：使用者已離職" />
+    <Message Name="The password is repeated with the previous." Value="密碼與前次紀錄重覆" />
+    <Message Name="Password must not repeat the previous" Value="密碼不得與前" />
+    <Message Name="times" Value="次紀錄相同" />
+    <Message Name="The password is repeated with the previous." Value="密碼與歷史紀錄相同" />
+    <Message Name="NewPasswordNotEqualToConfirmPassword!" Value="新密碼與確認密碼欄位需相同" />
+    <Message Name="Allow User Name Same As Password." Value="允許使用者名稱與密碼相同" />
+    <Message Name="Enforce Password History 3 Times." Value="強制歷程紀錄三次" />
+    <Message Name="Minimum Password Age 1 Days." Value="密碼最短使用期限1天" />
+    <Message Name="The interval between reset passwords is too short." Value="重置密碼的間隔太短。" />
+    <Message Name="Password reset must be" Value="重置密碼必須間隔" />
+    <Message Name="days apart" Value="天" />
+    <Message Name="Must contain lowercase English letters." Value="必須包含小寫英文字母" />
+    <Message Name="Must contain capital English letters." Value="必須包含大寫英文字母" />
+    <Message Name="Must contain digital." Value="必須包含數字" />
+    <Message Name="Limit font length." Value="最小密碼長度" />
+    <Message Name="At least 3 characters." Value="至少三個字元" />
+    <Message Name="Maximum of 8 characters." Value="最多八個字元" />
+    <Message Name="Must contain special symbol." Value="必須包含特殊符號。" />
+    <Message Name="Missing capital letters." Value="缺少大寫字母。" />
+    <Message Name="Missing numbers." Value="缺少數字。" />
+    <Message Name="Missing the specified symbol such as" Value="缺少指定的符號，例如" />
+    <Message Name="Policy Restore From Abbreviation Fail." Value="從縮寫恢復策略失敗。" />
+    <Message Name="SajetPassword complexity policy sync failed." Value="Sajet密碼複雜性策略同步失敗。" />
+    <Message Name="Please log in as an administrator to modify the SajetPassword policy in the settings." Value="請以管理員身份登錄以修改設置中的Sajet密碼策略。" />
+    <Message Name="SajetPassword complexity policy is not initialized or database sync failed." Value="Sajet密碼複雜性策略未初始化或數據庫同步失敗。" />
+    <Message Name="Please edit the SajetPassword policy in the settings." Value="請在設定書籤中編輯Sajet密碼策略。" />
+    <Message Name="Change Your Password right now?" Value="立即變更你的密碼?" />
+    <Message Name="Password Validity Period" Value="密碼有效期" />
+    <Message Name="Days." Value="天" />
+    <Message Name="Enforce Password History" Value="強制密碼歷史紀錄" />
+    <Message Name="Times." Value="次" />
+    <Message Name="Minimum Password Age" Value="密碼最短使用期限" />
+    <Message Name="Must contain special symbol" Value="必須包含特殊符號" />
+    <Message Name="Limit font length" Value="限制字元長度" />
+    <Message Name="At least" Value="至少" />
+    <Message Name="characters" Value="符號" />
+    <Message Name="Maximum of" Value="最大的" />
+    <Message Name="is Empty" Value="未填寫" />
+    <Message Name="Length LESS than" Value="長度小於" />
+    <Message Name="words" Value="個字元" />
+    <Message Name="Missing lowercase" Value="缺少小寫字元" />
+    <Message Name="Missing capital letters" Value="缺少大寫字元" />
+    <Message Name="Missing numbers" Value="缺少數字" />
+    <Message Name="The password has been changed successfully,&#xD;&#xA; please log in with the new password after restarts." Value="密碼已變更成功，&#xD;&#xA; 請於下次登入時使用新密碼。" />
+    <Message Name="Password Changed!" Value="密碼已變更" />
+    <Message Name="You Should Change your Password befor Login!" Value="你必須於登入之前修改密碼!" />
+    <Message Name="is not allow same as user account." Value="不允許與使用者的帳號相同" />
+    <Message Name="User canceled password change,&#xD;&#xA; please try again." Value="使用者取消變更密碼，&#xD;&#xA; 請再嘗試一次!" />
+    <Message Name="Cancel Changed!" Value="取消變更" />
+    <Message Name="Password is not allow same as user account." Value="密碼不允許與帳號相同" />
+    <Message Name="Length MORE than" Value="長度大於" />
+    <Message Name="Data table check completed!" Value="資料庫資料表檢查完成" />
+    <Message Name="This card number has not been bound to the login account" Value="這張卡尚未綁定任何帳戶" />
+    <Message Name="Physical Properties Mismatch!" Value="刷卡的物理性質不匹配" />
+    <Message Name="This card number is repeatedly bound with multiple login accounts, and it will be automatically unbound" Value="此卡號與多個登錄賬號重複綁定，會自動解綁！" />
+    <Message Name="Please scan your card with the card reader to log in." Value="請掃描您的卡進行登錄。" />
+    <Message Name="Please scan the administrator's card against the card reader to bind the account and build a card reading model." Value="請用讀卡器掃描管理員卡，綁定賬號並建立讀卡模型。" />
+    <Message Name="ID Card Length Error" Value="ID卡號長度錯誤" />
+    <Message Name="Open the card reader dialog" Value="開啟讀卡視窗" />
+    <Message Name="Reciving" Value="接收中" />
+    <Message Name="Please try" Value="請再刷" />
+    <Message Name="The card numbers do not match, please enter the same card!" Value="卡號與前次不同，請使用同一張卡片" />
+    <Message Name="Card numbers do not match" Value="卡號不匹配" />
+    <Message Name="times again" Value="次" />
+    <Message Name="Card binding is successful" Value="卡號綁定成功" />
+    <Message Name="The ID card verification setting is completed, the administrator can log in through this ID card" Value="身份證驗證設置完成，管理員可以通過這張ID卡登錄!" />
+    <Message Name="Unbinding succeeded" Value="解除綁定成功" />
+    <Message Name="The administrator's login card number has been deleted" Value="管理員的登入卡號已刪除!" />
+    <Message Name="Entering the card number is" Value="輸入卡號的速度" />
+    <Message Name="too fast" Value="太快" />
+    <Message Name="too slow" Value="太慢" />
+    <Message Name="Software Render Only" Value="僅軟體渲染" />
+    <Message Name="You can avoid many rendering issues that occur in WPF applications and that are caused by external issues if you change your preference to software rendering." Value="如果將首選項更改為軟件呈現，則可以避免 WPF 應用程序中出現的許多呈現問題以及由外部問題引起的呈現問題。" />
+    <Message Name="Do you want to keep this setting on next startup?" Value="是否要在下次啟動時保留此設置？" />
+    <Message Name="The current process rendering mode is forced software rendering." Value="目前的進程渲染方式為強制軟件渲染" />
+    <Message Name="Remember Account" Value="記憶帳號" />
+    <Message Name="Error authenticating user." Value="驗證使用者身分時發生錯誤。" />
+    <Message Name="Verify the user name and password, and try again." Value="驗證使用者名稱和密碼，然後重試乙次。" />
+    <Message Name="This account has been Locked." Value="此帳號已被鎖定" />
+    <Message Name="This account has been Disabled." Value="此帳號已被停用" />
+    <Message Name="This account does not exist in the AD account." Value="AD帳戶中不存在此帳號" />
+    <Message Name="User Not Exist in MES Account.&#xD;&#xA;Please build it first." Value="MES 帳戶中不存在該使用者。&#xD;&#xA;請先在Sajet MES中新增該帳號." />
+    <Message Name="Your Password will EXPIRE in" Value="你的密碼將於" />
+    <Message Name="days" Value="天後過期" />
+    <Message Name="Account Info" Value="帳號資訊" />
+    <Message Name="Change AD Password" Value="變更AD密碼" />
+    <Message Name="Change Active Directory account Password" Value="變更 Active Directory 帳戶密碼" />
+    <Message Name="Failed to back up data to the SYS_HT_EMP table.Please rebuild the table." Value="嘗試備份資料到SYS_HT_EMP表的時候失敗，請重建該表。" />
+    <Message Name="Backup To SYS_HT_EMP table Failed" Value="備份資料到SYS_HT_EMP表失敗" />
+    <Message Name="Whether to enable NFC smart card mode" Value="是否啟用 NFC 智慧卡模式" />
+    <Message Name="Card verification mode" Value="卡片驗證模式" />
+    <Message Name="Please Insert Card!" Value="請插入卡片！" />
+    <Message Name="Unable to read the card number" Value="無法讀取卡號" />
+    <Message Name="please check the orientation of the chip card and try again." Value="請檢查晶片卡的方向並重試。" />
+    <Message Name="This card number has NOT YET been bound to the login account." Value="該卡號尚未與登入帳號綁定" />
+    <Message Name="Do you want to enter your username and password to bind this card?" Value="您要輸入使用者名稱和密碼來綁定該卡嗎？" />
+    <Message Name="New Card Found" Value="發現新卡" />
+    <Message Name="Please try again" Value="請再試一次" />
+    <Message Name="Please enter your username and password." Value="請輸入您的使用者名稱和密碼。" />
+    <Message Name="Enable the NFC Smart Card Mode?" Value="是否啟用NFC智慧卡模式" />
+    <Message Name="Smart Card Reader NOT Found!" Value="未找到智慧卡讀卡機！" />
+    <Message Name="Please check the Smart Card Reader and try again." Value="請檢查智慧卡讀卡機並重試。" />
+    <Message Name="Password never updated" Value="密碼從未更新" />
+    <Message Name="It has been more than" Value="此密碼距離上次更新已經超過" />
+    <Message Name="days since the password update, and the upper limit is" Value="天尚未更新，更新上限為" />
+    <Message Name="Other login methods ..." Value="其他方式登入 ..." />
+    <Message Name="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=ORA-12541: TNS: 沒有監聽器 backparam.Length=[2]]" Value="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=ORA-12541: TNS: 沒有監聽器 backparam.Length=[2]]-&gt;[未翻譯]" />
+    <Message Name="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=Locked backparam.Length=[2]]" Value="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=Locked backparam.Length=[2]]-&gt;[未翻譯]" />
+    <Message Name="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=PasswordError1 backparam.Length=[2]]" Value="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=PasswordError1 backparam.Length=[2]]-&gt;[未翻譯]" />
+    <Message Name="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=PasswordError2 backparam.Length=[2]]" Value="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=PasswordError2 backparam.Length=[2]]-&gt;[未翻譯]" />
+    <Message Name="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=PasswordError3 backparam.Length=[2]]" Value="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=PasswordError3 backparam.Length=[2]]-&gt;[未翻譯]" />
+    <Message Name="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=PasswordError4 backparam.Length=[2]]" Value="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=PasswordError4 backparam.Length=[2]]-&gt;[未翻譯]" />
+    <Message Name="Chức năng tin nhắn" Value="Chức năng tin nhắn-&gt;[未翻譯]" />
+  </繁體中文>
+  <Ngôn_ngữ_Việt>
+    <Message Name="Home" Value="Trang chủ" />
+    <Message Name="Application is already running" Value="Ứng dụng đang chạy" />
+    <Message Name="System closing" Value="Xác nhận đóng hệ thống" />
+    <Message Name="Confirm close System" Value="Xác nhận đóng hệ thống" />
+    <Message Name="Opened Apps" Value="Ứng dụng đã mở" />
+    <Message Name="Show Opened Applications" Value="Hiển thị các ứng dụng đang mở" />
+    <Message Name="Close Active Application" Value="Đóng ứng dụng hiện tại" />
+    <Message Name="FontSize" Value="Kích thước chữ" />
+    <Message Name="Change FontSize" Value="Thay đổi kích thước chữ của ứng dụng" />
+    <Message Name="L" Value="Lớn" />
+    <Message Name="D" Value="Mặc định" />
+    <Message Name="M" Value="Trung bình" />
+    <Message Name="S" Value="Nhỏ" />
+    <Message Name="Large" Value="Chữ lớn" />
+    <Message Name="Medium" Value="Chữ trung bình" />
+    <Message Name="Default" Value="Mặc định" />
+    <Message Name="Small" Value="Chữ nhỏ" />
+    <Message Name="Large Font" Value="Dùng phông chữ lớn cho ứng dụng hiện tại" />
+    <Message Name="Medium Font" Value="Dùng phông chữ vừa cho ứng dụng hiện tại" />
+    <Message Name="Default Font" Value="Dùng phông chữ mặc định cho ứng dụng hiện tại" />
+    <Message Name="Small Font" Value="Dùng phông chữ nhỏ cho ứng dụng hiện tại" />
+    <Message Name="Setting" Value="Cài đặt" />
+    <Message Name="About" Value="Giới thiệu" />
+    <Message Name="Version" Value="Phiên bản" />
+    <Message Name="Check AP Server" Value="Kiểm tra kết nối" />
+    <Message Name="Account or password Error, please try again" Value="Sai tài khoản hoặc mật khẩu, vui lòng thử lại" />
+    <Message Name="Check AP Server Error, Press Retry or Exit" Value="Kiểm tra kết nối thất bại, vui lòng thử lại hoặc thoát hệ thống" />
+    <Message Name="Independent Window" Value="Cửa sổ độc lập" />
+    <Message Name="Exit" Value="Bạn có chắc muốn thoát?" />
+    <Message Name="APServerFail" Value="Lỗi AP Server!" />
+    <Message Name="PasswordError" Value="Mật khẩu sai!" />
+    <Message Name="PasswordEmpty" Value="Chưa nhập mật khẩu!" />
+    <Message Name="NewPasswordError" Value="Mật khẩu mới và xác nhận không khớp!" />
+    <Message Name="UserNotFound" Value="Không tìm thấy người dùng!" />
+    <Message Name="DatabaseError" Value="Lỗi cơ sở dữ liệu!" />
+    <Message Name="FileNotFound" Value="Không tìm thấy tập tin!" />
+    <Message Name="ChangeSucceed" Value="Đổi mật khẩu thành công." />
+    <Message Name="DeleteData" Value="Bạn muốn xóa dữ liệu này?" />
+    <Message Name="Refresh" Value="Làm mới?" />
+    <Message Name="Host" Value="Máy chủ" />
+    <Message Name="Language" Value="Ngôn ngữ" />
+    <Message Name="Account" Value="Tài khoản" />
+    <Message Name="Password" Value="Mật khẩu" />
+    <Message Name="Close" Value="Đóng" />
+    <Message Name="Logout?" Value="Đăng xuất?" />
+    <Message Name="Login" Value="Đăng nhập" />
+    <Message Name="&amp;Exit" Value="Thoát(&amp;X)" />
+    <Message Name="&amp;System" Value="Hệ thống(&amp;S)" />
+    <Message Name="&amp;Login" Value="Đăng nhập(&amp;L)" />
+    <Message Name="Logout" Value="Đăng xuất" />
+    <Message Name="Exit System" Value="Thoát hệ thống" />
+    <Message Name="&amp;Logout" Value="Đăng xuất(&amp;L)" />
+    <Message Name="Change Password" Value="Đổi mật khẩu" />
+    <Message Name="&amp;Change Password" Value="Đổi mật khẩu(&amp;C)" />
+    <Message Name="&amp;Window" Value="Cửa sổ(&amp;W)" />
+    <Message Name="&amp;Cascade" Value="Sắp xếp dạng tầng(&amp;C)" />
+    <Message Name="&amp;OK" Value="Đồng ý(&amp;O)" />
+    <Message Name="Tile &amp;Horizontally" Value="Xếp ngang(&amp;H)" />
+    <Message Name="Tile &amp;Vertically" Value="Xếp dọc(&amp;V)" />
+    <Message Name="&amp;Minimize All" Value="Thu nhỏ tất cả(&amp;M)" />
+    <Message Name="&amp;Show All" Value="Hiển thị tất cả(&amp;S)" />
+    <Message Name="Close &amp;All" Value="Đóng tất cả(&amp;A)" />
+    <Message Name="&amp;Help" Value="Trợ giúp(&amp;H)" />
+    <Message Name="&amp;About" Value="Giới thiệu(&amp;A)" />
+    <Message Name="About" Value="Giới thiệu" />
+    <Message Name="&amp;Option" Value="Tùy chọn(&amp;O)" />
+    <Message Name="Hide &amp;Bottom" Value="Ẩn khu vực dưới(&amp;B)" />
+    <Message Name="Hide MES &amp;Label" Value="Ẩn nhãn MES(&amp;L)" />
+    <Message Name="Skin" Value="Giao diện" />
+    <Message Name="Font:" Value="Phông chữ:" />
+    <Message Name="Change Font" Value="Thay đổi phông chữ" />
+    <Message Name="Font" Value="Phông chữ" />
+    <Message Name="Large Font" Value="Phông lớn" />
+    <Message Name="Small Font" Value="Phông nhỏ" />
+    <Message Name="Show &amp;Host" Value="Hiển thị máy chủ(&amp;H)" />
+    <Message Name="User Name: " Value="Người dùng: " />
+    <Message Name="Version: {0}" Value="Phiên bản: {0}" />
+    <Message Name="Button" Value="Nút bấm" />
+    <Message Name="Module" Value="Mô-đun" />
+    <Message Name="Function List" Value="Danh sách chức năng" />
+    <Message Name="Function" Value="Chức năng" />
+    <Message Name="Background" Value="Nền" />
+    <Message Name="Login" Value="Màn hình đăng nhập" />
+    <Message Name="Save" Value="Lưu" />
+    <Message Name="None" Value="Không chọn mô-đun nào" />
+    <Message Name="Module Select" Value="Chọn mô-đun" />
+    <Message Name="Load Image" Value="Tải ảnh nền" />
+    <Message Name="First Module" Value="Chọn mô-đun đầu tiên" />
+    <Message Name="Password Empty!" Value="Chưa nhập mật khẩu!" />
+    <Message Name="NewPasswordEmpty" Value="Chưa nhập mật khẩu mới!" />
+    <Message Name="Error" Value="Lỗi" />
+    <Message Name="Warning" Value="Cảnh báo" />
+    <Message Name="Confirm" Value="Xác nhận" />
+    <Message Name="Current Password" Value="Mật khẩu hiện tại" />
+    <Message Name="New Password" Value="Mật khẩu mới" />
+    <Message Name="Confirm Password" Value="Xác nhận mật khẩu" />
+    <Message Name="OK" Value="Đồng ý" />
+    <Message Name="Cancel" Value="Hủy" />
+    <Message Name="Module Style" Value="Kiểu mô-đun" />
+    <Message Name="General" Value="Thông thường" />
+    <Message Name="ComboBox" Value="Danh sách xổ xuống" />
+    <Message Name="2xComboBox" Value="Danh sách hai tầng" />
+    <Message Name="UserQuit" Value="Người dùng đã nghỉ việc" />
+    <Message Name="UserDisabled" Value="Tài khoản đã bị vô hiệu hóa" />
+    <Message Name="Loading {0} Error, please Try again!" Value="Lỗi khi tải {0}, vui lòng thử lại!" />
+    <Message Name="ReTry" Value="Thử lại" />
+    <Message Name="Check Connection by All XML Files for APServer in Host Directory" Value="Kiểm tra kết nối từ tất cả tập tin XML APServer trong thư mục Host" />
+    <Message Name="Check [{0}] Download Necessity,g_download={1},NeedFirstDownload={2}" Value="Kiểm tra nhu cầu tải xuống [{0}], g_download={1}, NeedFirstDownload={2}" />
+    <Message Name="Check [{0}] Dll Files for Download" Value="Kiểm tra tập tin DLL cần tải cho [{0}]" />
+    <Message Name="Create {0}'s Sub Menu" Value="Tạo menu con cho {0}" />
+    <Message Name="Logoff" Value="Đăng xuất" />
+    <Message Name="Back to Menu" Value="Quay lại menu" />
+    <Message Name="Close All" Value="Đóng tất cả" />
+    <Message Name="File Name【{0}】and it's {1}Class Name【{2}】{1}is null.{1}Please check the name in brackets." Value="Tên tập tin【{0}】và lớp {1}【{2}】 không tồn tại.{1}Vui lòng kiểm tra lại tên trong ngoặc." />
+    <Message Name="Error Loading【{0}】" Value="Lỗi tải 【{0}】" />
+    <Message Name="Components Version - Recommended updates：{0}" Value="Phiên bản thành phần - Khuyến nghị cập nhật: {0} mục" />
+    <Message Name="Components Version - All components are the latest version." Value="Phiên bản thành phần - Tất cả mô-đun và chương trình đều là mới nhất" />
+    <Message Name="Recommend" Value="Khuyến nghị" />
+    <Message Name="Version DB Uncertified" Value="Chưa được chứng nhận" />
+    <Message Name="Detect older systems function modules" Value="Phát hiện mô-đun hệ thống phiên bản cũ" />
+    <Message Name="Older modules may cause system incompatibilities or unexpected interruption, recommend update the following module list to the latest version." Value="Mô-đun cũ có thể gây lỗi tương thích hoặc làm hệ thống gián đoạn. Khuyến nghị cập nhật các mô-đun sau trước khi tiếp tục sử dụng." />
+    <Message Name="Ignore and continue" Value="Bỏ qua và tiếp tục" />
+    <Message Name="The system will automatically start after" Value="Hệ thống sẽ khởi động sau" />
+    <Message Name="Module version database Uncertified" Value="Cơ sở dữ liệu phiên bản mô-đun chưa được chứng nhận" />
+    <Message Name="Please update the Module Version DB to the latest Version." Value="Vui lòng cập nhật cơ sở dữ liệu phiên bản mô-đun." />
+    <Message Name="Fail" Value="Thất bại" />
+    <Message Name="Empty" Value="Dữ liệu trống" />
+    <Message Name="Success" Value="Thành công" />
+    <Message Name="{1} has a inner name conflict!{0}This error will cause the module can not be closed properly.{0} Database Name　= {4}{0} Type of Name    　= {2}.{3}" Value="{1} gặp lỗi trùng tên bên trong!{0}Lỗi này khiến mô-đun không thể đóng đúng cách.{0}Tên trong DB = {4}{0}Loại tên = {2}.{3}" />
+    <Message Name="Server Dashboard" Value="Bảng điều khiển máy chủ" />
+    <Message Name="Download File Error" Value="Lỗi tải tập tin" />
+    <Message Name="Account or password Error, please try again." Value="Sai tài khoản hoặc mật khẩu, vui lòng kiểm tra lại" />
+    <Message Name="User Not Exist in MES Account.&#xD;&#xA; Please build it first." Value="Tài khoản không tồn tại trong hệ thống MES.&#xD;&#xA;Vui lòng tạo tài khoản trước." />
+    <Message Name="Account is Disabled." Value="Tài khoản đã bị vô hiệu hóa" />
+    <Message Name="FullScreenCoverage" Value="Che toàn màn hình" />
+    <Message Name="Maximized" Value="Phóng to tối đa" />
+    <Message Name="Normal" Value="Khôi phục" />
+    <Message Name="You got" Value="Bạn có" />
+    <Message Name="messages" Value="tin nhắn" />
+    <Message Name="Show the detail Window." Value="Hiển thị cửa sổ chi tiết" />
+    <Message Name="Message" Value="Chức năng tin nhắn" />
+    <Message Name="New Password not equal to Confirm Password!" Value="Mật khẩu mới và mật khẩu xác nhận không giống nhau!" />
+    <Message Name="Password complexity does not match the policy." Value="Mật khẩu không đáp ứng chính sách độ phức tạp" />
+    <Message Name="'s Role" Value="Vai trò của" />
+    <Message Name="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=UserQuit backparam.Length=[2]]" Value="Lỗi đăng nhập: Người dùng đã nghỉ việc" />
+    <Message Name="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=PasswordEmpty backparam.Length=[2]]" Value="Lỗi đăng nhập: Mật khẩu trống" />
+    <Message Name="Login Fail. User Account is Quit." Value="Lỗi đăng nhập: Người dùng đã nghỉ việc" />
+    <Message Name="The password is repeated with the previous." Value="Mật khẩu trùng với lần sử dụng trước" />
+    <Message Name="Password must not repeat the previous" Value="Mật khẩu không được trùng với" />
+    <Message Name="times" Value="lần trước" />
+    <Message Name="The password is repeated with the previous." Value="Mật khẩu khớp với lịch sử đã dùng" />
+    <Message Name="NewPasswordNotEqualToConfirmPassword!" Value="Mật khẩu mới và xác nhận phải giống nhau" />
+    <Message Name="Allow User Name Same As Password." Value="Cho phép tên tài khoản trùng với mật khẩu" />
+    <Message Name="Enforce Password History 3 Times." Value="Bắt buộc kiểm tra 3 lần lịch sử mật khẩu" />
+    <Message Name="Minimum Password Age 1 Days." Value="Thời gian tối thiểu dùng mật khẩu: 1 ngày" />
+    <Message Name="The interval between reset passwords is too short." Value="Khoảng thời gian giữa hai lần đổi mật khẩu quá ngắn" />
+    <Message Name="Password reset must be" Value="Đổi mật khẩu phải cách nhau" />
+    <Message Name="days apart" Value="ngày" />
+    <Message Name="Must contain lowercase English letters." Value="Phải chứa ký tự thường" />
+    <Message Name="Must contain capital English letters." Value="Phải chứa ký tự hoa" />
+    <Message Name="Must contain digital." Value="Phải chứa số" />
+    <Message Name="Limit font length." Value="Giới hạn độ dài mật khẩu" />
+    <Message Name="At least 3 characters." Value="Ít nhất 3 ký tự" />
+    <Message Name="Maximum of 8 characters." Value="Tối đa 8 ký tự" />
+    <Message Name="Must contain special symbol." Value="Phải chứa ký tự đặc biệt" />
+    <Message Name="Missing capital letters." Value="Thiếu chữ hoa" />
+    <Message Name="Missing numbers." Value="Thiếu số" />
+    <Message Name="Missing the specified symbol such as" Value="Thiếu ký tự đặc biệt, ví dụ như" />
+    <Message Name="Policy Restore From Abbreviation Fail." Value="Khôi phục chính sách từ dạng viết tắt thất bại." />
+    <Message Name="SajetPassword complexity policy sync failed." Value="Đồng bộ chính sách mật khẩu Sajet thất bại." />
+    <Message Name="Please log in as an administrator to modify the SajetPassword policy in the settings." Value="Vui lòng đăng nhập bằng tài khoản quản trị để chỉnh sửa chính sách mật khẩu Sajet trong phần cài đặt." />
+    <Message Name="SajetPassword complexity policy is not initialized or database sync failed." Value="Chính sách mật khẩu Sajet chưa được khởi tạo hoặc đồng bộ dữ liệu thất bại." />
+    <Message Name="Please edit the SajetPassword policy in the settings." Value="Vui lòng chỉnh sửa chính sách mật khẩu Sajet trong phần cài đặt." />
+    <Message Name="Change Your Password right now?" Value="Bạn có muốn đổi mật khẩu ngay bây giờ không?" />
+    <Message Name="Password Validity Period" Value="Thời hạn hiệu lực của mật khẩu" />
+    <Message Name="Days." Value="Ngày" />
+    <Message Name="Enforce Password History" Value="Bắt buộc kiểm tra lịch sử mật khẩu" />
+    <Message Name="Times." Value="Lần" />
+    <Message Name="Minimum Password Age" Value="Thời gian sử dụng tối thiểu của mật khẩu" />
+    <Message Name="Must contain special symbol" Value="Phải chứa ký tự đặc biệt" />
+    <Message Name="Limit font length" Value="Giới hạn độ dài mật khẩu" />
+    <Message Name="At least" Value="Ít nhất" />
+    <Message Name="characters" Value="ký tự" />
+    <Message Name="Maximum of" Value="Nhiều nhất" />
+    <Message Name="is Empty" Value="bị để trống" />
+    <Message Name="Length LESS than" Value="Chiều dài nhỏ hơn" />
+    <Message Name="words" Value="ký tự" />
+    <Message Name="Missing lowercase" Value="Thiếu chữ thường" />
+    <Message Name="Missing capital letters" Value="Thiếu chữ hoa" />
+    <Message Name="Missing numbers" Value="Thiếu số" />
+    <Message Name="Missing the specified symbol such as" Value="Thiếu ký tự được chỉ định, ví dụ như" />
+    <Message Name="Policy Restore From Abbreviation Fail." Value="Khôi phục chính sách từ dạng viết tắt thất bại." />
+    <Message Name="SajetPassword complexity policy sync failed." Value="Đồng bộ chính sách độ phức tạp mật khẩu Sajet thất bại." />
+    <Message Name="Please log in as an administrator to modify the SajetPassword policy in the settings." Value="Vui lòng đăng nhập với quyền quản trị để chỉnh sửa chính sách mật khẩu Sajet trong phần cài đặt." />
+    <Message Name="SajetPassword complexity policy is not initialized or database sync failed." Value="Chính sách độ phức tạp mật khẩu Sajet chưa được khởi tạo hoặc đồng bộ cơ sở dữ liệu thất bại." />
+    <Message Name="Please edit the SajetPassword policy in the settings." Value="Vui lòng chỉnh sửa chính sách mật khẩu Sajet trong phần cài đặt." />
+    <Message Name="Change Your Password right now?" Value="Bạn có muốn đổi mật khẩu ngay bây giờ không?" />
+    <Message Name="Password Validity Period" Value="Thời hạn hiệu lực của mật khẩu" />
+    <Message Name="Days." Value="ngày" />
+    <Message Name="Enforce Password History" Value="Bắt buộc kiểm tra lịch sử mật khẩu" />
+    <Message Name="Times." Value="lần" />
+    <Message Name="Minimum Password Age" Value="Thời gian sử dụng tối thiểu của mật khẩu" />
+    <Message Name="Must contain special symbol" Value="Phải chứa ký tự đặc biệt" />
+    <Message Name="Limit font length" Value="Giới hạn độ dài ký tự" />
+    <Message Name="At least" Value="Ít nhất" />
+    <Message Name="characters" Value="ký tự" />
+    <Message Name="Maximum of" Value="Tối đa" />
+    <Message Name="is Empty" Value="bị để trống" />
+    <Message Name="Length LESS than" Value="Độ dài nhỏ hơn" />
+    <Message Name="words" Value="ký tự" />
+    <Message Name="Missing lowercase" Value="Thiếu ký tự viết thường" />
+    <Message Name="Missing capital letters" Value="Thiếu ký tự viết hoa" />
+    <Message Name="Missing numbers" Value="Thiếu chữ số" />
+    <Message Name="The password has been changed successfully,&#xD;&#xA; please log in with the new password after restarts." Value="Đổi mật khẩu thành công,&#xD;&#xA; vui lòng đăng nhập lại bằng mật khẩu mới." />
+    <Message Name="Password Changed!" Value="Mật khẩu đã được thay đổi!" />
+    <Message Name="You Should Change your Password befor Login!" Value="Bạn cần thay đổi mật khẩu trước khi đăng nhập!" />
+    <Message Name="is not allow same as user account." Value="Không được phép trùng với tài khoản người dùng." />
+    <Message Name="User canceled password change,&#xD;&#xA; please try again." Value="Người dùng đã hủy đổi mật khẩu,&#xD;&#xA; vui lòng thử lại." />
+    <Message Name="Cancel Changed!" Value="Hủy thay đổi!" />
+    <Message Name="Password is not allow same as user account." Value="Mật khẩu không được phép trùng với tài khoản người dùng." />
+    <Message Name="Length MORE than" Value="Độ dài lớn hơn" />
+    <Message Name="Data table check completed!" Value="Kiểm tra bảng dữ liệu hoàn tất!" />
+    <Message Name="This card number has not been bound to the login account" Value="Số thẻ này chưa được liên kết với bất kỳ tài khoản đăng nhập nào." />
+    <Message Name="Physical Properties Mismatch!" Value="Thuộc tính vật lý của thẻ không khớp!" />
+    <Message Name="This card number is repeatedly bound with multiple login accounts, and it will be automatically unbound" Value="Số thẻ này được liên kết lặp lại với nhiều tài khoản đăng nhập, hệ thống sẽ tự động hủy liên kết!" />
+    <Message Name="Please scan your card with the card reader to log in." Value="Vui lòng quẹt thẻ để đăng nhập." />
+    <Message Name="Please scan the administrator's card against the card reader to bind the account and build a card reading model." Value="Vui lòng quẹt thẻ quản trị để liên kết tài khoản và tạo mô hình đọc thẻ." />
+    <Message Name="ID Card Length Error" Value="Độ dài số thẻ ID không hợp lệ." />
+    <Message Name="Open the card reader dialog" Value="Mở cửa sổ đọc thẻ" />
+    <Message Name="Reciving" Value="Đang nhận dữ liệu" />
+    <Message Name="Please try" Value="Vui lòng quẹt lại" />
+    <Message Name="The card numbers do not match, please enter the same card!" Value="Số thẻ không trùng với lần trước, vui lòng dùng cùng một thẻ!" />
+    <Message Name="Card numbers do not match" Value="Số thẻ không khớp" />
+    <Message Name="times again" Value="lần nữa" />
+    <Message Name="Card binding is successful" Value="Liên kết thẻ thành công" />
+    <Message Name="The ID card verification setting is completed, the administrator can log in through this ID card" Value="Thiết lập xác thực thẻ ID hoàn tất, quản trị viên có thể đăng nhập bằng thẻ này." />
+    <Message Name="Unbinding succeeded" Value="Hủy liên kết thành công" />
+    <Message Name="The administrator's login card number has been deleted" Value="Số thẻ đăng nhập của quản trị viên đã được xóa!" />
+    <Message Name="Entering the card number is" Value="Tốc độ nhập số thẻ" />
+    <Message Name="too fast" Value="quá nhanh" />
+    <Message Name="too slow" Value="quá chậm" />
+    <Message Name="Software Render Only" Value="Chỉ sử dụng chế độ kết xuất bằng phần mềm" />
+    <Message Name="You can avoid many rendering issues that occur in WPF applications and that are caused by external issues if you change your preference to software rendering." Value="Nếu bạn chuyển sang chế độ kết xuất bằng phần mềm, bạn có thể tránh được nhiều lỗi hiển thị trong ứng dụng WPF do các yếu tố bên ngoài gây ra." />
+    <Message Name="Do you want to keep this setting on next startup?" Value="Bạn có muốn giữ lại cài đặt này cho lần khởi động tiếp theo không?" />
+    <Message Name="The current process rendering mode is forced software rendering." Value="Chế độ kết xuất hiện tại của tiến trình đang được buộc sử dụng kết xuất bằng phần mềm." />
+    <Message Name="Remember Account" Value="Ghi nhớ tài khoản" />
+    <Message Name="Error authenticating user." Value="Lỗi xác thực người dùng." />
+    <Message Name="Verify the user name and password, and try again." Value="Vui lòng kiểm tra tên người dùng và mật khẩu, sau đó thử lại." />
+    <Message Name="This account has been Locked." Value="Tài khoản này đã bị khóa." />
+    <Message Name="This account has been Disabled." Value="Tài khoản này đã bị vô hiệu hóa." />
+    <Message Name="This account does not exist in the AD account." Value="Tài khoản này không tồn tại trong hệ thống AD." />
+    <Message Name="User Not Exist in MES Account.&#xD;&#xA;Please build it first." Value="Tài khoản này không tồn tại trong hệ thống MES.&#xD;&#xA;Vui lòng tạo tài khoản đó trong Sajet MES trước." />
+    <Message Name="Your Password will EXPIRE in" Value="Mật khẩu của bạn sẽ hết hạn trong" />
+    <Message Name="days" Value="ngày" />
+    <Message Name="Account Info" Value="Thông tin tài khoản" />
+    <Message Name="Change AD Password" Value="Đổi mật khẩu AD" />
+    <Message Name="Change Active Directory account Password" Value="Đổi mật khẩu tài khoản Active Directory" />
+    <Message Name="Failed to back up data to the SYS_HT_EMP table.Please rebuild the table." Value="Sao lưu dữ liệu vào bảng SYS_HT_EMP thất bại. Vui lòng tạo lại bảng." />
+    <Message Name="Backup To SYS_HT_EMP table Failed" Value="Sao lưu dữ liệu vào bảng SYS_HT_EMP thất bại" />
+    <Message Name="Whether to enable NFC smart card mode" Value="Có muốn bật chế độ thẻ thông minh NFC không?" />
+    <Message Name="Card verification mode" Value="Chế độ xác thực thẻ" />
+    <Message Name="Please Insert Card!" Value="Vui lòng đưa thẻ vào!" />
+    <Message Name="Unable to read the card number" Value="Không thể đọc số thẻ" />
+    <Message Name="please check the orientation of the chip card and try again." Value="Vui lòng kiểm tra hướng của thẻ chip và thử lại." />
+    <Message Name="This card number has NOT YET been bound to the login account." Value="Số thẻ này vẫn chưa được liên kết với tài khoản đăng nhập." />
+    <Message Name="Do you want to enter your username and password to bind this card?" Value="Bạn có muốn nhập tên người dùng và mật khẩu để liên kết thẻ này không?" />
+    <Message Name="New Card Found" Value="Phát hiện thẻ mới" />
+    <Message Name="Please try again" Value="Vui lòng thử lại" />
+    <Message Name="Please enter your username and password." Value="Vui lòng nhập tên người dùng và mật khẩu của bạn." />
+    <Message Name="Enable the NFC Smart Card Mode?" Value="Bạn có muốn bật chế độ thẻ thông minh NFC không?" />
+    <Message Name="Smart Card Reader NOT Found!" Value="Không tìm thấy đầu đọc thẻ thông minh!" />
+    <Message Name="Please check the Smart Card Reader and try again." Value="Vui lòng kiểm tra đầu đọc thẻ thông minh và thử lại." />
+    <Message Name="Password never updated" Value="Mật khẩu chưa từng được cập nhật" />
+    <Message Name="It has been more than" Value="Đã hơn" />
+    <Message Name="days since the password update, and the upper limit is" Value="ngày kể từ lần cập nhật mật khẩu trước, giới hạn tối đa là" />
+    <Message Name="Other login methods ..." Value="Các phương thức đăng nhập khác..." />
+    <Message Name="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=PasswordError1 backparam.Length=[2]]" Value="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=PasswordError1 backparam.Length=[2]]-&gt;[未翻譯]" />
+    <Message Name="訊息功能" Value="訊息功能-&gt;[未翻譯]" />
+  </Ngôn_ngữ_Việt>
+  <简体中文>
+    <Message Name="Home" Value="目录" />
+    <Message Name="Application is already running" Value="程序已在执行" />
+    <Message Name="System closing" Value="确认关闭系统" />
+    <Message Name="Confirm close System" Value="确认关闭系统" />
+    <Message Name="Opened Apps" Value="已经开启的程序" />
+    <Message Name="Show Opened Applications" Value="显示目前已经开启的程序" />
+    <Message Name="Close Active Application" Value="关闭目前程序" />
+    <Message Name="FontSize" Value="字体大小" />
+    <Message Name="Change FontSize" Value="改变目前程序字体大小" />
+    <Message Name="L" Value="大" />
+    <Message Name="D" Value="预" />
+    <Message Name="M" Value="中" />
+    <Message Name="S" Value="小" />
+    <Message Name="Large" Value="大字" />
+    <Message Name="Medium" Value="中字" />
+    <Message Name="Default" Value="预设" />
+    <Message Name="Small" Value="小字" />
+    <Message Name="Large Font" Value="设定目前程序采用大字体" />
+    <Message Name="Medium Font" Value="设定目前程序采用中字体" />
+    <Message Name="Default Font" Value="设定目前程序采用默认字体" />
+    <Message Name="Small Font" Value="设定目前程序采用小字体" />
+    <Message Name="Setting" Value="设定" />
+    <Message Name="About" Value="关于" />
+    <Message Name="Version" Value="版本" />
+    <Message Name="Check AP Server" Value="检查联机" />
+    <Message Name="Account or password Error, please try again" Value="账号密码输入错误，请重新输入" />
+    <Message Name="Check AP Server Error, Press Retry or Exit" Value="检查联机失败，请重试或离开系统" />
+    <Message Name="Independent Window" Value="独立窗口" />
+    <Message Name="Exit" Value="确定要离开?" />
+    <Message Name="APServerFail" Value="AP Server错误!" />
+    <Message Name="PasswordError" Value="密码错误!" />
+    <Message Name="PasswordEmpty" Value="未输入密码!" />
+    <Message Name="NewPasswordError" Value="新密码与确认密码不符合!" />
+    <Message Name="UserNotFound" Value="查无此使用者!" />
+    <Message Name="DatabaseError" Value="数据库错误!" />
+    <Message Name="FileNotFound" Value="档案不存在!" />
+    <Message Name="ChangeSucceed" Value="密码更改成功." />
+    <Message Name="DeleteData" Value="确定要删除数据?" />
+    <Message Name="Refresh" Value="重新整理?" />
+    <Message Name="Host" Value="主机" />
+    <Message Name="Language" Value="语言" />
+    <Message Name="Account" Value="账号" />
+    <Message Name="Password" Value="密码" />
+    <Message Name="Close" Value="关闭" />
+    <Message Name="Logout?" Value="注销?" />
+    <Message Name="Login" Value="登入" />
+    <Message Name="&amp;Exit" Value="离开(&amp;X)" />
+    <Message Name="&amp;System" Value="系统(&amp;S)" />
+    <Message Name="&amp;Login" Value="登入(&amp;L)" />
+    <Message Name="Logout" Value="注销" />
+    <Message Name="Exit System" Value="离开系统" />
+    <Message Name="&amp;Logout" Value="注销(&amp;L)" />
+    <Message Name="Change Password" Value="变更密码" />
+    <Message Name="&amp;Change Password" Value="变更密码(&amp;C)" />
+    <Message Name="&amp;Window" Value="窗口(&amp;W)" />
+    <Message Name="&amp;Cascade" Value="阶梯式并排(&amp;C)" />
+    <Message Name="&amp;OK" Value="确定(&amp;O)" />
+    <Message Name="Tile &amp;Horizontally" Value="水平并排(&amp;H)" />
+    <Message Name="Tile &amp;Vertically" Value="垂直并排(&amp;V)" />
+    <Message Name="&amp;Minimize All" Value="全部最小化(&amp;M)" />
+    <Message Name="&amp;Show All" Value="全部显示(&amp;S)" />
+    <Message Name="Close &amp;All" Value="全部关闭(&amp;A)" />
+    <Message Name="&amp;Help" Value="说明(&amp;H)" />
+    <Message Name="&amp;About" Value="关于(&amp;A)" />
+    <Message Name="About" Value="关于" />
+    <Message Name="&amp;Option" Value="选项(&amp;O)" />
+    <Message Name="Hide &amp;Bottom" Value="隐藏底部(&amp;B)" />
+    <Message Name="Hide MES &amp;Label" Value="隐藏MES标签(&amp;L)" />
+    <Message Name="Skin" Value="面板" />
+    <Message Name="Font:" Value="字型:" />
+    <Message Name="Change Font" Value="变更字型" />
+    <Message Name="Font" Value="字型" />
+    <Message Name="Large Font" Value="大字型" />
+    <Message Name="Small Font" Value="小字型" />
+    <Message Name="Show &amp;Host" Value="显示联机主机(&amp;H)" />
+    <Message Name="User Name: " Value="使用者: " />
+    <Message Name="Version: {0}" Value="版本: {0}" />
+    <Message Name="Button" Value="按钮" />
+    <Message Name="Module" Value="模块" />
+    <Message Name="Function List" Value="功能列示" />
+    <Message Name="Function" Value="功能" />
+    <Message Name="Background" Value="背景" />
+    <Message Name="Login" Value="登入画面" />
+    <Message Name="Save" Value="储存" />
+    <Message Name="None" Value="不选任何模块" />
+    <Message Name="Module Select" Value="模块选取" />
+    <Message Name="Load Image" Value="载入底图" />
+    <Message Name="First Module" Value="选取第一个模块" />
+    <Message Name="Password Empty!" Value="密码未填!" />
+    <Message Name="NewPasswordEmpty" Value="新密码未填!" />
+    <Message Name="Error" Value="错误" />
+    <Message Name="Warning" Value="警告" />
+    <Message Name="Confirm" Value="确认" />
+    <Message Name="Current Password" Value="原密码" />
+    <Message Name="New Password" Value="新密码" />
+    <Message Name="Confirm Password" Value="确认密码" />
+    <Message Name="OK" Value="确定" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Module Style" Value="模块样式" />
+    <Message Name="General" Value="一般" />
+    <Message Name="ComboBox" Value="下拉选单" />
+    <Message Name="2xComboBox" Value="二维下拉选单" />
+    <Message Name="UserQuit" Value="已离职" />
+    <Message Name="UserDisabled" Value="已停用" />
+    <Message Name="Loading {0} Error, please Try again!" Value="加载 {0} 时发生错误，请再尝试一次" />
+    <Message Name="ReTry" Value="重试" />
+    <Message Name="Check Connection by All XML Files for APServer in Host Directory" Value="检查所有APServer在Host文件夹中的XML档案" />
+    <Message Name="Check [{0}] Download Necessity,g_download={1},NeedFirstDownload={2}" Value="检查 [{0}] 下载的必要性,g_download={1},NeedFirstDownload={2}" />
+    <Message Name="Check [{0}] Dll Files for Download" Value="检查 [{0}] 需要下载的档案" />
+    <Message Name="Create {0}'s Sub Menu" Value="建立{0}的子目录选单" />
+    <Message Name="Logoff" Value="注销" />
+    <Message Name="Back to Menu" Value="返回目录" />
+    <Message Name="Close All" Value="关闭全部" />
+    <Message Name="File Name【{0}】and it's {1}Class Name【{2}】{1}is null.{1}Please check the name in brackets." Value="文件名【{0}】以及该 {1}类别名称【{2}】{1}不存在。{1}请检核对括号内名称。" />
+    <Message Name="Error Loading【{0}】" Value="【{0}】 加载错误" />
+    <Message Name="Components Version - Recommended updates：{0}" Value="组件版本信息 - 建议更新：{0} 个" />
+    <Message Name="Components Version - All components are the latest version." Value="组件版本信息 - 目前程序及模块均为最新版本" />
+    <Message Name="Recommend" Value="建议" />
+    <Message Name="Version DB Uncertified" Value="未认证" />
+    <Message Name="Detect older systems function modules" Value="侦测到旧版的系统功能模块" />
+    <Message Name="Older modules may cause system incompatibilities or unexpected interruption, recommend update the following module list to the latest version." Value="旧版的模块可能会导致系统功能不兼容或不正常而导致意外中断，建议将下列旧版的模块更新后，再继续使用本系统。" />
+    <Message Name="Ignore and continue" Value="忽略并继续执行系统" />
+    <Message Name="The system will automatically start after" Value="系统将于倒数后启动" />
+    <Message Name="Module version database Uncertified" Value="模块版本数据库尚未认证" />
+    <Message Name="Please update the Module Version DB to the latest Version." Value="请更新模块版本数据库。" />
+    <Message Name="Fail" Value="失败" />
+    <Message Name="Empty" Value="资料空白" />
+    <Message Name="Success" Value="成功" />
+    <Message Name="{1} has a inner name conflict!{0}This error will cause the module can not be closed properly.{0} Database Name　= {4}{0} Type of Name    　= {2}.{3}" Value="{1} 发生内部名称冲突!{0}此错误将导致该模块无法正常关闭.{0} 数据库名称 = {2}.{3}{0} 型别名称     = {4}" />
+    <Message Name="Server Dashboard" Value="服务器仪表板" />
+    <Message Name="Download File Error" Value="下载文件错误" />
+    <Message Name="Account or password Error, please try again." Value="账号或密码错误，请重新确认" />
+    <Message Name="User Not Exist in MES Account.&#xD;&#xA; Please build it first." Value="用户账号不存在于 MES系统中.&#xD;&#xA; 请先建立MES账号." />
+    <Message Name="Account is Disabled." Value="账号已停用" />
+    <Message Name="FullScreenCoverage" Value="覆盖任务栏" />
+    <Message Name="Maximized" Value="最大化" />
+    <Message Name="Normal" Value="往下还原" />
+    <Message Name="You got" Value="你有" />
+    <Message Name="messages" Value="个讯息" />
+    <Message Name="Show the detail Window." Value="显示详细窗口" />
+    <Message Name="Message" Value="讯息功能" />
+    <Message Name="New Password not equal to Confirm Password!" Value="新旧密码不吻合" />
+    <Message Name="Password complexity does not match the policy." Value="密码复杂度与政策不匹配" />
+    <Message Name="'s Role" Value="的角色" />
+    <Message Name="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=UserQuit backparam.Length=[2]]" Value="登入错误：使用者已离职" />
+    <Message Name="Login Fail.No Synchronize Infomation. Old version AP Server or Unknow result. [backparam=PasswordEmpty backparam.Length=[2]]" Value="登入错误：密码空白" />
+    <Message Name="Login Fail. User Account is Quit." Value="登入错误：使用者已离职" />
+    <Message Name="The password is repeated with the previous." Value="密码与前次纪录重复" />
+    <Message Name="Password must not repeat the previous" Value="密码不得与前" />
+    <Message Name="times" Value="次纪录相同" />
+    <Message Name="The password is repeated with the previous." Value="密码与历史纪录相同" />
+    <Message Name="NewPasswordNotEqualToConfirmPassword!" Value="新密码与确认密码字段需相同" />
+    <Message Name="Allow User Name Same As Password." Value="允许用户名称与密码相同" />
+    <Message Name="Enforce Password History 3 Times." Value="强制历程纪录三次" />
+    <Message Name="Minimum Password Age 1 Days." Value="密码最短使用期限1天" />
+    <Message Name="The interval between reset passwords is too short." Value="重置密码的间隔太短。" />
+    <Message Name="Password reset must be" Value="重置密码必须间隔" />
+    <Message Name="days apart" Value="天" />
+    <Message Name="Must contain lowercase English letters." Value="必须包含小写英文字母" />
+    <Message Name="Must contain capital English letters." Value="必须包含大写英文字母" />
+    <Message Name="Must contain digital." Value="必须包含数字" />
+    <Message Name="Limit font length." Value="最小密码长度" />
+    <Message Name="At least 3 characters." Value="至少三个字符" />
+    <Message Name="Maximum of 8 characters." Value="最多八个字符" />
+    <Message Name="Must contain special symbol." Value="必须包含特殊符号。" />
+    <Message Name="Missing capital letters." Value="缺少大写字母。" />
+    <Message Name="Missing numbers." Value="缺少数字。" />
+    <Message Name="Missing the specified symbol such as" Value="缺少指定的符号，例如" />
+    <Message Name="Policy Restore From Abbreviation Fail." Value="从缩写恢复策略失败。" />
+    <Message Name="SajetPassword complexity policy sync failed." Value="Sajet密码复杂性策略同步失败。" />
+    <Message Name="Please log in as an administrator to modify the SajetPassword policy in the settings." Value="请以管理员身份登录以修改设置中的Sajet密码策略。" />
+    <Message Name="SajetPassword complexity policy is not initialized or database sync failed." Value="Sajet密码复杂性策略未初始化或数据库同步失败。" />
+    <Message Name="Please edit the SajetPassword policy in the settings." Value="请在设定书签中编辑Sajet密码策略。" />
+    <Message Name="Change Your Password right now?" Value="立即变更你的密码?" />
+    <Message Name="Password Validity Period" Value="密码有效期" />
+    <Message Name="Days." Value="天" />
+    <Message Name="Enforce Password History" Value="强制密码历史纪录" />
+    <Message Name="Times." Value="次" />
+    <Message Name="Minimum Password Age" Value="密码最短使用期限" />
+    <Message Name="Must contain special symbol" Value="必须包含特殊符号" />
+    <Message Name="Limit font length" Value="限制字符长度" />
+    <Message Name="At least" Value="至少" />
+    <Message Name="characters" Value="符号" />
+    <Message Name="Maximum of" Value="最大的" />
+    <Message Name="is Empty" Value="未填写" />
+    <Message Name="Length LESS than" Value="长度小于" />
+    <Message Name="words" Value="个字符" />
+    <Message Name="Missing lowercase" Value="缺少小写字符" />
+    <Message Name="Missing capital letters" Value="缺少大写字符" />
+    <Message Name="Missing numbers" Value="缺少数字" />
+    <Message Name="The password has been changed successfully,&#xD;&#xA; please log in with the new password after restarts." Value="密码已变更成功，&#xD;&#xA; 请于下次登入时使用新密码。" />
+    <Message Name="Password Changed!" Value="密码已变更" />
+    <Message Name="You Should Change your Password befor Login!" Value="你必须于登入之前修改密码!" />
+    <Message Name="is not allow same as user account." Value="不允许与使用者的账号相同" />
+    <Message Name="User canceled password change,&#xD;&#xA; please try again." Value="用户取消变更密码，&#xD;&#xA; 请再尝试一次!" />
+    <Message Name="Cancel Changed!" Value="取消变更" />
+    <Message Name="Password is not allow same as user account." Value="密码不允许与账号相同" />
+    <Message Name="Length MORE than" Value="长度大于" />
+    <Message Name="Data table check completed!" Value="数据库数据表检查完成" />
+    <Message Name="This card number has not been bound to the login account" Value="这张卡尚未绑定任何账户" />
+    <Message Name="Physical Properties Mismatch!" Value="刷卡的物理性质不匹配" />
+    <Message Name="This card number is repeatedly bound with multiple login accounts, and it will be automatically unbound" Value="此卡号与多个登录账号重复绑定，会自动解绑！" />
+    <Message Name="Please scan your card with the card reader to log in." Value="请扫描您的卡进行登录。" />
+    <Message Name="Please scan the administrator's card against the card reader to bind the account and build a card reading model." Value="请用读卡器扫描管理员卡，绑定账号并建立读卡模型。" />
+    <Message Name="ID Card Length Error" Value="ID卡号长度错误" />
+    <Message Name="Open the card reader dialog" Value="开启读卡窗口" />
+    <Message Name="Reciving" Value="接收中" />
+    <Message Name="Please try" Value="请再刷" />
+    <Message Name="The card numbers do not match, please enter the same card!" Value="卡号与前次不同，请使用同一张卡片" />
+    <Message Name="Card numbers do not match" Value="卡号不匹配" />
+    <Message Name="times again" Value="次" />
+    <Message Name="Card binding is successful" Value="卡号绑定成功" />
+    <Message Name="The ID card verification setting is completed, the administrator can log in through this ID card" Value="身份证验证设置完成，管理员可以通过这张ID卡登录!" />
+    <Message Name="Unbinding succeeded" Value="解除绑定成功" />
+    <Message Name="The administrator's login card number has been deleted" Value="管理员的登入卡号已删除!" />
+    <Message Name="Entering the card number is" Value="输入卡号的速度" />
+    <Message Name="too fast" Value="太快" />
+    <Message Name="too slow" Value="太慢" />
+    <Message Name="Software Render Only" Value="仅软件渲染" />
+    <Message Name="You can avoid many rendering issues that occur in WPF applications and that are caused by external issues if you change your preference to software rendering." Value="如果将首选项更改为软件呈现，则可以避免 WPF 应用程序中出现的许多呈现问题以及由外部问题引起的呈现问题。" />
+    <Message Name="Do you want to keep this setting on next startup?" Value="是否要在下次启动时保留此设置？" />
+    <Message Name="The current process rendering mode is forced software rendering." Value="目前的进程渲染方式为强制软件渲染" />
+    <Message Name="Remember Account" Value="记忆账号" />
+    <Message Name="Error authenticating user." Value="验证使用者身分时发生错误。" />
+    <Message Name="Verify the user name and password, and try again." Value="验证用户名称和密码，然后重试乙次。" />
+    <Message Name="This account has been Locked." Value="此账号已被锁定" />
+    <Message Name="This account has been Disabled." Value="此账号已被停用" />
+    <Message Name="This account does not exist in the AD account." Value="AD账户中不存在此账号" />
+    <Message Name="User Not Exist in MES Account.&#xD;&#xA;Please build it first." Value="MES 账户中不存在该使用者。&#xD;&#xA;请先在Sajet MES中新增该账号." />
+    <Message Name="Your Password will EXPIRE in" Value="你的密码将于" />
+    <Message Name="days" Value="天后过期" />
+    <Message Name="Account Info" Value="帐户信息" />
+    <Message Name="Change AD Password" Value="变更AD密码" />
+    <Message Name="Change Active Directory account Password" Value="变更 Active Directory 帐户密码" />
+    <Message Name="Failed to back up data to the SYS_HT_EMP table.Please rebuild the table." Value="尝试备份数据到SYS_HT_EMP表的时候失败，请重建该表。" />
+    <Message Name="Backup To SYS_HT_EMP table Failed" Value="备份资料到SYS_HT_EMP表失败" />
+    <Message Name="Whether to enable NFC smart card mode" Value="是否启用 NFC 智能卡模式" />
+    <Message Name="Card verification mode" Value="卡片验证模式" />
+    <Message Name="Please Insert Card!" Value="请插入卡片！" />
+    <Message Name="Unable to read the card number" Value="无法读取卡号" />
+    <Message Name="please check the orientation of the chip card and try again." Value="请检查芯片卡的方向并重试。" />
+    <Message Name="This card number has NOT YET been bound to the login account." Value="该卡号尚未与登入账号绑定" />
+    <Message Name="Do you want to enter your username and password to bind this card?" Value="您要输入用户名称和密码来绑定该卡吗？" />
+    <Message Name="New Card Found" Value="发现新卡" />
+    <Message Name="Please try again" Value="请再试一次" />
+    <Message Name="Please enter your username and password." Value="请输入您的用户名称和密码。" />
+    <Message Name="Enable the NFC Smart Card Mode?" Value="是否启用NFC智能卡模式" />
+    <Message Name="Smart Card Reader NOT Found!" Value="未找到智能卡卡片阅读机！" />
+    <Message Name="Please check the Smart Card Reader and try again." Value="请检查智能卡卡片阅读机并重试。" />
+    <Message Name="Password never updated" Value="密码从未更新" />
+    <Message Name="It has been more than" Value="此密码距离上次更新已经超过" />
+    <Message Name="days since the password update, and the upper limit is" Value="天尚未更新，更新上限为" />
+    <Message Name="Other login methods ..." Value="其他方式登入 ..." />
+  </简体中文>
+  <Setting Version="2.9.2402.1506" />
+</Chroma>

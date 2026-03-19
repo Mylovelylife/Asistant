@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文>
+    <Message Name="Job Type Maintain" Value="銵憿?蝬剛風"/>
+    <Message Name="Type Name(Chinese)" Value="類型名稱(中文)"/>
+    <Message Name="Type Name(English)" Value="類型名稱(英文)"/>
+    <Message Name="Type Description(Chinese)" Value="類型描述(中文)"/>
+    <Message Name="Type Description(English)" Value="類型描述(英文)"/>
+    <Message Name="Call Name By Procedure" Value="程序呼叫參數名稱"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Save" Value="儲存"/>
+    <Message Name="Show" Value="狀態"/>
+    <Message Name="Delete" Value="刪除"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="Enabled" Value="可用"/>
+    <Message Name="Disabled" Value="隱藏"/>
+    <Message Name="All" Value="全部"/>
+    <Message Name="Type ID" Value="類型編號"/>
+    <Message Name="Type Desc(English)" Value="類型描述(英文)"/>
+    <Message Name="Type Desc(Chinese)" Value="類型描述(中文)"/>
+    <Message Name="Proc Call Name" Value="程序呼叫名稱"/>
+  </繁體中文>
+  <简体中文>
+    <Message Name="Job Type Maintain" Value="銵憿?蝬刚风"/>
+    <Message Name="Type Name(Chinese)" Value="类型名称(中文)"/>
+    <Message Name="Type Name(English)" Value="类型名称(英文)"/>
+    <Message Name="Type Description(Chinese)" Value="类型描述(中文)"/>
+    <Message Name="Type Description(English)" Value="类型描述(英文)"/>
+    <Message Name="Call Name By Procedure" Value="过程调用参数名称"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Save" Value="储存"/>
+    <Message Name="Show" Value="状态"/>
+    <Message Name="Delete" Value="删除"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="Enabled" Value="可用"/>
+    <Message Name="Disabled" Value="隐藏"/>
+    <Message Name="All" Value="全部"/>
+    <Message Name="Type ID" Value="类型编号"/>
+    <Message Name="Type Desc(English)" Value="类型描述(英文)"/>
+    <Message Name="Type Desc(Chinese)" Value="类型描述(中文)"/>
+    <Message Name="Proc Call Name" Value="过程调用名称"/>
+  </简体中文>
+
+<Ngôn_ngữ_Việt><Message Name="Type Desc(English)" Value="Mô tả loại (Tiếng Anh)"/><Message Name="Append" Value="Thêm mới"/><Message Name="Type Description(Chinese)" Value="Mô tả loại (Tiếng Hoa)"/><Message Name="Job Type Maintain" Value="Bảo trì loại công việc"/><Message Name="Delete" Value="Xóa"/><Message Name="Proc Call Name" Value="Tên gọi thủ tục"/><Message Name="Disabled" Value="Ẩn"/><Message Name="Modify" Value="Chỉnh sửa"/><Message Name="Type Name(English)" Value="Tên loại (Tiếng Anh)"/><Message Name="Show" Value="Trạng thái"/><Message Name="Enabled" Value="Kích hoạt"/><Message Name="Type Description(English)" Value="Mô tả loại (Tiếng Anh)"/><Message Name="Call Name By Procedure" Value="Tên tham số gọi thủ tục"/><Message Name="Type Desc(Chinese)" Value="Mô tả loại (Tiếng Hoa)"/><Message Name="Save" Value="Lưu"/><Message Name="Cancel" Value="Hủy"/><Message Name="All" Value="Tất cả"/><Message Name="Type Name(Chinese)" Value="Tên loại (Tiếng Hoa)"/><Message Name="Type ID" Value="Mã loại"/></Ngôn_ngữ_Việt></Chroma>

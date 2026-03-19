@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <简体中文>
+    <Message Name="Search" Value="查询"/>
+    <Message Name="Request ID" Value="杂收单号"/>
+    <Message Name="Return Request ID" Value="领用退回单号"/>
+    <Message Name="Warehouse" Value="仓库"/>
+    <Message Name="Remark" Value="摘要"/>
+    <Message Name="UpdateReason" Value="异动原因"/>
+    <Message Name="Department" Value="部门"/>
+    <Message Name="Part No" Value="料号"/>
+    <Message Name="SPEC" Value="料号描述"/>
+    <Message Name="QTY" Value="杂收数量"/>
+    <Message Name="ReleaseQTY" Value="展开数量"/>
+    <Message Name="StockQTY" Value="入库数量"/>
+    <Message Name="QTY &gt; 0" Value="数量需大于0"/>
+    <Message Name="0 &gt; QTY" Value="数量需小于0"/>
+    <Message Name="Auto" Value="自动生成"/>
+    <Message Name="Save" Value="保存"/>
+    <Message Name="Request ID Is Null" Value="单据号不能为空"/>
+    <Message Name="Warehouse No Is Null" Value="仓库不能为空"/>
+    <Message Name="Get Request ID Failed" Value="获取单据号失败"/>
+    <Message Name="Part Error" Value="料号错误"/>
+    <Message Name="Part Null" Value="料号为空"/>
+    <Message Name="WH Error" Value="仓库错误"/>
+    <Message Name="WH Null" Value="仓库为空"/>
+    <Message Name="UpdateReason Error" Value="异动原因错误"/>
+    <Message Name="UpdateReason Null" Value="异动原因为空"/>
+    <Message Name="Department Error" Value="部门错误"/>
+    <Message Name="Department Null" Value="部门为空"/>
+    <Message Name="QTY Error" Value="数量错误"/>
+    <Message Name="The quantity must be greater than the quantity already in stock" Value="修改杂收数量必须大于入库量"/>
+    <Message Name="The quantity must be greater than the expanded quantity" Value="修改杂收数量必须大于展开量"/>
+    <Message Name="Please Input Part No Prefix" Value="请输入料号前缀"/>
+    <Message Name="Import" Value="导入"/>
+    <Message Name="date import error" Value="汇入失败，excel模版格式不对"/>
+    <Message Name="import OK" Value="汇入成功"/>
+    <Message Name="import fail" Value="汇入失败"/>
+    <Message Name="Released" Value="已经展开"/>
+  </简体中文>
+  <繁體中文>
+    <Message Name="Search" Value="查詢"/>
+    <Message Name="Request ID" Value="雜收單號"/>
+    <Message Name="Return Request ID" Value="領用退回單號"/>
+    <Message Name="Warehouse" Value="倉庫"/>
+    <Message Name="Remark" Value="摘要"/>
+    <Message Name="UpdateReason" Value="異動原因"/>
+    <Message Name="Department" Value="部門"/>
+    <Message Name="Part No" Value="料號"/>
+    <Message Name="SPEC" Value="料號描述"/>
+    <Message Name="QTY" Value="雜收數量"/>
+    <Message Name="ReleaseQTY" Value="展開數量"/>
+    <Message Name="StockQTY" Value="入庫數量"/>
+    <Message Name="QTY &gt; 0" Value="數量需大於0"/>
+    <Message Name="0 &gt; QTY" Value="數量需小於0"/>
+    <Message Name="Auto" Value="自動生成"/>
+    <Message Name="Save" Value="保存"/>
+    <Message Name="Request ID Is Null" Value="單據號不能為空"/>
+    <Message Name="Warehouse No Is Null" Value="倉庫不能為空"/>
+    <Message Name="Get Request ID Failed" Value="獲取單據號失敗"/>
+    <Message Name="Part Error" Value="料號錯誤"/>
+    <Message Name="Part Null" Value="料號為空"/>
+    <Message Name="WH Error" Value="倉庫錯誤"/>
+    <Message Name="WH Null" Value="倉庫為空"/>
+    <Message Name="UpdateReason Error" Value="異動原因錯誤"/>
+    <Message Name="UpdateReason Null" Value="異動原因為空"/>
+    <Message Name="Department Error" Value="部門錯誤"/>
+    <Message Name="Department Null" Value="部門為空"/>
+    <Message Name="QTY Error" Value="數量錯誤"/>
+    <Message Name="The quantity must be greater than the quantity already in stock" Value="修改雜收數量必須大於入庫量"/>
+    <Message Name="The quantity must be greater than the expanded quantity" Value="修改雜收數量必須大於展開量"/>
+    <Message Name="Please Input Part No Prefix" Value="請輸入料號前綴"/>
+    <Message Name="Import" Value="導入"/>
+    <Message Name="date import error" Value="匯入失敗，excel模版格式不對"/>
+    <Message Name="import OK" Value="匯入成功"/>
+    <Message Name="import fail" Value="匯入失敗"/>
+    <Message Name="Released" Value="已經展開"/>
+  </繁體中文>
+<Ngôn_ngữ_Việt><Message Name="Part No" Value="Mã liệu"/><Message Name="Request ID" Value="Mã phiếu tạp收"/><Message Name="import fail" Value="Nhập thất bại"/><Message Name="WH Null" Value="Kho trống"/><Message Name="QTY" Value="Số lượng tạp thu"/><Message Name="Remark" Value="Ghi chú"/><Message Name="Auto" Value="Tự động tạo"/><Message Name="SPEC" Value="Mô tả liệu"/><Message Name="UpdateReason" Value="Lý do điều chỉnh"/><Message Name="Department" Value="Bộ phận"/><Message Name="QTY &gt; 0" Value="Số lượng phải lớn hơn 0"/><Message Name="date import error" Value="Nhập Excel thất bại, sai định dạng mẫu"/><Message Name="QTY Error" Value="Sai số lượng"/><Message Name="The quantity must be greater than the expanded quantity" Value="Số lượng tạp thu phải lớn hơn số lượng bung"/><Message Name="UpdateReason Error" Value="Sai lý do điều chỉnh"/><Message Name="Request ID Is Null" Value="Mã phiếu không được để trống"/><Message Name="import OK" Value="Nhập thành công"/><Message Name="StockQTY" Value="Số lượng nhập kho"/><Message Name="Released" Value="Đã bung"/><Message Name="Part Null" Value="Chưa nhập mã liệu"/><Message Name="Get Request ID Failed" Value="Lấy mã phiếu thất bại"/><Message Name="Warehouse No Is Null" Value="Kho không được để trống"/><Message Name="WH Error" Value="Kho sai"/><Message Name="UpdateReason Null" Value="Lý do điều chỉnh trống"/><Message Name="Department Error" Value="Sai bộ phận"/><Message Name="Part Error" Value="Sai mã liệu"/><Message Name="ReleaseQTY" Value="Số lượng bung"/><Message Name="0 &gt; QTY" Value="Số lượng phải nhỏ hơn 0"/><Message Name="Save" Value="Lưu"/><Message Name="Please Input Part No Prefix" Value="Vui lòng nhập tiền tố mã liệu"/><Message Name="Search" Value="Tìm kiếm"/><Message Name="The quantity must be greater than the quantity already in stock" Value="Số lượng tạp thu phải lớn hơn số lượng đã nhập kho"/><Message Name="Department Null" Value="Bộ phận trống"/><Message Name="Import" Value="Nhập dữ liệu"/><Message Name="Warehouse" Value="Kho"/><Message Name="Return Request ID" Value="Mã phiếu hoàn lĩnh"/></Ngôn_ngữ_Việt></Chroma>

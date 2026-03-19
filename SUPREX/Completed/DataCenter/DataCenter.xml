@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+	<繁體中文>
+		<Message Name="Disabled" Value="停用" />
+		<Message Name="Enabled" Value="可用" />
+		<Message Name="Delete" Value="刪除" />
+		<Message Name="Append" Value="新增" />
+		<Message Name="Modify" Value="修改" />
+		<Message Name="Export" Value="匯出" />
+		<Message Name="All" Value="全部" />
+		<Message Name="Filter" Value="過濾條件" />
+		<Message Name="History Log" Value="歷史紀錄" />
+		<Message Name="OK" Value="確定" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Search" Value="尋找" />
+		<Message Name="Remove" Value="移除" />
+		<Message Name="EMP_NAME" Value="異動人員" />
+		<Message Name="UPDATE_TIME" Value="異動時間" />
+		<Message Name="ENABLED" Value="是否有效" />
+		<Message Name="Data Duplicate" Value="資料重複" />
+		<Message Name="Data Append OK" Value="資料新增成功" />
+		<Message Name="Append Other Data" Value="繼續新增其他資料" />
+		<Message Name="Data is null" Value="資料未輸入" />
+		<Message Name="Data Error" Value="資料錯誤" />
+		<Message Name="Export completed" Value="資料匯出已完成" />
+		<Message Name="Total" Value="總筆數" />
+		<Message Name="Showing" Value="顯示筆數" />	
+	</繁體中文>
+	<简体中文>
+		<Message Name="Disabled" Value="停用" />
+		<Message Name="Enabled" Value="可用" />
+		<Message Name="Delete" Value="删除" />
+		<Message Name="Append" Value="新增" />
+		<Message Name="Modify" Value="修改" />
+		<Message Name="Export" Value="汇出" />
+		<Message Name="All" Value="全部" />
+		<Message Name="Filter" Value="过滤条件" />
+		<Message Name="History Log" Value="历史纪录" />
+		<Message Name="OK" Value="确定" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Search" Value="寻找" />
+		<Message Name="Remove" Value="移除" />
+		<Message Name="EMP_NAME" Value="异动人员" />
+		<Message Name="UPDATE_TIME" Value="异动时间" />
+		<Message Name="ENABLED" Value="是否有效" />
+		<Message Name="Data Duplicate" Value="数据重复" />
+		<Message Name="Data Append OK" Value="资料新增成功" />
+		<Message Name="Append Other Data" Value="继续新增其他数据" />
+		<Message Name="Data is null" Value="数据未输入" />
+		<Message Name="Data Error" Value="数据错误" />
+		<Message Name="Export completed" Value="数据汇出已完成" />
+		<Message Name="Total" Value="总笔数" />
+		<Message Name="Showing" Value="显示笔数" />
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Disabled" Value="Ngừng Sử Dụng" /><Message Name="Enabled" Value="Đang Sử Dụng" /><Message Name="Delete" Value="Xóa" /><Message Name="Append" Value="Thêm Mới" /><Message Name="Modify" Value="Chỉnh Sửa" /><Message Name="Export" Value="Xuất Dữ Liệu" /><Message Name="All" Value="Tất Cả" /><Message Name="Filter" Value="Điều Kiện Lọc" /><Message Name="History Log" Value="Nhật Ký Lịch Sử" /><Message Name="OK" Value="Xác Nhận" /><Message Name="Cancel" Value="Hủy" /><Message Name="Search" Value="Tìm Kiếm" /><Message Name="Remove" Value="Gỡ Bỏ" /><Message Name="EMP_NAME" Value="Người Thay Đổi" /><Message Name="UPDATE_TIME" Value="Thời Gian Thay Đổi" /><Message Name="ENABLED" Value="Hiệu Lực" /><Message Name="Data Duplicate" Value="Dữ Liệu Trùng Lặp" /><Message Name="Data Append OK" Value="Thêm Dữ Liệu Thành Công" /><Message Name="Append Other Data" Value="Tiếp Tục Thêm Dữ Liệu Khác" /><Message Name="Data is null" Value="Chưa Nhập Dữ Liệu" /><Message Name="Data Error" Value="Lỗi Dữ Liệu" /><Message Name="Export completed" Value="Xuất Dữ Liệu Hoàn Tất" /><Message Name="Total" Value="Tổng Số Dòng" /><Message Name="Showing" Value="Số Dòng Hiển Thị" /></Ngôn_ngữ_Việt></Chroma>

@@ -70,12 +70,15 @@ namespace CBOM
             this.ModifyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.LV1 = new System.Windows.Forms.ListView();
-            this.╓u╖г╔N╫X = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.╓u╖г╕W╨ы = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.╝ф╦╧ = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.╚~╕W = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.╪ф╤q = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.╠дай╜p╤qЁФ╕Л = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.PopMenuLV1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.ModifyLV1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.DeleteLV1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.О©╫uО©╫г╔NО©╫X = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.О©╫uО©╫г╕WО©╫О©╫ = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.О©╫ф╦О©╫ = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.О©╫~О©╫W = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.О©╫ф╤q = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.О©╫О©╫О©╫й╜pО©╫qО©╫О©╫О©╫ = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel1 = new System.Windows.Forms.Panel();
             this.editPartFilter = new System.Windows.Forms.TextBox();
             this.btnImport = new System.Windows.Forms.Button();
@@ -385,13 +388,14 @@ namespace CBOM
             // 
             this.LV1.BackColor = System.Drawing.Color.White;
             this.LV1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.╓u╖г╔N╫X,
-            this.╓u╖г╕W╨ы,
-            this.╝ф╦╧,
-            this.╚~╕W,
-            this.╪ф╤q,
-            this.╠дай╜p╤qЁФ╕Л});
+            this.О©╫uО©╫г╔NО©╫X,
+            this.О©╫uО©╫г╕WО©╫О©╫,
+            this.О©╫ф╦О©╫,
+            this.О©╫~О©╫W,
+            this.О©╫ф╤q,
+            this.О©╫О©╫О©╫й╜pО©╫qО©╫О©╫О©╫});
             resources.ApplyResources(this.LV1, "LV1");
+            this.LV1.ContextMenuStrip = this.PopMenuLV1;  // [Added by Е█┐Е╟▀ 2026-02-25] Г╤│Е╝ Е▐ЁИ█╣И│╦Е√╝
             this.LV1.FullRowSelect = true;
             this.LV1.HideSelection = false;
             this.LV1.Name = "LV1";
@@ -399,29 +403,50 @@ namespace CBOM
             this.LV1.UseCompatibleStateImageBehavior = false;
             this.LV1.View = System.Windows.Forms.View.Details;
             // 
-            // ╓u╖г╔N╫X
+            // PopMenuLV1
             // 
-            resources.ApplyResources(this.╓u╖г╔N╫X, "╓u╖г╔N╫X");
+            this.PopMenuLV1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.PopMenuLV1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ModifyLV1ToolStripMenuItem,
+            this.DeleteLV1ToolStripMenuItem});
+            this.PopMenuLV1.Name = "PopMenuLV1";
+            resources.ApplyResources(this.PopMenuLV1, "PopMenuLV1");
             // 
-            // ╓u╖г╕W╨ы
+            // ModifyLV1ToolStripMenuItem
             // 
-            resources.ApplyResources(this.╓u╖г╕W╨ы, "╓u╖г╕W╨ы");
+            this.ModifyLV1ToolStripMenuItem.Name = "ModifyLV1ToolStripMenuItem";
+            resources.ApplyResources(this.ModifyLV1ToolStripMenuItem, "ModifyLV1ToolStripMenuItem");
+            this.ModifyLV1ToolStripMenuItem.Click += new System.EventHandler(this.ModifyLV1ToolStripMenuItem_Click);
             // 
-            // ╝ф╦╧
+            // DeleteLV1ToolStripMenuItem
             // 
-            resources.ApplyResources(this.╝ф╦╧, "╝ф╦╧");
+            this.DeleteLV1ToolStripMenuItem.Name = "DeleteLV1ToolStripMenuItem";
+            resources.ApplyResources(this.DeleteLV1ToolStripMenuItem, "DeleteLV1ToolStripMenuItem");
+            this.DeleteLV1ToolStripMenuItem.Click += new System.EventHandler(this.DeleteLV1ToolStripMenuItem_Click);
             // 
-            // ╚~╕W
+            // О©╫uО©╫г╔NО©╫X
             // 
-            resources.ApplyResources(this.╚~╕W, "╚~╕W");
+            resources.ApplyResources(this.О©╫uО©╫г╔NО©╫X, "О©╫uО©╫г╔NО©╫X");
             // 
-            // ╪ф╤q
+            // О©╫uО©╫г╕WО©╫О©╫
             // 
-            resources.ApplyResources(this.╪ф╤q, "╪ф╤q");
+            resources.ApplyResources(this.О©╫uО©╫г╕WО©╫О©╫, "О©╫uО©╫г╕WО©╫О©╫");
             // 
-            // ╠дай╜p╤qЁФ╕Л
+            // О©╫ф╦О©╫
             // 
-            resources.ApplyResources(this.╠дай╜p╤qЁФ╕Л, "╠дай╜p╤qЁФ╕Л");
+            resources.ApplyResources(this.О©╫ф╦О©╫, "О©╫ф╦О©╫");
+            // 
+            // О©╫~О©╫W
+            // 
+            resources.ApplyResources(this.О©╫~О©╫W, "О©╫~О©╫W");
+            // 
+            // О©╫ф╤q
+            // 
+            resources.ApplyResources(this.О©╫ф╤q, "О©╫ф╤q");
+            // 
+            // О©╫О©╫О©╫й╜pО©╫qО©╫О©╫О©╫
+            // 
+            resources.ApplyResources(this.О©╫О©╫О©╫й╜pО©╫qО©╫О©╫О©╫, "О©╫О©╫О©╫й╜pО©╫qО©╫О©╫О©╫");
             // 
             // panel1
             // 
@@ -643,6 +668,9 @@ namespace CBOM
         private System.Windows.Forms.SplitContainer splitContainer4;
         private System.Windows.Forms.TreeView TreeBom;
         private System.Windows.Forms.ListView LV1;
+        private System.Windows.Forms.ContextMenuStrip PopMenuLV1;
+        private System.Windows.Forms.ToolStripMenuItem ModifyLV1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem DeleteLV1ToolStripMenuItem;
         private System.Windows.Forms.ListView LVData;
         private System.Windows.Forms.ColumnHeader Part;
         private System.Windows.Forms.ColumnHeader Process;
@@ -680,12 +708,12 @@ namespace CBOM
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.ColumnHeader ╓u╖г╔N╫X;
-        private System.Windows.Forms.ColumnHeader ╓u╖г╕W╨ы;
-        private System.Windows.Forms.ColumnHeader ╝ф╦╧;
-        private System.Windows.Forms.ColumnHeader ╚~╕W;
-        private System.Windows.Forms.ColumnHeader ╪ф╤q;
-        private System.Windows.Forms.ColumnHeader ╠дай╜p╤qЁФ╕Л;
+        private System.Windows.Forms.ColumnHeader О©╫uО©╫г╔NО©╫X;
+        private System.Windows.Forms.ColumnHeader О©╫uО©╫г╕WО©╫О©╫;
+        private System.Windows.Forms.ColumnHeader О©╫ф╦О©╫;
+        private System.Windows.Forms.ColumnHeader О©╫~О©╫W;
+        private System.Windows.Forms.ColumnHeader О©╫ф╤q;
+        private System.Windows.Forms.ColumnHeader О©╫О©╫О©╫й╜pО©╫qО©╫О©╫О©╫;
         private System.Windows.Forms.TextBox editPartFilter;
     }
 }

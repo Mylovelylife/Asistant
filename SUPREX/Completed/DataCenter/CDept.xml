@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+	<繁體中文>
+		<Message Name="Department Name" Value="部門名稱"/>
+		<Message Name="Description" Value="部門描述"/>
+		<Message Name="Factory" Value="廠別"/>
+		<Message Name="FACTORY_NAME" Value="廠別"/>
+		<Message Name="Factory cannot be empty" Value="廠別不可為空"/>
+	</繁體中文>
+	<简体中文>
+		<Message Name="Department Name" Value="部门名称"/>
+		<Message Name="Description" Value="部门描述"/>
+		<Message Name="Factory" Value="厂别"/>
+		<Message Name="FACTORY_NAME" Value="厂别"/>
+		<Message Name="Factory cannot be empty" Value="厂别不可为空"/>
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Department Name" Value="Tên bộ phận"/><Message Name="Description" Value="Mô tả bộ phận"/><Message Name="Factory" Value="Nhà máy"/><Message Name="FACTORY_NAME" Value="Nhà máy"/><Message Name="Factory cannot be empty" Value="Nhà máy không được để trống"/></Ngôn_ngữ_Việt></Chroma>

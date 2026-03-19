@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+		<Message Name="State From" Value="State From" />
+		<Message Name="State To" Value="Status To" />
+		<Message Name="Role" Value="Role" />
+		<Message Name="Select" Value="Select" />
+		<Message Name="ROLE_NAME" Value="Role Name" />
+		<Message Name="Export completed" Value="Export completed" />
+		<Message Name="State-From cannot be equal to State-To" Value="State From cannot be equal to State To" />
+		<Message Name="STATUS_FROM_NAME" Value="State From" />
+		<Message Name="STATUS_TO_NAME" Value="Status To" />
+		<Message Name="ROLE" Value="Role" />
+		<Message Name="SWITCH" Value="Switch" />
+		<Message Name="STATUS_TYPE" Value="Status Type" />
+		<Message Name="ENABLED" Value="Enabled" />
+		<Message Name="EMP_NAME" Value="Update User" />
+		<Message Name="UPDATE_TIME" Value="Update Time" />
+	</English>
+	<繁體中文>
+		<Message Name="State From" Value="來源狀態" />
+		<Message Name="State To" Value="目標狀態" />
+		<Message Name="Role" Value="角色" />
+		<Message Name="Select" Value="選取" />
+		<Message Name="ROLE_NAME" Value="角色名稱" />
+		<Message Name="Export completed" Value="匯出完成" />
+		<Message Name="State-From cannot be equal to State-To" Value="來源狀態不能等於目標狀態" />
+		<Message Name="STATUS_FROM_NAME" Value="來源狀態" />
+		<Message Name="STATUS_TO_NAME" Value="目標狀態" />
+		<Message Name="ROLE" Value="角色" />
+		<Message Name="SWITCH" Value="切換" />
+		<Message Name="Data Saved" Value="資料儲存成功" />
+		<Message Name="Save Changed Data ?" Value="是否儲存變更資料 ?" />
+		<Message Name="Data No Change" Value="資料未變更" />
+		<Message Name="Save" Value="儲存" />
+		<Message Name="STATUS_TYPE" Value="狀態類型" />
+		<Message Name="Check All" Value="全選取" />
+		<Message Name="Uncheck All" Value="全取消" />
+		<Message Name="" Value="" />
+	</繁體中文>
+	<简体中文>
+		<Message Name="State From" Value="来源状态" />
+		<Message Name="State To" Value="目标状态" />
+		<Message Name="Role" Value="角色" />
+		<Message Name="Select" Value="选取" />
+		<Message Name="ROLE_NAME" Value="角色名称" />
+		<Message Name="Export completed" Value="汇出完成" />
+		<Message Name="State-From cannot be equal to State-To" Value="来源状态不能等于目标状态" />
+		<Message Name="STATUS_FROM_NAME" Value="来源状态" />
+		<Message Name="STATUS_TO_NAME" Value="目标状态" />
+		<Message Name="ROLE" Value="角色" />
+		<Message Name="SWITCH" Value="切换" />
+		<Message Name="Data Saved" Value="资料保存成功" />
+		<Message Name="Save Changed Data ?" Value="是否保存变更资料 ?" />
+		<Message Name="Data No Change" Value="资料未变更" />
+		<Message Name="Save" Value="保存" />
+		<Message Name="STATUS_TYPE" Value="状态类型" />
+		<Message Name="Check All" Value="全选取" />
+		<Message Name="Uncheck All" Value="全取消" />
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="State From" Value="Trạng Thái Nguồn" /><Message Name="State To" Value="Trạng Thái Đích" /><Message Name="Role" Value="Vai Trò" /><Message Name="Select" Value="Chọn" /><Message Name="ROLE_NAME" Value="Tên Vai Trò" /><Message Name="Export completed" Value="Xuất Dữ Liệu Hoàn Tất" /><Message Name="State-From cannot be equal to State-To" Value="Trạng Thái Nguồn Không Được Trùng Với Trạng Thái Đích" /><Message Name="STATUS_FROM_NAME" Value="Trạng Thái Nguồn" /><Message Name="STATUS_TO_NAME" Value="Trạng Thái Đích" /><Message Name="ROLE" Value="Vai Trò" /><Message Name="SWITCH" Value="Chuyển Đổi" /><Message Name="Data Saved" Value="Lưu Dữ Liệu Thành Công" /><Message Name="Save Changed Data ?" Value="Lưu Các Thay Đổi?" /><Message Name="Data No Change" Value="Không Có Thay Đổi" /><Message Name="Save" Value="Lưu" /><Message Name="STATUS_TYPE" Value="Loại Trạng Thái" /><Message Name="Check All" Value="Chọn Tất Cả" /><Message Name="Uncheck All" Value="Bỏ Chọn Tất Cả" /><Message Name="ENABLED" Value="Kích Hoạt" /><Message Name="EMP_NAME" Value="Người Cập Nhật" /><Message Name="UPDATE_TIME" Value="Thời Gian Cập Nhật" /></Ngôn_ngữ_Việt></Chroma>

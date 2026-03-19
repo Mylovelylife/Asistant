@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<简体中文>
+		<Message Name="Search" Value="搜寻"/>
+		<Message Name="REQUEST_ID" Value="单据"/>
+		<Message Name="WORK_ORDER" Value="工单号"/>
+		<Message Name="Shelf No" Value="货架号"/>
+		<Message Name="REQUEST_NO" Value="单号"/>
+		<Message Name="PART_NO" Value="料号"/>
+		<Message Name="SPEC1" Value="料号描述"/>
+		<Message Name="QTY" Value="数量"/>
+		<Message Name="DOWN_QTY" Value="已下架数量"/>
+		<Message Name="Request ID Is Null" Value="单据号不能为空"/>
+		<Message Name="Get Request ID Failed" Value="获取单据号失败"/>
+		<Message Name="Shelf No Is Not Exist" Value="货架号不存在"/>
+	</简体中文>
+	<繁體中文>
+		<Message Name="Search" Value="查詢"/>
+		<Message Name="Request ID" Value="入庫單號"/>
+		<Message Name="Work Order" Value="工單號"/>
+		<Message Name="WORK_ORDER" Value="工單號"/>
+		<Message Name="Warehouse No" Value="倉庫"/>
+		<Message Name="Part No" Value="料號"/>
+		<Message Name="PART_NO" Value="料號"/>
+		<Message Name="Cust Part No" Value="客戶料號"/>
+		<Message Name="SPEC" Value="料號描述"/>
+		<Message Name="QTY" Value="需求數量"/>
+		<Message Name="Stock QTY" Value="已入數量"/>
+		<Message Name="Inbound" Value="入庫"/>
+		<Message Name="Location" Value="儲位"/>
+		<Message Name="SN" Value="生產序號"/>
+		<Message Name="Serial Number" Value="生產序號"/>
+		<Message Name="Box" Value="盒號"/>
+		<Message Name="Carton" Value="箱號"/>
+		<Message Name="Pallet" Value="棧板號"/>
+		<Message Name="Box No" Value="盒號"/>
+		<Message Name="Carton No" Value="箱號"/>
+		<Message Name="Pallet No" Value="棧板號"/>
+		<Message Name="No" Value="序號"/>
+		<Message Name="Version" Value="版本"/>
+		<Message Name="Route Name" Value="途程"/>
+		<Message Name="QC No" Value="質檢批號"/>
+		<Message Name="QC Result" Value="質檢結果"/>
+		<Message Name="Is Complete?" Value="是否完結？"/>
+		<Message Name="WO Error" Value="工單錯誤"/>
+		<Message Name="WO Null" Value="工單為空"/>
+		<Message Name="Shipped" Value="已出貨"/>
+		<Message Name="Not QC" Value="未質檢"/>
+		<Message Name="No Data" Value="無數據"/>
+		<Message Name="" Value=""/>
+		<Message Name="" Value=""/>
+
+	</繁體中文>
+<Ngôn_ngữ_Việt><Message Name="Search" Value="Truy vấn"/><Message Name="Request ID" Value="Số phiếu nhập kho"/><Message Name="Work Order" Value="Mã lệnh sản xuất"/><Message Name="WORK_ORDER" Value="Mã lệnh sản xuất"/><Message Name="Warehouse No" Value="Kho"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="PART_NO" Value="Mã linh kiện"/><Message Name="Cust Part No" Value="Mã linh kiện khách hàng"/><Message Name="SPEC" Value="Mô tả linh kiện"/><Message Name="QTY" Value="Số lượng yêu cầu"/><Message Name="Stock QTY" Value="Số lượng đã nhập"/><Message Name="Inbound" Value="Nhập kho"/><Message Name="Location" Value="Vị trí lưu trữ"/><Message Name="SN" Value="Số seri sản xuất"/><Message Name="Serial Number" Value="Số seri sản xuất"/><Message Name="Box" Value="Mã hộp"/><Message Name="Carton" Value="Mã thùng"/><Message Name="Pallet" Value="Mã pallet"/><Message Name="Box No" Value="Mã hộp"/><Message Name="Carton No" Value="Mã thùng"/><Message Name="Pallet No" Value="Mã pallet"/><Message Name="No" Value="Số seri"/><Message Name="Version" Value="Phiên bản"/><Message Name="Route Name" Value="Lộ trình"/><Message Name="QC No" Value="Mã lô kiểm tra chất lượng"/><Message Name="QC Result" Value="Kết quả kiểm tra chất lượng"/><Message Name="Is Complete?" Value="Đã hoàn tất?"/><Message Name="WO Error" Value="Lỗi lệnh sản xuất"/><Message Name="WO Null" Value="Lệnh sản xuất trống"/><Message Name="Shipped" Value="Đã xuất hàng"/><Message Name="Not QC" Value="Chưa kiểm tra chất lượng"/><Message Name="No Data" Value="Không có dữ liệu"/><Message Name="" Value=""/><Message Name="" Value=""/></Ngôn_ngữ_Việt></Chroma>

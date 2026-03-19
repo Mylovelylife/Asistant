@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+  <English>
+    <Message Name="Machine Type Name" Value="Machine Type Name"/>
+    <Message Name="Description" Value="Description"/>
+    <Message Name="Engineer" Value="Engineer"/>
+    <Message Name="Machine Engineer" Value="Machine Engineer"/>
+
+    <Message Name="Select All" Value="Select All"/>
+    <Message Name="Select None" Value="Select None"/>
+    <Message Name="Employee No" Value="Employee No"/>
+    <Message Name="Employee Name" Value="Employee Name"/>
+    <Message Name="Department" Value="Department"/>
+  </English>
+  <繁體中文>
+    <Message Name="Machine Type Name" Value="機台類型名稱"/>
+    <Message Name="Description" Value="機台群組描述"/>
+    <Message Name="Machine" Value="機台"/>
+    <Message Name="fMachine" Value="機台"/>
+    <Message Name="fHistory" Value="歷史紀錄"/>
+    <Message Name="Machine Name" Value="機台名稱"/>
+    <Message Name="Select All" Value="全選"/>
+    <Message Name="Select None" Value="取消全選"/>
+    <Message Name="Machine Desc" Value="機台說明"/>
+    <Message Name="Machine Type" Value="機台類型"/>
+    <Message Name="Department" Value="部門"/>
+    <Message Name="Start Date" Value="起始時間"/>
+    <Message Name="End Date" Value="結束時間"/>
+    <Message Name="Import" Value="匯入"/>
+    <Message Name="Please Select Machine Type" Value="請選擇機台類型"/>
+    <Message Name="Export completed" Value="資料匯出已完成"/>
+    <Message Name="Machine Group Name" Value="機台群組名稱"/>
+    <Message Name="Export completed" Value="資料匯出已完成"/>
+    <Message Name="Export completed" Value="資料匯出已完成"/>
+  </繁體中文>
+  <简体中文>
+    <Message Name="Machine Type Name" Value="机台类型名称"/>
+    <Message Name="Description" Value="机台群组描述"/>
+    <Message Name="Machine" Value="机台"/>
+    <Message Name="Machine Name" Value="机台名称"/>
+    <Message Name="fMachine" Value="机台"/>
+    <Message Name="fHistory" Value="历史纪录"/>
+    <Message Name="Select All" Value="全选"/>
+    <Message Name="Select None" Value="取消全选"/>
+    <Message Name="Machine Desc" Value="机台说明"/>
+    <Message Name="Machine Type" Value="机台类型"/>
+    <Message Name="Department" Value="部门"/>
+    <Message Name="Start Date" Value="起始时间"/>
+    <Message Name="End Date" Value="结束时间"/>
+    <Message Name="Import" Value="汇入"/>
+    <Message Name="Please Select Machine Type" Value="请选择机台类型"/>
+    <Message Name="Export completed" Value="资料汇出已完成"/>
+    <Message Name="Machine Group Name" Value="机台群组名称"/>
+    <Message Name="Export completed" Value="资料汇出已完成"/>
+    <Message Name="Export completed" Value="资料汇出已完成"/>
+
+
+  </简体中文>			
+
+<Ngôn_ngữ_Việt><Message Name="Machine Type Name" Value="Tên loại máy"/><Message Name="Description" Value="Mô tả nhóm máy"/><Message Name="Engineer" Value="Kỹ sư máy"/><Message Name="Machine Engineer" Value="Kỹ sư máy"/><Message Name="Select All" Value="Chọn tất cả"/><Message Name="Select None" Value="Bỏ chọn tất cả"/><Message Name="Employee No" Value="Mã nhân viên"/><Message Name="Employee Name" Value="Tên nhân viên"/><Message Name="Department" Value="Bộ phận"/><Message Name="Machine" Value="Máy"/><Message Name="fMachine" Value="Máy"/><Message Name="fHistory" Value="Lịch sử"/><Message Name="Machine Name" Value="Tên máy"/><Message Name="Machine Desc" Value="Mô tả máy"/><Message Name="Machine Type" Value="Loại máy"/><Message Name="Start Date" Value="Ngày bắt đầu"/><Message Name="End Date" Value="Ngày kết thúc"/><Message Name="Import" Value="Nhập dữ liệu"/><Message Name="Please Select Machine Type" Value="Vui lòng chọn loại máy"/><Message Name="Export completed" Value="Xuất dữ liệu hoàn tất"/><Message Name="Machine Group Name" Value="Tên nhóm máy"/></Ngôn_ngữ_Việt></Chroma>

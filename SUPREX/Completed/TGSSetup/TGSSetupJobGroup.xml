@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文>
+    <Message Name="Job Description" Value="工作描述"/>
+    <Message Name="Sproc Name" Value="預存程序名稱"/>
+    <Message Name="Type" Value="類型"/>
+    <Message Name="Type List" Value="類型列表"/>
+    <Message Name="Save" Value="儲存"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Special Rule 1 (First) :" Value="特殊條件 1 (第一次) :"/>
+    <Message Name="Length Check :" Value="長度檢查 :"/>
+    <Message Name="Special Rule 2 (Data Exist) :" Value="特殊條件 2 (資料已存在) :"/>
+    <Message Name="Transformation :" Value="轉換 :"/>
+    <Message Name="Value Kind :" Value="輸入值種類 :"/>
+    <Message Name="'Remove" Value="移除"/>
+    <Message Name="Delete" Value="刪除"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="No." Value="編號"/>
+    <Message Name="Job Description" Value="工作描述"/>
+    <Message Name="Job Content" Value="行為內容"/>
+    <Message Name="Job Group" Value="行為"/>
+    <Message Name="TGS Group Layout" Value="TGS 分布"/>
+    <Message Name="Normal" Value="正常"/>
+    <Message Name="Upper Case" Value="大寫"/>
+    <Message Name="Lower Case" Value="小寫"/>
+    <Message Name="Once" Value="僅一次"/>
+    <Message Name="Multiple" Value="多次"/>
+    <Message Name="Last Input" Value="最後輸入"/>
+    <Message Name="Multiple-Different" Value="多次-需不同"/>
+    <Message Name="Job Group Description (English) :" Value="行為描述 (英文) :"/>
+    <Message Name="Job Group Description (Chinese) :" Value="行為描述 (中文) :"/>
+  </繁體中文>
+  <简体中文>
+    <Message Name="Job Description" Value="工作描述"/>
+    <Message Name="Sproc Name" Value="预存程序名称"/>
+    <Message Name="Type" Value="类型"/>
+    <Message Name="Type List" Value="类型列表"/>
+    <Message Name="Save" Value="储存"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Special Rule 1 (First) :" Value="特殊条件 1 (第一次) :"/>
+    <Message Name="Length Check :" Value="长度检查 :"/>
+    <Message Name="Special Rule 2 (Data Exist) :" Value="特殊条件 2 (数据已存在) :"/>
+    <Message Name="Transformation :" Value="转换 :"/>
+    <Message Name="Value Kind :" Value="输入值种类 :"/>
+    <Message Name="'Remove" Value="移除"/>
+    <Message Name="Delete" Value="删除"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="No." Value="编号"/>
+    <Message Name="Job Description" Value="工作描述"/>
+    <Message Name="Job Content" Value="行为内容"/>
+    <Message Name="Job Group" Value="行为"/>
+    <Message Name="TGS Group Layout" Value="TGS 分布"/>
+    <Message Name="Normal" Value="正常"/>
+    <Message Name="Upper Case" Value="大写"/>
+    <Message Name="Lower Case" Value="小写"/>
+    <Message Name="Once" Value="仅一次"/>
+    <Message Name="Multiple" Value="多次"/>
+    <Message Name="Last Input" Value="最后输入"/>
+    <Message Name="Multiple-Different" Value="多次-需不同"/>
+    <Message Name="Job Group Description (English) :" Value="行为描述 (英文) :"/>
+    <Message Name="Job Group Description (Chinese) :" Value="行为描述 (中文) :"/>
+  </简体中文>
+
+<Ngôn_ngữ_Việt><Message Name="Once" Value="Một lần"/><Message Name="Append" Value="Thêm mới"/><Message Name="Upper Case" Value="Chữ hoa"/><Message Name="Value Kind :" Value="Loại giá trị nhập :"/><Message Name="Job Content" Value="Nội dung hành vi"/><Message Name="Delete" Value="Xóa"/><Message Name="Transformation :" Value="Chuyển đổi :"/><Message Name="Type" Value="Loại"/><Message Name="Length Check :" Value="Kiểm tra độ dài :"/><Message Name="Special Rule 2 (Data Exist) :" Value="Quy tắc đặc biệt 2 (Dữ liệu đã tồn tại) :"/><Message Name="'Remove" Value="Gỡ bỏ"/><Message Name="Type List" Value="Danh sách loại"/><Message Name="Multiple" Value="Nhiều lần"/><Message Name="Modify" Value="Chỉnh sửa"/><Message Name="TGS Group Layout" Value="Bố trí nhóm TGS"/><Message Name="Job Description" Value="Mô tả công việc"/><Message Name="No." Value="Số thứ tự"/><Message Name="Last Input" Value="Lần nhập cuối"/><Message Name="Job Group" Value="Hành vi"/><Message Name="Multiple-Different" Value="Nhiều lần - phải khác nhau"/><Message Name="Sproc Name" Value="Tên thủ tục lưu trữ"/><Message Name="Save" Value="Lưu"/><Message Name="Lower Case" Value="Chữ thường"/><Message Name="Cancel" Value="Hủy"/><Message Name="Normal" Value="Bình thường"/><Message Name="Job Group Description (English) :" Value="Mô tả hành vi (Tiếng Anh) :"/><Message Name="Job Group Description (Chinese) :" Value="Mô tả hành vi (Tiếng Hoa) :"/><Message Name="Special Rule 1 (First) :" Value="Quy tắc đặc biệt 1 (Lần đầu) :"/></Ngôn_ngữ_Việt></Chroma>

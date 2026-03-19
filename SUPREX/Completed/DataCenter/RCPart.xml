@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Chroma>
+	<English>
+		<Message Name="PART_NAME" Value="Part Name" />
+		<Message Name="PART_STYLE" Value="Part Style" />
+		<Message Name="VERSION" Value="Version" />
+		<Message Name="FG_DEVICE" Value="FG Device" />
+		<Message Name="FM_DEVICE" Value="FM Device" />
+		<Message Name="INK" Value="Ink" />
+		<Message Name="PKG_TYPE" Value="Package Type" />
+		<Message Name="BIN_NUM" Value="Bin Number" />
+		<Message Name="DIE_HT" Value="Die High" />
+		<Message Name="DIE_WD" Value="Die Wide" />
+		<Message Name="WAFER_SIZE" Value="Wafer Size" />
+		<Message Name="GROSS_DIE" Value="Gross Die" />
+		<Message Name="TEST_DIE" Value="Test Die" />
+		<Message Name="SAMPLE_DIE" Value="Sample Die" />
+		<Message Name="TEST_TYPE" Value="Test Type" />
+		<Message Name="WAFER_TYPE" Value="Wafer Type" />
+		<Message Name="CUP" Value="CUP" />
+		<Message Name="PB_FREE" Value="PB Free" />
+		<Message Name="BODY_SIZE" Value="Body Size" />
+		<Message Name="TRAY" Value="Tray" />
+		<Message Name="EC_QTY" Value="EC Qty" />
+		<Message Name="FC_HOUR" Value="Forecast Hour" />
+		<Message Name="SORT_WAFER_NAME" Value="Sort Wafer Name" />
+		<Message Name="I_NO" Value="I_NO" />
+		<Message Name="FAB_PART_NO" Value="Fab P/N" />
+		<Message Name="FAB_NAME" Value="Fab Name" />
+		<Message Name="CEPT_12NC" Value="CEPT 12NC" />
+		<Message Name="ENABLE_DATE" Value="Enable Date" />
+		<Message Name="DISABLE_DATE" Value="Disable Date" />
+		<Message Name="PRODUCT_CATEGORY" Value="Product Category" />
+		<Message Name="PRODUCT_USAGE" Value="Product Usage" />
+		<Message Name="PRODUCT_ID" Value="Product ID" />
+		<Message Name="PRODUCT_ID_OLD" Value="Product Old ID" />
+		<Message Name="PRE_MARKED" Value="Premarked" />
+		<Message Name="BARCODE_PRINT" Value="Barcode Print" />
+		<Message Name="MODULE_TEST" Value="Module Test" />
+		<Message Name="CIS" Value="CIS Flag" />
+		<Message Name="BURN_CODE" Value="Burn Code" />
+		<Message Name="BURN_CODE_BIN" Value="Bin" />
+		<Message Name="KSV" Value="KSV" />
+		<Message Name="TO_FILE" Value="I/O Data Convert" />
+		<Message Name="BURN_IN" Value="Burn In" />
+		<Message Name="BUMP_MAP" Value="Bump Map" />
+		<Message Name="CAMERA" Value="Camera" />
+		<Message Name="TEMPAUTURE" Value="Tempauture" />
+		<Message Name="LOT_CYCLE_DAY" Value="Lot Cycle Day" />
+		<Message Name="LOT_YIELD" Value="Lot Yield (%)" />
+		<Message Name="X_MIL" Value="X Mil" />
+		<Message Name="Y_MIL" Value="Y Mil" />
+		<Message Name="F_N_DIRECTION" Value="Flat / Notch Direction" />
+		<Message Name="PROBING_DIRECTION" Value="Probing Direction" />
+		<Message Name="CUP_FLAG" Value="CUP Flag" />
+		<Message Name="NOTE" Value="Note" />
+		<Message Name="CLOSE" Value="Close" />
+		<Message Name="SPEC2" Value="Spec2" />
+		<Message Name="CAR_PRODUCT_FLAG" Value="Car Product" />
+		<Message Name="RC_PRINT_RULE_NAME" Value="Run Card Rule" />
+		<Message Name="RUNCARD_RULE" Value="Run Card Rule" />
+	</English>
+	<繁體中文>
+		<Message Name="PART_NO" Value="料號" />
+		<Message Name="PART_TYPE" Value="產品群組" />
+		<Message Name="SPEC1" Value="規格1" />
+		<Message Name="DOPANT" Value="摻質" />
+		<Message Name="PRODUCT_TYPE" Value="產品類型" />
+		<Message Name="PRODUCT_CODE" Value="產品代碼" />
+		<Message Name="Default Route" Value="預設途程" />
+		<Message Name="VERSION" Value="版本" />
+		<Message Name="UNIT" Value="單位" />
+		<Message Name="OPTION1" Value="尺寸" />
+		<Message Name="OPTION3" Value="參考邊類型" />
+		<Message Name="OPTION10" Value="晶向1" />
+		<Message Name="OPTION11" Value="晶向2" />
+		<Message Name="ROUTE_NAME" Value="途程名稱" />
+		<Message Name="ROUTE_DESC" Value="途程描述" />
+		<Message Name="Data is null" Value="輸入數據為空值" />
+		<Message Name="Data Duplicate" Value="輸入數據重複" />
+		<Message Name="Sort Index Duplicate" Value="順序索引重複" />
+		<Message Name="Are You Sure to Append Data" Value="你是否確定新增資料" />
+		<Message Name="Item Name Error" Value="項目名稱錯誤" />
+		<Message Name="EMP_NO" Value="員工編號" />
+		<Message Name="Qty" Value="數量" />
+		<Message Name="Process Name" Value="製程" />
+		<Message Name="Value Type" Value="數據型態" />
+		<Message Name="Varchar(Format)" Value="字符串(有格式)" />
+		<Message Name="Varchar(Normal)" Value="字符串(無格式)" />
+		<Message Name="Number" Value="數值" />
+		<Message Name="Process Name Error" Value="製程錯誤" />
+		<Message Name="PROCESS_NAME" Value="製程名稱" />
+		<Message Name="Available Route" Value="可用途程" />
+		<Message Name="Route Name" Value="途程名稱" />
+		<Message Name="Route Description" Value="途程描述" />
+		<Message Name="Update Time" Value="更新時間" />
+		<Message Name="Not Found Route" Value="錯誤途程名稱" />
+		<Message Name="LOT" Value="屬於RC" />
+		<Message Name="SN" Value="屬於SN" />
+		<Message Name="Property" Value="屬性" />
+		<Message Name="Property_name" Value="屬性名稱" />
+		<Message Name="Property_value" Value="屬性值" />
+		<Message Name="Value_type" Value="類型" />
+		<Message Name="CostMaintain" Value="工時維護" />
+		<Message Name="Route" Value="途程" />
+		<Message Name="PROCESS_CODE" Value="製程編號" />
+		<Message Name="WKCENTER" Value="SAP工作中心名稱" />
+		<Message Name="CTRL_KEY" Value="CTRL_KEY" />
+		<Message Name="BASE_QTY" Value="BASE_QTY" />
+		<Message Name="STD_VALUE1" Value="整備時間" />
+		<Message Name="STD_UNIT1" Value="單位" />
+		<Message Name="STD_VALUE2" Value="機器時間" />
+		<Message Name="STD_UNIT2" Value="單位" />
+		<Message Name="STD_VALUE3" Value="製造時間" />
+		<Message Name="STD_UNIT3" Value="單位" />
+		<Message Name="STD_VALUE4" Value="間接費用" />
+		<Message Name="STD_UNIT4" Value="單位" />
+		<Message Name="STD_VALUE5" Value="其他費用" />
+		<Message Name="STD_UNIT5" Value="單位" />
+		<Message Name="History" Value="歷史記錄" />
+		<Message Name="UpdateTime" Value="資料異動時間" />
+		<Message Name="UpdateUser" Value="資料異動人員" />
+		<Message Name="Please input positive number." Value="請輸入正數" />
+		<Message Name="Over range" Value="超出存取範圍" />
+		<Message Name="Route Detail" Value="途程" />
+		<Message Name="Append" Value="新增" />
+		<Message Name="Modify" Value="修改" />
+		<Message Name="Delete" Value="刪除" />
+		<Message Name="Copy" Value="複製" />
+		<Message Name="Copy?" Value="是否確定複製?" />
+		<Message Name="fCopy" Value="複製" />
+		<Message Name="Search" Value="搜尋" />
+		<Message Name="ProductRule" Value="生產規範" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="SPEC_DESC" Value="生產規範" />
+		<Message Name="SPEC_VALUE" Value="規範值" />
+		<Message Name="Close" Value="關閉" />
+		<Message Name="SAP_FIELD_NAME" Value="生產規範代碼" />
+		<Message Name="OPTION5" Value="輕/重摻" />
+		<Message Name="Route ID" Value="途程ID" />
+		<Message Name="Not found default route, Please choose route!" Value="找不到預設途程，請先設定途程！" />
+		<Message Name="Please select row" Value="請選擇列" />
+		<Message Name="Please maintain route frist" Value="請先維護途程" />
+		<Message Name="Maintain working hours data first" Value="請先維護工時基本資料" />
+		<Message Name="ToERP Ok!" Value="To ERP成功！" />
+		<Message Name="ToERP fail!" Value="To ERP失敗！" />
+		<Message Name="LASER_RULE" Value="雷射規則" />
+		<Message Name="RULE_NAME" Value="雷射規則名稱" />
+		<Message Name="RULE_DESC" Value="雷射規則描述" />
+		<Message Name="This Route does not match the existing RC_NO" Value="此預設途程與現有生產批不符" />
+		<Message Name="PROCESS_CODE" Value="製程代碼" />
+		<Message Name="RC_NO" Value="生產批" />
+		<Message Name="Warning" Value="警告" />
+		<Message Name="WO Start Process does not exist in new Route" Value="工單起始製程不存在新途程" />
+		<Message Name="CUSTOMER_ID" Value="客戶ID" />
+		<Message Name="CUSTOMER_NAME" Value="客戶名稱" />
+		<Message Name="Filter" Value="篩選條件" />
+		<Message Name="After modify, data will must reActive, are you sure ?" Value="修改資料需重新核准，是否確定？" />
+		<Message Name="Data are so much, please use query conditions." Value="資料太多，請使用篩選條件。" />
+		<Message Name="Final Version error." Value="最後版號錯誤。" />
+
+		<Message Name="PART_NAME" Value="產品名稱" />
+		<Message Name="PART_STYLE" Value="產品型號" />
+		<Message Name="VERSION" Value="版本" />
+		<Message Name="FG_DEVICE" Value="入庫型號" />
+		<Message Name="FM_DEVICE" Value="回貨型號" />
+		<Message Name="INK" Value="正印" />
+		<Message Name="PKG_TYPE" Value="封裝型態" />
+		<Message Name="BIN_NUM" Value="腳數" />
+		<Message Name="DIE_HT" Value="DIE高度" />
+		<Message Name="DIE_WD" Value="DIE寬度" />
+		<Message Name="WAFER_SIZE" Value="Wafer尺寸" />
+		<Message Name="GROSS_DIE" Value="總個數" />
+		<Message Name="TEST_DIE" Value="測試個數" />
+		<Message Name="SAMPLE_DIE" Value="樣本個數" />
+		<Message Name="TEST_TYPE" Value="測試類型" />
+		<Message Name="WAFER_TYPE" Value="Wafer類型" />
+		<Message Name="CUP" Value="CUP" />
+		<Message Name="PB_FREE" Value="是否有鉛" />
+		<Message Name="BODY_SIZE" Value="材料尺寸" />
+		<Message Name="TRAY" Value="Tray基數" />
+		<Message Name="EC_QTY" Value="經濟批量" />
+		<Message Name="FC_HOUR" Value="預估所需時數" />
+		<Message Name="SORT_WAFER_NAME" Value="Wafer名稱排序" />
+		<Message Name="I_NO" Value="I_NO" />
+		<Message Name="FAB_PART_NO" Value="Fab料號" />
+		<Message Name="FAB_NAME" Value="Fab名稱" />
+		<Message Name="CEPT_12NC" Value="CEPT_12NC" />
+		<Message Name="ENABLE_DATE" Value="啟用日期" />
+		<Message Name="DISABLE_DATE" Value="停用日期" />
+		<Message Name="PRODUCT_CATEGORY" Value="產品類型" />
+		<Message Name="PRODUCT_USAGE" Value="產品用途" />
+		<Message Name="PRODUCT_ID" Value="MES產品編號" />
+		<Message Name="PRODUCT_ID_OLD" Value="舊版產品編號" />
+		<Message Name="PRE_MARKED" Value="預先蓋印" />
+		<Message Name="BARCODE_PRINT" Value="是否列印Barcode" />
+		<Message Name="MODULE_TEST" Value="是否Module Test貨批" />
+		<Message Name="CIS" Value="CIS Flag" />
+		<Message Name="BURN_CODE" Value="燒CODE" />
+		<Message Name="BURN_CODE_BIN" Value="Bin碼" />
+		<Message Name="KSV" Value="KSV檢查" />
+		<Message Name="TO_FILE" Value="是否I/O轉檔" />
+		<Message Name="BURN_IN" Value="是否需Burn In" />
+		<Message Name="BUMP_MAP" Value="Bump MAP" />
+		<Message Name="CAMERA" Value="監視器" />
+		<Message Name="TEMPAUTURE" Value="溫度量測元件" />
+		<Message Name="LOT_CYCLE_DAY" Value="Lot Cycle Day" />
+		<Message Name="LOT_YIELD" Value="Lot Yield (%)" />
+		<Message Name="X_MIL" Value="X Mil" />
+		<Message Name="Y_MIL" Value="Y Mil" />
+		<Message Name="F_N_DIRECTION" Value="Flat / Notch 方向" />
+		<Message Name="PROBING_DIRECTION" Value="Probing 方向" />
+		<Message Name="CUP_FLAG" Value="CUP Flag" />
+		<Message Name="NOTE" Value="備註" />
+		<Message Name="OPTION15" Value="機台標準溫度" />
+		<Message Name="IS_ACTIVE" Value="簽核" />
+		<Message Name="CLOSE" Value="關閉" />
+		<Message Name="No ERP data" Value="查無ERP資料" />
+		<Message Name="Data Invalid" Value="只允許填入數字" />
+		<Message Name="Filter" Value="過濾條件" />
+		<Message Name="Enabled" Value="啟用" />
+		<Message Name="Disabled" Value="停用" />
+		<Message Name="All" Value="全部" />
+		<Message Name="Export" Value="匯出" />
+		<Message Name="OK" Value="確定" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Description" Value="規格2" />
+		<Message Name="Confirm" Value="確定" />
+		<Message Name="Please choose ASM or STR !!" Value="請指定要複製成ASM或STR料號!!" />
+		<Message Name="Please choose the setting of serial number!!" Value="請指定料號流水號設定!!" />
+		<Message Name="The setting of serial number" Value="料號流水號設定" />
+		<Message Name="Same as original part no" Value="同原料號流水號" />
+		<Message Name="Plus 1" Value="原料號流水號加1" />
+		<Message Name="Notice!! This device no. already set to Part:" Value="注意，此產品型號已有設定給料號：" />
+		<Message Name="No ASM part defination from ERP!!" Value="無法找到此料號在ERP的ASM料號資訊，不允許建立STR料號!!" />
+		<Message Name="This PN has been produced and cannot be deleted!" Value="此料號已有生產批在製,不可刪除!!" />
+		<Message Name="Part no has been approved and cannot be modified" Value="此料號已簽核完成, 無法修改" />
+		<Message Name="Part no is under approving, the data cannot be modified" Value="此料號已發起簽核流程, 無法修改" />
+		<Message Name="SPEC2" Value="規格2" />
+		<Message Name="CAR_PRODUCT_FLAG" Value="是否為車用產品" />
+		<Message Name="Rule Set" Value="規則集合" />
+		<Message Name="Is Invalid" Value="無效" />
+		<Message Name="Pleae select again" Value="請重新選取" />
+		<Message Name="RC_PRINT_RULE_NAME" Value="流程卡規則" />
+		<Message Name="RUNCARD_RULE" Value="流程卡規則" />
+		<Message Name="SQL_SYNTAX is error" Value="SQL語法錯誤" />
+		<Message Name="Over flow{0}~{1}" Value="數值需介於{0}~{1}" />
+		<Message Name="PropertyName Repeat" Value="此屬性已使用" />
+		<Message Name="UNIT NO and CUNIT NO Repeat" Value="此單位轉換已重複" />
+		<Message Name="PROPERTY_DESC" Value="屬性說明" />
+		<Message Name="Unit" Value="單位" />
+		<Message Name="Parallel set" Value="並數成套" />
+		<Message Name="Thickness" Value="厚度規格" />
+		<Message Name="IQC" Value="進料檢驗" />
+		<Message Name="Material expiration date" Value="物料效期" />
+		<Message Name="Weight" Value="電池淨重" />
+		<Message Name="FLCB Union" Value="FLCB併數" />
+		<Message Name="Unit No" Value="單位" />
+		<Message Name="Cunit No" Value="轉換單位" />
+		<Message Name="Parallel Set" Value="並數成套(陰陽板)" />
+		<Message Name="Thickness" Value="厚度規格" />
+		<Message Name="QTY_PARALLEL" Value="並聯數量" />
+		<Message Name="UPPER_LIMIT" Value="規格上限" />
+		<Message Name="LOWER_LIMIT" Value="規格下限" />
+		<Message Name="AS" Value="鋁箔數量" />
+		<Message Name="CS" Value="銅箔數量" />
+		<Message Name="Data Duplicate" Value="資料重複" />
+		<Message Name="UNIT_X" Value="分子" />
+		<Message Name="UNIT_Y" Value="分母" />
+		<Message Name="Unit is Null" Value="單位為空值" />
+		<Message Name="Cunit is Null" Value="轉換單位為空值" />
+		<Message Name="X is Null" Value="分子為空值" />
+		<Message Name="Y is Null" Value="分母為空值" />
+		<Message Name="Must be a number" Value="必須為數值" />
+		<Message Name="Data has been setting" Value="資料已有設定" />
+		<Message Name="Unit No and CUnit No can't Duplicate" Value="單位與轉換單位不能重複" />
+		<Message Name="PropertyName is Null" Value="屬性名稱為空" />
+		<Message Name="PropertyName Repeat" Value="此屬性已使用" />
+		<Message Name="Data is null" Value="資料為空" />
+		<Message Name="Property is read only,can not be delete" Value="屬性為唯讀鎖定無法刪除" />
+		<Message Name="Please input correct Part name" Value="請輸入正確的料號名稱" />
+		<Message Name="Property List is null" Value="此料號無屬性群組" />
+		<Message Name="Value cannot be negative" Value="數值不得為負" />
+		<Message Name="Option" Value="項目"/>
+		<Message Name="fMultiSelect" Value="選取項目"/>
+		<Message Name="Please pick option to configration." Value="請選擇欲設定的項目"/>
+		<Message Name="ISENABLED" Value="可用" />
+		<Message Name="Default Route cannot be deleted" Value="預設途程不可刪除" />
+
+	</繁體中文>
+	<简体中文>
+		<Message Name="PART_NO" Value="料号" />
+		<Message Name="PART_TYPE" Value="产品群组" />
+		<Message Name="SPEC1" Value="规格1" />
+		<Message Name="DOPANT" Value="掺质" />
+		<Message Name="PRODUCT_TYPE" Value="产品类型" />
+		<Message Name="PRODUCT_CODE" Value="产品代码" />
+		<Message Name="Default Route" Value="预设途程" />
+		<Message Name="VERSION" Value="版本" />
+		<Message Name="UNIT" Value="单位" />
+		<Message Name="OPTION1" Value="尺寸" />
+		<Message Name="SIZE" Value="尺寸" />
+		<Message Name="OPTION3" Value="参考边类型" />
+		<Message Name="OPTION10" Value="晶向1" />
+		<Message Name="OPTION11" Value="晶向2" />
+		<Message Name="ROUTE_NAME" Value="途程名称" />
+		<Message Name="ROUTE_DESC" Value="途程描述" />
+		<Message Name="Data is null" Value="输入数据为空值" />
+		<Message Name="Data Duplicate" Value="输入数据重复" />
+		<Message Name="Sort Index Duplicate" Value="顺序索引重复" />
+		<Message Name="Are You Sure to Append Data" Value="你是否确定新增资料" />
+		<Message Name="Item Name Error" Value="项目名称错误" />
+		<Message Name="EMP_NO" Value="员工编号" />
+		<Message Name="Qty" Value="数量" />
+		<Message Name="Process Name" Value="制程" />
+		<Message Name="Value Type" Value="数据型态" />
+		<Message Name="Varchar(Format)" Value="字符串(有格式)" />
+		<Message Name="Varchar(Normal)" Value="字符串(无格式)" />
+		<Message Name="Number" Value="数值" />
+		<Message Name="Process Name Error" Value="制程错误" />
+		<Message Name="PROCESS_NAME" Value="制程名称" />
+		<Message Name="Available Route" Value="可用途程" />
+		<Message Name="Route Name" Value="途程名称" />
+		<Message Name="Route Description" Value="途程描述" />
+		<Message Name="Update Time" Value="更新时间" />
+		<Message Name="Not Found Route" Value="错误途程名称" />
+		<Message Name="LOT" Value="属于RC" />
+		<Message Name="SN" Value="属于SN" />
+		<Message Name="Property" Value="属性" />
+		<Message Name="Property_name" Value="属性名称" />
+		<Message Name="Property_value" Value="属性值" />
+		<Message Name="Value_type" Value="类型" />
+		<Message Name="CostMaintain" Value="工时维护" />
+		<Message Name="Route" Value="途程" />
+		<Message Name="PROCESS_CODE" Value="制程编号" />
+		<Message Name="WKCENTER" Value="SAP工作中心名称" />
+		<Message Name="CTRL_KEY" Value="CTRL_KEY" />
+		<Message Name="BASE_QTY" Value="BASE_QTY" />
+		<Message Name="STD_VALUE1" Value="整备时间" />
+		<Message Name="STD_UNIT1" Value="单位" />
+		<Message Name="STD_VALUE2" Value="机器时间" />
+		<Message Name="STD_UNIT2" Value="单位" />
+		<Message Name="STD_VALUE3" Value="制造时间" />
+		<Message Name="STD_UNIT3" Value="单位" />
+		<Message Name="STD_VALUE4" Value="间接费用" />
+		<Message Name="STD_UNIT4" Value="单位" />
+		<Message Name="STD_VALUE5" Value="其他费用" />
+		<Message Name="STD_UNIT5" Value="单位" />
+		<Message Name="History" Value="历史记录" />
+		<Message Name="UpdateTime" Value="资料异动时间" />
+		<Message Name="UpdateUser" Value="资料异动人员" />
+		<Message Name="Please input positive number." Value="请输入正数" />
+		<Message Name="Over range" Value="超出存取范围" />
+		<Message Name="Route Detail" Value="途程" />
+		<Message Name="Append" Value="新增" />
+		<Message Name="Modify" Value="修改" />
+		<Message Name="Delete" Value="删除" />
+		<Message Name="Copy" Value="复制" />
+		<Message Name="Copy?" Value="是否确定复制?" />
+		<Message Name="fCopy" Value="复制" />
+		<Message Name="Search" Value="搜寻" />
+		<Message Name="ProductRule" Value="生产规范" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="SPEC_DESC" Value="生产规范" />
+		<Message Name="SAP_FIELD_NAME" Value="生产规范代码" />
+		<Message Name="SPEC_VALUE" Value="规范值" />
+		<Message Name="Close" Value="关闭" />
+		<Message Name="OPTION5" Value="轻/重掺" />
+		<Message Name="Route ID" Value="途程ID" />
+		<Message Name="Not found default route, Please choose route!" Value="找不到预设途程，请先设定途程！" />
+		<Message Name="Please select row" Value="请选择列" />
+		<Message Name="Please maintain route frist" Value="请先维护途程" />
+		<Message Name="Maintain working hours data first" Value="请先维护工时基本资料" />
+		<Message Name="ToERP Ok!" Value="To ERP成功！" />
+		<Message Name="ToERP fail!" Value="To ERP失败！" />
+		<Message Name="LASER_RULE" Value="雷射规则" />
+		<Message Name="RULE_NAME" Value="雷射规则名称" />
+		<Message Name="RULE_DESC" Value="雷射规则描述" />
+		<Message Name="This Route does not match the existing RC_NO" Value="此预设途程与现有生产批不符" />
+		<Message Name="PROCESS_CODE" Value="制程代码" />
+		<Message Name="RC_NO" Value="生产批" />
+		<Message Name="Warning" Value="警告" />
+		<Message Name="WO Start Process does not exist in new Route" Value="工单起始制程不存在新途程" />
+		<Message Name="CUSTOMER_ID" Value="客户ID" />
+		<Message Name="CUSTOMER_NAME" Value="客户名称" />
+		<Message Name="Filter" Value="筛选条件" />
+		<Message Name="After modify, data will must reActive, are you sure ?" Value="修改资料需重新核准，是否确定？" />
+		<Message Name="Data are so much, please use query conditions." Value="数据太多，请使用筛选条件。" />
+		<Message Name="Final Version error." Value="最后版号错误。" />
+		<Message Name="PART_NAME" Value="产品名称" />
+		<Message Name="PART_STYLE" Value="产品型号" />
+		<Message Name="VERSION" Value="版本" />
+		<Message Name="FG_DEVICE" Value="入库型号" />
+		<Message Name="FM_DEVICE" Value="回货型号" />
+		<Message Name="PROD_USAGE" Value="产品用途" />
+		<Message Name="INK" Value="正印" />
+		<Message Name="PKG_TYPE" Value="封装型态" />
+		<Message Name="BIN_NUM" Value="脚数" />
+		<Message Name="DIE_HT" Value="DIE高度" />
+		<Message Name="DIE_WD" Value="DIE宽度" />
+		<Message Name="WAFER_SIZE" Value="Wafer尺寸" />
+		<Message Name="GROSS_DIE" Value="总个数" />
+		<Message Name="TEST_DIE" Value="测试个数" />
+		<Message Name="SAMPLE_DIE" Value="样本个数" />
+		<Message Name="TEST_TYPE" Value="测试类型" />
+		<Message Name="WAFER_TYPE" Value="Wafer类型" />
+		<Message Name="CUP" Value="杯" />
+		<Message Name="PB_FREE" Value="是否有铅" />
+		<Message Name="BODY_SIZE" Value="材料尺寸" />
+		<Message Name="TRAY" Value="Tray基数" />
+		<Message Name="EC_QTY" Value="经济批量" />
+		<Message Name="FC_HOUR" Value="预估所需时数" />
+		<Message Name="SORT_WAFER_NAME" Value="Wafer名称排序" />
+		<Message Name="I_NO" Value="I_NO" />
+		<Message Name="FAB_PART_NO" Value="Fab料号" />
+		<Message Name="FAB_NAME" Value="Fab名称" />
+		<Message Name="CEPT_12NC" Value="CEPT_12NC" />
+		<Message Name="ENABLE_DATE" Value="启用日期" />
+		<Message Name="DISABLE_DATE" Value="停用日期" />
+		<Message Name="PRODUCT_CATEGORY" Value="产品类型" />
+		<Message Name="PRODUCT_USAGE" Value="产品用途" />
+		<Message Name="PRODUCT_ID" Value="MES产品编号" />
+		<Message Name="PRODUCT_ID_OLD" Value="旧版产品编号" />
+		<Message Name="PRE_MARKED" Value="预先盖印" />
+		<Message Name="BARCODE_PRINT" Value="是否列印Barcode" />
+		<Message Name="MODULE_TEST" Value="是否Module Test货批" />
+		<Message Name="CIS" Value="独联体标志" />
+		<Message Name="BURN_CODE" Value="烧CODE" />
+		<Message Name="BURN_CODE_BIN" Value="Bin码" />
+		<Message Name="KSV" Value="KSV检查" />
+		<Message Name="TO_FILE" Value="是否I/O转档" />
+		<Message Name="BURN_IN" Value="是否需Burn In" />
+		<Message Name="BUMP_MAP" Value="Bump MAP" />
+		<Message Name="CAMERA" Value="监视器" />
+		<Message Name="TEMPAUTURE" Value="温度量测元件" />
+		<Message Name="LOT_CYCLE_DAY" Value="Lot Cycle Day" />
+		<Message Name="LOT_YIELD" Value="Lot Yield (%)" />
+		<Message Name="X_MIL" Value="X Mil" />
+		<Message Name="Y_MIL" Value="Y Mil" />
+		<Message Name="F_N_DIRECTION" Value="Flat / Notch 方向" />
+		<Message Name="PROBING_DIRECTION" Value="Probing 方向" />
+		<Message Name="CUP_FLAG" Value="CUP Flag" />
+		<Message Name="NOTE" Value="备注" />
+		<Message Name="OPTION15" Value="机台标准温度" />
+		<Message Name="IS_ACTIVE" Value="签核" />
+		<Message Name="CLOSE" Value="关闭" />
+		<Message Name="No ERP data" Value="查无ERP资料" />
+		<Message Name="Data Invalid" Value="只允许填入数字" />
+		<Message Name="OK" Value="確定" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Description" Value="规格2" />
+		<Message Name="Confirm" Value="確定" />
+		<Message Name="No ASM part defination from ERP!!" Value="无法找到此料号在ERP的ASM料号资讯，不允许建立STR料号!!" />
+		<Message Name="This PN has been produced and cannot be deleted!" Value="此料号已有生产批在制,不可删除!!" />
+		<Message Name="Part no has been approved and cannot be modified" Value="此料号已签核完成, 无法修改" />
+		<Message Name="Part no is under approving, the data cannot be modified" Value="此料号已发起签核流程, 无法修改" />
+		<Message Name="SPEC2" Value="规格2" />
+		<Message Name="CAR_PRODUCT_FLAG" Value="是否為车用产品" />
+		<Message Name="Rule Set" Value="规则集合" />
+		<Message Name="Is Invalid" Value="无效" />
+		<Message Name="Pleae select again" Value="请重新选取" />
+		<Message Name="RC_PRINT_RULE_NAME" Value="流程卡规则" />
+		<Message Name="RUNCARD_RULE" Value="流程卡规则" />
+		<Message Name="SQL_SYNTAX is error" Value="SQL语法错误" />
+		<Message Name="Over flow{0}~{1}" Value="数值需介于{0}~{1}" />
+		<Message Name="PropertyName Repeat" Value="此属性已使用" />
+		<Message Name="PROPERTY_DESC" Value="属性说明" />
+		<Message Name="Unit" Value="单位" />
+		<Message Name="Parallel set" Value="并数成套" />
+		<Message Name="Thickness" Value="厚度规格" />
+		<Message Name="IQC" Value="进料检验" />
+		<Message Name="Material expiration date" Value="物料效期" />
+		<Message Name="Weight" Value="电池淨重" />
+		<Message Name="FLCB Union" Value="FLCB併数" />
+		<Message Name="Unit No" Value="单位" />
+		<Message Name="Cunit No" Value="转换单位" />
+		<Message Name="Parallel Set" Value="并数成套(阴阳板)" />
+		<Message Name="Thickness" Value="厚度规格" />
+		<Message Name="QTY_PARALLEL" Value="并联数量" />
+		<Message Name="UPPER_LIMIT" Value="规格上限" />
+		<Message Name="LOWER_LIMIT" Value="规格下限" />
+		<Message Name="AS" Value="铝箔数量" />
+		<Message Name="CS" Value="铜箔数量" />
+		<Message Name="UNIT_X" Value="分子" />
+		<Message Name="UNIT_Y" Value="分母" />
+		<Message Name="Unit is Null" Value="单位为空值" />
+		<Message Name="Cunit is Null" Value="转换单位为空值入" />
+		<Message Name="X is Null" Value="分子为空值" />
+		<Message Name="Y is Null" Value="分母为空值" />
+		<Message Name="Must be a number" Value="必须为数值" />
+		<Message Name="PropertyName is Null" Value="属性名称为空" />
+		<Message Name="PropertyName Repeat" Value="此属性已使用" />
+		<Message Name="Data is null" Value="资料为空" />
+		<Message Name="Property is read only,can not be delete" Value="属性为唯读锁定无法删除" />
+		<Message Name="Please input correct Part name" Value="请输入正确的料号名称" />
+		<Message Name="Property List is null" Value="此料号无属性群组" />
+		<Message Name="Option" Value="项目"/>
+		<Message Name="fMultiSelect" Value="选取项目"/>
+		<Message Name="Please pick option to configration." Value="请选择欲设定的项目"/>
+		<Message Name="ISENABLED" Value="可用" />
+		<Message Name="Default Route cannot be deleted" Value="预设途程不可删除" />
+	</简体中文>
+       <Ngôn_ngữ_Việt> 
+<Message Name="PART_NO" Value="Mã linh kiện" />
+<Message Name="PART_TYPE" Value="Nhóm sản phẩm" />
+<Message Name="SPEC1" Value="Quy cách 1" />
+<Message Name="DOPANT" Value="Chất pha tạp" />
+<Message Name="PRODUCT_TYPE" Value="Loại sản phẩm" />
+<Message Name="PRODUCT_CODE" Value="Mã sản phẩm" />
+<Message Name="Default Route" Value="Lộ trình mặc định" />
+<Message Name="VERSION" Value="Phiên bản" />
+<Message Name="UNIT" Value="Đơn vị" />
+<Message Name="OPTION1" Value="Kích thước" />
+<Message Name="OPTION3" Value="Loại cạnh tham chiếu" />
+<Message Name="OPTION10" Value="Hướng tinh thể 1" />
+<Message Name="OPTION11" Value="Hướng tinh thể 2" />
+<Message Name="ROUTE_NAME" Value="Tên lộ trình" />
+<Message Name="ROUTE_DESC" Value="Mô tả lộ trình" />
+<Message Name="Data is null" Value="Dữ liệu trống" />
+<Message Name="Data Duplicate" Value="Dữ liệu trùng lặp" />
+<Message Name="Sort Index Duplicate" Value="Thứ tự sắp xếp trùng lặp" />
+<Message Name="Are You Sure to Append Data" Value="Bạn có chắc muốn thêm dữ liệu không?" />
+<Message Name="Item Name Error" Value="Tên mục không hợp lệ" />
+<Message Name="EMP_NO" Value="Mã nhân viên" />
+<Message Name="Qty" Value="Số lượng" />
+<Message Name="Process Name" Value="Công đoạn" />
+<Message Name="Value Type" Value="Kiểu dữ liệu" />
+<Message Name="Varchar(Format)" Value="Chuỗi ký tự (có định dạng)" />
+<Message Name="Varchar(Normal)" Value="Chuỗi ký tự (không định dạng)" />
+<Message Name="Number" Value="Số" />
+<Message Name="Process Name Error" Value="Tên công đoạn không hợp lệ" />
+<Message Name="PROCESS_NAME" Value="Tên công đoạn" />
+<Message Name="Available Route" Value="Lộ trình khả dụng" />
+<Message Name="Route Name" Value="Tên lộ trình" />
+<Message Name="Route Description" Value="Mô tả lộ trình" />
+<Message Name="Update Time" Value="Thời gian cập nhật" />
+<Message Name="Not Found Route" Value="Không tìm thấy lộ trình" />
+<Message Name="LOT" Value="Thuộc RC" />
+<Message Name="SN" Value="Thuộc SN" />
+<Message Name="Property" Value="Thuộc tính" />
+<Message Name="Property_name" Value="Tên thuộc tính" />
+<Message Name="Property_value" Value="Giá trị thuộc tính" />
+<Message Name="Value_type" Value="Loại" />
+<Message Name="CostMaintain" Value="Bảo trì giờ công" />
+<Message Name="Route" Value="Lộ trình" />
+<Message Name="PROCESS_CODE" Value="Mã công đoạn" />
+<Message Name="WKCENTER" Value="Tên trung tâm làm việc SAP" />
+<Message Name="CTRL_KEY" Value="CTRL_KEY" />
+<Message Name="BASE_QTY" Value="BASE_QTY" />
+<Message Name="STD_VALUE1" Value="Thời gian chuẩn bị" />
+<Message Name="STD_UNIT1" Value="Đơn vị" />
+<Message Name="STD_VALUE2" Value="Thời gian máy" />
+<Message Name="STD_UNIT2" Value="Đơn vị" />
+<Message Name="STD_VALUE3" Value="Thời gian sản xuất" />
+<Message Name="STD_UNIT3" Value="Đơn vị" />
+<Message Name="STD_VALUE4" Value="Chi phí gián tiếp" />
+<Message Name="STD_UNIT4" Value="Đơn vị" />
+<Message Name="STD_VALUE5" Value="Chi phí khác" />
+<Message Name="STD_UNIT5" Value="Đơn vị" />
+<Message Name="History" Value="Lịch sử" />
+<Message Name="UpdateTime" Value="Thời gian thay đổi" />
+<Message Name="UpdateUser" Value="Người thay đổi" />
+<Message Name="Please input positive number." Value="Vui lòng nhập số dương" />
+<Message Name="Over range" Value="Vượt phạm vi cho phép" />
+<Message Name="Route Detail" Value="Chi tiết lộ trình" />
+<Message Name="Append" Value="Thêm mới" />
+<Message Name="Modify" Value="Chỉnh sửa" />
+<Message Name="Delete" Value="Xóa" />
+<Message Name="Copy" Value="Sao chép" />
+<Message Name="Copy?" Value="Bạn có chắc muốn sao chép?" />
+<Message Name="fCopy" Value="Sao chép" />
+<Message Name="Search" Value="Tìm kiếm" />
+<Message Name="ProductRule" Value="Quy chuẩn sản xuất" />
+<Message Name="Version" Value="Phiên bản" />
+<Message Name="SPEC_DESC" Value="Quy chuẩn sản xuất" />
+<Message Name="SPEC_VALUE" Value="Giá trị quy chuẩn" />
+<Message Name="Close" Value="Đóng" />
+<Message Name="SAP_FIELD_NAME" Value="Mã quy chuẩn sản xuất" />
+<Message Name="OPTION5" Value="Pha tạp nhẹ/nặng" />
+<Message Name="Route ID" Value="ID lộ trình" />
+<Message Name="Not found default route, Please choose route!" Value="Không tìm thấy lộ trình mặc định, vui lòng thiết lập trước!" />
+<Message Name="Please select row" Value="Vui lòng chọn dòng" />
+<Message Name="Please maintain route frist" Value="Vui lòng bảo trì lộ trình trước" />
+<Message Name="Maintain working hours data first" Value="Vui lòng bảo trì dữ liệu giờ công trước" />
+<Message Name="ToERP Ok!" Value="Gửi lên ERP thành công!" />
+<Message Name="ToERP fail!" Value="Gửi lên ERP thất bại!" />
+<Message Name="LASER_RULE" Value="Quy tắc laser" />
+<Message Name="RULE_NAME" Value="Tên quy tắc laser" />
+<Message Name="RULE_DESC" Value="Mô tả quy tắc laser" />
+<Message Name="This Route does not match the existing RC_NO" Value="Lộ trình này không khớp với RC_NO hiện tại" />
+<Message Name="PROCESS_CODE" Value="Mã công đoạn" />
+<Message Name="RC_NO" Value="Mã lô sản xuất" />
+<Message Name="Warning" Value="Cảnh báo" />
+<Message Name="WO Start Process does not exist in new Route" Value="Công đoạn bắt đầu của WO không tồn tại trong lộ trình mới" />
+<Message Name="CUSTOMER_ID" Value="Mã khách hàng" />
+<Message Name="CUSTOMER_NAME" Value="Tên khách hàng" />
+<Message Name="Filter" Value="Điều kiện lọc" />
+<Message Name="After modify, data will must reActive, are you sure ?" Value="Dữ liệu sau khi sửa cần được phê duyệt lại, bạn có chắc không?" />
+<Message Name="Data are so much, please use query conditions." Value="Dữ liệu quá nhiều, vui lòng dùng điều kiện lọc." />
+<Message Name="Final Version error." Value="Lỗi phiên bản cuối." />
+<Message Name="PART_NAME" Value="Tên sản phẩm" />
+<Message Name="PART_STYLE" Value="Mẫu sản phẩm" />
+<Message Name="VERSION" Value="Phiên bản" />
+<Message Name="FG_DEVICE" Value="Mã thành phẩm nhập kho" />
+<Message Name="FM_DEVICE" Value="Mã hoàn trả" />
+<Message Name="INK" Value="Ink dương" />
+<Message Name="PKG_TYPE" Value="Loại đóng gói" />
+<Message Name="BIN_NUM" Value="Số chân" />
+<Message Name="DIE_HT" Value="Chiều cao DIE" />
+<Message Name="DIE_WD" Value="Chiều rộng DIE" />
+<Message Name="WAFER_SIZE" Value="Kích thước Wafer" />
+<Message Name="GROSS_DIE" Value="Tổng số lượng DIE" />
+<Message Name="TEST_DIE" Value="Số lượng DIE kiểm tra" />
+<Message Name="SAMPLE_DIE" Value="Số lượng mẫu" />
+<Message Name="TEST_TYPE" Value="Loại kiểm tra" />
+<Message Name="WAFER_TYPE" Value="Loại Wafer" />
+<Message Name="CUP" Value="CUP" />
+<Message Name="PB_FREE" Value="Không chì" />
+<Message Name="BODY_SIZE" Value="Kích thước vật liệu" />
+<Message Name="TRAY" Value="Dung lượng Tray" />
+<Message Name="EC_QTY" Value="Lô kinh tế" />
+<Message Name="FC_HOUR" Value="Thời gian ước tính" />
+<Message Name="SORT_WAFER_NAME" Value="Thứ tự tên Wafer" />
+<Message Name="I_NO" Value="I_NO" />
+<Message Name="FAB_PART_NO" Value="Mã linh kiện Fab" />
+<Message Name="FAB_NAME" Value="Tên Fab" />
+<Message Name="CEPT_12NC" Value="CEPT_12NC" />
+<Message Name="ENABLE_DATE" Value="Ngày kích hoạt" />
+<Message Name="DISABLE_DATE" Value="Ngày ngừng dùng" />
+<Message Name="PRODUCT_CATEGORY" Value="Loại sản phẩm" />
+<Message Name="PRODUCT_USAGE" Value="Ứng dụng sản phẩm" />
+<Message Name="PRODUCT_ID" Value="Mã sản phẩm MES" />
+<Message Name="PRODUCT_ID_OLD" Value="Mã sản phẩm cũ" />
+<Message Name="PRE_MARKED" Value="Đánh dấu trước" />
+<Message Name="BARCODE_PRINT" Value="In mã vạch" />
+<Message Name="MODULE_TEST" Value="Lô kiểm tra Module" />
+<Message Name="CIS" Value="CIS Flag" />
+<Message Name="BURN_CODE" Value="Burn CODE" />
+<Message Name="BURN_CODE_BIN" Value="Mã Bin" />
+<Message Name="KSV" Value="Kiểm tra KSV" />
+<Message Name="TO_FILE" Value="Xuất file I/O" />
+<Message Name="BURN_IN" Value="Yêu cầu Burn In" />
+<Message Name="BUMP_MAP" Value="Bump MAP" />
+<Message Name="CAMERA" Value="Camera" />
+<Message Name="TEMPAUTURE" Value="Cảm biến nhiệt độ" />
+<Message Name="LOT_CYCLE_DAY" Value="Lot Cycle Day" />
+<Message Name="LOT_YIELD" Value="Lot Yield (%)" />
+<Message Name="X_MIL" Value="X Mil" />
+<Message Name="Y_MIL" Value="Y Mil" />
+<Message Name="F_N_DIRECTION" Value="Hướng Flat / Notch" />
+<Message Name="PROBING_DIRECTION" Value="Hướng Probing" />
+<Message Name="CUP_FLAG" Value="CUP Flag" />
+<Message Name="NOTE" Value="Ghi chú" />
+<Message Name="OPTION15" Value="Nhiệt độ chuẩn máy" />
+<Message Name="IS_ACTIVE" Value="Phê duyệt" />
+<Message Name="CLOSE" Value="Đóng" />
+<Message Name="No ERP data" Value="Không tìm thấy dữ liệu ERP" />
+<Message Name="Data Invalid" Value="Chỉ được nhập số" />
+<Message Name="Filter" Value="Điều kiện lọc" />
+<Message Name="Enabled" Value="Kích hoạt" />
+<Message Name="Disabled" Value="Ngừng kích hoạt" />
+<Message Name="All" Value="Tất cả" />
+<Message Name="Export" Value="Xuất dữ liệu" />
+<Message Name="OK" Value="Xác nhận" />
+<Message Name="Cancel" Value="Hủy" />
+<Message Name="Description" Value="Quy cách 2" />
+<Message Name="Confirm" Value="Xác nhận" />
+<Message Name="Please choose ASM or STR !!" Value="Vui lòng chọn tạo mã ASM hoặc STR!!" />
+<Message Name="Please choose the setting of serial number!!" Value="Vui lòng chỉ định thiết lập số sê-ri!!" />
+<Message Name="The setting of serial number" Value="Thiết lập số sê-ri sản phẩm" />
+<Message Name="Same as original part no" Value="Giống số sê-ri ban đầu" />
+<Message Name="Plus 1" Value="Số sê-ri tăng thêm 1" />
+<Message Name="Notice!! This device no. already set to Part:" Value="Lưu ý: Mã thiết bị này đã được gán cho mã linh kiện:" />
+<Message Name="No ASM part defination from ERP!!" Value="Không tìm thấy thông tin ASM từ ERP, không thể tạo STR!!" />
+<Message Name="This PN has been produced and cannot be deleted!" Value="Mã linh kiện đã có lô sản xuất, không thể xóa!!" />
+<Message Name="Part no has been approved and cannot be modified" Value="Mã linh kiện đã phê duyệt, không thể chỉnh sửa" />
+<Message Name="Part no is under approving, the data cannot be modified" Value="Mã linh kiện đang trong quy trình phê duyệt, không thể chỉnh sửa" />
+<Message Name="SPEC2" Value="Quy cách 2" />
+<Message Name="CAR_PRODUCT_FLAG" Value="Sản phẩm dùng cho ô tô" />
+<Message Name="Rule Set" Value="Tập quy tắc" />
+<Message Name="Is Invalid" Value="Không hợp lệ" />
+<Message Name="Pleae select again" Value="Vui lòng chọn lại" />
+<Message Name="RC_PRINT_RULE_NAME" Value="Quy tắc in thẻ quy trình" />
+<Message Name="RUNCARD_RULE" Value="Quy tắc thẻ quy trình" />
+<Message Name="SQL_SYNTAX is error" Value="Cú pháp SQL sai" />
+<Message Name="Over flow{0}~{1}" Value="Giá trị phải nằm trong khoảng {0}~{1}" />
+<Message Name="PropertyName Repeat" Value="Thuộc tính này đã được sử dụng" />
+<Message Name="UNIT NO and CUNIT NO Repeat" Value="Đơn vị và đơn vị chuyển đổi bị trùng lặp" />
+<Message Name="PROPERTY_DESC" Value="Mô tả thuộc tính" />
+<Message Name="Unit" Value="Đơn vị" />
+<Message Name="Parallel set" Value="Song song bộ" />
+<Message Name="Thickness" Value="Độ dày" />
+<Message Name="IQC" Value="Kiểm tra nhập liệu" />
+<Message Name="Material expiration date" Value="Hạn sử dụng vật liệu" />
+<Message Name="Weight" Value="Trọng lượng pin" />
+<Message Name="FLCB Union" Value="Gộp FLCB" />
+<Message Name="Unit No" Value="Đơn vị" />
+<Message Name="Cunit No" Value="Đơn vị chuyển đổi" />
+<Message Name="Parallel Set" Value="Song song bộ (PCB Âm/Dương)" />
+<Message Name="Thickness" Value="Độ dày" />
+<Message Name="QTY_PARALLEL" Value="Số lượng song song" />
+<Message Name="UPPER_LIMIT" Value="Giới hạn trên" />
+<Message Name="LOWER_LIMIT" Value="Giới hạn dưới" />
+<Message Name="AS" Value="Số lượng nhôm" />
+<Message Name="CS" Value="Số lượng đồng" />
+<Message Name="Data Duplicate" Value="Dữ liệu trùng lặp" />
+<Message Name="UNIT_X" Value="Tử số" />
+<Message Name="UNIT_Y" Value="Mẫu số" />
+<Message Name="Unit is Null" Value="Đơn vị trống" />
+<Message Name="Cunit is Null" Value="Đơn vị chuyển đổi trống" />
+<Message Name="X is Null" Value="Tử số trống" />
+<Message Name="Y is Null" Value="Mẫu số trống" />
+<Message Name="Must be a number" Value="Phải là số" />
+<Message Name="Data has been setting" Value="Dữ liệu đã được thiết lập" />
+<Message Name="Unit No and CUnit No can't Duplicate" Value="Đơn vị và đơn vị chuyển đổi không thể trùng nhau" />
+<Message Name="PropertyName is Null" Value="Tên thuộc tính trống" />
+<Message Name="PropertyName Repeat" Value="Thuộc tính đã được sử dụng" />
+<Message Name="Data is null" Value="Dữ liệu trống" />
+<Message Name="Property is read only,can not be delete" Value="Thuộc tính là chỉ đọc, không thể xóa" />
+<Message Name="Please input correct Part name" Value="Vui lòng nhập đúng tên mã linh kiện" />
+<Message Name="Property List is null" Value="Mã linh kiện không có nhóm thuộc tính" />
+<Message Name="Value cannot be negative" Value="Giá trị không được âm" />
+<Message Name="Option" Value="Tùy chọn" />
+<Message Name="fMultiSelect" Value="Chọn mục" />
+<Message Name="Please pick option to configration." Value="Vui lòng chọn mục để thiết lập" />
+<Message Name="ISENABLED" Value="Có hiệu lực" />
+<Message Name="Default Route cannot be deleted" Value="Không thể xóa lộ trình mặc định" />
+       </Ngôn_ngữ_Việt>
+
+</Chroma>

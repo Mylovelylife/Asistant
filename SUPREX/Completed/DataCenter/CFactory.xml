@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma> 
+  <English>              
+      <Message Name="Factory Code" Value="Factory Code"/>
+      <Message Name="Factory Name" Value="Factory Name"/>
+      <Message Name="Description" Value="Description"/>
+	  <Message Name="Factory Label" Value="Factory Label"/>
+  </English>
+  <繁體中文>                 
+      <Message Name="Factory Code" Value="廠別代碼"/>
+      <Message Name="Factory Name" Value="廠別名稱"/>
+      <Message Name="Description" Value="廠別描述"/>
+	  <Message Name="Factory Label" Value="廠別標籤"/>
+  </繁體中文>
+  <简体中文>
+      <Message Name="Factory Code" Value="厂别代码"/>
+      <Message Name="Factory Name" Value="厂别名称"/>
+      <Message Name="Description" Value="厂别描述"/>
+	  <Message Name="Factory Label" Value="厂别标签"/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="Factory Code" Value="Mã nhà máy"/><Message Name="Factory Name" Value="Tên nhà máy"/><Message Name="Description" Value="Mô tả nhà máy"/><Message Name="Factory Label" Value="Nhãn nhà máy"/></Ngôn_ngữ_Việt></Chroma>

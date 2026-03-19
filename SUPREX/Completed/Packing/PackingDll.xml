@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<繁體中文>
+		<Message Name="Current / Total" Value="目前箱數/總箱數"/>
+		<Message Name="Label Type" Value="標籤類型"/>
+		<Message Name="Label Name" Value="標籤名稱"/>
+		<Message Name="Print QTY" Value="份數"/>
+		<Message Name="Select" Value="選擇"/>
+		<Message Name="Printer" Value="印表機"/>
+		<Message Name="Printer Status" Value="狀態"/>
+		<Message Name="PDLine" Value="生產線"/>
+		<Message Name="Terminal" Value="作業站"/>
+		<Message Name="Target Qty" Value="目標量"/>
+		<Message Name="Packed Qty" Value="包裝量"/>
+		<Message Name="Carton Lot Number is " Value="此批總箱數"/>
+		<Message Name="This Lot Close" Value="此批已完成"/>
+		<Message Name="Input Carton Lot Number " Value="請輸入正確總箱數"/>
+		<Message Name="Input Number in Carton Lot Number" Value="請輸入數字"/>
+		<Message Name="Version" Value="版本"/>
+		<Message Name="Change" Value="更換"/>
+		<Message Name="OK" Value="確定"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Search" Value="搜尋條件"/>
+		<Message Name="Clear" Value="清除"/>
+		<Message Name="Work Order" Value="工單"/>
+		<Message Name="WORK_ORDER" Value="工單"/>
+		<Message Name="Part No" Value="料號"/>
+		<Message Name="PART NO" Value="料號"/>
+		<Message Name="KEY PARTS" Value="料件序號"/>
+		<Message Name="Packing Base" Value="包裝依據"/>
+		<Message Name="Packing Spec" Value="包裝方式"/>
+		<Message Name="Item No" Value="項次"/>
+		<Message Name="Ship No" Value="出貨序號"/>
+		<Message Name="Att No" Value="附件序號"/>
+		<Message Name="Pack Date" Value="包裝時間"/>
+		<Message Name="Box" Value="彩盒"/>
+		<Message Name="Carton" Value="箱號"/>
+		<Message Name="Pallet" Value="棧板"/>
+		<Message Name="Total:" Value="累計總量："/>
+		<Message Name="Change Spec" Value="更改規格"/>
+		<Message Name="Close Pallet" Value="關閉棧板"/>
+		<Message Name="Pallet No" Value="棧板號"/>
+		<Message Name="Close Carton" Value="關閉箱"/>
+		<Message Name="Carton No" Value="箱號"/>
+		<Message Name="Close Box" Value="關閉彩盒"/>
+		<Message Name="Box No" Value="彩盒號"/>
+		<Message Name="Close Inner Box" Value="關閉內袋"/>
+		<Message Name="Inner Box" Value="內袋號"/>
+		<Message Name="Inner" Value="內袋"/>
+		<Message Name="Serial Number" Value="序號"/>
+		<Message Name="Customer SN" Value="出貨序號"/>
+		<Message Name="Sub WO SN" Value="子工單序號"/>
+		<Message Name="Defect Code" Value="不良現象代碼"/>
+		<Message Name="Description" Value="描述說明"/>
+		<Message Name="Packing Action" Value="包裝動作"/>
+		<Message Name="S/N" Value="序號"/>
+		<Message Name="Packing Spec." Value="包裝方式"/>
+		<Message Name="Capacity" Value="容量"/>
+		<Message Name="Quantity" Value="數量"/>
+		<Message Name="Employee No" Value="員工帳號"/>
+		<Message Name="Password" Value="密碼"/>
+		<Message Name="All Pack Spec" Value="所有包裝方式"/>
+		<Message Name="Sort" Value="排序"/>
+		<Message Name="Work Order OK" Value="工單正確"/>
+		<Message Name="By Work Order" Value="依工單"/>
+		<Message Name="By Part No" Value="依料號"/>
+		<Message Name="Customer SN Duplicate" Value="客戶序號重複"/>
+		<Message Name="NO SN" Value="序號錯誤"/>
+		<Message Name="No CSN Rule" Value="客戶序號規則未設定"/>
+		<Message Name="Print label is null" Value="工單料號對應的打印標籤未設置"/>
+		<Message Name="Pls set printer" Value="請設置標籤對應的打印機"/>
+		<Message Name="Pls select printer" Value="請選擇打印機"/>
+		<Message Name="Printer not ready" Value="打印機沒有準備OK"/>
+		<Message Name="KeyPart S/N" Value="料件序號"/>
+		<Message Name="Process Name" Value="製程"/>
+		<Message Name="KPSN Had Used" Value="料件序號已被使用"/>
+		<Message Name="KP not in BOM" Value="料件不存在BOM中"/>
+		<Message Name="KeyPart S/N OK" Value="料件序號輸入OK"/>
+		<Message Name="Input Keyparts" Value="料件輸"/>
+		<Message Name="Keypart List(Bom)" Value="料件清單(Bom)"/>
+		<Message Name="Assembly List" Value="已組裝清單"/>
+		<Message Name="Part Error" Value="料號錯誤"/>
+		<Message Name="Please Input KeyPart S/N" Value="請輸入料件序號"/>
+		<Message Name="Pls edit sub WO SN" Value="請輸入子工單序號"/>
+		<Message Name="Pls edit part no" Value="請輸入附件料號"/>
+		<Message Name="Pls edit CSN" Value="請輸入出貨序號"/>
+		<Message Name="Terminal Name" Value="工作站"/>
+		<Message Name="Stage Name" Value="區段"/>
+		<Message Name="PDLine Name" Value="線別"/>
+		<Message Name="Remove KeyPart" Value="移除料件"/>
+		<Message Name="Finish Assembly Qty" Value="應組數量已達到"/>
+		<Message Name="Assy Qty" Value="已組裝數量"/>
+		<Message Name="Qty" Value="數量"/>
+		<Message Name="Group" Value="料件關係"/>
+		<Message Name="Finish" Value="完成"/>
+		<Message Name="Pack Info" Value="包裝內容"/>
+		<Message Name="doesn't exist(release)" Value="不是已展開序號"/>
+		<Message Name="Set Packing Config" Value="維護包裝設定"/>
+		<Message Name="Weight" Value="稱重"/>
+		<Message Name="Refresh" Value="刷新"/>
+		<Message Name="Bom Type" Value="Bom類型"/>
+		<Message Name="Input Can't SN" Value="輸入不能是SN序號"/>
+		<Message Name="Input Can't CSN" Value="輸入不能是出貨序號"/>
+		<Message Name="Input Can't WO" Value="輸入不能是工單號"/>
+		<Message Name="" Value=""/>
+		<Message Name="" Value=""/>
+
+	</繁體中文>
+<Ngôn_ngữ_Việt><Message Name="Current / Total" Value="Số thùng hiện tại / Tổng số thùng"/><Message Name="Label Type" Value="Loại nhãn"/><Message Name="Label Name" Value="Tên nhãn"/><Message Name="Print QTY" Value="Số bản in"/><Message Name="Select" Value="Chọn"/><Message Name="Printer" Value="Máy in"/><Message Name="Printer Status" Value="Trạng thái"/><Message Name="PDLine" Value="Dây chuyền"/><Message Name="Terminal" Value="Trạm làm việc"/><Message Name="Target Qty" Value="Sản lượng mục tiêu"/><Message Name="Packed Qty" Value="Số lượng đóng gói"/><Message Name="Carton Lot Number is " Value="Tổng số thùng của lô này"/><Message Name="This Lot Close" Value="Lô này đã hoàn thành"/><Message Name="Input Carton Lot Number " Value="Vui lòng nhập tổng số thùng đúng"/><Message Name="Input Number in Carton Lot Number" Value="Vui lòng nhập số"/><Message Name="Version" Value="Phiên bản"/><Message Name="Change" Value="Thay đổi"/><Message Name="OK" Value="OK"/><Message Name="Cancel" Value="Hủy"/><Message Name="Search" Value="Điều kiện tìm kiếm"/><Message Name="Clear" Value="Xóa"/><Message Name="Work Order" Value="Lệnh sản xuất"/><Message Name="WORK_ORDER" Value="Lệnh sản xuất"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="PART NO" Value="Mã linh kiện"/><Message Name="KEY PARTS" Value="Số sê-ri bộ phận"/><Message Name="Packing Base" Value="Căn cứ đóng gói"/><Message Name="Packing Spec" Value="Phương thức đóng gói"/><Message Name="Item No" Value="Mục"/><Message Name="Ship No" Value="Số xuất hàng"/><Message Name="Att No" Value="Số phụ kiện"/><Message Name="Pack Date" Value="Thời gian đóng gói"/><Message Name="Box" Value="Hộp màu"/><Message Name="Carton" Value="Số thùng"/><Message Name="Pallet" Value="Pallet"/><Message Name="Total:" Value="Tổng số lượng:"/><Message Name="Change Spec" Value="Thay đổi quy cách"/><Message Name="Close Pallet" Value="Đóng pallet"/><Message Name="Pallet No" Value="Số pallet"/><Message Name="Close Carton" Value="Đóng thùng"/><Message Name="Carton No" Value="Số thùng"/><Message Name="Close Box" Value="Đóng hộp màu"/><Message Name="Box No" Value="Số hộp màu"/><Message Name="Close Inner Box" Value="Đóng túi trong"/><Message Name="Inner Box" Value="Số túi trong"/><Message Name="Inner" Value="Túi trong"/><Message Name="Serial Number" Value="Số sê-ri"/><Message Name="Customer SN" Value="Số xuất hàng"/><Message Name="Sub WO SN" Value="Số sê-ri lệnh con"/><Message Name="Defect Code" Value="Mã lỗi"/><Message Name="Description" Value="Mô tả"/><Message Name="Packing Action" Value="Hành động đóng gói"/><Message Name="S/N" Value="Số sê-ri"/><Message Name="Packing Spec." Value="Phương thức đóng gói"/><Message Name="Capacity" Value="Dung lượng"/><Message Name="Quantity" Value="Số lượng"/><Message Name="Employee No" Value="Tài khoản nhân viên"/><Message Name="Password" Value="Mật khẩu"/><Message Name="All Pack Spec" Value="Tất cả phương thức đóng gói"/><Message Name="Sort" Value="Sắp xếp"/><Message Name="Work Order OK" Value="Lệnh sản xuất đúng"/><Message Name="By Work Order" Value="Theo lệnh sản xuất"/><Message Name="By Part No" Value="Theo mã linh kiện"/><Message Name="Customer SN Duplicate" Value="Số xuất hàng bị trùng"/><Message Name="NO SN" Value="Sai số sê-ri"/><Message Name="No CSN Rule" Value="Chưa thiết lập quy tắc số xuất hàng"/><Message Name="Print label is null" Value="Chưa thiết lập nhãn in tương ứng"/><Message Name="Pls set printer" Value="Vui lòng thiết lập máy in"/><Message Name="Pls select printer" Value="Vui lòng chọn máy in"/><Message Name="Printer not ready" Value="Máy in chưa sẵn sàng"/><Message Name="KeyPart S/N" Value="Số sê-ri bộ phận"/><Message Name="Process Name" Value="製程"/><Message Name="KPSN Had Used" Value="料件序號已被使用"/><Message Name="KP not in BOM" Value="Không tồn tại trong BOM"/><Message Name="KeyPart S/N OK" Value="Số sê-ri bộ phận hợp lệ"/><Message Name="Input Keyparts" Value="料件輸"/><Message Name="Keypart List(Bom)" Value="料件清單(Bom)"/><Message Name="Assembly List" Value="已組裝清單"/><Message Name="Part Error" Value="料號錯誤"/><Message Name="Please Input KeyPart S/N" Value="Vui lòng nhập số sê-ri bộ phận"/><Message Name="Pls edit sub WO SN" Value="Vui lòng nhập số sê-ri lệnh con"/><Message Name="Pls edit part no" Value="Vui lòng nhập mã linh kiện phụ kiện"/><Message Name="Pls edit CSN" Value="Vui lòng nhập số xuất hàng"/><Message Name="Terminal Name" Value="Trạm làm việc"/><Message Name="Stage Name" Value="Khu vực"/><Message Name="PDLine Name" Value="Dòng sản xuất"/><Message Name="Remove KeyPart" Value="Xóa bộ phận"/><Message Name="Finish Assembly Qty" Value="Đã đạt số lượng cần lắp ráp"/><Message Name="Assy Qty" Value="Số lượng đã lắp"/><Message Name="Qty" Value="Số lượng"/><Message Name="Group" Value="Quan hệ bộ phận"/><Message Name="Finish" Value="Hoàn thành"/><Message Name="Pack Info" Value="Nội dung đóng gói"/><Message Name="doesn't exist(release)" Value="Không phải số sê-ri mở rộng"/><Message Name="Set Packing Config" Value="Cấu hình đóng gói"/><Message Name="Weight" Value="Cân"/><Message Name="Refresh" Value="Làm mới"/><Message Name="Bom Type" Value="Loại BOM"/><Message Name="Input Can't SN" Value="Không được nhập số sê-ri SN"/><Message Name="Input Can't CSN" Value="Không được nhập số xuất hàng CSN"/><Message Name="Input Can't WO" Value="Không được nhập số lệnh sản xuất"/><Message Name="" Value=""/><Message Name="" Value=""/></Ngôn_ngữ_Việt></Chroma>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+	<English>
+		<Message Name="Employee No" Value="Employee No"/>
+		<Message Name="Employee Name" Value="Employee Name"/>
+		<Message Name="Department" Value="Department"/>
+		<Message Name="Shift" Value="Shift"/>
+		<Message Name="Quit Date" Value="Quit Date"/>
+		<Message Name="EMail" Value="EMail"/>
+		<Message Name="Mobile EMail" Value="Mobile EMail"/>
+		<Message Name="Host Name" Value="Host Name"/>
+		<Message Name="Remark" Value="Remark"/>
+		<Message Name="Training List" Value="Training List"/>
+
+		<Message Name="Select All" Value="Select All"/>
+		<Message Name="Select None" Value="Select None"/>
+		<Message Name="Role Name" Value="Role Name"/>
+		<Message Name="Role Description" Value="Role Description"/>
+
+		<Message Name="FACTORY_NAME" Value="Factory"/>
+		<Message Name="Factory" Value="Factory"/>
+		<Message Name="Role" Value="Role"/>
+		<Message Name="Reset Password" Value="Reset Password"/>
+
+		<Message Name="Reset Password OK" Value="Reset Password OK"/>
+		<Message Name="Car Products" Value="Car Products"/>
+	</English>
+	<繁體中文>
+
+		<Message Name="Role Assign" Value="角色指定"/>
+		<Message Name="Employee No" Value="員工編號"/>
+		<Message Name="Employee Name" Value="員工名字"/>
+		<Message Name="Department" Value="部門"/>
+		<Message Name="Shift" Value="班別"/>
+		<Message Name="Quit Date" Value="離職日期"/>
+		<Message Name="EMail" Value="電子郵件"/>
+		<Message Name="Mobile EMail" Value="訊息郵件"/>
+		<Message Name="Host Name" Value="主機名稱"/>
+		<Message Name="Remark" Value="備註"/>
+		<Message Name="Training List" Value="訓練列表"/>
+
+		<Message Name="Select All" Value="全選"/>
+		<Message Name="Select None" Value="取消全選"/>
+		<Message Name="Role Name" Value="角色名稱"/>
+		<Message Name="Role Description" Value="角色描述"/>
+
+		<Message Name="FACTORY_NAME" Value="廠別"/>
+		<Message Name="Factory" Value="廠別"/>
+		<Message Name="Role" Value="角色"/>
+		<Message Name="Reset Password" Value="重設密碼"/>
+
+		<Message Name="Reset Password OK" Value="重設密碼完成"/>
+		<Message Name="Car Products" Value="生產車用產品"/>
+		<Message Name="Yes" Value="是"/>
+		<Message Name="No" Value="否"/>
+		<Message Name="Employee_Name" Value="員工名字"/>
+		<Message Name="QUIT_DATE" Value="離職日期"/>
+		<Message Name="UPDATE_USER" Value="異動人員"/>
+		<Message Name="History" Value="歷史紀錄"/>
+		<Message Name="Lock Time" Value="鎖定日期"/>
+
+		<Message Name="Confirm to unlock this account?" Value="確認要解除鎖定?"/>
+		<Message Name="Unlock" Value="解鎖"/>
+		<Message Name="User is not locked cannot unlock" Value="使用者非鎖定中無法解鎖"/>
+		
+	</繁體中文>
+	<简体中文>
+		<Message Name="Role Assign" Value="角色指定"/>
+		<Message Name="Employee No" Value="员工编号"/>
+		<Message Name="Employee Name" Value="员工名字"/>
+		<Message Name="Department" Value="部门"/>
+		<Message Name="Shift" Value="班别"/>
+		<Message Name="Quit Date" Value="离职日期"/>
+		<Message Name="EMail" Value="电子邮件"/>
+		<Message Name="Mobile EMail" Value="讯息邮件"/>
+		<Message Name="Host Name" Value="主机名称"/>
+		<Message Name="Remark" Value="备注"/>
+		<Message Name="Training List" Value="训练列表"/>
+
+		<Message Name="Select All" Value="全选"/>
+		<Message Name="Select None" Value="取消全选"/>
+		<Message Name="Role Name" Value="角色名称"/>
+		<Message Name="Role Description" Value="角色描述"/>
+
+		<Message Name="FACTORY_NAME" Value="厂别"/>
+		<Message Name="Factory" Value="厂别"/>
+		<Message Name="Role" Value="角色"/>
+		<Message Name="Reset Password" Value="重设密码"/>
+
+		<Message Name="Reset Password OK" Value="重设密码完成"/>
+		<Message Name="Car Products" Value="生产车用产品"/>
+		<Message Name="Yes" Value="是"/>
+		<Message Name="No" Value="否"/>
+		<Message Name="Employee_Name" Value="员工名字"/>
+		<Message Name="QUIT_DATE" Value="离职日期"/>
+		<Message Name="UPDATE_USER" Value="异动人员"/>
+		<Message Name="History" Value="历史纪录"/>
+		<Message Name="Lock Time" Value="锁定日期"/>
+
+		<Message Name="Confirm to unlock this account?" Value="确认要解除锁定?"/>
+		<Message Name="Unlock" Value="解锁"/>
+		<Message Name="User is not locked cannot unlock" Value="使用者非锁定中无法解锁"/>
+		
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Role Assign" Value="Chỉ định vai trò"/><Message Name="Employee No" Value="Mã nhân viên"/><Message Name="Employee Name" Value="Tên nhân viên"/><Message Name="Department" Value="Bộ phận"/><Message Name="Shift" Value="Ca làm việc"/><Message Name="Quit Date" Value="Ngày nghỉ việc"/><Message Name="EMail" Value="Email"/><Message Name="Mobile EMail" Value="Email di động"/><Message Name="Host Name" Value="Tên máy chủ"/><Message Name="Remark" Value="Ghi chú"/><Message Name="Training List" Value="Danh sách đào tạo"/><Message Name="Select All" Value="Chọn tất cả"/><Message Name="Select None" Value="Bỏ chọn tất cả"/><Message Name="Role Name" Value="Tên vai trò"/><Message Name="Role Description" Value="Mô tả vai trò"/><Message Name="FACTORY_NAME" Value="Nhà máy"/><Message Name="Factory" Value="Nhà máy"/><Message Name="Role" Value="Vai trò"/><Message Name="Reset Password" Value="Đặt lại mật khẩu"/><Message Name="Reset Password OK" Value="Đặt lại mật khẩu thành công"/><Message Name="Car Products" Value="Sản phẩm ô tô"/><Message Name="Yes" Value="Có"/><Message Name="No" Value="Không"/><Message Name="Employee_Name" Value="Tên nhân viên"/><Message Name="QUIT_DATE" Value="Ngày nghỉ việc"/><Message Name="UPDATE_USER" Value="Người cập nhật"/><Message Name="History" Value="Lịch sử"/><Message Name="Lock Time" Value="Thời gian khóa"/><Message Name="Confirm to unlock this account?" Value="Xác nhận mở khóa tài khoản này?"/><Message Name="Unlock" Value="Mở khóa"/><Message Name="User is not locked cannot unlock" Value="Tài khoản không bị khóa, không thể mở khóa"/></Ngôn_ngữ_Việt></Chroma>

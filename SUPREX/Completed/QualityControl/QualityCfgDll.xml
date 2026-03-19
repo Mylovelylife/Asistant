@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文>
+    <Message Name="OK" Value="確定"/>
+    <Message Name="Factory" Value="廠別"/>
+    <Message Name="Production Line" Value="生產線別"/>
+    <Message Name="Terminal" Value="工作站"/>
+    <Message Name="Process" Value="製程"/>
+    <Message Name="Stage" Value="區段"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Station" Value="作業站"/>
+    <Message Name="Maximun Pallet Count In Lot" Value="一批內最大棧板個數"/>
+    <Message Name="Pallet Qty Limit" Value="棧板個數限制"/>
+    <Message Name="Check Keyparts" Value="檢查料件"/>
+    <Message Name="Keyparts" Value="料件"/>
+    <Message Name="After Reject" Value="在 Reject 之後"/>
+    <Message Name="After Pass / Waive" Value="在 Pass / Waive之後"/>
+    <Message Name="Clear Carton / Pallet / Lot No" Value="清除 箱號 / 棧板 / 批號"/>
+    <Message Name="Option" Value="選項"/>
+    <Message Name="List" Value="清單"/>    
+    <Message Name="Selected Item" Value="Selected Item"/>
+  </繁體中文>
+<Ngôn_ngữ_Việt><Message Name="OK" Value="OK"/><Message Name="Factory" Value="Nhà máy"/><Message Name="Production Line" Value="Dây chuyền sản xuất"/><Message Name="Terminal" Value="Trạm làm việc"/><Message Name="Process" Value="Công đoạn"/><Message Name="Stage" Value="Khu vực"/><Message Name="Cancel" Value="Hủy"/><Message Name="Station" Value="Trạm thao tác"/><Message Name="Maximun Pallet Count In Lot" Value="Số lượng pallet tối đa trong một lô"/><Message Name="Pallet Qty Limit" Value="Giới hạn số lượng pallet"/><Message Name="Check Keyparts" Value="Kiểm tra linh kiện"/><Message Name="Keyparts" Value="Linh kiện"/><Message Name="After Reject" Value="Sau khi Reject"/><Message Name="After Pass / Waive" Value="Sau khi Pass / Waive"/><Message Name="Clear Carton / Pallet / Lot No" Value="Xóa số thùng / pallet / lô"/><Message Name="Option" Value="Tùy chọn"/><Message Name="List" Value="Danh sách"/><Message Name="Selected Item" Value="Mục đã chọn"/></Ngôn_ngữ_Việt></Chroma>

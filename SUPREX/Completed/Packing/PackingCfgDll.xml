@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文>
+    <Message Name="OK" Value="確定"/>
+    <Message Name="Factory" Value="廠別"/>
+    <Message Name="Production Line" Value="生產線別"/>
+    <Message Name="Terminal" Value="工作站"/>
+    <Message Name="Process" Value="製程"/>
+    <Message Name="Stage" Value="區段"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Station" Value="作業站"/>
+    <Message Name="CapsLock On" Value="字元轉大寫"/>
+    <Message Name="Input Defect" Value="允許輸入不良"/>
+    <Message Name="Packing Action" Value="包裝動作"/>
+    <Message Name="Rule Function" Value="檢查規則"/>
+    <Message Name="Packing Base" Value="包裝依據"/>
+    <Message Name="Create Type" Value="產生方式"/>
+    <Message Name="Print Label" Value="標籤列印"/>
+    <Message Name="Print Port" Value="列印埠"/>
+    <Message Name="Print Method" Value="列印方式"/>
+    <Message Name="Print Qty" Value="張數"/>
+    <Message Name="Pallet No" Value="棧板號"/>
+    <Message Name="Create Type" Value="產生方式"/>
+    <Message Name="Carton No" Value="箱號"/>
+    <Message Name="Box No" Value="彩盒號"/>
+    <Message Name="Customer SN" Value="出貨序號"/>
+    <Message Name="Option" Value="選項"/>
+    <Message Name="Work Order" Value="工單"/>
+    <Message Name="Part No" Value="料號"/>
+    <Message Name="Input" Value="手動輸入"/>
+    <Message Name="System Create" Value="系統自動產生"/>
+    <Message Name="Don't Change" Value="不變(或沒有)"/>
+    <Message Name="CSN=SN" Value="出貨序號=廠內序號"/>
+    <Message Name="Input (Released)" Value="手動輸入(已展開)"/>
+    <Message Name="CSN=SN (Check)" Value="出貨序號=廠內序號 (需檢查)"/>
+    <Message Name="Remove Customer SN(Defect)" Value="移除出貨序號(不良時)"/>
+		<Message Name="Input(Range)" Value="手動輸入(檢查序號範圍)"/>
+		<Message Name="Input(Length)" Value="手動輸入(檢查長度)"/>
+		<Message Name="Weight Carton" Value="是否秤重箱號"/>
+		<Message Name="Weight" Value="秤重"/>
+		<Message Name="Attachment Bags" Value="包裝附件數"/>
+		<Message Name="Attachment Rule" Value="附件盒規則"/>
+		<Message Name="Input Attachment Bags Is Not Number!" Value="輸入的包裝的個數不是數字！"/>
+		<Message Name="Insert into SYS_MODULE_PARAM error!" Value="插入表 SYS_MODUAL_PARAM 錯誤！"/>
+		<Message Name="Please Input Part No Prefix" Value="請輸入料號關鍵字至少五碼"/>
+		<Message Name="Part Error" Value="料號錯誤"/>
+		<Message Name="Part No" Value="料號"/>
+		<Message Name="Please Enter Part" Value="請確認料號"/>
+		<Message Name="Sub WO SN dose not match" Value="子工單序號不匹配"/>
+		<Message Name="Sub WO SN Not Output" Value="子工單序號未產出"/>
+		<Message Name="NO Sub WO SN" Value="子工單序號不存在"/>
+		<Message Name="" Value=""/>
+		<Message Name="" Value=""/>
+		<Message Name="" Value=""/>
+
+	</繁體中文>
+<Ngôn_ngữ_Việt><Message Name="OK" Value="OK"/><Message Name="Factory" Value="Nhà máy"/><Message Name="Production Line" Value="Dây chuyền sản xuất"/><Message Name="Terminal" Value="Trạm làm việc"/><Message Name="Process" Value="Công đoạn"/><Message Name="Stage" Value="Khu vực"/><Message Name="Cancel" Value="Hủy"/><Message Name="Station" Value="Trạm thao tác"/><Message Name="CapsLock On" Value="Bật CapsLock"/><Message Name="Input Defect" Value="Cho phép nhập lỗi"/><Message Name="Packing Action" Value="Hành động đóng gói"/><Message Name="Rule Function" Value="Quy tắc kiểm tra"/><Message Name="Packing Base" Value="Căn cứ đóng gói"/><Message Name="Create Type" Value="Phương thức tạo"/><Message Name="Print Label" Value="In nhãn"/><Message Name="Print Port" Value="Cổng in"/><Message Name="Print Method" Value="Phương thức in"/><Message Name="Print Qty" Value="Số lượng nhãn"/><Message Name="Pallet No" Value="Số pallet"/><Message Name="Create Type" Value="Phương thức tạo"/><Message Name="Carton No" Value="Số thùng"/><Message Name="Box No" Value="Số hộp màu"/><Message Name="Customer SN" Value="Số xuất hàng"/><Message Name="Option" Value="Tùy chọn"/><Message Name="Work Order" Value="Lệnh sản xuất"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="Input" Value="Nhập thủ công"/><Message Name="System Create" Value="Hệ thống tự động tạo"/><Message Name="Don't Change" Value="Không thay đổi (hoặc không có)"/><Message Name="CSN=SN" Value="Số xuất hàng = số nội bộ"/><Message Name="Input (Released)" Value="Nhập thủ công (đã mở rộng)"/><Message Name="CSN=SN (Check)" Value="Số xuất hàng = số nội bộ (cần kiểm tra)"/><Message Name="Remove Customer SN(Defect)" Value="Xóa số xuất hàng (khi lỗi)"/><Message Name="Input(Range)" Value="Nhập thủ công (kiểm tra phạm vi SN)"/><Message Name="Input(Length)" Value="Nhập thủ công (kiểm tra độ dài)"/><Message Name="Weight Carton" Value="Có cân trọng lượng thùng?"/><Message Name="Weight" Value="Cân"/><Message Name="Attachment Bags" Value="Số lượng phụ kiện đóng gói"/><Message Name="Attachment Rule" Value="Quy tắc hộp phụ kiện"/><Message Name="Input Attachment Bags Is Not Number!" Value="Số lượng phụ kiện nhập không phải số!"/><Message Name="Insert into SYS_MODULE_PARAM error!" Value="Lỗi khi chèn vào bảng SYS_MODULE_PARAM!"/><Message Name="Please Input Part No Prefix" Value="Vui lòng nhập tối thiểu 5 ký tự mã linh kiện"/><Message Name="Part Error" Value="Sai mã linh kiện"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="Please Enter Part" Value="Vui lòng xác nhận mã linh kiện"/><Message Name="Sub WO SN dose not match" Value="Số SN của công đoạn con không khớp"/><Message Name="Sub WO SN Not Output" Value="SN của công đoạn con chưa được tạo"/><Message Name="NO Sub WO SN" Value="SN của công đoạn con không tồn tại"/><Message Name="" Value=""/><Message Name="" Value=""/><Message Name="" Value=""/></Ngôn_ngữ_Việt></Chroma>

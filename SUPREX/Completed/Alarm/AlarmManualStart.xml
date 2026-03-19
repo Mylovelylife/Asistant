@@ -1,0 +1,134 @@
+﻿<Chroma>
+  <English>
+    <Message Name="MAIL_GROUP_NAME" Value="Mail Group" />
+  </English>
+  <繁體中文>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Disabled" Value="停用"/>
+    <Message Name="Enabled" Value="啟用"/>
+    <Message Name="Delete" Value="刪除"/>
+    <Message Name="Employee" Value="角色賦予"/>
+    <Message Name="Export" Value="匯出"/>
+    <Message Name="Filter" Value="條件"/>
+
+
+    <Message Name="Event Type" Value="事件類型" />
+    <Message Name="Mail Group" Value="通知群組" />
+    <Message Name="Item Code" Value="事件項目代碼" />
+    <Message Name="Item Desc" Value="事件項目說明" />
+    <Message Name="Step" Value="層級" />
+    <Message Name="Level" Value="事件等級" />
+    <Message Name="Mail Group" Value="通知群組" />
+    <Message Name="Select All" Value="全部勾選" />
+    <Message Name="Select None" Value="取消全選" />
+    <Message Name="Event Time" Value="可處理時間" />
+    <Message Name="Machine Type" Value="機台類型" />
+    <Message Name="Line" Value="線別" />
+    <Message Name="Stage" Value="區段" />
+    <Message Name="Process" Value="製程" />
+    <Message Name="Terminal" Value="工作站" />
+    <Message Name="(Mins.)" Value="(分)" />
+    <Message Name="Mail Subject" Value="郵件主旨" />
+    <Message Name="Include Detail Data" Value="含細項資料" />
+    <Message Name="PDLINE_NAME" Value="線別" />
+    <Message Name="PDLINE_DESC" Value="線別描述" />
+    <Message Name="STAGE_NAME" Value="區段" />
+    <Message Name="STAGE_DESC" Value="區段描述" />
+    <Message Name="PROCESS_NAME" Value="製程" />
+    <Message Name="PROCESS_DESC" Value="製程描述" />
+    <Message Name="Event Name" Value="事件" />
+    <Message Name="WORK_ORDER" Value="工單" />
+    <Message Name="Work Order" Value="工單" />
+    <Message Name="PART_NO" Value="料號" />
+    <Message Name="Factory" Value="廠別" />
+    <Message Name="Station" Value="工作站" />
+    <Message Name="Sure to Create a Event" Value="確定要建立此事件" />
+    <Message Name="Event Create OK" Value="事件建立完成" />
+    <Message Name="Exception Reason" Value="異常原因" />
+    <Message Name="Exception Description" Value="異常描述" />
+    <Message Name="NO DEFINE EVENT ITEM" Value="沒有事件" />
+    <Message Name="NO DEFINE EVENT STEP" Value="沒有定義事件層級" />
+    <Message Name="Save" Value="儲存" />
+    <Message Name="Notice" Value="通知" />
+    <Message Name="Minor" Value="一般" />
+    <Message Name="Major" Value="嚴重" />
+    <Message Name="Critical" Value="極嚴重" />
+    <Message Name="Please Input Exception Reason" Value="請輸入異常原因" />
+
+
+
+
+  </繁體中文>
+<Ngôn_ngữ_Việt>
+  <Message Name="Append" Value="Thêm mới"/>
+<Message Name="Modify" Value="Chỉnh sửa"/>
+<Message Name="Disabled" Value="Vô hiệu lực"/>
+<Message Name="Enabled" Value="Có hiệu lực"/>
+<Message Name="Delete" Value="Xóa"/>
+<Message Name="Employee" Value="Gán vai trò"/>
+<Message Name="Export" Value="Xuất dữ liệu"/>
+<Message Name="Filter" Value="Điều kiện"/>
+
+<Message Name="Event Type" Value="Loại sự kiện" />
+<Message Name="Mail Group" Value="Nhóm thông báo" />
+\Message Name="Item Code" Value="Mã mục sự kiện" />
+<Message Name="Item Desc" Value="Mô tả mục sự kiện" />
+<Message Name="Step" Value="Cấp độ" />
+<Message Name="Level" Value="Mức độ sự kiện" />
+<Message Name="Mail Group" Value="Nhóm thông báo" />
+<Message Name="Select All" Value="Chọn tất cả" />
+<Message Name="Select None" Value="Bỏ chọn tất cả" />
+<Message Name="Event Time" Value="Thời gian có thể xử lý" />
+<Message Name="Machine Type" Value="Loại máy" />
+<Message Name="Line" Value="Dây chuyền" />
+<Message Name="Stage" Value="Công đoạn" />
+<Message Name="Process" Value="Quy trình" />
+<Message Name="Terminal" Value="Trạm làm việc" />
+<Message Name="(Mins.)" Value="(phút)" />
+<Message Name="Mail Subject" Value="Tiêu đề email" />
+<Message Name="Include Detail Data" Value="Bao gồm dữ liệu chi tiết" />
+<Message Name="PDLINE_NAME" Value="Dây chuyền" />
+<Message Name="PDLINE_DESC" Value="Mô tả dây chuyền" />
+<Message Name="STAGE_NAME" Value="Công đoạn" />
+<Message Name="STAGE_DESC" Value="Mô tả công đoạn" />
+<Message Name="PROCESS_NAME" Value="Quy trình" />
+<Message Name="PROCESS_DESC" Value="Mô tả quy trình" />
+<Message Name="Event Name" Value="Sự kiện" />
+<Message Name="WORK_ORDER" Value="Lệnh sản xuất" />
+<Message Name="Work Order" Value="Lệnh sản xuất" />
+<Message Name="PART_NO" Value="Mã linh kiện" />
+<Message Name="Factory" Value="Nhà máy" />
+<Message Name="Station" Value="Trạm làm việc" />
+<Message Name="Sure to Create a Event" Value="Bạn có chắc muốn tạo sự kiện này không?" />
+<Message Name="Event Create OK" Value="Tạo sự kiện thành công" />
+<Message Name="Exception Reason" Value="Nguyên nhân bất thường" />
+<Message Name="Exception Description" Value="Mô tả bất thường" />
+<Message Name="NO DEFINE EVENT ITEM" Value="Chưa định nghĩa mục sự kiện" />
+<Message Name="NO DEFINE EVENT STEP" Value="Chưa định nghĩa cấp độ sự kiện" />
+<Message Name="Save" Value="Lưu" />
+<Message Name="Notice" Value="Thông báo" />
+<Message Name="Minor" Value="Nhẹ" />
+<Message Name="Major" Value="Nghiêm trọng" />
+<Message Name="Critical" Value="Rất nghiêm trọng" />
+<Message Name="Please Input Exception Reason" Value="Vui lòng nhập nguyên nhân bất thường" />
+</Ngôn_ngữ_Việt>
+
+  <简体中文>
+    <Message Name="MAIL_GROUP_NAME" Value="通知群组" />
+    <Message Name="Event Name" Value="事件名称" />
+    <Message Name="Step" Value="层级" />
+    <Message Name="Mail Group" Value="通知群组" />
+    <Message Name="Select All" Value="全部勾选" />
+    <Message Name="Select None" Value="取消全选" />
+    <Message Name="Event Time" Value="可处理时间" />
+    <Message Name="Machine Type" Value="机台类型" />
+    <Message Name="Line" Value="线别" />
+    <Message Name="Stage" Value="区段" />
+    <Message Name="Process" Value="制程" />
+    <Message Name="Terminal" Value="工作站" />
+    <Message Name="(Mins.)" Value="(分)" />
+    <Message Name="Machine" Value="机台" />
+    <Message Name="Include Detail Data" Value="含细项资料" />
+  </简体中文>
+</Chroma>

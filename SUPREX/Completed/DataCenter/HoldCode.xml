@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<繁體中文>
+		<Message Name="HOLD_CODE" Value="鎖定代碼" />
+		<Message Name="HOLD_NAME" Value="鎖定名稱" />
+		<Message Name="HOLD_CODE_DESC" Value="鎖定代碼描述" />
+		<Message Name="Emp No" Value="責任人編號" />
+		<Message Name="EMP_NO" Value="責任人編號" />
+		<Message Name="Emp Name" Value="責任人" />
+		<Message Name="EMP_NAME" Value="責任人" />
+		<Message Name="Data No Exist" Value="數據不存在" />
+		<Message Name="Data Modify OK" Value="資料修改成功" />
+		<Message Name="Data ALTER OK" Value="資料修改成功" />
+		
+		
+		
+		<Message Name="Role ID" Value="角色編號" />
+		<Message Name="Role Info" Value="角色名稱" />
+		<Message Name="Role Description" Value="角色描述" />
+		<Message Name="ROLE_ID" Value="角色編號" />
+		<Message Name="ROLE_INFO" Value="角色名稱" />
+		<Message Name="ROLE_DESC" Value="角色描述" />
+		<Message Name="DEPT_ID" Value="部門" />
+		<Message Name="DEPT_NAME" Value="部門" />
+		
+		
+		
+		
+		
+		
+		
+		
+
+	</繁體中文>
+	<简体中文>
+		<Message Name="HOLD_CODE" Value="锁定代码" />
+		<Message Name="HOLD_NAME" Value="锁定名称" />
+		<Message Name="HOLD_CODE_DESC" Value="锁定代码描述" />
+		<Message Name="Emp No" Value="责任人编号" />
+		<Message Name="EMP_NO" Value="责任人编号" />
+		<Message Name="Emp Name" Value="责任人" />
+		<Message Name="EMP_NAME" Value="责任人" />
+		<Message Name="Data No Exist" Value="数据不存在" />
+		<Message Name="Data Modify OK" Value="数据修改成功" />
+		<Message Name="Data ALTER OK" Value="数据修改成功" />
+		
+		
+		
+		<Message Name="Role ID" Value="角色编号" />
+		<Message Name="Role Info" Value="角色名称" />
+		<Message Name="Role Description" Value="角色描述" />
+		<Message Name="ROLE_ID" Value="角色编号" />
+		<Message Name="ROLE_INFO" Value="角色名称" />
+		<Message Name="ROLE_DESC" Value="角色描述" />
+		<Message Name="DEPT_ID" Value="部门" />
+		<Message Name="DEPT_NAME" Value="部门" />
+
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="HOLD_CODE" Value="Mã Khoá" /><Message Name="HOLD_NAME" Value="Tên Khoá" /><Message Name="HOLD_CODE_DESC" Value="Mô Tả Mã Khoá" /><Message Name="Emp No" Value="Mã Người Phụ Trách" /><Message Name="EMP_NO" Value="Mã Người Phụ Trách" /><Message Name="Emp Name" Value="Người Phụ Trách" /><Message Name="EMP_NAME" Value="Người Phụ Trách" /><Message Name="Data No Exist" Value="Dữ Liệu Không Tồn Tại" /><Message Name="Data Modify OK" Value="Cập Nhật Dữ Liệu Thành Công" /><Message Name="Data ALTER OK" Value="Cập Nhật Dữ Liệu Thành Công" /><Message Name="Role ID" Value="Mã Vai Trò" /><Message Name="Role Info" Value="Tên Vai Trò" /><Message Name="Role Description" Value="Mô Tả Vai Trò" /><Message Name="ROLE_ID" Value="Mã Vai Trò" /><Message Name="ROLE_INFO" Value="Tên Vai Trò" /><Message Name="ROLE_DESC" Value="Mô Tả Vai Trò" /><Message Name="DEPT_ID" Value="Bộ Phận" /><Message Name="DEPT_NAME" Value="Bộ Phận" /></Ngôn_ngữ_Việt></Chroma>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma><English>
+		<Message Name="CUSTOMER_NAME" Value="Customer Name" />
+		<Message Name="PROD_USAGE" Value="Product Usage" />
+		<Message Name="PD_STYLE" Value="Device NO" />
+		<Message Name="PRODUCT_TYPE" Value="Product Type" />
+		<Message Name="SAMPLING_TYPE" Value="Sampling Name" />
+		<Message Name="SAMPLING_DESC" Value="Sampling Desc" />
+		<Message Name="PART_NO" Value="Part NO" />
+		<Message Name="VERSION" Value="Version" />
+		<Message Name="PROCESS_NAME" Value="Process Name" />
+		<Message Name="ENABLED" Value="Sampling Enabled" />
+		<Message Name="OK" Value="OK" />
+		<Message Name="CANCEL" Value="Cancel" />
+		<Message Name="SELECT" Value="Select" />
+		<Message Name="CLEAR" Value="Clear" />
+		<Message Name="DATA_DUPLICATE" Value="Data Duplicate" />
+		<Message Name="NO_SELECT_CUSTOMER" Value="Please Select Customer" />
+		<Message Name="NO_SELECT_SAMPLING_TYPE" Value="Please Select Sampling Name" />
+		<Message Name="Export_Completed" Value="Export Completed" />
+	</English>
+	<繁體中文>
+		<Message Name="CUSTOMER_NAME" Value="客戶名稱" />
+		<Message Name="PROD_USAGE" Value="產品用途" />
+		<Message Name="PD_STYLE" Value="產品型號" />
+		<Message Name="PRODUCT_TYPE" Value="產品類型" />
+		<Message Name="SAMPLING_TYPE" Value="抽樣計劃" />
+		<Message Name="SAMPLING_DESC" Value="抽樣計劃描述" />
+		<Message Name="PART_NO" Value="料號" />
+	    <Message Name="VERSION" Value="版本" />
+		<Message Name="PROCESS_NAME" Value="製程名稱" />
+		<Message Name="ENABLED" Value="抽樣計劃是否啟用" />
+		<Message Name="OK" Value="確定" />
+		<Message Name="CANCEL" Value="取消" />
+		<Message Name="SELECT" Value="選取" />
+		<Message Name="CLEAR" Value="清除" />
+		<Message Name="DATA_DUPLICATE" Value="資料重複" />
+		<Message Name="NO_SELECT_CUSTOMER" Value="請選擇客戶" />
+		<Message Name="NO_SELECT_SAMPLING_TYPE" Value="請選擇抽樣計劃" />
+		<Message Name="Export_Completed" Value="資料匯出已完成" />
+	</繁體中文>
+	<简体中文>
+		<Message Name="CUSTOMER_NAME" Value="客户名称" />
+		<Message Name="PROD_USAGE" Value="产品用途" />
+		<Message Name="PD_STYLE" Value="产品型号" />
+		<Message Name="PRODUCT_TYPE" Value="产品类型" />
+		<Message Name="SAMPLING_TYPE" Value="抽样计划" />
+		<Message Name="SAMPLING_DESC" Value="抽样计划描述" />
+		<Message Name="PART_NO" Value="料号" />
+		<Message Name="VERSION" Value="版本" />
+		<Message Name="PROCESS_NAME" Value="制程名称" />
+		<Message Name="ENABLED" Value="抽樣計劃是否啟用" />
+		<Message Name="OK" Value="确定" />
+		<Message Name="CANCEL" Value="取消" />
+		<Message Name="SELECT" Value="选取" />
+		<Message Name="CLEAR" Value="清除" />
+		<Message Name="DATA_DUPLICATE" Value="资料重复" />
+		<Message Name="NO_SELECT_CUSTOMER" Value="请选择客户" />
+		<Message Name="NO_SELECT_SAMPLING_TYPE" Value="请选择抽样计划" />
+		<Message Name="Export_Completed" Value="资料汇出已完成" />
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="CUSTOMER_NAME" Value="Tên Khách Hàng" /><Message Name="PROD_USAGE" Value="Công Dụng Sản Phẩm" /><Message Name="PD_STYLE" Value="Mã Model Sản Phẩm" /><Message Name="PRODUCT_TYPE" Value="Loại Sản Phẩm" /><Message Name="SAMPLING_TYPE" Value="Kế Hoạch Lấy Mẫu" /><Message Name="SAMPLING_DESC" Value="Mô Tả Kế Hoạch Lấy Mẫu" /><Message Name="PART_NO" Value="Mã Linh Kiện" /><Message Name="VERSION" Value="Phiên Bản" /><Message Name="PROCESS_NAME" Value="Tên Công Đoạn" /><Message Name="ENABLED" Value="Kế Hoạch Lấy Mẫu Được Kích Hoạt" /><Message Name="OK" Value="Xác Nhận" /><Message Name="CANCEL" Value="Hủy" /><Message Name="SELECT" Value="Chọn" /><Message Name="CLEAR" Value="Xóa" /><Message Name="DATA_DUPLICATE" Value="Dữ Liệu Trùng Lặp" /><Message Name="NO_SELECT_CUSTOMER" Value="Vui Lòng Chọn Khách Hàng" /><Message Name="NO_SELECT_SAMPLING_TYPE" Value="Vui Lòng Chọn Kế Hoạch Lấy Mẫu" /><Message Name="Export_Completed" Value="Xuất Dữ Liệu Hoàn Tất" /></Ngôn_ngữ_Việt></Chroma>

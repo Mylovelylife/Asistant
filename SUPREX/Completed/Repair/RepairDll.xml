@@ -1,0 +1,498 @@
+﻿<Chroma>
+	<繁體中文>
+		<Message Name="Please Input Employee ID" Value="請輸入確認人員工號" />
+		<Message Name="Item Remark" Value="零件備註" />
+		<Message Name="Error Point" Value="不良焊點數" />
+		<Message Name="Check" Value="確認" />
+		<Message Name="Comfirm EmpID" Value="確認人員" />
+		<Message Name="Repair and Comfirm are the same Employee! Please Scan again." Value="維修與確認為相同人員! 請重新輸入." />
+		<Message Name="Defect Code" Value="不良現象代碼" />
+		<Message Name="Location" Value="插件位置" />
+		<Message Name="OK" Value="確定" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Search" Value="搜尋條件" />
+		<Message Name="Defect" Value="不良現象" />
+		<Message Name="Reason Code" Value="不良原因代碼" />
+		<Message Name="Duty Code" Value="責任類別代碼" />
+		<Message Name="Item No" Value="零件編號" />
+		<Message Name="Delete" Value="刪除" />
+		<Message Name="Add" Value="新增" />
+		<Message Name="Item" Value="零件" />
+		<Message Name="Serial Number" Value="序號" />
+		<Message Name="Reason History" Value="不良原因歷史紀錄" />
+		<Message Name="Remark" Value="備註說明" />
+		<Message Name="Count" Value="計算" />
+		<Message Name="Description" Value="描述說明" />
+		<Message Name="Description(2)" Value="描述說明(2)" />
+		<Message Name="Enabled" Value="可用" />
+		<Message Name="Keyparts" Value="料件" />
+		<Message Name="Remove ALL" Value="全部移除" />
+		<Message Name="Save" Value="儲存" />
+		<Message Name="Yes" Value="是" />
+		<Message Name="No" Value="否" />
+		<Message Name="Broken?" Value="損壞?" />
+		<Message Name="New Keypart SN" Value="新的料件序號" />
+		<Message Name="Replace" Value="替換" />
+		<Message Name="Keypart No" Value="料件編號" />
+		<Message Name="Keypart SN" Value="料件序號" />
+		<Message Name="Spec" Value="描述" />
+		<Message Name="Replace" Value="替換" />
+		<Message Name="Remove" Value="移除" />
+		<Message Name="Finish" Value="完成" />
+		<Message Name="Repairer No" Value="維修人員" />
+		<Message Name="Defect Terminal" Value="不良工作站" />
+		<Message Name="Defect Process" Value="不良製程" />
+		<Message Name="Defect Line" Value="不良線別" />
+		<Message Name="Part No" Value="料號" />
+		<Message Name="Work Order" Value="工單" />
+		<Message Name="S/N Information" Value="序號資訊" />
+		<Message Name="Repair" Value="維修" />
+		<Message Name="Defect Information" Value="不良現象資訊" />
+		<Message Name="Reason Information" Value="不良原因資訊" />
+		<Message Name="Scrap" Value="報廢" />
+		<Message Name="All KP" Value="包含所有料件" />
+		<Message Name="Keyparts Replace History" Value="料件替換歷史" />
+		<Message Name="S/N Repaired History" Value="序號維修歷史" />
+		<Message Name="Old Keypart SN" Value="舊的料件序號" />
+		<Message Name="Replace Time" Value="替換時間" />
+		<Message Name="Repair Process" Value="維修製程" />
+		<Message Name="Reason" Value="不良原因" />
+		<Message Name="Duty" Value="責任類別" />
+		<Message Name="Defect Time" Value="不良時間" />
+		<Message Name="Repair Time" Value="維修時間" />
+		<Message Name="Can't Delete this Defect Code" Value="不能刪除此不良代碼" />
+		<Message Name="Delete Defect Code ?" Value="刪除此不良代碼 ?" />
+		<Message Name="Reason Code Duplicate" Value="不良原因代碼重複" />
+		<Message Name="Please input Location" Value="請輸入零件位置" />
+		<Message Name="Please input Item No" Value="請輸入零件料號" />
+		<Message Name="Please input Location or Item No" Value="請輸入零件位置 或 零件料號" />
+		<Message Name="Please input Location and Item No" Value="請輸入零件位置 和 零件料號" />
+		<Message Name="Duty Code Error" Value="責任類別代碼錯誤" />
+		<Message Name="Reason Code Error" Value="不良原因代碼錯誤" />
+		<Message Name="Repair not Complete" Value="維修未完成" />
+		<Message Name="Scrap SN" Value="報廢序號" />
+		<Message Name="Customer S/N" Value="客戶序號" />
+		<Message Name="Item Error" Value="零件編號錯誤" />
+		<Message Name="Item Duplicate" Value="零件編號重複" />
+		<Message Name="Vendor Code Error" Value="供應商代碼錯誤" />
+		<Message Name="Vendor Code is Invalid" Value="供應商代碼已停用" />
+		<Message Name="Vendor Code" Value="供應商代碼" />
+		<Message Name="Vendor Name" Value="供應商" />
+		<Message Name="Lot No" Value="批號" />
+		<Message Name="Repair Item" Value="維修零件" />
+		<Message Name="Replace Item" Value="替換零件" />
+		<Message Name="Please Input Item No" Value="請輸入零件編號" />
+		<Message Name="Item Spec" Value="零件規格" />
+		<Message Name="Material Replace History" Value="物料替換歷史" />
+		<Message Name="Replace Employee" Value="替換人員" />
+		<Message Name="NO SN" Value="沒有此序號" />
+		<Message Name="BGA Item Replaced Over 3 Times" Value="BGA零件替換次數超過3次" />
+		<Message Name="Serial Number must be scrapped" Value="此序號必須被報廢" />
+		<Message Name="Replace Times" Value="替換次數" />
+		<Message Name="Defect Code Duplicate" Value="不良代碼重複" />
+		<Message Name="Replace Keyparts ?" Value="替換料件 ?" />
+		<Message Name="Please select a Keypart to replace" Value="請選擇要替換的料件" />
+		<Message Name="No any Keypart" Value="此序號沒有組裝任何料件" />
+		<Message Name="Please Input Defect Code" Value="請輸入不良現象代碼" />
+		<Message Name="Remove Keyparts ?" Value="移除料件 ?" />
+		<Message Name="Defect Code Error" Value="不良代碼錯誤" />
+		<Message Name="Please Input New Keypart SN" Value="請輸入新的料件序號" />
+		<Message Name="NO SN" Value="成品序號錯誤" />
+		<Message Name="Part No Error" Value="料件編號錯誤" />
+		<Message Name="Remove All Keyparts ?" Value="移除所有料件 ?" />
+		<Message Name="Remove All OK!" Value="移除所有料件完成" />
+		<Message Name="No this Part in WO BOM" Value="新的料件編號不在工單BOM表中" />
+		<Message Name="NO BOM" Value="工單BOM表找不到此料件編號" />
+		<Message Name="KPSN Unfinish!" Value="料件序號製程未結束" />
+		<Message Name="Please Select BGA Operate Type" Value="請選擇BGA作業內容" />
+		<Message Name="BGA Type" Value="BGA作業內容" />
+		<Message Name="Add Defect" Value="新增不良現象" />
+		<Message Name="Next Process Is" Value="下一站是" />
+		<Message Name="Material Date" Value="進料日期" />
+		<Message Name="Reel No Error" Value="料卷號錯誤" />
+		<Message Name="Repair Method" Value="維修方式" />
+		<Message Name="Reel No" Value="料卷編號" />
+		<Message Name="Repair Finish" Value="維修完成" />
+		<Message Name="SN SCRAP" Value="序號已報廢" />
+
+		<Message Name="SN is Lot-Repair" Value="此產品序號為批量處理之序號,且為維修狀態" />
+		<Message Name="SN is Lot-Repair(Finished)" Value="此產品序號為批量處理之序號,且已維修完成" />
+		<Message Name="SN is Repair-Assign" Value="此產品序號必須到檢修流程 - 維修人員指定站" />
+		<Message Name="SN is MI-Repair" Value="此產品序號必須到檢修流程 - 維修作業" />
+		<Message Name="SN is BGA-Rework" Value="此產品序號必須到檢修流程 - BGA Rework" />
+		<Message Name="SN is On-Line Repair" Value="此產品序號必須執行 - 線上維修" />
+		<Message Name="SN is Wait Defect Confirm" Value="此產品序號必須執行 - 不良品維修方式確認作業" />
+		<Message Name="Please Input Item Repair Data" Value="請輸入零件的維修記錄(至少一筆)" />
+		<Message Name="Memo" Value="備註" />
+		<Message Name="Please Input Memo" Value="請輸入備註" />
+		<Message Name="Return Material" Value="可用" />
+		<Message Name="WORK_ORDER" Value="工單" />
+		<Message Name="SERIAL_NUMBER" Value="序號" />
+		<Message Name="Repair Code" Value="維修代碼" />
+		<Message Name="Is Main Reason" Value="是否為不良主因" />
+		<Message Name="Main Reason" Value="不良主因" />
+		<Message Name="Repair Desc" Value="維修方式描述" />
+		<Message Name="Repair Desc2" Value="維修方式描述(2)" />
+		<Message Name="REASON_CODE" Value="不良原因代碼" />
+		<Message Name="REASON_DESC" Value="不良原因描述" />
+		<Message Name="REASON_DESC2" Value="不良原因描述(2)" />
+		<Message Name="DUTY_CODE" Value="責任類別代碼" />
+		<Message Name="DUTY_DESC" Value="責任類別描述" />
+		<Message Name="DUTY_DESC2" Value="責任類別描述(2)" />
+		<Message Name="PART_NO" Value="料號" />
+		<Message Name="SPEC1" Value="描述" />
+		<Message Name="SPEC2" Value="描述(2)" />
+		<Message Name="Please input Repair Method" Value="請輸入維修代碼" />
+
+		<Message Name="REPAIR_CODE" Value="維修方式代碼" />
+		<Message Name="REPAIR_DESC" Value="維修方式描述" />
+		<Message Name="REPAIR_DESC2" Value="維修方式描述(2)" />
+		<Message Name="Repair Code Error" Value="維修代碼錯誤" />
+		<Message Name="Repair Type" Value="維修類型" />
+		<Message Name="Alarm!" Value="警告!" />
+		<Message Name="Item " Value="零件 " />
+		<Message Name=" has been Repair " Value=" 已經被維修了 " />
+		<Message Name=" times in " Value=" 次，於 " />
+		<Message Name=" Days" Value=" 天內" />
+		<Message Name="Location " Value="位置 " />
+		<Message Name=" times" Value=" 次" />
+		<Message Name="This Serial number " Value="這個序號 " />
+		<Message Name="Item No Not In Bom" Value="零件編號不在 Bom 表" />
+		<Message Name="Item No Do Not Have Replace Item" Value="零件編號無替代料" />
+		<Message Name="Reel No Can Not Replace" Value="此料卷料號與零件料號不是互為替代料" />
+		<Message Name="Please Input Item Repair or Replace Data" Value="請輸入零件維修或替換資料至少一筆" />
+		<Message Name="VENDOR_CODE" Value="供應商代碼" />
+		<Message Name="VENDOR_NAME" Value="供應商名稱" />
+		<Message Name="SN SCRAP" Value="序號已報廢" />
+		<Message Name="SN HOLD" Value="序號被HOLD" />
+		<Message Name="SN is Fail(Center)-Accept" Value="序號目前狀態是在維修中心,待點收" />
+		<Message Name="SN is Fail(Center)-Repair" Value="序號目前狀態是在維修中心,維修處理中" />
+		<Message Name="SN is Good(Center)-Finish" Value="序號目前狀態是在維修中心,已維修完成" />
+		<Message Name="KPSN is Fail(Center)-Accept" Value="料件序號目前狀態是在維修中心,待點收" />
+		<Message Name="KPSN is Fail(Center)-Repair" Value="料件序號目前狀態是在維修中心,維修處理中" />
+		<Message Name="KPSN is Good(Center)-Finish" Value="料件序號目前狀態是在維修中心,已維修完成" />
+		<Message Name="NO KPSN" Value="料件序號錯誤" />
+		<Message Name="BOM ERROR" Value="新料件序號不能替換原料件序號" />
+		<Message Name="Part Not Match" Value="料號不符" />
+		<Message Name="Please Setup System Parameter:" Value="請設定系統參數項目" />
+		<Message Name="PROCESS_NAME" Value="製程" />
+		<Message Name="SN is Defect Confirm" Value="此產品序號須到不良品確認站" />
+		<Message Name="NO DEFINE EVENT ITEM" Value="尚未定義Alarm的事件項目" />
+
+		<Message Name="Process Name" Value="製程" />
+		<Message Name="DateTime" Value="作業時間" />
+		<Message Name="Employee" Value="作業人員" />
+		<Message Name="Repair S/N" Value="維修序號" />
+		<Message Name="Location Data" Value="插件位置維修資料" />
+		<Message Name="Repair Data" Value="維修資料" />
+		<Message Name="Repair History" Value="維修記錄" />
+		<Message Name="Defect Desc" Value="不良現象描述" />
+		<Message Name="Reason Desc" Value="不良原因描述" />
+		<Message Name="Duty Desc" Value="責任歸屬描述" />
+		<Message Name="Repairer" Value="維修人員" />
+		<Message Name="Keyparts Repair" Value="子件維修" />
+		<Message Name="Repair Self" Value="母件維修" />
+		<Message Name="Repair Keypart" Value="子件維修" />
+		<Message Name="DEFECT_CODE" Value="不良現象代碼" />
+		<Message Name="DEFECT_DESC" Value="不良現象描述" />
+		<Message Name="DEFECT_DESC2" Value="不良現象描述(2)" />
+		<Message Name="Remove Keyparts" Value="移除料件" />
+		<Message Name="Replace Keyparts" Value="替換料件" />
+		<Message Name="Keyparts Count" Value="料件數量" />
+		<Message Name="Please Input Part No Prefix" Value="請輸入料號前置碼" />
+		<Message Name="Please Input Part No Prefix(5 char)" Value="請輸入料號五位前置碼" />
+		<Message Name="Please Select Defect" Value="請選擇一筆不良現象" />
+		<Message Name="Please Select Keypart" Value="請選擇一筆料件序號" />
+		<Message Name="Travel Card" Value="流程卡" />
+		<Message Name="Serial Number has been Marry!" Value="此序號曾經Marry過!" />
+		<Message Name="PANEL_NO" Value="大板號" />
+	</繁體中文>
+      <Ngôn_ngữ_Việt>
+ <Message Name="Please Input Employee ID" Value="Vui lòng nhập mã nhân viên xác nhận" />
+<Message Name="Item Remark" Value="Ghi chú linh kiện" />
+<Message Name="Error Point" Value="Số điểm hàn lỗi" />
+<Message Name="Check" Value="Xác nhận" />
+<Message Name="Comfirm EmpID" Value="Nhân viên xác nhận" />
+<Message Name="Repair and Comfirm are the same Employee! Please Scan again." 
+        Value="Nhân viên sửa chữa và xác nhận trùng nhau! Vui lòng nhập lại." />
+<Message Name="Defect Code" Value="Mã hiện tượng lỗi" />
+<Message Name="Location" Value="Vị trí linh kiện" />
+<Message Name="OK" Value="Xác nhận" />
+<Message Name="Cancel" Value="Hủy" />
+<Message Name="Search" Value="Điều kiện tìm kiếm" />
+<Message Name="Defect" Value="Hiện tượng lỗi" />
+<Message Name="Reason Code" Value="Mã nguyên nhân lỗi" />
+<Message Name="Duty Code" Value="Mã loại trách nhiệm" />
+<Message Name="Item No" Value="Mã linh kiện" />
+<Message Name="Delete" Value="Xóa" />
+<Message Name="Add" Value="Thêm mới" />
+<Message Name="Item" Value="Linh kiện" />
+<Message Name="Serial Number" Value="Số sê-ri" />
+<Message Name="Reason History" Value="Lịch sử nguyên nhân lỗi" />
+<Message Name="Remark" Value="Ghi chú" />
+<Message Name="Count" Value="Tính toán" />
+<Message Name="Description" Value="Mô tả" />
+<Message Name="Description(2)" Value="Mô tả (2)" />
+<Message Name="Enabled" Value="Có thể dùng" />
+<Message Name="Keyparts" Value="Linh kiện" />
+<Message Name="Remove ALL" Value="Xóa tất cả" />
+<Message Name="Save" Value="Lưu" />
+<Message Name="Yes" Value="Có" />
+<Message Name="No" Value="Không" />
+<Message Name="Broken?" Value="Hư hỏng?" />
+<Message Name="New Keypart SN" Value="Số sê-ri linh kiện mới" />
+<Message Name="Replace" Value="Thay thế" />
+<Message Name="Keypart No" Value="Mã linh kiện" />
+<Message Name="Keypart SN" Value="Số sê-ri linh kiện" />
+<Message Name="Spec" Value="Mô tả" />
+<Message Name="Replace" Value="Thay thế" />
+<Message Name="Remove" Value="Xóa bỏ" />
+<Message Name="Finish" Value="Hoàn thành" />
+<Message Name="Repairer No" Value="Nhân viên sửa chữa" />
+<Message Name="Defect Terminal" Value="Trạm phát sinh lỗi" />
+<Message Name="Defect Process" Value="Công đoạn phát sinh lỗi" />
+<Message Name="Defect Line" Value="Dây chuyền phát sinh lỗi" />
+<Message Name="Part No" Value="Mã linh kiện" />
+<Message Name="Work Order" Value="Lệnh sản xuất" />
+<Message Name="S/N Information" Value="Thông tin số sê-ri" />
+<Message Name="Repair" Value="Sửa chữa" />
+<Message Name="Defect Information" Value="Thông tin lỗi" />
+<Message Name="Reason Information" Value="Thông tin nguyên nhân lỗi" />
+<Message Name="Scrap" Value="Phế phẩm" />
+<Message Name="All KP" Value="Bao gồm tất cả linh kiện" />
+<Message Name="Keyparts Replace History" Value="Lịch sử thay thế linh kiện" />
+<Message Name="S/N Repaired History" Value="Lịch sử sửa chữa số sê-ri" />
+<Message Name="Old Keypart SN" Value="Số sê-ri linh kiện cũ" />
+<Message Name="Replace Time" Value="Thời gian thay thế" />
+<Message Name="Repair Process" Value="Công đoạn sửa chữa" />
+<Message Name="Reason" Value="Nguyên nhân" />
+<Message Name="Duty" Value="Trách nhiệm" />
+<Message Name="Defect Time" Value="Thời gian phát sinh lỗi" />
+<Message Name="Repair Time" Value="Thời gian sửa chữa" />
+<Message Name="Can't Delete this Defect Code" Value="Không thể xóa mã lỗi này" />
+<Message Name="Delete Defect Code ?" Value="Xóa mã lỗi này?" />
+<Message Name="Reason Code Duplicate" Value="Mã nguyên nhân lỗi bị trùng" />
+<Message Name="Please input Location" Value="Vui lòng nhập vị trí linh kiện" />
+<Message Name="Please input Item No" Value="Vui lòng nhập mã linh kiện" />
+<Message Name="Please input Location or Item No" 
+        Value="Vui lòng nhập vị trí linh kiện hoặc mã linh kiện" />
+<Message Name="Please input Location and Item No" 
+        Value="Vui lòng nhập vị trí linh kiện và mã linh kiện" />
+<Message Name="Duty Code Error" Value="Lỗi mã loại trách nhiệm" />
+<Message Name="Reason Code Error" Value="Lỗi mã nguyên nhân" />
+<Message Name="Repair not Complete" Value="Sửa chữa chưa hoàn tất" />
+<Message Name="Scrap SN" Value="Số sê-ri phế phẩm" />
+<Message Name="Customer S/N" Value="Số sê-ri khách hàng" />
+<Message Name="Item Error" Value="Mã linh kiện sai" />
+<Message Name="Item Duplicate" Value="Mã linh kiện trùng" />
+<Message Name="Vendor Code Error" Value="Mã nhà cung cấp sai" />
+<Message Name="Vendor Code is Invalid" Value="Mã nhà cung cấp đã bị vô hiệu hóa" />
+<Message Name="Vendor Code" Value="Mã nhà cung cấp" />
+<Message Name="Vendor Name" Value="Nhà cung cấp" />
+<Message Name="Lot No" Value="Số lô" />
+<Message Name="Repair Item" Value="Linh kiện sửa chữa" />
+<Message Name="Replace Item" Value="Thay thế linh kiện" />
+<Message Name="Please Input Item No" Value="Vui lòng nhập mã linh kiện" />
+<Message Name="Item Spec" Value="Quy cách linh kiện" />
+<Message Name="Material Replace History" Value="Lịch sử thay thế vật liệu" />
+<Message Name="Replace Employee" Value="Nhân viên thay thế" />
+<Message Name="NO SN" Value="Không có số sê-ri này" />
+<Message Name="BGA Item Replaced Over 3 Times" Value="Linh kiện BGA đã thay quá 3 lần" />
+<Message Name="Serial Number must be scrapped" Value="Số sê-ri này phải bị phế" />
+<Message Name="Replace Times" Value="Số lần thay thế" />
+<Message Name="Defect Code Duplicate" Value="Mã lỗi bị trùng" />
+<Message Name="Replace Keyparts ?" Value="Thay thế linh kiện?" />
+<Message Name="Please select a Keypart to replace" Value="Vui lòng chọn linh kiện cần thay thế" />
+<Message Name="No any Keypart" Value="Số sê-ri này không có lắp bất kỳ linh kiện nào" />
+<Message Name="Please Input Defect Code" Value="Vui lòng nhập mã hiện tượng lỗi" />
+<Message Name="Remove Keyparts ?" Value="Xóa linh kiện?" />
+<Message Name="Defect Code Error" Value="Mã lỗi không hợp lệ" />
+<Message Name="Please Input New Keypart SN" Value="Vui lòng nhập số sê-ri linh kiện mới" />
+<Message Name="NO SN" Value="Số sê-ri thành phẩm không hợp lệ" />
+<Message Name="Part No Error" Value="Mã linh kiện không hợp lệ" />
+<Message Name="Remove All Keyparts ?" Value="Xóa tất cả linh kiện?" />
+<Message Name="Remove All OK!" Value="Xóa tất cả linh kiện thành công" />
+<Message Name="No this Part in WO BOM" Value="Mã linh kiện mới không có trong BOM của lệnh sản xuất" />
+<Message Name="NO BOM" Value="Không tìm thấy mã linh kiện trong BOM của lệnh sản xuất" />
+<Message Name="KPSN Unfinish!" Value="Quy trình của số sê-ri linh kiện chưa hoàn tất" />
+<Message Name="Please Select BGA Operate Type" Value="Vui lòng chọn loại thao tác BGA" />
+<Message Name="BGA Type" Value="Loại thao tác BGA" />
+<Message Name="Add Defect" Value="Thêm lỗi" />
+<Message Name="Next Process Is" Value="Công đoạn kế tiếp là" />
+<Message Name="Material Date" Value="Ngày nhập liệu" />
+<Message Name="Reel No Error" Value="Mã cuộn linh kiện sai" />
+<Message Name="Repair Method" Value="Phương pháp sửa chữa" />
+<Message Name="Reel No" Value="Mã cuộn linh kiện" />
+<Message Name="Repair Finish" Value="Sửa chữa hoàn tất" />
+<Message Name="SN SCRAP" Value="Số sê-ri đã bị phế" />
+<Message Name="SN is Lot-Repair" Value="Số sê-ri này thuộc xử lý theo lô và đang ở trạng thái sửa chữa" />
+<Message Name="SN is Lot-Repair(Finished)" Value="Số sê-ri này thuộc xử lý theo lô và đã sửa chữa hoàn tất" />
+<Message Name="SN is Repair-Assign" Value="Số sê-ri này phải đến công đoạn kiểm tra – trạm chỉ định nhân viên sửa chữa" />
+<Message Name="SN is MI-Repair" Value="Số sê-ri này phải进入 quy trình kiểm tra – thao tác sửa chữa" />
+<Message Name="SN is BGA-Rework" Value="Số sê-ri này phải进入 quy trình kiểm tra – BGA Rework" />
+<Message Name="SN is On-Line Repair" Value="Số sê-ri này必须thực hiện – Sửa chữa trên line" />
+<Message Name="SN is Wait Defect Confirm" Value="Số sê-ri này必须thực hiện – Xác nhận phương án sửa lỗi" />
+
+<Message Name="Please Input Item Repair Data" Value="Vui lòng nhập ít nhất một bản ghi sửa chữa linh kiện" />
+<Message Name="Memo" Value="Ghi chú" />
+<Message Name="Please Input Memo" Value="Vui lòng nhập ghi chú" />
+<Message Name="Return Material" Value="Có thể dùng" />
+
+<Message Name="WORK_ORDER" Value="Lệnh sản xuất" />
+<Message Name="SERIAL_NUMBER" Value="Số sê-ri" />
+
+<Message Name="Repair Code" Value="Mã sửa chữa" />
+<Message Name="Is Main Reason" Value="Có phải nguyên nhân chính?" />
+<Message Name="Main Reason" Value="Nguyên nhân chính" />
+<Message Name="Repair Desc" Value="Mô tả phương pháp sửa chữa" />
+<Message Name="Repair Desc2" Value="Mô tả phương pháp sửa chữa (2)" />
+
+<Message Name="REASON_CODE" Value="Mã nguyên nhân lỗi" />
+<Message Name="REASON_DESC" Value="Mô tả nguyên nhân lỗi" />
+<Message Name="REASON_DESC2" Value="Mô tả nguyên nhân lỗi (2)" />
+
+<Message Name="DUTY_CODE" Value="Mã phân loại trách nhiệm" />
+<Message Name="DUTY_DESC" Value="Mô tả trách nhiệm" />
+<Message Name="DUTY_DESC2" Value="Mô tả trách nhiệm (2)" />
+
+<Message Name="PART_NO" Value="Mã linh kiện" />
+<Message Name="SPEC1" Value="Mô tả" />
+<Message Name="SPEC2" Value="Mô tả (2)" />
+
+<Message Name="Please input Repair Method" Value="Vui lòng nhập mã sửa chữa" />
+
+<Message Name="REPAIR_CODE" Value="Mã phương pháp sửa chữa" />
+<Message Name="REPAIR_DESC" Value="Mô tả phương pháp sửa chữa" />
+<Message Name="REPAIR_DESC2" Value="Mô tả phương pháp sửa chữa (2)" />
+<Message Name="Repair Code Error" Value="Mã sửa chữa không hợp lệ" />
+<Message Name="Repair Type" Value="Loại sửa chữa" />
+
+<Message Name="Alarm!" Value="Cảnh báo!" />
+
+<Message Name="Item " Value="Linh kiện " />
+<Message Name=" has been Repair " Value=" đã được sửa chữa " />
+<Message Name=" times in " Value=" lần, trong vòng " />
+<Message Name=" Days" Value=" ngày" />
+<Message Name="Location " Value="Vị trí " />
+<Message Name=" times" Value=" lần" />
+<Message Name="This Serial number " Value="Số sê-ri này " />
+
+<Message Name="Item No Not In Bom" Value="Mã linh kiện không có trong BOM" />
+<Message Name="Item No Do Not Have Replace Item" Value="Mã linh kiện không có vật liệu thay thế" />
+<Message Name="Reel No Can Not Replace" Value="Mã cuộn vật liệu không phải vật liệu thay thế hợp lệ" />
+
+<Message Name="Please Input Item Repair or Replace Data" Value="Vui lòng nhập ít nhất một bản ghi sửa chữa hoặc thay thế linh kiện" />
+
+<Message Name="VENDOR_CODE" Value="Mã nhà cung cấp" />
+<Message Name="VENDOR_NAME" Value="Tên nhà cung cấp" />
+
+<Message Name="SN SCRAP" Value="Số sê-ri đã bị phế" />
+<Message Name="SN HOLD" Value="Số sê-ri đang bị giữ (HOLD)" />
+
+<Message Name="SN is Fail(Center)-Accept" Value="Số sê-ri đang ở trung tâm sửa chữa, chờ nhận" />
+<Message Name="SN is Fail(Center)-Repair" Value="Số sê-ri đang ở trung tâm sửa chữa và đang được xử lý" />
+<Message Name="SN is Good(Center)-Finish" Value="Số sê-ri đã được sửa chữa xong tại trung tâm" />
+
+<Message Name="KPSN is Fail(Center)-Accept" Value="Số sê-ri linh kiện đang ở trung tâm sửa chữa, chờ nhận" />
+<Message Name="KPSN is Fail(Center)-Repair" Value="Số sê-ri linh kiện đang sửa chữa tại trung tâm" />
+<Message Name="KPSN is Good(Center)-Finish" Value="Số sê-ri linh kiện đã sửa chữa xong tại trung tâm" />
+<Message Name="NO KPSN" Value="Số sê-ri linh kiện không hợp lệ" />
+
+<Message Name="BOM ERROR" Value="Số sê-ri linh kiện mới không thể thay thế số sê-ri cũ" />
+<Message Name="Part Not Match" Value="Mã linh kiện không khớp" />
+
+<Message Name="Please Setup System Parameter:" Value="Vui lòng thiết lập các tham số hệ thống" />
+<Message Name="PROCESS_NAME" Value="Công đoạn" />
+<Message Name="SN is Defect Confirm" Value="Số sê-ri này phải đến trạm xác nhận lỗi" />
+<Message Name="NO DEFINE EVENT ITEM" Value="Chưa định nghĩa mục sự kiện cho Alarm" />
+
+<Message Name="Process Name" Value="Công đoạn" />
+<Message Name="DateTime" Value="Thời gian thao tác" />
+<Message Name="Employee" Value="Nhân viên thao tác" />
+<Message Name="Repair S/N" Value="Số sê-ri sửa chữa" />
+<Message Name="Location Data" Value="Dữ liệu vị trí linh kiện" />
+<Message Name="Repair Data" Value="Dữ liệu sửa chữa" />
+<Message Name="Repair History" Value="Lịch sử sửa chữa" />
+<Message Name="Defect Desc" Value="Mô tả hiện tượng lỗi" />
+<Message Name="Reason Desc" Value="Mô tả nguyên nhân lỗi" />
+<Message Name="Duty Desc" Value="Mô tả trách nhiệm" />
+<Message Name="Repairer" Value="Nhân viên sửa chữa" />
+<Message Name="Keyparts Repair" Value="Sửa chữa linh kiện con" />
+<Message Name="Repair Self" Value="Sửa chữa linh kiện chính" />
+<Message Name="Repair Keypart" Value="Sửa chữa linh kiện con" />
+
+<Message Name="DEFECT_CODE" Value="Mã hiện tượng lỗi" />
+<Message Name="DEFECT_DESC" Value="Mô tả hiện tượng lỗi" />
+<Message Name="DEFECT_DESC2" Value="Mô tả hiện tượng lỗi (2)" />
+
+<Message Name="Remove Keyparts" Value="Xóa linh kiện" />
+<Message Name="Replace Keyparts" Value="Thay thế linh kiện" />
+<Message Name="Keyparts Count" Value="Số lượng linh kiện" />
+
+<Message Name="Please Input Part No Prefix" Value="Vui lòng nhập tiền tố mã linh kiện" />
+<Message Name="Please Input Part No Prefix(5 char)" Value="Vui lòng nhập tiền tố mã linh kiện gồm 5 ký tự" />
+<Message Name="Please Select Defect" Value="Vui lòng chọn một hiện tượng lỗi" />
+<Message Name="Please Select Keypart" Value="Vui lòng chọn một số sê-ri linh kiện" />
+
+<Message Name="Travel Card" Value="Thẻ công đoạn" />
+<Message Name="Serial Number has been Marry!" Value="Số sê-ri này đã từng thực hiện Marry!" />
+<Message Name="PANEL_NO" Value="Mã bảng lớn" />
+
+       </Ngôn_ngữ_Việt>
+	<简体中文>
+		<Message Name="Defect Code" Value="不良现象代码" />
+		<Message Name="Location" Value="位置" />
+		<Message Name="OK" Value="确定" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Search" Value="搜寻条件" />
+		<Message Name="Defect" Value="不良现象" />
+		<Message Name="Reason Code" Value="不良原因代码" />
+		<Message Name="Duty Code" Value="责任类别代码" />
+		<Message Name="Item No" Value="零件编号" />
+		<Message Name="Delete" Value="删除" />
+		<Message Name="Add" Value="新增" />
+		<Message Name="Item" Value="零件" />
+		<Message Name="Serial Number" Value="序号" />
+		<Message Name="Reason History" Value="不良原因历史纪录" />
+		<Message Name="Remark" Value="备注说明" />
+		<Message Name="Count" Value="计算" />
+		<Message Name="Description" Value="描述说明" />
+		<Message Name="Description(2)" Value="描述说明(2)" />
+		<Message Name="Enabled" Value="可用" />
+		<Message Name="Keyparts" Value="料件" />
+		<Message Name="Remove All" Value="全部移除" />
+		<Message Name="Save" Value="储存" />
+		<Message Name="Yes" Value="是" />
+		<Message Name="No" Value="否" />
+		<Message Name="Broken?" Value="损坏?" />
+		<Message Name="New Keypart SN" Value="新的料件序号" />
+		<Message Name="Replace" Value="替换" />
+		<Message Name="Keypart No" Value="料件编号" />
+		<Message Name="Keypart SN" Value="料件序号" />
+		<Message Name="Spec" Value="描述" />
+		<Message Name="Remove" Value="移除" />
+		<Message Name="Finish" Value="完成" />
+		<Message Name="Repairer No" Value="维修人员" />
+		<Message Name="Defect Terminal" Value="不良工作站" />
+		<Message Name="Defect Process" Value="不良制程" />
+		<Message Name="Defect Line" Value="不良线别" />
+		<Message Name="Part No" Value="料号" />
+		<Message Name="Work Order" Value="工单" />
+		<Message Name="S/N Information" Value="序号信息" />
+		<Message Name="Repair" Value="维修" />
+		<Message Name="Defect Information" Value="不良现象信息" />
+		<Message Name="Reason Information" Value="不良原因信息" />
+		<Message Name="Scrap" Value="报废" />
+		<Message Name="All KP" Value="包含所有料件" />
+		<Message Name="Keyparts Replace History" Value="料件替换历史" />
+		<Message Name="S/N Repaired History" Value="序号维修历史" />
+		<Message Name="Old Keypart SN" Value="旧的料件序号" />
+		<Message Name="Replace Time" Value="替换时间" />
+		<Message Name="Repair Process" Value="维修制程" />
+		<Message Name="Reason" Value="不良原因" />
+		<Message Name="Duty" Value="责任类别" />
+		<Message Name="Defect Time" Value="不良发生时间" />
+		<Message Name="PANEL_NO" Value="大板号" />
+	</简体中文>
+</Chroma>
+

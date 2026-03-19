@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文>
+    <Message Name="OK" Value="確定"/>
+    <Message Name="Factory" Value="廠別"/>
+    <Message Name="Terminal" Value="工作站"/>
+    <Message Name="Process" Value="製程"/>
+    <Message Name="Stage" Value="區段"/>
+    <Message Name="Production Line" Value="生產線別"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Station" Value="作業站"/>
+    <Message Name="Setup" Value="設定"/>
+    <Message Name="RF Link" Value="連結無線槍"/>
+    <Message Name="RF Setup" Value="無線槍設定"/>
+    <Message Name="Option" Value="選項"/>
+    <Message Name="Input Data" Value="輸入欄位設定"/>
+    <Message Name="Vendor" Value="廠商"/>
+    <Message Name="Qty" Value="數量"/>
+    <Message Name="Group Qty" Value="批量"/>
+  </繁體中文>
+<Ngôn_ngữ_Việt><Message Name="OK" Value="OK"/><Message Name="Factory" Value="Nhà máy"/><Message Name="Terminal" Value="Trạm làm việc"/><Message Name="Process" Value="Công đoạn"/><Message Name="Stage" Value="Khu vực"/><Message Name="Production Line" Value="Dây chuyền sản xuất"/><Message Name="Cancel" Value="Hủy"/><Message Name="Station" Value="Trạm thao tác"/><Message Name="Setup" Value="Thiết lập"/><Message Name="RF Link" Value="Kết nối súng không dây"/><Message Name="RF Setup" Value="Thiết lập súng không dây"/><Message Name="Option" Value="Tùy chọn"/><Message Name="Input Data" Value="Thiết lập trường nhập liệu"/><Message Name="Vendor" Value="Nhà cung cấp"/><Message Name="Qty" Value="Số lượng"/><Message Name="Group Qty" Value="Số lượng lô"/></Ngôn_ngữ_Việt></Chroma>

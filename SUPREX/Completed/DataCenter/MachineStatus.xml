@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <English>
+	<Message Name="Status ID" Value="Status ID" />
+	<Message Name="Status Type" Value="Status Type" />
+    <Message Name="Sub Status" Value="Status" />
+    <Message Name="Description" Value="Description" />
+    <Message Name="Change Mode" Value="Change Mode" />
+    <Message Name="OEE Owner" Value="OEE Owner" />
+    <Message Name="Status Color" Value="Status Color" />
+    <Message Name="Font Color" Value="Font Color" />
+    <Message Name="Utilisation" Value="Utilisation" />
+    <Message Name="Run Flag" Value="Run Flag" />
+    <Message Name="Please choose Status Type." Value="Please choose Status Type." />
+    <Message Name="Please enter Sub Status." Value="Please enter Sub Status." />
+    <Message Name="Please choose Change Mode." Value="Please choose Change Mode." />
+    <Message Name="Please choose OEE Owner." Value="Please choose OEE Owner." />
+    <Message Name="Please choose Status Color." Value="Please choose Status Color." />
+    <Message Name="Please choose Font Color." Value="Please choose Font Color." />
+    <Message Name="There are other Run_Flag data already set, please cancel other data settings" Value="There are other Run_Flag data already set, please cancel other data settings" />
+    <Message Name="There are other DEFAULT_STATUS data already set, please cancel other data settings" Value="There are other DEFAULT_STATUS data already set, please cancel other data settings" />
+	<Message Name="Export completed" Value="Export Completed" />
+  </English>
+  <繁體中文>
+	<Message Name="Status ID" Value="機台狀態ID" />
+    <Message Name="Status Type" Value="狀態類型" />
+    <Message Name="Sub Status" Value="狀態" />
+    <Message Name="Description" Value="描述" />
+    <Message Name="Change Mode" Value="切換方式" />
+    <Message Name="OEE Owner" Value="OEE責任單位" />
+    <Message Name="Status Color" Value="狀態顏色" />
+    <Message Name="Font Color" Value="字體顏色" />
+    <Message Name="Utilisation" Value="稼動率" />
+    <Message Name="Run Flag" Value="預設生產狀態" />
+    <Message Name="Default Status" Value="預設閒置狀態" />
+    <Message Name="Please choose Status Type." Value="請選擇狀態類型" />
+    <Message Name="Please enter Sub Status." Value="請輸入狀態" />
+    <Message Name="Please choose Change Mode." Value="請選擇切換方式" />
+    <Message Name="Please choose OEE Owner." Value="請選擇OEE責任單位" />
+    <Message Name="Please choose Status Color." Value="請選擇狀態顏色." />
+    <Message Name="Please choose Font Color." Value="請選擇字體顏色." />
+    <Message Name="There are other Run_Flag data already set, please cancel other data settings" Value="預設生產狀態已有設置" />
+    <Message Name="There are other DEFAULT_STATUS data already set, please cancel other data settings" Value="預設閒置狀態已有設置" />
+    <Message Name="Status Code" Value="機況代碼" />
+    <Message Name="Data Duplicate" Value="資料重覆" /> 
+    <Message Name="Data Must is Number" Value="資料必須是整數" />
+    <Message Name="Data is null" Value="資料為空" />
+	<Message Name="Export completed" Value="資料匯出已完成" />
+	<Message Name="UPDATE_USERID" Value="異動人員" />
+    <Message Name="Can't be deleted" Value="無法刪除" />
+    <Message Name=",it is IDLE FLAG" Value="是預設閒置狀態" />
+    <Message Name=",it is RUN FLAG" Value="是預設生產狀態" />
+  </繁體中文>
+  <简体中文>
+	<Message Name="Status ID" Value="机台状态ID" />
+	<Message Name="Status Type" Value="状态类型" />
+    <Message Name="Sub Status" Value="状态" />
+    <Message Name="Description" Value="描述" />
+    <Message Name="Change Mode" Value="切换方式" />
+    <Message Name="OEE Owner" Value="OEE责任单位" />
+    <Message Name="Status Color" Value="状态颜色" />
+    <Message Name="Font Color" Value="字体颜色" />
+    <Message Name="Utilisation" Value="稼动率" />
+    <Message Name="Run Flag" Value="预设生产状态" />
+    <Message Name="Default Status" Value="预设闲置状态" />
+    <Message Name="Data Duplicate" Value="数据重复" />
+    <Message Name="Data Must is Number" Value="数据必须是正整数" />
+    <Message Name="Please choose Status Type." Value="请选择状态类型" />
+    <Message Name="Please enter Sub Status." Value="请输入状态" />
+    <Message Name="Please choose Change Mode." Value="请选择切换方式" />
+    <Message Name="Please choose OEE Owner." Value="请选择OEE责任单位" />
+    <Message Name="Please choose Status Color." Value="请选择状态颜色." />
+    <Message Name="Please choose Font Color." Value="请选择字体颜色." />
+    <Message Name="There are other Run_Flag data already set, please cancel other data settings" Value="预设生产状态已有设置" />
+    <Message Name="There are other DEFAULT_STATUS data already set, please cancel other data settings" Value="预设闲状态状已有设置" />
+    <Message Name="Status Code" Value="机况代码" />  
+    <Message Name="Data is null" Value="数据為空" />
+	<Message Name="Export completed" Value="资料汇出已完成" />
+	  <Message Name="UPDATE_USERID" Value="异动人员" />
+    <Message Name="Can't be deleted" Value="无法删除" />
+    <Message Name=",it is IDLE FLAG" Value="是预设闲置状态" />
+    <Message Name=",it is RUN FLAG" Value="是预设生产状态" />
+  </简体中文>
+
+<Ngôn_ngữ_Việt><Message Name="Status ID" Value="ID Trạng Thái Máy" /><Message Name="Status Type" Value="Loại Trạng Thái" /><Message Name="Sub Status" Value="Trạng Thái" /><Message Name="Description" Value="Mô Tả" /><Message Name="Change Mode" Value="Cách Chuyển Đổi" /><Message Name="OEE Owner" Value="Đơn Vị Chịu Trách Nhiệm OEE" /><Message Name="Status Color" Value="Màu Trạng Thái" /><Message Name="Font Color" Value="Màu Chữ" /><Message Name="Utilisation" Value="Tỷ Lệ Sử Dụng" /><Message Name="Run Flag" Value="Trạng Thái Sản Xuất Mặc Định" /><Message Name="Default Status" Value="Trạng Thái Nhàn Rỗi Mặc Định" /><Message Name="Please choose Status Type." Value="Vui Lòng Chọn Loại Trạng Thái" /><Message Name="Please enter Sub Status." Value="Vui Lòng Nhập Trạng Thái" /><Message Name="Please choose Change Mode." Value="Vui Lòng Chọn Cách Chuyển Đổi" /><Message Name="Please choose OEE Owner." Value="Vui Lòng Chọn Đơn Vị OEE" /><Message Name="Please choose Status Color." Value="Vui Lòng Chọn Màu Trạng Thái" /><Message Name="Please choose Font Color." Value="Vui Lòng Chọn Màu Chữ" /><Message Name="There are other Run_Flag data already set, please cancel other data settings" Value="Cờ RUN đã được thiết lập, vui lòng hủy thiết lập khác" /><Message Name="There are other DEFAULT_STATUS data already set, please cancel other data settings" Value="Cờ IDLE đã được thiết lập, vui lòng hủy thiết lập khác" /><Message Name="Status Code" Value="Mã Tình Trạng Máy" /><Message Name="Data Duplicate" Value="Dữ Liệu Trùng Lặp" /><Message Name="Data Must is Number" Value="Giá Trị Phải Là Số Nguyên" /><Message Name="Data is null" Value="Dữ Liệu Rỗng" /><Message Name="Export completed" Value="Xuất Dữ Liệu Hoàn Tất" /><Message Name="UPDATE_USERID" Value="Người Cập Nhật" /><Message Name="Can't be deleted" Value="Không Thể Xóa" /><Message Name=",it is IDLE FLAG" Value=" - Là Trạng Thái Nhàn Rỗi Mặc Định" /><Message Name=",it is RUN FLAG" Value=" - Là Trạng Thái Sản Xuất Mặc Định" /></Ngôn_ngữ_Việt></Chroma>

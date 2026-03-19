@@ -1,0 +1,203 @@
+﻿<Chroma>
+	<English>
+		<Message Name="PROCESS_NAME" Value="Process Name" />
+		<Message Name="WORK_HOUR" Value="Work Hour" />
+	</English>
+	<繁體中文>
+		<Message Name="Route Name" Value="途程名稱" />
+		<Message Name="Save" Value="儲存" />
+		<Message Name="Time" Value="時間" />
+		<Message Name="Save OK" Value="儲存完成" />
+		<Message Name="Route Description" Value="途程描述" />
+		<Message Name="Process" Value="製程" />
+		<Message Name="Process Name" Value="製程名稱" />
+		<Message Name="Module Process" Value="模組製程" />
+		<Message Name="Old Module Process" Value="原模組製程" />
+		<Message Name="PROCESS_CODE" Value="製程代碼" />
+		<Message Name="PROCESS_NAME" Value="製程名稱" />
+		<Message Name="ROUTE_ID" Value="途程序號" />
+		<Message Name="Route ID" Value="途程序號" />
+		<Message Name="ROUTE_NAME" Value="途程名稱" />
+		<Message Name="ROUTE_DESC" Value="途程描述" />
+		<Message Name="Route Desc" Value="途程描述" />
+		<Message Name="SubRoute" Value="途程" />
+		<Message Name="Add Node" Value="新增節點" />
+		<Message Name="Link Name" Value="連結名稱" />
+		<Message Name="PROCESS_ID" Value="製程序號" />
+		<Message Name="Select" Value="勾選" />
+		<Message Name="Group" Value="建立群組" />
+		<Message Name="START Node has one outlink !!" Value="起點只能有唯一出口站!!" />
+		<Message Name="END Node can't build any OutLinks !!" Value="終點不能建立出口站!!" />
+		<Message Name="START Node can't build any InLinks!!" Value="起點不能建立入口站!!" />
+		<Message Name="The Group can't include Links ! !" Value="群組不能包含連結!!" />
+		<Message Name="The Group can't include 'Start_Node' ! ! " Value="群組不能包含起始點!!" />
+		<Message Name="The Group can't include 'End_Node' ! ! " Value="群組不能包含起始點!!" />
+		<Message Name="The Group can't include 'Group' ! ! " Value="群組不能包含其他群組!!" />
+		<Message Name="PLEASE INSERT A NEW NODE !!" Value="節點數不足!!" />
+		<Message Name="NO DATA!" Value="沒有資料!" />
+		<Message Name="Link Name Error !!" Value="連結名稱錯誤!" />
+		<Message Name="Type Route Name !!" Value="未輸入途程名稱!" />
+		<Message Name=" Type Route Version !!" Value="未輸入途程版本!" />
+		<Message Name="Please select a Group Mode !!" Value="請選擇群組模式!" />
+		<Message Name="START doesn't has OutLinks!!" Value="起點沒有選擇出口站" />
+		<Message Name="END doesn't has InLinks!!" Value="終點沒有選擇入口站" />
+		<Message Name="Node doesn't has OutLinks!!" Value="節點沒有選擇出口站" />
+		<Message Name="Same Node OutLink Name cannot be repeated." Value="相同節點出口連結名稱不可重複" />
+		<Message Name="ONLY ONE LINK!!" Value="只能選擇一條連結!!" />
+		<Message Name="Node doesn't has NEXT link!!" Value="某節點沒有NEXT連結!!" />
+		<Message Name="Group Name" Value="群組名稱" />
+		<Message Name="Group Type" Value="群組類型" />
+		<Message Name="Type Group Name !!" Value="請輸入群組名稱" />
+		<Message Name="Please select a Group Mode !!" Value="請選擇群組類型" />
+		<Message Name="Copy" Value="複製" />
+		<Message Name="Old RouteName" Value="原途程名稱" />
+		<Message Name="New RouteName" Value="新途程名稱" />
+		<Message Name="STAGE_NAME" Value="區段名稱" />
+		<Message Name="Route Name Is Duplicate !!" Value="途程名稱重複!!" />
+		<Message Name="Route Name and Version Is Duplicate !!" Value="途程名稱版本重複" />
+		<Message Name="This Route has been produced and cannot be deleted!" Value="此製程已有生產批在製,不可刪除!!" />
+		<Message Name="This Route has been produced and cannot be changed!" Value="此製程已有生產批在製,不可異動!!" />
+		<Message Name="OK" Value="確認" />
+		<Message Name="WORK_ORDER" Value="工單編號" />
+		<Message Name="RC_NO" Value="生產批號" />
+		<Message Name="PROCESS_NAME" Value="製程名稱" />
+		<Message Name="Node Data Error!!" Value="資料錯誤" />
+		<Message Name="Save File" Value="儲存檔案" />
+		<Message Name="Clear All" Value="清除畫面" />
+		<Message Name="Add Node" Value="新增節點" />
+		<Message Name="Add End" Value="新增終點" />
+		<Message Name="Group" Value="建立群組" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="Default" Value="預設" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Must set a Default for The Route Name" Value="同個途程名稱中必須有一個是預設" />
+		<Message Name="Multi-version route must have at least one default" Value="多版本途程時，至少要設定一組為預設途途" />
+
+		<Message Name="Modify Name" Value="修改名稱" />
+		<Message Name="Link Style" Value="連結樣式" />
+		<Message Name="Ungroup" Value="解除群組" />
+		<Message Name="Straight Line" Value="直線" />
+		<Message Name="Node has no route id or process id,please reset node" Value="節點沒有製程ID或途程ID，請重新新增節點" />
+		<Message Name="The Group can't include 'Route' ! ! " Value="群組不能包含途程!!" />
+		<Message Name="ENABLED" Value="啟用" />
+		<Message Name="UPDATE_TIME" Value="異動時間" />
+		<Message Name="EMP_NAME" Value="異動人員" />
+		<Message Name="This data cannot be found. Please check UPDATE_SEQ of data exists" Value="找不到此筆資料，請檢查此筆資料UPDATE_SEQ是否存在" />
+		<Message Name="Route Code" Value="途程代碼" />
+		<Message Name="ROUTE_CODE" Value="途程代碼" />
+		<Message Name="New RouteCode" Value="新途程代碼" />
+		<Message Name="START cannot be deleted" Value="起點不可刪除" />
+		<Message Name="Only one group can be removed at a time" Value="每次只能解除一個群組" />
+
+    <Message Name="ROUTE_VERSION" Value="版本" />
+    <Message Name="MODULE_PROCESS" Value="模組製程" />
+    <Message Name="IS_DEFAULT" Value="是否預設" />
+    <Message Name="Align Left" Value="靠左對齊" />
+    <Message Name="Align Right" Value="靠右對齊" />
+    <Message Name="Align Top" Value="靠上對齊" />
+    <Message Name="Align      Bottom" Value="靠下對齊" />
+    <Message Name="Horizontal Spacing" Value="水平間距相同" />
+    <Message Name="Vertical   Spacing" Value="垂直間距相同" />
+    <Message Name="Please select at least two nodes,use Ctrl to select multiple nodes" Value="請選取至少兩個節點，按住Ctrl選取多個節點" />
+    <Message Name="CHILD_ROUTE" Value="子途程" />
+    <Message Name="Unable to query this route's XML information in DB" Value="在DB查無此途程的XML資料" />
+    <Message Name="Close" Value="關閉" />
+
+  </繁體中文>
+	<简体中文>
+		<Message Name="Route Name" Value="途程名称" />
+		<Message Name="Save" Value="储存" />
+		<Message Name="Time" Value="时间" />
+		<Message Name="Save OK" Value="储存完成" />
+		<Message Name="Route Description" Value="途程描述" />
+		<Message Name="Process" Value="制程" />
+		<Message Name="Process Name" Value="制程名称" />
+		<Message Name="Module Process" Value="模组制程" />
+		<Message Name="Old Module Process" Value="原模组制程" />
+		<Message Name="PROCESS_CODE" Value="制程代码" />
+		<Message Name="PROCESS_NAME" Value="制程名称" />
+		<Message Name="ROUTE_ID" Value="途程序号" />
+		<Message Name="Route ID" Value="途程序号" />
+		<Message Name="ROUTE_NAME" Value="途程名称" />
+		<Message Name="ROUTE_DESC" Value="途程描述" />
+		<Message Name="Route Desc" Value="途程描述" />
+		<Message Name="SubRoute" Value="途程" />
+		<Message Name="Add Node" Value="新增节点" />
+		<Message Name="Link Name" Value="连结名称" />
+		<Message Name="PROCESS_ID" Value="制程序号" />
+		<Message Name="Select" Value="勾选" />
+		<Message Name="Group" Value="建立群组" />
+		<Message Name="START Node has one outlink !!" Value="起点只能有唯一出口站!!" />
+		<Message Name="END Node can't build any OutLinks !!" Value="终点不能建立出口站!!" />
+		<Message Name="START Node can't build any InLinks!!" Value="起点不能建立入口站!!" />
+		<Message Name="The Group can't include Links ! !" Value="群组不能包含连结!!" />
+		<Message Name="The Group can't include 'Start_Node' ! ! " Value="群组不能包含起始点!!" />
+		<Message Name="The Group can't include 'End_Node' ! ! " Value="群组不能包含起始点!!" />
+		<Message Name="The Group can't include 'Group' ! ! " Value="群组不能包含其他群组!!" />
+		<Message Name="PLEASE INSERT A NEW NODE !!" Value="节点数不足!!" />
+		<Message Name="NO DATA!" Value="没有资料!" />
+		<Message Name="Link Name Error !!" Value="连结名称错误!" />
+		<Message Name="Type Route Name !!" Value="未输入途程名称!" />
+		<Message Name=" Type Route Version !!" Value="未输入途程版本!" />
+		<Message Name="Please select a Group Mode !!" Value="请选择群组模式!" />
+		<Message Name="START doesn't has OutLinks!!" Value="起点没有选择出口站" />
+		<Message Name="END doesn't has InLinks!!" Value="终点没有选择入口站" />
+		<Message Name="Node doesn't has OutLinks!!" Value="节点没有选择出口站" />
+		<Message Name="Same Node OutLink Name cannot be repeated." Value="相同节点出口连结名称不可重复" />
+		<Message Name="ONLY ONE LINK!!" Value="只能选择一条连结!!" />
+		<Message Name="Node doesn't has NEXT link!!" Value="某节点没有NEXT连结!!" />
+		<Message Name="Group Name" Value="群组名称" />
+		<Message Name="Group Type" Value="群组类型" />
+		<Message Name="Type Group Name !!" Value="请输入群组名称" />
+		<Message Name="Please select a Group Mode !!" Value="请选择群组类型" />
+		<Message Name="Copy" Value="复制" />
+		<Message Name="Old RouteName" Value="原途程名称" />
+		<Message Name="New RouteName" Value="新途程名称" />
+		<Message Name="STAGE_NAME" Value="区段名称" />
+		<Message Name="Route Name Is Duplicate !!" Value="途程名称重复!!" />
+		<Message Name="Route Name and Version Is Duplicate !!" Value="途程名称版本重复" />
+		<Message Name="This Route has been produced and cannot be deleted!" Value="此制程已有生产批在制,不可删除!!" />
+		<Message Name="This Route has been produced and cannot be changed!" Value="此制程已有生产批在制,不可异动!!" />
+		<Message Name="OK" Value="确认" />
+		<Message Name="WORK_ORDER" Value="工单编号" />
+		<Message Name="RC_NO" Value="生产批号" />
+		<Message Name="PROCESS_NAME" Value="制程名称" />
+		<Message Name="Node Data Error!!" Value="资料错误" />
+		<Message Name="Save File" Value="储存档案" />
+		<Message Name="Clear All" Value="清除画面" />
+		<Message Name="Add Node" Value="新增节点" />
+		<Message Name="Add End" Value="新增终点" />
+		<Message Name="Group" Value="建立群组" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="Default" Value="预设" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Must set a Default for The Route Name" Value="同个途程名称中必须有一个是预设" />
+		<Message Name="Multi-version route must have at least one default" Value="多版本途程时，至少要设定一组为预设途途" />
+
+		<Message Name="Modify Name" Value="修改名称" />
+		<Message Name="Link Style" Value="链接样式" />
+		<Message Name="Ungroup" Value="解除群组" />
+		<Message Name="Straight Line" Value="直线" />
+		<Message Name="Node has no route id or process id,please reset node" Value="节点没有製程ID或途程ID，请重新新增节点" />
+		<Message Name="The Group can't include 'Route' ! ! " Value="群组不能包含途程!!" />
+		<Message Name="ENABLED" Value="启用" />
+		<Message Name="UPDATE_TIME" Value="异动时间" />
+		<Message Name="EMP_NAME" Value="异动人员" />
+		<Message Name="This data cannot be found. Please check UPDATE_SEQ of data exists" Value="找不到此笔资料，请检查此笔资料UPDATE_SEQ是否存在" />
+		<Message Name="Route Code" Value="途程代码" />
+		<Message Name="ROUTE_CODE" Value="途程代码" />
+		<Message Name="New RouteCode" Value="新途程代码" />
+		<Message Name="START cannot be deleted" Value="起点不可删除" />
+		<Message Name="Only one group can be removed at a time" Value="每次只能解除一个群组" />
+    <Message Name="Align Left" Value="靠左对齐" />
+    <Message Name="Align Right" Value="靠右对齐" />
+    <Message Name="Align Top" Value="靠上对齐" />
+    <Message Name="Align      Bottom" Value="靠下对齐" />
+    <Message Name="Horizontal Spacing" Value="水平间距" />
+    <Message Name="Vertical   Spacing" Value="垂直间距" />
+    <Message Name="Please select at least two nodes,use Ctrl to select multiple nodes" Value="请选取至少两个节点，按住Ctrl选取多个节点" />
+    <Message Name="CHILD_ROUTE" Value="子途程" />
+    <Message Name="Unable to query this route's XML information in DB" Value="在DB查无此途程的XML资料" />
+    <Message Name="Close" Value="关闭" />
+	</简体中文>
+</Chroma>

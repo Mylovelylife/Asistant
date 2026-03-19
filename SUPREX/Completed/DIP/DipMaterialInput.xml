@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Chroma>
+  
+	
+  <繁體中文>
+    
+		
+    <Message Name="OK" Value="確定"/>
+    
+		
+    <Message Name="Factory" Value="廠別"/>
+    
+		
+    <Message Name="Terminal" Value="工作站"/>
+    
+		
+    <Message Name="Process" Value="製程"/>
+    
+		
+    <Message Name="Stage" Value="區段"/>
+    
+		
+    <Message Name="Production Line" Value="生產線別"/>
+    
+		
+    <Message Name="Cancel" Value="取消"/>
+    
+		
+    <Message Name="Option" Value="選項"/>
+    
+		
+    <Message Name="Station" Value="站別"/>
+    
+		
+    <Message Name="not check" Value="不檢查"/>
+    
+		
+    <Message Name="at least input one record" Value="至少輸入一筆零件維修記錄"/>
+    
+		
+    <Message Name="Input Item Repair Record ?" Value="是否輸入零件維修記錄 ?"/>
+    
+		
+    <Message Name="Please Choose Terminal" Value="請選擇工作站"/>
+    
+		
+    <Message Name="Assign Terminal OK" Value="配置工作站完成"/>
+    
+		
+    <Message Name="SetTerminal" Value="配置工作站"/>
+    
+		
+    <Message Name="Terminal" Value="工作站"/>
+    
+		
+    <Message Name="WorkOrder" Value="工單"/>
+    
+		
+    <Message Name="Material" Value="原材料條碼"/>
+    
+		
+    <Message Name="Finish" Value="投入"/>
+    
+		
+    <Message Name="Search" Value="查找"/>
+    
+		
+    <Message Name="Please enter a number" Value="請至少輸入1個數字!"/>
+    
+		
+    <Message Name="WORK_ORDER" Value="工單"/>
+    
+		
+    <Message Name="WO_TYPE" Value="工單類型"/>
+    
+		
+    <Message Name="WO_RULE" Value="工單規則"/>
+ 
+    <Message Name="not find wo bom" Value="查詢不到該工單對應的BOM信息"/>
+    
+		
+    <Message Name="PART_NO" Value="料號"/>
+    
+		
+    <Message Name="ITEM_PART_NO" Value="料件"/>
+    
+		
+    <Message Name="ITEM_GROUP" Value="替代料關係"/>
+    
+		
+    <Message Name="ITEM_COUNT" Value="BOM比例"/>
+    
+		
+    <Message Name="DeleteSN" Value="下料"/>
+    
+		
+    <Message Name="The SN has been brushed in" Value="該條碼已經刷入"/>
+    
+		
+    <Message Name="REEL_NO" Value="條碼"/>
+    
+		
+    <Message Name="QTY" Value="發料數量"/>
+    
+		
+    <Message Name="ProcessID null" Value="查詢不到工作站點對應的制程"/>
+    
+		
+    <Message Name="wo null" Value="請輸入工單!"/>
+    
+		
+    <Message Name="wo bom warning" Value="該工單BOM同時存在主料和替代料，請質量或者其他部門人員來確認是否可以上料"/>
+    
+		
+    <Message Name="reelNo not found" Value="查詢不到該原材料條碼"/>
+    
+		
+    <Message Name="wo error" Value="原材料條碼工單錯誤"/>
+    
+		
+    <Message Name="wo ok" Value="工單OK！"/>
+    
+		
+    <Message Name="processid error" Value="原材料條碼製程異常"/>
+    
+		
+    <Message Name="part error" Value="原材料條碼錯誤"/>
+    
+		
+    <Message Name="reel_no is exist" Value="該原材料條碼已經上料"/>
+    
+		
+    <Message Name="LOADQTY" Value="上料數量"/>
+    
+		
+    <Message Name="USED_QTY" Value="使用數量"/>
+    
+		
+    <Message Name="USABLE_QTY" Value="未使用數量"/>
+    
+		
+    <Message Name="REMAIN_QTY" Value="剩余需要上的料數量"/>
+    
+		
+    <Message Name="TARGET_QTY" Value="目標數量"/>
+    
+		
+    <Message Name="REMAINQTY" Value="剩餘數量"/>
+    
+		
+    <Message Name="SN Part ID Error" Value="SN料號不在工單BOM中"/>
+    
+		
+    <Message Name="Sn null" Value="請刷入SN"/>
+    
+		
+    <Message Name="No SN" Value="SN不存在"/>
+    
+		
+    <Message Name="Panel Null" Value="連板號為空，請選擇單板過站"/>
+    
+		
+    <Message Name="Input Success" Value="投入成功"/>
+    
+		
+    <Message Name="PARTNO" Value="料號"/>
+    
+		
+    <Message Name="SN" Value="SN"/>
+    
+		
+    <Message Name="WO" Value="工單"/>
+    
+		
+    <Message Name="SNPARTNO" Value="料號"/>
+    
+		
+    <Message Name="TERMINAL_NAME" Value="站點"/>
+    
+		
+    <Message Name="PROCESS_NAME" Value="製程"/>
+    
+		
+    <Message Name="NEXT_PROCESS_NAME" Value="下一個製程"/>
+    
+		
+    <Message Name="Current_Qty" Value="投入數量"/>
+    
+		
+    <Message Name="Target_Qty" Value="目標數量"/>
+    
+		
+    <Message Name="PANEL_NO" Value="連板號碼"/>
+    
+		
+    <Message Name="OUT_PROCESS_TIME" Value="過站時間"/>
+    
+		
+    <Message Name="Bom Detail" Value="BOM列表"/>
+    
+		
+    <Message Name="Reel Detail" Value="原材料列表"/>
+    
+		
+    <Message Name="Sn Current Record" Value="當前過站記錄"/>
+    
+		
+    <Message Name="not load" Value="未上料"/>
+    
+		
+    <Message Name="Head Code" Value="前置碼"/>
+    
+		
+    <Message Name="Tail Code" Value="後置碼"/>
+    
+		
+    <Message Name="Panel Go" Value="連板過站"/>
+    
+		
+    <Message Name="SN Go" Value="單板過站"/>
+    
+		
+    <Message Name="Print?" Value="列印標籤？"/>
+    
+		
+    <Message Name="Sel All" Value="全選"/>
+    
+		
+    <Message Name="Sel None" Value="全不選"/>
+    
+		
+    <Message Name="Reel Down" Value="下料"/>
+    
+		
+    <Message Name="Select" Value="選擇"/>
+    
+		
+    <Message Name="" Value=""/>
+    
+
+	
+  </繁體中文>
+  
+	
+  <简体中文>
+    
+		
+    <Message Name="OK" Value="确定"/>
+    
+		
+    <Message Name="Factory" Value="厂别"/>
+    
+		
+    <Message Name="Terminal" Value="工作站"/>
+    
+		
+    <Message Name="Process" Value="制程"/>
+    
+		
+    <Message Name="Stage" Value="区段"/>
+    
+		
+    <Message Name="Production Line" Value="生产线别"/>
+    
+		
+    <Message Name="Cancel" Value="取消"/>
+    
+		
+    <Message Name="Option" Value="选项"/>
+    
+		
+    <Message Name="Station" Value="站别"/>
+    
+		
+    <Message Name="not check" Value="不检查"/>
+    
+		
+    <Message Name="at least input one record" Value="至少输入一笔零件维修记录"/>
+    
+		
+    <Message Name="Input Item Repair Record ?" Value="是否输入零件维修记录 ?"/>
+    
+		
+    <Message Name="Please Choose Terminal" Value="请选择工作站"/>
+    
+		
+    <Message Name="Assign Terminal OK" Value="配置工作站完成"/>
+    
+		
+    <Message Name="SetTerminal" Value="配置工作站"/>
+    
+		
+    <Message Name="Terminal" Value="工作站"/>
+    
+		
+    <Message Name="WorkOrder" Value="工单"/>
+    
+		
+    <Message Name="Material" Value="原材料条码"/>
+    	
+		
+    <Message Name="Finish" Value="投入"/>
+    
+		
+    <Message Name="Search" Value="查找"/>
+    
+		
+    <Message Name="Please enter a number" Value="请至少输入1个数字!"/>
+    
+		
+    <Message Name="WORK_ORDER" Value="工单"/>
+    
+		
+    <Message Name="WO_TYPE" Value="工单类型"/>
+    
+		
+    <Message Name="WO_RULE" Value="工单规则"/>
+    
+		
+    <Message Name="not find wo bom" Value="查询不到该工单对应的BOM信息"/>
+    
+		
+    <Message Name="PART_NO" Value="料号"/>
+    
+		
+    <Message Name="ITEM_PART_NO" Value="料件"/>
+    
+		
+    <Message Name="ITEM_COUNT" Value="BOM比例"/>
+    
+		
+    <Message Name="DeleteSN" Value="下料"/>
+    
+		
+    <Message Name="The SN has been brushed in" Value="该条码已经刷入"/>
+    
+		
+    <Message Name="REEL_NO" Value="六合一条码"/>
+    
+		
+    <Message Name="QTY" Value="发料数量"/>
+    
+		
+    <Message Name="ProcessID null" Value="查询不到工作站点对应的制程"/>
+    
+		
+    <Message Name="wo null" Value="请输入工单!"/>
+    
+		
+    <Message Name="wo bom warning" Value="该工单BOM同时存在主料和替代料，请质量或者其他部门人员来确认是否可以上料"/>
+    
+		
+    <Message Name="reelNo not found" Value="查询不到该原材料条码"/>
+    
+		
+    <Message Name="wo error" Value="原材料条码工单错误"/>
+    
+		
+    <Message Name="processid error" Value="原材料条码制程异常"/>
+    
+		
+    <Message Name="reel_no is exist" Value="该原材料条码已经上料"/>
+    
+		
+    <Message Name="LOADQTY" Value="上料数量"/>
+    
+		
+    <Message Name="USED_QTY" Value="使用数量"/>
+    
+		
+    <Message Name="USABLE_QTY" Value="未使用数量"/>
+    
+		
+    <Message Name="REMAIN_QTY" Value="剩余需要上的料数量"/>
+    
+		
+    <Message Name="TARGET_QTY" Value="目标数量"/>
+    		
+		
+    <Message Name="REMAINQTY" Value="剩余数量"/>
+    
+		
+    <Message Name="SN Part ID Error" Value="SN料号不在工单BOM中"/>
+    
+		
+    <Message Name="Sn null" Value="请刷入Sn"/>
+    
+		
+    <Message Name="Input Success" Value="投入成功"/>
+    
+		
+    <Message Name="PARTNO" Value="料号"/>
+    
+		
+    <Message Name="SN" Value="SN"/>
+    
+		
+    <Message Name="WO" Value="工单"/>
+    
+		
+    <Message Name="SNPARTNO" Value="料号"/>
+    
+		
+    <Message Name="TERMINAL_NAME" Value="站点"/>
+    
+		
+    <Message Name="PROCESS_NAME" Value="制程"/>
+    
+		
+    <Message Name="NEXT_PROCESS_NAME" Value="下一个制程"/>
+    
+		
+    <Message Name="Current_Qty" Value="投入数量"/>
+    
+		
+    <Message Name="Target_Qty" Value="目标数量"/>
+    
+		
+    <Message Name="PANEL_NO" Value="连板号码"/>
+    
+		
+    <Message Name="OUT_PROCESS_TIME" Value="过站时间"/>
+    
+		
+    <Message Name="Bom Detail" Value="BOM列表"/>
+    
+		
+    <Message Name="Reel Detail" Value="原材料列表"/>
+    
+		
+    <Message Name="Sn Current Record" Value="当前过站记录"/>
+    	
+		
+	
+  </简体中文>
+  
+
+  <Ngôn_ngữ_Việt>
+    <Message Name="OK" Value="Xác Nhận"/>
+    <Message Name="Factory" Value="Nhà Máy"/>
+    <Message Name="Terminal" Value="Trạm Làm Việc"/>
+    <Message Name="Process" Value="Công Đoạn"/>
+    <Message Name="Stage" Value="Khu Vực"/>
+    <Message Name="Production Line" Value="Dây Chuyền Sản Xuất"/>
+    <Message Name="Cancel" Value="Hủy"/>
+    <Message Name="Option" Value="Tùy Chọn"/>
+    <Message Name="Station" Value="Trạm"/>
+    <Message Name="not check" Value="Không Kiểm Tra"/>
+    <Message Name="at least input one record" Value="Vui Lòng Nhập Ít Nhất Một Bản Ghi Sửa Chữa"/>
+    <Message Name="Input Item Repair Record ?" Value="Có Nhập Bản Ghi Sửa Chữa Không?"/>
+    <Message Name="Please Choose Terminal" Value="Vui Lòng Chọn Trạm"/>
+    <Message Name="Assign Terminal OK" Value="Cấu Hình Trạm Thành Công"/>
+    <Message Name="SetTerminal" Value="Cấu Hình Trạm"/>
+    <Message Name="WorkOrder" Value="Lệnh Sản Xuất"/>
+    <Message Name="Material" Value="Mã Nguyên Liệu"/>
+    <Message Name="Finish" Value="Nhập Liệu"/>
+    <Message Name="Search" Value="Tìm Kiếm"/>
+    <Message Name="Please enter a number" Value="Vui Lòng Nhập Ít Nhất 1 Số!"/>
+    <Message Name="WORK_ORDER" Value="Lệnh Sản Xuất"/>
+    <Message Name="WO_TYPE" Value="Loại Lệnh Sản Xuất"/>
+    <Message Name="WO_RULE" Value="Quy Tắc Lệnh Sản Xuất"/>
+    <Message Name="not find wo bom" Value="Không Tìm Thấy BOM Của Lệnh Này"/>
+    <Message Name="PART_NO" Value="Mã Linh Kiện"/>
+    <Message Name="ITEM_PART_NO" Value="Mã Vật Liệu"/>
+    <Message Name="ITEM_GROUP" Value="Nhóm Vật Liệu Thay Thế"/>
+    <Message Name="ITEM_COUNT" Value="Tỷ Lệ BOM"/>
+    <Message Name="DeleteSN" Value="Xóa Liệu"/>
+    <Message Name="The SN has been brushed in" Value="Mã Đã Được Quét Trước Đó"/>
+    <Message Name="REEL_NO" Value="Mã Cuộn"/>
+    <Message Name="QTY" Value="Số Lượng Cấp Liệu"/>
+    <Message Name="ProcessID null" Value="Không Tìm Thấy Công Đoạn"/>
+    <Message Name="wo null" Value="Vui Lòng Nhập Lệnh Sản Xuất!"/>
+    <Message Name="wo bom warning" Value="Lệnh BOM Có Cả Vật Liệu Chính &amp; Thay Thế, Cần Bộ Phận Chất Lượng Xác Nhận"/>
+    <Message Name="reelNo not found" Value="Không Tìm Thấy Mã Nguyên Liệu"/>
+    <Message Name="wo error" Value="Mã Nguyên Liệu Không Thuộc Lệnh Sản Xuất"/>
+    <Message Name="wo ok" Value="Lệnh Sản Xuất OK!"/>
+    <Message Name="processid error" Value="Công Đoạn Của Mã Nguyên Liệu Không Hợp Lệ"/>
+    <Message Name="part error" Value="Mã Nguyên Liệu Sai"/>
+    <Message Name="reel_no is exist" Value="Mã Nguyên Liệu Đã Được Cấp Trước Đó"/>
+    <Message Name="LOADQTY" Value="Số Lượng Cấp"/>
+    <Message Name="USED_QTY" Value="Số Lượng Đã Dùng"/>
+    <Message Name="USABLE_QTY" Value="Số Lượng Chưa Dùng"/>
+    <Message Name="REMAIN_QTY" Value="Số Lượng Cần Cấp"/>
+    <Message Name="TARGET_QTY" Value="Số Lượng Mục Tiêu"/>
+    <Message Name="REMAINQTY" Value="Số Lượng Còn Lại"/>
+    <Message Name="SN Part ID Error" Value="SN Không Thuộc BOM"/>
+    <Message Name="Sn null" Value="Vui Lòng Quét SN"/>
+    <Message Name="No SN" Value="Không Tồn Tại SN"/>
+    <Message Name="Panel Null" Value="Chưa Chọn Mã Panel"/>
+    <Message Name="Input Success" Value="Nhập Thành Công"/>
+    <Message Name="PARTNO" Value="Mã Linh Kiện"/>
+    <Message Name="SN" Value="SN"/>
+    <Message Name="WO" Value="Lệnh Sản Xuất"/>
+    <Message Name="SNPARTNO" Value="Mã Linh Kiện"/>
+    <Message Name="TERMINAL_NAME" Value="Trạm"/>
+    <Message Name="PROCESS_NAME" Value="Công Đoạn"/>
+    <Message Name="NEXT_PROCESS_NAME" Value="Công Đoạn Tiếp Theo"/>
+    <Message Name="Current_Qty" Value="Số Lượng Nhập"/>
+    <Message Name="Target_Qty" Value="Số Lượng Mục Tiêu"/>
+    <Message Name="PANEL_NO" Value="Mã Panel"/>
+    <Message Name="OUT_PROCESS_TIME" Value="Thời Gian Qua Trạm"/>
+    <Message Name="Bom Detail" Value="Danh Sách BOM"/>
+    <Message Name="Reel Detail" Value="Danh Sách Nguyên Liệu"/>
+    <Message Name="Sn Current Record" Value="Bản Ghi SN Hiện Tại"/>
+    <Message Name="not load" Value="Chưa Cấp Liệu"/>
+    <Message Name="Head Code" Value="Mã Đầu"/>
+    <Message Name="Tail Code" Value="Mã Cuối"/>
+    <Message Name="Panel Go" Value="Panel Qua Trạm"/>
+    <Message Name="SN Go" Value="SN Qua Trạm"/>
+    <Message Name="Print?" Value="In Nhãn?"/>
+    <Message Name="Sel All" Value="Chọn Tất Cả"/>
+    <Message Name="Sel None" Value="Bỏ Chọn"/>
+    <Message Name="Reel Down" Value="Xóa Liệu"/>
+    <Message Name="Select" Value="Chọn"/>
+  </Ngôn_ngữ_Việt>
+</Chroma>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+		<Message Name="PartError" Value="Part Error!"/>
+		<Message Name="PartEmpty" Value="Part is Empty!"/>
+		<Message Name="QtyError" Value="Qty is Error!"/>
+		<Message Name="LineEmpty" Value="Please select line!"/>
+		<Message Name="VersionEmpty" Value="Please select version!"/>
+		<Message Name="FileEmpty" Value="Please select file!"/>
+		<Message Name="PART_NO" Value="Part No"/>
+		<Message Name="SPEC1" Value="Spec"/>
+	</English>
+	<繁體中文>
+		<Message Name=" not found!" Value="未定義!"/>
+		<Message Name="Process" Value="製程"/>
+		<Message Name="Bottom" Value="反面"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="FileEmpty" Value="檔案未選!"/>
+		<Message Name="Import" Value="匯入"/>
+		<Message Name="Import File" Value="匯入檔案"/>
+		<Message Name="Import OK." Value="匯入完成."/>
+		<Message Name="Line" Value="線別"/>
+		<Message Name="LineEmpty" Value="線別未設定!"/>
+		<Message Name="Machine" Value="機台"/>
+		<Message Name="MSL No is Exist, Replace?" Value="料站表已存在, 是否替換?"/>
+		<Message Name="MSL Type" Value="料站表格式"/>
+		<Message Name="OK" Value="確定"/>
+		<Message Name="Part" Value="料號"/>
+		<Message Name="Part No" Value="料號"/>
+		<Message Name="PartEmpty" Value="料號未定義!"/>
+		<Message Name="PartError" Value="料號錯誤!"/>
+		<Message Name="Please check this file." Value="請檢查檔案!"/>
+		<Message Name="Please Save MSL!" Value="請先儲存料站表!"/>
+		<Message Name="QtyError" Value="數量格式錯誤!"/>
+		<Message Name="Save Default Path" Value="設定預設路徑"/>
+		<Message Name="Search" Value="搜尋"/>
+		<Message Name="Side" Value="正反面"/>
+		<Message Name="SMT Line" Value="SMT線別"/>
+		<Message Name="Station" Value="棧位"/>
+		<Message Name="to" Value="到"/>
+		<Message Name="Top" Value="正面"/>
+		<Message Name="Version" Value="版本"/>
+		<Message Name="VersionEmpty" Value="版本未設定!"/>
+		<Message Name="Format Error" Value="格式錯誤"/>
+		<Message Name="MSL Type Error!" Value="未有此格式!"/>
+		<Message Name="PART_NO" Value="料號"/>
+		<Message Name="SPEC1" Value="規格"/>
+		<Message Name="Not in BOM" Value="不在物料清單中"/>
+		<Message Name="Bom error" Value="物料清單錯誤"/>
+
+		<Message Name="Add" Value="加入"/>
+		<Message Name="Remove" Value="移除"/>
+		<Message Name="Spec" Value="規格"/>
+		<Message Name="Name" Value="名稱"/>
+		<Message Name="Size" Value="大小"/>
+		<Message Name="Modified" Value="修改日期"/>
+		<Message Name="Attribute" Value="屬性"/>
+		<Message Name="List" Value="匯入清單"/>
+		<Message Name="Change" Value="變更"/>
+		<Message Name="Confirm" Value="確定"/>
+		<Message Name="Import Check Result" Value="匯入資料確認"/>
+		<Message Name="Machine Line" Value="線別"/>
+		<Message Name="Terminal" Value="工作站"/>
+		<Message Name="Status" Value="狀態"/>
+
+		<Message Name="Remove Part ?" Value="是否確認移除料號?"/>
+		<Message Name="Please Input Part No Prefix" Value="請輸入料號關鍵字至少一碼"/>
+		<Message Name="Please select an import file folder" Value="請選取匯入檔案資料夾"/>
+		<Message Name="Please set SMT machine terminal" Value="請設置SMT機台工作站"/>
+
+	</繁體中文>
+	<简体中文>
+		<Message Name=" not found!" Value="未定义!"/>
+		<Message Name="Process" Value="制程"/>
+		<Message Name="Bottom" Value="反面"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="FileEmpty" Value="档案未选!"/>
+		<Message Name="Import" Value="汇入"/>
+		<Message Name="Import File" Value="汇入档案"/>
+		<Message Name="Import OK." Value="汇入完成."/>
+		<Message Name="Line" Value="线别"/>
+		<Message Name="LineEmpty" Value="线别未设定!"/>
+		<Message Name="Machine" Value="机台"/>
+		<Message Name="MSL No is Exist, Replace?" Value="料站表已存在, 是否替换?"/>
+		<Message Name="MSL Type" Value="料站表格式"/>
+		<Message Name="OK" Value="确定"/>
+		<Message Name="Part" Value="料号"/>
+		<Message Name="Part No" Value="料号"/>
+		<Message Name="PartEmpty" Value="料号未定义!"/>
+		<Message Name="PartError" Value="料号错误!"/>
+		<Message Name="Please check this file." Value="请检查档案!"/>
+		<Message Name="Please Save MSL!" Value="请先储存料站表!"/>
+		<Message Name="QtyError" Value="数量格式错误!"/>
+		<Message Name="Save Default Path" Value="设定预设路径"/>
+		<Message Name="Search" Value="搜寻"/>
+		<Message Name="Side" Value="正反面"/>
+		<Message Name="SMT Line" Value="SMT线别"/>
+		<Message Name="Station" Value="栈位"/>
+		<Message Name="to" Value="到"/>
+		<Message Name="Top" Value="正面"/>
+		<Message Name="Version" Value="版本"/>
+		<Message Name="VersionEmpty" Value="版本未设定!"/>
+		<Message Name="Format Error" Value="格式错误"/>
+		<Message Name="MSL Type Error!" Value="未有此格式!"/>
+		<Message Name="PART_NO" Value="料号"/>
+		<Message Name="SPEC1" Value="规格"/>
+		<Message Name="Not in BOM" Value="不在物料清单中"/>
+		<Message Name="Bom error" Value="物料清单错误"/>
+
+		<Message Name="Add" Value="加入"/>
+		<Message Name="Remove" Value="移除"/>
+		<Message Name="Spec" Value="规格"/>
+		<Message Name="Name" Value="名称"/>
+		<Message Name="Size" Value="大小"/>
+		<Message Name="Modified" Value="修改日期"/>
+		<Message Name="Attribute" Value="属性"/>
+		<Message Name="List" Value="汇入清单"/>
+		<Message Name="Change" Value="变更"/>
+		<Message Name="Confirm" Value="确定"/>
+		<Message Name="Import Check Result" Value="汇入数据确认"/>
+		<Message Name="Machine Line" Value="线别"/>
+		<Message Name="Terminal" Value="工作站"/>
+		<Message Name="Status" Value="状态"/>
+
+		<Message Name="Remove Part ?" Value="是否确认移除料号?"/>
+		<Message Name="Please Input Part No Prefix" Value="请输入料号关键词至少一码"/>
+		<Message Name="Please select an import file folder" Value="请选取汇入档案文件夹"/>
+
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name=" not found!" Value="Chưa được định nghĩa!"/><Message Name="Process" Value="Công đoạn"/><Message Name="Bottom" Value="Mặt sau"/><Message Name="Cancel" Value="Hủy"/><Message Name="FileEmpty" Value="Chưa chọn tệp!"/><Message Name="Import" Value="Nhập dữ liệu"/><Message Name="Import File" Value="Tệp nhập"/><Message Name="Import OK." Value="Nhập hoàn tất."/><Message Name="Line" Value="Dây chuyền"/><Message Name="LineEmpty" Value="Chưa thiết lập dây chuyền!"/><Message Name="Machine" Value="Máy SMT"/><Message Name="MSL No is Exist, Replace?" Value="Bảng trạm đã tồn tại, có muốn thay thế không?"/><Message Name="MSL Type" Value="Định dạng bảng trạm"/><Message Name="OK" Value="Xác nhận"/><Message Name="Part" Value="Mã linh kiện"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="PartEmpty" Value="Mã linh kiện chưa được định nghĩa!"/><Message Name="PartError" Value="Sai mã linh kiện!"/><Message Name="Please check this file." Value="Vui lòng kiểm tra tệp!"/><Message Name="Please Save MSL!" Value="Vui lòng lưu bảng trạm trước!"/><Message Name="QtyError" Value="Sai định dạng số lượng!"/><Message Name="Save Default Path" Value="Thiết lập đường dẫn mặc định"/><Message Name="Search" Value="Tìm kiếm"/><Message Name="Side" Value="Mặt trước / sau"/><Message Name="SMT Line" Value="Dây chuyền SMT"/><Message Name="Station" Value="Vị trí trạm"/><Message Name="to" Value="Đến"/><Message Name="Top" Value="Mặt trước"/><Message Name="Version" Value="Phiên bản"/><Message Name="VersionEmpty" Value="Chưa thiết lập phiên bản!"/><Message Name="Format Error" Value="Định dạng sai"/><Message Name="MSL Type Error!" Value="Không có định dạng này!"/><Message Name="PART_NO" Value="Mã linh kiện"/><Message Name="SPEC1" Value="Quy cách"/><Message Name="Not in BOM" Value="Không có trong BOM"/><Message Name="Bom error" Value="Lỗi BOM"/><Message Name="Add" Value="Thêm"/><Message Name="Remove" Value="Gỡ bỏ"/><Message Name="Spec" Value="Quy cách"/><Message Name="Name" Value="Tên"/><Message Name="Size" Value="Kích thước"/><Message Name="Modified" Value="Ngày sửa"/><Message Name="Attribute" Value="Thuộc tính"/><Message Name="List" Value="Danh sách nhập"/><Message Name="Change" Value="Thay đổi"/><Message Name="Confirm" Value="Xác nhận"/><Message Name="Import Check Result" Value="Xác nhận dữ liệu nhập"/><Message Name="Machine Line" Value="Dây chuyền"/><Message Name="Terminal" Value="Trạm làm việc"/><Message Name="Status" Value="Trạng thái"/><Message Name="Remove Part ?" Value="Bạn có chắc muốn xoá mã linh kiện này không?"/><Message Name="Please Input Part No Prefix" Value="Vui lòng nhập ít nhất 1 ký tự cho mã linh kiện"/><Message Name="Please select an import file folder" Value="Vui lòng chọn thư mục chứa tệp nhập"/><Message Name="Please set SMT machine terminal" Value="Vui lòng thiết lập trạm SMT"/></Ngôn_ngữ_Việt></Chroma>

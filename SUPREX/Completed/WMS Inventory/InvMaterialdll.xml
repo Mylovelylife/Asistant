@@ -1,0 +1,540 @@
+﻿<Chroma>
+  <English />
+  <繁體中文>
+    <Message Name="DateCodeLength Error!" Value="DateCode為錯誤！" />
+    <Message Name="Length :" Value="長度為：" />
+    <Message Name="PART LEVEL IS NOT MAINTAIN" Value="濕敏元件料號等級未維護！預設等級為M，是否繼續執行？" />
+    <Message Name="Reel No" Value="原料批號" />
+    <Message Name="REEL_NO" Value="原料批號" />
+    <Message Name="REEL_QTY" Value="數量" />
+    <Message Name="EMP_NAME" Value="員工號" />
+    <Message Name="UPDATE_TIME" Value="更新時間" />
+    <Message Name="Part No" Value="料號" />
+    <Message Name="Unit Qty" Value="最小包裝" />
+    <Message Name="Date Code" Value="Date Code" />
+    <Message Name="Vendor Code" Value="供應商代碼" />
+    <Message Name="PO Number" Value="訂單號" />
+    <Message Name="RT_NO" Value="RT單號" />
+    <Message Name="Remove" Value="移除" />
+    <Message Name="Record Count" Value="資料筆數" />
+    <Message Name="Print Qty" Value="列印數量" />
+    <Message Name="Print" Value="列印" />
+    <Message Name="Reel Error" Value="料卷錯誤" />
+    <Message Name="Print Finish" Value="列印完成" />
+    <Message Name="Reel Qty" Value="列印數量" />
+    <Message Name="Execute" Value="執行" />
+    <Message Name="Prefix" Value="前置碼" />
+    <Message Name="Please Input DateCode" Value="請輸入日期" />
+    <Message Name="Part No Error" Value="料號錯誤" />
+    <Message Name="Vendor Code Error" Value="供應商代碼錯誤" />
+    <Message Name="RT No Error" Value="RT單錯誤" />
+    <Message Name="Reel Duplicate" Value="原料批號重複" />
+    <Message Name="Manual Input" Value="手動輸入來料批次號" />
+    <Message Name="System Create" Value="系統建立來料批次號" />
+    <Message Name="Total Qty" Value="總數量" />
+    <Message Name="Incoming Qty" Value="RT收料數" />
+    <Message Name="IQC Receive Qty" Value="IQC允收數" />
+    <Message Name="Inventory Qty" Value="入庫數" />
+    <Message Name="IQC Result" Value="IQC檢驗結果" />
+    <Message Name="Clear" Value="清除" />
+    <Message Name="RT No" Value="RT單號" />
+    <Message Name="Seq" Value="項次" />
+    <Message Name="Reel No Input" Value="料卷資料輸入" />
+    <Message Name="Input Qty" Value="輸入數量" />
+    <Message Name="Over RT Available Input Qty" Value="超過RT單剩餘可入庫數量" />
+    <Message Name="Continue ?" Value="繼續 ?" />
+    <Message Name="Employee" Value="員工" />
+    <Message Name="DateTime" Value="時間" />
+    <Message Name="Stock In" Value="標籤列印" />
+    <Message Name="Start No" Value="起始號" />
+    <Message Name="End No" Value="結束號" />
+    <Message Name="Seq Length" Value="流水號長度" />
+    <Message Name="Please Input Start No" Value="請輸入起始號" />
+    <Message Name="Please Input Prefix" Value="請輸入前置碼" />
+    <Message Name="Length of Start No less then Seq Length" Value="起始號長度 小於 流水號長度" />
+    <Message Name="Sequence No Error" Value="流水號錯誤(流水號必須為數值)" />
+    <Message Name="Please Input DateCode / Lot" Value="請輸入DateCode 或 Lot" />
+    <Message Name="Reel No Total Length Error" Value="來料批次號總長度錯誤" />
+    <Message Name="Check Length" Value="檢查原料批號長度" />
+    <Message Name="RT Receive Date" Value="進料日期" />
+    <Message Name="Print?" Value="是否列印" />
+    <Message Name="Length of Sequence No more than" Value="流水號長超過" />
+    <Message Name="Label File Not Found" Value="標籤檔案不存在" />
+    <Message Name="File Not Found" Value="檔案不存在" />
+    <Message Name="Label Type" Value="標籤檔類型" />
+    <Message Name="Large" Value="大標籤" />
+    <Message Name="Small" Value="小標籤" />
+    <Message Name="Middle" Value="中標籤" />
+    <Message Name="Memo" Value="備註" />
+    <Message Name="OK" Value="確定" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Duplicate Reel No" Value="重複的原料批號" />
+    <Message Name="Reel No Range" Value="原料批號展開範圍" />
+    <Message Name="Stock" Value="入庫" />
+    <Message Name="Vendor Name" Value="供應商名稱" />
+    <Message Name="Seq Length must more than 0" Value="流水號長度必須大於0" />
+    <Message Name="RT does not include this Part" Value="RT單不包含此料號" />
+    <Message Name="RT Seq" Value="RT單項次" />
+    <Message Name="Select RT Seq" Value="選擇RT單項次" />
+    <Message Name="VENDOR_CODE" Value="供應商代碼" />
+    <Message Name="VENDOR_NAME" Value="供應商名稱" />
+    <Message Name="VENDOR_DESC" Value="供應商描述" />
+    <Message Name="Search" Value="尋找" />
+    <Message Name="PART_NO" Value="料號" />
+    <Message Name="Check Part No" Value="料號比對" />
+    <Message Name="SPEC1" Value="描述(1)" />
+    <Message Name="SPEC2" Value="描述(2)" />
+    <Message Name="Create Reel Finish" Value="原料批號自動建立完成" />
+    <Message Name="Please Input Part No Prefix" Value="請輸入料號前置碼至少一碼" />
+    <Message Name="WAREHOUSE_NAME" Value="倉庫" />
+    <Message Name="Warehouse" Value="倉庫" />
+    <Message Name="Warehouse Error" Value="倉庫錯誤" />
+    <Message Name="Please input Warehouse Name" Value="請輸入倉庫名稱" />
+    <Message Name="Division Qty" Value="拆出數量" />
+    <Message Name="Print original tab?" Value="列印原始標籤" />
+    <Message Name="Division Qty Null!!" Value="拆出數量錯誤" />
+    <Message Name="Division Qty Zero!!" Value="拆出數量不能為0" />
+    <Message Name="Division Qty Error" Value="拆出數量錯誤" />
+    <Message Name="Out of Range" Value="超出範圍" />
+    <Message Name="Reel Division" Value="料卷分拆" />
+    <Message Name="Original Reel" Value="原始料卷" />
+    <Message Name="New Reel" Value="新料卷" />
+    <Message Name="MultiInput" Value="多筆列印" />
+    <Message Name="RePrint" Value="重印" />
+    <Message Name="Test Print" Value="測試列印" />
+    <Message Name="Reel No List" Value="原料批號列表" />
+    <Message Name="PO Number" Value="PO單號" />
+    <Message Name="Lot Size" Value="批次數量" />
+    <Message Name="Refresh" Value="刷新" />
+    <Message Name="IQC Time" Value="IQC檢驗時間" />
+    <Message Name="Import" Value="導入" />
+    <Message Name="Clear Data" Value="清空數據" />
+    <Message Name="ReCount" Value="重點料卷數" />
+    <Message Name="Print Old Reel" Value="列印舊料卷" />
+    <Message Name="ReCount Qty" Value="重點數量" />
+    <Message Name="Please Input prefix" Value="請輸入料號2位元首碼" />
+    <Message Name="Is Open" Value="開封" />
+    <Message Name="Lot" Value="LotCode" />
+    <Message Name="Please Input DateCode" Value="請輸入日期" />
+    <Message Name="Please Input Lot" Value="請輸入來料批次號" />
+    <Message Name="Qty" Value="數量" />
+    <Message Name="Reel No Error" Value="原料批號錯誤" />
+    <Message Name="LOT" Value="LotCode" />
+    <Message Name="VENDOR_NAME" Value="供應商名稱" />
+    <Message Name="ROWNUM" Value="行號" />
+    <Message Name="BOX_NO" Value="原料批號" />
+    <Message Name="QTY" Value="數量" />
+    <Message Name="Scrap OK" Value="報廢成功" />
+    <Message Name="Scrap" Value="報廢" />
+    <Message Name="UOM" Value="單位" />
+    <Message Name="UOM" Value="基準單位" />
+    <Message Name="UPC" Value="採購單位" />
+    <Message Name="Vendor Part" Value="供應商料號" />
+    <Message Name="IMPORT" Value="匯入" />
+    <Message Name="fImport" Value="匯入" />
+    <Message Name="OK" Value="匯入" />
+    <Message Name="Cancel" Value="離開" />
+    <Message Name="No single RT and item selection" Value="未選擇rt單和項次" />
+    <Message Name="No IQC test was detected" Value="未進行IQC檢測" />
+    <Message Name="data is null" Value="數據為空" />
+    <Message Name="Material number is" Value="物料號碼為" />
+    <Message Name="No." Value="第" />
+    <Message Name="line，" Value="行，" />
+    <Message Name="import OK" Value="匯入成功" />
+    <Message Name="import fail" Value="匯入失敗" />
+    <Message Name="NO" Value="序號" />
+    <Message Name="date import error" Value="匯入失敗，excel模版格式不對" />
+    <Message Name="IQC REJECT Qty" Value="IQC批退數" />
+    <Message Name="RCPrint  Qty" Value="合格列印量" />
+    <Message Name="RJPrint  Qty" Value="不合格列印量" />
+    <Message Name="column17" Value="預留1" />
+    <Message Name="column18" Value="預留2" />
+    <Message Name="column19" Value="預留3" />
+    <Message Name="column20" Value="預留4" />
+    <Message Name="column21" Value="預留5" />
+    <Message Name="column22" Value="預留6" />
+    <Message Name="column23" Value="預留7" />
+    <Message Name="column24" Value="預留8" />
+    <Message Name="column25" Value="預留9" />
+    <Message Name="column26" Value="預留10" />
+    <Message Name="column27" Value="預留11" />
+    <Message Name="column28" Value="預留12" />
+    <Message Name="Data check failure" Value="資料檢查失敗" />
+    <Message Name="Print Num" Value="列印份數" />
+    <Message Name="Excel bounds check failure" Value="excel界限檢查失敗" />
+    <Message Name="Material Type Error" Value="物料類型錯誤" />
+    <Message Name="RT Type Not Found" Value="沒有找到RT單類型" />
+    <Message Name="There are Spaces in the data" Value="數據中有空格" />
+    <Message Name="Whether or not to continue" Value="是否繼續" />
+    <Message Name="No Report Upload" Value="無報告上傳" />
+    <Message Name="The part number has not been set to upload a report" Value="該料號未設置上傳報告" />
+    <Message Name="success" Value="上傳成功" />
+    <Message Name="Material barcode is" Value="物料條碼是" />
+    <Message Name="No" Value="第" />
+    <Message Name="line，" Value="行， " />
+    <Message Name="Duplicate data in" Value="重復資料在" />
+    <Message Name="Please go and modify it." Value="請去修改" />
+    <Message Name="The quantity imported from EXCEL is" Value="EXCEL汇入的数量为" />
+    <Message Name=", the amount allowed to be imported is" Value=",允许汇入的数量为" />
+    <Message Name=", please modify the import amount" Value=",请修改汇入量" />
+  </繁體中文>
+      <Ngôn_ngữ_Việt>
+ <Message Name="DateCodeLength Error!" Value="Độ dài DateCode không hợp lệ!" />
+<Message Name="Length :" Value="Độ dài: " />
+<Message Name="PART LEVEL IS NOT MAINTAIN"  Value="Cấp độ linh kiện nhạy ẩm (MSL) chưa được thiết lập! Mặc định là M. Có tiếp tục không?" />
+<Message Name="Reel No" Value="Mã lô nguyên liệu" />
+<Message Name="REEL_NO" Value="Mã lô nguyên liệu" />
+<Message Name="REEL_QTY" Value="Số lượng" />
+<Message Name="EMP_NAME" Value="Mã nhân viên" />
+<Message Name="UPDATE_TIME" Value="Thời gian cập nhật" />
+<Message Name="Part No" Value="Mã linh kiện" />
+<Message Name="Unit Qty" Value="Số lượng đóng gói nhỏ nhất" />
+<Message Name="Date Code" Value="Date Code" />
+<Message Name="Vendor Code" Value="Mã nhà cung cấp" />
+<Message Name="PO Number" Value="Số đơn hàng (PO)" />
+<Message Name="RT_NO" Value="Mã phiếu RT" />
+<Message Name="Remove" Value="Xóa" />
+<Message Name="Record Count" Value="Số lượng dữ liệu" />
+<Message Name="Print Qty" Value="Số lượng in" />
+<Message Name="Print" Value="In" />
+<Message Name="Reel Error" Value="Lỗi mã cuộn vật liệu" />
+<Message Name="Print Finish" Value="In hoàn tất" />
+<Message Name="Reel Qty" Value="Số lượng cuộn" />
+<Message Name="Execute" Value="Thực hiện" />
+<Message Name="Prefix" Value="Tiền tố" />
+<Message Name="Please Input DateCode" Value="Vui lòng nhập DateCode" />
+<Message Name="Part No Error" Value="Mã linh kiện không hợp lệ" />
+<Message Name="Vendor Code Error" Value="Mã nhà cung cấp không hợp lệ" />
+<Message Name="RT No Error" Value="Lỗi mã phiếu RT" />
+<Message Name="Reel Duplicate" Value="Mã lô nguyên liệu bị trùng" />
+<Message Name="Manual Input" Value="Nhập thủ công số lô nguyên liệu" />
+<Message Name="System Create" Value="Hệ thống tự tạo số lô nguyên liệu" />
+<Message Name="Total Qty" Value="Tổng số lượng" />
+<Message Name="Incoming Qty" Value="Số lượng nhận từ RT" />
+<Message Name="IQC Receive Qty" Value="Số lượng IQC chấp nhận" />
+<Message Name="Inventory Qty" Value="Số lượng nhập kho" />
+<Message Name="IQC Result" Value="Kết quả IQC" />
+<Message Name="Clear" Value="Xóa" />
+<Message Name="RT No" Value="Mã phiếu RT" />
+<Message Name="Seq" Value="Mục số" />
+<Message Name="Reel No Input" Value="Nhập dữ liệu mã cuộn vật liệu" />
+<Message Name="Input Qty" Value="Nhập số lượng" />
+<Message Name="Over RT Available Input Qty" Value="Vượt quá số lượng còn lại của phiếu RT" />
+<Message Name="Continue ?" Value="Tiếp tục?" />
+<Message Name="Employee" Value="Nhân viên" />
+<Message Name="DateTime" Value="Thời gian" />
+<Message Name="Stock In" Value="In nhãn" />
+<Message Name="Start No" Value="Số bắt đầu" />
+<Message Name="End No" Value="Số kết thúc" />
+<Message Name="Seq Length" Value="Độ dài số thứ tự" />
+<Message Name="Please Input Start No" Value="Vui lòng nhập số bắt đầu" />
+<Message Name="Please Input Prefix" Value="Vui lòng nhập tiền tố" />
+<Message Name="Length of Start No less then Seq Length" Value="Độ dài số bắt đầu nhỏ hơn độ dài số thứ tự" />
+<Message Name="Sequence No Error" Value="Lỗi số thứ tự (phải là số)" />
+<Message Name="Please Input DateCode / Lot" Value="Vui lòng nhập DateCode hoặc Lot" />
+<Message Name="Reel No Total Length Error" Value="Độ dài mã lô nguyên liệu không hợp lệ" />
+<Message Name="Check Length" Value="Kiểm tra độ dài mã lô nguyên liệu" />
+<Message Name="RT Receive Date" Value="Ngày nhận nguyên liệu (RT)" />
+<Message Name="Print?" Value="Có in không?" />
+<Message Name="Length of Sequence No more than" Value="Độ dài số thứ tự vượt quá " />
+<Message Name="Label File Not Found" Value="Không tìm thấy tệp nhãn" />
+<Message Name="File Not Found" Value="Không tìm thấy tệp" />
+<Message Name="Label Type" Value="Loại tệp nhãn" />
+<Message Name="Large" Value="Nhãn lớn" />
+<Message Name="Small" Value="Nhãn nhỏ" />
+<Message Name="Middle" Value="Nhãn trung" />
+<Message Name="Memo" Value="Ghi chú" />
+<Message Name="OK" Value="Xác nhận" />
+<Message Name="Cancel" Value="Hủy" />
+<Message Name="Duplicate Reel No" Value="Mã lô nguyên liệu bị trùng" />
+<Message Name="Reel No Range" Value="Phạm vi mở rộng mã lô nguyên liệu" />
+<Message Name="Stock" Value="Nhập kho" />
+<Message Name="Vendor Name" Value="Tên nhà cung cấp" />
+<Message Name="Seq Length must more than 0" Value="Độ dài số thứ tự phải lớn hơn 0" />
+<Message Name="RT does not include this Part" Value="Phiếu RT không包含 mã linh kiện này" />
+<Message Name="RT Seq" Value="Mục số RT" />
+<Message Name="Select RT Seq" Value="Chọn mục số RT" />
+<Message Name="VENDOR_CODE" Value="Mã nhà cung cấp" />
+<Message Name="VENDOR_NAME" Value="Tên nhà cung cấp" />
+<Message Name="VENDOR_DESC" Value="Mô tả nhà cung cấp" />
+<Message Name="Search" Value="Tìm kiếm" />
+<Message Name="PART_NO" Value="Mã linh kiện" />
+<Message Name="Check Part No" Value="Đối chiếu mã linh kiện" />
+<Message Name="SPEC1" Value="Mô tả (1)" />
+<Message Name="SPEC2" Value="Mô tả (2)" />
+<Message Name="Create Reel Finish" Value="Tự động tạo mã lô nguyên liệu hoàn tất" />
+<Message Name="Please Input Part No Prefix" Value="Vui lòng nhập ít nhất một ký tự tiền tố mã linh kiện" />
+<Message Name="WAREHOUSE_NAME" Value="Kho" />
+<Message Name="Warehouse" Value="Kho" />
+<Message Name="Warehouse Error" Value="Kho không hợp lệ" />
+<Message Name="Please input Warehouse Name" Value="Vui lòng nhập tên kho" />
+<Message Name="Division Qty" Value="Số lượng tách ra" />
+<Message Name="Print original tab?" Value="In nhãn gốc?" />
+<Message Name="Division Qty Null!!" Value="Số lượng tách không hợp lệ" />
+<Message Name="Division Qty Zero!!" Value="Số lượng tách không được bằng 0" />
+<Message Name="Division Qty Error" Value="Số lượng tách lỗi" />
+<Message Name="Out of Range" Value="Vượt quá phạm vi" />
+<Message Name="Reel Division" Value="Tách cuộn nguyên liệu" />
+<Message Name="Original Reel" Value="Cuộn nguyên liệu gốc" />
+<Message Name="New Reel" Value="Cuộn nguyên liệu mới" />
+<Message Name="MultiInput" Value="In nhiều bản" />
+<Message Name="RePrint" Value="In lại" />
+<Message Name="Test Print" Value="In thử" />
+<Message Name="Reel No List" Value="Danh sách mã lô nguyên liệu" />
+<Message Name="PO Number" Value="Mã PO" />
+<Message Name="Lot Size" Value="Số lượng lô" />
+<Message Name="Refresh" Value="Làm mới" />
+<Message Name="IQC Time" Value="Thời gian kiểm tra IQC" />
+
+<Message Name="Import" Value="Nhập dữ liệu" />
+<Message Name="Clear Data" Value="Xóa dữ liệu" />
+<Message Name="ReCount" Value="Đếm lại số cuộn trọng điểm" />
+<Message Name="Print Old Reel" Value="In cuộn nguyên liệu cũ" />
+<Message Name="ReCount Qty" Value="Số lượng trọng điểm" />
+<Message Name="Please Input prefix" Value="Vui lòng nhập 2 ký tự tiền tố mã linh kiện" />
+<Message Name="Is Open" Value="Đã mở bao" />
+<Message Name="Lot" Value="LotCode" />
+<Message Name="Please Input DateCode" Value="Vui lòng nhập DateCode" />
+<Message Name="Please Input Lot" Value="Vui lòng nhập mã lô nguyên liệu" />
+<Message Name="Qty" Value="Số lượng" />
+<Message Name="Reel No Error" Value="Mã lô nguyên liệu không hợp lệ" />
+<Message Name="LOT" Value="LotCode" />
+<Message Name="VENDOR_NAME" Value="Tên nhà cung cấp" />
+<Message Name="ROWNUM" Value="Số dòng" />
+<Message Name="BOX_NO" Value="Mã lô nguyên liệu" />
+<Message Name="QTY" Value="Số lượng" />
+<Message Name="Scrap OK" Value="Phế liệu thành công" />
+<Message Name="Scrap" Value="Phế liệu" />
+<Message Name="UOM" Value="Đơn vị" />
+<Message Name="UOM" Value="Đơn vị cơ bản" />
+<Message Name="UPC" Value="Đơn vị mua hàng" />
+<Message Name="Vendor Part" Value="Mã linh kiện nhà cung cấp" />
+<Message Name="IMPORT" Value="Nhập dữ liệu" />
+<Message Name="fImport" Value="Nhập dữ liệu" />
+<Message Name="OK" Value="Nhập dữ liệu" />
+<Message Name="Cancel" Value="Thoát" />
+<Message Name="No single RT and item selection" Value="Chưa chọn phiếu RT và mục số" />
+<Message Name="No IQC test was detected" Value="Chưa thực hiện kiểm tra IQC" />
+<Message Name="data is null" Value="Dữ liệu trống" />
+<Message Name="Material number is" Value="Mã vật liệu là" />
+<Message Name="No." Value="Dòng " />
+<Message Name="line，" Value=" , " />
+<Message Name="import OK" Value="Nhập dữ liệu thành công" />
+<Message Name="import fail" Value="Nhập dữ liệu thất bại" />
+<Message Name="NO" Value="Số thứ tự" />
+<Message Name="date import error" Value="Nhập thất bại – sai định dạng mẫu Excel" />
+<Message Name="IQC REJECT Qty" Value="Số lượng IQC loại bỏ" />
+<Message Name="RCPrint  Qty" Value="Số lượng in đạt" />
+<Message Name="RJPrint  Qty" Value="Số lượng in lỗi" />
+<Message Name="column17" Value="Dự phòng 1" />
+<Message Name="column18" Value="Dự phòng 2" />
+<Message Name="column19" Value="Dự phòng 3" />
+<Message Name="column20" Value="Dự phòng 4" />
+<Message Name="column21" Value="Dự phòng 5" />
+<Message Name="column22" Value="Dự phòng 6" />
+<Message Name="column23" Value="Dự phòng 7" />
+<Message Name="column24" Value="Dự phòng 8" />
+<Message Name="column25" Value="Dự phòng 9" />
+<Message Name="column26" Value="Dự phòng 10" />
+<Message Name="column27" Value="Dự phòng 11" />
+<Message Name="column28" Value="Dự phòng 12" />
+<Message Name="Data check failure" Value="Kiểm tra dữ liệu thất bại" />
+<Message Name="Print Num" Value="Số bản in" />
+<Message Name="Excel bounds check failure" Value="Kiểm tra giới hạn Excel thất bại" />
+<Message Name="Material Type Error" Value="Sai loại vật liệu" />
+<Message Name="RT Type Not Found" Value="Không tìm thấy loại phiếu RT" />
+<Message Name="There are Spaces in the data" Value="Trong dữ liệu có khoảng trắng" />
+<Message Name="Whether or not to continue" Value="Có tiếp tục không?" />
+<Message Name="No Report Upload" Value="Chưa có báo cáo được tải lên" />
+<Message Name="The part number has not been set to upload a report" 
+         Value="Mã linh kiện này chưa được thiết lập để tải lên báo cáo" />
+<Message Name="success" Value="Tải lên thành công" />
+<Message Name="Material barcode is" Value="Mã barcode vật liệu là" />
+<Message Name="No" Value="Dòng " />
+<Message Name="line，" Value=" , " />
+<Message Name="Duplicate data in" Value="Dữ liệu trùng trong" />
+<Message Name="Please go and modify it." Value="Vui lòng chỉnh sửa lại" />
+<Message Name="The quantity imported from EXCEL is" Value="Số lượng nhập từ Excel là" />
+<Message Name=", the amount allowed to be imported is" Value=", số lượng cho phép là" />
+<Message Name=", please modify the import amount" Value=", vui lòng chỉnh sửa số lượng nhập" />
+       </Ngôn_ngữ_Việt>
+
+  <简体中文>
+    <Message Name="DateCodeLength Error!" Value="DateCode为错误！" />
+    <Message Name="Length :" Value="长度为：" />
+    <Message Name="PART LEVEL IS NOT MAINTAIN" Value="湿敏元件料号等级未维护！默认等级为M，是否继续执行？" />
+    <Message Name="Reel No" Value="原料批号" />
+    <Message Name="REEL_NO" Value="原料批号" />
+    <Message Name="REEL_QTY" Value="数量" />
+    <Message Name="EMP_NAME" Value="员工号" />
+    <Message Name="UPDATE_TIME" Value="更新时间" />
+    <Message Name="Part No" Value="料号" />
+    <Message Name="Unit Qty" Value="最小包装" />
+    <Message Name="Date Code" Value="Date Code" />
+    <Message Name="Vendor Code" Value="供应商代码" />
+    <Message Name="PO Number" Value="订单号" />
+    <Message Name="RT_NO" Value="RT单号" />
+    <Message Name="Remove" Value="移除" />
+    <Message Name="Record Count" Value="资料笔数" />
+    <Message Name="Print Qty" Value="打印数量" />
+    <Message Name="Print" Value="列印" />
+    <Message Name="Reel Error" Value="料卷错误" />
+    <Message Name="Print Finish" Value="列印完成" />
+    <Message Name="Reel Qty" Value="打印数量" />
+    <Message Name="Execute" Value="执行" />
+    <Message Name="Prefix" Value="前置码" />
+    <Message Name="Please Input DateCode" Value="请输入日期" />
+    <Message Name="Part No Error" Value="料号错误" />
+    <Message Name="Vendor Code Error" Value="供应商代码错误" />
+    <Message Name="RT No Error" Value="RT单错误" />
+    <Message Name="Reel Duplicate" Value="原料批号重复" />
+    <Message Name="Manual Input" Value="手动输入来料批次号" />
+    <Message Name="System Create" Value="系统建立来料批次号" />
+    <Message Name="Total Qty" Value="总数量" />
+    <Message Name="Incoming Qty" Value="RT收料数" />
+    <Message Name="IQC Receive Qty" Value="IQC允收数" />
+    <Message Name="Inventory Qty" Value="入库数" />
+    <Message Name="IQC Result" Value="IQC检验结果" />
+    <Message Name="Clear" Value="清除" />
+    <Message Name="RT No" Value="RT单号" />
+    <Message Name="Seq" Value="项次" />
+    <Message Name="Reel No Input" Value="料卷资料输入" />
+    <Message Name="Input Qty" Value="输入数量" />
+    <Message Name="Over RT Available Input Qty" Value="超过RT单剩余可入库数量" />
+    <Message Name="Continue ?" Value="继续 ?" />
+    <Message Name="Employee" Value="员工" />
+    <Message Name="DateTime" Value="时间" />
+    <Message Name="Stock In" Value="标签列印" />
+    <Message Name="Start No" Value="起始号" />
+    <Message Name="End No" Value="结束号" />
+    <Message Name="Seq Length" Value="流水号长度" />
+    <Message Name="Please Input Start No" Value="请输入起始号" />
+    <Message Name="Please Input Prefix" Value="请输入前置码" />
+    <Message Name="Length of Start No less then Seq Length" Value="起始号长度 小於 流水号长度" />
+    <Message Name="Sequence No Error" Value="流水号错误(流水号必须为数值)" />
+    <Message Name="Please Input DateCode / Lot" Value="请输入DateCode 或 Lot" />
+    <Message Name="Reel No Total Length Error" Value="来料批次号总长度错误" />
+    <Message Name="Check Length" Value="检查原料批号长度" />
+    <Message Name="RT Receive Date" Value="进料日期" />
+    <Message Name="Print?" Value="是否列印" />
+    <Message Name="Length of Sequence No more than" Value="流水号长超过" />
+    <Message Name="Label File Not Found" Value="标签档案不存在" />
+    <Message Name="File Not Found" Value="档案不存在" />
+    <Message Name="Label Type" Value="标签档类型" />
+    <Message Name="Large" Value="大标签" />
+    <Message Name="Small" Value="小标签" />
+    <Message Name="Middle" Value="中标签" />
+    <Message Name="Memo" Value="备注" />
+    <Message Name="OK" Value="确定" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Duplicate Reel No" Value="重复的原料批号" />
+    <Message Name="Reel No Range" Value="原料批号展开范围" />
+    <Message Name="Stock" Value="入库" />
+    <Message Name="Vendor Name" Value="供应商名称" />
+    <Message Name="Seq Length must more than 0" Value="流水号长度必须大於0" />
+    <Message Name="RT does not include this Part" Value="RT单不包含此料号" />
+    <Message Name="RT Seq" Value="RT单项次" />
+    <Message Name="Select RT Seq" Value="选择RT单项次" />
+    <Message Name="VENDOR_CODE" Value="供应商代码" />
+    <Message Name="VENDOR_NAME" Value="供应商名称" />
+    <Message Name="VENDOR_DESC" Value="供应商描述" />
+    <Message Name="Search" Value="寻找" />
+    <Message Name="PART_NO" Value="料号" />
+    <Message Name="Check Part No" Value="料号比对" />
+    <Message Name="SPEC1" Value="描述(1)" />
+    <Message Name="SPEC2" Value="描述(2)" />
+    <Message Name="Create Reel Finish" Value="原料批号自动建立完成" />
+    <Message Name="Please Input Part No Prefix" Value="请输入料号前置码至少一码" />
+    <Message Name="WAREHOUSE_NAME" Value="仓库" />
+    <Message Name="Warehouse" Value="仓库" />
+    <Message Name="Warehouse Error" Value="仓库错误" />
+    <Message Name="Please input Warehouse Name" Value="请输入仓库名称" />
+    <Message Name="Division Qty" Value="拆出数量" />
+    <Message Name="Print original tab?" Value="列印原始标签" />
+    <Message Name="Division Qty Null!!" Value="拆出数量错误" />
+    <Message Name="Division Qty Zero!!" Value="拆出数量不能为0" />
+    <Message Name="Division Qty Error" Value="拆出数量错误" />
+    <Message Name="Out of Range" Value="超出范围" />
+    <Message Name="Reel Division" Value="料卷分拆" />
+    <Message Name="Original Reel" Value="原始料卷" />
+    <Message Name="New Reel" Value="新料卷" />
+    <Message Name="MultiInput" Value="多笔列印" />
+    <Message Name="RePrint" Value="重印" />
+    <Message Name="Test Print" Value="测试打印" />
+    <Message Name="Reel No List" Value="原料批号列表" />
+    <Message Name="PO Number" Value="PO单号" />
+    <Message Name="Lot Size" Value="批次数量" />
+    <Message Name="Refresh" Value="刷新" />
+    <Message Name="IQC Time" Value="IQC检验时间" />
+    <Message Name="Import" Value="导入" />
+    <Message Name="Clear Data" Value="清空数据" />
+    <Message Name="ReCount" Value="重点料卷数" />
+    <Message Name="Print Old Reel" Value="打印旧料卷" />
+    <Message Name="ReCount Qty" Value="重点数量" />
+    <Message Name="Please Input prefix" Value="请输入料号2位前缀" />
+    <Message Name="Is Open" Value="开封" />
+    <Message Name="Lot" Value="LotCode" />
+    <Message Name="Please Input DateCode" Value="请输入日期" />
+    <Message Name="Please Input Lot" Value="请输入来料批次号" />
+    <Message Name="Qty" Value="数量" />
+    <Message Name="Reel No Error" Value="原料批号错误" />
+    <Message Name="LOT" Value="LotCode" />
+    <Message Name="VENDOR_NAME" Value="供货商名称" />
+    <Message Name="ROWNUM" Value="行号" />
+    <Message Name="BOX_NO" Value="原料批号" />
+    <Message Name="QTY" Value="数量" />
+    <Message Name="Scrap OK" Value="报废成功" />
+    <Message Name="Scrap" Value="报废" />
+    <Message Name="UOM" Value="单位" />
+    <Message Name="UOM" Value="基准单位" />
+    <Message Name="UPC" Value="采购单位" />
+    <Message Name="Vendor Part" Value="供应商料号" />
+    <Message Name="IMPORT" Value="汇入" />
+    <Message Name="fImport" Value="汇入" />
+    <Message Name="OK" Value="汇入" />
+    <Message Name="Cancel" Value="离开" />
+    <Message Name="No single RT and item selection" Value="未选择rt单和项次" />
+    <Message Name="No IQC test was detected" Value="未进行IQC检测" />
+    <Message Name="data is null" Value="数据为空" />
+    <Message Name="Material number is" Value="物料号码为" />
+    <Message Name="No." Value="第" />
+    <Message Name="line，" Value="行，" />
+    <Message Name="import OK" Value="汇入成功" />
+    <Message Name="import fail" Value="汇入失败" />
+    <Message Name="NO" Value="序号" />
+    <Message Name="date import error" Value="汇入失败，excel模版格式不对" />
+    <Message Name="IQC REJECT Qty" Value="IQC批退数" />
+    <Message Name="RCPrint  Qty" Value="合格打印量" />
+    <Message Name="RJPrint  Qty" Value="不合格打印量" />
+    <Message Name="column17" Value="预留1" />
+    <Message Name="column18" Value="预留2" />
+    <Message Name="column19" Value="预留3" />
+    <Message Name="column20" Value="预留4" />
+    <Message Name="column21" Value="预留5" />
+    <Message Name="column22" Value="预留6" />
+    <Message Name="column23" Value="预留7" />
+    <Message Name="column24" Value="预留8" />
+    <Message Name="column25" Value="预留9" />
+    <Message Name="column26" Value="预留10" />
+    <Message Name="column27" Value="预留11" />
+    <Message Name="column28" Value="预留12" />
+    <Message Name="Data check failure" Value="数据检查失败" />
+    <Message Name="Print Num" Value="打印份数" />
+    <Message Name="Excel bounds check failure" Value="excel界限检查失败" />
+    <Message Name="Material Type Error" Value="物料类型错误" />
+    <Message Name="RT Type Not Found" Value="没有找到RT单类型" />
+    <Message Name="There are Spaces in the data" Value="数据中有空格" />
+    <Message Name="Whether or not to continue" Value="是否继续" />
+    <Message Name="No Report Upload" Value="无报告上传" />
+    <Message Name="The part number has not been set to upload a report" Value="该料号未设置上传报告" />
+    <Message Name="success" Value="上传成功" />
+    <Message Name="Material barcode is" Value="物料条码是" />
+    <Message Name="No" Value="第" />
+    <Message Name="line，" Value="行， " />
+    <Message Name="Duplicate data in" Value="重复数据在" />
+    <Message Name="Please go and modify it." Value="请去修改" />
+    <Message Name="The quantity imported from EXCEL is" Value="EXCEL汇入的数量为" />
+    <Message Name=", the amount allowed to be imported is" Value=",允许汇入的数量为" />
+    <Message Name=", please modify the import amount" Value=",请修改汇入量" />
+  </简体中文>
+</Chroma>

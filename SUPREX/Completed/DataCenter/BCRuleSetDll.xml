@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+  <English/>
+  <繁體中文>
+    <Message Name="Save" Value="儲存"/>
+    <Message Name="Rule Name" Value="規則名稱"/>
+    <Message Name="Filter" Value="過濾條件"/>
+    <Message Name="Remark" Value="備註說明"/>
+    <Message Name="Sales Order" Value="出貨單號"/>
+    <Message Name="PO Number" Value="訂單編號"/>
+    <Message Name="Master W/O" Value="主工單"/>
+    <Message Name="W/O Type" Value="工單類型"/>
+    <Message Name="Customer" Value="客戶"/>
+    <Message Name="W/O Information" Value="工單資訊"/>
+    <Message Name="Delete" Value="刪除"/>
+    <Message Name="Label Name" Value="標籤名稱"/>
+    <Message Name="Code Name" Value="代碼名稱"/>
+    <Message Name="Code" Value="代碼"/>
+    <Message Name="Line" Value="生產線"/>
+	<Message Name="Append" Value="新增"/>
+	<Message Name="Modify" Value="修改"/>
+	<Message Name="Delete this Rule?" Value="確認要刪除這個規則集合?"/>
+  </繁體中文>
+  <简体中文>
+    <Message Name="Save" Value="储存"/>
+    <Message Name="Rule Name" Value="规则名称"/>
+    <Message Name="Filter" Value="过滤条件"/>
+    <Message Name="Remark" Value="备注说明"/>
+    <Message Name="Sales Order" Value="出货单号"/>
+    <Message Name="PO Number" Value="订单编号"/>
+    <Message Name="Master W/O" Value="主工单"/>
+    <Message Name="W/O Type" Value="工单类型"/>
+    <Message Name="Customer" Value="客户"/>
+    <Message Name="W/O Information" Value="工单信息"/>
+    <Message Name="Delete" Value="删除"/>
+    <Message Name="Label Name" Value="标签名称"/>
+    <Message Name="Code Name" Value="代码名称"/>
+    <Message Name="Code" Value="代码"/>
+    <Message Name="Line" Value="生产线"/>
+	<Message Name="Append" Value="新增"/>
+	<Message Name="Modify" Value="修改"/>
+	 <Message Name="Delete this Rule?" Value="确认要删除这个规则集合?"/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="Save" Value="Lưu"/><Message Name="Rule Name" Value="Tên quy tắc"/><Message Name="Filter" Value="Điều kiện lọc"/><Message Name="Remark" Value="Ghi chú"/><Message Name="Sales Order" Value="Số đơn giao hàng"/><Message Name="PO Number" Value="Mã đơn đặt hàng"/><Message Name="Master W/O" Value="Lệnh sản xuất chính"/><Message Name="W/O Type" Value="Loại lệnh sản xuất"/><Message Name="Customer" Value="Khách hàng"/><Message Name="W/O Information" Value="Thông tin lệnh sản xuất"/><Message Name="Delete" Value="Xóa"/><Message Name="Label Name" Value="Tên nhãn"/><Message Name="Code Name" Value="Tên mã"/><Message Name="Code" Value="Mã"/><Message Name="Line" Value="Dây chuyền sản xuất"/><Message Name="Append" Value="Thêm mới"/><Message Name="Modify" Value="Chỉnh sửa"/><Message Name="Delete this Rule?" Value="Bạn có chắc muốn xóa tập quy tắc này?"/></Ngôn_ngữ_Việt></Chroma>

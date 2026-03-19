@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+	<English>
+		<Message Name="Factory" Value="Factory"/>
+		<Message Name="Line Name" Value="Line Name"/>
+		<Message Name="Description" Value="Description"/>
+		<Message Name="Description2" Value="Description2"/>
+		<Message Name="FACTORY_NAME" Value="Factory"/>
+		<Message Name="Factory cannot be empty" Value="廠別不可為空"/>
+	</English>
+	<繁體中文>
+		<Message Name="Factory" Value="廠別"/>
+		<Message Name="Line Name" Value="線別名稱"/>
+		<Message Name="Description" Value="線別描述"/>
+		<Message Name="Description2" Value="線別描述(2)"/>
+		<Message Name="FACTORY_NAME" Value="廠別"/>
+		<Message Name="Shift Group Name" Value="班別群組"/>
+		<Message Name="Factory cannot be empty" Value="廠別不可為空"/>
+	</繁體中文>
+	<简体中文>
+		<Message Name="Factory" Value="厂别"/>
+		<Message Name="Line Name" Value="线别名称"/>
+		<Message Name="Description" Value="线别描述"/>
+		<Message Name="Description2" Value="线别描述(2)"/>
+		<Message Name="FACTORY_NAME" Value="厂别"/>
+		<Message Name="Shift Group Name" Value="班别群组"/>
+		<Message Name="Factory cannot be empty" Value="厂别不可为空"/>
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Factory" Value="Nhà máy"/><Message Name="Line Name" Value="Tên chuyền sản xuất"/><Message Name="Description" Value="Mô tả chuyền"/><Message Name="Description2" Value="Mô tả chuyền (2)"/><Message Name="FACTORY_NAME" Value="Nhà máy"/><Message Name="Shift Group Name" Value="Nhóm ca làm việc"/><Message Name="Factory cannot be empty" Value="Nhà máy không được để trống"/></Ngôn_ngữ_Việt></Chroma>

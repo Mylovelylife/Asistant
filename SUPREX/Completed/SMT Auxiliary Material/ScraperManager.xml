@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+		<Message Name="Append" Value="Append"/>
+		<Message Name="Modify" Value="Modify"/>
+		<Message Name="Disabled" Value="Disabled"/>
+		<Message Name="Enabled" Value="Enabled"/>
+		<Message Name="All" Value="All"/>
+		<Message Name="Export" Value="Export"/>
+		<Message Name="Delete" Value="Delete"/>
+		<Message Name="Scraper Code" Value="Scraper Code"/>
+		<Message Name="Scraper Description" Value="Scraper Description"/>
+		<Message Name="Used Count" Value="Used Count"/>
+		<Message Name="Filter" Value="Filter"/>
+		<Message Name="OK" Value="OK"/>
+		<Message Name="Cancel" Value="Cancel"/>
+	</English>
+	<繁體中文>
+		<Message Name="Append" Value="新增"/>
+		<Message Name="Modify" Value="修改"/>
+		<Message Name="Disabled" Value="停用"/>
+		<Message Name="Enabled" Value="可用"/>
+		<Message Name="All" Value="全部"/>
+		<Message Name="Export" Value="匯出"/>
+		<Message Name="Delete" Value="刪除"/>
+		<Message Name="Scraper Code" Value="刮刀編號"/>
+		<Message Name="Scraper Description" Value="刮刀描述"/>
+		<Message Name="Used Count" Value="使用次數"/>
+		<Message Name="Filter" Value="過濾條件"/>
+		<Message Name="OK" Value="確定"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Status" Value="狀態"/>
+	</繁體中文>
+	<简体中文>
+		<Message Name="Append" Value="新增"/>
+		<Message Name="Modify" Value="修改"/>
+		<Message Name="Disabled" Value="停用"/>
+		<Message Name="Enabled" Value="可用"/>
+		<Message Name="All" Value="全部"/>
+		<Message Name="Export" Value="汇出"/>
+		<Message Name="Delete" Value="删除"/>
+		<Message Name="Scraper Code" Value="刮刀编号"/>
+		<Message Name="Scraper Description" Value="刮刀描述"/>
+		<Message Name="Used Count" Value="使用次数"/>
+		<Message Name="Filter" Value="过滤条件"/>
+		<Message Name="OK" Value="确定"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Status" Value="状态"/>
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Append" Value="Thêm mới"/><Message Name="Modify" Value="Chỉnh sửa"/><Message Name="Disabled" Value="Ngưng dùng"/><Message Name="Enabled" Value="Có thể dùng"/><Message Name="All" Value="Tất cả"/><Message Name="Export" Value="Xuất dữ liệu"/><Message Name="Delete" Value="Xóa"/><Message Name="Scraper Code" Value="Mã dao gạt"/><Message Name="Scraper Description" Value="Mô tả dao gạt"/><Message Name="Used Count" Value="Số lần sử dụng"/><Message Name="Filter" Value="Điều kiện lọc"/><Message Name="OK" Value="Xác nhận"/><Message Name="Cancel" Value="Hủy"/><Message Name="Status" Value="Trạng thái"/></Ngôn_ngữ_Việt></Chroma>

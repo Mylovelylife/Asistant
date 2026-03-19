@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+		<Message Name="Sampling Rule Name" Value="Sampling Rule Name" />
+		<Message Name="Description" Value="Description" />
+		<Message Name="Default" Value="Default" />
+		<Message Name="Sampling Level" Value="Sampling Level" />
+		<Message Name="Continuous Cnt." Value="Continuous Cnt." />
+		<Message Name="Reject Cnt." Value="Reject Cnt." />
+		<Message Name="Pass Cnt." Value="Pass Cnt." />
+		<Message Name="Next Sampling Level" Value="Next Sampling Level" />
+		<Message Name="Normal" Value="Normal" />
+		<Message Name="Tight" Value="Tight" />
+		<Message Name="Reduced" Value="Reduced" />
+		<Message Name="No Inspect" Value="No Inspect" />
+
+		<Message Name="Set Default" Value="Set Default" />
+		<Message Name="Value must be bigger then 0" Value="Value must be bigger then 0" />
+		<Message Name="Detail Data also delete" Value="Detail Data also delete" />
+	</English>
+	<繁體中文>
+		<Message Name="Sampling Rule Name" Value="抽驗規則名稱" />
+		<Message Name="Description" Value="抽驗規則描述" />
+		<Message Name="Default" Value="預設" />
+		<Message Name="Sampling Level" Value="抽驗等級" />
+		<Message Name="Continuous Cnt." Value="連續批數" />
+		<Message Name="Reject Cnt." Value="批退批數" />
+		<Message Name="Pass Cnt." Value="允收批數" />
+		<Message Name="Next Sampling Level" Value="新抽驗等級" />
+		<Message Name="Normal" Value="正常" />
+		<Message Name="Tight" Value="加嚴" />
+		<Message Name="Reduced" Value="減量" />
+		<Message Name="No Inspect" Value="免驗" />
+
+		<Message Name="Set Default" Value="設為預設" />
+		<Message Name="Value must be bigger then 0" Value="數值必須大於0" />
+		<Message Name="Detail Data also delete" Value="細項資料也會被同時刪除" />
+	</繁體中文>
+	<简体中文>
+		<Message Name="Sampling Rule Name" Value="抽验规则名称" />
+		<Message Name="Description" Value="抽验规则描述" />
+		<Message Name="Default" Value="预设" />
+		<Message Name="Sampling Level" Value="抽验等级" />
+		<Message Name="Continuous Cnt." Value="连续批数" />
+		<Message Name="Reject Cnt." Value="批退批数" />
+		<Message Name="Pass Cnt." Value="允收批数" />
+		<Message Name="Next Sampling Level" Value="新抽验等级" />
+		<Message Name="Normal" Value="正常" />
+		<Message Name="Tight" Value="加严" />
+		<Message Name="Reduced" Value="减量" />
+		<Message Name="No Inspect" Value="免验" />
+
+		<Message Name="Set Default" Value="设为预设" />
+		<Message Name="Value must be bigger then 0" Value="数值必须大于0" />
+		<Message Name="Detail Data also delete" Value="细项数据也会被同时删除" />
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Sampling Rule Name" Value="Tên Quy Tắc Lấy Mẫu" /><Message Name="Description" Value="Mô Tả Quy Tắc" /><Message Name="Default" Value="Mặc Định" /><Message Name="Sampling Level" Value="Cấp Độ Lấy Mẫu" /><Message Name="Continuous Cnt." Value="Số Lô Liên Tiếp" /><Message Name="Reject Cnt." Value="Số Lô Bị Loại" /><Message Name="Pass Cnt." Value="Số Lô Đạt" /><Message Name="Next Sampling Level" Value="Cấp Lấy Mẫu Tiếp Theo" /><Message Name="Normal" Value="Bình Thường" /><Message Name="Tight" Value="Tăng Cường" /><Message Name="Reduced" Value="Giảm Tần Suất" /><Message Name="No Inspect" Value="Miễn Kiểm" /><Message Name="Set Default" Value="Thiết Lập Mặc Định" /><Message Name="Value must be bigger then 0" Value="Giá Trị Phải Lớn Hơn 0" /><Message Name="Detail Data also delete" Value="Dữ Liệu Chi Tiết Cũng Sẽ Bị Xóa" /></Ngôn_ngữ_Việt></Chroma>

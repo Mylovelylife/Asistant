@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文>
+    <Message Name="Drop Lot" Value="刪除批號"/>
+    <Message Name="Drop" Value="清除"/>
+    <Message Name="Lot No" Value="批號"/>
+    <Message Name="Create Time" Value="建立時間"/>
+    <Message Name="Production Line" Value="生產線別"/>
+    <Message Name="PDLine Name" Value="生產線別"/>
+    <Message Name="Terminal" Value="工作站"/>
+    <Message Name="Terminal Name" Value="工作站"/>
+    <Message Name="Lot Size" Value="批量"/>
+    <Message Name="Pass Qty" Value="良品數"/>
+    <Message Name="Fail Qty" Value="不良品數"/>
+    <Message Name="Employee" Value="員工"/>
+    <Message Name="Record Count" Value="筆數"/>
+    <Message Name="PDLine Name(Now)" Value="生產線別(目前)"/>
+    <Message Name="Terminal Name(Now)" Value="工作站(目前)"/>
+    <Message Name="IS Created By" Value="是由下述線別及站別所建立"/>
+    <Message Name="Are you sure to Drop Lot No" Value="你是否確認刪除批號"/> 
+    <Message Name="Can't be Deleted" Value="不能刪除"/> 
+  </繁體中文>
+<Ngôn_ngữ_Việt><Message Name="Drop Lot" Value="Xóa số lô"/><Message Name="Drop" Value="Xóa"/><Message Name="Lot No" Value="Số lô"/><Message Name="Create Time" Value="Thời gian tạo"/><Message Name="Production Line" Value="Dây chuyền sản xuất"/><Message Name="PDLine Name" Value="Dây chuyền sản xuất"/><Message Name="Terminal" Value="Trạm làm việc"/><Message Name="Terminal Name" Value="Trạm làm việc"/><Message Name="Lot Size" Value="Số lượng lô"/><Message Name="Pass Qty" Value="Số lượng OK"/><Message Name="Fail Qty" Value="Số lượng NG"/><Message Name="Employee" Value="Nhân viên"/><Message Name="Record Count" Value="Số bản ghi"/><Message Name="PDLine Name(Now)" Value="Dây chuyền sản xuất (hiện tại)"/><Message Name="Terminal Name(Now)" Value="Trạm làm việc (hiện tại)"/><Message Name="IS Created By" Value="Được tạo bởi dây chuyền và trạm dưới đây"/><Message Name="Are you sure to Drop Lot No" Value="Bạn có chắc chắn muốn xóa số lô"/><Message Name="Can't be Deleted" Value="Không thể xóa"/></Ngôn_ngữ_Việt></Chroma>

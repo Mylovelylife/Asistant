@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+		<Message Name="LOT_NO Maintain" Value="Lot No Maintain"/>
+		<Message Name="PART_NO" Value="Part No"/>
+		<Message Name="PART_ID" Value="Part Id"/>
+	</English>
+	<繁體中文>
+		<Message Name="Vendor" Value="供應商"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Save" Value="儲存"/>
+		<Message Name="Vendor Part" Value="供應商料號"/>
+		<Message Name="Version" Value="版本"/>
+		<Message Name="Qty" Value="數量"/>
+		<Message Name="Part No" Value="料號"/>
+		<Message Name="Vendor Lot" Value="供應商批號"/>
+		<Message Name="OK" Value="確定"/>
+		<Message Name="Search" Value="搜尋條件"/>
+		<Message Name="Delete" Value="刪除"/>
+		<Message Name="Modify" Value="修改"/>
+		<Message Name="Append" Value="新增"/>
+		<Message Name="Maintain" Value="維護"/>
+		<Message Name="LOT_NO Maintain" Value="檢驗批號維護"/>
+		<Message Name="Lot No" Value="檢驗批號"/>
+		<Message Name="Lot Qty" Value="批量"/>
+		<Message Name="PO No" Value="訂單號"/>
+		<Message Name="Delivery Notes Maintain" Value=""/>
+		<Message Name="RT No" Value="RT單號"/>
+		<Message Name="Date Code" Value=""/>
+		<Message Name="DN Item Maintain" Value=""/>
+		<Message Name="Item Seq" Value="項次"/>
+		<Message Name="Part Spec" Value="品名規格"/>
+		<Message Name="RT No" Value="RT單號"/>
+		<Message Name="Receive Time" Value="收料時間"/>
+		<Message Name="Detail Information" Value="RT項次明細"/>
+		<Message Name="RT No List" Value="RT清單"/>
+		<Message Name="RT No Error" Value="RT單號錯誤"/>
+		<Message Name="Vendor Error" Value="供應商錯誤"/>
+		<Message Name="RT No Duplicate" Value="RT單號重複"/>
+		<Message Name="Please Input Part No" Value="請輸入料號"/>
+		<Message Name="Please input Qty" Value="請輸入數量"/>
+		<Message Name="Qty Error" Value="數量錯誤"/>
+		<Message Name="RT Item Duplicate" Value="RT項目重複"/>
+		<Message Name="Do you want to delete this data ?" Value="確定要刪除此筆資料嗎 ?"/>
+		<Message Name="RT Item Append OK" Value="RT項目新增完成"/>
+		<Message Name="Append Other RT Item ?" Value="新增其它RT項目 ?"/>
+		<Message Name="RT No Data Append" Value="RT單號新增"/>
+		<Message Name="RT No Data Modify" Value="RT單號修改"/>
+		<Message Name="RT Item Data Maintain Append" Value="RT項次新增"/>
+		<Message Name="RT Item Data Maintain Modify" Value="RT項次修改"/>
+		<Message Name="No Data Found" Value="查無資料"/>
+		<Message Name="Not Modify" Value="已有檢驗批號，不可修改"/>
+		<Message Name="Not Delete" Value="已有檢驗批號，不可刪除"/>
+		<Message Name="This Part Not Have any RT Record" Value="此料號目前沒有收料記錄"/>
+		<Message Name="Lot Detail Information" Value="檢驗批號明細"/>
+		<Message Name="Please Select Lot No" Value="請選擇檢驗單"/>
+		<Message Name="Save Lot Data ?" Value="儲存檢驗單號?"/>
+		<Message Name="This Lot Don't Have Any RT No" Value="此檢驗單無任何RT資料"/>
+		<Message Name="Lot No Data Append" Value="新增檢驗單"/>
+		<Message Name="Lot No Data Modify" Value="修改檢驗單"/>
+		<Message Name="Lot No Append OK !" Value="檢驗單新增完成"/>
+		<Message Name="Append Other Lot No ?" Value="新增其它檢驗單 ?"/>
+		<Message Name="This Lot No has completed IQC" Value="此檢驗批號已完成IQC檢驗"/>
+		<Message Name="PART_NO" Value="料號"/>
+		<Message Name="PART_ID" Value="料號編號"/>
+	</繁體中文>
+	<简体中文>
+		<Message Name="Vendor" Value="供货商"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Save" Value="储存"/>
+		<Message Name="Vendor Part" Value="供货商料号"/>
+		<Message Name="Version" Value="版本"/>
+		<Message Name="Qty" Value="数量"/>
+		<Message Name="Part No" Value="料号"/>
+		<Message Name="Vendor Lot" Value="供货商批号"/>
+		<Message Name="OK" Value="确定"/>
+		<Message Name="Search" Value="搜寻条件"/>
+		<Message Name="Delete" Value="删除"/>
+		<Message Name="Modify" Value="修改"/>
+		<Message Name="Append" Value="新增"/>
+		<Message Name="Maintain" Value="维护"/>
+		<Message Name="LOT_NO Maintain" Value="检验批号维护"/>
+		<Message Name="Lot No" Value="检验批号"/>
+		<Message Name="Lot Qty" Value="批量"/>
+		<Message Name="PO No" Value="订单号"/>
+		<Message Name="Delivery Notes Maintain" Value=""/>
+		<Message Name="RT No" Value="RT单号"/>
+		<Message Name="Date Code" Value=""/>
+		<Message Name="DN Item Maintain" Value=""/>
+		<Message Name="Item Seq" Value="项次"/>
+		<Message Name="Part Spec" Value="品名规格"/>
+		<Message Name="RT No" Value="RT单号"/>
+		<Message Name="Receive Time" Value="收料时间"/>
+		<Message Name="Detail Information" Value="RT项次明细"/>
+		<Message Name="RT No List" Value="RT清单"/>
+		<Message Name="RT No Error" Value="RT单号错误"/>
+		<Message Name="Vendor Error" Value="供货商错误"/>
+		<Message Name="RT No Duplicate" Value="RT单号重复"/>
+		<Message Name="Please Input Part No" Value="请输入料号"/>
+		<Message Name="Please input Qty" Value="请输入数量"/>
+		<Message Name="Qty Error" Value="数量错误"/>
+		<Message Name="RT Item Duplicate" Value="RT项目重复"/>
+		<Message Name="Do you want to delete this data ?" Value="确定要删除此笔数据吗 ?"/>
+		<Message Name="RT Item Append OK" Value="RT项目新增完成"/>
+		<Message Name="Append Other RT Item ?" Value="新增其它RT项目 ?"/>
+		<Message Name="RT No Data Append" Value="RT单号新增"/>
+		<Message Name="RT No Data Modify" Value="RT单号修改"/>
+		<Message Name="RT Item Data Maintain Append" Value="RT项次新增"/>
+		<Message Name="RT Item Data Maintain Modify" Value="RT项次修改"/>
+		<Message Name="No Data Found" Value="查无资料"/>
+		<Message Name="Not Modify" Value="已有检验批号，不可修改"/>
+		<Message Name="Not Delete" Value="已有检验批号，不可删除"/>
+		<Message Name="This Part Not Have any RT Record" Value="此料号目前没有收料记录"/>
+		<Message Name="Lot Detail Information" Value="检验批号明细"/>
+		<Message Name="Please Select Lot No" Value="请选择检验单"/>
+		<Message Name="Save Lot Data ?" Value="储存检验单号?"/>
+		<Message Name="This Lot Don't Have Any RT No" Value="此检验单无任何RT资料"/>
+		<Message Name="Lot No Data Append" Value="新增检验单"/>
+		<Message Name="Lot No Data Modify" Value="修改检验单"/>
+		<Message Name="Lot No Append OK !" Value="检验单新增完成"/>
+		<Message Name="Append Other Lot No ?" Value="新增其它检验单 ?"/>
+		<Message Name="This Lot No has completed IQC" Value="此检验批号已完成IQC检验"/>
+		<Message Name="PART_NO" Value="料号"/>
+		<Message Name="PART_ID" Value="料号编号"/>
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Vendor" Value="Nhà cung cấp"/><Message Name="Cancel" Value="Hủy"/><Message Name="Save" Value="Lưu"/><Message Name="Vendor Part" Value="Mã linh kiện nhà cung cấp"/><Message Name="Version" Value="Phiên bản"/><Message Name="Qty" Value="Số lượng"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="Vendor Lot" Value="Số lô nhà cung cấp"/><Message Name="OK" Value="OK"/><Message Name="Search" Value="Điều kiện tìm kiếm"/><Message Name="Delete" Value="Xóa"/><Message Name="Modify" Value="Sửa"/><Message Name="Append" Value="Thêm mới"/><Message Name="Maintain" Value="Bảo trì"/><Message Name="LOT_NO Maintain" Value="Bảo trì số lô kiểm tra"/><Message Name="Lot No" Value="Số lô kiểm tra"/><Message Name="Lot Qty" Value="Số lượng lô"/><Message Name="PO No" Value="Số đơn đặt hàng"/><Message Name="Delivery Notes Maintain" Value=""/><Message Name="RT No" Value="Số RT"/><Message Name="Date Code" Value=""/><Message Name="DN Item Maintain" Value=""/><Message Name="Item Seq" Value="Mục"/><Message Name="Part Spec" Value="Tên &amp; quy cách"/><Message Name="RT No" Value="Số RT"/><Message Name="Receive Time" Value="Thời gian nhận liệu"/><Message Name="Detail Information" Value="Chi tiết mục RT"/><Message Name="RT No List" Value="Danh sách RT"/><Message Name="RT No Error" Value="Sai số RT"/><Message Name="Vendor Error" Value="Sai nhà cung cấp"/><Message Name="RT No Duplicate" Value="Trùng số RT"/><Message Name="Please Input Part No" Value="Vui lòng nhập mã linh kiện"/><Message Name="Please input Qty" Value="Vui lòng nhập số lượng"/><Message Name="Qty Error" Value="Số lượng sai"/><Message Name="RT Item Duplicate" Value="Trùng mục RT"/><Message Name="Do you want to delete this data ?" Value="Bạn có chắc muốn xóa dữ liệu này?"/><Message Name="RT Item Append OK" Value="Thêm mục RT hoàn tất"/><Message Name="Append Other RT Item ?" Value="Thêm mục RT khác?"/><Message Name="RT No Data Append" Value="Thêm số RT"/><Message Name="RT No Data Modify" Value="Sửa số RT"/><Message Name="RT Item Data Maintain Append" Value="Thêm mục RT"/><Message Name="RT Item Data Maintain Modify" Value="Sửa mục RT"/><Message Name="No Data Found" Value="Không tìm thấy dữ liệu"/><Message Name="Not Modify" Value="Đã có số lô kiểm tra, không thể sửa"/><Message Name="Not Delete" Value="Đã có số lô kiểm tra, không thể xóa"/><Message Name="This Part Not Have any RT Record" Value="Mã linh kiện này chưa có ghi nhận nhận liệu"/><Message Name="Lot Detail Information" Value="Chi tiết số lô kiểm tra"/><Message Name="Please Select Lot No" Value="Vui lòng chọn phiếu kiểm tra"/><Message Name="Save Lot Data ?" Value="Lưu số phiếu kiểm tra?"/><Message Name="This Lot Don't Have Any RT No" Value="Phiếu kiểm tra này không có dữ liệu RT"/><Message Name="Lot No Data Append" Value="Thêm phiếu kiểm tra"/><Message Name="Lot No Data Modify" Value="Sửa phiếu kiểm tra"/><Message Name="Lot No Append OK !" Value="Thêm phiếu kiểm tra hoàn tất"/><Message Name="Append Other Lot No ?" Value="Thêm phiếu kiểm tra khác?"/><Message Name="This Lot No has completed IQC" Value="Số lô kiểm tra này đã hoàn thành IQC"/><Message Name="PART_NO" Value="Mã linh kiện"/><Message Name="PART_ID" Value="Mã số linh kiện"/></Ngôn_ngữ_Việt></Chroma>

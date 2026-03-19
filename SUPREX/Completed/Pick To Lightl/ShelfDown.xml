@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <简体中文>
+      <Message Name="Search" Value="搜寻"/>
+      <Message Name="REQUEST_ID" Value="单据"/>
+      <Message Name="WORK_ORDER" Value="工单号"/>
+	  <Message Name="Shelf No" Value="货架号"/>
+	  <Message Name="REQUEST_NO" Value="单号"/>
+	  <Message Name="PART_NO" Value="料号"/>
+	  <Message Name="SPEC1" Value="料号描述"/>
+	  <Message Name="QTY" Value="数量"/>
+	  <Message Name="DOWN_QTY" Value="已下架数量"/>
+	  <Message Name="Shelf No Is Null" Value="货架号不能为空"/>
+	  <Message Name="Part No Is Exist" Value="料号已存在"/>
+	  <Message Name="Shelf No Is Not Exist" Value="货架号不存在"/>
+  </简体中文>
+	<繁體中文>
+		<Message Name="Search" Value="搜尋"/>
+		<Message Name="Import" Value="匯入"/>
+		<Message Name="Save" Value="保存"/>
+		<Message Name="Auto" Value="自動生成"/>
+		<Message Name="REQUEST_ID" Value="單據"/>
+		<Message Name="WORK_ORDER" Value="工單號"/>
+		<Message Name="Shelf No" Value="貨架號"/>
+		<Message Name="SHELF_NO" Value="貨架號"/>
+		<Message Name="REQUEST_NO" Value="單號"/>
+		<Message Name="PART_NO" Value="料號"/>
+		<Message Name="SPEC1" Value="料號描述"/>
+		<Message Name="QTY" Value="數量"/>
+		<Message Name="DOWN_QTY" Value="已下架數量"/>
+		<Message Name="Shelf No Is Null" Value="貨架號不能為空"/>
+		<Message Name="Shelf No Is Not Exist" Value="貨架號不存在"/>
+		<Message Name="Number error" Value="類型錯誤"/>
+		<Message Name="Save success!" Value="保存成功！"/>
+		<Message Name="Excel Import Exception" Value="匯入異常"/>
+		<Message Name="The data has been modified but not saved yet. Do you want to switch the shelf?" Value="數據已修改但未保存，是否確認切換料架？"/>
+		<Message Name="The request no has been shelved" Value="單據已下架"/>
+		<Message Name="The part no does not exist{0}" Value="料號不存在{0}"/>
+		<Message Name="The emp no does not exist{0}" Value="員工號不存在{0}"/>
+		<Message Name="The reel no does not exist{0}" Value="Reel不存在{0}"/>
+		<Message Name="The reel already exist{0}" Value="Reel已存在{0}"/>
+		<Message Name="The shelf does not exist{0}" Value="貨架不存在{0}"/>
+		<Message Name="Import success" Value="匯入成功"/>
+		<Message Name="Get request no failed" Value="生成單號失敗"/>
+
+	</繁體中文>
+<Ngôn_ngữ_Việt><Message Name="Search" Value="Tìm kiếm"/><Message Name="Import" Value="Nhập dữ liệu"/><Message Name="Save" Value="Lưu"/><Message Name="Auto" Value="Tạo tự động"/><Message Name="REQUEST_ID" Value="Chứng từ"/><Message Name="WORK_ORDER" Value="Số lệnh sản xuất"/><Message Name="Shelf No" Value="Mã kệ"/><Message Name="SHELF_NO" Value="Mã kệ"/><Message Name="REQUEST_NO" Value="Số đơn"/><Message Name="PART_NO" Value="Mã linh kiện"/><Message Name="SPEC1" Value="Mô tả mã linh kiện"/><Message Name="QTY" Value="Số lượng"/><Message Name="DOWN_QTY" Value="Số lượng đã tháo xuống"/><Message Name="Shelf No Is Null" Value="Mã kệ không được để trống"/><Message Name="Shelf No Is Not Exist" Value="Mã kệ không tồn tại"/><Message Name="Number error" Value="Sai loại dữ liệu"/><Message Name="Save success!" Value="Lưu thành công!"/><Message Name="Excel Import Exception" Value="Lỗi nhập Excel"/><Message Name="The data has been modified but not saved yet. Do you want to switch the shelf?" Value="Dữ liệu đã thay đổi nhưng chưa lưu, bạn có muốn đổi kệ không?"/><Message Name="The request no has been shelved" Value="Chứng từ đã được tháo xuống"/><Message Name="The part no does not exist{0}" Value="Mã linh kiện không tồn tại {0}"/><Message Name="The emp no does not exist{0}" Value="Mã nhân viên không tồn tại {0}"/><Message Name="The reel no does not exist{0}" Value="Reel không tồn tại {0}"/><Message Name="The reel already exist{0}" Value="Reel đã tồn tại {0}"/><Message Name="The shelf does not exist{0}" Value="Kệ không tồn tại {0}"/><Message Name="Import success" Value="Nhập thành công"/><Message Name="Get request no failed" Value="Tạo số đơn thất bại"/></Ngôn_ngữ_Việt></Chroma>

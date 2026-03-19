@@ -1,0 +1,506 @@
+﻿<Chroma>
+	<繁體中文>
+		<Message Name="OK" Value="確定" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Search" Value="搜尋條件" />
+		<Message Name="Item Type" Value="測試大項" />
+		<Message Name="Pallet" Value="棧板明細" />
+		<Message Name="Inspection S/N" Value="檢驗序號明細" />
+		<Message Name="Defect S/N" Value="不良序號明細" />
+		<Message Name="Pallet No" Value="棧板號" />
+		<Message Name="Carton No" Value="箱號" />
+		<Message Name="Qty" Value="數量" />
+		<Message Name="Remove" Value="移除" />
+		<Message Name="Lot Size" Value="批量" />
+		<Message Name="Add Pallet" Value="增加棧板" />
+		<Message Name="S/N" Value="序號" />
+		<Message Name="SEQ" Value="順序" />
+		<Message Name="CSN" Value="出貨序號" />
+		<Message Name="Insp Time" Value="檢驗時間" />
+		<Message Name="Employee" Value="員工" />
+		<Message Name="W/O" Value="工單" />
+		<Message Name="Work Order" Value="工單" />
+		<Message Name="W/O Input" Value="工單投入數" />
+		<Message Name="W/O Output" Value="工單產出數" />
+		<Message Name="Result" Value="結果" />
+		<Message Name="Defect Code" Value="不良現象代碼" />
+		<Message Name="Defect Desc" Value="不良描述" />
+		<Message Name="Defect Level" Value="不良等級" />
+		<Message Name="Pass Qty" Value="良品數" />
+		<Message Name="Fail Qty" Value="不良品數" />
+		<Message Name="Check Qty" Value="檢驗數" />
+		<Message Name="By Pass" Value="強制允收" />
+		<Message Name="Waive" Value="特採" />
+		<Message Name="Reject" Value="批退" />
+		<Message Name="Pass" Value="允收" />
+		<Message Name="Lot Information" Value="批號資訊" />
+		<Message Name="Refresh" Value="重新整理" />
+		<Message Name="Part No" Value="料號" />
+		<Message Name="Insp Times" Value="檢驗次數" />
+		<Message Name="Lot No" Value="批號" />
+		<Message Name="New Lot" Value="新增批號" />
+		<Message Name="Check Part" Value="料件檢查" />
+		<Message Name="Sampling Plan" Value="抽樣計畫" />
+		<Message Name="Level" Value="等級" />
+		<Message Name="Unit" Value="單位" />
+		<Message Name="Sample Qty" Value="樣本數" />
+		<Message Name="Defect Desc2" Value="不良描述(2)" />
+		<Message Name="Serial Number" Value="序號" />
+		<Message Name="Inspection Result" Value="檢驗結果" />
+		<Message Name="Critical / Major / Minor" Value="重缺 / 主缺 / 次缺" />
+		<Message Name="Insp Result" Value="檢驗結果" />
+		<Message Name="Close" Value="結束" />
+		<Message Name="Add" Value="新增" />
+		<Message Name="List" Value="清單" />
+		<Message Name="Selected Item" Value="選擇項目" />
+		<Message Name="Min" Value="批量範圍(小)" />
+		<Message Name="Max" Value="批量範圍(大)" />
+		<Message Name="Critical" Value="重缺" />
+		<Message Name="Major" Value="主缺" />
+		<Message Name="Minor" Value="次缺" />
+		<Message Name="Save" Value="儲存" />
+		<Message Name="Keypart S/N" Value="料件序號" />
+		<Message Name="Keypart No" Value="料號" />
+		<Message Name="Spec" Value="規格" />
+		<Message Name="Customer Part No" Value="客戶料號" />
+		<Message Name="Keypart Qty" Value="料件數量" />
+		<Message Name="Input Qty" Value="已輸入數" />
+		<Message Name="QC Result" Value="抽驗結果" />
+		<Message Name="Memo" Value="備註" />
+		<Message Name="Receive Qty" Value="允收數" />
+		<Message Name="Reject Qty" Value="判退數" />
+		<Message Name="Item Type Code" Value="測試大項代碼" />
+		<Message Name="Item Type Name" Value="測試大項名稱" />
+		<Message Name="Repair Qty" Value="維修數" />
+		<Message Name="Scrap Qty" Value="報廢數" />
+		<Message Name="Process Error Qty" Value="製程錯誤數" />
+		<Message Name="WIP Process" Value="WIP製程" />
+		<Message Name="Status" Value="狀態" />
+		<Message Name="Scrap" Value="報廢" />
+		<Message Name="Split" Value="分割" />
+		<Message Name="Inspection Qty Range not Define" Value="此檢驗數量範圍未定義" />
+		<Message Name="Data Duplicate" Value="資料重複" />
+		<Message Name="Serial Number Error" Value="序號錯誤" />
+		<Message Name="Serial Number Scrap" Value="序號已報廢" />
+
+		<Message Name="Part Different" Value="料號不同" />
+		<Message Name="NO Pallet" Value="無棧板號" />
+		<Message Name="S/N QC Lot No IS" Value="序號的批號為" />
+		<Message Name="Some Item Type already had Finished" Value="有測試大項已檢驗完成" />
+		<Message Name="Can't Add New Pallet" Value="不可再加入新棧板" />
+		<Message Name="QC Lot No Different" Value="批號不同" />
+		<Message Name="Over Maximum Pallet Count" Value="超過設定的最大棧板個數" />
+		<Message Name="Login User Error" Value="登入使用者錯誤" />
+		<Message Name="Please Setup System Parameter" Value="請先設定系統參數" />
+		<Message Name="Terminal not be assign" Value="工作站未設定" />
+		<Message Name="Terminal data Error" Value="工作站資料錯誤" />
+		<Message Name="Add New Lot No" Value="產生新批號" />
+		<Message Name="Item Type Already Finish" Value="測試大項已結束" />
+		<Message Name="Item Type not Define" Value="測試大項未定義" />
+		<Message Name="Data is null" Value="資料未輸入" />
+		<Message Name="No Privilege to Insert New Lot No" Value="使用者無新增批號權限" />
+		<Message Name="Created by Terminal" Value="由其他工作站產生" />
+		<Message Name="Lot No Error" Value="批號錯誤" />
+		<Message Name="Lot No Result" Value="批號結果" />
+		<Message Name="Please choose Item Type" Value="請選擇測試大項" />
+		<Message Name="Can't Remove this Pallet" Value="不可移除此棧板" />
+		<Message Name="Remove Pallet No" Value="移除棧板" />
+		<Message Name="Can't Remove this Inspection" Value="不可移除此送驗單" />
+		<Message Name="Remove Inspection No" Value="移除送驗單號" />
+		<Message Name="Some Item Type is not Complete" Value="測試大項尚未全部完成" />
+		<Message Name="Pallet not Close" Value="棧板未關閉" />
+		<Message Name="Please Check KeyParts" Value="請執行料件檢查" />
+		<Message Name="Can not PASS" Value="不可允收" />
+		<Message Name="Can not REJECT" Value="不可批退" />
+		<Message Name="Sampling Plan not Match" Value="抽驗計畫不符合" />
+		<Message Name="Can't Change Lot Size" Value="不可變更批量" />
+		<Message Name="Pallet No Error" Value="棧板錯誤" />
+		<Message Name="Sampling Plan Error" Value="抽驗計畫錯誤" />
+		<Message Name="Sampling Plan Level Error" Value="抽驗計畫等級錯誤" />
+		<Message Name="Error" Value="錯誤" />
+		<Message Name="Check KeyParts Finish" Value="料件檢查結束" />
+
+		<Message Name="S/N ByPass" Value="序號ByPass" />
+
+		<Message Name="Download" Value="下載" />
+		<Message Name="Attached File" Value="附加檔案" />
+		<Message Name="Delete" Value="刪除" />
+		<Message Name="Download File" Value="下載檔案" />
+		<Message Name="Delete File" Value="刪除檔案" />
+		<Message Name="Download File Finish" Value="下載檔案完成" />
+		<Message Name="File Name" Value="檔案名稱" />
+		<Message Name="File Name Duplicate" Value="檔案名稱重複" />
+		<Message Name="Size Can not Over 5M" Value="檔案大小不能超過5M" />
+
+		<Message Name="Panel No" Value="連版號" />
+		<Message Name="Input Inspection Serial Number" Value="檢驗序號" />
+		<Message Name="Input Defect" Value="輸入不良" />
+		<Message Name="Please Input Defect Serial Number" Value="請輸入不良序號" />
+		<Message Name="Defect Serial Number Error" Value="不良序號錯誤" />
+		<Message Name="DEFECT CODE Error" Value="不良代碼錯誤" />
+		<Message Name="DEFECT CODE was disabled" Value="不良代碼已停用" />
+		<Message Name="Defect Code Duplicate" Value="不良代碼重複" />
+		<Message Name="Confirm" Value="確認" />
+		<Message Name="S/N Need Split. Continue ?" Value="產品序號必須從此批中分割出去,要繼續嗎?" />
+		<Message Name="Split S/N" Value="分割產品序號" />
+		<Message Name="Start Time" Value="開始時間" />
+		<Message Name="End Time" Value="結束時間" />
+		<Message Name="Query" Value="查詢" />
+		<Message Name="Type Code" Value="大項代碼" />
+		<Message Name="Type Name" Value="大項名稱" />
+		<Message Name="Date" Value="日期" />
+		<Message Name="QC_LOTNO" Value="批號" />
+		<Message Name="WORK_ORDER" Value="工單" />
+		<Message Name="Add Pallet In Lot" Value="加入棧板" />
+		<Message Name="Part No Different" Value="料號不一致" />
+		<Message Name="Work Order Error" Value="工單錯誤" />
+		<Message Name="Change" Value="變更" />
+		<Message Name="Work Order - Part is different from Lot - Part No" Value="工單的料號與檢驗批的料號不一致" />
+
+		<Message Name="SN is Repair-Assign" Value="此產品序號必須到檢修流程 - 維修人員指定站" />
+		<Message Name="SN is MI-Repair" Value="此產品序號必須到檢修流程 - 維修作業" />
+		<Message Name="SN is BGA-Rework" Value="此產品序號必須到檢修流程 - BGA Rework" />
+		<Message Name="SN is On-Line Repair" Value="此產品序號必須執行 - 線上維修" />
+		<Message Name="SN is Wait Defect Confirm" Value="此產品序號必須執行 - 不良品維修方式確認作業" />
+		<Message Name="PART_NO" Value="料號" />
+		<Message Name="Process" Value="製程" />
+		<Message Name="Not Pass through Process:" Value="未通過必要製程:" />
+		<Message Name="Export" Value="匯出" />
+		<Message Name="Export OK" Value="匯出完成" />
+		<Message Name="Image(TOP)" Value="圖片(TOP)" />
+		<Message Name="Image(BOTTOM)" Value="圖片(BOTTOM)" />
+		<Message Name="Show Defect" Value="顯示不良資料" />
+		<Message Name="Location" Value="零件位置" />
+		<Message Name="Last N Inspect Lot" Value="最近(N)筆檢驗資料" />
+		<Message Name="Last (N) Inspect Lot" Value="最近(N)筆檢驗資料" />
+		<Message Name="Inspect Notice" Value="檢驗注意事項" />
+		<Message Name="Tooling No" Value="治具編號" />
+		<Message Name="Tooling SN" Value="治具序號" />
+		<Message Name="TOOLING_SN" Value="治具序號" />
+		<Message Name="Create Time" Value="建立時間" />
+		<Message Name="Emp Name" Value="作業人員" />
+		<Message Name="Tooling" Value="治具" />
+		<Message Name="Tooling SN Error" Value="治具序號錯誤" />
+		<Message Name="Tooling SN Duplicate" Value="治具序號重複輸入" />
+		<Message Name="Do you want to delete this data ?" Value="刪除此筆資料?" />
+		<Message Name="Tooling SN is Disabled" Value="治具序號已失效" />
+		<Message Name="Waive No" Value="特採單號" />
+		<Message Name="Please Input Waive No" Value="請輸入特採單號" />
+		<Message Name="Input Lot Memo" Value="輸入批號備註資料" />
+		<Message Name="Inspection Report" Value="檢驗報告" />
+		<Message Name="TEST SOP Version" Value="測試SOP版本" />
+		<Message Name="TEST Program Version" Value="測試程式版本" />
+		<Message Name="Shift" Value="檢驗班別" />
+		<Message Name="Urgent" Value="急單" />
+		<Message Name="Target Qty" Value="目標數" />
+		<Message Name="Model Name" Value="機種" />
+		<Message Name="MODEL_NAME" Value="機種" />
+		<Message Name="Save Reject Report OK" Value="品質異常單儲存完成" />
+		<Message Name="File Path" Value="檔案路徑" />
+		<Message Name="File Name" Value="檔案名稱" />
+		<Message Name="PCB Version" Value="PCB版本" />
+		<Message Name="ENG Version" Value="工程版次" />
+		<Message Name="Part Spec" Value="規格" />
+		<Message Name="Defect / Serial Number" Value="不良代碼 / 序號" />
+		<Message Name="Reject Report" Value="品質異常單" />
+		<Message Name="Inspection / Reject  Report" Value="檢驗報告 / 品質異常單" />
+		<Message Name="Maintain" Value="維護" />
+		<Message Name="S/N Memo" Value="序號檢驗備註" />
+		<Message Name="Level / ENG Version" Value="階別 / 工程版次" />
+		<Message Name="Customer" Value="客戶" />
+		<Message Name="Upload" Value="上傳" />
+		<Message Name="Defective Photo" Value="異常圖片" />
+		<Message Name="View Photo" Value="檢視圖片" />
+		<Message Name="Upload Defective Photo OK" Value="上傳異常圖片完成" />
+		<Message Name="Yes" Value="是" />
+		<Message Name="No" Value="否" />
+		<Message Name="Delete Defective Photo" Value="刪除異常圖片" />
+
+		<Message Name="SN SCRAP" Value="序號已報廢" />
+		<Message Name="SN HOLD" Value="序號被HOLD" />
+		<Message Name="SN is Fail(Center)-Accept" Value="序號目前狀態是在維修中心,待點收" />
+		<Message Name="SN is Fail(Center)-Repair" Value="序號目前狀態是在維修中心,維修處理中" />
+		<Message Name="SN is Good(Center)-Finish" Value="序號目前狀態是在維修中心,已維修完成" />
+		<Message Name="Please Select Item Type" Value="請先選擇一筆測試大項" />
+		<Message Name="Please Input Defect Data" Value="已勾選不良品輸入選項,請先輸入不良代碼後,再輸入產品序號" />
+		<Message Name="SN Defect" Value="不良品" />
+		<Message Name="NO SN" Value="產品序號錯誤" />
+		<Message Name="Don't Split" Value="不要分割" />
+		<Message Name="S/N Change to OK and Receive from this Lot" Value="允收不良品,並將不良品狀態改為良品" />
+		<Message Name="SN Count" Value="序號個數" />
+		<Message Name="S/N Split from this Lot" Value="將不良品從檢驗批中分割" />
+		<Message Name="Pallet Haven't Closed" Value="棧板尚未關閉" />
+		<Message Name="File Size" Value="檔案大小" />
+		<Message Name="Standard Size is" Value="標準檔案大小" />
+		<Message Name="Sorting" Value="部分允收" />
+		<Message Name="S/N Failed, This Lot Can't Be Passed" Value="此批有不良品，不能允收" />
+		<Message Name="Please Choose Waive Or Sorting" Value="請選特採或部分允收" />
+		<Message Name="Test Item Type Checked, Test Date Can't bt Deleted" Value="測試大項已有檢驗結果，不可將資料刪除" />
+		<Message Name="No S/N Failed, Can't Choose Sorting" Value="無不良品不可選部分允收" />
+		<Message Name="No S/N Failed, Are You Sure To Choose" Value="無不良品，確定要" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="END_TIME" Value="結束時間" />
+		<Message Name="EMP_NAME" Value="建立人員" />
+		<Message Name="QC Status" Value="批號狀態" />
+		<Message Name="Urgent Type" Value="急單" />
+		<Message Name="All S/N" Value="批號內所有序號" />
+		<Message Name="Serial Number Data" Value="序號資料" />
+		<Message Name="All Test Type" Value="所有測試大項" />
+		<Message Name="Can't Input Defect in All Test Type Mode" Value="不可在選擇所有測試大項模式下輸入不良資訊" />
+		<Message Name="Inspection No" Value="送驗單號" />
+		<Message Name="Add Insp. No" Value="增加送驗單號" />
+		<Message Name="Do you want to delete test record?" Value="確定要刪除此序號檢驗記錄？" />
+		<Message Name="Add Inspection No" Value="增加送驗單號" />
+		<Message Name="Pallet Not QC{0}" Value="沒有抽檢到棧板{0}" />
+
+	</繁體中文>
+      <Ngôn_ngữ_Việt>
+     <Message Name="OK" Value="Xác nhận" />
+    <Message Name="Cancel" Value="Hủy" />
+    <Message Name="Search" Value="Điều kiện tìm kiếm" />
+    <Message Name="Item Type" Value="Hạng mục kiểm tra chính" />
+    <Message Name="Pallet" Value="Chi tiết pallet" />
+    <Message Name="Inspection S/N" Value="Chi tiết serial kiểm tra" />
+    <Message Name="Defect S/N" Value="Chi tiết serial lỗi" />
+    <Message Name="Pallet No" Value="Số pallet" />
+    <Message Name="Carton No" Value="Số thùng" />
+    <Message Name="Qty" Value="Số lượng" />
+    <Message Name="Remove" Value="Gỡ bỏ" />
+    <Message Name="Lot Size" Value="Số lượng lô" />
+    <Message Name="Add Pallet" Value="Thêm pallet" />
+    <Message Name="S/N" Value="Số serial" />
+    <Message Name="SEQ" Value="Thứ tự" />
+    <Message Name="CSN" Value="Serial xuất hàng" />
+    <Message Name="Insp Time" Value="Thời gian kiểm tra" />
+    <Message Name="Employee" Value="Nhân viên" />
+    <Message Name="W/O" Value="Lệnh sản xuất" />
+    <Message Name="Work Order" Value="Lệnh sản xuất" />
+    <Message Name="W/O Input" Value="Số lượng đưa vào theo lệnh sản xuất" />
+    <Message Name="W/O Output" Value="Số lượng hoàn thành theo lệnh sản xuất" />
+    <Message Name="Result" Value="Kết quả" />
+    <Message Name="Defect Code" Value="Mã hiện tượng lỗi" />
+    <Message Name="Defect Desc" Value="Mô tả lỗi" />
+    <Message Name="Defect Level" Value="Cấp độ lỗi" />
+    <Message Name="Pass Qty" Value="Số lượng đạt" />
+    <Message Name="Fail Qty" Value="Số lượng lỗi" />
+    <Message Name="Check Qty" Value="Số lượng kiểm tra" />
+    <Message Name="By Pass" Value="Miễn kiểm bắt buộc" />
+    <Message Name="Waive" Value="Đặc chuẩn" />
+    <Message Name="Reject" Value="Loại bỏ lô" />
+    <Message Name="Pass" Value="Chấp nhận" />
+    <Message Name="Lot Information" Value="Thông tin lô" />
+    <Message Name="Refresh" Value="Làm mới" />
+    <Message Name="Part No" Value="Mã liệu" />
+    <Message Name="Insp Times" Value="Số lần kiểm tra" />
+    <Message Name="Lot No" Value="Số lô" />
+    <Message Name="New Lot" Value="Tạo số lô mới" />
+    <Message Name="Check Part" Value="Kiểm tra linh kiện" />
+    <Message Name="Sampling Plan" Value="Kế hoạch lấy mẫu" />
+    <Message Name="Level" Value="Cấp độ" />
+    <Message Name="Unit" Value="Đơn vị" />
+    <Message Name="Sample Qty" Value="Số mẫu" />
+    <Message Name="Defect Desc2" Value="Mô tả lỗi (2)" />
+    <Message Name="Serial Number" Value="Số serial" />
+    <Message Name="Inspection Result" Value="Kết quả kiểm tra" />
+    <Message Name="Critical / Major / Minor" Value="Lỗi nghiêm trọng / lỗi trọng yếu / lỗi thứ cấp" />
+    <Message Name="Insp Result" Value="Kết quả kiểm tra" />
+    <Message Name="Close" Value="Kết thúc" />
+    <Message Name="Add" Value="Thêm mới" />
+    <Message Name="List" Value="Danh sách" />
+    <Message Name="Selected Item" Value="Mục đã chọn" />
+    <Message Name="Min" Value="Phạm vi lô (nhỏ)" />
+    <Message Name="Max" Value="Phạm vi lô (lớn)" />
+    <Message Name="Critical" Value="Lỗi nghiêm trọng" />
+    <Message Name="Major" Value="Lỗi trọng yếu" />
+    <Message Name="Minor" Value="Lỗi thứ cấp" />
+    <Message Name="Save" Value="Lưu" />
+    <Message Name="Keypart S/N" Value="Serial linh kiện" />
+    <Message Name="Keypart No" Value="Mã linh kiện" />
+    <Message Name="Spec" Value="Quy cách" />
+    <Message Name="Customer Part No" Value="Mã liệu khách hàng" />
+    <Message Name="Keypart Qty" Value="Số lượng linh kiện" />
+    <Message Name="Input Qty" Value="Số đã nhập" />
+    <Message Name="QC Result" Value="Kết quả lấy mẫu QC" />
+    <Message Name="Memo" Value="Ghi chú" />
+    <Message Name="Receive Qty" Value="Số lượng chấp nhận" />
+    <Message Name="Reject Qty" Value="Số lượng loại bỏ" />
+    <Message Name="Item Type Code" Value="Mã hạng mục kiểm tra chính" />
+    <Message Name="Item Type Name" Value="Tên hạng mục kiểm tra chính" />
+    <Message Name="Repair Qty" Value="Số lượng sửa chữa" />
+    <Message Name="Scrap Qty" Value="Số lượng phế phẩm" />
+    <Message Name="Process Error Qty" Value="Số lượng lỗi công đoạn" />
+    <Message Name="WIP Process" Value="Công đoạn WIP" />
+    <Message Name="Status" Value="Trạng thái" />
+    <Message Name="Scrap" Value="Phế phẩm" />
+    <Message Name="Split" Value="Tách lô" />
+    <Message Name="Inspection Qty Range not Define" Value="Khoảng số lượng kiểm tra chưa được định nghĩa" />
+    <Message Name="Data Duplicate" Value="Dữ liệu bị trùng" />
+    <Message Name="Serial Number Error" Value="Serial không hợp lệ" />
+    <Message Name="Serial Number Scrap" Value="Serial đã bị phế phẩm" />
+    <Message Name="Part Different" Value="Mã liệu khác nhau" />
+    <Message Name="NO Pallet" Value="Không có số pallet" />
+    <Message Name="S/N QC Lot No IS" Value="Số lô QC của serial là" />
+    <Message Name="Some Item Type already had Finished" Value="Một số hạng mục kiểm tra đã hoàn tất" />
+    <Message Name="Can't Add New Pallet" Value="Không thể thêm pallet mới" />
+    <Message Name="QC Lot No Different" Value="Số lô QC khác nhau" />
+    <Message Name="Over Maximum Pallet Count" Value="Vượt quá số pallet tối đa cho phép" />
+    <Message Name="Login User Error" Value="Người dùng đăng nhập không hợp lệ" />
+    <Message Name="Please Setup System Parameter" Value="Vui lòng thiết lập tham số hệ thống trước" />
+    <Message Name="Terminal not be assign" Value="Trạm làm việc chưa được thiết lập" />
+    <Message Name="Terminal data Error" Value="Dữ liệu trạm làm việc không hợp lệ" />
+    <Message Name="Add New Lot No" Value="Tạo số lô mới" />
+    <Message Name="Item Type Already Finish" Value="Hạng mục kiểm tra đã kết thúc" />
+    <Message Name="Item Type not Define" Value="Hạng mục kiểm tra chưa được định nghĩa" />
+    <Message Name="Data is null" Value="Chưa nhập dữ liệu" />
+    <Message Name="No Privilege to Insert New Lot No" Value="Người dùng không có quyền tạo số lô mới" />
+    <Message Name="Created by Terminal" Value="Được tạo bởi trạm làm việc khác" />
+    <Message Name="Lot No Error" Value="Số lô không hợp lệ" />
+    <Message Name="Lot No Result" Value="Kết quả lô" />
+    <Message Name="Please choose Item Type" Value="Vui lòng chọn hạng mục kiểm tra" />
+    <Message Name="Can't Remove this Pallet" Value="Không thể xóa pallet này" />
+    <Message Name="Remove Pallet No" Value="Gỡ bỏ pallet" />
+    <Message Name="Can't Remove this Inspection" Value="Không thể xóa phiếu gửi kiểm này" />
+    <Message Name="Remove Inspection No" Value="Gỡ bỏ số phiếu gửi kiểm" />
+    <Message Name="Some Item Type is not Complete" Value="Hạng mục kiểm tra chưa hoàn tất hết" />
+    <Message Name="Pallet not Close" Value="Pallet chưa được đóng" />
+    <Message Name="Please Check KeyParts" Value="Vui lòng thực hiện kiểm tra linh kiện" />
+    <Message Name="Can not PASS" Value="Không được chấp nhận" />
+    <Message Name="Can not REJECT" Value="Không được loại bỏ" />
+    <Message Name="Sampling Plan not Match" Value="Kế hoạch lấy mẫu không phù hợp" />
+    <Message Name="Can't Change Lot Size" Value="Không được phép thay đổi số lượng lô" />
+    <Message Name="Pallet No Error" Value="Số pallet không hợp lệ" />
+    <Message Name="Sampling Plan Error" Value="Kế hoạch lấy mẫu không hợp lệ" />
+    <Message Name="Sampling Plan Level Error" Value="Cấp độ kế hoạch lấy mẫu không hợp lệ" />
+    <Message Name="Error" Value="Lỗi" />
+    <Message Name="Check KeyParts Finish" Value="Hoàn tất kiểm tra linh kiện" />
+    <Message Name="S/N ByPass" Value="Serial được ByPass" />
+    <Message Name="Download" Value="Tải xuống" />
+    <Message Name="Attached File" Value="Tệp đính kèm" />
+    <Message Name="Delete" Value="Xóa" />
+    <Message Name="Download File" Value="Tải tệp" />
+    <Message Name="Delete File" Value="Xóa tệp" />
+    <Message Name="Download File Finish" Value="Tải tệp hoàn tất" />
+    <Message Name="File Name" Value="Tên tệp" />
+    <Message Name="File Name Duplicate" Value="Tên tệp bị trùng" />
+    <Message Name="Size Can not Over 5M" Value="Dung lượng tệp không vượt quá 5MB" />
+    <Message Name="Panel No" Value="Số panel" />
+    <Message Name="Input Inspection Serial Number" Value="Serial kiểm tra" />
+    <Message Name="Input Defect" Value="Nhập lỗi" />
+    <Message Name="Please Input Defect Serial Number" Value="Vui lòng nhập serial lỗi" />
+    <Message Name="Defect Serial Number Error" Value="Serial lỗi không hợp lệ" />
+    <Message Name="DEFECT CODE Error" Value="Mã lỗi không hợp lệ" />
+    <Message Name="DEFECT CODE was disabled" Value="Mã lỗi đã bị vô hiệu" />
+    <Message Name="Defect Code Duplicate" Value="Mã lỗi bị trùng" />
+    <Message Name="Confirm" Value="Xác nhận" />
+    <Message Name="S/N Need Split. Continue ?" Value="Serial sản phẩm phải tách ra khỏi lô này, bạn có muốn tiếp tục không?" />
+    <Message Name="Split S/N" Value="Tách serial sản phẩm" />
+    <Message Name="Start Time" Value="Thời gian bắt đầu" />
+    <Message Name="End Time" Value="Thời gian kết thúc" />
+    <Message Name="Query" Value="Tra cứu" />
+    <Message Name="Type Code" Value="Mã hạng mục lớn" />
+    <Message Name="Type Name" Value="Tên hạng mục lớn" />
+    <Message Name="Date" Value="Ngày" />
+    <Message Name="QC_LOTNO" Value="Số lô QC" />
+    <Message Name="WORK_ORDER" Value="Lệnh sản xuất" />
+    <Message Name="Add Pallet In Lot" Value="Thêm pallet vào lô" />
+    <Message Name="Part No Different" Value="Mã liệu không nhất quán" />
+    <Message Name="Work Order Error" Value="Lệnh sản xuất không hợp lệ" />
+    <Message Name="Change" Value="Thay đổi" />
+    <Message Name="Work Order - Part is different from Lot - Part No" Value="Mã liệu của lệnh sản xuất khác với mã liệu của lô kiểm tra" />
+<Message Name="SN is Repair-Assign" Value="Số serial này phải vào quy trình sửa chữa - Trạm chỉ định kỹ thuật viên" />
+<Message Name="SN is MI-Repair" Value="Số serial này phải vào quy trình sửa chữa - Công đoạn sửa chữa MI" />
+<Message Name="SN is BGA-Rework" Value="Số serial này phải vào quy trình sửa chữa - Tái chế BGA (BGA Rework)" />
+<Message Name="SN is On-Line Repair" Value="Số serial này phải thực hiện quy trình sửa chữa tại tuyến (On-line Repair)" />
+<Message Name="SN is Wait Defect Confirm" Value="Số serial này phải thực hiện xác nhận phương án sửa chữa lỗi" />
+<Message Name="PART_NO" Value="Mã liệu" />
+<Message Name="Process" Value="Công đoạn" />
+<Message Name="Not Pass through Process:" Value="Chưa đi qua công đoạn bắt buộc:" />
+<Message Name="Export" Value="Xuất dữ liệu" />
+<Message Name="Export OK" Value="Xuất dữ liệu thành công" />
+<Message Name="Image(TOP)" Value="Hình ảnh (TOP)" />
+<Message Name="Image(BOTTOM)" Value="Hình ảnh (BOTTOM)" />
+<Message Name="Show Defect" Value="Hiển thị dữ liệu lỗi" />
+<Message Name="Location" Value="Vị trí linh kiện" />
+<Message Name="Last N Inspect Lot" Value="Dữ liệu kiểm tra gần nhất (N dòng)" />
+<Message Name="Last (N) Inspect Lot" Value="Dữ liệu kiểm tra gần nhất (N dòng)" />
+<Message Name="Inspect Notice" Value="Lưu ý kiểm tra" />
+<Message Name="Tooling No" Value="Mã dụng cụ" />
+<Message Name="Tooling SN" Value="Serial dụng cụ" />
+<Message Name="TOOLING_SN" Value="Serial dụng cụ" />
+<Message Name="Create Time" Value="Thời gian tạo" />
+<Message Name="Emp Name" Value="Nhân viên thao tác" />
+<Message Name="Tooling" Value="Dụng cụ" />
+<Message Name="Tooling SN Error" Value="Serial dụng cụ không hợp lệ" />
+<Message Name="Tooling SN Duplicate" Value="Serial dụng cụ bị nhập trùng" />
+<Message Name="Do you want to delete this data ?" Value="Xác nhận xóa dữ liệu này?" />
+<Message Name="Tooling SN is Disabled" Value="Serial dụng cụ đã bị vô hiệu hóa" />
+<Message Name="Waive No" Value="Số chứng từ đặc chuẩn" />
+<Message Name="Please Input Waive No" Value="Vui lòng nhập số chứng từ đặc chuẩn" />
+<Message Name="Input Lot Memo" Value="Nhập ghi chú lô" />
+<Message Name="Inspection Report" Value="Báo cáo kiểm tra" />
+<Message Name="TEST SOP Version" Value="Phiên bản SOP kiểm tra" />
+<Message Name="TEST Program Version" Value="Phiên bản chương trình kiểm tra" />
+<Message Name="Shift" Value="Ca kiểm tra" />
+<Message Name="Urgent" Value="Gấp" />
+<Message Name="Target Qty" Value="Số lượng mục tiêu" />
+<Message Name="Model Name" Value="Mẫu máy" />
+<Message Name="MODEL_NAME" Value="Mẫu máy" />
+<Message Name="Save Reject Report OK" Value="Lưu phiếu bất thường chất lượng thành công" />
+<Message Name="File Path" Value="Đường dẫn tệp" />
+<Message Name="File Name" Value="Tên tệp" />
+<Message Name="PCB Version" Value="Phiên bản PCB" />
+<Message Name="ENG Version" Value="Phiên bản kỹ thuật" />
+<Message Name="Part Spec" Value="Thông số kỹ thuật" />
+<Message Name="Defect / Serial Number" Value="Mã lỗi / Serial" />
+<Message Name="Reject Report" Value="Phiếu bất thường chất lượng" />
+<Message Name="Inspection / Reject  Report" Value="Báo cáo kiểm tra / Phiếu bất thường chất lượng" />
+<Message Name="Maintain" Value="Bảo trì" />
+<Message Name="S/N Memo" Value="Ghi chú kiểm tra serial" />
+<Message Name="Level / ENG Version" Value="Cấp độ / Phiên bản kỹ thuật" />
+<Message Name="Customer" Value="Khách hàng" />
+<Message Name="Upload" Value="Tải lên" />
+<Message Name="Defective Photo" Value="Ảnh lỗi" />
+<Message Name="View Photo" Value="Xem ảnh" />
+<Message Name="Upload Defective Photo OK" Value="Tải ảnh lỗi thành công" />
+<Message Name="Yes" Value="Có" />
+<Message Name="No" Value="Không" />
+<Message Name="Delete Defective Photo" Value="Xóa ảnh lỗi" />
+<Message Name="SN SCRAP" Value="Serial đã bị phế phẩm" />
+<Message Name="SN HOLD" Value="Serial đang bị giữ (Hold)" />
+<Message Name="SN is Fail(Center)-Accept" Value="Serial đang ở trung tâm sửa chữa, chờ tiếp nhận" />
+<Message Name="SN is Fail(Center)-Repair" Value="Serial đang được sửa chữa tại trung tâm" />
+<Message Name="SN is Good(Center)-Finish" Value="Serial đã sửa chữa hoàn tất tại trung tâm" />
+<Message Name="Please Select Item Type" Value="Vui lòng chọn một hạng mục kiểm tra" />
+<Message Name="Please Input Defect Data" Value="Đã kích hoạt nhập lỗi, vui lòng nhập mã lỗi trước rồi nhập serial sản phẩm" />
+<Message Name="SN Defect" Value="Sản phẩm lỗi" />
+<Message Name="NO SN" Value="Serial không hợp lệ" />
+<Message Name="Don't Split" Value="Không tách" />
+<Message Name="S/N Change to OK and Receive from this Lot" Value="Chấp nhận sản phẩm lỗi và chuyển trạng thái thành đạt (OK)" />
+<Message Name="SN Count" Value="Số lượng serial" />
+<Message Name="S/N Split from this Lot" Value="Tách sản phẩm lỗi ra khỏi lô" />
+<Message Name="Pallet Haven't Closed" Value="Pallet chưa được đóng" />
+<Message Name="File Size" Value="Kích thước tệp" />
+<Message Name="Standard Size is" Value="Kích thước tiêu chuẩn là" />
+<Message Name="Sorting" Value="Chấp nhận một phần (Sorting)" />
+<Message Name="S/N Failed, This Lot Can't Be Passed" Value="Lô có sản phẩm lỗi, không thể chấp nhận" />
+<Message Name="Please Choose Waive Or Sorting" Value="Vui lòng chọn đặc chuẩn hoặc chấp nhận một phần" />
+<Message Name="Test Item Type Checked, Test Date Can't bt Deleted" Value="Hạng mục kiểm tra đã có kết quả, không thể xóa dữ liệu" />
+<Message Name="No S/N Failed, Can't Choose Sorting" Value="Không có sản phẩm lỗi, không thể chọn chấp nhận một phần" />
+<Message Name="No S/N Failed, Are You Sure To Choose" Value="Không có sản phẩm lỗi, bạn có chắc muốn chọn" />
+<Message Name="Version" Value="Phiên bản" />
+<Message Name="END_TIME" Value="Thời gian kết thúc" />
+<Message Name="EMP_NAME" Value="Người tạo" />
+<Message Name="QC Status" Value="Trạng thái QC" />
+<Message Name="Urgent Type" Value="Loại gấp" />
+<Message Name="All S/N" Value="Tất cả serial trong lô" />
+<Message Name="Serial Number Data" Value="Dữ liệu serial" />
+<Message Name="All Test Type" Value="Tất cả hạng mục kiểm tra" />
+<Message Name="Can't Input Defect in All Test Type Mode" Value="Không thể nhập lỗi trong chế độ tất cả hạng mục kiểm tra" />
+<Message Name="Inspection No" Value="Số phiếu gửi kiểm" />
+<Message Name="Add Insp. No" Value="Thêm số phiếu gửi kiểm" />
+<Message Name="Do you want to delete test record?" Value="Xác nhận xóa dữ liệu kiểm tra serial?" />
+<Message Name="Add Inspection No" Value="Thêm số phiếu gửi kiểm" />
+<Message Name="Pallet Not QC{0}" Value="Không có pallet {0} trong phạm vi lấy mẫu QC" />
+
+       </Ngôn_ngữ_Việt>
+</Chroma>

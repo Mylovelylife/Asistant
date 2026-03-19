@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+		<Message Name="RT_NO" Value="RT No"/>
+		<Message Name="VENDOR_CODE" Value="Vendor No"/>
+		<Message Name="PART_NO" Value="Part No"/>
+		<Message Name="VERSION" Value="Version"/>
+		<Message Name="SPEC1" Value="Spec1"/>
+		<Message Name="SPEC2" Value="Spec2"/>
+	</English>
+	<繁體中文>
+		<Message Name="Vendor" Value="供應商"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Save" Value="儲存"/>
+		<Message Name="Vendor Part" Value="供應商料號"/>
+		<Message Name="Version" Value="版本"/>
+		<Message Name="Qty" Value="數量"/>
+		<Message Name="Part No" Value="料號"/>
+		<Message Name="Vendor Lot" Value="供應商批號"/>
+		<Message Name="OK" Value="確定"/>
+		<Message Name="Search" Value="搜尋條件"/>
+		<Message Name="Delete" Value="刪除"/>
+		<Message Name="Modify" Value="修改"/>
+		<Message Name="Append" Value="新增"/>
+		<Message Name="PO No" Value="采購單號"/>
+		<Message Name="Delivery Notes Maintain" Value=""/>
+		<Message Name="RT No" Value="RT單號"/>
+		<Message Name="Detail Information" Value="RT項次明細"/>
+		<Message Name="RT No List" Value="RT清單"/>
+		<Message Name="Maintain" Value="維護"/>
+		<Message Name="Date Code" Value=""/>
+		<Message Name="DN Item Maintain" Value=""/>
+		<Message Name="RT_NO" Value="RT單號"/>
+		<Message Name="PO Number" Value="采購單號"/>
+		<Message Name="PO_NO" Value="采購單號"/>
+		<Message Name="Lot No" Value="檢驗批號"/>
+		<Message Name="Receive Time" Value="收料時間"/>
+		<Message Name="VENDOR_CODE" Value="供應商代碼"/>
+    <Message Name="VENDOR_NAME" Value="供應商名稱"/>
+		<Message Name="Vendor P/N" Value="供應商料號"/>
+		<Message Name="Incoming Time" Value="收貨時間"/>
+		<Message Name="PART_NO" Value="料號"/>
+		<Message Name="VERSION" Value="版本"/>
+		<Message Name="SPEC1" Value="產品群組"/>
+		<Message Name="SPEC2" Value="描述"/>
+		<Message Name="Please Input Part No Prefix" Value="請輸入料號關鍵字至少一碼"/>
+		<Message Name="Date Code Must Be 4 digits (YYWW)" Value="Date Code 必須為四碼(YYWW)"/>
+		<Message Name="Date Code 3-4 digits Error (Week)" Value="Date Code 三四碼應為週別"/>
+    <Message Name="PO IS NULL" Value="PO號爲空"/>
+    <Message Name="PO ERROR!" Value="PO號不存在！"/>
+    <Message Name="Please Input PO No Prefix" Value="請輸入PO號前綴"/>
+    <Message Name="POItme IS NULL" Value="PO單項次為空"/>
+    <Message Name="Unreceived Quantity:" Value="未收數量："/>
+    <Message Name="Current Provisional Receipts:" Value="當前暫收數量："/>
+    <Message Name="UPC" Value="採購單位"/>
+    <Message Name="PO SEQ" Value="採購單項次"/>
+    <Message Name="PO SHIPMENT" Value="採購單交貨行號"/>
+    <Message Name="PO_SEQ" Value="採購單項次"/>
+    <Message Name="PO_SHIPMENT" Value="採購單交貨行號"/>
+    <Message Name="PO TYPE" Value="採購單類型"/>
+    <Message Name="ERP RTNO" Value="ERP收貨單號"/>
+    <Message Name="VENDOR2" Value="供應商2"/>
+    <Message Name="FLAG" Value="狀態"/>
+    <Message Name="RT SEQ" Value="項次"/>
+    <Message Name="The status is incorrect and cannot be modified" Value="狀態不對無法修改"/>
+    <Message Name="The status is incorrect and cannot be deleted" Value="狀態不對無法刪除"/>
+    <Message Name="PURCHASE_QTY" Value="采購數量"/>
+    <Message Name="DONE_QTY" Value="收料數量"/>
+    <Message Name="The status is incorrect and cannot be upload" Value="狀態不對無法上傳"/>
+    <Message Name="Do you need to upload?" Value="是否需要上傳？"/>
+    <Message Name="Invoice NO" Value="發票號"/>
+  </繁體中文>
+	<简体中文>
+		<Message Name="Vendor" Value="供货商"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Save" Value="储存"/>
+		<Message Name="Vendor Part" Value="供货商料号"/>
+		<Message Name="Version" Value="版本"/>
+		<Message Name="Qty" Value="数量"/>
+		<Message Name="Part No" Value="料号"/>
+		<Message Name="Vendor Lot" Value="供货商批号"/>
+		<Message Name="OK" Value="确定"/>
+		<Message Name="Search" Value="搜寻条件"/>
+		<Message Name="Delete" Value="删除"/>
+		<Message Name="Modify" Value="修改"/>
+		<Message Name="Append" Value="新增"/>
+		<Message Name="PO No" Value="采购单号"/>
+		<Message Name="Delivery Notes Maintain" Value=""/>
+		<Message Name="RT No" Value="RT单号"/>
+		<Message Name="Detail Information" Value="RT项次明细"/>
+		<Message Name="RT No List" Value="RT清单"/>
+		<Message Name="Maintain" Value="维护"/>
+		<Message Name="Date Code" Value=""/>
+		<Message Name="DN Item Maintain" Value=""/>
+		<Message Name="RT_NO" Value="RT单号"/>
+		<Message Name="PO Number" Value="采购单号"/>
+		<Message Name="PO_NO" Value="采购单号"/>
+		<Message Name="Lot No" Value="检验批号"/>
+		<Message Name="Receive Time" Value="收料时间"/>
+		<Message Name="VENDOR_CODE" Value="供货商代码"/>
+    <Message Name="VENDOR_NAME" Value="供应商名称"/>
+		<Message Name="Vendor P/N" Value="供货商料号"/>
+		<Message Name="Incoming Time" Value="收货时间"/>
+		<Message Name="PART_NO" Value="料号"/>
+		<Message Name="VERSION" Value="版本"/>
+		<Message Name="SPEC1" Value="产品群组"/>
+		<Message Name="SPEC2" Value="描述"/>
+		<Message Name="Please Input Part No Prefix" Value="请输入料号关键词至少一码"/>
+		<Message Name="Date Code Must Be 4 digits (YYWW)" Value="Date Code 必须为四码(YYWW)"/>
+		<Message Name="Date Code 3-4 digits Error (Week)" Value="Date Code 三四码应为周别"/>
+    <Message Name="PO IS NULL" Value="PO号为空"/>
+    <Message Name="PO ERROR!" Value="PO号不存在！"/>
+    <Message Name="Please Input PO No Prefix" Value="请输入PO号前缀"/>
+    <Message Name="POItme IS NULL" Value="PO单项次为空"/>
+    <Message Name="Unreceived Quantity:" Value="未收数量："/>
+    <Message Name="Current Provisional Receipts:" Value="当前暂收数量："/>
+    <Message Name="UPC" Value="采购单位"/>
+    <Message Name="PO SEQ" Value="采购单项次"/>
+    <Message Name="PO SHIPMENT" Value="采购单交货行号"/>
+    <Message Name="PO_SEQ" Value="采购单项次"/>
+    <Message Name="PO_SHIPMENT" Value="采购单交货行号"/>
+    <Message Name="PO TYPE" Value="采购单类型"/>
+    <Message Name="ERP RTNO" Value="ERP收货单号"/>
+    <Message Name="VENDOR2" Value="供应商2"/>
+    <Message Name="FLAG" Value="状态"/>
+    <Message Name="RT SEQ" Value="项次"/>
+    <Message Name="The status is incorrect and cannot be modified" Value="状态不对无法修改"/>
+    <Message Name="The status is incorrect and cannot be deleted" Value="状态不对无法刪除"/>
+    <Message Name="PURCHASE_QTY" Value="采购数量"/>
+    <Message Name="DONE_QTY" Value="收料数量"/>
+    <Message Name="The status is incorrect and cannot be upload" Value="状态不对无法上传"/>
+    <Message Name="Do you need to upload?" Value="是否需要上传？"/>
+    <Message Name="Invoice NO" Value="发票号"/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="Vendor" Value="Nhà cung cấp"/><Message Name="Cancel" Value="Hủy"/><Message Name="Save" Value="Lưu"/><Message Name="Vendor Part" Value="Mã linh kiện nhà cung cấp"/><Message Name="Version" Value="Phiên bản"/><Message Name="Qty" Value="Số lượng"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="Vendor Lot" Value="Số lô nhà cung cấp"/><Message Name="OK" Value="OK"/><Message Name="Search" Value="Điều kiện tìm kiếm"/><Message Name="Delete" Value="Xóa"/><Message Name="Modify" Value="Sửa"/><Message Name="Append" Value="Thêm mới"/><Message Name="PO No" Value="Số đơn mua hàng"/><Message Name="Delivery Notes Maintain" Value=""/><Message Name="RT No" Value="Số RT"/><Message Name="Detail Information" Value="Chi tiết mục RT"/><Message Name="RT No List" Value="Danh sách RT"/><Message Name="Maintain" Value="Bảo trì"/><Message Name="Date Code" Value=""/><Message Name="DN Item Maintain" Value=""/><Message Name="RT_NO" Value="Số RT"/><Message Name="PO Number" Value="Số đơn mua hàng"/><Message Name="PO_NO" Value="Số đơn mua hàng"/><Message Name="Lot No" Value="Số lô kiểm tra"/><Message Name="Receive Time" Value="Thời gian nhận liệu"/><Message Name="VENDOR_CODE" Value="Mã nhà cung cấp"/><Message Name="VENDOR_NAME" Value="Tên nhà cung cấp"/><Message Name="Vendor P/N" Value="Mã linh kiện nhà cung cấp"/><Message Name="Incoming Time" Value="Thời gian nhận hàng"/><Message Name="PART_NO" Value="Mã linh kiện"/><Message Name="VERSION" Value="Phiên bản"/><Message Name="SPEC1" Value="Nhóm sản phẩm"/><Message Name="SPEC2" Value="Mô tả"/><Message Name="Please Input Part No Prefix" Value="Vui lòng nhập tối thiểu 1 ký tự mã linh kiện"/><Message Name="Date Code Must Be 4 digits (YYWW)" Value="Date Code phải gồm 4 ký tự (YYWW)"/><Message Name="Date Code 3-4 digits Error (Week)" Value="Ký tự thứ 3-4 của Date Code phải là tuần"/><Message Name="PO IS NULL" Value="PO trống"/><Message Name="PO ERROR!" Value="PO không tồn tại!"/><Message Name="Please Input PO No Prefix" Value="Vui lòng nhập tiền tố PO"/><Message Name="POItme IS NULL" Value="Mục PO trống"/><Message Name="Unreceived Quantity:" Value="Số lượng chưa nhận:"/><Message Name="Current Provisional Receipts:" Value="Số lượng tạm nhận hiện tại:"/><Message Name="UPC" Value="Đơn vị mua hàng"/><Message Name="PO SEQ" Value="Mục đơn mua hàng"/><Message Name="PO SHIPMENT" Value="Dòng giao hàng của PO"/><Message Name="PO_SEQ" Value="Mục đơn mua hàng"/><Message Name="PO_SHIPMENT" Value="Dòng giao hàng của PO"/><Message Name="PO TYPE" Value="Loại đơn mua hàng"/><Message Name="ERP RTNO" Value="Số phiếu nhận ERP"/><Message Name="VENDOR2" Value="Nhà cung cấp 2"/><Message Name="FLAG" Value="Trạng thái"/><Message Name="RT SEQ" Value="Mục"/><Message Name="The status is incorrect and cannot be modified" Value="Trạng thái không hợp lệ, không thể sửa"/><Message Name="The status is incorrect and cannot be deleted" Value="Trạng thái không hợp lệ, không thể xóa"/><Message Name="PURCHASE_QTY" Value="Số lượng mua hàng"/><Message Name="DONE_QTY" Value="Số lượng nhận liệu"/><Message Name="The status is incorrect and cannot be upload" Value="Trạng thái không hợp lệ, không thể tải lên"/><Message Name="Do you need to upload?" Value="Bạn có cần tải lên không?"/><Message Name="Invoice NO" Value="Số hóa đơn"/></Ngôn_ngữ_Việt></Chroma>

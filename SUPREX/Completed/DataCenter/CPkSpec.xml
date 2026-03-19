@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+  <English>
+    <Message Name="Packing Spec Name" Value="Packing Spec Name"/>
+    <Message Name="Box Qty" Value="Box Qty"/>
+    <Message Name="Carton Qty" Value="Carton Qty"/>
+    <Message Name="Pallet Qty" Value="Pallet Qty"/>
+  </English>
+  <繁體中文>
+    <Message Name="Packing Spec Name" Value="包裝方式"/>
+    <Message Name="Box Qty" Value="彩盒數"/>
+    <Message Name="Carton Qty" Value="箱數"/>
+    <Message Name="Pallet Qty" Value="棧板數"/>
+  </繁體中文>
+ <简体中文>			
+    <Message Name="Packing Spec Name" Value="包装方式"/>			
+    <Message Name="Box Qty" Value="彩盒数"/>			
+    <Message Name="Carton Qty" Value="箱数"/>			
+    <Message Name="Pallet Qty" Value="栈板数"/>			
+  </简体中文>			
+
+<Ngôn_ngữ_Việt><Message Name="Packing Spec Name" Value="Quy cách đóng gói"/><Message Name="Box Qty" Value="Số lượng hộp"/><Message Name="Carton Qty" Value="Số lượng thùng"/><Message Name="Pallet Qty" Value="Số lượng pallet"/></Ngôn_ngữ_Việt></Chroma>

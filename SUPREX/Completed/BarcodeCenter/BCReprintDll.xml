@@ -1,0 +1,60 @@
+﻿<Chroma>
+	<繁體中文>
+		<Message Name="Print" Value="列印" />
+		<Message Name="Query" Value="查詢" />
+		<Message Name="Input Type" Value="輸入條件" />
+		<Message Name="Reprint Type" Value="補印種類" />
+		<Message Name="All" Value="全部" />
+		<Message Name="Choose" Value="選擇" />
+		<Message Name="Label Information" Value="標籤資訊" />
+		<Message Name="Label File:" Value="標籤檔:" />
+		<Message Name="Print Method:" Value="列印方式:" />
+		<Message Name="Print Qty:" Value="列印數量:" />
+		<Message Name="Serial Number" Value="產品序號" />
+		<Message Name="SERIAL_NUMBER" Value="產品序號" />
+		<Message Name="Panel No" Value="SMT板邊號" />
+		<Message Name="PANEL_NO" Value="SMT板邊號" />
+		<Message Name="Work Order" Value="工單號" />
+		<Message Name="WORK_ORDER" Value="工單號" />
+		<Message Name="Box No" Value="彩盒" />
+		<Message Name="BOX_NO" Value="料卷號" />
+		<Message Name="Carton No" Value="外箱" />
+		<Message Name="Pallet No" Value="棧板" />
+		<Message Name="Customer SN" Value="客戶序號" />
+		<Message Name="CUSTOMER_SN" Value="客戶序號" />
+		<Message Name="Sub Board" Value="小(子)板序號" />
+		<Message Name="SUB_BOARD" Value="小(子)板序號" />
+		<Message Name="Label" Value="標籤" />
+		<Message Name="Open Print Soft Fail" Value="打開列印軟體失敗" />
+		<Message Name="Close Print Soft Fail" Value="關閉列印軟體失敗" />
+	</繁體中文>
+<Ngôn_ngữ_Việt>
+  <Message Name="Print" Value="In" />
+<Message Name="Query" Value="Tìm kiếm" />
+<Message Name="Input Type" Value="Điều kiện nhập" />
+<Message Name="Reprint Type" Value="Loại in lại" />
+<Message Name="All" Value="Tất cả" />
+<Message Name="Choose" Value="Chọn" />
+<Message Name="Label Information" Value="Thông tin nhãn" />
+<Message Name="Label File:" Value="Tập tin nhãn:" />
+<Message Name="Print Method:" Value="Phương thức in:" />
+<Message Name="Print Qty:" Value="Số lượng in:" />
+<Message Name="Serial Number" Value="Số serial sản phẩm" />
+<Message Name="SERIAL_NUMBER" Value="Số serial sản phẩm" />
+<Message Name="Panel No" Value="Mã panel SMT" />
+<Message Name="PANEL_NO" Value="Mã panel SMT" />
+<Message Name="Work Order" Value="Mã lệnh sản xuất" />
+<Message Name="WORK_ORDER" Value="Mã lệnh sản xuất" />
+<Message Name="Box No" Value="Hộp màu (Box)" />
+<Message Name="BOX_NO" Value="Mã cuộn vật liệu" />
+<Message Name="Carton No" Value="Thùng ngoài" />
+<Message Name="Pallet No" Value="Pallet" />
+<Message Name="Customer SN" Value="Serial khách hàng" />
+<Message Name="CUSTOMER_SN" Value="Serial khách hàng" />
+<Message Name="Sub Board" Value="Số serial board con" />
+<Message Name="SUB_BOARD" Value="Số serial board con" />
+<Message Name="Label" Value="Nhãn" />
+<Message Name="Open Print Soft Fail" Value="Mở phần mềm in thất bại" />
+<Message Name="Close Print Soft Fail" Value="Đóng phần mềm in thất bại" />
+</Ngôn_ngữ_Việt>
+</Chroma>

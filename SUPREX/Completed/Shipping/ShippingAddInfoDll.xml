@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文>
+    <Message Name="OK" Value="確定"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Search" Value="搜尋條件"/>
+    <Message Name="Execute" Value="執行"/>
+    <Message Name="Days" Value="天"/>
+    <Message Name="Container" Value="貨櫃號"/>
+    <Message Name="Warranty Day" Value="保固日期"/>
+    <Message Name="Warranty Date" Value="保固日期"/>
+    <Message Name="Vehicle No" Value="車號"/>
+    <Message Name="Shipping To" Value="目的地"/>
+    <Message Name="DN No" Value="出貨單號"/>
+    <Message Name="No." Value="編號"/>
+    <Message Name="Shipping Date" Value="出貨日期"/>
+    <Message Name="Shipping Qty" Value="出貨數量"/>
+    <Message Name="Employee" Value="員工"/>
+    <Message Name="Shipping SN" Value="出貨序號"/>
+    <Message Name="Shipping Detail" Value="出貨明細"/>
+    <Message Name="Customer" Value="客戶"/>
+    <Message Name="Shipping Type" Value="出貨類型"/>
+    <Message Name="Pallet" Value="棧板"/>
+    <Message Name="Carton" Value="箱號"/>
+    <Message Name="Box" Value="彩盒號"/>
+    <Message Name="Serial Number" Value="序號"/>
+    <Message Name="Customer SN" Value="客戶序號"/>
+    <Message Name="Close" Value="關閉"/>
+	<Message Name="SHIP_TO" Value="目的地"/>
+	<Message Name="CONTAINER" Value="貨櫃號"/>
+	<Message Name="VEHICLE_NO" Value="車號"/>
+	<Message Name="DN_NO" Value="出貨單號"/>
+	<Message Name="CUSTOMER_NAME" Value="客戶名稱"/>
+    <Message Name="DN No has not finish" Value="出貨單號還未完成"/>  
+	<Message Name="DN No Error" Value="出貨單號錯誤"/>  
+	<Message Name="DN Error" Value="出貨錯誤"/>  
+	
+  </繁體中文>
+  <简体中文>
+    <Message Name="OK" Value="确定"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Search" Value="搜寻条件"/>
+    <Message Name="Execute" Value="执行"/>
+    <Message Name="Days" Value="天"/>
+    <Message Name="Container" Value="货柜号"/>
+    <Message Name="Warranty Day" Value="保固日期"/>
+    <Message Name="Warranty Date" Value="保固日期"/>
+    <Message Name="Vehicle No" Value="车号"/>
+    <Message Name="Shipping To" Value="目的地"/>
+    <Message Name="DN No" Value="出货单号"/>
+    <Message Name="No." Value="编号"/>
+    <Message Name="Shipping Date" Value="出货日期"/>
+    <Message Name="Shipping Qty" Value="出货数量"/>
+    <Message Name="Employee" Value="员工"/>
+    <Message Name="Shipping SN" Value="出货序号"/>
+    <Message Name="Shipping Detail" Value="出货明细"/>
+    <Message Name="Customer" Value="客戶"/>
+    <Message Name="Shipping Type" Value="出货类型"/>
+    <Message Name="Pallet" Value="栈板"/>
+    <Message Name="Carton" Value="箱号"/>
+    <Message Name="Box" Value="彩盒号"/>
+    <Message Name="Serial Number" Value="序号"/>
+    <Message Name="Customer SN" Value="客户序号"/>
+    <Message Name="Close" Value="关闭"/>
+    <Message Name="SHIP_TO" Value="目的地"/>
+    <Message Name="CONTAINER" Value="货柜号"/>
+    <Message Name="VEHICLE_NO" Value="车号"/>
+    <Message Name="DN_NO" Value="出货单号"/>
+    <Message Name="CUSTOMER_NAME" Value="客户名称"/>
+    <Message Name="DN No has not finish" Value="出货单号还未完成"/>
+    <Message Name="DN No Error" Value="出货单号错误"/>
+    <Message Name="DN Error" Value="出货错误"/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="OK" Value="Đồng ý"/><Message Name="Cancel" Value="Hủy"/><Message Name="Search" Value="Điều kiện tìm kiếm"/><Message Name="Execute" Value="Thực thi"/><Message Name="Days" Value="Ngày"/><Message Name="Container" Value="Số container"/><Message Name="Warranty Day" Value="Ngày bảo hành"/><Message Name="Warranty Date" Value="Ngày bảo hành"/><Message Name="Vehicle No" Value="Số xe"/><Message Name="Shipping To" Value="Điểm đến"/><Message Name="DN No" Value="Mã phiếu xuất hàng"/><Message Name="No." Value="Số thứ tự"/><Message Name="Shipping Date" Value="Ngày xuất hàng"/><Message Name="Shipping Qty" Value="Số lượng xuất hàng"/><Message Name="Employee" Value="Nhân viên"/><Message Name="Shipping SN" Value="Số seri xuất hàng"/><Message Name="Shipping Detail" Value="Chi tiết xuất hàng"/><Message Name="Customer" Value="Khách hàng"/><Message Name="Shipping Type" Value="Loại xuất hàng"/><Message Name="Pallet" Value="Pallet"/><Message Name="Carton" Value="Mã thùng"/><Message Name="Box" Value="Mã hộp màu"/><Message Name="Serial Number" Value="Số seri"/><Message Name="Customer SN" Value="Số seri khách hàng"/><Message Name="Close" Value="Đóng"/><Message Name="SHIP_TO" Value="Điểm đến"/><Message Name="CONTAINER" Value="Số container"/><Message Name="VEHICLE_NO" Value="Số xe"/><Message Name="DN_NO" Value="Mã phiếu xuất hàng"/><Message Name="CUSTOMER_NAME" Value="Tên khách hàng"/><Message Name="DN No has not finish" Value="Phiếu xuất hàng chưa hoàn tất"/><Message Name="DN No Error" Value="Lỗi mã phiếu xuất hàng"/><Message Name="DN Error" Value="Lỗi xuất hàng"/></Ngôn_ngữ_Việt></Chroma>

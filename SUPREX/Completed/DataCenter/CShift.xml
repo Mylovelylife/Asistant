@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<繁體中文>
+		<Message Name="Shift Code" Value="班別代碼" />
+		<Message Name="Shift Name" Value="班別名稱" />
+		<Message Name="Shift Name" Value="班別名稱" />
+		<Message Name="Start Time" Value="開始時間" />
+		<Message Name="End Time" Value="結束時間" />
+		<Message Name="Standard Start Time" Value="標準開始工作時間" />
+		<Message Name="Standard End Time" Value="標準結束工作時間" />
+		<Message Name="Actual Start Time" Value="實際開始工作時間" />
+		<Message Name="Actual End Time" Value="實際結束工作時間" />
+		<Message Name="Shift Group Code" Value="班別群組代碼" />
+		<Message Name="Shift Group Name" Value="班別群組名稱" />
+		<Message Name="Shift Time Overlap" Value="時間範圍重疊" />
+		<Message Name="Please Input Shift Code" Value="請輸入班別代碼" />
+		<Message Name="Please Input Shift Group Code" Value="請輸入班別群組代碼" />
+		<Message Name="Please Input Shift Name" Value="請輸入班別名稱" />
+		<Message Name="Shift Code Duplicate" Value="班別代碼重複" />
+		<Message Name="Shift Group Code Duplicate" Value="班別群組代碼重複" />
+		<Message Name="Data Append OK" Value="班別新增完成" />
+		<Message Name="Append Other Data" Value="新增其它資料" />
+		<Message Name="Shift Group Append OK" Value="班別群組新增完成" />
+		<Message Name="Standard Working Time" Value="標準工作時間" />
+		<Message Name="Actual Working Time" Value="實際工作時間" />
+	</繁體中文>
+	<简体中文>
+		<Message Name="Shift Code" Value="班别代码" />
+		<Message Name="Shift Name" Value="班别名称" />
+		<Message Name="Shift Name" Value="班别名称" />
+		<Message Name="Start Time" Value="开始时间" />
+		<Message Name="End Time" Value="结束时间" />
+		<Message Name="Standard Start Time" Value="标准开始工作时间" />
+		<Message Name="Standard End Time" Value="标准结束工作时间" />
+		<Message Name="Actual Start Time" Value="实际开始工作时间" />
+		<Message Name="Actual End Time" Value="实际结束工作时间" />
+		<Message Name="Shift Group Code" Value="班别群组代码" />
+		<Message Name="Shift Group Name" Value="班别组名" />
+		<Message Name="Shift Time Overlap" Value="时间范围重迭" />
+		<Message Name="Please Input Shift Code" Value="请输入班别代码" />
+		<Message Name="Please Input Shift Group Code" Value="请输入班别群组代码" />
+		<Message Name="Please Input Shift Name" Value="请输入班别名称" />
+		<Message Name="Shift Code Duplicate" Value="班别代码重复" />
+		<Message Name="Shift Group Code Duplicate" Value="班别群组代码重复" />
+		<Message Name="Data Append OK" Value="班别新增完成" />
+		<Message Name="Append Other Data" Value="新增其它数据" />
+		<Message Name="Shift Group Append OK" Value="班别群组新增完成" />
+		<Message Name="Standard Working Time" Value="标准工作时间" />
+		<Message Name="Actual Working Time" Value="实际工作时间" />
+	</简体中文>
+	<Ngôn_ngữ_Việt>
+		<Message Name="Shift Code" Value="Mã Ca Làm Việc" />
+		<Message Name="Shift Name" Value="Tên Ca Làm Việc" />
+		<Message Name="Start Time" Value="Thời Gian Bắt Đầu" />
+		<Message Name="End Time" Value="Thời Gian Kết Thúc" />
+		<Message Name="Standard Start Time" Value="Thời Gian Bắt Đầu Làm Chuẩn" />
+		<Message Name="Standard End Time" Value="Thời Gian Kết Thúc Làm Chuẩn" />
+		<Message Name="Actual Start Time" Value="Thời Gian Bắt Đầu Thực Tế" />
+		<Message Name="Actual End Time" Value="Thời Gian Kết Thúc Thực Tế" />
+		<Message Name="Shift Group Code" Value="Mã Nhóm Ca" />
+		<Message Name="Shift Group Name" Value="Tên Nhóm Ca" />
+		<Message Name="Shift Time Overlap" Value="Thời Gian Bị Chồng Chéo" />
+		<Message Name="Please Input Shift Code" Value="Vui Lòng Nhập Mã Ca Làm Việc" />
+		<Message Name="Please Input Shift Group Code" Value="Vui Lòng Nhập Mã Nhóm Ca" />
+		<Message Name="Please Input Shift Name" Value="Vui Lòng Nhập Tên Ca Làm Việc" />
+		<Message Name="Shift Code Duplicate" Value="Mã Ca Làm Việc Bị Trùng" />
+		<Message Name="Shift Group Code Duplicate" Value="Mã Nhóm Ca Bị Trùng" />
+		<Message Name="Data Append OK" Value="Thêm Ca Làm Việc Thành Công" />
+		<Message Name="Append Other Data" Value="Thêm Dữ Liệu Khác" />
+		<Message Name="Shift Group Append OK" Value="Thêm Nhóm Ca Thành Công" />
+		<Message Name="Standard Working Time" Value="Thời Gian Làm Việc Chuẩn" />
+		<Message Name="Actual Working Time" Value="Thời Gian Làm Việc Thực Tế" />
+	</Ngôn_ngữ_Việt>
+</Chroma>

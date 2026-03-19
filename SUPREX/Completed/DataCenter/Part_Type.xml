@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文> 
+    <Message Name="NAME" Value="料號類型名稱" />
+    <Message Name="DESCRIPTION" Value="描述" />
+    <Message Name="ENABLED" Value="狀態" /> 
+    <Message Name="UPDATE_USER_NAME" Value="操作人" /> 
+    <Message Name="UPDATE_TIME" Value="更新時間" />
+	<Message Name="History" Value="歷史紀錄" />
+	<Message Name="Property" Value="屬性" />
+    <Message Name="Property_name" Value="屬性名稱" />
+    <Message Name="Property_value" Value="屬性值" />
+    <Message Name="Value_type" Value="類型" />
+    <Message Name="Data Append OK" Value="資料新增成功" /> 
+    <Message Name="Append Other Data" Value="繼續新增其他資料嗎" />
+	<Message Name="Data Modify OK" Value="資料修改成功" />
+	<Message Name="Data Duplicate" Value="資料重覆" />
+    <Message Name="PropertyName is Null" Value="屬性名稱未輸入" />
+    <Message Name="Data is null" Value="資料未輸入" />
+    <Message Name="Value type Error" Value="輸入類型錯誤" />
+	<Message Name="Over flow{0}~{1}" Value="數值需介於{0}~{1}" />
+	<Message Name="SQL_SYNTAX is error" Value="SQL語法錯誤" />
+	<Message Name="Copy" Value="複製" />
+	<Message Name="Copy?" Value="是否複製此料號類型之屬性?" />
+	<Message Name="fCopy" Value="複製" />
+	<Message Name="PropertyName Repeat" Value="此屬性已使用" />
+	<Message Name="Property List is null" Value="此料號類型無屬性群組" />
+	<Message Name="PROPERTY_DESC" Value="屬性說明" />
+	<Message Name="PropertyName is Null" Value="屬性名稱為空" />
+	<Message Name="PropertyName Repeat" Value="此屬性已使用" />
+    <Message Name="Data is null" Value="資料為空" />
+    <Message Name="Property is read only,can not be delete" Value="屬性為唯讀鎖定無法刪除" />
+	<Message Name="Please input correct part type name" Value="請輸入正確的料號類型名稱" />
+    <Message Name="Option" Value="項目" />
+    <Message Name="fMultiSelect" Value="選取項目" />
+    <Message Name="Please pick option to configration." Value="請選擇欲設定的項目" />
+  </繁體中文>
+  <简体中文>
+	  <Message Name="NAME" Value="料号类型名称" />
+	  <Message Name="DESCRIPTION" Value="描述" />
+	  <Message Name="ENABLED" Value="状态" />
+	  <Message Name="UPDATE_USER_NAME" Value="操作人" />
+	  <Message Name="UPDATE_TIME" Value="更新时间" />
+	  <Message Name="History" Value="历史纪录" />
+	  <Message Name="Property" Value="属性" />
+	  <Message Name="Property_name" Value="属性名称" />
+	  <Message Name="Property_value" Value="属性值" />
+	  <Message Name="Value_type" Value="类型" />
+	  <Message Name="Data Append OK" Value="资料新增成功" />
+	  <Message Name="Append Other Data" Value="继续新增其他资料吗" />
+	  <Message Name="Data Modify OK" Value="资料修改成功" />
+	  <Message Name="Data Duplicate" Value="资料重复" />
+	  <Message Name="PropertyName is Null" Value="属性名称未输入" />
+	  <Message Name="Data is null" Value="资料未输入" />
+	  <Message Name="Value type Error" Value="输入类型错误" />
+	  <Message Name="Over flow{0}~{1}" Value="数值需介于{0}~{1}" />
+	  <Message Name="SQL_SYNTAX is error" Value="SQL语法错误" />
+	  <Message Name="Copy" Value="複製" />
+	  <Message Name="Copy?" Value="是否複製此料号类型之属性?" />
+	  <Message Name="fCopy" Value="複製" />
+	  <Message Name="PropertyName Repeat" Value="此属性已使用" />
+	  <Message Name="Property List is null" Value="此料号类型无属性群组" />
+	  <Message Name="PROPERTY_DESC" Value="属性说明" />
+	  <Message Name="PropertyName is Null" Value="属性名称为空" />
+	  <Message Name="PropertyName Repeat" Value="此属性已使用" />
+	  <Message Name="Data is null" Value="资料为空" />
+	  <Message Name="Property is read only,can not be delete" Value="属性为唯读锁定无法删除" />
+	  <Message Name="Please input correct part type name" Value="请输入正确的料号类型名称" />
+    <Message Name="Option" Value="项目" />
+    <Message Name="fMultiSelect" Value="选取项目" />
+    <Message Name="Please pick option to configration." Value="请选择欲设定的项目" />
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="NAME" Value="Tên Loại Linh Kiện" /><Message Name="DESCRIPTION" Value="Mô Tả" /><Message Name="ENABLED" Value="Trạng Thái" /><Message Name="UPDATE_USER_NAME" Value="Người Thao Tác" /><Message Name="UPDATE_TIME" Value="Thời Gian Cập Nhật" /><Message Name="History" Value="Lịch Sử" /><Message Name="Property" Value="Thuộc Tính" /><Message Name="Property_name" Value="Tên Thuộc Tính" /><Message Name="Property_value" Value="Giá Trị Thuộc Tính" /><Message Name="Value_type" Value="Loại Giá Trị" /><Message Name="Data Append OK" Value="Thêm Dữ Liệu Thành Công" /><Message Name="Append Other Data" Value="Tiếp Tục Thêm Dữ Liệu Khác?" /><Message Name="Data Modify OK" Value="Cập Nhật Dữ Liệu Thành Công" /><Message Name="Data Duplicate" Value="Dữ Liệu Trùng Lặp" /><Message Name="PropertyName is Null" Value="Tên Thuộc Tính Chưa Nhập" /><Message Name="Data is null" Value="Dữ Liệu Trống" /><Message Name="Value type Error" Value="Sai Loại Giá Trị Nhập" /><Message Name="Over flow{0}~{1}" Value="Giá Trị Phải Trong Khoảng {0}~{1}" /><Message Name="SQL_SYNTAX is error" Value="Lỗi Cú Pháp SQL" /><Message Name="Copy" Value="Sao Chép" /><Message Name="Copy?" Value="Sao Chép Thuộc Tính Của Loại Linh Kiện Này?" /><Message Name="fCopy" Value="Sao Chép" /><Message Name="PropertyName Repeat" Value="Thuộc Tính Đã Được Sử Dụng" /><Message Name="Property List is null" Value="Loại Linh Kiện Này Không Có Nhóm Thuộc Tính" /><Message Name="PROPERTY_DESC" Value="Mô Tả Thuộc Tính" /><Message Name="Property is read only,can not be delete" Value="Thuộc Tính Là Dạng Chỉ Đọc, Không Thể Xóa" /><Message Name="Please input correct part type name" Value="Vui Lòng Nhập Đúng Tên Loại Linh Kiện" /><Message Name="Option" Value="Tùy Chọn" /><Message Name="fMultiSelect" Value="Chọn Nhiều Mục" /><Message Name="Please pick option to configration." Value="Vui Lòng Chọn Mục Để Cấu Hình" /></Ngôn_ngữ_Việt></Chroma>

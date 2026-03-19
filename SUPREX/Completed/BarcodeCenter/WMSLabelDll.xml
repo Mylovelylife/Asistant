@@ -1,0 +1,364 @@
+﻿<Chroma>
+  <简体中文>
+    <Message Name="OK" Value="确定" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Search" Value="搜寻条件" />
+    <Message Name="Start Number" Value="开始号" />
+    <Message Name="End Number" Value="结束号" />
+    <Message Name="QTY" Value="数量" />
+    <Message Name="Release Qty" Value="展开数量" />
+    <Message Name="Create Employee" Value="建立人员" />
+    <Message Name="RECEIPT_NO" Value="ASN/PO" />
+    <Message Name="VENDOR_CODE" Value="供货商代码" />
+    <Message Name="ASN RECEIPT" Value="请以ASN展箱号" />
+    <Message Name="Vendor" Value="供货商代码" />
+    <Message Name="REQUEST_ID" Value="单号" />
+    <Message Name="APPLY_NO" Value="单号" />
+    <Message Name="APPLY_LINE" Value="Apply Line" />
+    <Message Name="Request ID Error" Value="单号错误" />
+    <Message Name="Request ID" Value="单号" />
+    <Message Name="Print" Value="打印" />
+    <Message Name="Type" Value="类型" />
+    <Message Name="IN" Value="杂收" />
+    <Message Name="PICK_QTY" Value="领料数" />
+    <Message Name="Version" Value="版本" />
+    <Message Name="WORETURN" Value="工单退料" />
+    <Message Name="BORROW" Value="借入" />
+    <Message Name="LOANIN" Value="借出归还" />
+    <Message Name="WORK_ORDER" Value="工单" />
+    <Message Name="WOSTOCK" Value="工单入库" />
+    <Message Name="WMRETURN" Value="SMT回料" />
+    <Message Name="ALLOT" Value="调拨" />
+    <Message Name="Box No not found." Value="查无此箱号" />
+    <Message Name="Input Box No" Value="输入条码" />
+    <Message Name="Box No not found" Value="未有此箱号" />
+    <Message Name="ASN/PO Error" Value="未填ASN/PO" />
+    <Message Name="Date Code Error" Value="未填Date Code" />
+    <Message Name="Part No Error" Value="料号未填" />
+    <Message Name="QTY Error" Value="数量不可小于等于零" />
+    <Message Name="Qty Error" Value="数量不可小于等于零" />
+    <Message Name="Please select Rule" Value="请选择规则" />
+    <Message Name="Manual" Value="手动输入" />
+    <Message Name="Auto" Value="自动产生" />
+    <Message Name="Finish" Value="完成" />
+    <Message Name="Delete" Value="删除" />
+    <Message Name="W/O Type" Value="工单类型" />
+    <Message Name="End Process" Value="工单产出站" />
+    <Message Name="PO Number" Value="订单编号" />
+    <Message Name="Please input ASN/PO" Value="请输入ASN/PO" />
+    <Message Name="W/O Due Date" Value="工单预计完成日期" />
+    <Message Name="Over Target QTY" Value="大于可打印数量" />
+    <Message Name="Over PO QTY" Value="大于可交货量" />
+    <Message Name="Start Number NG" Value="开始数错误" />
+    <Message Name="Over Maximum Sequence" Value="超过可用流水号" />
+    <Message Name="AVA_QTY" Value="可入库量" />
+    <Message Name="Desc" Value="物料描述" />
+    <Message Name="PO Qty" Value="可交货量" />
+    <Message Name="Start Process" Value="工单投入站" />
+    <Message Name="Part No" Value="料号" />
+    <Message Name="PART_NO" Value="料号" />
+    <Message Name="Work Order" Value="工单" />
+    <Message Name="(All Character)" Value="(所有字符)" />
+    <Message Name="Code" Value="代码" />
+    <Message Name="Next" Value="下一笔" />
+    <Message Name="Default" Value="预设" />
+    <Message Name="Release" Value="展开序号" />
+    <Message Name="Print:" Value="打印:" />
+    <Message Name="Reprint" Value="补印" />
+    <Message Name="Label File:" Value="标签文件:" />
+    <Message Name="No" Value="否" />
+    <Message Name="Print Method:" Value="打印方式:" />
+    <Message Name="Print Qty:" Value="打印数量:" />
+    <Message Name="Label Information" Value="卷标信息" />
+    <Message Name="Sequence" Value="流水号" />
+    <Message Name="Field" Value="字段" />
+    <Message Name="Function" Value="功能" />
+    <Message Name="Value" Value="数值" />
+    <Message Name="UserDayCode" Value="使用者自定日期" />
+    <Message Name="Rule Name" Value="规则名称" />
+    <Message Name="Filter" Value="过滤条件" />
+    <Message Name="Description" Value="规则描述" />
+    <Message Name="SPEC1" Value="物料描述" />
+    <Message Name="Unstock Qty" Value="未入库数量" />
+    <Message Name="Target Qty" Value="单据目标量" />
+    <Message Name="TARGET_QTY" Value="单据目标量" />
+    <Message Name="Avaliabled Qty" Value="可打印数量" />
+    <Message Name="Used Qty" Value="已使用数量" />
+    <Message Name="Input Qty" Value="已打印数量" />
+    <Message Name="Label Print" Value="条码打印" />
+    <Message Name="Reprint" Value="补印" />
+    <Message Name="Box No" Value="条码" />
+    <Message Name="Input Type" Value="类型" />
+    <Message Name="Query" Value="查询" />
+    <Message Name="All" Value="全部" />
+    <Message Name="Choose" Value="选择" />
+    <Message Name="No Data" Value="查无资料" />
+    <Message Name="Print Label" Value="打印条码" />
+    <Message Name="Total" Value="总数" />
+    <Message Name="All : " Value="全部：" />
+    <Message Name="Choose : " Value="选择：" />
+    <Message Name="BOX_NO" Value="条码" />
+    <Message Name="Scrap" Value="报废" />
+    <Message Name="Select All" Value="全选" />
+    <Message Name="ID" Value="序号" />
+    <Message Name="Total Qty" Value="单据目标量" />
+    <Message Name="Label Qty" Value="已打印总量" />
+    <Message Name="Box Info" Value="未入库条码信息" />
+    <Message Name="Status" Value="入库状态" />
+    <Message Name="Part Desc" Value="料号描述" />
+    <Message Name="Qty" Value="数量" />
+    <Message Name="PART_ID" Value="物料ID" />
+    <Message Name="Success" Value="报废成功" />
+  </简体中文>
+<Ngôn_ngữ_Việt>
+  <Message Name="OK" Value="Xác nhận" />
+<Message Name="Cancel" Value="Hủy" />
+<Message Name="Search" Value="Điều kiện tìm kiếm" />
+<Message Name="Start Number" Value="Số bắt đầu" />
+<Message Name="End Number" Value="Số kết thúc" />
+<Message Name="QTY" Value="Số lượng" />
+<Message Name="Release Qty" Value="Số lượng triển khai" />
+<Message Name="Create Employee" Value="Người tạo" />
+<Message Name="RECEIPT_NO" Value="ASN/PO" />
+<Message Name="VENDOR_CODE" Value="Mã nhà cung cấp" />
+<Message Name="ASN RECEIPT" Value="Vui lòng dùng ASN để tạo mã thùng" />
+
+<Message Name="Vendor" Value="Mã nhà cung cấp" />
+<Message Name="Prefix?" Value="Tiền tố nhãn?" />
+<Message Name="Vendor Name" Value="Nhà cung cấp" />
+<Message Name="VENDOR_NAME" Value="Nhà cung cấp" />
+<Message Name="REQUEST_ID" Value="Số đơn" />
+<Message Name="APPLY_NO" Value="Số đơn" />
+<Message Name="APPLY_LINE" Value="Dòng Apply" />
+<Message Name="Request ID Error" Value="Số đơn không hợp lệ" />
+<Message Name="Request ID" Value="Số đơn" />
+
+<Message Name="Print" Value="In" />
+<Message Name="BORROW" Value="Mượn vào" />
+<Message Name="LOANIN" Value="Hoàn trả mượn" />
+<Message Name="Type" Value="Loại" />
+<Message Name="IN" Value="Nhập tạp" />
+<Message Name="PICK_QTY" Value="Số lượng lĩnh" />
+<Message Name="Version" Value="Phiên bản" />
+<Message Name="WORETURN" Value="Hoàn trả vật liệu công đoạn" />
+<Message Name="WORK_ORDER" Value="Lệnh sản xuất" />
+<Message Name="WOSTOCK" Value="Nhập kho công đoạn" />
+<Message Name="WMRETURN" Value="Trả lại vật liệu SMT" />
+<Message Name="Import" Value="Nhập" />
+<Message Name="ALLOT" Value="Điều chuyển" />
+
+<Message Name="Box No not found." Value="Không tìm thấy mã thùng" />
+<Message Name="Input Box No" Value="Quét mã thùng" />
+<Message Name="Box No not found" Value="Không có mã thùng này" />
+<Message Name="ASN/PO Error" Value="Chưa nhập ASN/PO" />
+<Message Name="Date Code Error" Value="Chưa nhập Date Code" />
+<Message Name="Part No Error" Value="Chưa nhập mã linh kiện" />
+<Message Name="QTY Error" Value="Số lượng không được ≤ 0" />
+<Message Name="Qty Error" Value="Số lượng không được ≤ 0" />
+<Message Name="Please select Rule" Value="Vui lòng chọn quy tắc" />
+
+<Message Name="Manual" Value="Nhập thủ công" />
+<Message Name="Auto" Value="Tự động tạo" />
+<Message Name="Finish" Value="Hoàn thành" />
+<Message Name="Delete" Value="Xóa" />
+<Message Name="W/O Type" Value="Loại công lệnh" />
+<Message Name="End Process" Value="Công đoạn xuất" />
+<Message Name="PO Number" Value="Số đơn PO" />
+<Message Name="Please input ASN/PO" Value="Vui lòng nhập ASN/PO" />
+<Message Name="W/O Due Date" Value="Ngày dự kiến hoàn thành" />
+<Message Name="Over Target QTY" Value="Vượt quá số lượng cho phép in" />
+<Message Name="Over PO QTY" Value="Vượt quá số lượng giao hàng" />
+<Message Name="Start Number NG" Value="Số bắt đầu không hợp lệ" />
+<Message Name="Over Maximum Sequence" Value="Vượt quá số lượng số thứ tự khả dụng" />
+
+<Message Name="AVA_QTY" Value="Số lượng có thể nhập kho" />
+<Message Name="Desc" Value="Mô tả vật liệu" />
+<Message Name="PO Qty" Value="Số lượng PO khả dụng" />
+<Message Name="Start Process" Value="Công đoạn nhập" />
+<Message Name="Part No" Value="Mã linh kiện" />
+<Message Name="PART_NO" Value="Mã linh kiện" />
+<Message Name="Work Order" Value="Lệnh sản xuất" />
+
+<Message Name="(All Character)" Value="(Tất cả ký tự)" />
+<Message Name="Code" Value="Mã" />
+<Message Name="Next" Value="Dòng kế tiếp" />
+<Message Name="Default" Value="Mặc định" />
+<Message Name="Release" Value="Triển khai số" />
+<Message Name="Print:" Value="In:" />
+<Message Name="Reprint" Value="In lại" />
+<Message Name="Label File:" Value="Tệp nhãn:" />
+<Message Name="No" Value="Không" />
+<Message Name="Print Method:" Value="Phương thức in:" />
+<Message Name="Print Qty:" Value="Số lượng in:" />
+<Message Name="Label Information" Value="Thông tin nhãn" />
+
+<Message Name="Sequence" Value="Số thứ tự" />
+<Message Name="Field" Value="Trường" />
+<Message Name="Function" Value="Chức năng" />
+<Message Name="Value" Value="Giá trị" />
+<Message Name="UserDayCode" Value="Ngày tùy chỉnh" />
+<Message Name="Rule Name" Value="Tên quy tắc" />
+<Message Name="Filter" Value="Điều kiện lọc" />
+<Message Name="Description" Value="Mô tả quy tắc" />
+<Message Name="SPEC1" Value="Mô tả vật liệu" />
+
+<Message Name="Unstock Qty" Value="Số lượng chưa nhập kho" />
+<Message Name="Target Qty" Value="Số lượng mục tiêu chứng từ" />
+<Message Name="TARGET_QTY" Value="Số lượng mục tiêu chứng từ" />
+<Message Name="RELEASE_QTY" Value="Tổng số đã in" />
+<Message Name="Avaliabled Qty" Value="Số lượng có thể in" />
+<Message Name="Used Qty" Value="Số lượng đã dùng" />
+<Message Name="Input Qty" Value="Số lượng đã in" />
+
+<Message Name="Label Print" Value="In mã vạch" />
+<Message Name="Reprint" Value="In lại" />
+<Message Name="Box No" Value="Mã thùng" />
+<Message Name="Input Type" Value="Loại nhập" />
+<Message Name="Query" Value="Tìm kiếm" />
+<Message Name="All" Value="Tất cả" />
+<Message Name="Choose" Value="Chọn" />
+<Message Name="No Data" Value="Không có dữ liệu" />
+<Message Name="Print Label" Value="In nhãn" />
+<Message Name="Total" Value="Tổng cộng" />
+<Message Name="All : " Value="Tất cả：" />
+<Message Name="Choose : " Value="Đã chọn：" />
+<Message Name="BOX_NO" Value="Mã thùng" />
+<Message Name="Scrap" Value="Phế bỏ" />
+<Message Name="Select All" Value="Chọn tất cả" />
+<Message Name="ID" Value="Số thứ tự" />
+<Message Name="Total Qty" Value="Số lượng mục tiêu" />
+<Message Name="Label Qty" Value="Tổng số đã in" />
+<Message Name="Box Info" Value="Thông tin mã chưa nhập kho" />
+<Message Name="Status" Value="Trạng thái nhập kho" />
+<Message Name="Part Desc" Value="Mô tả linh kiện" />
+<Message Name="Qty" Value="Số lượng" />
+\Message Name="PART_ID" Value="ID vật liệu" />
+<Message Name="Success" Value="Phế bỏ thành công" />
+
+<Message Name="Released qty cannot be negative‌, pls check excel" Value="Số lượng nhập từ Excel không được ≤ 0, vui lòng kiểm tra tệp." />
+<Message Name="SEQ" Value="Số thứ tự" />
+
+<Message Name="" Value="" />
+</Ngôn_ngữ_Việt>
+  <繁體中文>
+    <Message Name="OK" Value="確定" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Search" Value="搜尋條件" />
+    <Message Name="Start Number" Value="開始號" />
+    <Message Name="End Number" Value="結束號" />
+    <Message Name="QTY" Value="數量" />
+    <Message Name="Release Qty" Value="展開數量" />
+    <Message Name="Create Employee" Value="建立人員" />
+    <Message Name="RECEIPT_NO" Value="ASN/PO" />
+    <Message Name="VENDOR_CODE" Value="供應商代碼" />
+    <Message Name="ASN RECEIPT" Value="請以ASN展箱號" />
+		<Message Name="Vendor" Value="供應商代碼" />
+		<Message Name="Prefix?" Value="標籤前綴？" />
+		<Message Name="Vendor Name" Value="供應商" />
+		<Message Name="VENDOR_NAME" Value="供應商" />
+		<Message Name="REQUEST_ID" Value="單號" />
+    <Message Name="APPLY_NO" Value="單號" />
+    <Message Name="APPLY_LINE" Value="Apply Line" />
+    <Message Name="Request ID Error" Value="單號錯誤" />
+    <Message Name="Request ID" Value="單號" />
+    <Message Name="Print" Value="列印" />
+    <Message Name="BORROW" Value="借入" />
+    <Message Name="LOANIN" Value="借出归还" />
+    <Message Name="Type" Value="類型" />
+    <Message Name="IN" Value="雜收" />
+    <Message Name="PICK_QTY" Value="領料數" />
+    <Message Name="Version" Value="版本" />
+    <Message Name="WORETURN" Value="工單退料" />
+    <Message Name="WORK_ORDER" Value="工單" />
+    <Message Name="WOSTOCK" Value="工單入庫" />
+		<Message Name="WMRETURN" Value="SMT回料" />
+		<Message Name="Import" Value="匯入" />
+		<Message Name="ALLOT" Value="調撥" />
+    <Message Name="Box No not found." Value="查無此箱號" />
+    <Message Name="Input Box No" Value="輸入條碼" />
+    <Message Name="Box No not found" Value="未有此箱號" />
+    <Message Name="ASN/PO Error" Value="未填ASN/PO" />
+    <Message Name="Date Code Error" Value="未填Date Code" />
+    <Message Name="Part No Error" Value="料號未填" />
+    <Message Name="QTY Error" Value="數量不可小於等於零" />
+    <Message Name="Qty Error" Value="數量不可小於等於零" />
+    <Message Name="Please select Rule" Value="請選擇規則" />
+    <Message Name="Manual" Value="手動輸入" />
+    <Message Name="Auto" Value="自動產生" />
+    <Message Name="Finish" Value="完成" />
+    <Message Name="Delete" Value="刪除" />
+    <Message Name="W/O Type" Value="工單類型" />
+    <Message Name="End Process" Value="工單產出站" />
+    <Message Name="PO Number" Value="訂單編號" />
+    <Message Name="Please input ASN/PO" Value="請輸入ASN/PO" />
+    <Message Name="W/O Due Date" Value="工單預計完成日期" />
+    <Message Name="Over Target QTY" Value="大於可列印數量" />
+    <Message Name="Over PO QTY" Value="大於可交貨量" />
+    <Message Name="Start Number NG" Value="開始數錯誤" />
+    <Message Name="Over Maximum Sequence" Value="超過可用流水號" />
+    <Message Name="AVA_QTY" Value="可入庫量" />
+    <Message Name="Desc" Value="物料描述" />
+    <Message Name="PO Qty" Value="可交貨量" />
+    <Message Name="Start Process" Value="工單投入站" />
+    <Message Name="Part No" Value="料號" />
+    <Message Name="PART_NO" Value="料號" />
+    <Message Name="Work Order" Value="工單" />
+    <Message Name="(All Character)" Value="(所有字元)" />
+    <Message Name="Code" Value="代碼" />
+    <Message Name="Next" Value="下一筆" />
+    <Message Name="Default" Value="預設" />
+    <Message Name="Release" Value="展開序號" />
+    <Message Name="Print:" Value="列印:" />
+    <Message Name="Reprint" Value="補印" />
+    <Message Name="Label File:" Value="標籤文件:" />
+    <Message Name="No" Value="否" />
+    <Message Name="Print Method:" Value="列印方式:" />
+    <Message Name="Print Qty:" Value="列印數量:" />
+    <Message Name="Label Information" Value="標籤信息" />
+    <Message Name="Sequence" Value="流水號" />
+    <Message Name="Field" Value="欄位" />
+    <Message Name="Function" Value="功能" />
+    <Message Name="Value" Value="數值" />
+    <Message Name="UserDayCode" Value="使用者自定日期" />
+    <Message Name="Rule Name" Value="規則名稱" />
+    <Message Name="Filter" Value="過濾條件" />
+    <Message Name="Description" Value="規則描述" />
+    <Message Name="SPEC1" Value="物料描述" />
+    <Message Name="Unstock Qty" Value="未入庫數量" />
+    <Message Name="Target Qty" Value="單據目標量" />
+		<Message Name="TARGET_QTY" Value="單據目標量" />
+		<Message Name="RELEASE_QTY" Value="已列印總量" />
+		<Message Name="Avaliabled Qty" Value="可列印數量" />
+    <Message Name="Used Qty" Value="已使用數量" />
+    <Message Name="Input Qty" Value="已列印數量" />
+    <Message Name="Label Print" Value="條碼列印" />
+    <Message Name="Reprint" Value="補印" />
+    <Message Name="Box No" Value="條碼" />
+    <Message Name="Input Type" Value="類型" />
+    <Message Name="Query" Value="查詢" />
+    <Message Name="All" Value="全部" />
+    <Message Name="Choose" Value="選擇" />
+    <Message Name="No Data" Value="查無資料" />
+    <Message Name="Print Label" Value="列印條碼" />
+    <Message Name="Total" Value="總數" />
+    <Message Name="All : " Value="全部：" />
+    <Message Name="Choose : " Value="選擇：" />
+    <Message Name="BOX_NO" Value="條碼" />
+    <Message Name="Scrap" Value="報廢" />
+    <Message Name="Select All" Value="全選" />
+    <Message Name="ID" Value="序號" />
+    <Message Name="Total Qty" Value="單據目標量" />
+    <Message Name="Label Qty" Value="已列印總量" />
+    <Message Name="Box Info" Value="未入庫條碼資訊" />
+    <Message Name="Status" Value="入庫狀態" />
+    <Message Name="Part Desc" Value="料號描述" />
+    <Message Name="Qty" Value="數量" />
+    <Message Name="PART_ID" Value="物料ID" />
+    <Message Name="Success" Value="報廢成功" />
+		<Message Name="Released qty cannot be negative‌, pls check excel" Value="條碼匯入數量不能小於等於0，請檢查匯入檔案" />
+		<Message Name="SEQ" Value="序號" />
+		<Message Name="" Value="" />
+
+	</繁體中文>
+
+</Chroma>

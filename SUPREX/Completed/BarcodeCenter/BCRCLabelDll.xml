@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Chroma>
+	<繁體中文>
+		<Message Name="Rc No Print" Value="生產批標簽列印"/>
+		<Message Name="Work Order" Value="工單"/>
+		<Message Name="Rc No" Value="生產批號"/>
+		<Message Name="Search" Value="查詢"/>
+		<Message Name="Print" Value="列印"/>
+		<Message Name="Choose" Value="選取"/>
+		<Message Name="PART_NO" Value="料號"/>
+		<Message Name="STATUS" Value="狀態"/>
+		<Message Name="OK" Value="確定" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="WORK_ORDER" Value="工單"/>
+		<Message Name="RC_NO" Value="生產批號"/>
+		<Message Name="Print Method" Value="列印方式" />
+		<Message Name="Print Qty" Value="列印數量" />
+		<Message Name="Print Configuration" Value="列印設定" />
+		<Message Name="Label File" Value="標簽檔" />
+		<Message Name="Label Information" Value="標簽資訊" />
+		<Message Name="No data" Value="無數據"/>
+		<Message Name="Please select the data to print" Value="請選擇要打印的數據"/>
+		<Message Name="" Value=""/>
+	</繁體中文>
+<Ngôn_ngữ_Việt>
+  <Message Name="Rc No Print" Value="In nhãn lô sản xuất" />
+<Message Name="Work Order" Value="Lệnh sản xuất" />
+<Message Name="Rc No" Value="Số lô sản xuất" />
+<Message Name="Search" Value="Tìm kiếm" />
+<Message Name="Print" Value="In" />
+<Message Name="Choose" Value="Chọn" />
+<Message Name="PART_NO" Value="Mã linh kiện" />
+<Message Name="STATUS" Value="Trạng thái" />
+<Message Name="OK" Value="Xác nhận" />
+<Message Name="Cancel" Value="Hủy" />
+<Message Name="WORK_ORDER" Value="Lệnh sản xuất" />
+<Message Name="RC_NO" Value="Số lô sản xuất" />
+<Message Name="Print Method" Value="Phương thức in" />
+<Message Name="Print Qty" Value="Số lượng in" />
+<Message Name="Print Configuration" Value="Cấu hình in" />
+<Message Name="Label File" Value="Tập tin nhãn" />
+<Message Name="Label Information" Value="Thông tin nhãn" />
+<Message Name="No data" Value="Không có dữ liệu" />
+<Message Name="Please select the data to print" Value="Vui lòng chọn dữ liệu cần in" />
+<Message Name="" Value="" />
+</Ngôn_ngữ_Việt>
+	<简体中文>
+		<Message Name="Rc No Print" Value="生产批标签列印"/>
+		<Message Name="Work Order" Value="工单"/>
+		<Message Name="Rc No" Value="生产批号"/>
+		<Message Name="Search" Value="查询"/>
+		<Message Name="Print" Value="列印"/>
+		<Message Name="Choose" Value="选取"/>
+		<Message Name="PART_NO" Value="料号"/>
+		<Message Name="STATUS" Value="状态"/>
+		<Message Name="OK" Value="确定" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="WORK_ORDER" Value="工单"/>
+		<Message Name="RC_NO" Value="生产批号"/>
+		<Message Name="Print Method" Value="列印方式" />
+		<Message Name="Print Qty" Value="列印数量" />
+		<Message Name="Print Configuration" Value="列印设定" />
+		<Message Name="Label File" Value="标签档" />
+		<Message Name="Label Information" Value="标签资讯" />
+		<Message Name="No data" Value="无数据"/>
+		<Message Name="Please select the data to print" Value="请选择要打印的数据"/>
+		<Message Name="" Value=""/>
+	</简体中文>
+</Chroma>

@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+	<English>
+		<Message Name="Part No" Value="Part No"/>
+		<Message Name="Part Type" Value="Part Type"/>
+		<Message Name="Material Type" Value="Material Type"/>
+		<Message Name="Spec1" Value="Spec1"/>
+		<Message Name="Spec2" Value="Spec2"/>
+		<Message Name="Version" Value="Version"/>
+		<Message Name="Default Route" Value="Default Route"/>
+		<Message Name="Rule Set" Value="Rule Set"/>
+		<Message Name="Sampling Plan" Value="Sampling Plan"/>
+		<Message Name="UPC" Value="UPC"/>
+		<Message Name="EAN" Value="EAN"/>
+		<Message Name="Burnin Time" Value="Burnin Time"/>
+		<Message Name="Model Name" Value="Model Name"/>
+		<Message Name="Sampling Plan" Value="Sampling Plan"/>
+		<Message Name="Customer Part No" Value="Customer Part No"/>
+		<Message Name="Vendor Part No" Value="Vendor Code"/>
+		<Message Name="MFGER Part No" Value="Car Type"/>
+		<Message Name="Mfger Part No" Value="Car Type"/>
+		<Message Name="Label File" Value="Label File"/>
+		<Message Name="UOM" Value="UOM"/>
+		<Message Name="SubBoard Qty" Value="SubBoard Qty"/>
+		<Message Name="Mac Qty" Value="Mac Qty"/>
+		<Message Name="Packing Spec" Value="Packing Spec"/>
+		<Message Name="Pallet Qty" Value="Pallet Qty"/>
+		<Message Name="Carton Qty" Value="Carton Qty"/>
+		<Message Name="Box Qty" Value="Box Qty"/>
+		<Message Name="(Minus.)" Value="(Minus.)"/>
+		<Message Name="PKSPEC_NAME" Value="Packing Spec"/>
+		<Message Name="PALLET_QTY" Value="Pallet Qty"/>
+		<Message Name="CARTON_QTY" Value="Carton Qty"/>
+		<Message Name="BOX_QTY" Value="Box Qty"/>
+		<Message Name="Auto Control Qty" Value="Auto Adjust"/>
+		<Message Name="Item Qty (Botton)" Value="Item Qty (B)"/>
+		<Message Name="Item Qty (Top)" Value="Item Qty (T)"/>
+
+		<Message Name="Varchar2" Value="String"/>
+		<Message Name="fMultiProperty" Value="Property values"/>
+		<Message Name="fCopyProperty" Value="Property copy"/>
+		<Message Name="PART_NO" Value="Part no"/>
+		<Message Name="VERSION" Value="Version"/>
+		<Message Name="SPEC1" Value="Specification"/>
+	</English>
+	<繁體中文>
+		<Message Name="Part No" Value="料號"/>
+		<Message Name="Part Type" Value="料號類型"/>
+		<Message Name="Material Type" Value="物料類型"/>
+		<Message Name="Spec1" Value="規格1"/>
+		<Message Name="Spec2" Value="規格2"/>
+		<Message Name="Version" Value="版本"/>
+		<Message Name="Default Route" Value="預設途程"/>
+		<Message Name="Rule Set" Value="規則集合"/>
+		<Message Name="Sampling Plan" Value="抽驗計畫"/>
+		<Message Name="UPC" Value="UPC"/>
+		<Message Name="EAN" Value="EAN"/>
+		<Message Name="Burnin Time" Value="燒機時間"/>
+		<Message Name="Model Name" Value="機種名稱"/>
+		<Message Name="Sampling Plan" Value="抽驗計畫"/>
+		<Message Name="Customer Part No" Value="客戶料號"/>
+		<Message Name="Vendor Part No" Value="廠商代碼"/>
+		<Message Name="MFGER Part No" Value="車款"/>
+		<Message Name="Label File" Value="標籤檔名"/>
+		<Message Name="UOM" Value="單位"/>
+		<Message Name="SubBoard Qty" Value="小板數"/>
+		<Message Name="Mac Qty" Value="Mac數"/>
+		<Message Name="Packing Spec" Value="包裝方式"/>
+		<Message Name="Pallet Qty" Value="棧板數"/>
+		<Message Name="Carton Qty" Value="箱數"/>
+		<Message Name="Box Qty" Value="彩盒數"/>
+		<Message Name="(Minus.)" Value="(分)"/>
+		<Message Name="PKSPEC_NAME" Value="包裝方式"/>
+		<Message Name="PALLET_QTY" Value="棧板數"/>
+		<Message Name="CARTON_QTY" Value="箱數"/>
+		<Message Name="BOX_QTY" Value="彩盒數"/>
+		<Message Name="Auto Control Qty" Value="自動扣帳"/>
+		<Message Name="ROUTE_NAME" Value="途程名稱"/>
+		<Message Name="ROUTE_DESC" Value="途程描述"/>
+		<Message Name="Process Setup" Value="製程設定"/>
+		<Message Name="List" Value="清單"/>
+		<Message Name="Mac Rule" Value="MAC規則"/>
+		<Message Name="Lot Size" Value="批量"/>
+		<Message Name="Sort Index" Value="排序"/>
+		<Message Name="Item Name" Value="項目名稱"/>
+		<Message Name="Item Front" Value="前置碼"/>
+		<Message Name="Item Length" Value="碼長"/>
+		<Message Name="Item Qty" Value="CNS QTY"/>
+		<Message Name="Sort Index Number Dup" Value="排序索引重覆"/>
+		<Message Name="Data is null" Value="輸入資料為空值"/>
+		<Message Name="Data Duplicate" Value="輸入資料重覆"/>
+		<Message Name="Sort Index Duplicate" Value="順序索引重覆"/>
+		<Message Name="Are You Sure to Append Data" Value="你是否確定新增資料"/>
+		<Message Name="Item Name Error" Value="項目名稱錯誤"/>
+		<Message Name="Part Manager" Value="零件負責人"/>
+		<Message Name="Vendor" Value="供應商負責人"/>
+		<Message Name="VENDOR_CODE" Value="供應商編號"/>
+		<Message Name="VENDOR_NAME" Value="供應商名稱"/>
+		<Message Name="EMP_NO" Value="員工編號"/>
+		<Message Name="Carrier" Value="載具"/>
+		<Message Name="ASSY CSN" Value="客戶序號"/>
+		<Message Name="Mfger Part No" Value="車款"/>
+		<Message Name="DIP Solder Point" Value="DIP焊點數"/>
+		<Message Name="DIP Item Qty" Value="DIP零件數"/>
+		<Message Name="SMT Solder Point" Value="SMT焊點數"/>
+		<Message Name="Item Qty (Botton)" Value="SMT背面零件數"/>
+		<Message Name="Item Qty (Top)" Value="SMT正面零件數"/>
+		<Message Name="Repair WH(Min)" Value="維修標準工時分"/>
+		<Message Name="Unique" Value="唯一"/>
+		<Message Name="Qty" Value="數量"/>
+		<Message Name="Process Name" Value="製程"/>
+		<Message Name="Value Type" Value="資料型態"/>
+		<Message Name="Varchar(Format)" Value="字串(有格式)"/>
+		<Message Name="Varchar(Normal)" Value="字串(無格式)"/>
+		<Message Name="Number" Value="數值"/>
+		<Message Name="Process Name Error" Value="製程錯誤"/>
+		<Message Name="PROCESS_NAME" Value="製程名稱"/>
+
+		<Message Name="Property" Value="屬性"/>
+		<Message Name="Property name" Value="屬性名稱"/>
+		<Message Name="Property value" Value="屬性值"/>
+		<Message Name="Property type" Value="類型"/>
+		<Message Name="Property description" Value="屬性說明"/>
+		<Message Name="Copy" Value="複製"/>
+		<Message Name="Varchar2" Value="文字"/>
+		<Message Name="fMultiProperty" Value="屬性值"/>
+		<Message Name="Option" Value="項目"/>
+		<Message Name="fCopyProperty" Value="屬性複製"/>
+		<Message Name="PART_NO" Value="料號"/>
+		<Message Name="VERSION" Value="版本"/>
+		<Message Name="SPEC1" Value="規格"/>
+		<Message Name="Please select part no." Value="請選取料號"/>
+		<Message Name="Confirm copy part no Properties?" Value="確認複製料號屬性?"/>
+		<Message Name="Query attribute exception." Value="查詢屬性異常"/>
+		<Message Name="Part property not found." Value="查無料號屬性"/>
+		<Message Name="Property items cannot be repeated." Value="屬性項目不可重複"/>
+		<Message Name="Please select the property item to delete." Value="請選取欲刪除的屬性項目"/>
+		<Message Name="Read-only property cannot be deleted." Value="唯讀屬性不可刪除"/>
+		<Message Name="Property type error." Value="類型錯誤"/>
+		<Message Name="is required." Value="為必填"/>
+		<Message Name="over flow." Value="超出範圍"/>
+		<Message Name="Data are so much, please use query conditions." Value="資料太多，請使用篩選條件。"/>
+
+		<Message Name="OPTION1" Value="投入序號的長度"/>
+		<Message Name="OPTION2" Value="是否卡控線體"/>
+		<Message Name="OPTION3" Value="完工時間"/>
+		<Message Name="MAC Count" Value="MAC數量"/>
+		<Message Name="Assy Head Code" Value="組裝前置碼"/>
+		<Message Name="Assy Tail Code" Value="組裝後置碼"/>
+		<Message Name="Net Weight" Value="淨重"/>
+		<Message Name="Box UCL" Value="盒重上限"/>
+		<Message Name="Box LCL" Value="盒重下限"/>
+		<Message Name="Carton UCL" Value="箱重上限"/>
+		<Message Name="Carton LCL" Value="箱重下限"/>
+		<Message Name="Volume Weight" Value="材積重"/>
+		<Message Name="Replace Reel" Value="替換料卷號"/>
+		<Message Name="Sub Board" Value="子板數量"/>
+		<Message Name="PCB Part" Value="PCB料號"/>
+		<Message Name="Customer" Value="客戶"/>
+		<Message Name="Sub WO SN Rule" Value="子工單序號規則"/>
+		<Message Name="SEQ" Value="順序"/>
+		<Message Name="Seq" Value="順序"/>
+		<Message Name="Rule Type" Value="序號規則"/>
+		<Message Name="Start Index" Value="開始位置"/>
+		<Message Name="End Index" Value="結束位置"/>
+		<Message Name="Fixed Code" Value="固定文字"/>
+		<Message Name="Master WO SN" Value="母工單序號"/>
+		<Message Name="OPTION19" Value="軟體版本"/>
+		<Message Name="ExpiryDays" Value="有效日期"/>
+		<Message Name="" Value=""/>
+		<Message Name="" Value=""/>
+
+	</繁體中文>
+	<简体中文>
+		<Message Name="Part No" Value="料号"/>
+		<Message Name="Part Type" Value="料号类型"/>
+		<Message Name="Material Type" Value="物料类型"/>
+		<Message Name="Spec1" Value="规格1"/>
+		<Message Name="Spec2" Value="规格2"/>
+		<Message Name="Version" Value="版本"/>
+		<Message Name="Default Route" Value="预设途程"/>
+		<Message Name="Rule Set" Value="规则集合"/>
+		<Message Name="Sampling Plan" Value="抽验计画"/>
+		<Message Name="UPC" Value="UPC"/>
+		<Message Name="EAN" Value="EAN"/>
+		<Message Name="Burnin Time" Value="烧机时间"/>
+		<Message Name="Model Name" Value="机种名称"/>
+		<Message Name="Sampling Plan" Value="抽验计画"/>
+		<Message Name="Customer Part No" Value="客户料号"/>
+		<Message Name="Vendor Part No" Value="厂商代码"/>
+		<Message Name="MFGER Part No" Value="车款"/>
+		<Message Name="Label File" Value="标签档名"/>
+		<Message Name="UOM" Value="单位"/>
+		<Message Name="SubBoard Qty" Value="小板数"/>
+		<Message Name="Mac Qty" Value="Mac数"/>
+		<Message Name="Packing Spec" Value="包装方式"/>
+		<Message Name="Pallet Qty" Value="栈板数"/>
+		<Message Name="Carton Qty" Value="箱数"/>
+		<Message Name="Box Qty" Value="彩盒数"/>
+		<Message Name="(Minus.)" Value="(分)"/>
+		<Message Name="PKSPEC_NAME" Value="包装方式"/>
+		<Message Name="PALLET_QTY" Value="栈板数"/>
+		<Message Name="CARTON_QTY" Value="箱数"/>
+		<Message Name="BOX_QTY" Value="彩盒数"/>
+		<Message Name="Auto Control Qty" Value="自动扣帐"/>
+		<Message Name="ROUTE_NAME" Value="途程名称"/>
+		<Message Name="ROUTE_DESC" Value="途程描述"/>
+		<Message Name="Process Setup" Value="制程设定"/>
+		<Message Name="List" Value="清单"/>
+		<Message Name="Mac Rule" Value="MAC规则"/>
+		<Message Name="Lot Size" Value="批量"/>
+		<Message Name="Sort Index" Value="排序"/>
+		<Message Name="Item Name" Value="项目名称"/>
+		<Message Name="Item Front" Value="前置码"/>
+		<Message Name="Item Length" Value="码长"/>
+		<Message Name="Item Qty" Value="CNS QTY"/>
+		<Message Name="Sort Index Number Dup" Value="排序索引重覆"/>
+		<Message Name="Data is null" Value="输入资料为空值"/>
+		<Message Name="Data Duplicate" Value="输入资料重覆"/>
+		<Message Name="Sort Index Duplicate" Value="顺序索引重覆"/>
+		<Message Name="Are You Sure to Append Data" Value="你是否确定新增资料"/>
+		<Message Name="Item Name Error" Value="项目名称错误"/>
+		<Message Name="Part Manager" Value="零件负责人"/>
+		<Message Name="Vendor" Value="供应商负责人"/>
+		<Message Name="VENDOR_CODE" Value="供应商编号"/>
+		<Message Name="VENDOR_NAME" Value="供应商名称"/>
+		<Message Name="EMP_NO" Value="员工编号"/>
+		<Message Name="Carrier" Value="载具"/>
+		<Message Name="ASSY CSN" Value="客户序号"/>
+		<Message Name="Mfger Part No" Value="车款"/>
+		<Message Name="DIP Solder Point" Value="DIP焊点数"/>
+		<Message Name="DIP Item Qty" Value="DIP零件数"/>
+		<Message Name="SMT Solder Point" Value="SMT焊点数"/>
+		<Message Name="Item Qty (Botton)" Value="SMT背面零件数"/>
+		<Message Name="Item Qty (Top)" Value="SMT正面零件数"/>
+		<Message Name="Repair WH(Min)" Value="维修标准工时分"/>
+		<Message Name="Unique" Value="唯一"/>
+		<Message Name="Qty" Value="数量"/>
+		<Message Name="Process Name" Value="制程"/>
+		<Message Name="Value Type" Value="资料型态"/>
+		<Message Name="Varchar(Format)" Value="字串(有格式)"/>
+		<Message Name="Varchar(Normal)" Value="字串(无格式)"/>
+		<Message Name="Number" Value="数值"/>
+		<Message Name="Process Name Error" Value="制程错误"/>
+		<Message Name="PROCESS_NAME" Value="制程名称"/>
+
+		<Message Name="Property" Value="属性"/>
+		<Message Name="Property name" Value="属性名称"/>
+		<Message Name="Property value" Value="属性值"/>
+		<Message Name="Property type" Value="类型"/>
+		<Message Name="Property description" Value="属性说明"/>
+		<Message Name="Copy" Value="复制"/>
+		<Message Name="Varchar2" Value="文字"/>
+		<Message Name="fMultiProperty" Value="属性值"/>
+		<Message Name="Option" Value="项目"/>
+		<Message Name="fCopyProperty" Value="属性复制"/>
+		<Message Name="PART_NO" Value="料号"/>
+		<Message Name="VERSION" Value="版本"/>
+		<Message Name="SPEC1" Value="规格"/>
+		<Message Name="Please select part no." Value="请选取料号"/>
+		<Message Name="Confirm copy part no Properties?" Value="确认复制料号属性?"/>
+		<Message Name="Query attribute exception." Value="查询属性异常"/>
+		<Message Name="Part property not found." Value="查无料号属性"/>
+		<Message Name="Property items cannot be repeated." Value="属性项目不可重复"/>
+		<Message Name="Please select the property item to delete." Value="请选取欲删除的属性项目"/>
+		<Message Name="Read-only property cannot be deleted." Value="只读属性不可删除"/>
+		<Message Name="Property type error." Value="类型错误"/>
+		<Message Name="is required." Value="为必填"/>
+		<Message Name="over flow." Value="超出范围"/>
+		<Message Name="OPTION1" Value="投入序号的长度"/>
+
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Part No" Value="Mã linh kiện"/><Message Name="Part Type" Value="Loại linh kiện"/><Message Name="Material Type" Value="Loại vật liệu"/><Message Name="Spec1" Value="Thông số 1"/><Message Name="Spec2" Value="Thông số 2"/><Message Name="Version" Value="Phiên bản"/><Message Name="Default Route" Value="Lộ trình mặc định"/><Message Name="Rule Set" Value="Bộ quy tắc"/><Message Name="Sampling Plan" Value="Kế hoạch lấy mẫu"/><Message Name="UPC" Value="UPC"/><Message Name="EAN" Value="EAN"/><Message Name="Burnin Time" Value="Thời gian burn-in"/><Message Name="Model Name" Value="Tên model"/><Message Name="Customer Part No" Value="Mã linh kiện khách hàng"/><Message Name="Vendor Part No" Value="Mã linh kiện nhà cung cấp"/><Message Name="MFGER Part No" Value="Mã xe"/><Message Name="Mfger Part No" Value="Mã xe"/><Message Name="Label File" Value="Tệp nhãn"/><Message Name="UOM" Value="Đơn vị"/><Message Name="SubBoard Qty" Value="Số lượng bảng nhỏ"/><Message Name="Mac Qty" Value="Số lượng MAC"/><Message Name="Packing Spec" Value="Quy cách đóng gói"/><Message Name="Pallet Qty" Value="Số lượng pallet"/><Message Name="Carton Qty" Value="Số lượng thùng"/><Message Name="Box Qty" Value="Số lượng hộp"/><Message Name="(Minus.)" Value="(Trừ)"/><Message Name="PKSPEC_NAME" Value="Quy cách đóng gói"/><Message Name="PALLET_QTY" Value="Số lượng pallet"/><Message Name="CARTON_QTY" Value="Số lượng thùng"/><Message Name="BOX_QTY" Value="Số lượng hộp"/><Message Name="Auto Control Qty" Value="Tự động kiểm soát số lượng"/><Message Name="Item Qty (Botton)" Value="Số lượng linh kiện (mặt dưới)"/><Message Name="Item Qty (Top)" Value="Số lượng linh kiện (mặt trên)"/><Message Name="Varchar2" Value="Chuỗi ký tự"/><Message Name="fMultiProperty" Value="Giá trị thuộc tính"/><Message Name="fCopyProperty" Value="Sao chép thuộc tính"/><Message Name="PART_NO" Value="Mã linh kiện"/><Message Name="VERSION" Value="Phiên bản"/><Message Name="SPEC1" Value="Thông số"/><Message Name="ROUTE_NAME" Value="Tên lộ trình"/><Message Name="ROUTE_DESC" Value="Mô tả lộ trình"/><Message Name="Process Setup" Value="Thiết lập công đoạn"/><Message Name="List" Value="Danh sách"/><Message Name="Mac Rule" Value="Quy tắc MAC"/><Message Name="Lot Size" Value="Kích thước lô"/><Message Name="Sort Index" Value="Chỉ số sắp xếp"/><Message Name="Item Name" Value="Tên mục"/><Message Name="Item Front" Value="Tiền tố"/><Message Name="Item Length" Value="Độ dài"/><Message Name="Item Qty" Value="Số lượng mục"/><Message Name="Sort Index Number Dup" Value="Chỉ số sắp xếp bị trùng"/><Message Name="Data is null" Value="Dữ liệu trống"/><Message Name="Data Duplicate" Value="Dữ liệu trùng lặp"/><Message Name="Sort Index Duplicate" Value="Chỉ số thứ tự bị trùng"/><Message Name="Are You Sure to Append Data" Value="Bạn có chắc muốn thêm dữ liệu?"/><Message Name="Item Name Error" Value="Tên mục không hợp lệ"/><Message Name="Part Manager" Value="Người phụ trách linh kiện"/><Message Name="Vendor" Value="Người phụ trách nhà cung cấp"/><Message Name="VENDOR_CODE" Value="Mã nhà cung cấp"/><Message Name="VENDOR_NAME" Value="Tên nhà cung cấp"/><Message Name="EMP_NO" Value="Mã nhân viên"/><Message Name="Carrier" Value="Tải trọng/Carrier"/><Message Name="ASSY CSN" Value="Số seri khách hàng"/><Message Name="DIP Solder Point" Value="Số điểm hàn DIP"/><Message Name="DIP Item Qty" Value="Số linh kiện DIP"/><Message Name="SMT Solder Point" Value="Số điểm hàn SMT"/><Message Name="Repair WH(Min)" Value="Thời gian chuẩn sửa chữa (phút)"/><Message Name="Unique" Value="Duy nhất"/><Message Name="Qty" Value="Số lượng"/><Message Name="Process Name" Value="Tên công đoạn"/><Message Name="Value Type" Value="Loại dữ liệu"/><Message Name="Varchar(Format)" Value="Chuỗi (định dạng)"/><Message Name="Varchar(Normal)" Value="Chuỗi (thường)"/><Message Name="Number" Value="Số"/><Message Name="Process Name Error" Value="Tên công đoạn sai"/><Message Name="PROCESS_NAME" Value="Tên công đoạn"/><Message Name="Property" Value="Thuộc tính"/><Message Name="Property name" Value="Tên thuộc tính"/><Message Name="Property value" Value="Giá trị thuộc tính"/><Message Name="Property type" Value="Loại thuộc tính"/><Message Name="Property description" Value="Mô tả thuộc tính"/><Message Name="Copy" Value="Sao chép"/><Message Name="Option" Value="Tùy chọn"/><Message Name="Please select part no." Value="Vui lòng chọn mã linh kiện"/><Message Name="Confirm copy part no Properties?" Value="Xác nhận sao chép thuộc tính mã linh kiện?"/><Message Name="Query attribute exception." Value="Lỗi truy vấn thuộc tính"/><Message Name="Part property not found." Value="Không tìm thấy thuộc tính linh kiện"/><Message Name="Property items cannot be repeated." Value="Thuộc tính không được trùng lặp"/><Message Name="Please select the property item to delete." Value="Vui lòng chọn thuộc tính cần xóa"/><Message Name="Read-only property cannot be deleted." Value="Thuộc tính chỉ đọc không thể xóa"/><Message Name="Property type error." Value="Sai loại thuộc tính"/><Message Name="is required." Value="là bắt buộc"/><Message Name="over flow." Value="Vượt quá phạm vi"/><Message Name="OPTION1" Value="Độ dài số seri đầu vào"/><Message Name="OPTION2" Value="Kiểm soát theo chuyền"/><Message Name="OPTION3" Value="Thời gian hoàn thành"/><Message Name="MAC Count" Value="Số lượng MAC"/><Message Name="Assy Head Code" Value="Mã đầu lắp ráp"/><Message Name="Assy Tail Code" Value="Mã cuối lắp ráp"/><Message Name="Net Weight" Value="Khối lượng tịnh"/><Message Name="Box UCL" Value="Giới hạn trên hộp"/><Message Name="Box LCL" Value="Giới hạn dưới hộp"/><Message Name="Carton UCL" Value="Giới hạn trên thùng"/><Message Name="Carton LCL" Value="Giới hạn dưới thùng"/><Message Name="Volume Weight" Value="Khối lượng quy đổi"/><Message Name="Replace Reel" Value="Thay cuộn linh kiện"/><Message Name="Sub Board" Value="Số lượng bảng con"/><Message Name="PCB Part" Value="Mã PCB"/><Message Name="Customer" Value="Khách hàng"/><Message Name="Sub WO SN Rule" Value="Quy tắc SN công đoạn con"/><Message Name="SEQ" Value="Thứ tự"/><Message Name="Seq" Value="Thứ tự"/><Message Name="Rule Type" Value="Loại quy tắc SN"/><Message Name="Start Index" Value="Vị trí bắt đầu"/><Message Name="End Index" Value="Vị trí kết thúc"/><Message Name="Fixed Code" Value="Mã cố định"/><Message Name="Master WO SN" Value="SN công đoạn mẹ"/><Message Name="OPTION19" Value="Phiên bản phần mềm"/><Message Name="ExpiryDays" Value="Số ngày hiệu lực"/></Ngôn_ngữ_Việt></Chroma>

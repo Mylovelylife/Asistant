@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+	<English>
+		<Message Name="Default" Value="Default"/>
+		<Message Name="Value Type" Value="Value Type"/>
+		<Message Name="Input Type" Value="Input Type"/>
+		<Message Name="Value List" Value="Value List"/>
+		<Message Name="Convert Type" Value="Convert Type"/>
+		<Message Name="Necessary" Value="Necessary"/>
+		<Message Name="Range" Value="Range"/>
+		<Message Name="Add" Value="Add"/>
+		<Message Name="Delete" Value="Delete"/>
+		<Message Name="Add Error." Value="Add Error."/>
+		<Message Name="Please Create List item." Value="Please Create List item."/>
+		<Message Name="Please Input min Value." Value="Please Input min Value."/>
+		<Message Name="Please Input Max Value." Value="Please Input Max Value."/>
+		<Message Name="Please Input min Value in Number" Value="Please Input min Value in Number"/>
+		<Message Name="Please Input Max Value in Number" Value="Please Input Max Value in Number"/>
+		<Message Name="Please Select a Item." Value="Please Select a Item."/>
+		<Message Name="Add another one" Value="Add another one"/>
+		<Message Name="Please Input Property Name" Value="Please Input Property Name"/>
+		<Message Name="Value" Value="Value"/>
+		<Message Name="OK" Value="OK"/>
+		<Message Name="Cancel" Value="Cancel"/>
+		<Message Name="Varchar2" Value="Varchar2"/>
+		<Message Name="Number" Value="Number"/>
+		<Message Name="Key In" Value="Key In"/>
+		<Message Name="Select List" Value="Select List"/>
+		<Message Name="None" Value="None"/>
+		<Message Name="Uppercase" Value="Uppercase"/>
+		<Message Name="Lowercase" Value="Lowercase"/>
+		<Message Name="UnNecessary" Value="UnNecessary"/>
+		<Message Name="necessary" Value="necessary"/>
+		<Message Name="ALL" Value="ALL"/>
+		<Message Name="PART" Value="PART"/>
+		<Message Name="WO" Value="WO"/>
+		<Message Name="RC" Value="RC"/>
+		<Message Name="SN" Value="SN"/>
+		<Message Name="Please Input another Property Name" Value="Please Input another Property Name"/>
+		<Message Name="Please Input Number" Value="Please Input Number"/>
+		<Message Name="Please Input List item in Number" Value="Please Input List item in Number"/>
+		<Message Name="Range is Number" Value="Range is Number"/>
+		<Message Name="Property Type" Value="Property Type"/>
+		<Message Name="Export completed" Value="Export completed"/>
+		<Message Name="Range minimum must smaller than maximun" Value="Range minimum must smaller than maximun"/>
+	</English>
+
+	<繁體中文>
+		<Message Name="Property Name" Value="屬性名稱"/>
+		<Message Name="Default" Value="預設值"/>
+		<Message Name="Value Type" Value="數值類型"/>
+		<Message Name="Input Type" Value="輸入方式"/>
+		<Message Name="Value List" Value="項目列表"/>
+		<Message Name="Convert Type" Value="輸入值替換"/>
+		<Message Name="Necessary" Value="必要輸入欄位"/>
+		<Message Name="Range" Value="範圍"/>
+		<Message Name="Add" Value="添加"/>
+		<Message Name="Delete" Value="刪除"/>
+		<Message Name="Add Error." Value="添加錯誤。"/>
+		<Message Name="Please Create List item." Value="請新建項目列表。"/>
+		<Message Name="Please Input min Value." Value="請輸入最小值。"/>
+		<Message Name="Please Input Max Value." Value="請輸入最大值。"/>
+		<Message Name="Please Input min Value in Number" Value="請輸入數值類型的最小值"/>
+		<Message Name="Please Input Max Value in Number" Value="請輸入數值類型的最大值"/>
+		<Message Name="Please Select a Item." Value="請選擇一個值。"/>
+		<Message Name="Add another one" Value="繼續新增？"/>
+		<Message Name="Please Input Property Name" Value="請輸入屬性名"/>
+		<Message Name="Value" Value="數值"/>
+		<Message Name="OK" Value="確認"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Varchar2" Value="文字"/>
+		<Message Name="Number" Value="數字"/>
+		<Message Name="Key In" Value="輸入值"/>
+		<Message Name="Select List" Value="選項清單"/>
+		<Message Name="None" Value="不轉換"/>
+		<Message Name="Uppercase" Value="轉大寫"/>
+		<Message Name="Lowercase" Value="轉小寫"/>
+		<Message Name="UnNecessary" Value="不必要"/>
+		<Message Name="necessary" Value="必要"/>
+		<Message Name="ALL" Value="通用"/>
+		<Message Name="PART" Value="料號"/>
+		<Message Name="WO" Value="工單"/>
+		<Message Name="RC" Value="生產批"/>
+		<Message Name="SN" Value="序號"/>
+    <Message Name="Tooling" Value="治工具"/>
+    <Message Name="Machine" Value="機台"/>
+    <Message Name="Process" Value="製程"/>
+    <Message Name="Please Input another Property Name" Value="請輸入另一個屬性名"/>
+		<Message Name="Please Input Number" Value="請輸入數字"/>
+		<Message Name="Please Input List item in Number" Value="請輸入數值類型的列表值"/>
+		<Message Name="Range is Number" Value="範圍是數字類型"/>
+		<Message Name="Property Type" Value="屬性類型"/>
+		<Message Name="Export completed" Value="匯出完成"/>
+		<Message Name="Range minimum must smaller than maximun" Value="左邊值必須小於右邊值"/>
+		<Message Name="Sql Syntax" Value="資料庫語法"/>
+		<Message Name="Test" Value="測試"/>
+		<Message Name="Sql" Value="數據庫"/>
+		<Message Name="SQL" Value="數據庫"/>
+		<Message Name="Property Desc" Value="屬性描述"/>
+		<Message Name="PO" Value="採購單"/>
+		<Message Name="DO" Value="出貨單"/>
+		<Message Name="SYS_BOM_INFO" Value="系統物料表資訊"/>
+		<Message Name="SYS_BOM" Value="系統物料表"/>
+		<Message Name="WO_BOM" Value="工單物料表"/>
+		<Message Name="Sql Syntax is null" Value="資料庫語法未輸入"/>
+		<Message Name="Sql Syntax is error" Value="資料庫語法錯誤"/>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Disabled" Value="停用"/>
+    <Message Name="Enabled" Value="啟用"/>
+    <Message Name="Export" Value="匯出"/>
+		<Message Name="Read Only" Value="唯讀鎖定"/>
+		<Message Name="This property is already use and cannot be deleted" Value="此屬性正在使用中，無法刪除"/>
+    <Message Name="Multi-select" Value="項目複選"/>
+    <Message Name="Item should be more than 1." Value="項目數量需大於1"/>
+    <Message Name="Please Make Sure that the Items in Value List are more than 1." Value="請確認:項目數量需多於1項"/>
+    <Message Name="fAddItem" Value="新增項目"/>
+  </繁體中文>
+	<简体中文>
+		<Message Name="Property Name" Value="属性名称"/>
+		<Message Name="OK" Value="确认"/>
+		<Message Name="Default" Value="默认值"/>
+		<Message Name="Value Type" Value="数值类型"/>
+		<Message Name="Input Type" Value="输入方式"/>
+		<Message Name="Value List" Value="项目列表"/>
+		<Message Name="Convert Type" Value="输入值替换"/>
+		<Message Name="Necessary" Value="必要输入字段"/>
+		<Message Name="Range" Value="范围"/>
+		<Message Name="Add" Value="添加"/>
+		<Message Name="Delete" Value="删除"/>
+		<Message Name="Add Error." Value="添加错误。"/>
+		<Message Name="Please Create List item." Value="请新建项目列表。"/>
+		<Message Name="Please Input min Value." Value="请输入最小值。"/>
+		<Message Name="Please Input Max Value." Value="请输入最大值。"/>
+		<Message Name="Please Input min Value in Number" Value="请输入数值类型的最小值"/>
+		<Message Name="Please Input Max Value in Number" Value="请输入数值类型的最大值"/>
+		<Message Name="Please Select a Item." Value="请选择一个值。"/>
+		<Message Name="Add another one" Value="继续新增？"/>
+		<Message Name="Please Input Property Name" Value="请输入属性名"/>
+		<Message Name="Value" Value="数值"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Varchar2" Value="文字"/>
+		<Message Name="Number" Value="数字"/>
+		<Message Name="Key In" Value="输入值"/>
+		<Message Name="Select List" Value="选项清单"/>
+		<Message Name="None" Value="不转换"/>
+		<Message Name="Uppercase" Value="转大写"/>
+		<Message Name="Lowercase" Value="转小写"/>
+		<Message Name="UnNecessary" Value="不必要"/>
+		<Message Name="necessary" Value="必要"/>
+		<Message Name="ALL" Value="通用"/>
+		<Message Name="PART" Value="料号"/>
+		<Message Name="WO" Value="工单"/>
+		<Message Name="RC" Value="生产批"/>
+		<Message Name="SN" Value="序号"/>
+    <Message Name="Tooling" Value="治工具"/>
+    <Message Name="Machine" Value="机台"/>
+    <Message Name="Process" Value="制程"/>
+		<Message Name="PO" Value="採购单"/>
+		<Message Name="BO" Value="出货单"/>
+		<Message Name="SYS_BOM_INFO" Value="系统物料表资讯"/>
+		<Message Name="SYS_BOM" Value="系统物料表"/>
+		<Message Name="WO_BOM" Value="工单物料表"/>
+    <Message Name="Property Desc" Value="属性描述"/>
+		<Message Name="Please Input another Property Name" Value="请输入另一个属性名"/>
+		<Message Name="Please Input Number" Value="请输入数字"/>
+		<Message Name="Please Input List item in Number" Value="请输入数值类型的列表值"/>
+		<Message Name="Range is Number" Value="范围是数字类型"/>
+		<Message Name="Property Type" Value="属性类型"/>
+		<Message Name="Export completed" Value="汇出完成"/>
+		<Message Name="Range minimum must smaller than maximun" Value="左邊值必須小於右邊值"/>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Disabled" Value="停用"/>
+    <Message Name="Enabled" Value="启用"/>
+    <Message Name="Export" Value="汇出"/>
+    <Message Name="Read Only" Value="唯读锁定"/>
+	  <Message Name="This property is already use and cannot be deleted" Value="此属性正在使用中，无法删除"/>
+    <Message Name="Multi-select" Value="项目复选"/>
+    <Message Name="Item should be more than 1." Value="项目数量需大于1"/>
+    <Message Name="Please Make Sure that the Items in Value List are more than 1." Value="请确认:项目数量需多于1项"/>
+    <Message Name="fAddItem" Value="新增项目"/>
+	</简体中文>
+
+<Ngôn_ngữ_Việt><Message Name="Property Name" Value="Tên thuộc tính"/><Message Name="Default" Value="Giá trị mặc định"/><Message Name="Value Type" Value="Loại giá trị"/><Message Name="Input Type" Value="Kiểu nhập liệu"/><Message Name="Value List" Value="Danh sách giá trị"/><Message Name="Convert Type" Value="Kiểu chuyển đổi"/><Message Name="Necessary" Value="Bắt buộc"/><Message Name="Range" Value="Phạm vi"/><Message Name="Add" Value="Thêm"/><Message Name="Delete" Value="Xóa"/><Message Name="Add Error." Value="Lỗi thêm dữ liệu."/><Message Name="Please Create List item." Value="Vui lòng tạo danh sách giá trị."/><Message Name="Please Input min Value." Value="Vui lòng nhập giá trị nhỏ nhất."/><Message Name="Please Input Max Value." Value="Vui lòng nhập giá trị lớn nhất."/><Message Name="Please Input min Value in Number" Value="Giá trị nhỏ nhất phải là số."/><Message Name="Please Input Max Value in Number" Value="Giá trị lớn nhất phải là số."/><Message Name="Please Select a Item." Value="Vui lòng chọn một giá trị."/><Message Name="Add another one" Value="Tiếp tục thêm?"/><Message Name="Please Input Property Name" Value="Vui lòng nhập tên thuộc tính"/><Message Name="Value" Value="Giá trị"/><Message Name="OK" Value="Đồng ý"/><Message Name="Cancel" Value="Hủy"/><Message Name="Varchar2" Value="Chuỗi ký tự"/><Message Name="Number" Value="Số"/><Message Name="Key In" Value="Nhập trực tiếp"/><Message Name="Select List" Value="Danh sách chọn"/><Message Name="None" Value="Không chuyển đổi"/><Message Name="Uppercase" Value="Chuyển thành chữ in hoa"/><Message Name="Lowercase" Value="Chuyển thành chữ in thường"/><Message Name="UnNecessary" Value="Không bắt buộc"/><Message Name="necessary" Value="Bắt buộc"/><Message Name="ALL" Value="Tất cả"/><Message Name="PART" Value="Linh kiện"/><Message Name="WO" Value="Lệnh sản xuất"/><Message Name="RC" Value="Lô sản xuất"/><Message Name="SN" Value="Số seri"/><Message Name="Tooling" Value="Đồ gá"/><Message Name="Machine" Value="Máy"/><Message Name="Process" Value="Công đoạn"/><Message Name="Please Input another Property Name" Value="Vui lòng nhập tên thuộc tính khác"/><Message Name="Please Input Number" Value="Vui lòng nhập số"/><Message Name="Please Input List item in Number" Value="Danh sách giá trị phải là dạng số"/><Message Name="Range is Number" Value="Phạm vi phải là dạng số"/><Message Name="Property Type" Value="Loại thuộc tính"/><Message Name="Export completed" Value="Xuất hoàn tất"/><Message Name="Range minimum must smaller than maximun" Value="Giá trị nhỏ nhất phải nhỏ hơn giá trị lớn nhất"/><Message Name="Sql Syntax" Value="Cú pháp SQL"/><Message Name="Test" Value="Kiểm tra"/><Message Name="Sql" Value="Cơ sở dữ liệu"/><Message Name="SQL" Value="Cơ sở dữ liệu"/><Message Name="Property Desc" Value="Mô tả thuộc tính"/><Message Name="PO" Value="Đơn mua hàng"/><Message Name="DO" Value="Đơn giao hàng"/><Message Name="SYS_BOM_INFO" Value="Thông tin BOM hệ thống"/><Message Name="SYS_BOM" Value="BOM hệ thống"/><Message Name="WO_BOM" Value="BOM lệnh sản xuất"/><Message Name="Sql Syntax is null" Value="Chưa nhập cú pháp SQL"/><Message Name="Sql Syntax is error" Value="Cú pháp SQL sai"/><Message Name="Append" Value="Thêm mới"/><Message Name="Modify" Value="Sửa"/><Message Name="Disabled" Value="Tắt"/><Message Name="Enabled" Value="Kích hoạt"/><Message Name="Export" Value="Xuất"/><Message Name="Read Only" Value="Chỉ đọc"/><Message Name="This property is already use and cannot be deleted" Value="Thuộc tính đang được sử dụng, không thể xóa"/><Message Name="Multi-select" Value="Chọn nhiều"/><Message Name="Item should be more than 1." Value="Số lượng mục phải lớn hơn 1."/><Message Name="Please Make Sure that the Items in Value List are more than 1." Value="Vui lòng xác nhận danh sách phải có hơn 1 mục."/><Message Name="fAddItem" Value="Thêm mục"/></Ngôn_ngữ_Việt></Chroma>

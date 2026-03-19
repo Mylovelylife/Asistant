@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+	<English>
+		<Message Name="Customer Code" Value="Customer Code"/>
+		<Message Name="Customer Name" Value="Customer Name"/>
+		<Message Name="Description" Value="Description"/>
+		<Message Name="Customer Address" Value="Customer Address"/>
+		<Message Name="Customer Tel" Value="Customer Tel"/>
+	</English>
+	<繁體中文>
+		<Message Name="Customer Code" Value="客戶代碼"/>
+		<Message Name="Customer Name" Value="客戶名稱"/>
+		<Message Name="Description" Value="客戶描述"/>
+		<Message Name="Customer Address" Value="客戶地址"/>
+		<Message Name="Customer Tel" Value="客戶電話"/>
+	</繁體中文>
+	<简体中文>
+		<Message Name="Customer Code" Value="客户代码"/>
+		<Message Name="Customer Name" Value="客户名称"/>
+		<Message Name="Description" Value="客户描述"/>
+		<Message Name="Customer Address" Value="客户地址"/>
+		<Message Name="Customer Tel" Value="客户电话"/>
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Customer Code" Value="Mã khách hàng"/><Message Name="Customer Name" Value="Tên khách hàng"/><Message Name="Description" Value="Mô tả khách hàng"/><Message Name="Customer Address" Value="Địa chỉ khách hàng"/><Message Name="Customer Tel" Value="Số điện thoại khách hàng"/></Ngôn_ngữ_Việt></Chroma>

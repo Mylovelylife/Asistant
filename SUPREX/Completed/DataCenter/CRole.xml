@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+	<繁體中文>
+		<Message Name="Role Name" Value="角色名稱"/>
+		<Message Name="Description" Value="角色描述"/>
+		<Message Name="Module" Value="模組"/>
+		<Message Name="Authority" Value="權限"/>
+		<Message Name="Apply" Value="確認"/>
+		<Message Name="Collapse" Value="摺疊"/>
+		<Message Name="Expand" Value="展開"/>
+		<Message Name="Change all Authority to.." Value="變更所有權限為.."/>
+		<Message Name="Min Level" Value="最小等級"/>
+		<Message Name="Max Level" Value="最大等級"/>
+		<Message Name="Read Only" Value="唯讀"/>
+		<Message Name="Allow To Change" Value="允許修改"/>
+		<Message Name="Full Control" Value="完全控制"/>
+		<Message Name="Allow To Execute" Value="允許執行"/>
+		<Message Name="Privilege Apply OK" Value="權限設定完成"/>
+		<Message Name="All Item" Value="可選權限"/>
+		<Message Name="Choose Item" Value="已選權限"/>
+		<Message Name="Revoke Role" Value="移除權限"/>
+		<Message Name="EmpName" Value="員工姓名"/>
+		<Message Name="Select" Value="選取"/>
+		<Message Name="DEPT" Value="部門"/>
+		<Message Name="EmpNO" Value="員工編號"/>
+		<Message Name="EmpName" Value="員工姓名"/>
+
+		<Message Name="RoleAdmin" Value="角色管理員"/>
+		<Message Name="Emp_Table" Value="員工列表"/>
+		<Message Name="Role_Table" Value="角色列表"/>
+		<Message Name="EMP_NO" Value="員工編號"/>
+		<Message Name="EMP_NAME" Value="員工姓名"/>
+		<Message Name="ROLE_NAME" Value="角色名稱"/>
+		<Message Name="ROLE_ID" Value="角色ID"/>
+		<Message Name="ROLE_DESC" Value="角色描述"/>
+		<Message Name="EMP_ID" Value="管理員姓名"/>
+		<Message Name="UPDATE_USERID" Value="異動人員"/>
+		<Message Name="Please Select Role_Admin" Value="請選擇管理者"/>
+		<Message Name="Can't Delete Local Logged User" Value="無法刪除本機登錄者"/>
+		<Message Name="No Authority" Value="沒有刪除權限"/>
+		<Message Name="SUPERVISOR" Value="管理者權限"/>
+		<Message Name="Switch Supervisor" Value="切換管理者權限"/>
+		<Message Name="SET" Value="設定"/>
+		<Message Name="CANCEL" Value="取消"/>
+		<Message Name="Yes" Value="是"/>
+		<Message Name="No" Value="否"/>
+		<Message Name="Select a data to be deleted first." Value="請選擇一個要刪除的資料"/>
+		<Message Name="Please check employees" Value="請勾選員工"/>
+		
+	</繁體中文>
+	<简体中文>
+		<Message Name="Role Name" Value="角色名称"/>
+		<Message Name="Description" Value="角色描述"/>
+		<Message Name="Module" Value="模块"/>
+		<Message Name="Authority" Value="权限"/>
+		<Message Name="Apply" Value="确认"/>
+		<Message Name="Collapse" Value="折迭"/>
+		<Message Name="Expand" Value="展开"/>
+		<Message Name="Change all Authority to.." Value="变更所有权限为.."/>
+		<Message Name="Min Level" Value="最小等级"/>
+		<Message Name="Max Level" Value="最大等级"/>
+		<Message Name="Read Only" Value="只读"/>
+		<Message Name="Allow To Change" Value="允许修改"/>
+		<Message Name="Full Control" Value="完全控制"/>
+		<Message Name="Allow To Execute" Value="允许执行"/>
+		<Message Name="Privilege Apply OK" Value="权限设定完成"/>
+		<Message Name="All Item" Value="可选权限"/>
+		<Message Name="Choose Item" Value="已选权限"/>
+		<Message Name="Revoke Role" Value="移除权限"/>
+		<Message Name="Select" Value="选取"/>
+		<Message Name="DEPT" Value="部门"/>
+		<Message Name="EmpNO" Value="员工编号"/>
+		<Message Name="EmpName" Value="员工姓名"/>
+
+		<Message Name="RoleAdmin" Value="角色管理员"/>
+		<Message Name="Emp_Table" Value="员工列表"/>
+		<Message Name="Role_Table" Value="角色列表"/>
+		<Message Name="EMP_NO" Value="员工编号"/>
+		<Message Name="EMP_NAME" Value="员工姓名"/>
+		<Message Name="ROLE_NAME" Value="角色名称"/>
+		<Message Name="ROLE_ID" Value="角色ID"/>
+		<Message Name="ROLE_DESC" Value="角色描述"/>
+		<Message Name="EMP_ID" Value="管理员姓名"/>
+		<Message Name="UPDATE_USERID" Value="异动人员"/>
+		<Message Name="Please Select Role_Admin" Value="请选择管理者"/>
+		<Message Name="Can't Delete Local Logged User" Value="无法删除本机登录者"/>
+		<Message Name="No Authority" Value="没有删除权限"/>
+		<Message Name="Yes" Value="是"/>
+		<Message Name="No" Value="否"/>
+		<Message Name="Select a data to be deleted first." Value="请选择一个要删除的资料"/>
+		<Message Name="Please check employees" Value="请勾选员工"/>
+		
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Role Name" Value="Tên vai trò"/><Message Name="Description" Value="Mô tả vai trò"/><Message Name="Module" Value="Mô-đun"/><Message Name="Authority" Value="Quyền hạn"/><Message Name="Apply" Value="Xác nhận"/><Message Name="Collapse" Value="Thu gọn"/><Message Name="Expand" Value="Mở rộng"/><Message Name="Change all Authority to.." Value="Thay đổi toàn bộ quyền hạn thành.."/><Message Name="Min Level" Value="Cấp tối thiểu"/><Message Name="Max Level" Value="Cấp tối đa"/><Message Name="Read Only" Value="Chỉ đọc"/><Message Name="Allow To Change" Value="Cho phép chỉnh sửa"/><Message Name="Full Control" Value="Toàn quyền"/><Message Name="Allow To Execute" Value="Cho phép thực thi"/><Message Name="Privilege Apply OK" Value="Cài đặt quyền hạn hoàn tất"/><Message Name="All Item" Value="Các quyền có thể chọn"/><Message Name="Choose Item" Value="Các quyền đã chọn"/><Message Name="Revoke Role" Value="Thu hồi quyền"/><Message Name="EmpName" Value="Tên nhân viên"/><Message Name="Select" Value="Chọn"/><Message Name="DEPT" Value="Bộ phận"/><Message Name="EmpNO" Value="Mã nhân viên"/><Message Name="RoleAdmin" Value="Quản trị vai trò"/><Message Name="Emp_Table" Value="Danh sách nhân viên"/><Message Name="Role_Table" Value="Danh sách vai trò"/><Message Name="EMP_NO" Value="Mã nhân viên"/><Message Name="EMP_NAME" Value="Tên nhân viên"/><Message Name="ROLE_NAME" Value="Tên vai trò"/><Message Name="ROLE_ID" Value="Mã vai trò"/><Message Name="ROLE_DESC" Value="Mô tả vai trò"/><Message Name="EMP_ID" Value="Tên quản trị viên"/><Message Name="UPDATE_USERID" Value="Người chỉnh sửa"/><Message Name="Please Select Role_Admin" Value="Vui lòng chọn quản trị viên"/><Message Name="Can't Delete Local Logged User" Value="Không thể xóa người dùng đang đăng nhập"/><Message Name="No Authority" Value="Không có quyền hạn"/><Message Name="SUPERVISOR" Value="Quyền quản trị"/><Message Name="Switch Supervisor" Value="Chuyển đổi quyền quản trị"/><Message Name="SET" Value="Thiết lập"/><Message Name="CANCEL" Value="Hủy"/><Message Name="Yes" Value="Có"/><Message Name="No" Value="Không"/><Message Name="Select a data to be deleted first." Value="Vui lòng chọn dữ liệu cần xóa"/><Message Name="Please check employees" Value="Vui lòng chọn nhân viên"/></Ngôn_ngữ_Việt></Chroma>

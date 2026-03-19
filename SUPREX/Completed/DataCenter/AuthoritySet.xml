@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+  <English/>
+  <繁體中文>
+    <Message Name="AuthoritySet" Value="許可權管理"/>
+    <Message Name="PROCESS_NAME" Value="製程"/>
+    <Message Name="EMP_NAME" Value="員工"/>
+    <Message Name="IN_AUTHORITY" Value="投入許可權"/>
+    <Message Name="OUT_AUTHORITY" Value="產出許可權"/>
+    <Message Name="EMP_NO" Value="員工編號"/>
+    <Message Name="EMPNAME" Value="員工"/>
+    <Message Name="PROCESS" Value="製程"/>
+    <Message Name="fModify" Value="更新資訊"/>
+    <Message Name="InAuthority" Value="投入許可權"/>
+    <Message Name="OutAuthority" Value="產出許可權"/>
+    <Message Name="fSearchProcess" Value="搜索制程"/>
+    <Message Name="Add" Value="添加"/>
+    <Message Name="STAGE_NAME" Value="區段"/>
+    <Message Name="Stage_Name" Value="區段"/>
+    <Message Name="Emp_Name" Value="員工"/>
+    <Message Name="Emp" Value="員工"/>
+    <Message Name="ProcessName" Value="製程"/>
+    <Message Name="Enabled" Value="授權狀態  "/>
+    <Message Name="fEmpSearch" Value="搜索員工"/>
+    <Message Name="fStageSearch" Value="搜索區段"/>
+    <Message Name="Stage" Value="區段"/>
+    <Message Name="STAGE_CODE" Value="區段代碼"/>
+    <Message Name="STAGE_DESC" Value="區段描述"/>
+    <Message Name="Emp Info is Empty;  Do You Need To Close?" Value="員工為空 你需要繼續關閉當前介面嗎？"/>
+    <Message Name="Error" Value="錯誤！"/>
+    <Message Name="Do You Need To Continue Set Next?" Value="你需要繼續設置下一個嗎？"/>
+    <Message Name="Stage Info is Empty;  Do You Need To Close?" Value="區段為空 你需要繼續關閉當前介面嗎？"/>
+    <Message Name="Prompt" Value="提示"/>
+    <Message Name="Emp_No" Value="員工編號"/>
+	<Message Name="Emp No" Value="員工編號"/>
+	<Message Name="Emp Name" Value="員工"/>
+    <Message Name="Stage_Code" Value="區段代碼"/>
+    <Message Name="Process_Name" Value="製程"/>
+    <Message Name="This Emp Having Setting in this Stage" Value="該員工這個製程的資訊已經存在"/>
+    <Message Name="Are You Sure To Delete!" Value="你確定刪除嗎！"/>
+    <Message Name="PROCESS_CODE" Value="製程代碼"/>
+    <Message Name="ProcessCode" Value="製程代碼"/>
+    <Message Name="Select_all" Value="全選"/>
+    <Message Name="Cancel_all" Value="全不選"/>
+    <Message Name="Export completed" Value="資料匯出已完成"/>
+  </繁體中文>
+  <简体中文>
+    <Message Name="AuthoritySet" Value="许可权管理"/>
+    <Message Name="PROCESS_NAME" Value="制程"/>
+    <Message Name="EMP_NAME" Value="员工"/>
+    <Message Name="IN_AUTHORITY" Value="投入许可权"/>
+    <Message Name="OUT_AUTHORITY" Value="产出许可权"/>
+    <Message Name="EMP_NO" Value="员工编号"/>
+    <Message Name="EMPNAME" Value="员工"/>
+    <Message Name="PROCESS" Value="制程"/>
+    <Message Name="fModify" Value="更新资讯"/>
+    <Message Name="InAuthority" Value="投入许可权"/>
+    <Message Name="OutAuthority" Value="产出许可权"/>
+    <Message Name="fSearchProcess" Value="搜索制程"/>
+    <Message Name="Add" Value="添加"/>
+    <Message Name="STAGE_NAME" Value="区段"/>
+    <Message Name="Stage_Name" Value="区段"/>
+    <Message Name="Emp_Name" Value="员工"/>
+    <Message Name="Emp" Value="员工"/>
+    <Message Name="ProcessName" Value="制程"/>
+    <Message Name="Enabled" Value="授权状态 "/>
+    <Message Name="fEmpSearch" Value="搜索员工"/>
+    <Message Name="fStageSearch" Value="搜索区段"/>
+    <Message Name="Stage" Value="区段"/>
+    <Message Name="STAGE_CODE" Value="区段代码"/>
+    <Message Name="STAGE_DESC" Value="区段描述"/>
+    <Message Name="Emp Info is Empty; Do You Need To Close?" Value="员工为空 你需要继续关闭当前介面吗？"/>
+    <Message Name="Error" Value="错误！"/>
+    <Message Name="Do You Need To Continue Set Next?" Value="你需要继续设置下一个吗？"/>
+    <Message Name="Stage Info is Empty; Do You Need To Close?" Value="区段为空 你需要继续关闭当前介面吗？"/>
+    <Message Name="Prompt" Value="提示"/>
+    <Message Name="Emp_No" Value="员工编号"/>
+	<Message Name="Emp No" Value="员工编号"/>
+	<Message Name="Emp Name" Value="员工"/>
+    <Message Name="Stage_Code" Value="区段代码"/>
+    <Message Name="Process_Name" Value="制程"/>
+    <Message Name="This Emp Having Setting in this Stage" Value="该员工这个制程的资讯已经存在"/>
+    <Message Name="Are You Sure To Delete!" Value="你确定删除吗！"/>
+    <Message Name="PROCESS_CODE" Value="制程代码"/>
+    <Message Name="ProcessCode" Value="制程代码"/>
+    <Message Name="Select_all" Value="全选"/>
+    <Message Name="Cancel_all" Value="全不选"/> 
+    <Message Name="Export completed" Value="数据汇出已完成"/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="AuthoritySet" Value="Quản lý quyền hạn"/><Message Name="PROCESS_NAME" Value="Công đoạn"/><Message Name="EMP_NAME" Value="Nhân viên"/><Message Name="IN_AUTHORITY" Value="Quyền nhập"/><Message Name="OUT_AUTHORITY" Value="Quyền xuất"/><Message Name="EMP_NO" Value="Mã nhân viên"/><Message Name="EMPNAME" Value="Nhân viên"/><Message Name="PROCESS" Value="Công đoạn"/><Message Name="fModify" Value="Cập nhật thông tin"/><Message Name="InAuthority" Value="Quyền nhập"/><Message Name="OutAuthority" Value="Quyền xuất"/><Message Name="fSearchProcess" Value="Tìm công đoạn"/><Message Name="Add" Value="Thêm"/><Message Name="STAGE_NAME" Value="Công đoạn"/><Message Name="Stage_Name" Value="Công đoạn"/><Message Name="Emp_Name" Value="Nhân viên"/><Message Name="Emp" Value="Nhân viên"/><Message Name="ProcessName" Value="Công đoạn"/><Message Name="Enabled" Value="Trạng thái ủy quyền"/><Message Name="fEmpSearch" Value="Tìm nhân viên"/><Message Name="fStageSearch" Value="Tìm công đoạn"/><Message Name="Stage" Value="Công đoạn"/><Message Name="STAGE_CODE" Value="Mã công đoạn"/><Message Name="STAGE_DESC" Value="Mô tả công đoạn"/><Message Name="Emp Info is Empty;  Do You Need To Close?" Value="Thông tin nhân viên trống, bạn có muốn đóng giao diện hiện tại không?"/><Message Name="Error" Value="Lỗi!"/><Message Name="Do You Need To Continue Set Next?" Value="Bạn có muốn thiết lập mục tiếp theo không?"/><Message Name="Stage Info is Empty;  Do You Need To Close?" Value="Thông tin công đoạn trống, bạn có muốn đóng giao diện hiện tại không?"/><Message Name="Prompt" Value="Thông báo"/><Message Name="Emp_No" Value="Mã nhân viên"/><Message Name="Emp No" Value="Mã nhân viên"/><Message Name="Emp Name" Value="Nhân viên"/><Message Name="Stage_Code" Value="Mã công đoạn"/><Message Name="Process_Name" Value="Công đoạn"/><Message Name="This Emp Having Setting in this Stage" Value="Thông tin nhân viên của công đoạn này đã tồn tại"/><Message Name="Are You Sure To Delete!" Value="Bạn chắc chắn muốn xóa không!"/><Message Name="PROCESS_CODE" Value="Mã công đoạn"/><Message Name="ProcessCode" Value="Mã công đoạn"/><Message Name="Select_all" Value="Chọn tất cả"/><Message Name="Cancel_all" Value="Bỏ chọn tất cả"/><Message Name="Export completed" Value="Xuất dữ liệu hoàn tất"/></Ngôn_ngữ_Việt></Chroma>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Chroma>
+  
+	
+  <繁體中文>
+    
+		
+    <Message Name="Unit No and CUnit No can't Duplicate" Value="單位與轉換單位不能重複"/>
+    
+		
+    <Message Name="UNIT_NO" Value="單位"/>
+    
+		
+    <Message Name="CUNIT_NO" Value="轉換單位"/>
+    
+		
+    <Message Name="X" Value="分子"/>
+    
+		
+    <Message Name="Y" Value="分母"/>
+    
+		
+    <Message Name="Unit No" Value="單位"/>
+    
+		
+    <Message Name="CUnit No" Value="轉換單位"/>
+    
+	
+  </繁體中文>
+  
+	
+  <简体中文>
+    
+		
+    <Message Name="Unit No and CUnit No can't Duplicate" Value="单位与转换单位不能重複"/>
+    
+		
+    <Message Name="UNIT_NO" Value="单位"/>
+    
+		
+    <Message Name="CUNIT_NO" Value="转换单位"/>
+    
+		
+    <Message Name="X" Value="分子"/>
+    
+		
+    <Message Name="Y" Value="分母"/>
+    
+		
+    <Message Name="Unit No" Value="单位"/>
+    
+		
+    <Message Name="CUnit No" Value="转换单位"/>
+    
+	
+  </简体中文>
+  
+
+  <Ngôn_ngữ_Việt>
+    <Message Name="Unit No and CUnit No can't Duplicate" Value="Đơn Vị và Đơn Vị Chuyển Đổi Không Được Trùng"/>
+    <Message Name="UNIT_NO" Value="Đơn Vị"/>
+    <Message Name="CUNIT_NO" Value="Đơn Vị Chuyển Đổi"/>
+    <Message Name="X" Value="Tử Số"/>
+    <Message Name="Y" Value="Mẫu Số"/>
+    <Message Name="Unit No" Value="Đơn Vị"/>
+    <Message Name="CUnit No" Value="Đơn Vị Chuyển Đổi"/>
+  </Ngôn_ngữ_Việt>
+</Chroma>

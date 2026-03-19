@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+	<English>
+		<Message Name="Stage Name" Value="Stage Name"/>
+		<Message Name="Stage Description" Value="Description"/>
+		<Message Name="Stage Code" Value="Stage Code"/>
+		<Message Name="Process Name" Value="Process Name"/>
+		<Message Name="Description" Value="Description"/>
+		<Message Name="Description2" Value="Description2"/>
+		<Message Name="Process Code" Value="Process Code"/>
+		<Message Name="Operate Type" Value="Operate Type"/>
+		<Message Name="STAGE_NAME" Value="Stage Name"/>
+		<Message Name="Over OutPut" Value="是否超产"/>
+		<Message Name="OVER_OUTPUT" Value="是否超产"/>
+		<Message Name="has one or more Processes" Value="has one or more Processes"/>
+		<Message Name="Can not delete it" Value="Can not delete it"/>
+		<Message Name="has one or more Terminals" Value="has one or more Terminals"/>
+		<Message Name="The Process in use" Value="The Process in use"/>
+		<Message Name="Check Flag" Value="Need Check User"/>
+		<Message Name="SEQ" Value="Sequence"/>
+	</English>
+
+	<繁體中文>
+		<Message Name="ALTERNATIVE" Value="批號和盒號兩者擇一輸入"/>
+		<Message Name="Append" Value="新增"/>
+		<Message Name="BASE_QTY" Value="基礎數量"/>
+		<Message Name="Batch Mode" Value="批次報工"/>
+		<Message Name="BATCH_MODE" Value="批次報工"/>
+		<Message Name="BOTH" Value="批號與盒號兩者皆須輸入"/>
+		<Message Name="Can not delete it" Value="不可刪除"/>
+		<Message Name="Cassette Change" Value="更換晶圓盒"/>
+		<Message Name="CASSETTE_CHANGE" Value="更換晶圓盒"/>
+		<Message Name="Check Flag" Value="檢查人員機台認證"/>
+		<Message Name="CostMaintain" Value="工時維護"/>
+		<Message Name="CYCLETIME" Value="CycleTime(分鐘)"/>
+		<Message Name="Data Append OK !" Value="資料新增成功!"/>
+		<Message Name="Data Duplicate" Value="資料重覆!"/>
+		<Message Name="Data Modify OK !" Value="資料修改成功!"/>
+		<Message Name="Delete" Value="刪除"/>/&gt;
+		<Message Name="Description" Value="製程描述"/>
+		<Message Name="Description2" Value="製程描述(2)"/>
+		<Message Name="Disable" Value="停用"/>
+		<Message Name="DOPANT" Value="摻質"/>
+		<Message Name="Enable" Value="啟用"/>/&gt;
+		<Message Name="Export" Value="匯出"/>
+		<Message Name="Export completed" Value="資料匯出已完成"/>
+		<Message Name="Field is null" Value="欄位未填"/>
+		<Message Name="Filter" Value="過濾"/>
+		<Message Name="has one or more Processes" Value="已包含製程資料"/>
+		<Message Name="has one or more Terminals" Value="已包含工作站資料"/>
+		<Message Name="Have Location" Value="輸入儲位"/>
+		<Message Name="HAVE_LOCATION" Value="輸入儲位"/>
+		<Message Name="History Log" Value="歷史紀錄"/>
+		<Message Name="IN AND CHANGE" Value="進站變更"/>
+		<Message Name="KEEP" Value="不變"/>
+		<Message Name="Modify" Value="修改"/>/&gt;
+		<Message Name="Multi Emp" Value="多人工時"/>
+		<Message Name="ONLY CASSETTE" Value="輸入盒號"/>
+		<Message Name="Operate Type" Value="製程類型"/>
+		<Message Name="OUT AND CASSETTE CLEAR" Value="出站解除晶圓盒"/>
+		<Message Name="OUT AND CHANGE" Value="出站變更"/>
+		<Message Name="IN/OUT CHANGE" Value="進/出站變更"/>
+		<Message Name="Over OutPut" Value="是否超產"/>
+		<Message Name="Over range" Value="資料超過存入範圍"/>
+		<Message Name="OVER_OUTPUT" Value="是否超產"/>
+		<Message Name="Please choose unit." Value="請選擇單位"/>
+		<Message Name="Please input base qty." Value="請輸入基礎數量"/>
+		<Message Name="Please input positive number." Value="請輸入正數"/>
+		<Message Name="Please input STD_VALUE1." Value="請輸入整備時間"/>
+		<Message Name="Please input STD_VALUE2." Value="請輸入機器時間"/>
+		<Message Name="Please input STD_VALUE3." Value="請輸入人工時間"/>
+		<Message Name="Please input STD_VALUE4." Value="請輸入製造費用"/>
+		<Message Name="Please input STD_VALUE5." Value="請輸入間接費用"/>
+		<Message Name="Please input STD_VALUE6." Value="請輸入其他費用"/>
+		<Message Name="Process Code" Value="製程代碼"/>
+		<Message Name="Process Count Limit" Value="限制生產次數"/>
+		<Message Name="Process Name" Value="製程名稱"/>
+		<Message Name="PROCESS_CODE" Value="製程代碼"/>
+		<Message Name="QTIME" Value="QTime(分鐘)"/>
+		<Message Name="RES" Value="阻質"/>
+		<Message Name="Search Condition" Value="報工條碼"/>
+		<Message Name="SEARCH_CON" Value="報工條碼"/>
+		<Message Name="Size" Value="尺寸"/>
+		<Message Name="Stage Code" Value="區段代碼"/>
+		<Message Name="Stage Description" Value="區段描述"/>
+		<Message Name="Stage Name" Value="區段名稱"/>
+		<Message Name="STAGE_NAME" Value="區段名稱"/>
+		<Message Name="STD_VALUE1" Value="整備時間(H)"/>
+		<Message Name="STD_VALUE2" Value="機器時間(H)"/>
+		<Message Name="STD_VALUE3" Value="人工時間(H)"/>
+		<Message Name="STD_VALUE4" Value="製造費用"/>
+		<Message Name="STD_VALUE5" Value="間接費用"/>
+		<Message Name="STD_VALUE6" Value="其他費用"/>
+		<Message Name="The Process in use" Value="該制程應該在使用中"/>
+		<Message Name="Unit" Value="單位"/>
+		<Message Name="WORK_CENTER" Value="工作中心"/>
+		<Message Name="SEQ" Value="顯示順序"/>
+		<Message Name="EMP_NAME" Value="操作人員"/>
+		<Message Name="UPDATE_TIME" Value="異動時間"/>
+		<Message Name="fUnitConvert" Value="單位轉換"/>
+		<Message Name="Unit Convert" Value="單位轉換"/>
+		<Message Name="Process Name" Value="製程名稱"/>
+		<Message Name="Unit No" Value="原單位"/>
+		<Message Name="CUnit No" Value="轉換單位"/>
+		<Message Name="X" Value="分子"/>
+		<Message Name="Y" Value="分母"/>
+		<Message Name="Unit No and CUnit No can't Duplicate" Value="單位與轉換單位不能重複"/>
+		<Message Name="Unique SEQ value" Value="唯一順序值"/>
+		<Message Name="Sequence up" Value="顯示順序上移"/>
+		<Message Name="Sequence down" Value="顯示順序下移"/>
+		<Message Name="ERP Work Center" Value="ERP工作中心"/>
+		<Message Name="Process Count Limit cannot exceed {0}" Value="限制生產次數不可超出 {0}"/>
+    
+    <Message Name="Property" Value="屬性"/>
+    <Message Name="Property_name" Value="屬性名稱"/>
+    <Message Name="Property_value" Value="屬性值"/>
+    <Message Name="Value_type" Value="類型"/>
+    <Message Name="PROPERTY_DESC" Value="屬性說明"/>
+
+    <Message Name="PropertyName Repeat" Value="此屬性已使用"/>
+    <Message Name="Over flow{0}~{1}" Value="數值需介於{0}~{1}"/>
+    <Message Name="PropertyName is Null" Value="屬性名稱為空"/>
+    <Message Name="PropertyName Repeat" Value="此屬性已使用"/>
+    <Message Name="Data is null" Value="資料為空"/>
+    <Message Name="Property is read only,can not be delete" Value="屬性為唯讀鎖定無法刪除"/>
+    <Message Name="Please input correct machine type name" Value="請輸入正確的機台類型名稱"/>
+    <Message Name="Option" Value="項目"/>
+    <Message Name="fMultiSelect" Value="選取項目"/>
+    <Message Name="Please pick option to configration." Value="請選擇欲設定的項目"/>
+    <Message Name="Property List is null" Value="此製程尚未設定屬性"/>
+
+    <Message Name="Copy" Value="複製"/>
+    <Message Name="Copy?" Value="是否複製此製程屬性?"/>
+    <Message Name="fCopy" Value="複製"/>
+
+    <Message Name="Please input correct Process code" Value="請輸入正確的製程代號"/>
+    <Message Name="Property List is null" Value="此製程無定義屬性"/>
+    <Message Name="PROCESS CODE" Value="製程代號"/>
+    <Message Name="PROCESS_NAME" Value="製程名稱"/>
+    <Message Name="PROCESS_DESC" Value="描述"/>
+	</繁體中文>
+	<简体中文>
+		<Message Name="ALTERNATIVE" Value="批号和盒号两者择一输入"/>
+		<Message Name="Append" Value="添加"/>
+		<Message Name="BASE_QTY" Value="基础数量"/>
+		<Message Name="Batch Mode" Value="批次报工"/>
+		<Message Name="BATCH_MODE" Value="批次报工"/>
+		<Message Name="BOTH" Value="批号与盒号两者皆须输入"/>
+		<Message Name="Can not delete it" Value="不可删除"/>
+		<Message Name="Cassette Change" Value="更换晶圆盒"/>
+		<Message Name="CASSETTE_CHANGE" Value="更换晶圆盒"/>
+		<Message Name="Check Flag" Value="检查人员机台认证"/>
+		<Message Name="CostMaintain" Value="工时维护"/>
+		<Message Name="CYCLETIME" Value="CycleTime(分钟)"/>
+		<Message Name="Data Append OK !" Value="资料新增成功!"/>
+		<Message Name="Data Duplicate" Value="资料重复"/>
+		<Message Name="Data Modify OK !" Value="数据修改成功!"/>
+		<Message Name="Delete" Value="删除"/>/&gt;
+		<Message Name="Description" Value="制程描述"/>
+		<Message Name="Description2" Value="制程描述(2)"/>
+		<Message Name="Disable" Value="停用"/>
+		<Message Name="DOPANT" Value="掺质"/>
+		<Message Name="Enable" Value="启用"/>/&gt;
+		<Message Name="Export" Value="汇出"/>
+		<Message Name="Field is null" Value="栏位未填"/>
+		<Message Name="Filter" Value="过滤"/>
+		<Message Name="Export completed" Value="数据导出已完成"/>
+		<Message Name="has one or more Processes" Value="已包含制程资料"/>
+		<Message Name="has one or more Terminals" Value="已包含工作站资料"/>
+		<Message Name="Have Location" Value="输入储位"/>
+		<Message Name="HAVE_LOCATION" Value="输入储位"/>
+		<Message Name="History Log" Value="历史纪录"/>
+		<Message Name="IN AND CHANGE" Value="进站变更"/>
+		<Message Name="KEEP" Value="不变"/>
+		<Message Name="Modify" Value="修改"/>/&gt;
+		<Message Name="Multi Emp" Value="多人工时"/>
+		<Message Name="ONLY CASSETTE" Value="输入盒号"/>
+		<Message Name="Operate Type" Value="制程类型"/>
+		<Message Name="OUT AND CASSETTE CLEAR" Value="出站解除晶圆盒"/>
+		<Message Name="OUT AND CHANGE" Value="出站变更"/>
+		<Message Name="IN/OUT CHANGE" Value="进/出站变更"/>
+		<Message Name="Over OutPut" Value="是否超产"/>
+		<Message Name="Over range" Value="数据超过存入范围"/>
+		<Message Name="OVER_OUTPUT" Value="是否超产"/>
+		<Message Name="Please choose unit." Value="请选择单位"/>
+		<Message Name="Please input base qty." Value="请输入基础数量"/>
+		<Message Name="Please input positive number." Value="请输入正数"/>
+		<Message Name="Please input STD_VALUE1." Value="请输入整备时间"/>
+		<Message Name="Please input STD_VALUE2." Value="请输入机器时间"/>
+		<Message Name="Please input STD_VALUE3." Value="请输入人工时间"/>
+		<Message Name="Please input STD_VALUE4." Value="请输入制造费用"/>
+		<Message Name="Please input STD_VALUE5." Value="请输入间接费用"/>
+		<Message Name="Please input STD_VALUE6." Value="请输入其他费用"/>
+		<Message Name="Process Code" Value="制程代码"/>
+		<Message Name="Process Count Limit" Value="限制生产次数"/>
+		<Message Name="Process Name" Value="制程名称"/>
+		<Message Name="PROCESS_CODE" Value="制程代码"/>
+		<Message Name="QTIME" Value="QTime(分钟)"/>
+		<Message Name="RES" Value="阻质"/>
+		<Message Name="Search Condition" Value="报工条形码"/>
+		<Message Name="SEARCH_CON" Value="报工条形码"/>
+		<Message Name="Size" Value="尺寸"/>
+		<Message Name="Stage Code" Value="区段代码"/>
+		<Message Name="Stage Description" Value="区段描述"/>
+		<Message Name="Stage Name" Value="区段名称"/>
+		<Message Name="STAGE_NAME" Value="区段名称"/>
+		<Message Name="STD_VALUE1" Value="整备时间(H)"/>
+		<Message Name="STD_VALUE2" Value="机器时间(H)"/>
+		<Message Name="STD_VALUE3" Value="人工时间(H)"/>
+		<Message Name="STD_VALUE4" Value="制造费用"/>
+		<Message Name="STD_VALUE5" Value="间接费用"/>
+		<Message Name="STD_VALUE6" Value="其他费用"/>
+		<Message Name="The Process in use" Value="该制程应该在使用中"/>
+		<Message Name="Unit" Value="单位"/>
+		<Message Name="WORK_CENTER" Value="工作中心"/>
+		<Message Name="SEQ" Value="显示顺序"/>
+		<Message Name="EMP_NAME" Value="操作人員"/>
+		<Message Name="UPDATE_TIME" Value="異動時間"/>
+		<Message Name="fUnitConvert" Value="單位轉換"/>
+		<Message Name="Unit Convert" Value="單位轉換"/>
+		<Message Name="Unit No and CUnit No can't Duplicate" Value="单位与转换单位不能重複"/>
+		<Message Name="UNIT_NO" Value="单位"/>
+		<Message Name="CUNIT_NO" Value="转换单位"/>
+		<Message Name="X" Value="分子"/>
+		<Message Name="Y" Value="分母"/>
+		<Message Name="Unit No" Value="单位"/>
+		<Message Name="CUnit No" Value="转换单位"/>
+		<Message Name="Unique SEQ value" Value="唯一顺序值"/>
+		<Message Name="Sequence up" Value="显示顺序上移"/>
+		<Message Name="Sequence down" Value="显示顺序下移"/>
+		<Message Name="ERP Work Center" Value="ERP工作中心"/>
+		<Message Name="Process Count Limit cannot exceed {0}" Value="限制生产次数不可超出 {0}"/>
+
+    <Message Name="Property" Value="属性"/>
+    <Message Name="Property_name" Value="属性名称"/>
+    <Message Name="Property_value" Value="属性值"/>
+    <Message Name="Value_type" Value="类型"/>
+    <Message Name="PROPERTY_DESC" Value="属性说明"/>
+    
+    <Message Name="PropertyName Repeat" Value="此屬性已使用"/>
+    <Message Name="Over flow{0}~{1}" Value="数值需介于{0}~{1}"/>
+    <Message Name="PropertyName is Null" Value="属性名称为空"/>
+    <Message Name="PropertyName Repeat" Value="此属性已使用"/>
+    <Message Name="Data is null" Value="资料为空"/>
+    <Message Name="Property is read only,can not be delete" Value="属性为唯读锁定无法删除"/>
+    <Message Name="Please input correct machine type name" Value="请输入正确的机台类型名称"/>
+    <Message Name="Option" Value="项目"/>
+    <Message Name="fMultiSelect" Value="选取项目"/>
+    <Message Name="Please pick option to configration." Value="请选择欲设定的项目"/>
+    <Message Name="Property List is null" Value="此制程尚未设定属性"/>
+
+    <Message Name="Copy" Value="复制"/>
+    <Message Name="Copy?" Value="是否复制此製程之属性?"/>
+    <Message Name="fCopy" Value="复制"/>
+
+    <Message Name="Please input correct Process code" Value="请输入正确的制程代号"/>
+    <Message Name="Property List is null" Value="此制程无定义属性"/>
+    <Message Name="PROCESS CODE" Value="制程代号"/>
+    <Message Name="PROCESS_NAME" Value="制程名称"/>
+    <Message Name="PROCESS_DESC" Value="描述"/>
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Stage Name" Value="Tên công đoạn"/><Message Name="Stage Description" Value="Mô tả công đoạn"/><Message Name="Stage Code" Value="Mã công đoạn"/><Message Name="Process Name" Value="Tên quy trình"/><Message Name="Description" Value="Mô tả"/><Message Name="Description2" Value="Mô tả (2)"/><Message Name="Process Code" Value="Mã quy trình"/><Message Name="Operate Type" Value="Loại quy trình"/><Message Name="STAGE_NAME" Value="Tên công đoạn"/><Message Name="Over OutPut" Value="Vượt sản lượng"/><Message Name="OVER_OUTPUT" Value="Vượt sản lượng"/><Message Name="has one or more Processes" Value="Đang liên kết quy trình, không thể xóa"/><Message Name="Can not delete it" Value="Không thể xóa"/><Message Name="has one or more Terminals" Value="Đang liên kết trạm làm việc"/><Message Name="The Process in use" Value="Quy trình đang được sử dụng"/><Message Name="Check Flag" Value="Yêu cầu xác thực nhân viên"/><Message Name="SEQ" Value="Thứ tự hiển thị"/><Message Name="ALTERNATIVE" Value="Nhập một trong hai: mã lô hoặc mã hộp"/><Message Name="Append" Value="Thêm mới"/><Message Name="BASE_QTY" Value="Số lượng cơ bản"/><Message Name="Batch Mode" Value="Chế độ báo công theo lô"/><Message Name="BATCH_MODE" Value="Chế độ báo công theo lô"/><Message Name="BOTH" Value="Bắt buộc nhập cả mã lô và mã hộp"/><Message Name="Cassette Change" Value="Thay cassette"/><Message Name="CASSETTE_CHANGE" Value="Thay cassette"/><Message Name="CostMaintain" Value="Bảo trì giờ công"/><Message Name="CYCLETIME" Value="Thời gian chu kỳ (phút)"/><Message Name="Data Append OK !" Value="Thêm dữ liệu thành công!"/><Message Name="Data Duplicate" Value="Dữ liệu trùng lặp!"/><Message Name="Data Modify OK !" Value="Sửa dữ liệu thành công!"/><Message Name="Delete" Value="Xóa"/><Message Name="Disable" Value="Vô hiệu"/><Message Name="Enable" Value="Kích hoạt"/><Message Name="DOPANT" Value="Pha tạp"/><Message Name="Export" Value="Xuất dữ liệu"/><Message Name="Export completed" Value="Xuất hoàn tất"/><Message Name="Field is null" Value="Chưa nhập dữ liệu"/><Message Name="Filter" Value="Lọc"/><Message Name="Have Location" Value="Nhập vị trí lưu kho"/><Message Name="HAVE_LOCATION" Value="Nhập vị trí lưu kho"/><Message Name="History Log" Value="Lịch sử"/><Message Name="IN AND CHANGE" Value="Vào trạm &amp; thay đổi"/><Message Name="KEEP" Value="Giữ nguyên"/><Message Name="Modify" Value="Chỉnh sửa"/><Message Name="Multi Emp" Value="Đa nhân công"/><Message Name="ONLY CASSETTE" Value="Nhập mã hộp"/><Message Name="OUT AND CASSETTE CLEAR" Value="Ra trạm &amp; giải phóng cassette"/><Message Name="OUT AND CHANGE" Value="Ra trạm &amp; thay đổi"/><Message Name="IN/OUT CHANGE" Value="Vào/Ra trạm &amp; thay đổi"/><Message Name="Over range" Value="Dữ liệu vượt phạm vi"/><Message Name="Please choose unit." Value="Vui lòng chọn đơn vị"/><Message Name="Please input base qty." Value="Vui lòng nhập số lượng cơ bản"/><Message Name="Please input positive number." Value="Vui lòng nhập số dương"/><Message Name="Please input STD_VALUE1." Value="Vui lòng nhập thời gian chuẩn bị"/><Message Name="Please input STD_VALUE2." Value="Vui lòng nhập thời gian máy"/><Message Name="Please input STD_VALUE3." Value="Vui lòng nhập thời gian lao động"/><Message Name="Please input STD_VALUE4." Value="Vui lòng nhập chi phí sản xuất"/><Message Name="Please input STD_VALUE5." Value="Vui lòng nhập chi phí gián tiếp"/><Message Name="Please input STD_VALUE6." Value="Vui lòng nhập chi phí khác"/><Message Name="Process Count Limit" Value="Giới hạn số lần sản xuất"/><Message Name="QTIME" Value="Thời gian QTime (phút)"/><Message Name="RES" Value="Điện trở"/><Message Name="Search Condition" Value="Barcode báo công"/><Message Name="SEARCH_CON" Value="Barcode báo công"/><Message Name="Size" Value="Kích thước"/><Message Name="STD_VALUE1" Value="Thời gian chuẩn bị (giờ)"/><Message Name="STD_VALUE2" Value="Thời gian máy (giờ)"/><Message Name="STD_VALUE3" Value="Thời gian nhân công (giờ)"/><Message Name="STD_VALUE4" Value="Chi phí sản xuất"/><Message Name="STD_VALUE5" Value="Chi phí gián tiếp"/><Message Name="STD_VALUE6" Value="Chi phí khác"/><Message Name="Unit" Value="Đơn vị"/><Message Name="WORK_CENTER" Value="Trung tâm làm việc"/><Message Name="EMP_NAME" Value="Người thao tác"/><Message Name="UPDATE_TIME" Value="Thời gian cập nhật"/><Message Name="fUnitConvert" Value="Chuyển đổi đơn vị"/><Message Name="Unit Convert" Value="Chuyển đổi đơn vị"/><Message Name="Unit No" Value="Đơn vị gốc"/><Message Name="CUnit No" Value="Đơn vị chuyển đổi"/><Message Name="X" Value="Tử số"/><Message Name="Y" Value="Mẫu số"/><Message Name="Unit No and CUnit No can't Duplicate" Value="Đơn vị và đơn vị chuyển đổi không được trùng nhau"/><Message Name="Unique SEQ value" Value="Thứ tự phải là duy nhất"/><Message Name="Sequence up" Value="Di chuyển lên"/><Message Name="Sequence down" Value="Di chuyển xuống"/><Message Name="ERP Work Center" Value="Trung tâm ERP"/><Message Name="Process Count Limit cannot exceed {0}" Value="Giới hạn số lần sản xuất không được vượt quá {0}"/><Message Name="Property" Value="Thuộc tính"/><Message Name="Property_name" Value="Tên thuộc tính"/><Message Name="Property_value" Value="Giá trị thuộc tính"/><Message Name="Value_type" Value="Loại"/><Message Name="PROPERTY_DESC" Value="Mô tả thuộc tính"/><Message Name="PropertyName Repeat" Value="Thuộc tính đã tồn tại"/><Message Name="Over flow{0}~{1}" Value="Giá trị phải nằm trong {0}~{1}"/><Message Name="PropertyName is Null" Value="Tên thuộc tính trống"/><Message Name="Data is null" Value="Dữ liệu trống"/><Message Name="Property is read only,can not be delete" Value="Thuộc tính chỉ đọc, không thể xóa"/><Message Name="Please input correct machine type name" Value="Vui lòng nhập đúng loại máy"/><Message Name="Option" Value="Tùy chọn"/><Message Name="fMultiSelect" Value="Chọn mục"/><Message Name="Please pick option to configration." Value="Vui lòng chọn mục cần cấu hình"/><Message Name="Property List is null" Value="Quy trình chưa có thuộc tính"/><Message Name="Copy" Value="Sao chép"/><Message Name="Copy?" Value="Bạn có muốn sao chép thuộc tính quy trình này?"/><Message Name="fCopy" Value="Sao chép"/><Message Name="Please input correct Process code" Value="Vui lòng nhập đúng mã quy trình"/><Message Name="PROCESS CODE" Value="Mã quy trình"/><Message Name="PROCESS_NAME" Value="Tên quy trình"/><Message Name="PROCESS_DESC" Value="Mô tả"/></Ngôn_ngữ_Việt></Chroma>

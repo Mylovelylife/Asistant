@@ -1,0 +1,328 @@
+﻿<Chroma>
+  <English />
+  <繁體中文>
+		<Message Name="char:" Value="位數：" />
+		<Message Name="Code" Value="特徵碼組成" />
+    <Message Name="Sequence Format" Value="流水號格式" />
+    <Message Name="OK" Value="確定" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Function" Value="函數" />
+    <Message Name="Field" Value="欄位" />
+    <Message Name="Date Code" Value="日期" />
+    <Message Name="Value" Value="數值" />
+    <Message Name="(Sequence:)" Value="(目前流水號:)" />
+    <Message Name="Reset Sequence" Value="重設流水號" />
+    <Message Name="Save" Value="儲存" />
+    <Message Name="Rule Name" Value="規則名稱" />
+    <Message Name="Filter" Value="過濾條件" />
+    <Message Name="Delete" Value="刪除" />
+    <Message Name="Sequence (User Define)" Value="流水號 (使用者自定)" />
+    <Message Name="Sequence" Value="流水號" />
+    <Message Name="Add" Value="新增" />
+    <Message Name="Modify" Value="修改" />
+    <Message Name="Other Function" Value="其他函數" />
+    <Message Name="Day Code(User Define)" Value="日期碼(使用者自定)" />
+    <Message Name="m : Month Code" Value="m : 月份代碼" />
+    <Message Name="d : Day Code" Value="d : 日期代碼" />
+    <Message Name="w : Week Code" Value="w : 週別代碼" />
+    <Message Name="k : Day of Week Code" Value="k : 週的日代碼" />
+    <Message Name="Default" Value="預設成品號" />
+    <Message Name="S : Sequence" Value="S : 流水號" />
+    <Message Name="Hexadecimal (16)" Value="十六進位" />
+    <Message Name="Decimal (10)" Value="十進位" />
+    <Message Name="Y : Year" Value="Y : 年" />
+    <Message Name="M : Month" Value="M : 月" />
+    <Message Name="X: Checksum" Value="X: 檢查碼" />
+    <Message Name="D : Day" Value="D : 日" />
+    <Message Name="L : Constant Letter" Value="L : 英文字母" />
+    <Message Name="9 : Number" Value="9 : 數字" />
+    <Message Name="F : Day of Year" Value="F : 年的日" />
+    <Message Name="W : Week of Year" Value="W : 年的週" />
+    <Message Name="K : Day of Week" Value="K : 週的日" />
+    <Message Name="C : Letter or Number or Symbol" Value="C : 英文字母或數字" />
+    <Message Name="Rule Description" Value="規則描述" />
+    <Message Name="Append" Value="新增" />
+    <Message Name="Create Sequence Mode" Value="流水號產生方式" />
+    <Message Name="Manual" Value="手動" />
+    <Message Name="Automatic" Value="自動" />
+    <Message Name="Description" Value="描述" />
+    <Message Name="Reset" Value="重設" />
+    <Message Name="Name" Value="名稱" />
+    <Message Name="Start" Value="起始" />
+    <Message Name="Work Order" Value="工單" />
+    <Message Name="Part No" Value="料號" />
+    <Message Name="Target Qty" Value="目標數" />
+    <Message Name="Input Qty" Value="投入數" />
+    <Message Name="Output Qty" Value="產出數" />
+    <Message Name="Select ALL" Value="全選" />
+    <Message Name="Select None" Value="全不選" />
+    <Message Name="Work Order List" Value="工單清單" />
+    <Message Name="Save OK" Value="儲存成功" />
+    <Message Name="WO Rule" Value="工單規則" />
+    <Message Name="Copy From" Value="由..複製" />
+    <Message Name="Group Qty" Value="群組數" />
+    <Message Name="Safety Stock" Value="安全庫存量" />
+    <Message Name="Safety Stock" Value="安全庫存量" />
+    <Message Name="Release Qty" Value="展開數量" />
+    <Message Name="Release" Value="待展數" />
+    <Message Name="Reset" Value="重設" />
+    <Message Name="Clean" Value="清除" />
+	<Message Name="Append Rule Name" Value="新增規則名稱" />
+	<Message Name="Modify Rule Name" Value="修改規則名稱" />
+  	<Message Name="Define" Value="定義" />
+  	<Message Name="Rule Name is Empty" Value="規則名稱為空" />
+  	<Message Name="Rule Code is Empty" Value="特徵碼組成為空" />
+	<Message Name="Code is Empty" Value="代碼為空" />
+	<Message Name="Sequence is Empty" Value="序列為空" />
+	<Message Name="Field is Empty" Value="字段為空" />
+	<Message Name="Function is Empty" Value="函數為空" />
+	<Message Name="Code Duplicate : " Value="代碼重複 : " />
+	<Message Name="Value is Empty" Value="值為空" />
+	<Message Name="Reset Sequence ? " Value="重置序列 ? " />
+	<Message Name="Rule Name Fail (Invalid Character : {0})" Value="規則名稱失敗 (無效字符 : {0})" />
+	<Message Name="Rule Code Error ({0})" Value="規則代碼錯誤 ({0})" />
+	<Message Name="Please define 'Month Code'" Value="請定義“月份代碼”" />
+	<Message Name="Please define 'Day Code'" Value="請定義“日期代码”" />
+	<Message Name="Please define 'Week Code'" Value="請定義“週別代碼”" />
+	<Message Name="Please define 'Day of Week Code'" Value="請定義“週的日代碼”" />
+    <Message Name="Please define 'Check Sum'" Value="請定義“校驗和”" />
+	<Message Name="Please define 'Sequence(10 or 16)'" Value="請定義“序列（10 或 16）”" />
+	<Message Name="{0} Y: Length Error (Max: 4) {1}" Value="{0} Y: 長度誤差 (最大值: 4) {1}" />
+	<Message Name="{0} M: Length Error (Max: 2) {1}" Value="{0} M: 長度誤差 (最大值: 2) {1}" />
+	<Message Name="{0} D: Length Error (Length: 2) {1}" Value="{0} D：長度錯誤（長度：2） {1}" />
+	<Message Name="{0} W: Length Error (Length: 2) {1}" Value="{0} W：長度錯誤（長度：2） {1}" />
+	<Message Name="{0} K: Length Error (Length: 1) {1}" Value="{0} K：長度錯誤（長度：1） {1}" />
+	<Message Name="{0} F: Length Error (Length: 3) {1}" Value="{0} F：長度錯誤（長度：3） {1}" />
+	<Message Name="{0} X: Length Error (Length: 1) {1}" Value="{0} X：長度錯誤（長度：1） {1}" />
+	<Message Name="{0} m: Length Error (Length: {1}) {2}" Value="{0} m：長度錯誤（長度：{1}) {2}" />
+	<Message Name="{0} d: Length Error (Length: {1}) {2}" Value="{0} d：長度錯誤（長度：{1}) {2}" />
+	<Message Name="{0} w: Length Error (Length: {1}) {2}" Value="{0} w：長度錯誤（長度：{1}) {2}" />
+	<Message Name="{0} k: Length Error (Length: {1}) {2}" Value="{0} k：長度錯誤（長度：{1}) {2}" />
+	<Message Name="Delete this Rule ? {0} {1}" Value="刪除此規則 ? {0} {1}" />
+	<Message Name="Rule Name is null" Value="規則名稱為空" />
+	<Message Name="Rule Name duplicate" Value="規則名稱重複" />
+	<Message Name="X: Checksum/Function" Value="X: 核對和/函數" />
+  </繁體中文>
+<Ngôn_ngữ_Việt>
+  <Message Name="char:" Value="Số ký tự:" />
+<Message Name="Code" Value="Thành phần mã đặc trưng" />
+<Message Name="Sequence Format" Value="Định dạng số thứ tự" />
+<Message Name="OK" Value="Xác nhận" />
+<Message Name="Cancel" Value="Hủy" />
+<Message Name="Function" Value="Hàm" />
+<Message Name="Field" Value="Trường dữ liệu" />
+<Message Name="Date Code" Value="Mã ngày" />
+<Message Name="Value" Value="Giá trị" />
+<Message Name="(Sequence:)" Value="(Số thứ tự hiện tại:)" />
+<Message Name="Reset Sequence" Value="Đặt lại số thứ tự" />
+<Message Name="Save" Value="Lưu" />
+<Message Name="Rule Name" Value="Tên quy tắc" />
+<Message Name="Filter" Value="Điều kiện lọc" />
+<Message Name="Delete" Value="Xóa" />
+<Message Name="Sequence (User Define)" Value="Số thứ tự (người dùng tự định nghĩa)" />
+<Message Name="Sequence" Value="Số thứ tự" />
+<Message Name="Add" Value="Thêm mới" />
+<Message Name="Modify" Value="Chỉnh sửa" />
+<Message Name="Other Function" Value="Hàm khác" />
+<Message Name="Day Code(User Define)" Value="Mã ngày (tự định nghĩa)" />
+<Message Name="m : Month Code" Value="m : Mã tháng" />
+<Message Name="d : Day Code" Value="d : Mã ngày" />
+<Message Name="w : Week Code" Value="w : Mã tuần" />
+<Message Name="k : Day of Week Code" Value="k : Mã ngày trong tuần" />
+<Message Name="Default" Value="Mặc định mã thành phẩm" />
+<Message Name="S : Sequence" Value="S : Số thứ tự" />
+<Message Name="Hexadecimal (16)" Value="Hệ thập lục phân (16)" />
+<Message Name="Decimal (10)" Value="Hệ thập phân (10)" />
+<Message Name="Y : Year" Value="Y : Năm" />
+<Message Name="M : Month" Value="M : Tháng" />
+<Message Name="X: Checksum" Value="X : Mã kiểm tra" />
+<Message Name="D : Day" Value="D : Ngày" />
+<Message Name="L : Constant Letter" Value="L : Chữ cái cố định" />
+<Message Name="9 : Number" Value="9 : Chữ số" />
+<Message Name="F : Day of Year" Value="F : Ngày trong năm" />
+<Message Name="W : Week of Year" Value="W : Tuần trong năm" />
+<Message Name="K : Day of Week" Value="K : Ngày trong tuần" />
+<Message Name="C : Letter or Number or Symbol" Value="C : Chữ cái, số hoặc ký tự" />
+<Message Name="Rule Description" Value="Mô tả quy tắc" />
+<Message Name="Append" Value="Thêm mới" />
+<Message Name="Create Sequence Mode" Value="Phương thức tạo số thứ tự" />
+<Message Name="Manual" Value="Thủ công" />
+<Message Name="Automatic" Value="Tự động" />
+<Message Name="Description" Value="Mô tả" />
+<Message Name="Reset" Value="Đặt lại" />
+<Message Name="Name" Value="Tên" />
+<Message Name="Start" Value="Bắt đầu" />
+<Message Name="Work Order" Value="Lệnh sản xuất" />
+<Message Name="Part No" Value="Mã linh kiện" />
+<Message Name="Target Qty" Value="Số lượng mục tiêu" />
+<Message Name="Input Qty" Value="Số lượng nhập" />
+<Message Name="Output Qty" Value="Số lượng xuất" />
+<Message Name="Select ALL" Value="Chọn tất cả" />
+<Message Name="Select None" Value="Bỏ chọn tất cả" />
+<Message Name="Work Order List" Value="Danh sách lệnh sản xuất" />
+<Message Name="Save OK" Value="Lưu thành công" />
+<Message Name="WO Rule" Value="Quy tắc WO" />
+<Message Name="Copy From" Value="Sao chép từ" />
+<Message Name="Group Qty" Value="Số lượng nhóm" />
+<Message Name="Safety Stock" Value="Tồn kho an toàn" />
+<Message Name="Release Qty" Value="Số lượng cấp số" />
+<Message Name="Release" Value="Số chờ cấp" />
+<Message Name="Reset" Value="Đặt lại" />
+<Message Name="Clean" Value="Xóa sạch" />
+<Message Name="Append Rule Name" Value="Thêm tên quy tắc" />
+<Message Name="Modify Rule Name" Value="Sửa tên quy tắc" />
+<Message Name="Define" Value="Định nghĩa" />
+<Message Name="Rule Name is Empty" Value="Tên quy tắc trống" />
+<Message Name="Rule Code is Empty" Value="Thành phần mã đặc trưng trống" />
+<Message Name="Code is Empty" Value="Mã trống" />
+<Message Name="Sequence is Empty" Value="Chuỗi số trống" />
+<Message Name="Field is Empty" Value="Trường dữ liệu trống" />
+<Message Name="Function is Empty" Value="Hàm trống" />
+<Message Name="Code Duplicate : " Value="Mã trùng lặp: " />
+	Message Name="Value is Empty" Value="Giá trị trống" />
+<Message Name="Reset Sequence ? " Value="Đặt lại chuỗi số ? " />
+<Message Name="Rule Name Fail (Invalid Character : {0})" 
+         Value="Tên quy tắc không hợp lệ (ký tự không hợp lệ: {0})" />
+<Message Name="Rule Code Error ({0})" 
+         Value="Lỗi mã quy tắc ({0})" />
+<Message Name="Please define 'Month Code'" Value="Vui lòng định nghĩa 'Mã tháng'" />
+<Message Name="Please define 'Day Code'" Value="Vui lòng định nghĩa 'Mã ngày'" />
+<Message Name="Please define 'Week Code'" Value="Vui lòng định nghĩa 'Mã tuần'" />
+<Message Name="Please define 'Day of Week Code'" Value="Vui lòng định nghĩa 'Mã ngày trong tuần'" />
+<Message Name="Please define 'Check Sum'" Value="Vui lòng định nghĩa 'Checksum'" />
+<Message Name="Please define 'Sequence(10 or 16)'" Value="Vui lòng định nghĩa 'Chuỗi số (10 hoặc 16)'" />
+
+<Message Name="{0} Y: Length Error (Max: 4) {1}" 
+         Value="{0} Y: Lỗi độ dài (tối đa: 4) {1}" />
+<Message Name="{0} M: Length Error (Max: 2) {1}" 
+         Value="{0} M: Lỗi độ dài (tối đa: 2) {1}" />
+<Message Name="{0} D: Length Error (Length: 2) {1}" 
+         Value="{0} D: Lỗi độ dài (độ dài phải = 2) {1}" />
+<Message Name="{0} W: Length Error (Length: 2) {1}" 
+         Value="{0} W: Lỗi độ dài (độ dài phải = 2) {1}" />
+<Message Name="{0} K: Length Error (Length: 1) {1}" 
+         Value="{0} K: Lỗi độ dài (độ dài phải = 1) {1}" />
+<Message Name="{0} F: Length Error (Length: 3) {1}"
+         Value="{0} F: Lỗi độ dài (độ dài phải = 3) {1}" />
+<Message Name="{0} X: Length Error (Length: 1) {1}"
+         Value="{0} X: Lỗi độ dài (độ dài phải = 1) {1}" />
+
+<Message Name="{0} m: Length Error (Length: {1}) {2}" 
+         Value="{0} m: Lỗi độ dài (độ dài phải = {1}) {2}" />
+<Message Name="{0} d: Length Error (Length: {1}) {2}" 
+         Value="{0} d: Lỗi độ dài (độ dài phải = {1}) {2}" />
+<Message Name="{0} w: Length Error (Length: {1}) {2}" 
+         Value="{0} w: Lỗi độ dài (độ dài phải = {1}) {2}" />
+<Message Name="{0} k: Length Error (Length: {1}) {2}" 
+         Value="{0} k: Lỗi độ dài (độ dài phải = {1}) {2}" />
+
+<Message Name="Delete this Rule ? {0} {1}" 
+         Value="Xóa quy tắc này? {0} {1}" />
+
+<Message Name="Rule Name is null" Value="Tên quy tắc trống" />
+<Message Name="Rule Name duplicate" Value="Tên quy tắc bị trùng" />
+<Message Name="X: Checksum/Function" Value="X: Checksum / Hàm" />
+</Ngôn_ngữ_Việt>
+  <简体中文>
+    <Message Name="Code" Value="特徵码组成" />
+    <Message Name="Sequence Format" Value="流水号格式" />
+    <Message Name="OK" Value="确定" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Function" Value="函数" />
+    <Message Name="Field" Value="栏位" />
+    <Message Name="Date Code" Value="日期" />
+    <Message Name="Value" Value="数值" />
+    <Message Name="(Sequence:)" Value="(目前流水号:)" />
+    <Message Name="Reset Sequence" Value="重设流水号" />
+    <Message Name="Save" Value="储存" />
+    <Message Name="Rule Name" Value="规则名称" />
+    <Message Name="Filter" Value="过滤条件" />
+    <Message Name="Delete" Value="删除" />
+    <Message Name="Sequence (User Define)" Value="流水号 (使用者自定)" />
+    <Message Name="Sequence" Value="流水号" />
+    <Message Name="Add" Value="新增" />
+    <Message Name="Modify" Value="修改" />
+    <Message Name="Other Function" Value="其他函数" />
+    <Message Name="Day Code(User Define)" Value="日期码(使用者自定)" />
+    <Message Name="m : Month Code" Value="m : 月份代码" />
+    <Message Name="d : Day Code" Value="d : 日期代码" />
+    <Message Name="w : Week Code" Value="w : 周别代码" />
+    <Message Name="k : Day of Week Code" Value="k : 周的日代码" />
+    <Message Name="Default" Value="预设成品号" />
+    <Message Name="S : Sequence" Value="S : 流水号" />
+    <Message Name="Hexadecimal (16)" Value="十六进位" />
+    <Message Name="Decimal (10)" Value="十进位" />
+    <Message Name="Y : Year" Value="Y : 年" />
+    <Message Name="M : Month" Value="M : 月" />
+    <Message Name="X: Checksum" Value="X: 检查码" />
+    <Message Name="D : Day" Value="D : 日" />
+    <Message Name="L : Constant Letter" Value="L : 英文字母" />
+    <Message Name="9 : Number" Value="9 : 数字" />
+    <Message Name="F : Day of Year" Value="F : 年的日" />
+    <Message Name="W : Week of Year" Value="W : 年的周" />
+    <Message Name="K : Day of Week" Value="K : 周的日" />
+    <Message Name="C : Letter or Number or Symbol" Value="C : 英文字母或数字" />
+    <Message Name="Rule Description" Value="规则描述" />
+    <Message Name="Qty" Value="数量" />
+    <Message Name="Release Qty" Value="展开数量" />
+    <Message Name="Release" Value="待展数" />
+    <Message Name="Append" Value="新增" />
+    <Message Name="Create Sequence Mode" Value="流水号产生方式" />
+    <Message Name="Manual" Value="手动" />
+    <Message Name="Automatic" Value="自动" />
+    <Message Name="Description" Value="描述" />
+    <Message Name="Reset" Value="重设" />
+    <Message Name="Name" Value="名称" />
+    <Message Name="Start" Value="起始" />
+    <Message Name="Work Order" Value="工单" />
+    <Message Name="Part No" Value="料号" />
+    <Message Name="Target Qty" Value="目标数" />
+    <Message Name="Input Qty" Value="投入数" />
+    <Message Name="Output Qty" Value="产出数" />
+    <Message Name="Select ALL" Value="全选" />
+    <Message Name="Select None" Value="全不选" />
+    <Message Name="Work Order List" Value="工单清单" />
+    <Message Name="Save OK" Value="储存成功" />
+    <Message Name="WO Rule" Value="工单规则" />
+    <Message Name="Copy From" Value="由..复制" />
+    <Message Name="Group Qty" Value="群组数" />
+    <Message Name="Safety Stock" Value="安全库存量" />
+    <Message Name="Reset" Value="重设" />
+    <Message Name="Clean" Value="清除" />
+	<Message Name="Append Rule Name" Value="新增规则名称" />
+  	<Message Name="Modify Rule Name" Value="修改规则名称" />
+    <Message Name="Define" Value="定义" />
+  	<Message Name="Rule Name is Empty" Value="规则名称为空" />
+    <Message Name="Rule Code is Empty" Value="特徵码组成为空" />
+	<Message Name="Code is Empty" Value="代码为空" />
+	<Message Name="Sequence is Empty" Value="序列为空" />
+	<Message Name="Field is Empty" Value="字段为空" />
+	<Message Name="Function is Empty" Value="函数为空" />
+	<Message Name="Code Duplicate : " Value="代码重复 : " />
+	<Message Name="Value is Empty" Value="值为空" />
+	<Message Name="Reset Sequence ? " Value="重置序列 ? " />
+	<Message Name="Rule Name Fail (Invalid Character : {0})" Value="规则名称失败 (无效字符 : {0})" />
+	<Message Name="Rule Code Error ({0})" Value="规则代码错误 ({0})" />
+	<Message Name="Please define 'Month Code'" Value="请定义“月份代码”" />
+	<Message Name="Please define 'Day Code'" Value="请定义“日期代码”" />
+	<Message Name="Please define 'Week Code'" Value="请定义“周别代码”" />
+	<Message Name="Please define 'Day of Week Code'" Value="请定义“周的日代码”" />
+	<Message Name="Please define 'Check Sum'" Value="请定义“校验和”" />
+	<Message Name="Please define 'Sequence(10 or 16)'" Value="请定义“序列（10 或 16）”" />
+	<Message Name="{0} Y: Length Error (Max: 4) {1}" Value="{0} Y:长度误差 (最大值: 4) {1}" />
+	<Message Name="{0} M: Length Error (Max: 2) {1}" Value="{0} M: 长度误差 (最大值: 2) {1}" />
+	<Message Name="{0} D: Length Error (Length: 2) {1}" Value="{0} D：长度错误（长度：2） {1}" />
+	<Message Name="{0} W: Length Error (Length: 2) {1}" Value="{0} W：长度错误（长度：2） {1}" />
+	<Message Name="{0} K: Length Error (Length: 1) {1}" Value="{0} K：长度错误（长度：1） {1}" />
+	<Message Name="{0} F: Length Error (Length: 3) {1}" Value="{0} F：长度错误（长度：3） {1}" />
+	<Message Name="{0} X: Length Error (Length: 1) {1}" Value="{0} X：长度错误（长度：1） {1}" />
+	<Message Name="{0} m: Length Error (Length: {1}) {2}" Value="{0} m：长度错误（长度：{1}) {2}" />
+	<Message Name="{0} d: Length Error (Length: {1}) {2}" Value="{0} d：长度错误（长度：{1}) {2}" />
+	<Message Name="{0} w: Length Error (Length: {1}) {2}" Value="{0} w：长度错误（长度：{1}) {2}" />
+	<Message Name="{0} k: Length Error (Length: {1}) {2}" Value="{0} k：长度错误（长度：{1}) {2}" />
+	<Message Name="Delete this Rule ? {0} {1}" Value="删除此规则 ? {0} {1}" />
+	<Message Name="Rule Name is null" Value="规则名称为空" />
+	<Message Name="Rule Name duplicate" Value="规则名称重复" />
+    <Message Name="X: Checksum/Function" Value="X: 核对和/函数" />
+  </简体中文>
+</Chroma>

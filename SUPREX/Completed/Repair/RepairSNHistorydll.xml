@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文>
+    <Message Name="Serial Number" Value="序號"/>
+    <Message Name="Part No" Value="料號"/>
+    <Message Name="Work Order" Value="工單"/>
+    <Message Name="Close" Value="關閉"/>
+    <Message Name="Defect Time" Value="不良時間"/>
+    <Message Name="Emp Name" Value="作業人員"/>
+    <Message Name="Defect Code" Value="不良現象代碼"/>
+    <Message Name="Reason Code" Value="不良原因代碼"/>
+    <Message Name="Duty Code" Value="責任歸屬代碼"/>
+    <Message Name="Repair Data" Value="維修資料"/>
+    <Message Name="Repair History" Value="序號維修歷史記錄"/>
+    <Message Name="Defect Desc" Value="不良現象描述"/>
+    <Message Name="Reason Desc" Value="不良原因描述"/>
+    <Message Name="Duty Desc" Value="責任歸屬描述"/>
+    <Message Name="Item No" Value="零件編號"/>
+    <Message Name="Location" Value="插件位置"/>
+    <Message Name="Defect Process" Value="不良製程"/>
+    <Message Name="Description" Value="描述說明"/>
+    <Message Name="Description(2)" Value="描述說明(2)"/>
+    <Message Name="Main Reason" Value="不良主因"/>
+    <Message Name="Repair Type" Value="維修類型"/>
+    <Message Name="Repair Desc" Value="維修方式描述"/>
+    <Message Name="Repair Desc2" Value="維修方式描述(2)"/>
+    <Message Name="Location Data" Value="插件位置維修資料"/>
+    <Message Name="Defect Data" Value="不良資料"/>
+    <Message Name="Defect Emp" Value="不良登錄人員"/>
+    <Message Name="Finish Emp" Value="完成人員"/>
+    <Message Name="Finish Time" Value="完成時間"/>
+    <Message Name="Finish Process" Value="維修製程"/>
+    <Message Name="Repair Emp" Value="維修人員"/>
+    <Message Name="Repair Time" Value="維修時間"/>
+    <Message Name="Repair Code" Value="維修代碼"/>
+    <Message Name="Defect Seq" Value="不良次數"/>
+
+
+  </繁體中文>
+<Ngôn_ngữ_Việt><Message Name="Serial Number" Value="Số seri"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="Work Order" Value="Lệnh sản xuất"/><Message Name="Close" Value="Đóng"/><Message Name="Defect Time" Value="Thời gian lỗi"/><Message Name="Emp Name" Value="Nhân viên thao tác"/><Message Name="Defect Code" Value="Mã hiện tượng lỗi"/><Message Name="Reason Code" Value="Mã nguyên nhân lỗi"/><Message Name="Duty Code" Value="Mã quy trách nhiệm"/><Message Name="Repair Data" Value="Dữ liệu sửa chữa"/><Message Name="Repair History" Value="Lịch sử sửa chữa theo số seri"/><Message Name="Defect Desc" Value="Mô tả hiện tượng lỗi"/><Message Name="Reason Desc" Value="Mô tả nguyên nhân lỗi"/><Message Name="Duty Desc" Value="Mô tả trách nhiệm"/><Message Name="Item No" Value="Mã linh kiện"/><Message Name="Location" Value="Vị trí lắp ráp"/><Message Name="Defect Process" Value="Công đoạn lỗi"/><Message Name="Description" Value="Mô tả"/><Message Name="Description(2)" Value="Mô tả (2)"/><Message Name="Main Reason" Value="Nguyên nhân chính"/><Message Name="Repair Type" Value="Loại sửa chữa"/><Message Name="Repair Desc" Value="Mô tả phương pháp sửa chữa"/><Message Name="Repair Desc2" Value="Mô tả phương pháp sửa chữa (2)"/><Message Name="Location Data" Value="Dữ liệu sửa chữa theo vị trí"/><Message Name="Defect Data" Value="Dữ liệu lỗi"/><Message Name="Defect Emp" Value="Người ghi nhận lỗi"/><Message Name="Finish Emp" Value="Người hoàn tất"/><Message Name="Finish Time" Value="Thời gian hoàn tất"/><Message Name="Finish Process" Value="Công đoạn hoàn tất"/><Message Name="Repair Emp" Value="Nhân viên sửa chữa"/><Message Name="Repair Time" Value="Thời gian sửa chữa"/><Message Name="Repair Code" Value="Mã sửa chữa"/><Message Name="Defect Seq" Value="Số lần lỗi"/></Ngôn_ngữ_Việt></Chroma>

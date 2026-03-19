@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+	<English>
+		<Message Name="Process Name" Value="Process Name"/>
+		<Message Name="Sampling Rule" Value="Sampling Rule"/>
+		<Message Name="Item Type Code" Value="Item Type Code"/>
+		<Message Name="Item Type Name" Value="Item Type Name"/>
+		<Message Name="Sampling Plan" Value="Sampling Plan"/>
+		<Message Name="Item Code" Value="Item Code"/>
+		<Message Name="Item Name" Value="Item Name"/>
+		<Message Name="USL" Value="USL"/>
+		<Message Name="LSL" Value="LSL"/>
+		<Message Name="CL" Value="CL"/>
+		<Message Name="UCL" Value="UCL"/>
+		<Message Name="LCL" Value="LCL"/>
+		<Message Name="Unit" Value="Unit"/>
+		<Message Name="Sort Index" Value="Sort Index"/>
+		<Message Name="Part No" Value="Part No"/>
+		<Message Name="Copy From" Value="Copy From"/>
+		<Message Name="Part No Error" Value="Part No Error"/>
+		<Message Name="Process Error" Value="Process Error"/>
+		<Message Name="No Data" Value="No Data"/>
+		<Message Name="Item Code Error" Value="Item Code Error"/>
+		<Message Name="Item Type not Match" Value="Item Type not Match"/>
+		<Message Name="Item Detail Data also delete" Value="Item Detail Data also delete"/>
+		<Message Name="Sure to Delete" Value="Sure to Delete"/>
+		<Message Name="Can't copy from the same Part" Value="Can't copy from the same Part"/>
+		<Message Name="Test Item had existed,Replace" Value="Test Item had existed,Replace"/>
+		<Message Name="Get RECID Error" Value="Get RECID Error"/>
+		<Message Name="Item Type Code Error" Value="Item Type Code Error"/>
+		<Message Name="Sampling Plan Error" Value="Sampling Plan Error"/>
+		<Message Name="Customer Name" Value="Customer Name"/>
+		<Message Name="Prod Usage" Value="Prod Usage"/>
+		<Message Name="Data Incomplete" Value="Data Incomplete"/>
+	</English>
+	<繁體中文>
+		<Message Name="Process Name" Value="製程名稱"/>			
+		<Message Name="Sampling Rule" Value="抽驗規則"/>			
+		<Message Name="Item Type Code" Value="測試大項代碼"/>			
+		<Message Name="Item Type Name" Value="測試大項名稱"/>			
+		<Message Name="Sampling Plan" Value="抽驗計畫"/>			
+		<Message Name="Item Code" Value="測試小項代碼"/>			
+		<Message Name="Item Name" Value="測試小項名稱"/>			
+		<Message Name="USL" Value="規格上限"/>			
+		<Message Name="LSL" Value="規格下限"/>			
+		<Message Name="CL" Value="中心線"/>			
+		<Message Name="UCL" Value="管制上限"/>			
+		<Message Name="LCL" Value="管制下限"/>			
+		<Message Name="Unit" Value="單位"/>			
+		<Message Name="Sort Index" Value="排序索引"/>			
+		<Message Name="Part No" Value="料號"/>			
+		<Message Name="Copy From" Value="由...複製"/>			
+		<Message Name="Part No Error" Value="料號錯誤"/>			
+		<Message Name="Process Error" Value="製程錯誤"/>			
+		<Message Name="No Data" Value="無資料"/>			
+		<Message Name="Item Code Error" Value="測試小項錯誤"/>			
+		<Message Name="Item Type not Match" Value="不屬於此測試大項"/>			
+		<Message Name="Item Detail Data also delete" Value="測試項目資料也會被同時刪除"/>			
+		<Message Name="Sure to Delete" Value="確定刪除"/>			
+		<Message Name="Can't copy from the same Part" Value="不可由相同的料號複製"/>			
+		<Message Name="Test Item had existed,Replace" Value="測試項目已存在,要取代"/>			
+		<Message Name="Get RECID Error" Value="產生RECID錯誤"/>			
+		<Message Name="Item Type Code Error" Value="測試大項錯誤"/>			
+		<Message Name="Sampling Plan Error" Value="抽驗計畫錯誤"/>			
+		<Message Name="ITEM_APPEND" Value="測試小項新增"/>			
+		<Message Name="Description" Value="測試小項描述"/>			
+		<Message Name="Description2" Value="測試小項描述2"/>			
+		<Message Name="Has Value" Value="是否為數值"/>			
+		<Message Name="Value Type" Value="數值類型"/>			
+		<Message Name="Number" Value="數字"/>			
+		<Message Name="Character" Value="文字"/>			
+		<Message Name="Min Inspect Qty" Value="最少檢驗個數"/>			
+		<Message Name="Add" Value="加入"/>			
+		<Message Name="Select None" Value="全不選"/>			
+		<Message Name="Select ALL" Value="全選"/>			
+		<Message Name="Full Copy" Value="完全複製"/>			
+		<Message Name="Source Part" Value="來源料號"/>			
+		<Message Name="Destination Part" Value="目的料號"/>			
+		<Message Name="Save" Value="儲存"/>			
+		<Message Name="No TestItem Data Can be Added" Value="無測試項目資料可加入"/>			
+		<Message Name="No TestItem Data Can be Save" Value="無測試項目資料可儲存"/>			
+		<Message Name="Are You Sure Copy ?" Value="是否確定儲存？"/>			
+		<Message Name="Are You Sure Full Copy ?" Value="是否確定完全複製？"/>			
+		<Message Name="Item Code (Max)" Value="測試小項代碼 (最大值)"/>
+		<Message Name="Please Input Part No Prefix" Value="請輸入料號查詢條件前置碼至少五碼"/>
+		<!--<Message Name="Please Input Part No Prefix" Value="請輸入料號關鍵字至少五碼" />-->
+		<Message Name="Version" Value="版本號"/>
+		<Message Name="VERSION" Value="版本號"/>
+		<Message Name="PROCESS_NAME" Value="製程名稱"/>
+		<Message Name="PROCESS_DESC" Value="製程描述"/>
+		<Message Name="ITEM_NAME" Value="測試小項名稱"/>
+		<Message Name="ITEM_CODE" Value="測試小項代碼"/>
+		<Message Name="HAS_VALUE" Value="是否為數值"/>
+		<Message Name="ITEM_TYPE_CODE" Value="測試大項代碼"/>
+		<Message Name="ITEM_TYPE_NAME" Value="測試大項名稱"/>
+		<Message Name="PART_NO" Value="料號"/>
+		<Message Name="SPEC1" Value="存貨名稱"/>
+		<Message Name="SPEC2" Value="規格"/>
+		<Message Name="Search" Value="查詢"/>
+		<Message Name="OK" Value="確定"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Copy Item From" Value="複製"/>
+		<Message Name="History" Value="歷史記錄"/>
+		<Message Name="SORT_INDEX" Value="排序索引"/>
+		<Message Name="SAMPLING_RULE_NAME" Value="抽驗規則名稱"/>
+		<Message Name="Customer Name" Value="客戶名稱"/>
+		<Message Name="Prod Usage" Value="產品用途"/>
+		<Message Name="Data Incomplete" Value="資料不完整"/>
+		<Message Name="USL must greater than or equal to LSL" Value="規格上限必須大於等於規格下限"/>
+		
+	</繁體中文>
+	<简体中文>			
+		<Message Name="Process Name" Value="制程名称"/>			
+		<Message Name="Sampling Rule" Value="抽验规则"/>			
+		<Message Name="Item Type Code" Value="测试大项代码"/>			
+		<Message Name="Item Type Name" Value="测试大项名称"/>			
+		<Message Name="Sampling Plan" Value="抽验计划"/>			
+		<Message Name="Item Code" Value="测试小项代码"/>			
+		<Message Name="Item Name" Value="测试小项名称"/>			
+		<Message Name="USL" Value="规格上限"/>			
+		<Message Name="LSL" Value="规格下限"/>			
+		<Message Name="CL" Value="中心线"/>			
+		<Message Name="UCL" Value="管制上限"/>			
+		<Message Name="LCL" Value="管制下限"/>			
+		<Message Name="Unit" Value="单位"/>			
+		<Message Name="Sort Index" Value="排序索引"/>			
+		<Message Name="Part No" Value="料号"/>			
+		<Message Name="Copy From" Value="由...复制"/>			
+		<Message Name="Part No Error" Value="料号错误"/>			
+		<Message Name="Process Error" Value="制程错误"/>			
+		<Message Name="No Data" Value="无资料"/>			
+		<Message Name="Item Code Error" Value="测试小项错误"/>			
+		<Message Name="Item Type not Match" Value="不属于此测试大项"/>			
+		<Message Name="Item Detail Data also delete" Value="测试项目数据也会被同时删除"/>			
+		<Message Name="Sure to Delete" Value="确定删除"/>			
+		<Message Name="Can't copy from the same Part" Value="不可由相同的料号复制"/>			
+		<Message Name="Test Item had existed,Replace" Value="测试项目已存在,要取代"/>			
+		<Message Name="Get RECID Error" Value="产生RECID错误"/>			
+		<Message Name="Item Type Code Error" Value="测试大项错误"/>			
+		<Message Name="Sampling Plan Error" Value="抽验计划错误"/>			
+		<Message Name="ITEM_APPEND" Value="测试小项新增"/>			
+		<Message Name="Description" Value="测试小项描述"/>			
+		<Message Name="Description2" Value="测试小项描述2"/>			
+		<Message Name="Has Value" Value="是否为数值"/>			
+		<Message Name="Value Type" Value="数值类型"/>			
+		<Message Name="Number" Value="数字"/>			
+		<Message Name="Character" Value="文字"/>			
+		<Message Name="Min Inspect Qty" Value="最少检验个数"/>			
+		<Message Name="Add" Value="加入"/>			
+		<Message Name="Select None" Value="全不选"/>			
+		<Message Name="Select ALL" Value="全选"/>			
+		<Message Name="Full Copy" Value="完全复制"/>			
+		<Message Name="Source Part" Value="来源料号"/>			
+		<Message Name="Destination Part" Value="目的料号"/>			
+		<Message Name="Save" Value="储存"/>			
+		<Message Name="No TestItem Data Can be Added" Value="无测试项目数据可加入"/>			
+		<Message Name="No TestItem Data Can be Save" Value="无测试项目数据可储存"/>			
+		<Message Name="Are You Sure Copy ?" Value="是否确定储存？"/>			
+		<Message Name="Are You Sure Full Copy ?" Value="是否确定完全复制？"/>			
+		<Message Name="Item Code (Max)" Value="测试小项代码 (最大值)"/>			
+		<Message Name="Please Input Part No Prefix" Value="请输入料号关键词至少一码"/>
+		<Message Name="Version" Value="版本号"/>
+		<Message Name="VERSION" Value="版本号"/>
+		<Message Name="PROCESS_NAME" Value="制程名称"/>
+		<Message Name="PROCESS_DESC" Value="制程描述"/>
+		<Message Name="ITEM_NAME" Value="测试小项名称"/>
+		<Message Name="ITEM_CODE" Value="测试小项代码"/>
+		<Message Name="HAS_VALUE" Value="是否为数值"/>
+		<Message Name="ITEM_TYPE_CODE" Value="测试大项代码"/>
+		<Message Name="ITEM_TYPE_NAME" Value="测试大项名称"/>
+		<Message Name="PART_NO" Value="料号"/>
+		<Message Name="SPEC1" Value="存货名称"/>
+		<Message Name="SPEC2" Value="规格"/>
+		<Message Name="Search" Value="查询"/>
+		<Message Name="OK" Value="确定"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Copy Item From" Value="复制"/>
+		<Message Name="History" Value="历史记录"/>
+		<Message Name="SORT_INDEX" Value="排序索引"/>
+		<Message Name="SAMPLING_RULE_NAME" Value="抽验规则名称"/>
+		<Message Name="Customer Name" Value="客户名称"/>
+		<Message Name="Prod Usage" Value="产品用途"/>
+		<Message Name="Data Incomplete" Value="资料不完整"/>
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Process Name" Value="Tên công đoạn"/><Message Name="Sampling Rule" Value="Quy tắc lấy mẫu"/><Message Name="Item Type Code" Value="Mã hạng mục lớn"/><Message Name="Item Type Name" Value="Tên hạng mục lớn"/><Message Name="Sampling Plan" Value="Kế hoạch lấy mẫu"/><Message Name="Item Code" Value="Mã hạng mục nhỏ"/><Message Name="Item Name" Value="Tên hạng mục nhỏ"/><Message Name="USL" Value="Giới hạn trên (USL)"/><Message Name="LSL" Value="Giới hạn dưới (LSL)"/><Message Name="CL" Value="Giá trị trung tâm (CL)"/><Message Name="UCL" Value="Giới hạn kiểm soát trên"/><Message Name="LCL" Value="Giới hạn kiểm soát dưới"/><Message Name="Unit" Value="Đơn vị"/><Message Name="Sort Index" Value="Thứ tự sắp xếp"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="Copy From" Value="Sao chép từ"/><Message Name="Part No Error" Value="Lỗi mã linh kiện"/><Message Name="Process Error" Value="Lỗi công đoạn"/><Message Name="No Data" Value="Không có dữ liệu"/><Message Name="Item Code Error" Value="Lỗi mã hạng mục nhỏ"/><Message Name="Item Type not Match" Value="Không thuộc hạng mục lớn này"/><Message Name="Item Detail Data also delete" Value="Dữ liệu chi tiết của mục sẽ bị xóa đồng thời"/><Message Name="Sure to Delete" Value="Bạn có chắc muốn xóa?"/><Message Name="Can't copy from the same Part" Value="Không thể sao chép từ cùng một mã linh kiện"/><Message Name="Test Item had existed,Replace" Value="Hạng mục kiểm tra đã tồn tại, thay thế?"/><Message Name="Get RECID Error" Value="Lỗi tạo RECID"/><Message Name="Item Type Code Error" Value="Lỗi mã hạng mục lớn"/><Message Name="Sampling Plan Error" Value="Lỗi kế hoạch lấy mẫu"/><Message Name="Customer Name" Value="Tên khách hàng"/><Message Name="Prod Usage" Value="Mục đích sản phẩm"/><Message Name="Data Incomplete" Value="Dữ liệu không đầy đủ"/><Message Name="ITEM_APPEND" Value="Thêm hạng mục kiểm tra"/><Message Name="Description" Value="Mô tả hạng mục kiểm tra"/><Message Name="Description2" Value="Mô tả hạng mục kiểm tra (2)"/><Message Name="Has Value" Value="Có giá trị"/><Message Name="Value Type" Value="Loại giá trị"/><Message Name="Number" Value="Số"/><Message Name="Character" Value="Chuỗi ký tự"/><Message Name="Min Inspect Qty" Value="Số lượng kiểm tra tối thiểu"/><Message Name="Add" Value="Thêm"/><Message Name="Select None" Value="Bỏ chọn tất cả"/><Message Name="Select ALL" Value="Chọn tất cả"/><Message Name="Full Copy" Value="Sao chép toàn bộ"/><Message Name="Source Part" Value="Mã linh kiện nguồn"/><Message Name="Destination Part" Value="Mã linh kiện đích"/><Message Name="Save" Value="Lưu"/><Message Name="No TestItem Data Can be Added" Value="Không có dữ liệu hạng mục kiểm tra có thể thêm"/><Message Name="No TestItem Data Can be Save" Value="Không có dữ liệu hạng mục kiểm tra có thể lưu"/><Message Name="Are You Sure Copy ?" Value="Bạn có chắc muốn lưu?"/><Message Name="Are You Sure Full Copy ?" Value="Bạn có chắc muốn sao chép toàn bộ?"/><Message Name="Item Code (Max)" Value="Mã hạng mục nhỏ (giá trị lớn nhất)"/><Message Name="Please Input Part No Prefix" Value="Vui lòng nhập ít nhất 5 ký tự đầu để tìm mã linh kiện"/><Message Name="Version" Value="Phiên bản"/><Message Name="VERSION" Value="Phiên bản"/><Message Name="PROCESS_NAME" Value="Tên công đoạn"/><Message Name="PROCESS_DESC" Value="Mô tả công đoạn"/><Message Name="ITEM_NAME" Value="Tên hạng mục nhỏ"/><Message Name="ITEM_CODE" Value="Mã hạng mục nhỏ"/><Message Name="HAS_VALUE" Value="Có giá trị"/><Message Name="ITEM_TYPE_CODE" Value="Mã hạng mục lớn"/><Message Name="ITEM_TYPE_NAME" Value="Tên hạng mục lớn"/><Message Name="PART_NO" Value="Mã linh kiện"/><Message Name="SPEC1" Value="Tên tồn kho"/><Message Name="SPEC2" Value="Thông số"/><Message Name="Search" Value="Tìm kiếm"/><Message Name="OK" Value="Đồng ý"/><Message Name="Cancel" Value="Hủy"/><Message Name="Copy Item From" Value="Sao chép"/><Message Name="History" Value="Lịch sử"/><Message Name="SORT_INDEX" Value="Thứ tự sắp xếp"/><Message Name="SAMPLING_RULE_NAME" Value="Tên quy tắc lấy mẫu"/><Message Name="USL must greater than or equal to LSL" Value="Giới hạn trên phải lớn hơn hoặc bằng giới hạn dưới"/></Ngôn_ngữ_Việt></Chroma>

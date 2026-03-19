@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Chroma>
+	<English>
+		<Message Name="APPEND" Value="Append" />
+		<Message Name="MODIFY" Value="Modify" />
+		<Message Name="EMP_NAME" Value="Employee Name" />
+		<Message Name="UPDATE_TIME" Value="Update Time" />
+		<Message Name="ENABLED" Value="Enabled" />
+		<Message Name="PART_NO" Value="Part No" />
+		<Message Name="SPEC1" Value="Spec1" />
+
+		<Message Name="VENDOR_CODE" Value="Vendor No" />
+		<Message Name="VENDOR_NAME" Value="Vendor Name" />
+	</English>
+	<繁體中文>
+		<Message Name="Waive No" Value="特採單號" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Search" Value="尋找" />
+		<Message Name="Insp. Date" Value="檢驗日期" />
+		<Message Name="RT No" Value="RT單號" />
+		<Message Name="Reject" Value="批退" />
+		<Message Name="Waive" Value="特採" />
+		<Message Name="By Pass" Value="免驗" />
+		<Message Name="Hold" Value="暫停" />
+		<Message Name="Pass" Value="允收" />
+		<Message Name="Lot Part No" Value="料號" />
+		<Message Name="Create Date" Value="建立日期" />
+		<Message Name="PO Number" Value="訂單號" />
+		<Message Name="Vendor Name" Value="供應商" />
+		<Message Name="Vendor Code" Value="供應商代碼" />
+		<Message Name="Lot Size" Value="批量" />
+		<Message Name="Type Code" Value="測試大項代碼" />
+		<Message Name="SEQ" Value="SEQ" />
+		<Message Name="Type Name" Value="測試大項名稱" />
+		<Message Name="Sample Type" Value="抽驗計畫" />
+		<Message Name="Level" Value="抽驗等級" />
+		<Message Name="Sample Size" Value="抽驗數量" />
+		<Message Name="Pass Qty" Value="良品數" />
+		<Message Name="Fail Qty" Value="不良品數" />
+		<Message Name="Result" Value="檢驗結果" />
+		<Message Name="Inspect Item" Value="檢驗項目" />
+		<Message Name="Defect Code" Value="不良代碼" />
+		<Message Name="Defect Description" Value="不良描述" />
+		<Message Name="Defect Description2" Value="不良描述(2)" />
+		<Message Name="Defect Qty" Value="不良數量" />
+		<Message Name="Memo" Value="備註" />
+		<Message Name="MRB Memo" Value="MRB備註" />
+		<Message Name="Delete" Value="刪除" />
+		<Message Name="Item Name" Value="測試項目名稱" />
+		<Message Name="Value" Value="測試值" />
+		<Message Name="Lot No" Value="檢驗批號" />
+		<Message Name="Unit" Value="單位" />
+		<Message Name="Critical Qty" Value="重缺" />
+		<Message Name="Major Qty" Value="主缺" />
+		<Message Name="Minor Qty" Value="次缺" />
+		<Message Name="Min Size" Value="批量下限" />
+		<Message Name="Max Size" Value="批量上限" />
+		<Message Name="Change Sample Type" Value="變更抽驗計畫" />
+		<Message Name="Lot No Error" Value="檢驗批號錯誤" />
+		<Message Name="Save" Value="儲存" />
+		<Message Name="Error" Value="錯誤" />
+		<Message Name="Upload ERP" Value="上傳ERP" />
+		<Message Name="Upload ERP?" Value="確定要上傳ERP" />
+		<Message Name="Upload ERP Success" Value="上傳ERP成功" />
+		<Message Name="QTY" Value="數量" />
+
+		<Message Name="Pass Qty Error" Value="良品數量錯誤" />
+		<Message Name="Fail Qty Error" Value="不良品數量錯誤" />
+		<Message Name="Pass Qty + Fail Qty more than Lot Size" Value="良品數 + 不良品數 大於 批量" />
+		<Message Name="Sample Type Error" Value="抽驗計畫錯誤" />
+
+		<Message Name="Sample Size Error" Value="抽驗數量錯誤" />
+		<Message Name="Pass Qty + Fail Qty less than Sample Szie" Value="良品數 + 不良品數 小於 抽驗數量" />
+		<Message Name="Sample Size = 0" Value="抽驗數量 = 0" />
+		<Message Name="Please Select Lot No" Value="請選擇檢驗單" />
+		<Message Name="Not Define Test Type" Value="沒有定義測試項目" />
+		<Message Name="Unhold" Value="解除暫停" />
+		<Message Name="Status" Value="狀態" />
+		<Message Name="Please Input Defect Code" Value="請輸入不良代碼" />
+		<Message Name="Please Input Defect Qty" Value="請輸入不良現象數量" />
+		<Message Name="Defect Code Duplicate" Value="不良代碼重複" />
+		<Message Name="Delete this Defect Code ?" Value="刪除此不良代碼" />
+		<Message Name="Inspection Result unknow" Value="未知的檢驗結果" />
+		<Message Name="Can not Pass this Lot" Value="不能允收此檢驗批" />
+		<Message Name="Close" Value="離開" />
+		<Message Name="Save OK" Value="儲存完成" />
+		<Message Name="Start Time" Value="開始時間" />
+		<Message Name="End Time" Value="結束時間" />
+		<Message Name="Receive Qty" Value="允收數量" />
+		<Message Name="Reject Qty" Value="批退數量" />
+		<Message Name="Employee" Value="員工" />
+		<Message Name="Query" Value="查詢" />
+		<Message Name="Date" Value="日期" />
+		<Message Name="Part No" Value="料號" />
+		<Message Name="IQC History" Value="檢驗記錄查詢" />
+		<Message Name="Defect Code Error" Value="不良現象錯誤" />
+		<Message Name="Append" Value="新增" />
+		<Message Name="Modify" Value="修改" />
+		<Message Name="Approved" Value="已核准" />
+		<Message Name="Wait Approve" Value="等待核准" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="Item Desc" Value="問題描述" />
+		<Message Name="Approve Date" Value="核准時間" />
+		<Message Name="Approve Emp" Value="核准員工" />
+		<Message Name="Approve Employee" Value="核准員工" />
+		<Message Name="Request Date" Value="反應日期" />
+		<Message Name="Status" Value="狀態" />
+		<Message Name="IQC Inspection" Value="IQC檢驗記錄" />
+		<Message Name="WIP Response" Value="製程反應" />
+		<Message Name="History" Value="歷史記錄" />
+		<Message Name="Start RoHS" Value="啟動RoHS" />
+		<Message Name="Stop RoHS" Value="停止RoHS" />
+		<Message Name="Rollback" Value="復原" />
+		<Message Name="Normal Item" Value="一般項目" />
+		<Message Name="RoHS" Value="RoHS項目" />
+		<Message Name="Query" Value="查詢" />
+		<Message Name="Close" Value="關閉" />
+		<Message Name="Position" Value="檢測部位" />
+		<Message Name="NG Item Qty" Value="NG大項數量" />
+		<Message Name="OK Item Qty" Value="OK大項數量" />
+		<Message Name="Insp Work Hours" Value="檢驗工時" />
+		<Message Name="Insp Work Hours" Value="檢驗工時" />
+		<Message Name="Material Ver" Value="材料版本" />
+		<Message Name="Lot Memo" Value="批號備註" />
+		<Message Name="DMDA" Value="DMDA單" />
+		<Message Name="Please Input Inspection Position" Value="請輸入檢測部位" />
+		<Message Name="APPEND" Value="新增" />
+		<Message Name="MODIFY" Value="修改" />
+		<Message Name="Rollback Lot No" Value="復原檢驗批號" />
+		<Message Name="RoHS NG,Please Reject this Lot" Value="RoHS項目NG,此批必須判退" />
+		<Message Name="Please Confirm RoHS Result" Value="請確認RoHS項目的結果" />
+		<Message Name="Receive Qty Error" Value="允數數量錯誤" />
+		<Message Name="Insp Work Hours Error" Value="檢驗工時錯誤" />
+		<Message Name="Inspection Item" Value="測試項目" />
+		<Message Name="Sampling Plan" Value="抽驗計畫" />
+		<Message Name="OK" Value="確定" />
+		<Message Name="Good" Value="OK" />
+		<Message Name="USL" Value="規格上限" />
+		<Message Name="LSL" Value="規格下限" />
+		<Message Name="CL" Value="中心線" />
+		<Message Name="UCL" Value="管制上限" />
+		<Message Name="LCL" Value="管制下限" />
+		<Message Name="Unit" Value="單位" />
+		<Message Name="Defect Data" Value="不良資料" />
+		<Message Name="Item Code" Value="測試項目代碼" />
+		<Message Name="Min Insp Qty" Value="最少檢驗數" />
+		<Message Name="Inspected Qty less than Min Insp Qty" Value="檢驗個數 小於 最少檢驗數" />
+		<Message Name="PASS QTY and FAIL QTY is Null" Value="良品數與不良品數尚未輸入" />
+		<Message Name="Disabled" Value="停用" />
+		<Message Name="Enabled" Value="可用" />
+		<Message Name="Delete" Value="刪除" />
+		<Message Name="Append" Value="新增" />
+		<Message Name="Modify" Value="修改" />
+		<Message Name="Export" Value="匯出" />
+		<Message Name="All" Value="全部" />
+		<Message Name="Filter" Value="過濾條件" />
+		<Message Name="History Log" Value="歷史紀錄" />
+		<Message Name="OK" Value="確定" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Search" Value="尋找" />
+		<Message Name="Remove" Value="移除" />
+		<Message Name="EMP_NAME" Value="異動人員" />
+		<Message Name="UPDATE_TIME" Value="異動時間" />
+		<Message Name="ENABLED" Value="是否有效" />
+		<Message Name="Data Duplicate" Value="資料重複" />
+		<Message Name="Data Append OK" Value="資料新增成功" />
+		<Message Name="Append Other Data" Value="繼續新增其他資料" />
+		<Message Name="Note" Value="注意事項" />
+		<Message Name="Emp No" Value="工號" />
+		<Message Name="Emp Name" Value="姓名" />
+		<Message Name="Update Time" Value="異動時間" />
+		<Message Name="Please Input Part No" Value="請輸入料號" />
+		<Message Name="Please Input Note" Value="請輸入注意事項" />
+		<Message Name="Part No Error" Value="料號錯誤" />
+		<Message Name="All Test Item" Value="所有測試項目" />
+		<Message Name="Test Item for Value" Value="測試項目 - 測試值" />
+		<Message Name="Normal" Value="正常" />
+		<Message Name="Tight" Value="加嚴" />
+		<Message Name="Reduce" Value="減量" />
+		<Message Name="By Pass" Value="免驗" />
+		<Message Name="Inspect Item / Defect" Value="檢驗項目 / 不良資料" />
+		<Message Name="There are defect data. Fail Qty must more than 0" Value="此大項有不良資料,不良品數必須大於零" />
+		<Message Name="Fail Qty more than 0 ,but there is not defect data" Value="不良品數大於零,但是沒有任何不良資料" />
+		<Message Name="Sure to Complete this Item ?" Value="確定要完成這個檢驗大項 ?" />
+		<Message Name="Sample Level is not By Pass. Continue ?" Value="抽驗計畫等級不是免驗,要繼續嗎 ?" />
+		<Message Name="Sample Level is not By Pass." Value="抽驗計畫等級不是免驗" />
+		<Message Name="Change ALL Test Type ?" Value="同時變更所有測試大項的抽驗計畫 ?" />
+		<Message Name="Please Input Memo" Value="請輸入備註" />
+		<Message Name="Not Found RoHS Records. Sure to Finish this Lot ?" Value="沒有輸入任何RoHS項目,確定要完成此批號?" />
+		<Message Name="Save Memo OK" Value="備註儲存完成" />
+		<Message Name="Attach File" Value="附加檔案" />
+		<Message Name="Download" Value="下載" />
+		<Message Name="Download File" Value="下載檔案" />
+		<Message Name="Delete File" Value="刪除檔案" />
+		<Message Name="Download File Finish" Value="下載檔案完成" />
+		<Message Name="File Name" Value="檔案名稱" />
+		<Message Name="Size" Value="大小(K)" />
+		<Message Name="File Name Duplicate" Value="檔案名稱重複" />
+		<Message Name="Size Can not Over 5M" Value="檔案大小不能超過5M" />
+		<Message Name="Not Define Sample Size" Value="沒有定義抽驗數" />
+		<Message Name="Sure to Continue" Value="確定要繼續" />
+		<Message Name="Modify Memo" Value="修改備註" />
+		<Message Name="RT No Error" Value="RT單號錯誤" />
+		<Message Name="Lot Level" Value="等級" />
+		<Message Name="Exception Memo" Value="異常備註" />
+		<Message Name="Lot Exception Memo" Value="批號異常備註" />
+		<Message Name="Modify Lot Size" Value="修改批量" />
+		<Message Name="Modify Exception Memo" Value="修改異常備註" />
+		<Message Name="New Lot Size can not over old Lot Size" Value="新的批量不能大於原始批量" />
+		<Message Name="Lot Size Error" Value="批量錯誤" />
+		<Message Name="Lot Size will be change. Continue?" Value="批量將被變更,確定要繼續?" />
+		<Message Name="Your choice is not By Pass,Continue ?" Value="你不是選擇免驗等級,確定要繼續嗎?" />
+		<Message Name="QC result" Value="批號檢驗結果" />
+		<Message Name="Lot Status is hold. Please unhold this lot first" Value="檢驗單為暫停狀態，請先解除暫停" />
+		<Message Name="Qty Error" Value="良品或不良品數量不正確" />
+		<Message Name="Import Test Result" Value="輸入測試大項結果" />
+		<Message Name="Test Type" Value="測試大項" />
+		<Message Name="Save?" Value="確定儲存?" />
+		<Message Name="Not input waive result" Value="未輸入特採結果" />
+		<Message Name="input waive result" Value="輸入特採結果" />
+
+		<Message Name="Now Stuts" Value="目前狀態為" />
+		<Message Name="PART_NO" Value="料號" />
+		<Message Name="SPEC1" Value="品名" />
+		<Message Name="Export" Value="匯出" />
+
+		<Message Name="VENDOR_CODE" Value="供應商代碼" />
+		<Message Name="VENDOR_NAME" Value="供應商" />
+		<Message Name="Change to Waive?" Value="是否確認複判為特採?" />
+
+	</繁體中文>
+       <Ngôn_ngữ_Việt>
+ <Message Name="Waive No" Value="Số phiếu đặc thải" />
+<Message Name="Cancel" Value="Hủy" />
+<Message Name="Search" Value="Tìm kiếm" />
+<Message Name="Insp. Date" Value="Ngày kiểm tra" />
+<Message Name="RT No" Value="Số phiếu RT" />
+<Message Name="Reject" Value="Loại bỏ" />
+<Message Name="Waive" Value="Đặc thải" />
+<Message Name="By Pass" Value="Miễn kiểm" />
+<Message Name="Hold" Value="Tạm giữ" />
+<Message Name="Pass" Value="Đạt" />
+<Message Name="Lot Part No" Value="Mã liệu" />
+<Message Name="Create Date" Value="Ngày tạo" />
+<Message Name="PO Number" Value="Số đơn đặt hàng" />
+<Message Name="Vendor Name" Value="Nhà cung cấp" />
+<Message Name="Vendor Code" Value="Mã nhà cung cấp" />
+<Message Name="Lot Size" Value="Số lượng lô" />
+<Message Name="Type Code" Value="Mã hạng mục kiểm tra" />
+<Message Name="SEQ" Value="SEQ" />
+<Message Name="Type Name" Value="Tên hạng mục kiểm tra" />
+<Message Name="Sample Type" Value="Kế hoạch lấy mẫu" />
+<Message Name="Level" Value="Mức độ kiểm tra" />
+<Message Name="Sample Size" Value="Số lượng mẫu" />
+<Message Name="Pass Qty" Value="Số lượng đạt" />
+<Message Name="Fail Qty" Value="Số lượng lỗi" />
+<Message Name="Result" Value="Kết quả kiểm tra" />
+<Message Name="Inspect Item" Value="Hạng mục kiểm tra" />
+<Message Name="Defect Code" Value="Mã lỗi" />
+<Message Name="Defect Description" Value="Mô tả lỗi" />
+<Message Name="Defect Description2" Value="Mô tả lỗi (2)" />
+<Message Name="Defect Qty" Value="Số lượng lỗi" />
+<Message Name="Memo" Value="Ghi chú" />
+<Message Name="MRB Memo" Value="Ghi chú MRB" />
+<Message Name="Delete" Value="Xóa" />
+<Message Name="Item Name" Value="Tên hạng mục kiểm tra" />
+<Message Name="Value" Value="Giá trị kiểm tra" />
+<Message Name="Lot No" Value="Số lô kiểm tra" />
+<Message Name="Unit" Value="Đơn vị" />
+<Message Name="Critical Qty" Value="Lỗi nghiêm trọng" />
+<Message Name="Major Qty" Value="Lỗi chính" />
+<Message Name="Minor Qty" Value="Lỗi phụ" />
+<Message Name="Min Size" Value="Giới hạn dưới lô" />
+<Message Name="Max Size" Value="Giới hạn trên lô" />
+<Message Name="Change Sample Type" Value="Thay đổi kế hoạch lấy mẫu" />
+<Message Name="Lot No Error" Value="Sai số lô kiểm tra" />
+<Message Name="Save" Value="Lưu" />
+<Message Name="Error" Value="Lỗi" />
+<Message Name="Upload ERP" Value="Tải lên ERP" />
+<Message Name="Upload ERP?" Value="Xác nhận tải lên ERP?" />
+<Message Name="Upload ERP Success" Value="Tải lên ERP thành công" />
+<Message Name="QTY" Value="Số lượng" />
+
+<Message Name="Pass Qty Error" Value="Số lượng đạt không hợp lệ" />
+<Message Name="Fail Qty Error" Value="Số lượng lỗi không hợp lệ" />
+<Message Name="Pass Qty + Fail Qty more than Lot Size" Value="Số đạt + số lỗi lớn hơn số lượng lô" />
+<Message Name="Sample Type Error" Value="Kế hoạch lấy mẫu không hợp lệ" />
+<Message Name="Sample Size Error" Value="Số lượng mẫu không hợp lệ" />
+<Message Name="Pass Qty + Fail Qty less than Sample Szie" Value="Số đạt + số lỗi nhỏ hơn số lượng mẫu" />
+<Message Name="Sample Size = 0" Value="Số lượng mẫu = 0" />
+<Message Name="Please Select Lot No" Value="Vui lòng chọn số lô" />
+<Message Name="Not Define Test Type" Value="Chưa định nghĩa hạng mục kiểm tra" />
+<Message Name="Unhold" Value="Gỡ tạm giữ" />
+<Message Name="Status" Value="Trạng thái" />
+<Message Name="Please Input Defect Code" Value="Vui lòng nhập mã lỗi" />
+<Message Name="Please Input Defect Qty" Value="Vui lòng nhập số lượng lỗi" />
+<Message Name="Defect Code Duplicate" Value="Mã lỗi bị trùng" />
+<Message Name="Delete this Defect Code ?" Value="Xóa mã lỗi này?" />
+<Message Name="Inspection Result unknow" Value="Kết quả kiểm tra không xác định" />
+<Message Name="Can not Pass this Lot" Value="Không thể cho lô này đạt" />
+<Message Name="Close" Value="Thoát" />
+<Message Name="Save OK" Value="Lưu thành công" />
+<Message Name="Start Time" Value="Thời gian bắt đầu" />
+<Message Name="End Time" Value="Thời gian kết thúc" />
+<Message Name="Receive Qty" Value="Số lượng nhận đạt" />
+<Message Name="Reject Qty" Value="Số lượng loại bỏ" />
+<Message Name="Employee" Value="Nhân viên" />
+<Message Name="Query" Value="Truy vấn" />
+<Message Name="Date" Value="Ngày" />
+<Message Name="Part No" Value="Mã liệu" />
+<Message Name="IQC History" Value="Lịch sử kiểm tra IQC" />
+<Message Name="Defect Code Error" Value="Mã lỗi không hợp lệ" />
+<Message Name="Append" Value="Thêm mới" />
+<Message Name="Modify" Value="Chỉnh sửa" />
+<Message Name="Approved" Value="Đã phê duyệt" />
+<Message Name="Wait Approve" Value="Chờ phê duyệt" />
+<Message Name="Version" Value="Phiên bản" />
+<Message Name="Item Desc" Value="Mô tả vấn đề" />
+<Message Name="Approve Date" Value="Ngày phê duyệt" />
+<Message Name="Approve Emp" Value="Nhân viên phê duyệt" />
+<Message Name="Approve Employee" Value="Nhân viên phê duyệt" />
+
+<Message Name="Request Date" Value="Ngày phản ánh" />
+<Message Name="IQC Inspection" Value="Kiểm tra IQC" />
+<Message Name="WIP Response" Value="Phản hồi sản xuất" />
+<Message Name="History" Value="Lịch sử" />
+<Message Name="Start RoHS" Value="Bắt đầu RoHS" />
+<Message Name="Stop RoHS" Value="Dừng RoHS" />
+<Message Name="Rollback" Value="Khôi phục" />
+<Message Name="Normal Item" Value="Hạng mục thường" />
+<Message Name="RoHS" Value="Hạng mục RoHS" />
+<Message Name="Position" Value="Vị trí kiểm tra" />
+<Message Name="NG Item Qty" Value="Số lượng NG" />
+<Message Name="OK Item Qty" Value="Số lượng OK" />
+<Message Name="Insp Work Hours" Value="Giờ công kiểm tra" />
+<Message Name="Material Ver" Value="Phiên bản vật liệu" />
+<Message Name="Lot Memo" Value="Ghi chú lô" />
+<Message Name="DMDA" Value="Phiếu DMDA" />
+<Message Name="Please Input Inspection Position" Value="Vui lòng nhập vị trí kiểm tra" />
+<Message Name="APPEND" Value="Thêm" />
+<Message Name="MODIFY" Value="Sửa" />
+<Message Name="Rollback Lot No" Value="Khôi phục số lô" />
+<Message Name="RoHS NG,Please Reject this Lot" Value="RoHS NG, lô này phải loại bỏ" />
+<Message Name="Please Confirm RoHS Result" Value="Vui lòng xác nhận kết quả RoHS" />
+<Message Name="Receive Qty Error" Value="Số lượng nhận không hợp lệ" />
+<Message Name="Insp Work Hours Error" Value="Giờ công kiểm tra không hợp lệ" />
+<Message Name="Inspection Item" Value="Hạng mục kiểm tra" />
+<Message Name="Sampling Plan" Value="Kế hoạch lấy mẫu" />
+<Message Name="OK" Value="Xác nhận" />
+<Message Name="Good" Value="OK" />
+<Message Name="USL" Value="Giới hạn trên" />
+<Message Name="LSL" Value="Giới hạn dưới" />
+<Message Name="CL" Value="Đường trung tâm" />
+<Message Name="UCL" Value="Giới hạn kiểm soát trên" />
+<Message Name="LCL" Value="Giới hạn kiểm soát dưới" />
+<Message Name="Unit" Value="Đơn vị" />
+<Message Name="Defect Data" Value="Dữ liệu lỗi" />
+<Message Name="Item Code" Value="Mã hạng mục" />
+<Message Name="Min Insp Qty" Value="Số kiểm tra tối thiểu" />
+<Message Name="Inspected Qty less than Min Insp Qty" Value="Số kiểm tra nhỏ hơn mức tối thiểu" />
+<Message Name="PASS QTY and FAIL QTY is Null" Value="Chưa nhập số đạt và số lỗi" />
+<Message Name="Disabled" Value="Không sử dụng" />
+<Message Name="Enabled" Value="Kích hoạt" />
+<Message Name="Export" Value="Xuất dữ liệu" />
+<Message Name="All" Value="Tất cả" />
+<Message Name="Filter" Value="Bộ lọc" />
+<Message Name="History Log" Value="Nhật ký lịch sử" />
+<Message Name="Remove" Value="Gỡ bỏ" />
+<Message Name="EMP_NAME" Value="Người thao tác" />
+<Message Name="UPDATE_TIME" Value="Thời gian cập nhật" />
+<Message Name="ENABLED" Value="Có hiệu lực" />
+<Message Name="Data Duplicate" Value="Dữ liệu trùng lặp" />
+<Message Name="Data Append OK" Value="Thêm dữ liệu thành công" />
+<Message Name="Append Other Data" Value="Tiếp tục thêm dữ liệu khác" />
+<Message Name="Note" Value="Lưu ý" />
+<Message Name="Emp No" Value="Mã nhân viên" />
+<Message Name="Emp Name" Value="Tên nhân viên" />
+<Message Name="Please Input Part No" Value="Vui lòng nhập mã liệu" />
+<Message Name="Please Input Note" Value="Vui lòng nhập lưu ý" />
+<Message Name="Part No Error" Value="Sai mã liệu" />
+<Message Name="All Test Item" Value="Tất cả hạng mục kiểm tra" />
+<Message Name="Test Item for Value" Value="Hạng mục kiểm tra - Giá trị" />
+<Message Name="Normal" Value="Bình thường" />
+<Message Name="Tight" Value="Tăng cường" />
+<Message Name="Reduce" Value="Giảm tần suất" />
+<Message Name="By Pass" Value="Miễn kiểm" />
+<Message Name="Inspect Item / Defect" Value="Hạng mục kiểm tra / Dữ liệu lỗi" />
+<Message Name="There are defect data. Fail Qty must more than 0" Value="Có dữ liệu lỗi, số lỗi phải lớn hơn 0" />
+<Message Name="Fail Qty more than 0 ,but there is not defect data" Value="Số lỗi > 0 nhưng không có dữ liệu lỗi" />
+<Message Name="Sure to Complete this Item ?" Value="Xác nhận hoàn thành hạng mục này?" />
+<Message Name="Sample Level is not By Pass. Continue ?" Value="Cấp độ mẫu không phải miễn kiểm, tiếp tục?" />
+<Message Name="Sample Level is not By Pass." Value="Cấp độ mẫu không phải miễn kiểm" />
+<Message Name="Change ALL Test Type ?" Value="Thay đổi kế hoạch lấy mẫu cho tất cả hạng mục?" />
+<Message Name="Please Input Memo" Value="Vui lòng nhập ghi chú" />
+<Message Name="Not Found RoHS Records. Sure to Finish this Lot ?" Value="Không có dữ liệu RoHS, chắc chắn hoàn tất lô này?" />
+<Message Name="Save Memo OK" Value="Lưu ghi chú thành công" />
+<Message Name="Attach File" Value="Tập tin đính kèm" />
+<Message Name="Download" Value="Tải xuống" />
+<Message Name="Download File" Value="Tải tập tin" />
+<Message Name="Delete File" Value="Xóa tập tin" />
+<Message Name="Download File Finish" Value="Tải tập tin hoàn tất" />
+<Message Name="File Name" Value="Tên tập tin" />
+<Message Name="Size" Value="Kích thước (K)" />
+<Message Name="File Name Duplicate" Value="Trùng tên tập tin" />
+<Message Name="Size Can not Over 5M" Value="Kích thước tập tin không vượt quá 5MB" />
+<Message Name="Not Define Sample Size" Value="Chưa định nghĩa số lượng mẫu" />
+<Message Name="Sure to Continue" Value="Xác nhận tiếp tục?" />
+<Message Name="Modify Memo" Value="Sửa ghi chú" />
+<Message Name="RT No Error" Value="Sai số phiếu RT" />
+<Message Name="Lot Level" Value="Cấp độ lô" />
+<Message Name="Exception Memo" Value="Ghi chú ngoại lệ" />
+<Message Name="Lot Exception Memo" Value="Ghi chú ngoại lệ lô" />
+<Message Name="Modify Lot Size" Value="Sửa số lượng lô" />
+<Message Name="Modify Exception Memo" Value="Sửa ghi chú ngoại lệ" />
+<Message Name="New Lot Size can not over old Lot Size" Value="Số lượng lô mới không được lớn hơn số cũ" />
+<Message Name="Lot Size Error" Value="Số lượng lô không hợp lệ" />
+<Message Name="Lot Size will be change. Continue?" Value="Số lượng lô sẽ thay đổi, tiếp tục?" />
+<Message Name="Your choice is not By Pass,Continue ?" Value="Bạn không chọn miễn kiểm, tiếp tục?" />
+<Message Name="QC result" Value="Kết quả QC" />
+<Message Name="Lot Status is hold. Please unhold this lot first" Value="Lô đang tạm giữ, vui lòng gỡ tạm giữ trước" />
+<Message Name="Qty Error" Value="Số lượng nhập không hợp lệ" />
+<Message Name="Import Test Result" Value="Nhập kết quả kiểm tra" />
+<Message Name="Test Type" Value="Hạng mục kiểm tra" />
+<Message Name="Save?" Value="Xác nhận lưu?" />
+<Message Name="Not input waive result" Value="Chưa nhập kết quả đặc thải" />
+<Message Name="input waive result" Value="Nhập kết quả đặc thải" />
+
+<Message Name="Now Stuts" Value="Trạng thái hiện tại" />
+<Message Name="PART_NO" Value="Mã liệu" />
+<Message Name="SPEC1" Value="Tên sản phẩm" />
+<Message Name="Export" Value="Xuất dữ liệu" />
+
+<Message Name="VENDOR_CODE" Value="Mã nhà cung cấp" />
+<Message Name="VENDOR_NAME" Value="Nhà cung cấp" />
+<Message Name="Change to Waive?" Value="Xác nhận chuyển sang đặc thải?" />
+       </Ngôn_ngữ_Việt>
+	<简体中文>
+		<Message Name="Waive No" Value="特采单号" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Search" Value="寻找" />
+		<Message Name="Insp. Date" Value="检验日期" />
+		<Message Name="RT No" Value="RT单号" />
+		<Message Name="Reject" Value="批退" />
+		<Message Name="Waive" Value="特采" />
+		<Message Name="By Pass" Value="免验" />
+		<Message Name="Hold" Value="暂停" />
+		<Message Name="Pass" Value="允收" />
+		<Message Name="Lot Part No" Value="料号" />
+		<Message Name="Create Date" Value="建立日期" />
+		<Message Name="PO Number" Value="订单号" />
+		<Message Name="Vendor Name" Value="供货商" />
+		<Message Name="Vendor Code" Value="供货商代码" />
+		<Message Name="Lot Size" Value="批量" />
+		<Message Name="Type Code" Value="测试大项代码" />
+		<Message Name="SEQ" Value="SEQ" />
+		<Message Name="Type Name" Value="测试大项名称" />
+		<Message Name="Sample Type" Value="抽验计划" />
+		<Message Name="Level" Value="抽验等级" />
+		<Message Name="Sample Size" Value="抽验数量" />
+		<Message Name="Pass Qty" Value="良品数" />
+		<Message Name="Fail Qty" Value="不良品数" />
+		<Message Name="Result" Value="检验结果" />
+		<Message Name="Inspect Item" Value="检验项目" />
+		<Message Name="Defect Code" Value="不良代码" />
+		<Message Name="Defect Description" Value="不良描述" />
+		<Message Name="Defect Description2" Value="不良描述(2)" />
+		<Message Name="Defect Qty" Value="不良数量" />
+		<Message Name="Memo" Value="备注" />
+		<Message Name="MRB Memo" Value="MRB备注" />
+		<Message Name="Delete" Value="删除" />
+		<Message Name="Item Name" Value="测试项目名称" />
+		<Message Name="Value" Value="测试值" />
+		<Message Name="Lot No" Value="检验批号" />
+		<Message Name="Unit" Value="单位" />
+		<Message Name="Critical Qty" Value="重缺" />
+		<Message Name="Major Qty" Value="主缺" />
+		<Message Name="Minor Qty" Value="次缺" />
+		<Message Name="Min Size" Value="批量下限" />
+		<Message Name="Max Size" Value="批量上限" />
+		<Message Name="Change Sample Type" Value="变更抽验计划" />
+		<Message Name="Lot No Error" Value="检验批号错误" />
+		<Message Name="Save" Value="储存" />
+		<Message Name="Error" Value="错误" />
+		<Message Name="Upload ERP" Value="上传ERP" />
+		<Message Name="Upload ERP?" Value="确定要上传ERP" />
+		<Message Name="Upload ERP Success" Value="上传ERP成功" />
+		<Message Name="QTY" Value="数量" />
+
+		<Message Name="Pass Qty Error" Value="良品数量错误" />
+		<Message Name="Fail Qty Error" Value="不良品数量错误" />
+		<Message Name="Pass Qty + Fail Qty more than Lot Size" Value="良品数 + 不良品数 大于 批量" />
+		<Message Name="Sample Type Error" Value="抽验计划错误" />
+
+		<Message Name="Sample Size Error" Value="抽验数量错误" />
+		<Message Name="Pass Qty + Fail Qty less than Sample Szie" Value="良品数 + 不良品数 小于 抽验数量" />
+		<Message Name="Sample Size = 0" Value="抽验数量 = 0" />
+		<Message Name="Please Select Lot No" Value="请选择检验单" />
+		<Message Name="Not Define Test Type" Value="没有定义测试项目" />
+		<Message Name="Unhold" Value="解除暂停" />
+		<Message Name="Status" Value="状态" />
+		<Message Name="Please Input Defect Code" Value="请输入不良代码" />
+		<Message Name="Please Input Defect Qty" Value="请输入不良现象数量" />
+		<Message Name="Defect Code Duplicate" Value="不良代码重复" />
+		<Message Name="Delete this Defect Code ?" Value="删除此不良代码" />
+		<Message Name="Inspection Result unknow" Value="未知的检验结果" />
+		<Message Name="Can not Pass this Lot" Value="不能允收此检验批" />
+		<Message Name="Close" Value="离开" />
+		<Message Name="Save OK" Value="储存完成" />
+		<Message Name="Start Time" Value="开始时间" />
+		<Message Name="End Time" Value="结束时间" />
+		<Message Name="Receive Qty" Value="允收数量" />
+		<Message Name="Reject Qty" Value="批退数量" />
+		<Message Name="Employee" Value="员工" />
+		<Message Name="Query" Value="查询" />
+		<Message Name="Date" Value="日期" />
+		<Message Name="Part No" Value="料号" />
+		<Message Name="IQC History" Value="检验记录查询" />
+		<Message Name="Defect Code Error" Value="不良现象错误" />
+		<Message Name="Append" Value="新增" />
+		<Message Name="Modify" Value="修改" />
+		<Message Name="Approved" Value="已核准" />
+		<Message Name="Wait Approve" Value="等待核准" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="Item Desc" Value="问题描述" />
+		<Message Name="Approve Date" Value="核准时间" />
+		<Message Name="Approve Emp" Value="核准员工" />
+		<Message Name="Approve Employee" Value="核准员工" />
+		<Message Name="Request Date" Value="反应日期" />
+		<Message Name="Status" Value="状态" />
+		<Message Name="IQC Inspection" Value="IQC检验记录" />
+		<Message Name="WIP Response" Value="制程反应" />
+		<Message Name="History" Value="历史记录" />
+		<Message Name="Start RoHS" Value="启动RoHS" />
+		<Message Name="Stop RoHS" Value="停止RoHS" />
+		<Message Name="Rollback" Value="复原" />
+		<Message Name="Normal Item" Value="一般项目" />
+		<Message Name="RoHS" Value="RoHS项目" />
+		<Message Name="Query" Value="查询" />
+		<Message Name="Close" Value="关闭" />
+		<Message Name="Position" Value="检测部位" />
+		<Message Name="NG Item Qty" Value="NG大项数量" />
+		<Message Name="OK Item Qty" Value="OK大项数量" />
+		<Message Name="Insp Work Hours" Value="检验工时" />
+		<Message Name="Insp Work Hours" Value="检验工时" />
+		<Message Name="Material Ver" Value="材料版本" />
+		<Message Name="Lot Memo" Value="批号备注" />
+		<Message Name="DMDA" Value="DMDA单" />
+		<Message Name="Please Input Inspection Position" Value="请输入检测部位" />
+		<Message Name="APPEND" Value="新增" />
+		<Message Name="MODIFY" Value="修改" />
+		<Message Name="Rollback Lot No" Value="复原检验批号" />
+		<Message Name="RoHS NG,Please Reject this Lot" Value="RoHS项目NG,此批必须判退" />
+		<Message Name="Please Confirm RoHS Result" Value="请确认RoHS项目的结果" />
+		<Message Name="Receive Qty Error" Value="允数数量错误" />
+		<Message Name="Insp Work Hours Error" Value="检验工时错误" />
+		<Message Name="Inspection Item" Value="测试项目" />
+		<Message Name="Sampling Plan" Value="抽验计划" />
+		<Message Name="OK" Value="确定" />
+		<Message Name="Good" Value="OK" />
+		<Message Name="USL" Value="规格上限" />
+		<Message Name="LSL" Value="规格下限" />
+		<Message Name="CL" Value="中心线" />
+		<Message Name="UCL" Value="管制上限" />
+		<Message Name="LCL" Value="管制下限" />
+		<Message Name="Unit" Value="单位" />
+		<Message Name="Defect Data" Value="不良资料" />
+		<Message Name="Item Code" Value="测试项目代码" />
+		<Message Name="Min Insp Qty" Value="最少检验数" />
+		<Message Name="Inspected Qty less than Min Insp Qty" Value="检验个数 小于 最少检验数" />
+		<Message Name="PASS QTY and FAIL QTY is Null" Value="良品数与不良品数尚未输入" />
+		<Message Name="Disabled" Value="停用" />
+		<Message Name="Enabled" Value="可用" />
+		<Message Name="Delete" Value="删除" />
+		<Message Name="Append" Value="新增" />
+		<Message Name="Modify" Value="修改" />
+		<Message Name="Export" Value="汇出" />
+		<Message Name="All" Value="全部" />
+		<Message Name="Filter" Value="过滤条件" />
+		<Message Name="History Log" Value="历史纪录" />
+		<Message Name="OK" Value="确定" />
+		<Message Name="Cancel" Value="取消" />
+		<Message Name="Search" Value="寻找" />
+		<Message Name="Remove" Value="移除" />
+		<Message Name="EMP_NAME" Value="异动人员" />
+		<Message Name="UPDATE_TIME" Value="异动时间" />
+		<Message Name="ENABLED" Value="是否有效" />
+		<Message Name="Data Duplicate" Value="数据重复" />
+		<Message Name="Data Append OK" Value="资料新增成功" />
+		<Message Name="Append Other Data" Value="继续新增其他数据" />
+		<Message Name="Note" Value="注意事项" />
+		<Message Name="Emp No" Value="工号" />
+		<Message Name="Emp Name" Value="姓名" />
+		<Message Name="Update Time" Value="异动时间" />
+		<Message Name="Please Input Part No" Value="请输入料号" />
+		<Message Name="Please Input Note" Value="请输入注意事项" />
+		<Message Name="Part No Error" Value="料号错误" />
+		<Message Name="All Test Item" Value="所有测试项目" />
+		<Message Name="Test Item for Value" Value="测试项目 - 测试值" />
+		<Message Name="Normal" Value="正常" />
+		<Message Name="Tight" Value="加严" />
+		<Message Name="Reduce" Value="减量" />
+		<Message Name="By Pass" Value="免验" />
+		<Message Name="Inspect Item / Defect" Value="检验项目 / 不良数据" />
+		<Message Name="There are defect data. Fail Qty must more than 0" Value="此大项有不良数据,不良品数必须大于零" />
+		<Message Name="Fail Qty more than 0 ,but there is not defect data" Value="不良品数大于零,但是没有任何不良数据" />
+		<Message Name="Sure to Complete this Item ?" Value="确定要完成这个检验大项 ?" />
+		<Message Name="Sample Level is not By Pass. Continue ?" Value="抽验计划等级不是免验,要继续吗 ?" />
+		<Message Name="Sample Level is not By Pass." Value="抽验计划等级不是免验" />
+		<Message Name="Change ALL Test Type ?" Value="同时变更所有测试大项的抽验计划 ?" />
+		<Message Name="Please Input Memo" Value="请输入备注" />
+		<Message Name="Not Found RoHS Records. Sure to Finish this Lot ?" Value="没有输入任何RoHS项目,确定要完成此批号?" />
+		<Message Name="Save Memo OK" Value="备注储存完成" />
+		<Message Name="Attach File" Value="附加档案" />
+		<Message Name="Download" Value="下载" />
+		<Message Name="Download File" Value="下载文件" />
+		<Message Name="Delete File" Value="删除档案" />
+		<Message Name="Download File Finish" Value="下载文件完成" />
+		<Message Name="File Name" Value="文件名" />
+		<Message Name="Size" Value="大小(K)" />
+		<Message Name="File Name Duplicate" Value="文件名重复" />
+		<Message Name="Size Can not Over 5M" Value="档案大小不能超过5M" />
+		<Message Name="Not Define Sample Size" Value="没有定义抽验数" />
+		<Message Name="Sure to Continue" Value="确定要继续" />
+		<Message Name="Modify Memo" Value="修改备注" />
+		<Message Name="RT No Error" Value="RT单号错误" />
+		<Message Name="Lot Level" Value="等级" />
+		<Message Name="Exception Memo" Value="异常备注" />
+		<Message Name="Lot Exception Memo" Value="批号异常备注" />
+		<Message Name="Modify Lot Size" Value="修改批量" />
+		<Message Name="Modify Exception Memo" Value="修改异常备注" />
+		<Message Name="New Lot Size can not over old Lot Size" Value="新的批量不能大于原始批量" />
+		<Message Name="Lot Size Error" Value="批量错误" />
+		<Message Name="Lot Size will be change. Continue?" Value="批量将被变更,确定要继续?" />
+		<Message Name="Your choice is not By Pass,Continue ?" Value="你不是选择免验等级,确定要继续吗?" />
+		<Message Name="QC result" Value="批号检验结果" />
+		<Message Name="Lot Status is hold. Please unhold this lot first" Value="检验单为暂停状态，请先解除暂停" />
+		<Message Name="Qty Error" Value="良品或不良品数量不正确" />
+		<Message Name="Import Test Result" Value="输入测试大项结果" />
+		<Message Name="Test Type" Value="测试大项" />
+		<Message Name="Save?" Value="确定储存?" />
+		<Message Name="Not input waive result" Value="未输入特采结果" />
+		<Message Name="input waive result" Value="输入特采结果" />
+
+		<Message Name="Now Stuts" Value="目前状态为" />
+		<Message Name="PART_NO" Value="料号" />
+		<Message Name="SPEC1" Value="品名" />
+		<Message Name="Export" Value="汇出" />
+
+		<Message Name="VENDOR_CODE" Value="供货商代码" />
+		<Message Name="VENDOR_NAME" Value="供货商" />
+		<Message Name="Change to Waive?" Value="是否确认复判为特采?" />
+
+	</简体中文>
+</Chroma>
+
+

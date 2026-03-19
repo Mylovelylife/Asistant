@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+<English>
+    <Message Name="New" Value="New"/>
+    <Message Name="Old" Value="Old"/>
+    <Message Name="Number Type" Value="Number Type"/>
+    <Message Name="New No" Value="New No"/>
+    <Message Name="Qty" Value="Qty"/>
+    <Message Name="Work Order" Value="Work Order"/>
+    <Message Name="Part No" Value="Part No"/>
+    <Message Name="Serial Number" Value="Serial Number"/>
+    <Message Name="Customer SN" Value="Customer SN"/>
+    <Message Name="SN" Value="SN"/>
+    <Message Name="S/N" Value="S/N"/>
+    <Message Name="Box" Value="Box"/>
+    <Message Name="Carton" Value="Carton"/>
+    <Message Name="Box No" Value="Box No"/>
+    <Message Name="Carton No" Value="Carton No"/>
+    <Message Name="Pallet No" Value="Pallet No"/>
+    <Message Name="SN/CSN" Value="SN/CSN"/>
+    <Message Name="Packing Spec" Value="Packing Spec"/>
+    <Message Name="Carton Capacity" Value="Carton Capacity"/>
+    <Message Name="Carton Qty" Value="Carton Qty"/>
+    <Message Name="Box Capacity" Value="Box Capacity"/>
+    <Message Name="Box Qty" Value="Box Qty"/>
+    <Message Name="Pallet Capacity" Value="Pallet Capacity"/>
+    <Message Name="Pallet Qty" Value="Pallet Qty"/>
+    <Message Name="Repacking/Carton" Value="Repacking/Carton"/>
+    <Message Name="Repacking/Box" Value="Repacking/Box"/>
+    <Message Name="Repacking/Pallet" Value="Repacking/Pallet"/>
+    <Message Name="Repacking Type Error" Value="Repacking Type Error"/>
+    <Message Name="not Closed" Value="not Closed"/>
+    <Message Name="Had been Rejected" Value="Had been Rejected"/>
+    <Message Name="Had been Shipped" Value="Had been Shipped"/>
+    <Message Name="S/N Error" Value="S/N Error"/>
+    <Message Name="not found" Value="not found"/>
+    <Message Name="Duplicate" Value="Duplicate"/>
+    <Message Name="Not pass QC" Value="Not pass QC"/>
+    <Message Name="Over Capacity" Value="Over Capacity"/>
+    <Message Name="Part No Different" Value="Part No Different"/>
+    <Message Name="QC Status Different" Value="QC Status Different"/>
+    <Message Name="QC Status" Value="QC Status"/>
+    <Message Name="Process Different" Value="Process Different"/>
+    <Message Name="QC No Different" Value="QC No Different"/>
+    <Message Name="QC No" Value="QC No"/>
+    <Message Name="Output Status Different" Value="Output Status Different"/>
+    <Message Name="Work Order Error" Value="Work Order Error"/>
+    <Message Name="Rule not define" Value="Rule not define"/>
+    <Message Name="Error" Value="Error"/>
+    <Message Name="Create New No By Rule" Value="Create New No By Rule"/>
+    <Message Name="OK" Value="OK"/>
+    <Message Name="Cancel" Value="Cancel"/>
+    <Message Name="Version" Value="Version"/>
+    <Message Name="QC Result" Value="QC Result"/>
+    <Message Name="Waiting QC Confirm" Value="Waiting QC Confirm"/>
+    <Message Name="Serial Number Not Found" Value="Serial Number Not Found"/>
+</English>
+  <English/>
+  <繁體中文>
+    <Message Name="New" Value="新"/>
+    <Message Name="Old" Value="舊"/>
+    <Message Name="Number Type" Value="號碼類型?"/>
+    <Message Name="New No" Value="新號碼"/>
+    <Message Name="Qty" Value="數量"/>
+    <Message Name="Work Order" Value="工單"/>
+    <Message Name="Part No" Value="料號"/>
+    <Message Name="Serial Number" Value="序號"/>
+    <Message Name="Customer SN" Value="客戶序號"/>
+    <Message Name="SN" Value="序號"/>
+    <Message Name="S/N" Value="序號"/>
+    <Message Name="Box" Value="彩盒"/>
+    <Message Name="Carton" Value="外箱"/>
+    <Message Name="Box No" Value="彩盒號"/>
+    <Message Name="Carton No" Value="箱號"/>
+    <Message Name="Pallet No" Value="棧板號"/>
+    <Message Name="SN/CSN" Value="序號/客戶序號"/>
+    <Message Name="Packing Spec" Value="包裝規格"/>
+    <Message Name="Carton Capacity" Value="箱容量"/>
+    <Message Name="Carton Qty" Value="箱數量"/>
+    <Message Name="Box Capacity" Value="彩盒容量"/>
+    <Message Name="Box Qty" Value="彩盒數量"/>
+    <Message Name="Pallet Capacity" Value="棧板容量"/>
+    <Message Name="Pallet Qty" Value="棧板數量"/>
+    <Message Name="Repacking/Carton" Value="重包/箱"/>
+    <Message Name="Repacking/Box" Value="重包/彩盒"/>
+    <Message Name="Repacking/Pallet" Value="重包/棧板"/>
+    <Message Name="Repacking Type Error" Value="重包類型錯誤"/>
+    <Message Name="not Closed" Value="尚未關閉"/>
+    <Message Name="Had been Rejected" Value="已批退"/>
+    <Message Name="Had been Shipped" Value="已出貨"/>
+    <Message Name="S/N Error" Value="序號錯誤"/>
+    <Message Name="not found" Value="不存在"/>
+    <Message Name="Duplicate" Value="重複"/>
+    <Message Name="Not pass QC" Value="未通過抽驗檢查"/>
+    <Message Name="Over Capacity" Value="超過容量"/>
+    <Message Name="Part No Different" Value="料號不同"/>
+    <Message Name="QC Status Different" Value="抽驗狀態不同"/>
+    <Message Name="QC Status" Value="抽驗狀態"/>
+    <Message Name="Process Different" Value="製程不同"/>
+    <Message Name="QC No Different" Value="抽驗批號不同"/>
+    <Message Name="QC No" Value="抽驗批號"/>
+    <Message Name="Output Status Different" Value="產出狀態不同"/>
+    <Message Name="Work Order Error" Value="工單錯誤"/>
+    <Message Name="Rule not define" Value="編碼規則未定義"/>
+    <Message Name="Error" Value="錯誤"/>
+    <Message Name="Create New No By Rule" Value="建立新號碼(使用編碼規則)"/>
+    <Message Name="OK" Value="確定"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Version" Value="版本"/>
+    <Message Name="QC Result" Value="抽驗結果"/>
+    <Message Name="Waiting QC Confirm" Value="等待QC確認"/>
+    <Message Name="Serial Number Not Found" Value="找不到序號"/>  
+    <Message Name="/pallet qty:" Value="/栈板："/>
+    
+  </繁體中文>
+  <简体中文>
+    <Message Name="New" Value="新"/>
+    <Message Name="Old" Value="旧"/>
+    <Message Name="Number Type" Value="号码类型?"/>
+    <Message Name="New No" Value="新号码"/>
+    <Message Name="Qty" Value="数量"/>
+    <Message Name="Work Order" Value="工单"/>
+    <Message Name="Part No" Value="料号"/>
+    <Message Name="Serial Number" Value="序号"/>
+    <Message Name="Customer SN" Value="客户序号"/>
+    <Message Name="SN" Value="序号"/>
+    <Message Name="S/N" Value="序号"/>
+    <Message Name="Box" Value="彩盒"/>
+    <Message Name="Carton" Value="外箱"/>
+    <Message Name="Box No" Value="彩盒号"/>
+    <Message Name="Carton No" Value="箱号"/>
+    <Message Name="Pallet No" Value="栈板号"/>
+    <Message Name="SN/CSN" Value="序号/客户序号"/>
+    <Message Name="Packing Spec" Value="包装规格"/>
+    <Message Name="Carton Capacity" Value="箱容量"/>
+    <Message Name="Carton Qty" Value="箱数量"/>
+    <Message Name="Box Capacity" Value="彩盒容量"/>
+    <Message Name="Box Qty" Value="彩盒数量"/>
+    <Message Name="Pallet Capacity" Value="栈板容量"/>
+    <Message Name="Pallet Qty" Value="栈板数量"/>
+    <Message Name="Repacking/Carton" Value="重包/箱"/>
+    <Message Name="Repacking/Box" Value="重包/彩盒"/>
+    <Message Name="Repacking/Pallet" Value="重包/栈板"/>
+    <Message Name="Repacking Type Error" Value="重包类型错误"/>
+    <Message Name="not Closed" Value="尚未关闭"/>
+    <Message Name="Had been Rejected" Value="已批退"/>
+    <Message Name="Had been Shipped" Value="已出货"/>
+    <Message Name="S/N Error" Value="序号错误"/>
+    <Message Name="not found" Value="不存在"/>
+    <Message Name="Duplicate" Value="重复"/>
+    <Message Name="Not pass QC" Value="未通过抽验检查"/>
+    <Message Name="Over Capacity" Value="超过容量"/>
+    <Message Name="Part No Different" Value="料号不同"/>
+    <Message Name="QC Status Different" Value="抽验状态不同"/>
+    <Message Name="QC Status" Value="抽验状态"/>
+    <Message Name="Process Different" Value="制程不同"/>
+    <Message Name="QC No Different" Value="抽验批号不同"/>
+    <Message Name="QC No" Value="抽验批号"/>
+    <Message Name="Output Status Different" Value="产出状态不同"/>
+    <Message Name="Work Order Error" Value="工单错误"/>
+    <Message Name="Rule not define" Value="编码规则未定义"/>
+    <Message Name="Error" Value="错误"/>
+    <Message Name="Create New No By Rule" Value="建立新号码(使用编码规则)"/>
+    <Message Name="OK" Value="确定"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Version" Value="版本"/>
+    <Message Name="QC Result" Value="抽验结果"/>
+    <Message Name="Waiting QC Confirm" Value="等待QC确认"/>
+    <Message Name="Serial Number Not Found" Value="找不到序号"/>
+    <Message Name="/pallet qty:" Value="/栈板："/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="Part No" Value="Mã liệu"/><Message Name="QC No Different" Value="Số QC khác"/><Message Name="Duplicate" Value="Trùng"/><Message Name="SN/CSN" Value="SN/CSN"/><Message Name="Waiting QC Confirm" Value="Chờ xác nhận QC"/><Message Name="Carton Qty" Value="Số thùng"/><Message Name="Carton No" Value="Mã thùng"/><Message Name="QC Status Different" Value="Trạng thái QC khác"/><Message Name="Box Qty" Value="Số hộp"/><Message Name="Had been Rejected" Value="Đã bị từ chối"/><Message Name="New No" Value="Số mới"/><Message Name="Number Type" Value="Loại số"/><Message Name="Had been Shipped" Value="Đã xuất hàng"/><Message Name="Repacking/Box" Value="Đóng lại/Hộp"/><Message Name="Repacking/Pallet" Value="Đóng lại/Pallet"/><Message Name="Repacking Type Error" Value="Lỗi loại đóng lại"/><Message Name="Box" Value="Hộp"/><Message Name="Qty" Value="Số lượng"/><Message Name="QC Result" Value="Kết quả QC"/><Message Name="Process Different" Value="Quy trình khác"/><Message Name="S/N Error" Value="Lỗi SN"/><Message Name="Work Order" Value="Lệnh sản xuất"/><Message Name="QC Status" Value="Trạng thái QC"/><Message Name="Version" Value="Phiên bản"/><Message Name="Error" Value="Lỗi"/><Message Name="not Closed" Value="Chưa đóng"/><Message Name="Not pass QC" Value="Không qua QC"/><Message Name="Pallet Qty" Value="Số pallet"/><Message Name="New" Value="Mới"/><Message Name="Customer SN" Value="SN khách hàng"/><Message Name="Over Capacity" Value="Vượt sức chứa"/><Message Name="SN" Value="SN"/><Message Name="Output Status Different" Value="Trạng thái đầu ra khác"/><Message Name="Old" Value="Cũ"/><Message Name="Work Order Error" Value="Lỗi lệnh sản xuất"/><Message Name="Create New No By Rule" Value="Tạo số mới theo quy tắc"/><Message Name="Rule not define" Value="Chưa định nghĩa quy tắc"/><Message Name="Carton" Value="Thùng"/><Message Name="QC No" Value="Số QC"/><Message Name="Box No" Value="Mã hộp"/><Message Name="Serial Number Not Found" Value="Không tìm thấy số serial"/><Message Name="Packing Spec" Value="Quy cách đóng gói"/><Message Name="Box Capacity" Value="Sức chứa hộp"/><Message Name="not found" Value="Không tìm thấy"/><Message Name="Carton Capacity" Value="Sức chứa thùng"/><Message Name="Cancel" Value="Hủy"/><Message Name="Serial Number" Value="Số serial"/><Message Name="Pallet Capacity" Value="Sức chứa pallet"/><Message Name="/pallet qty:" Value="/số lượng pallet:"/><Message Name="OK" Value="OK"/><Message Name="Part No Different" Value="Mã liệu khác"/><Message Name="S/N" Value="SN"/><Message Name="Pallet No" Value="Mã pallet"/><Message Name="Repacking/Carton" Value="Đóng lại/Thùng"/></Ngôn_ngữ_Việt></Chroma>

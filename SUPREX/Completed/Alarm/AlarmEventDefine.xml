@@ -1,0 +1,613 @@
+﻿<Chroma>
+  <English>
+    <Message Name="MAIL_GROUP_NAME" Value="Mail Group" />
+    <Message Name="FIELD_NAME" Value="Field Name" />
+    <Message Name="FIELD_DESC" Value="Display Name" />
+    <Message Name="SHOW_POSITION" Value="Position" />
+    <Message Name="FONT_COLOR" Value="Font Color" />
+    <Message Name="BRUSH_COLOR" Value="Brush Color" />
+    <Message Name="SBOW_OPERATOR" Value="Operator" />
+    <Message Name="VISIBLE" Value="Visible" />
+    <Message Name="ROW_STYLE" Value="Row Style" />
+    <Message Name="SEQ" Value="Seq" />
+    <Message Name="FIELD_VALUE" Value="Field Value" />
+    <Message Name="SUBJECT_TITLE" Value="Subject Title" />
+    <Message Name="EMP_NAME" Value="Name" />
+    <Message Name="HYPERLINK" Value="Hyperlink" />
+    <Message Name="EVENT_TYPE_NAME" Value="Event Type" />
+  </English>
+  <繁體中文>
+    <Message Name="Copy To" Value="複製到" />
+    <Message Name="Copy From" Value="由..複製" />
+    <Message Name="Event Type" Value="告警類型" />
+    <Message Name="Mail Group" Value="郵件群組" />
+    <Message Name="Item Code" Value="告警項目代碼" />
+    <Message Name="Data is null" Value="資料未輸入" />
+    <Message Name="Item Desc" Value="告警項目說明" />
+    <Message Name="Necessary" Value="必要發送" />
+    <Message Name="Condition" Value="條件發送" />
+    <Message Name="Assign" Value="套用" />
+    <Message Name="Part No" Value="料號" />
+    <Message Name="Step" Value="層級" />
+    <Message Name="Level" Value="告警等級" />
+    <Message Name="Auto Close" Value="自動結束" />
+    <Message Name="Auto Alarm" Value="直接發送" />
+    <Message Name="Mail Group" Value="通知群組" />
+    <Message Name="Select All" Value="全部勾選" />
+    <Message Name="Select None" Value="取消全選" />
+    <Message Name="Event Time" Value="可處理時間" />
+    <Message Name="Machine Type" Value="機台類型" />
+    <Message Name="Auto Alarm cann't delete!" Value="自動告警不可刪除" />
+    <Message Name="Line" Value="線別" />
+    <Message Name="Stage" Value="區段" />
+    <Message Name="Process" Value="製程" />
+    <Message Name="Terminal" Value="工作站" />
+    <Message Name="(Mins.)" Value="(分)" />
+    <Message Name="Mail Subject" Value="郵件主旨" />
+    <Message Name="Include Detail Data" Value="含細項資料" />
+    <Message Name="PDLINE_NAME" Value="線別" />
+    <Message Name="PDLINE_DESC" Value="線別描述" />
+    <Message Name="STAGE_NAME" Value="區段" />
+    <Message Name="STAGE_DESC" Value="區段描述" />
+    <Message Name="PROCESS_NAME" Value="製程" />
+    <Message Name="PROCESS_DESC" Value="製程描述" />
+    <Message Name="Event Name" Value="事件" />
+    <Message Name="Factory" Value="廠別" />
+    <Message Name="Station" Value="工作站" />
+    <Message Name="Minor" Value="一般" />
+    <Message Name="Major" Value="嚴重" />
+    <Message Name="Critical" Value="極嚴重" />
+    <Message Name="Show Member" Value="顯示成員" />
+    <Message Name="EMP_NO" Value="工號" />
+    <Message Name="MEMBER_NAME" Value="姓名" />
+    <Message Name="Notice" Value="通知" />
+    <Message Name="Catagory" Value="分類" />
+    <Message Name="Parameter" Value="參數" />
+    <Message Name="Event Catagory" Value="分類" />
+    <Message Name="Event Parameter" Value="參數" />
+    <Message Name="About Yield Rate" Value="製程良率" />
+    <Message Name="Every N Hours" Value="每N小時" />
+    <Message Name="Product Qty" Value="生產數量" />
+    <Message Name="Yield Rate" Value="良率" />
+    <Message Name="Qty" Value="數量" />
+    <Message Name="Daily" Value="日" />
+    <Message Name="Weekly" Value="週" />
+    <Message Name="Monthly" Value="月" />
+    <Message Name="Daily Type" Value="週期類型" />
+    <Message Name="FIELD_NAME" Value="欄位名稱" />
+    <Message Name="FIELD_DESC" Value="顯示名稱" />
+    <Message Name="SHOW_POSITION" Value="欄位對齊" />
+    <Message Name="Font Color" Value="字型顏色" />
+    <Message Name="Brush Color" Value="筆刷顏色" />
+    <Message Name="FONT_COLOR" Value="字型顏色" />
+    <Message Name="BRUSH_COLOR" Value="筆刷顏色" />
+    <Message Name="Operator" Value="操作元" />
+    <Message Name="SHOW_OPERATOR" Value="操作元" />
+    <Message Name="Field Name" Value="欄位名稱" />
+    <Message Name="VISIBLE" Value="可見" />
+    <Message Name="Field Value" Value="欄位數值" />
+    <Message Name="For" Value="對" />
+    <Message Name="Row Style" Value="整行變色" />
+    <Message Name="ROW_STYLE" Value="整行變色" />
+    <Message Name="Seq" Value="順序" />
+    <Message Name="SEQ" Value="順序" />
+    <Message Name="FIELD_VALUE" Value="欄位數值" />
+    <Message Name="Color" Value="顏色" />
+    <Message Name="Field" Value="欄位" />
+    <Message Name="Head" Value="起始字元" />
+    <Message Name="Tail" Value="結束字元" />
+    <Message Name="HEAD_VALUE" Value="起始字元" />
+    <Message Name="TAIL_VALUE" Value="結束字元" />
+    <Message Name="BEFORE_SQL" Value="發送前SQL" />
+    <Message Name="AFTER_SQL" Value="發送後SQL" />
+    <Message Name="Before SQL" Value="發送前SQL" />
+    <Message Name="After SQL" Value="發送後SQL" />
+    <Message Name="MAIL_FIELD" Value="郵件欄位" />
+    <Message Name="MAIL_SEP" Value="分開發送" />
+    <Message Name="Mail Field" Value="郵件欄位" />
+    <Message Name="For Mail Separate" Value="分開發送" />
+    <Message Name="SUBJECT_TITLE" Value="郵件主旨" />
+    <Message Name="EMP_NAME" Value="姓名" />
+    <Message Name="EMAIL" Value="電子郵件" />
+    <Message Name="Macro" Value="執行巨集" />
+    <Message Name="Only DLL files can be used" Value="僅可使用DLL檔案" />
+    <Message Name="Row Command" Value="執行內容" />
+    <Message Name="Sheet Name" Value="名稱" />
+    <Message Name="Type" Value="類型" />
+    <Message Name="Connect Name" Value="連線名稱" />
+    <Message Name="Record Type" Value="查詢後命令類型" />
+    <Message Name="Update SQL" Value="更新SQL" />
+    <Message Name="2.Record" Value="2.查詢後命令" />
+    <Message Name="Record" Value="查詢後命令" />
+    <Message Name="Selected" Value="已選" />
+    <Message Name="Field Name" Value="欄位名稱" />
+    <Message Name="Direction" Value="參數類型" />
+    <Message Name="Source" Value="來源欄位" />
+    <Message Name="Field Mapping" Value="欄位對應" />
+    <Message Name="Connect Mode" Value="連線模式" />
+    <Message Name="Mail" Value="電子郵件" />
+    <Message Name="No" Value="工號" />
+    <Message Name="Name" Value="姓名" />
+    <Message Name="Dll File Name" Value="Dll檔案名稱" />
+    <Message Name="Employee No/Name/E-Mail" Value="工號/姓名/電子郵件" />
+    <Message Name="Sample File" Value="範本檔" />
+    <Message Name="File Name" Value="Excel檔案名稱" />
+    <Message Name="Memo Title" Value="其他說明內容" />
+    <Message Name="Enabled" Value="可用" />
+    <Message Name="Enable" Value="可用" />
+    <Message Name="Disabled" Value="停用" />
+    <Message Name="Disable" Value="停用" />
+    <Message Name="All" Value="全部" />
+    <Message Name="Append" Value="新增" />
+    <Message Name="Modify" Value="修改" />
+    <Message Name="Delete" Value="刪除" />
+    <Message Name="Export" Value="匯出" />
+    <Message Name="Import" Value="匯入" />
+    <Message Name="Event Type Name" Value="告警類型" />
+    <Message Name="Event Item ID" Value="告警項目內部代碼" />
+    <Message Name="Message Type" Value="告警類型" />
+    <Message Name="Exclude Holiday" Value="排除假日" />
+    <Message Name="Week" Value="週" />
+    <Message Name="Month" Value="月" />
+    <Message Name="SQL (Count != 0)" Value="SQL (筆數不為0)" />
+    <Message Name="Execute Hour" Value="執行時" />
+    <Message Name="Execute Minute" Value="執行分" />
+    <Message Name="Before Execute" Value="執行前命令" />
+    <Message Name="After Execute" Value="執行後命令" />
+    <Message Name="Last" Value="最後一天" />
+    <Message Name="Monday" Value="星期一" />
+    <Message Name="Tuesday" Value="星期二" />
+    <Message Name="Wednesday" Value="星期三" />
+    <Message Name="Thursday" Value="星期四" />
+    <Message Name="Friday" Value="星期五" />
+    <Message Name="Saturday" Value="星期六" />
+    <Message Name="Sunday" Value="星期日" />
+    <Message Name="Filter" Value="過濾" />
+    <Message Name="has one or more Event Item" Value="已設定告警項目" />
+    <Message Name="Can not delete it" Value="不可刪除" />
+    <Message Name="Data Duplicate" Value="資料重複" />
+    <Message Name="DUP" Value="資料重複" />
+    <Message Name="Data Append OK" Value="資料新增成功" />
+    <Message Name="Append Other Data" Value="繼續新增其他資料" />
+    <Message Name="Data Append OK!" Value="資料新增成功!" />
+    <Message Name="Append Other Data?" Value="繼續新增其他資料?" />
+    <Message Name="Data is null" Value="資料未輸入" />
+    <Message Name="Data Error" Value="資料錯誤" />
+    <Message Name="Date SQL" Value="日期SQL" />
+    <Message Name="Start Row" Value="起始行" />
+    <Message Name="OK" Value="確定" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="E-Mail" Value="電子郵件" />
+    <Message Name="Search" Value="搜尋" />
+    <Message Name="Position" Value="顯示位置" />
+    <Message Name="Visible" Value="可見" />
+    <Message Name="Right" Value="靠右" />
+    <Message Name="Left" Value="靠左" />
+    <Message Name="Center" Value="置中" />
+    <Message Name="Subject Title" Value="郵件次訊息" />
+    <Message Name="Sequence" Value="順序" />
+    <Message Name="Display Name" Value="顯示名稱" />
+    <Message Name="DB Type" Value="資料庫類型" />
+    <Message Name="Connection Name" Value="連線名稱" />
+    <Message Name="Connection String" Value="連線字串" />
+    <Message Name="Test" Value="連線測試" />
+    <Message Name="Server Name" Value="伺服器" />
+    <Message Name="Host Name" Value="伺服器" />
+    <Message Name="Uid" Value="使用者帳號" />
+    <Message Name="Password" Value="密碼" />
+    <Message Name="Port" Value="端口" />
+    <Message Name="Service Name" Value="服務名稱" />
+    <Message Name="Connection Mode" Value="連線模式" />
+    <Message Name="Connection Maintain" Value="連線模式維護" />
+    <Message Name="All Item" Value="所有資料" />
+    <Message Name="Choose Item" Value="已選資料" />
+    <Message Name="Mail Group Desc" Value="描述" />
+    <Message Name="Delete Table Data" Value="刪除表格資料" />
+    <Message Name="Except" Value="差集" />
+    <Message Name="3.Update" Value="3.異動主查詢" />
+    <Message Name="3.Table Expect" Value="3.差異處理" />
+    <Message Name="HYPERLINK" Value="超連結" />
+    <Message Name="Hyperlink" Value="超連結" />
+    <Message Name="EVENT_TYPE_NAME" Value="告警類型" />
+    <Message Name="Replace?" Value="取代?" />
+    <Message Name="Overwrite" Value="覆蓋" />
+    <Message Name="Ingore" Value="忽略" />
+    <Message Name="Save As" Value="另存為" />
+  </繁體中文>
+<Ngôn_ngữ_Việt>
+  <Message Name="Copy To" Value="Sao chép đến" />
+<Message Name="Copy From" Value="Sao chép từ" />
+<Message Name="Event Type" Value="Loại cảnh báo" />
+<Message Name="Mail Group" Value="Nhóm email" />
+<Message Name="Item Code" Value="Mã mục cảnh báo" />
+<Message Name="Data is null" Value="Chưa nhập dữ liệu" />
+<Message Name="Item Desc" Value="Mô tả mục cảnh báo" />
+<Message Name="Necessary" Value="Gửi bắt buộc" />
+<Message Name="Condition" Value="Gửi theo điều kiện" />
+<Message Name="Assign" Value="Áp dụng" />
+<Message Name="Part No" Value="Mã linh kiện" />
+<Message Name="Step" Value="Cấp độ" />
+<Message Name="Level" Value="Mức độ cảnh báo" />
+<Message Name="Auto Close" Value="Tự động kết thúc" />
+<Message Name="Auto Alarm" Value="Gửi trực tiếp" />
+<Message Name="Mail Group" Value="Nhóm thông báo" />
+<Message Name="Select All" Value="Chọn tất cả" />
+<Message Name="Select None" Value="Bỏ chọn tất cả" />
+<Message Name="Event Time" Value="Thời gian xử lý" />
+<Message Name="Machine Type" Value="Loại máy" />
+<Message Name="Auto Alarm cann't delete!" Value="Không thể xóa cảnh báo tự động!" />
+<Message Name="Line" Value="Dây chuyền" />
+<Message Name="Stage" Value="Công đoạn" />
+<Message Name="Process" Value="Quy trình" />
+<Message Name="Terminal" Value="Trạm làm việc" />
+<Message Name="(Mins.)" Value="(phút)" />
+<Message Name="Mail Subject" Value="Tiêu đề email" />
+<Message Name="Include Detail Data" Value="Bao gồm dữ liệu chi tiết" />
+<Message Name="PDLINE_NAME" Value="Dây chuyền" />
+<Message Name="PDLINE_DESC" Value="Mô tả dây chuyền" />
+<Message Name="STAGE_NAME" Value="Công đoạn" />
+<Message Name="STAGE_DESC" Value="Mô tả công đoạn" />
+<Message Name="PROCESS_NAME" Value="Quy trình" />
+<Message Name="PROCESS_DESC" Value="Mô tả quy trình" />
+<Message Name="Event Name" Value="Sự kiện" />
+<Message Name="Factory" Value="Nhà máy" />
+<Message Name="Station" Value="Trạm làm việc" />
+<Message Name="Minor" Value="Nhẹ" />
+<Message Name="Major" Value="Nghiêm trọng" />
+<Message Name="Critical" Value="Rất nghiêm trọng" />
+<Message Name="Show Member" Value="Hiển thị thành viên" />
+<Message Name="EMP_NO" Value="Mã nhân viên" />
+<Message Name="MEMBER_NAME" Value="Họ tên" />
+<Message Name="Notice" Value="Thông báo" />
+<Message Name="Catagory" Value="Phân loại" />
+<Message Name="Parameter" Value="Tham số" />
+<Message Name="Event Catagory" Value="Phân loại sự kiện" />
+<Message Name="Event Parameter" Value="Tham số sự kiện" />
+<Message Name="About Yield Rate" Value="Tỷ lệ đạt" />
+<Message Name="Every N Hours" Value="Mỗi N giờ" />
+<Message Name="Product Qty" Value="Số lượng sản xuất" />
+<Message Name="Yield Rate" Value="Tỷ lệ đạt" />
+<Message Name="Qty" Value="Số lượng" />
+<Message Name="Daily" Value="Ngày" />
+<Message Name="Weekly" Value="Tuần" />
+<Message Name="Monthly" Value="Tháng" />
+<Message Name="Daily Type" Value="Loại chu kỳ" />
+<Message Name="FIELD_NAME" Value="Tên trường" />
+<Message Name="FIELD_DESC" Value="Tên hiển thị" />
+<Message Name="SHOW_POSITION" Value="Vị trí hiển thị" />
+<Message Name="Font Color" Value="Màu chữ" />
+<Message Name="Brush Color" Value="Màu tô" />
+<Message Name="FONT_COLOR" Value="Màu chữ" />
+<Message Name="BRUSH_COLOR" Value="Màu tô" />
+<Message Name="Operator" Value="Toán tử" />
+<Message Name="SHOW_OPERATOR" Value="Toán tử" />
+<Message Name="Field Name" Value="Tên trường" />
+<Message Name="VISIBLE" Value="Hiển thị" />
+<Message Name="Field Value" Value="Giá trị trường" />
+<Message Name="For" Value="Dành cho" />
+<Message Name="Row Style" Value="Đổi màu cả dòng" />
+<Message Name="ROW_STYLE" Value="Đổi màu cả dòng" />
+<Message Name="Seq" Value="Thứ tự" />
+<Message Name="SEQ" Value="Thứ tự" />
+<Message Name="FIELD_VALUE" Value="Giá trị trường" />
+<Message Name="Color" Value="Màu sắc" />
+<Message Name="Field" Value="Trường" />
+<Message Name="Head" Value="Ký tự đầu" />
+<Message Name="Tail" Value="Ký tự cuối" />
+<Message Name="HEAD_VALUE" Value="Ký tự đầu" />
+<Message Name="TAIL_VALUE" Value="Ký tự cuối" />
+<Message Name="BEFORE_SQL" Value="SQL trước khi gửi" />
+<Message Name="AFTER_SQL" Value="SQL sau khi gửi" />
+<Message Name="Before SQL" Value="SQL trước khi gửi" />
+<Message Name="After SQL" Value="SQL sau khi gửi" />
+<Message Name="MAIL_FIELD" Value="Trường email" />
+<Message Name="MAIL_SEP" Value="Gửi tách riêng" />
+<Message Name="Mail Field" Value="Trường email" />
+<Message Name="For Mail Separate" Value="Gửi tách riêng" />
+<Message Name="SUBJECT_TITLE" Value="Tiêu đề email" />
+<Message Name="EMP_NAME" Value="Họ tên" />
+<Message Name="EMAIL" Value="Email" />
+<Message Name="Macro" Value="Chạy macro" />
+<Message Name="Only DLL files can be used" Value="Chỉ được sử dụng tệp DLL" />
+<Message Name="Row Command" Value="Lệnh thực thi" />
+<Message Name="Sheet Name" Value="Tên trang" />
+<Message Name="Type" Value="Loại" />
+<Message Name="Connect Name" Value="Tên kết nối" />
+<Message Name="Record Type" Value="Loại lệnh sau truy vấn" />
+<Message Name="Update SQL" Value="Cập nhật SQL" />
+<Message Name="2.Record" Value="2. Lệnh sau truy vấn" />
+<Message Name="Record" Value="Lệnh sau truy vấn" />
+<Message Name="Selected" Value="Đã chọn" />
+<Message Name="Field Name" Value="Tên trường" />
+<Message Name="Direction" Value="Loại tham số" />
+<Message Name="Source" Value="Trường nguồn" />
+<Message Name="Field Mapping" Value="Ánh xạ trường" />
+<Message Name="Connect Mode" Value="Chế độ kết nối" />
+<Message Name="Mail" Value="Email" />
+<Message Name="No" Value="Mã nhân viên" />
+<Message Name="Name" Value="Họ tên" />
+<Message Name="Dll File Name" Value="Tên tệp DLL" />
+<Message Name="Employee No/Name/E-Mail" Value="Mã NV/Tên/Email" />
+<Message Name="Sample File" Value="Tệp mẫu" />
+<Message Name="File Name" Value="Tên tệp Excel" />
+<Message Name="Memo Title" Value="Nội dung ghi chú" />
+<Message Name="Enabled" Value="Có hiệu lực" />
+<Message Name="Enable" Value="Kích hoạt" />
+<Message Name="Disabled" Value="Vô hiệu lực" />
+<Message Name="Disable" Value="Vô hiệu lực" />
+<Message Name="All" Value="Tất cả" />
+<Message Name="Append" Value="Thêm mới" />
+<Message Name="Modify" Value="Chỉnh sửa" />
+<Message Name="Delete" Value="Xóa" />
+<Message Name="Export" Value="Xuất dữ liệu" />
+<Message Name="Import" Value="Nhập dữ liệu" />
+<Message Name="Event Type Name" Value="Tên loại cảnh báo" />
+<Message Name="Event Item ID" Value="Mã nội bộ mục cảnh báo" />
+<Message Name="Message Type" Value="Loại cảnh báo" />
+<Message Name="Exclude Holiday" Value="Loại trừ ngày nghỉ" />
+<Message Name="Week" Value="Tuần" />
+<Message Name="Month" Value="Tháng" />
+<Message Name="SQL (Count != 0)" Value="SQL (Số lượng != 0)" />
+<Message Name="Execute Hour" Value="Giờ chạy" />
+<Message Name="Execute Minute" Value="Phút chạy" />
+<Message Name="Before Execute" Value="Lệnh trước khi chạy" />
+<Message Name="After Execute" Value="Lệnh sau khi chạy" />
+<Message Name="Last" Value="Ngày cuối tháng" />
+<Message Name="Monday" Value="Thứ hai" />
+<Message Name="Tuesday" Value="Thứ ba" />
+<Message Name="Wednesday" Value="Thứ tư" />
+<Message Name="Thursday" Value="Thứ năm" />
+<Message Name="Friday" Value="Thứ sáu" />
+<Message Name="Saturday" Value="Thứ bảy" />
+<Message Name="Sunday" Value="Chủ nhật" />
+<Message Name="Filter" Value="Lọc" />
+<Message Name="has one or more Event Item" Value="Đã thiết lập mục cảnh báo" />
+<Message Name="Can not delete it" Value="Không thể xóa" />
+<Message Name="Data Duplicate" Value="Dữ liệu trùng lặp" />
+<Message Name="DUP" Value="Trùng lặp" />
+<Message Name="Data Append OK" Value="Thêm dữ liệu thành công" />
+<Message Name="Append Other Data" Value="Tiếp tục thêm dữ liệu khác" />
+<Message Name="Data Append OK!" Value="Thêm dữ liệu thành công!" />
+<Message Name="Append Other Data?" Value="Tiếp tục thêm dữ liệu khác?" />
+<Message Name="Data is null" Value="Chưa nhập dữ liệu" />
+<Message Name="Data Error" Value="Dữ liệu lỗi" />
+<Message Name="Date SQL" Value="SQL ngày" />
+<Message Name="Start Row" Value="Dòng bắt đầu" />
+<Message Name="OK" Value="Xác nhận" />
+<Message Name="Cancel" Value="Hủy" />
+<Message Name="E-Mail" Value="Email" />
+<Message Name="Search" Value="Tìm kiếm" />
+<Message Name="Position" Value="Vị trí hiển thị" />
+<Message Name="Visible" Value="Hiển thị" />
+<Message Name="Right" Value="Căn phải" />
+<Message Name="Left" Value="Căn trái" />
+<Message Name="Center" Value="Căn giữa" />
+<Message Name="Subject Title" Value="Tiêu đề phụ của email" />
+<Message Name="Sequence" Value="Thứ tự" />
+<Message Name="Display Name" Value="Tên hiển thị" />
+<Message Name="DB Type" Value="Loại cơ sở dữ liệu" />
+<Message Name="Connection Name" Value="Tên kết nối" />
+<Message Name="Connection String" Value="Chuỗi kết nối" />
+<Message Name="Test" Value="Kiểm tra kết nối" />
+<Message Name="Server Name" Value="Máy chủ" />
+<Message Name="Host Name" Value="Máy chủ" />
+<Message Name="Uid" Value="Tài khoản" />
+<Message Name="Password" Value="Mật khẩu" />
+<Message Name="Port" Value="Cổng" />
+<Message Name="Service Name" Value="Tên dịch vụ" />
+<Message Name="Connection Mode" Value="Chế độ kết nối" />
+<Message Name="Connection Maintain" Value="Bảo trì kết nối" />
+<Message Name="All Item" Value="Tất cả dữ liệu" />
+<Message Name="Choose Item" Value="Dữ liệu đã chọn" />
+<Message Name="Mail Group Desc" Value="Mô tả" />
+<Message Name="Delete Table Data" Value="Xóa dữ liệu bảng" />
+<Message Name="Except" Value="Khác biệt" />
+<Message Name="3.Update" Value="3. Cập nhật truy vấn chính" />
+<Message Name="3.Table Expect" Value="3. Xử lý chênh lệch" />
+<Message Name="HYPERLINK" Value="Liên kết" />
+<Message Name="Hyperlink" Value="Liên kết" />
+<Message Name="EVENT_TYPE_NAME" Value="Loại cảnh báo" />
+<Message Name="Replace?" Value="Thay thế?" />
+<Message Name="Overwrite" Value="Ghi đè" />
+<Message Name="Ingore" Value="Bỏ qua" />
+<Message Name="Save As" Value="Lưu thành..." />
+</Ngôn_ngữ_Việt>
+  <简体中文>
+    <Message Name="Copy To" Value="复制到" />
+    <Message Name="Copy From" Value="由..复制" />
+    <Message Name="Event Type" Value="告警类型" />
+    <Message Name="Mail Group" Value="邮件群组" />
+    <Message Name="Item Code" Value="告警项目代码" />
+    <Message Name="Data is null" Value="数据未输入" />
+    <Message Name="Item Desc" Value="告警项目说明" />
+    <Message Name="Necessary" Value="必要发送" />
+    <Message Name="Condition" Value="条件发送" />
+    <Message Name="Assign" Value="套用" />
+    <Message Name="Part No" Value="料号" />
+    <Message Name="Step" Value="层级" />
+    <Message Name="Level" Value="告警等级" />
+    <Message Name="Auto Close" Value="自动结束" />
+    <Message Name="Auto Alarm" Value="直接发送" />
+    <Message Name="Mail Group" Value="通知群组" />
+    <Message Name="Select All" Value="全部勾选" />
+    <Message Name="Select None" Value="取消全选" />
+    <Message Name="Event Time" Value="可处理时间" />
+    <Message Name="Machine Type" Value="机台类型" />
+    <Message Name="Auto Alarm cann't delete!" Value="自动告警不可删除" />
+    <Message Name="Line" Value="线别" />
+    <Message Name="Stage" Value="区段" />
+    <Message Name="Process" Value="制程" />
+    <Message Name="Terminal" Value="工作站" />
+    <Message Name="(Mins.)" Value="(分)" />
+    <Message Name="Mail Subject" Value="邮件主旨" />
+    <Message Name="Include Detail Data" Value="含细项资料" />
+    <Message Name="PDLINE_NAME" Value="线别" />
+    <Message Name="PDLINE_DESC" Value="线别描述" />
+    <Message Name="STAGE_NAME" Value="区段" />
+    <Message Name="STAGE_DESC" Value="区段描述" />
+    <Message Name="PROCESS_NAME" Value="制程" />
+    <Message Name="PROCESS_DESC" Value="制程描述" />
+    <Message Name="Event Name" Value="事件" />
+    <Message Name="Factory" Value="厂别" />
+    <Message Name="Station" Value="工作站" />
+    <Message Name="Minor" Value="一般" />
+    <Message Name="Major" Value="严重" />
+    <Message Name="Critical" Value="极严重" />
+    <Message Name="Show Member" Value="显示成员" />
+    <Message Name="EMP_NO" Value="工号" />
+    <Message Name="MEMBER_NAME" Value="姓名" />
+    <Message Name="Notice" Value="通知" />
+    <Message Name="Catagory" Value="分类" />
+    <Message Name="Parameter" Value="参数" />
+    <Message Name="Event Catagory" Value="分类" />
+    <Message Name="Event Parameter" Value="参数" />
+    <Message Name="About Yield Rate" Value="制程良率" />
+    <Message Name="Every N Hours" Value="每N小时" />
+    <Message Name="Product Qty" Value="生产数量" />
+    <Message Name="Yield Rate" Value="良率" />
+    <Message Name="Qty" Value="数量" />
+    <Message Name="Daily" Value="日" />
+    <Message Name="Weekly" Value="周" />
+    <Message Name="Monthly" Value="月" />
+    <Message Name="Daily Type" Value="周期类型" />
+    <Message Name="FIELD_NAME" Value="域名" />
+    <Message Name="FIELD_DESC" Value="显示名称" />
+    <Message Name="SHOW_POSITION" Value="字段对齐" />
+    <Message Name="Font Color" Value="字型颜色" />
+    <Message Name="Brush Color" Value="笔刷颜色" />
+    <Message Name="FONT_COLOR" Value="字型颜色" />
+    <Message Name="BRUSH_COLOR" Value="笔刷颜色" />
+    <Message Name="Operator" Value="操作元" />
+    <Message Name="SHOW_OPERATOR" Value="操作元" />
+    <Message Name="Field Name" Value="域名" />
+    <Message Name="VISIBLE" Value="可见" />
+    <Message Name="Field Value" Value="字段数值" />
+    <Message Name="For" Value="对" />
+    <Message Name="Row Style" Value="整行变色" />
+    <Message Name="ROW_STYLE" Value="整行变色" />
+    <Message Name="Seq" Value="顺序" />
+    <Message Name="SEQ" Value="顺序" />
+    <Message Name="FIELD_VALUE" Value="字段数值" />
+    <Message Name="Color" Value="颜色" />
+    <Message Name="Field" Value="字段" />
+    <Message Name="Head" Value="起始字符" />
+    <Message Name="Tail" Value="终止符" />
+    <Message Name="HEAD_VALUE" Value="起始字符" />
+    <Message Name="TAIL_VALUE" Value="终止符" />
+    <Message Name="BEFORE_SQL" Value="发送前SQL" />
+    <Message Name="AFTER_SQL" Value="发送后SQL" />
+    <Message Name="Before SQL" Value="发送前SQL" />
+    <Message Name="After SQL" Value="发送后SQL" />
+    <Message Name="MAIL_FIELD" Value="邮件字段" />
+    <Message Name="MAIL_SEP" Value="分开发送" />
+    <Message Name="Mail Field" Value="邮件字段" />
+    <Message Name="For Mail Separate" Value="分开发送" />
+    <Message Name="SUBJECT_TITLE" Value="邮件主旨" />
+    <Message Name="EMP_NAME" Value="姓名" />
+    <Message Name="EMAIL" Value="电子邮件" />
+    <Message Name="Macro" Value="执行宏" />
+    <Message Name="Only DLL files can be used" Value="仅可使用DLL档案" />
+    <Message Name="Row Command" Value="执行内容" />
+    <Message Name="Sheet Name" Value="名称" />
+    <Message Name="Type" Value="类型" />
+    <Message Name="Connect Name" Value="联机名称" />
+    <Message Name="Record Type" Value="查询后命令类型" />
+    <Message Name="Update SQL" Value="更新SQL" />
+    <Message Name="2.Record" Value="2.查询后命令" />
+    <Message Name="Record" Value="查询后命令" />
+    <Message Name="Selected" Value="已选" />
+    <Message Name="Field Name" Value="域名" />
+    <Message Name="Direction" Value="参数类型" />
+    <Message Name="Source" Value="来源字段" />
+    <Message Name="Field Mapping" Value="字段对应" />
+    <Message Name="Connect Mode" Value="联机模式" />
+    <Message Name="Mail" Value="电子邮件" />
+    <Message Name="No" Value="工号" />
+    <Message Name="Name" Value="姓名" />
+    <Message Name="Dll File Name" Value="Dll文件名" />
+    <Message Name="Employee No/Name/E-Mail" Value="工号/姓名/电子邮件" />
+    <Message Name="Sample File" Value="范本文件" />
+    <Message Name="File Name" Value="Excel文件名" />
+    <Message Name="Memo Title" Value="其他说明内容" />
+    <Message Name="Enabled" Value="可用" />
+    <Message Name="Enable" Value="可用" />
+    <Message Name="Disabled" Value="停用" />
+    <Message Name="Disable" Value="停用" />
+    <Message Name="All" Value="全部" />
+    <Message Name="Append" Value="新增" />
+    <Message Name="Modify" Value="修改" />
+    <Message Name="Delete" Value="删除" />
+    <Message Name="Export" Value="汇出" />
+    <Message Name="Import" Value="汇入" />
+    <Message Name="Event Type Name" Value="告警类型" />
+    <Message Name="Event Item ID" Value="告警项目内部代码" />
+    <Message Name="Message Type" Value="告警类型" />
+    <Message Name="Exclude Holiday" Value="排除假日" />
+    <Message Name="Week" Value="周" />
+    <Message Name="Month" Value="月" />
+    <Message Name="SQL (Count != 0)" Value="SQL (笔数不为0)" />
+    <Message Name="Execute Hour" Value="执行时" />
+    <Message Name="Execute Minute" Value="执行分" />
+    <Message Name="Before Execute" Value="执行前命令" />
+    <Message Name="After Execute" Value="执行后命令" />
+    <Message Name="Last" Value="最后一天" />
+    <Message Name="Monday" Value="星期一" />
+    <Message Name="Tuesday" Value="星期二" />
+    <Message Name="Wednesday" Value="星期三" />
+    <Message Name="Thursday" Value="星期四" />
+    <Message Name="Friday" Value="星期五" />
+    <Message Name="Saturday" Value="星期六" />
+    <Message Name="Sunday" Value="星期日" />
+    <Message Name="Filter" Value="过滤" />
+    <Message Name="has one or more Event Item" Value="已设定告警项目" />
+    <Message Name="Can not delete it" Value="不可删除" />
+    <Message Name="Data Duplicate" Value="数据重复" />
+    <Message Name="DUP" Value="数据重复" />
+    <Message Name="Data Append OK" Value="资料新增成功" />
+    <Message Name="Append Other Data" Value="继续新增其他数据" />
+    <Message Name="Data Append OK!" Value="资料新增成功!" />
+    <Message Name="Append Other Data?" Value="继续新增其他数据?" />
+    <Message Name="Data is null" Value="数据未输入" />
+    <Message Name="Data Error" Value="数据错误" />
+    <Message Name="Date SQL" Value="日期SQL" />
+    <Message Name="Start Row" Value="起始行" />
+    <Message Name="OK" Value="确定" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="E-Mail" Value="电子邮件" />
+    <Message Name="Search" Value="搜寻" />
+    <Message Name="Position" Value="显示位置" />
+    <Message Name="Visible" Value="可见" />
+    <Message Name="Right" Value="靠右" />
+    <Message Name="Left" Value="靠左" />
+    <Message Name="Center" Value="置中" />
+    <Message Name="Subject Title" Value="邮件次讯息" />
+    <Message Name="Sequence" Value="顺序" />
+    <Message Name="Display Name" Value="显示名称" />
+    <Message Name="DB Type" Value="数据库类型" />
+    <Message Name="Connection Name" Value="联机名称" />
+    <Message Name="Connection String" Value="联机字符串" />
+    <Message Name="Test" Value="联机测试" />
+    <Message Name="Server Name" Value="服务器" />
+    <Message Name="Host Name" Value="服务器" />
+    <Message Name="Uid" Value="使用者账号" />
+    <Message Name="Password" Value="密码" />
+    <Message Name="Port" Value="端口" />
+    <Message Name="Service Name" Value="服务名称" />
+    <Message Name="Connection Mode" Value="联机模式" />
+    <Message Name="Connection Maintain" Value="联机模式维护" />
+    <Message Name="All Item" Value="所有数据" />
+    <Message Name="Choose Item" Value="已选资料" />
+    <Message Name="Mail Group Desc" Value="描述" />
+    <Message Name="Delete Table Data" Value="删除表格数据" />
+    <Message Name="Except" Value="差集" />
+    <Message Name="3.Update" Value="3.异动主查询" />
+    <Message Name="3.Table Expect" Value="3.差异处理" />
+    <Message Name="HYPERLINK" Value="超链接" />
+    <Message Name="Hyperlink" Value="超链接" />
+    <Message Name="EVENT_TYPE_NAME" Value="告警类型" />
+    <Message Name="Replace?" Value="取代?" />
+    <Message Name="Overwrite" Value="覆盖" />
+    <Message Name="Ingore" Value="忽略" />
+    <Message Name="Save As" Value="另存为" />
+  </简体中文>
+</Chroma>

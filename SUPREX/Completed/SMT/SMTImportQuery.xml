@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+		<Message Name="PartError" Value="Part Error!"/>
+		<Message Name="LineEmpty" Value="Please select line!"/>
+		<Message Name="VersionEmpty" Value="Please select version!"/>
+		<Message Name="PART_NO" Value="Part No"/>
+		<Message Name="SPEC1" Value="Spec"/>
+	</English>
+	<繁體中文>
+		<Message Name="OK" Value="確定"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Search" Value="搜尋條件"/>
+		<Message Name="Process" Value="製程"/>
+		<Message Name="Version" Value="版本"/>
+		<Message Name="Query" Value="查詢"/>
+		<Message Name="Delete" Value="刪除"/>
+		<Message Name="Top" Value="正面"/>
+		<Message Name="Bottom" Value="反面"/>
+		<Message Name="Side" Value="正反面"/>
+		<Message Name="Machine" Value="機台"/>
+		<Message Name="Part No" Value="料號"/>
+		<Message Name="SMT Line" Value="SMT線別"/>
+		<Message Name="Station No" Value="站位"/>
+		<Message Name="Spec" Value="規格"/>
+		<Message Name="Qty" Value="數量"/>
+		<Message Name="Location" Value="位置"/>
+		<Message Name="PartError" Value="料號錯誤!"/>
+		<Message Name="LineEmpty" Value="線別未設定!"/>
+		<Message Name="VersionEmpty" Value="版本未設定!"/>
+		<Message Name="Delete MSL" Value="刪除料站表"/>
+		<Message Name="Part" Value="料號"/>
+		<Message Name="Line" Value="線別"/>
+		<Message Name="Delete OK." Value="料站表刪除完畢."/>
+		<Message Name="PART_NO" Value="料號"/>
+		<Message Name="SPEC1" Value="規格"/>
+		<Message Name="Material List Detail:" Value="料站表明細:"/>
+		<Message Name="No." Value="編號"/>
+		<Message Name="Part No:" Value="料號:"/>
+		<Message Name="Station No:" Value="站位:"/>
+		<Message Name="Close" Value="關閉"/>
+
+		<Message Name="Seq" Value="Seq"/>
+		<Message Name="Range" Value="Range"/>
+		<Message Name="Feeder Type" Value="料架類型"/>
+		<Message Name="Feeder Spec" Value="料架規格"/>
+		<Message Name="Library ID" Value="Library ID"/>
+		<Message Name="Desc1" Value="描述1"/>
+		<Message Name="Desc2" Value="描述2"/>
+		<Message Name="Angle" Value="角度"/>
+		<Message Name="Export" Value="匯出"/>
+		<Message Name="Preview" Value="預覽"/>
+		<Message Name="Print" Value="列印"/>
+		<Message Name="Machine Code" Value="機台"/>
+		<Message Name="Process Name" Value="製程"/>
+		<Message Name="Material List" Value="料站表清單"/>
+		<Message Name="Please Input Part No Prefix" Value="請輸入料號關鍵字至少一碼"/>
+		<Message Name="Left/Right" Value="左/右"/>
+		<Message Name="Finish" Value="完成"/>
+	</繁體中文>
+	<简体中文>
+		<Message Name="OK" Value="确定"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Search" Value="搜寻条件"/>
+		<Message Name="Process" Value="制程"/>
+		<Message Name="Version" Value="版本"/>
+		<Message Name="Query" Value="查询"/>
+		<Message Name="Delete" Value="删除"/>
+		<Message Name="Top" Value="正面"/>
+		<Message Name="Bottom" Value="反面"/>
+		<Message Name="Side" Value="正反面"/>
+		<Message Name="Machine" Value="机台"/>
+		<Message Name="Part No" Value="料号"/>
+		<Message Name="SMT Line" Value="SMT线别"/>
+		<Message Name="Station No" Value="站位"/>
+		<Message Name="Spec" Value="规格"/>
+		<Message Name="Qty" Value="数量"/>
+		<Message Name="Location" Value="位置"/>
+		<Message Name="PartError" Value="料号错误!"/>
+		<Message Name="LineEmpty" Value="线别未设定!"/>
+		<Message Name="VersionEmpty" Value="版本未设定!"/>
+		<Message Name="Delete MSL" Value="删除料站表"/>
+		<Message Name="Part" Value="料号"/>
+		<Message Name="Line" Value="线别"/>
+		<Message Name="Delete OK." Value="料站表删除完毕."/>
+		<Message Name="PART_NO" Value="料号"/>
+		<Message Name="SPEC1" Value="规格"/>
+		<Message Name="Material List Detail:" Value="料站表明细:"/>
+		<Message Name="No." Value="编号"/>
+		<Message Name="Part No:" Value="料号:"/>
+		<Message Name="Station No:" Value="站位:"/>
+		<Message Name="Close" Value="关闭"/>
+
+		<Message Name="Seq" Value="Seq"/>
+		<Message Name="Range" Value="Range"/>
+		<Message Name="Feeder Type" Value="料架类型"/>
+		<Message Name="Feeder Spec" Value="料架规格"/>
+		<Message Name="Library ID" Value="Library ID"/>
+		<Message Name="Desc1" Value="描述1"/>
+		<Message Name="Desc2" Value="描述2"/>
+		<Message Name="Angle" Value="角度"/>
+		<Message Name="Export" Value="汇出"/>
+		<Message Name="Preview" Value="预览"/>
+		<Message Name="Print" Value="打印"/>
+		<Message Name="Machine Code" Value="机台"/>
+		<Message Name="Process Name" Value="制程"/>
+		<Message Name="Material List" Value="料站表清单"/>
+		<Message Name="Please Input Part No Prefix" Value="请输入料号关键词至少一码"/>
+		<Message Name="Left/Right" Value="左/右"/>
+		<Message Name="Finish" Value="完成"/>
+
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="OK" Value="Đồng ý"/><Message Name="Cancel" Value="Hủy"/><Message Name="Search" Value="Điều kiện tìm kiếm"/><Message Name="Process" Value="Công đoạn"/><Message Name="Version" Value="Phiên bản"/><Message Name="Query" Value="Truy vấn"/><Message Name="Delete" Value="Xóa"/><Message Name="Top" Value="Mặt trước"/><Message Name="Bottom" Value="Mặt sau"/><Message Name="Side" Value="Hai mặt"/><Message Name="Machine" Value="Máy"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="SMT Line" Value="Dây chuyền SMT"/><Message Name="Station No" Value="Vị trí trạm"/><Message Name="Spec" Value="Quy cách"/><Message Name="Qty" Value="Số lượng"/><Message Name="Location" Value="Vị trí"/><Message Name="PartError" Value="Sai mã linh kiện!"/><Message Name="LineEmpty" Value="Chưa thiết lập dây chuyền!"/><Message Name="VersionEmpty" Value="Chưa thiết lập phiên bản!"/><Message Name="Delete MSL" Value="Xóa bảng trạm cấp liệu"/><Message Name="Part" Value="Mã linh kiện"/><Message Name="Line" Value="線別"/><Message Name="Delete OK." Value="Xóa bảng trạm hoàn tất."/><Message Name="PART_NO" Value="Mã linh kiện"/><Message Name="SPEC1" Value="Quy cách"/><Message Name="Material List Detail:" Value="Chi tiết bảng trạm:"/><Message Name="No." Value="Số thứ tự"/><Message Name="Part No:" Value="Mã linh kiện:"/><Message Name="Station No:" Value="Vị trí trạm:"/><Message Name="Close" Value="Đóng"/><Message Name="Seq" Value="Seq"/><Message Name="Range" Value="Range"/><Message Name="Feeder Type" Value="Loại giá cấp liệu"/><Message Name="Feeder Spec" Value="Quy cách giá cấp liệu"/><Message Name="Library ID" Value="Library ID"/><Message Name="Desc1" Value="Mô tả 1"/><Message Name="Desc2" Value="Mô tả 2"/><Message Name="Angle" Value="Góc xoay"/><Message Name="Export" Value="Xuất dữ liệu"/><Message Name="Preview" Value="Xem trước"/><Message Name="Print" Value="In"/><Message Name="Machine Code" Value="Máy"/><Message Name="Process Name" Value="Công đoạn"/><Message Name="Material List" Value="Danh sách bảng trạm"/><Message Name="Please Input Part No Prefix" Value="Vui lòng nhập ít nhất 1 ký tự mã linh kiện"/><Message Name="Left/Right" Value="Trái / Phải"/><Message Name="Finish" Value="Hoàn tất"/></Ngôn_ngữ_Việt></Chroma>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Chroma>
+  
+  
+  <繁體中文>
+    
+    
+    <Message Name="Machine Code" Value="機台類型"/>
+    
+	
+    <Message Name="MACHINE_TYPE_NAME" Value="機台類型"/>
+    
+    
+    <Message Name="MACHINE_TYPE_DESC" Value="機台類型描述"/>
+     
+    
+    <Message Name="Machine_Desc" Value="機台描述"/>
+     
+	
+    <Message Name="PROCESS_CODE" Value="製程代碼"/>
+     
+    
+    <Message Name="PROCESS_NAME" Value="製程"/>
+     
+	
+    <Message Name="Process Name" Value="製程"/>
+          
+    
+    <Message Name="PROCESS_DESC" Value="描述"/>
+     
+    
+    <Message Name="No choose any machine , Continue" Value="尚未選擇任何機台,是否繼續"/>
+    
+    
+    <Message Name="Main_Machine" Value="主要機台"/>
+     
+    
+    <Message Name="Sub_Machine" Value="附屬機台"/>
+             
+  
+  </繁體中文>
+  
+  
+  <简体中文>
+    
+     
+    <Message Name="Machine Code" Value="机台类型"/>
+    
+	
+    <Message Name="MACHINE_TYPE_NAME" Value="机台类型"/>
+    
+    
+    <Message Name="MACHINE_TYPE_DESC" Value="机台类型描述"/>
+     
+    
+    <Message Name="Machine_Desc" Value="机台描述"/>
+     
+	
+    <Message Name="PROCESS_CODE" Value="製程代码"/>
+     
+    
+    <Message Name="PROCESS_NAME" Value="製程"/>
+     
+	
+    <Message Name="Process Name" Value="製程"/>
+          
+    
+    <Message Name="PROCESS_DESC" Value="描述"/>
+     
+    
+    <Message Name="No choose any machine , Continue" Value="尚未选择任何机台,是否继续"/>
+    
+    
+    <Message Name="Machine Type" Value="机台类型"/>
+    
+    
+    <Message Name="Item" Value="项次"/>
+    
+    
+    <Message Name="MACHINE_CODE" Value="机台"/>
+    
+    
+    <Message Name="MACHINE_TYPE_NAME" Value="机台类型"/>
+    
+    
+    <Message Name="MACHINE_DESC" Value="机台描述"/>
+    
+    
+    <Message Name="Process is err" Value="制程错误"/>
+    
+    
+    <Message Name="Add Fail" Value="新增失败"/>
+    
+    
+    <Message Name="Machine is null" Value="设备未选"/>
+    
+    
+    <Message Name="Main_Machine" Value="主要机台"/>
+     
+    
+    <Message Name="Sub_Machine" Value="附属机台"/>
+     
+  
+  </简体中文>
+  
+
+
+  <Ngôn_ngữ_Việt>
+    <Message Name="Machine Code" Value="Loại Máy"/>
+    <Message Name="MACHINE_TYPE_NAME" Value="Tên Loại Máy"/>
+    <Message Name="MACHINE_TYPE_DESC" Value="Mô Tả Loại Máy"/>
+    <Message Name="Machine_Desc" Value="Mô Tả Máy"/>
+    <Message Name="MACHINE_DESC" Value="Mô Tả Máy"/>
+    <Message Name="PROCESS_CODE" Value="Mã Công Đoạn"/>
+    <Message Name="PROCESS_NAME" Value="Tên Công Đoạn"/>
+    <Message Name="Process Name" Value="Tên Công Đoạn"/>
+    <Message Name="PROCESS_DESC" Value="Mô Tả Công Đoạn"/>
+    <Message Name="No choose any machine , Continue" Value="Chưa Chọn Máy Nào, Có Tiếp Tục Không?"/>
+    <Message Name="Main_Machine" Value="Máy Chính"/>
+    <Message Name="Sub_Machine" Value="Máy Phụ"/>
+    <Message Name="Machine Type" Value="Loại Máy"/>
+    <Message Name="Item" Value="Mục"/>
+    <Message Name="MACHINE_CODE" Value="Mã Máy"/>
+    <Message Name="Process is err" Value="Công Đoạn Sai"/>
+    <Message Name="Add Fail" Value="Thêm Thất Bại"/>
+    <Message Name="Machine is null" Value="Chưa Chọn Thiết Bị"/>
+  </Ngôn_ngữ_Việt>
+</Chroma>

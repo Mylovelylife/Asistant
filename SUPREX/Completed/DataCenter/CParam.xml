@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Chroma> 
+  <繁體中文>
+	  <Message Name="Param Name" Value="參數名稱"/>
+	  <Message Name="Param Value" Value="參數值"/>
+	  <Message Name="Program" Value="模組名稱"/>
+	  <Message Name="Description" Value="描述" />
+	  <Message Name="ParamName+Program already exists" Value="參數名稱+模組名稱已存在" />
+  </繁體中文>
+  <简体中文>
+	  <Message Name="Param Name" Value="参数名称"/>
+	  <Message Name="Param Value" Value="参数值"/>
+	  <Message Name="Program" Value="模组名称"/>
+	  <Message Name="Description" Value="描述" />
+	  <Message Name="ParamName+Program already exists" Value="参数名称+模组名称已存在" />
+  </简体中文>
+</Chroma>

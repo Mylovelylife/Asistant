@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Chroma> 
+  <繁體中文>
+	  <Message Name="Append" Value="新增"/>
+	  <Message Name="Modify" Value="修改"/>
+	  <Message Name="Delete" Value="刪除"/>
+	  <Message Name="Color" Value="顏色"/>
+	  <Message Name="Name" Value="名稱"/>
+	  <Message Name="Priority" Value="優先權"/>
+	  <Message Name="Cancel" Value="取消"/>
+	  <Message Name="OK" Value="確定"/>
+	  <Message Name="Error" Value="錯誤"/>
+	  <Message Name="Name Duplicate" Value="名稱重複"/>
+	  <Message Name="Color Duplicate" Value="顏色重複"/>
+	  <Message Name="Data Append Confirm?" Value="確認是否要新增？"/>
+	  <Message Name="Data Modify Confirm?" Value="確認是否要修改？"/>
+	  <Message Name="Confirm" Value="取消"/>
+	  <Message Name="Data is null" Value="資料未輸入"/>
+	  <Message Name="This name is using ：" Value="資料正在使用中 ："/>
+	  <Message Name="Priority Duplicate" Value="優先權重複"/>
+	  <Message Name="Name is null" Value="名稱未輸入"/>
+	  
+  </繁體中文>
+  <简体中文>
+	  <Message Name="Append" Value="新增"/>
+	  <Message Name="Modify" Value="修改"/>
+	  <Message Name="Delete" Value="删除"/>
+	  <Message Name="Color" Value="颜色"/>
+	  <Message Name="Name" Value="名称"/>
+	  <Message Name="Priority" Value="优先权"/>
+	  <Message Name="Cancel" Value="取消"/>
+	  <Message Name="OK" Value="确定"/>
+	  <Message Name="Error" Value="错误"/>
+	  <Message Name="Name Duplicate" Value="重複"/>
+	  <Message Name="Color Duplicate" Value="颜色重複"/>
+	  <Message Name="Data Append Confirm?" Value="确认是否要新增？"/>
+	  <Message Name="Data Modify Confirm?" Value="确认是否要修改？"/>
+	  <Message Name="Confirm" Value="取消"/>
+	  <Message Name="Priority Duplicate" Value="优先权重複"/>
+	  <Message Name="Name is null" Value="名称未輸入"/>
+  </简体中文>
+<Ngôn_ngữ_Việt>
+    <Message Name="Append" Value="Thêm Mới"/>
+    <Message Name="Modify" Value="Chỉnh Sửa"/>
+    <Message Name="Delete" Value="Xóa"/>
+    <Message Name="Color" Value="Màu Sắc"/>
+    <Message Name="Name" Value="Tên"/>
+    <Message Name="Priority" Value="Mức Ưu Tiên"/>
+    <Message Name="Cancel" Value="Hủy"/>
+    <Message Name="OK" Value="Xác Nhận"/>
+    <Message Name="Error" Value="Lỗi"/>
+    <Message Name="Name Duplicate" Value="Tên Bị Trùng"/>
+    <Message Name="Color Duplicate" Value="Màu Sắc Bị Trùng"/>
+    <Message Name="Data Append Confirm?" Value="Xác Nhận Thêm Mới?"/>
+    <Message Name="Data Modify Confirm?" Value="Xác Nhận Chỉnh Sửa?"/>
+    <Message Name="Confirm" Value="Xác Nhận"/>
+    <Message Name="Data is null" Value="Chưa Nhập Dữ Liệu"/>
+    <Message Name="This name is using ：" Value="Tên Này Đang Được Sử Dụng:"/>
+    <Message Name="Priority Duplicate" Value="Mức Ưu Tiên Bị Trùng"/>
+    <Message Name="Name is null" Value="Tên Chưa Nhập"/>
+  </Ngôn_ngữ_Việt>
+
+</Chroma>

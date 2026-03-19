@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <简体中文>
+      <Message Name="REQUEST_NO" Value="上架单据号"/>
+      <Message Name="SHELF_NO" Value="货架号"/>
+      <Message Name="LOCATION" Value="储位号"/>
+      <Message Name="PutOn" Value="上架"/>
+      <Message Name="Close" Value="结单"/>
+      <Message Name="Shelf No Is Null" Value="货架号为空"/>
+			<Message Name="Shelf No Is Not Have Location" Value="货架跟储位不匹配"/>
+			<Message Name="ReelID Is Error" Value="ReelID不在此单据料号中"/>
+			<Message Name="Request No Is Null" Value="单据号为空"/>
+			<Message Name="Request No Is Not Exist" Value="单据号不存在"/>
+			<Message Name="Shelf No Is Not Exist" Value="货架不存在"/>
+			<Message Name="Close OK" Value="结单完成"/>
+			<Message Name="Location Is Null" Value="储位为空"/>
+			<Message Name="Update_Emp" Value="异动人员"/>
+			<Message Name="Put On Shelf Success" Value="上架成功"/>
+			<Message Name="Location In Use" Value="储位正在使用"/>
+			<Message Name="ReelID In Use" Value="ReelID已上架"/>
+			<Message Name="Shelf No Is Not In Request" Value="货架不在此单据中"/>
+			<Message Name="Refresh" Value="刷新"/>
+			<Message Name="Quantity Exceed" Value="上架数量超过此单据料号数量"/>
+			<Message Name="CancelAlarm" Value="取消报警"/>
+			<Message Name="The Part Of This Request No Is Close" Value="此单据的Reel料号已完结"/>
+			<Message Name="SIDE" Value="面别"/>
+			<Message Name="PanelSide Is Null" Value="面别为空"/>
+			<Message Name="Request No is OK" Value="上架单据号正确"/>
+			<Message Name="Shelf No is OK" Value="货架号正确"/>
+			<Message Name="Location is OK" Value="储位号正确"/>
+			<Message Name="Shelf up is OK" Value="上架成功"/>
+			<Message Name="Cmd Time Out" Value="上架返回超时"/>
+			<Message Name="Cancel Alarm OK" Value="取消报警成功"/>
+			<Message Name="ReelID is not in this shelf no" Value="当前REELID不属于此货架"/>    
+  </简体中文>
+<繁體中文>
+      <Message Name="REQUEST_NO" Value="上架單據號"/>
+      <Message Name="SHELF_NO" Value="貨架號"/>
+      <Message Name="LOCATION" Value="儲位號"/>
+      <Message Name="PutOn" Value="上架"/>
+      <Message Name="Close" Value="結單"/>
+      <Message Name="Shelf No Is Null" Value="貨架號為空"/>
+			<Message Name="Shelf No Is Not Have Location" Value="貨架跟儲位不匹配"/>
+			<Message Name="ReelID Is Error" Value="ReelID不在此單據料號中"/>
+			<Message Name="Request No Is Null" Value="單據號為空"/>
+			<Message Name="Request No Is Not Exist" Value="單據號不存在"/>
+			<Message Name="Shelf No Is Not Exist" Value="貨架不存在"/>
+			<Message Name="Close OK" Value="結單完成"/>
+			<Message Name="Location Is Null" Value="儲位為空"/>
+			<Message Name="Update_Emp" Value="異動人員"/>
+			<Message Name="Put On Shelf Success" Value="上架成功"/>
+			<Message Name="Location In Use" Value="儲位正在使用"/>
+			<Message Name="ReelID In Use" Value="ReelID已上架"/>
+			<Message Name="Shelf No Is Not In Request" Value="貨架不在此單據中"/>
+			<Message Name="Refresh" Value="刷新"/>
+			<Message Name="Quantity Exceed" Value="上架數量超過此單據料號數量"/>
+			<Message Name="CancelAlarm" Value="取消報警"/>
+			<Message Name="The Part Of This Request No Is Close" Value="此單據的Reel料號已完結"/>
+			<Message Name="SIDE" Value="面别"/>
+			<Message Name="PanelSide Is Null" Value="面别為空"/>
+			<Message Name="Request No is OK" Value="上架單據號正確"/>
+			<Message Name="Shelf No is OK" Value="貨架號正確"/>
+			<Message Name="Location is OK" Value="儲位號正確"/>
+			<Message Name="Shelf up is OK" Value="上架成功"/>
+			<Message Name="Cmd Time Out" Value="上架返回超時"/>
+			<Message Name="Cancel Alarm OK" Value="取消報警成功"/>
+			<Message Name="ReelID is not in this shelf no" Value="當前REELID不屬於此貨架"/>
+</繁體中文>
+<Ngôn_ngữ_Việt><Message Name="REQUEST_NO" Value="Số chứng từ đưa lên kệ"/><Message Name="SHELF_NO" Value="Mã kệ"/><Message Name="LOCATION" Value="Mã vị trí"/><Message Name="PutOn" Value="Đưa lên kệ"/><Message Name="Close" Value="Kết đơn"/><Message Name="Shelf No Is Null" Value="Mã kệ trống"/><Message Name="Shelf No Is Not Have Location" Value="Mã kệ và vị trí không khớp"/><Message Name="ReelID Is Error" Value="ReelID không thuộc mã linh kiện của chứng từ này"/><Message Name="Request No Is Null" Value="Số chứng từ trống"/><Message Name="Request No Is Not Exist" Value="Số chứng từ không tồn tại"/><Message Name="Shelf No Is Not Exist" Value="Kệ không tồn tại"/><Message Name="Close OK" Value="Hoàn tất kết đơn"/><Message Name="Location Is Null" Value="Vị trí trống"/><Message Name="Update_Emp" Value="Người thao tác"/><Message Name="Put On Shelf Success" Value="Đưa lên kệ thành công"/><Message Name="Location In Use" Value="Vị trí đang được sử dụng"/><Message Name="ReelID In Use" Value="ReelID đã được đưa lên kệ"/><Message Name="Shelf No Is Not In Request" Value="Kệ không thuộc chứng từ này"/><Message Name="Refresh" Value="Làm mới"/><Message Name="Quantity Exceed" Value="Số lượng đưa lên vượt quá số lượng mã linh kiện của chứng từ"/><Message Name="CancelAlarm" Value="Hủy báo động"/><Message Name="The Part Of This Request No Is Close" Value="Mã Reel của chứng từ này đã hoàn tất"/><Message Name="SIDE" Value="Mặt"/><Message Name="PanelSide Is Null" Value="Mặt để trống"/><Message Name="Request No is OK" Value="Số chứng từ đưa lên kệ hợp lệ"/><Message Name="Shelf No is OK" Value="Mã kệ hợp lệ"/><Message Name="Location is OK" Value="Mã vị trí hợp lệ"/><Message Name="Shelf up is OK" Value="Đưa lên kệ thành công"/><Message Name="Cmd Time Out" Value="Thời gian phản hồi đưa lên kệ quá hạn"/><Message Name="Cancel Alarm OK" Value="Hủy báo động thành công"/><Message Name="ReelID is not in this shelf no" Value="REELID hiện tại không thuộc kệ này"/></Ngôn_ngữ_Việt></Chroma>

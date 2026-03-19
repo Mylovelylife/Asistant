@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+	</English>
+	<繁體中文>
+		<Message Name="Trolley Code" Value="台車代碼"/>
+		<Message Name="Trolley Desc" Value="台車描述"/>
+	</繁體中文>
+	<简体中文>
+    <Message Name="Trolley Code" Value="台车代码"/>
+    <Message Name="Trolley Desc" Value="台车描述"/>
+	</简体中文>
+
+<Ngôn_ngữ_Việt><Message Name="Trolley Code" Value="Mã xe đẩy"/><Message Name="Trolley Desc" Value="Mô tả xe đẩy"/></Ngôn_ngữ_Việt></Chroma>

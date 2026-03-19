@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<繁體中文>
+		<Message Name="OK" Value="確定"/>
+		<Message Name="Factory" Value="廠別"/>
+		<Message Name="Terminal" Value="工作站"/>
+		<Message Name="Process" Value="製程"/>
+		<Message Name="Stage" Value="區段"/>		
+		<Message Name="Cancel" Value="取消"/>		
+		<Message Name="Station" Value="站別"/>
+		<Message Name="Production Line" Value="生產線別"/>
+		<Message Name="SetTerminal" Value="配置作業站"/>
+		<Message Name="File Path" Value="檔案路徑"/>
+		<Message Name="Font Size" Value="字體大小"/>
+		<Message Name="Interval" Value="時間間隔"/>
+		<Message Name="(s)" Value="(秒)"/>
+		<Message Name="Start Analyze" Value="開始解析"/>
+		<Message Name="Analysis Result" Value="解析結果"/>
+		<Message Name="Files Of OK" Value="解析成功的檔案"/>
+		<Message Name="OK Total:" Value="OK總數："/>
+		<Message Name="NG Total:" Value="NG總數："/>
+		<Message Name="Files Of NG" Value="解析失敗的檔案"/>
+		<Message Name="File Name" Value="檔案名"/>
+		<Message Name="Terminal is null" Value="工作站未配置"/>
+		<Message Name="File Path is null" Value="檔路徑未選擇"/>
+		<Message Name="Interval is null" Value="時間間隔未設定"/>
+		<Message Name="Test count is null" Value="測試次數未設定"/>
+		<Message Name="Time" Value="時間"/>
+		<Message Name="Test Result" Value="測試結果"/>
+		<Message Name="SN" Value="S/N"/>
+		<Message Name="Reason" Value="失敗原因"/>
+		<Message Name="Seq" Value="序號"/>
+		<Message Name="Test Count" Value="複測次數"/>
+		<Message Name="Tested Count" Value="測試次數"/>
+
+		<Message Name="Stop Analyze" Value="停止解析"/>
+		<Message Name="Set Defect Code" Value="設定不良代碼對應關係"/>
+		<Message Name="Append" Value="新增"/>
+		<Message Name="Delete" Value="刪除"/>
+		<Message Name="Defect Code" Value="MES不良代碼"/>
+		<Message Name="Machine Code" Value="機台代碼"/>
+		<Message Name="Defect Desc" Value="不良描述"/>
+		<Message Name="Machine Desc" Value="機台描述"/>
+		<Message Name="Search" Value="查找"/>
+		<Message Name="DEFECT_CODE" Value="MES不良代碼"/>
+		<Message Name="MACHINE_CODE" Value="機台代碼"/>
+		<Message Name="DEFECT_DESC" Value="不良描述"/>
+		<Message Name="MACHINE_DESC" Value="機台描述"/>
+		<Message Name="Filter" Value="篩選"/>
+		<Message Name="Read:" Value="讀取:"/>
+		<Message Name="Analyze:" Value="分析進度:"/>
+		<Message Name="Data Append OK" Value="新增資料成功"/>
+		<Message Name="Append Other Data" Value="是否繼續新增其他資料"/>
+		<Message Name="Data is null" Value="資料為空"/>
+		<Message Name="Defect Code Error" Value="不良代碼錯誤"/>
+		<Message Name="Machine Code Error" Value="機台代碼錯誤"/>
+		<Message Name="Data Duplicate" Value="資料重複"/>
+		<Message Name="Terminal In txtFile is not same as the Setting" Value="TXT檔案中工作站與設定工作站不符"/>
+		<Message Name="Assign Terminal OK" Value="工作站配置完成"/>
+		<Message Name="Please Choose Terminal" Value="請選擇工作站"/>
+		<Message Name="Clear Log" Value="清除Log"/>
+		<Message Name="SetDays" Value="設定天數"/>
+		<Message Name="Set Days is null" Value="設定天數為空"/>
+
+	</繁體中文>
+	<简体中文>
+		<Message Name="OK" Value="xác nhận"/>
+		<Message Name="Factory" Value="nhà máy"/>
+		<Message Name="Terminal" Value="trạm làm việc"/>
+		<Message Name="Process" Value="quy trình"/>
+		<Message Name="Stage" Value="khu vực"/>		
+		<Message Name="Cancel" Value="hủy"/>		
+		<Message Name="Station" Value="loại trạm"/>
+		<Message Name="Production Line" Value="dây chuyền sản xuất"/>
+		<Message Name="SetTerminal" Value="cấu hình trạm làm việc "/>
+		<Message Name="File Path" Value="đường dẫn tệp"/>
+		<Message Name="Interval" Value="khoảng thời gian"/>
+		<Message Name="(s)" Value="(giây)"/>
+		<Message Name="Start Analyze" Value="bắt đầu phân tích"/>
+		<Message Name="Analysis Result" Value="kết quả phân tích"/>
+		<Message Name="Analysis" Value="tiến độ phân tích"/>
+		<Message Name="Files Of OK" Value="tệp phân tích thành công"/>
+		<Message Name="OK Total:" Value="tổng số OK："/>
+		<Message Name="NG Total:" Value="tổng số NG："/>
+		<Message Name="Files Of NG" Value="tệp phân tích thất bại"/>
+		<Message Name="File Name" Value="tên tệp"/>
+		<Message Name="Terminal is null" Value="chưa thiết lập trạm làm việc"/>
+		<Message Name="File Path is null" Value="chưa chọn đường dẫn tệp"/>
+		<Message Name="Interval is null" Value="chưa thiết lập khoảng thời gian"/>
+		<Message Name="Time" Value="thời gian"/>
+		<Message Name="AOI Test Result" Value="kết quả kiểm tra AOI"/>
+		<Message Name="SN" Value="S/N"/>
+		<Message Name="Reason" Value="nguyên nhân thất bại"/>
+		<Message Name="Seq" Value="số thứ tự"/>
+
+		<Message Name="Stop Analyze" Value="dừng phân tích"/>
+		<Message Name="Set Defect Code" Value="thiết lập đối chiếu mã lỗi"/>
+		<Message Name="Append" Value="thêm"/>
+		<Message Name="Delete" Value="xóa"/>
+		<Message Name="SPI Defect Code" Value="mã lỗi SPI"/>
+		<Message Name="Defect Code" Value="mã lỗi MES"/>
+		<Message Name="Machine Code" Value="mã máy"/>
+		<Message Name="Defect Desc" Value="mô tả lỗi"/>
+		<Message Name="Machine Desc" Value="mô tả máy"/>
+		<Message Name="Search" Value="tìm kiếm"/>
+		<Message Name="DEFECT_CODE" Value="mã lỗi MES"/>
+		<Message Name="MACHINE_CODE" Value="mã máy"/>
+		<Message Name="DEFECT_DESC" Value="mô tả lỗi"/>
+		<Message Name="MACHINE_DESC" Value="mô tả máy"/>
+		<Message Name="Filter" Value="lọc"/>
+		<Message Name="Read:" Value="đọc:"/>
+		<Message Name="Analyze:" Value="phân tích:"/>
+		
+		<Message Name="Data Append OK" Value="thêm dữ liệu thành công"/>
+		<Message Name="Append Other Data" Value="có tiếp tục thêm dữ liệu khác không"/>
+		
+		<Message Name="Data is null" Value="dữ liệu trống"/>
+		<Message Name="Defect Code Error" Value="sai mã lỗi"/>
+		<Message Name="Machine Code Error" Value="sai mã máy"/>
+		<Message Name="Data Duplicate" Value="dữ liệu trùng"/>
+		<Message Name="Terminal In txtFile is not same as the Setting" Value="trạm làm việc TXT không khớp với trạm đã thiết lập"/>
+		<Message Name="Assign Terminal OK" Value="cầu hình trạm làm việc đã hoàn tất"/>
+		<Message Name="Please Choose Terminal" Value="vui lòng chọn trạm làm việc"/>
+		<Message Name="Clear Log" Value="xóa Log"/>
+		<Message Name="SetDays" Value="cài đặt ngày"/>
+		<Message Name="Set Days is null" Value="chưa cài đặt số ngày"/>
+
+
+
+
+
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="OK" Value="OK"/><Message Name="Factory" Value="Nhà máy"/><Message Name="Terminal" Value="Trạm làm việc"/><Message Name="Process" Value="Công đoạn"/><Message Name="Stage" Value="Khu vực"/><Message Name="Cancel" Value="Hủy"/><Message Name="Station" Value="Loại trạm"/><Message Name="Production Line" Value="Dây chuyền sản xuất"/><Message Name="SetTerminal" Value="Cấu hình trạm làm việc"/><Message Name="File Path" Value="Đường dẫn tệp"/><Message Name="Font Size" Value="Kích thước phông chữ"/><Message Name="Interval" Value="Khoảng thời gian"/><Message Name="(s)" Value="(giây)"/><Message Name="Start Analyze" Value="Bắt đầu phân tích"/><Message Name="Analysis Result" Value="Kết quả phân tích"/><Message Name="Files Of OK" Value="Tệp phân tích thành công"/><Message Name="OK Total:" Value="Tổng số OK:"/><Message Name="NG Total:" Value="Tổng số NG:"/><Message Name="Files Of NG" Value="Tệp phân tích thất bại"/><Message Name="File Name" Value="Tên tệp"/><Message Name="Terminal is null" Value="Trạm làm việc chưa được cấu hình"/><Message Name="File Path is null" Value="Chưa chọn đường dẫn tệp"/><Message Name="Interval is null" Value="Chưa thiết lập khoảng thời gian"/><Message Name="Test count is null" Value="Số lần kiểm tra chưa được thiết lập"/><Message Name="Time" Value="Thời gian"/><Message Name="Test Result" Value="Kết quả kiểm tra"/><Message Name="SN" Value="S/N"/><Message Name="Reason" Value="Nguyên nhân lỗi"/><Message Name="Seq" Value="Số thứ tự"/><Message Name="Test Count" Value="Số lần kiểm tra lại"/><Message Name="Tested Count" Value="Số lần kiểm tra"/><Message Name="Stop Analyze" Value="Dừng phân tích"/><Message Name="Set Defect Code" Value="Thiết lập đối chiếu mã lỗi"/><Message Name="Append" Value="Thêm"/><Message Name="Delete" Value="Xóa"/><Message Name="Defect Code" Value="Mã lỗi MES"/><Message Name="Machine Code" Value="Mã máy"/><Message Name="Defect Desc" Value="Mô tả lỗi"/><Message Name="Machine Desc" Value="Mô tả máy"/><Message Name="Search" Value="Tìm kiếm"/><Message Name="DEFECT_CODE" Value="Mã lỗi MES"/><Message Name="MACHINE_CODE" Value="Mã máy"/><Message Name="DEFECT_DESC" Value="Mô tả lỗi"/><Message Name="MACHINE_DESC" Value="Mô tả máy"/><Message Name="Filter" Value="Lọc"/><Message Name="Read:" Value="Đọc:"/><Message Name="Analyze:" Value="Tiến độ phân tích:"/><Message Name="Data Append OK" Value="Thêm dữ liệu thành công"/><Message Name="Append Other Data" Value="Có tiếp tục thêm dữ liệu khác không?"/><Message Name="Data is null" Value="Dữ liệu trống"/><Message Name="Defect Code Error" Value="Sai mã lỗi"/><Message Name="Machine Code Error" Value="Sai mã máy"/><Message Name="Data Duplicate" Value="Dữ liệu trùng"/><Message Name="Terminal In txtFile is not same as the Setting" Value="Trạm trong file TXT không khớp với trạm đã thiết lập"/><Message Name="Assign Terminal OK" Value="Cấu hình trạm làm việc hoàn tất"/><Message Name="Please Choose Terminal" Value="Vui lòng chọn trạm làm việc"/><Message Name="Clear Log" Value="Xóa Log"/><Message Name="SetDays" Value="Thiết lập số ngày"/><Message Name="Set Days is null" Value="Số ngày chưa được thiết lập"/></Ngôn_ngữ_Việt></Chroma>

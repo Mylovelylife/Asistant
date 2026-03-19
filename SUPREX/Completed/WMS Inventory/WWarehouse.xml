@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文>
+    <Message Name="Warehouse No" Value="倉庫代碼"/>
+    <Message Name="Warehouse Name" Value="名稱"/>
+    <Message Name="Warehouse Type" Value="類型"/>
+    <Message Name="Disabled" Value="停用"/>
+    <Message Name="Enabled" Value="可用"/>
+    <Message Name="Delete" Value="刪除"/>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="Data Append" Value="新增"/>
+    <Message Name="Data Modify" Value="修改"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Export" Value="匯出"/>
+    <Message Name="All" Value="全部"/>
+    <Message Name="Filter" Value="過濾條件"/>
+    <Message Name="History Log" Value="歷史紀錄"/>
+    <Message Name="OK" Value="確定"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Search" Value="尋找"/>
+    <Message Name="Remove" Value="移除"/>
+    <Message Name="EMP_NAME" Value="異動人員"/>
+    <Message Name="UPDATE_TIME" Value="異動時間"/>
+    <Message Name="ENABLED" Value="是否有效"/>
+    <Message Name="Data Duplicate" Value="資料重複"/>
+    <Message Name="Data Append OK" Value="資料新增成功"/>
+    <Message Name="Append Other Data" Value="繼續新增其他資料"/>
+    <Message Name="Data is null" Value="資料未輸入"/>
+    <Message Name="Data Error" Value="資料錯誤"/>
+    <Message Name="WAREHOUSE_TYPE" Value="類型"/>
+    <Message Name="Check Validity" Value="檢查有效期"/>
+    <Message Name="Check FIFO" Value="檢查先進先出"/>
+
+    <Message Name="Org ID" Value="組織ID"/>
+	  <Message Name="ORG_ID" Value="組織ID"/>
+	  <Message Name="Organization" Value="組織"/> 
+    <Message Name="Org Code" Value="組織代碼"/>
+    <Message Name="ORG_CODE" Value="組織代碼"/>
+    <Message Name="Warehouse Desc" Value="倉庫別描述"/>
+    <Message Name="Location No" Value="儲位別代碼"/>
+    <Message Name="Location Name" Value="儲位別名稱"/>
+    <Message Name="Location Desc" Value="儲位別描述"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Search" Value="尋找"/>
+    <Message Name="Remove" Value="移除"/>
+  </繁體中文>
+<Ngôn_ngữ_Việt><Message Name="UPDATE_TIME" Value="Thời gian thao tác"/><Message Name="Append" Value="Thêm mới"/><Message Name="Location Desc" Value="Mô tả vị trí"/><Message Name="EMP_NAME" Value="Nhân viên thao tác"/><Message Name="Data Modify" Value="Chỉnh sửa dữ liệu"/><Message Name="Append Other Data" Value="Tiếp tục thêm dữ liệu khác"/><Message Name="History Log" Value="Lịch sử thay đổi"/><Message Name="Delete" Value="Xóa"/><Message Name="Check Validity" Value="Kiểm tra hạn dùng"/><Message Name="Location Name" Value="Tên vị trí"/><Message Name="ORG_CODE" Value="Mã tổ chức"/><Message Name="Warehouse Desc" Value="Mô tả kho"/><Message Name="Disabled" Value="Ngưng dùng"/><Message Name="WAREHOUSE_TYPE" Value="Loại"/><Message Name="Data Error" Value="Dữ liệu lỗi"/><Message Name="Location No" Value="Mã vị trí"/><Message Name="Modify" Value="Chỉnh sửa"/><Message Name="Filter" Value="Điều kiện lọc"/><Message Name="Remove" Value="Gỡ bỏ"/><Message Name="Data is null" Value="Chưa nhập dữ liệu"/><Message Name="Org ID" Value="ID tổ chức"/><Message Name="ORG_ID" Value="ID tổ chức"/><Message Name="Data Append OK" Value="Thêm dữ liệu thành công"/><Message Name="Org Code" Value="Mã tổ chức"/><Message Name="Warehouse Type" Value="Loại kho"/><Message Name="Export" Value="Xuất dữ liệu"/><Message Name="Organization" Value="Tổ chức"/><Message Name="Data Duplicate" Value="Dữ liệu trùng lặp"/><Message Name="Data Append" Value="Thêm dữ liệu"/><Message Name="Check FIFO" Value="Kiểm tra FIFO"/><Message Name="Warehouse Name" Value="Tên kho"/><Message Name="Cancel" Value="Hủy"/><Message Name="Search" Value="Tìm kiếm"/><Message Name="All" Value="Tất cả"/><Message Name="OK" Value="Xác nhận"/><Message Name="ENABLED" Value="Có hiệu lực"/><Message Name="Enabled" Value="Có thể dùng"/><Message Name="Warehouse No" Value="Mã kho"/></Ngôn_ngữ_Việt></Chroma>

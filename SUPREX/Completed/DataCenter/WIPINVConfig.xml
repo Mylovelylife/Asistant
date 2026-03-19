@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Chroma>
+  
+  
+  <English>
+    
+    
+    <Message Name="Machine Code" Value="Machine Code"/>
+    
+    
+    <Message Name="Description" Value="Description"/>
+    
+    
+    <Message Name="Location" Value="Location"/>
+    
+    
+    <Message Name="Utilization" Value="Utilization"/>
+    
+    
+    <Message Name="Machine Type" Value="Machine Type"/>
+    
+    
+    <Message Name="Vendor Name" Value="Vendor Name"/>
+    
+    
+    <Message Name="Arrival Date" Value="Arrival Date"/>
+    
+    
+    <Message Name="Warranty Date" Value="Warranty Date"/>
+    
+    
+    <Message Name="Vendor No" Value="Vendor No"/>
+    
+    
+    <Message Name="Vendor Description" Value="Vendor Description"/>
+    
+	
+    <Message Name="MATERIAL" Value="MATERIAL"/>
+    
+	
+    <Message Name="FINISHED GOOD" Value="FINISHED GOOD"/>
+    
+	
+    <Message Name="Stage" Value="Stage"/>
+    
+	
+    <Message Name="PROD_TYPE" Value="Prod. Type"/>
+    
+	
+    <Message Name="PROD_T" Value="Prod. Type"/>
+    
+  
+  </English>
+  
+  
+  <繁體中文>
+    
+    
+    <Message Name="MACHINE_CODE" Value="機台代碼"/>
+    
+    
+    <Message Name="MACHINE_TYPE_NAME" Value="機台類型"/>
+    
+    
+    <Message Name="MACHINE_DESC" Value="機台名稱"/>
+    
+    
+    <Message Name="MACHINE_LOC" Value="位置"/>
+    
+    
+    <Message Name="VENDOR_NAME" Value="供應商名稱"/>
+    
+    
+    <Message Name="Engineer" Value="機台工程師"/>
+    
+    
+    <Message Name="Machine Engineer" Value="機台工程師"/>
+    
+    
+    <Message Name="Select All" Value="全選"/>
+    
+    
+    <Message Name="Select None" Value="取消全選"/>
+    
+    
+    <Message Name="Employee No" Value="員工編號"/>
+    
+    
+    <Message Name="Employee Name" Value="員工名字"/>
+    
+    
+    <Message Name="Department" Value="部門"/>
+    
+    
+    <Message Name="Machine Name" Value="機台名稱"/>
+    
+    
+    <Message Name="Machine Code" Value="機台代碼"/>
+    
+    
+    <Message Name="Vendor Name" Value="供應商名稱"/>
+    
+    
+    <Message Name="Machine Type" Value="機台類型"/>
+    
+    
+    <Message Name="AUTO RUN" Value="機況變更"/>
+    
+    
+    <Message Name="INV ID" Value="倉庫"/>
+    
+    
+    <Message Name="DEFECT TYPE" Value="不良類型"/>
+    
+    
+    <Message Name="Location" Value="儲位"/>
+    
+    
+    <Message Name="Description" Value="描述"/>
+    
+    
+    <Message Name="DEFAULT FLAG" Value="預設良品倉儲位"/>
+    
+    
+    <Message Name="Data duplication! Please Re-Enter!" Value="資料重複!請重新輸入!"/>
+    
+    
+    <Message Name="Confirm Delete?" Value="確定刪除?"/>
+    
+    
+    <Message Name="INV_ID" Value="倉庫"/>
+    
+    
+    <Message Name="DEFECT_TYPE" Value="不良類型"/>
+    
+    
+    <Message Name="LOCATION" Value="儲位"/>
+    
+    
+    <Message Name="DESCRIPTION" Value="描述"/>
+    
+    
+    <Message Name="DEFAULT_FLAG" Value="預設良品倉儲位"/>
+    
+    
+    <Message Name="DEFAULT_F" Value="預設良品倉儲位"/>
+    
+    
+    
+    <Message Name="Default Flag Exist" Value="良品倉儲位已存在"/>
+    
+    
+    <Message Name="No Change!" Value="未更動"/>
+    
+    
+    <Message Name="Please Enter LOCATION!" Value="請輸入儲位!"/>
+    
+    
+    <Message Name="Please Enter STOREHOUSE!" Value="請輸入倉庫!"/>
+    
+	  
+    <Message Name="MATERIAL" Value="原料"/>
+    
+	  
+    <Message Name="FINISHED GOOD" Value="成品"/>
+    
+	  
+    <Message Name="Stage" Value="區段"/>
+    
+	  
+    <Message Name="PROD_TYPE" Value="產品型別"/>
+    
+	  
+    <Message Name="PROD_T" Value="產品型別"/>
+    
+	  
+    <Message Name="Please Select Prod. Type!" Value="請選擇產品型別"/>
+    
+	  
+    <Message Name="Good product can be checked!" Value="成品才可勾選"/>
+    
+    
+    <Message Name="YES" Value="是"/>
+    
+    
+    <Message Name="NO" Value="否"/>
+    
+    
+  </繁體中文>
+  
+  
+  <简体中文>
+    
+    
+    <Message Name="MACHINE_CODE" Value="机台代码"/>
+    
+    
+    <Message Name="MACHINE_TYPE_NAME" Value="机台类型"/>
+    
+    
+    <Message Name="MACHINE_DESC" Value="机台名称"/>
+    	
+    
+    <Message Name="MACHINE_LOC" Value="位置"/>
+    
+    
+    <Message Name="VENDOR_NAME" Value="供应商名称"/>
+    					
+    
+    <Message Name="Engineer" Value="机台工程师"/>
+    			
+    
+    <Message Name="Machine Engineer" Value="机台工程师"/>
+    						
+    
+    <Message Name="Select All" Value="全选"/>
+    			
+    
+    <Message Name="Select None" Value="取消全选"/>
+    			
+    
+    <Message Name="Employee No" Value="员工编号"/>
+    			
+    
+    <Message Name="Employee Name" Value="员工名字"/>
+    			
+    
+    <Message Name="Department" Value="部门"/>
+    	
+    
+    <Message Name="Machine Name" Value="机台名称"/>
+    
+    
+    <Message Name="Machine Code" Value="机台代码"/>
+    
+    
+    <Message Name="Vendor Name" Value="供应商名称"/>
+    
+    
+    <Message Name="Machine Type" Value="机台类型"/>
+    
+    
+    <Message Name="AUTO RUN" Value="机况变更"/>
+    
+    
+    <Message Name="INV ID" Value="仓库"/>
+    
+    
+    <Message Name="DEFECT TYPE" Value="不良类型"/>
+    
+    
+    <Message Name="Location" Value="储位"/>
+    
+    
+    <Message Name="Description" Value="描述"/>
+    
+    
+    <Message Name="DEFAULT FLAG" Value="预设良品仓储位"/>
+    
+    
+    <Message Name="Data duplication! Please Re-Enter!" Value="资料重复!请重新输入!"/>
+    
+    
+    <Message Name="Confirm Delete?" Value="确定删除?"/>
+    
+    
+    <Message Name="INV_ID" Value="仓库"/>
+    
+    
+    <Message Name="DEFECT_TYPE" Value="不良类型"/>
+    
+    
+    <Message Name="LOCATION" Value="储位"/>
+    
+    
+    <Message Name="DESCRIPTION" Value="描述"/>
+    
+    
+    <Message Name="DEFAULT_FLAG" Value="预设良品仓储位"/>
+    
+    
+    <Message Name="DEFAULT_F" Value="预设良品仓储位"/>
+    
+    
+    <Message Name="Default Flag Exist" Value="良品仓储位已存在"/>
+    
+    
+    <Message Name="No Change!" Value="未更动"/>
+    
+    
+    <Message Name="Please Enter LOCATION!" Value="请输入储位!"/>
+    
+	  
+    <Message Name="MATERIAL" Value="原料"/>
+    
+	  
+    <Message Name="FINISHED GOOD" Value="成品"/>
+    
+	  
+    <Message Name="Stage" Value="区段"/>
+    
+	  
+    <Message Name="PROD_TYPE" Value="产品型别"/>
+    
+	  
+    <Message Name="PROD_T" Value="产品型别"/>
+    
+	  
+    <Message Name="Please Select Prod. Type!" Value="请选择产品型别"/>
+    
+	  
+    <Message Name="Good product can be checked!" Value="成品才可勾选"/>
+    
+    
+    <Message Name="YES" Value="是"/>
+    
+    
+    <Message Name="NO" Value="否"/>
+    
+  
+  </简体中文>
+  
+
+  <Ngôn_ngữ_Việt>
+    <Message Name="Machine Code" Value="Mã Máy"/>
+    <Message Name="Description" Value="Mô Tả"/>
+    <Message Name="Location" Value="Vị Trí"/>
+    <Message Name="Utilization" Value="Mức Sử Dụng"/>
+    <Message Name="Machine Type" Value="Loại Máy"/>
+    <Message Name="Vendor Name" Value="Tên Nhà Cung Cấp"/>
+    <Message Name="Arrival Date" Value="Ngày Nhận"/>
+    <Message Name="Warranty Date" Value="Ngày Hết Bảo Hành"/>
+    <Message Name="Vendor No" Value="Mã Nhà Cung Cấp"/>
+    <Message Name="Vendor Description" Value="Mô Tả Nhà Cung Cấp"/>
+    <Message Name="MATERIAL" Value="Nguyên Liệu"/>
+    <Message Name="FINISHED GOOD" Value="Thành Phẩm"/>
+    <Message Name="Stage" Value="Công Đoạn"/>
+    <Message Name="PROD_TYPE" Value="Loại Sản Phẩm"/>
+    <Message Name="PROD_T" Value="Loại Sản Phẩm"/>
+    <Message Name="MACHINE_CODE" Value="Mã Máy"/>
+    <Message Name="MACHINE_TYPE_NAME" Value="Tên Loại Máy"/>
+    <Message Name="MACHINE_DESC" Value="Tên Máy"/>
+    <Message Name="MACHINE_LOC" Value="Vị Trí"/>
+    <Message Name="VENDOR_NAME" Value="Tên Nhà Cung Cấp"/>
+    <Message Name="Engineer" Value="Kỹ Sư Máy"/>
+    <Message Name="Machine Engineer" Value="Kỹ Sư Máy"/>
+    <Message Name="Select All" Value="Chọn Tất Cả"/>
+    <Message Name="Select None" Value="Bỏ Chọn"/>
+    <Message Name="Employee No" Value="Mã Nhân Viên"/>
+    <Message Name="Employee Name" Value="Tên Nhân Viên"/>
+    <Message Name="Department" Value="Bộ Phận"/>
+    <Message Name="Machine Name" Value="Tên Máy"/>
+    <Message Name="AUTO RUN" Value="Thay Đổi Trạng Thái Máy"/>
+    <Message Name="INV ID" Value="Kho"/>
+    <Message Name="DEFECT TYPE" Value="Loại Lỗi"/>
+    <Message Name="DEFAULT FLAG" Value="Kho Mặc Định (Thành Phẩm Tốt)"/>
+    <Message Name="Data duplication! Please Re-Enter!" Value="Dữ Liệu Trùng Lặp! Vui Lòng Nhập Lại!"/>
+    <Message Name="Confirm Delete?" Value="Xác Nhận Xóa?"/>
+    <Message Name="INV_ID" Value="Kho"/>
+    <Message Name="DEFECT_TYPE" Value="Loại Lỗi"/>
+    <Message Name="LOCATION" Value="Vị Trí"/>
+    <Message Name="DESCRIPTION" Value="Mô Tả"/>
+    <Message Name="DEFAULT_FLAG" Value="Kho Mặc Định (Thành Phẩm Tốt)"/>
+    <Message Name="DEFAULT_F" Value="Kho Mặc Định (Thành Phẩm Tốt)"/>
+    <Message Name="Default Flag Exist" Value="Kho Mặc Định Đã Tồn Tại"/>
+    <Message Name="No Change!" Value="Không Có Thay Đổi!"/>
+    <Message Name="Please Enter LOCATION!" Value="Vui Lòng Nhập Vị Trí!"/>
+    <Message Name="Please Enter STOREHOUSE!" Value="Vui Lòng Nhập Kho!"/>
+    <Message Name="Please Select Prod. Type!" Value="Vui Lòng Chọn Loại Sản Phẩm!"/>
+    <Message Name="Good product can be checked!" Value="Chỉ Thành Phẩm Tốt Mới Được Chọn"/>
+    <Message Name="YES" Value="Có"/>
+    <Message Name="NO" Value="Không"/>
+  </Ngôn_ngữ_Việt>
+</Chroma>

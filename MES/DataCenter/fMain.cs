@@ -353,24 +353,26 @@ namespace CBOM
                     TreeBomData.Nodes[0].LastNode.Name = sStepName; //���FFind�ϥ�
                     sPreRelation = "";
                 }
-                //Tree-Part
-                TreeNode tNode = new TreeNode();
-                tNode.Text = sItemPartNo;
-                tNode.Tag = i.ToString();  //���F�PLVData����(Tag�ȬOLVData��Row)
-                //tNode.Tag = sItemPartID;
-
-                if (sItemGroup == "0" || sPreRelation != sItemGroup)
-                {
-                    tNode.ImageIndex = 2;
-                    tNode.SelectedImageIndex = tNode.ImageIndex;
-                    TreeBomData.Nodes[0].LastNode.Nodes.Add(tNode);
-                }
-                else  //Tree-���N��
-                {
-                    tNode.ImageIndex = 3;
-                    tNode.SelectedImageIndex = tNode.ImageIndex;
-                    TreeBomData.Nodes[0].LastNode.LastNode.Nodes.Add(tNode);
-                }
+                
+                // [Modified by 千尋 2026-02-25] 移除最底層零件節點，改由 LV1 控制
+                // Tree-Part 功能移動到 LV1 右鍵選單
+                // TreeNode tNode = new TreeNode();
+                // tNode.Text = sItemPartNo;
+                // tNode.Tag = i.ToString();  
+                
+                // if (sItemGroup == "0" || sPreRelation != sItemGroup)
+                // {
+                //     tNode.ImageIndex = 2;
+                //     tNode.SelectedImageIndex = tNode.ImageIndex;
+                //     TreeBomData.Nodes[0].LastNode.Nodes.Add(tNode);
+                // }
+                // else  
+                // {
+                //     tNode.ImageIndex = 3;
+                //     tNode.SelectedImageIndex = tNode.ImageIndex;
+                //     TreeBomData.Nodes[0].LastNode.LastNode.Nodes.Add(tNode);
+                // }
+                
                 //sPreProcess = sProcess;
                 sPreStepCode = sStepName;
                 sPreRelation = sItemGroup;
@@ -1355,7 +1357,13 @@ SELECT ITEM_GROUP FROM T");
                             D.PART_NO ITEM_PART_NO,
                             D.SPEC1,
                             B.ITEM_COUNT,
-                            D.UOM
+                            D.UOM,
+                            B.ROWID,
+                            B.PROCESS_ID,
+                            B.ITEM_PART_ID,
+                            B.ITEM_GROUP,
+                            B.STEP_ITEM_ID,
+                            B.KEY_COMPONENT
                         FROM SAJET.SYS_BOM_INFO A,
                              SAJET.SYS_BOM B,
                              SAJET.SYS_PART D,
@@ -1377,24 +1385,15 @@ SELECT ITEM_GROUP FROM T");
 
 
             //gv_bom
-            //��ܿ�ܪ��Ƹ��Ӷ����
+            // [Modified by 千尋 2026-02-25] 移除最底層節點後，Level 1 = Step，顯示該 Step 下所有零件
+            // 不再使用 TreeBomData.SelectedNode.Level > 1 的邏輯
             LV1.Items.Clear();
-            if (TreeBomData.SelectedNode.Level > 1)
+            
+            // [Modified] 移除最底層節點後，Level 1 = Step，顯示該 Step 下所有零件
+            // 不再使用 TreeBomData.SelectedNode.Level > 1 的邏輯
+            if (TreeBomData.SelectedNode.Level == 1)
             {
-
-                int iIndex = Convert.ToInt32(TreeBomData.SelectedNode.Tag.ToString());
-                LV1.Items.Add(LVData.Items[iIndex].SubItems[15].Text);
-                LV1.Items[0].SubItems.Add(LVData.Items[iIndex].SubItems[14].Text);
-                LV1.Items[0].SubItems.Add(LVData.Items[iIndex].SubItems[0].Text);
-                LV1.Items[0].SubItems.Add(LVData.Items[iIndex].SubItems[6].Text);
-                LV1.Items[0].SubItems.Add(LVData.Items[iIndex].SubItems[2].Text);
-                LV1.Items[0].SubItems.Add(LVData.Items[iIndex].SubItems[17].Text);
-                LV1.Items[0].ImageIndex = 2;
-                LV1.Items[0].StateImageIndex = LV1.Items[0].ImageIndex;
-            }
-            else 
-            {
-
+                // 選擇 Step 節點時，顯示該 Step 下所有零件
                 sSQL = 
                 $@"SELECT * 
                 FROM 
@@ -1414,8 +1413,32 @@ SELECT ITEM_GROUP FROM T");
                     item.SubItems.Add(row["SPEC1"].ToString());
                     item.SubItems.Add(row["ITEM_COUNT"].ToString());
                     item.SubItems.Add(row["UOM"].ToString());
+                    // 隱藏欄位：儲存 LVData 的索引以便後續修改/刪除
+                    item.Tag = row["ITEM_PART_NO"].ToString(); 
                     item.ImageIndex = 2;
                     LV1.Items.Add(item);
+                }
+            }
+            else if (TreeBomData.SelectedNode.Level == 0)
+            {
+                // 選擇根節點時，顯示所有零件
+                sSQL = BaseSQL;
+                
+                var ds = ClientUtils.ExecuteSQL(sSQL);
+
+                foreach (DataRow row in ds.Tables[0].Rows) 
+                {
+                    ListViewItem item = new ListViewItem(row["STEP_ITEM_CODE"].ToString());
+                    item.SubItems.Add(row["STEP_ITEM_NAME"].ToString());
+                    item.SubItems.Add(row["ITEM_PART_NO"].ToString());
+                    item.SubItems.Add(row["SPEC1"].ToString());
+                    item.SubItems.Add(row["ITEM_COUNT"].ToString());
+                    item.SubItems.Add(row["UOM"].ToString());
+                    item.Tag = row["ITEM_PART_NO"].ToString();
+                    item.ImageIndex = 2;
+                    LV1.Items.Add(item);
+                }
+            }
 
 
                     //ListViewItem item = new ListViewItem(row["PROCESS_CODE"].ToString());
@@ -2203,6 +2226,154 @@ SELECT ITEM_GROUP FROM T");
             return co = objDS.Tables[0].Rows.Count;
         }
 
+        // [Added by 千尋 2026-02-25] LV1 右鍵選單 - 修改功能
+        private void ModifyLV1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (LV1.SelectedItems.Count == 0)
+            {
+                SajetCommon.Show_Message("Please select an item to modify", 0);
+                return;
+            }
+
+            // 取得選取的零件編號
+            string sItemPartNo = LV1.SelectedItems[0].SubItems[2].Text; // 零件編號在第3欄
+            
+            // 從 LVData 中找到對應的資料
+            int iRowIndex = -1;
+            for (int i = 0; i < LVData.Items.Count; i++)
+            {
+                if (LVData.Items[i].SubItems[0].Text == sItemPartNo)
+                {
+                    iRowIndex = i;
+                    break;
+                }
+            }
+
+            if (iRowIndex >= 0)
+            {
+                // 呼叫現有的修改功能
+                // 模擬選取 TreeBomData 節點的方式
+                TreeBomData.SelectedNode = TreeBomData.Nodes[0]; // 選取根節點
+                
+                // 使用現有的 ModifyToolStripMenuItem_Click 邏輯
+                string sPart = TreeBomData.Nodes[0].Text;
+                string sVer = TreeBomData.Nodes[0].Tag.ToString();
+                string sProcess = LVData.Items[iRowIndex].SubItems[1].Text;
+                string sCount = LVData.Items[iRowIndex].SubItems[2].Text;
+                string sPartVersion = LVData.Items[iRowIndex].SubItems[4].Text;
+                string sGroup = LVData.Items[iRowIndex].SubItems[3].Text;
+                string sLocation = LVData.Items[iRowIndex].SubItems[7].Text;
+                string sRowID = LVData.Items[iRowIndex].SubItems[8].Text;
+                string sStep = LVData.Items[iRowIndex].SubItems[14].Text;
+                string sKey = LVData.Items[iRowIndex].SubItems[16].Text;
+
+                fData fData = new fData();
+                fData.g_sPartNo = sPart;
+                fData.g_sVer = sVer;
+                fData.g_sProcess = sProcess;
+                fData.editSubPartNo.Text = sItemPartNo;
+                fData.editQty.Text = sCount;
+                fData.editSubPartVer.Text = sPartVersion;
+                fData.editGroup.Text = sGroup;
+                fData.g_sChangeGroup = false;
+                fData.g_sBOM_ID = g_sBOMID;
+                string[] split = sLocation.Split(new Char[] { ',' });
+                fData.editLocation.Lines = split;
+                fData.editSubPartNo.Enabled = false;
+                fData.g_sUpdateType = "Modify";
+                fData.g_sRowid = sRowID;
+                fData.g_sStep = sStep;
+                fData.g_sKey = sKey;
+
+                if (fData.ShowDialog() == DialogResult.OK)
+                {
+                    // 更新 LVData
+                    string sITEM_COUNT = fData.editQty.Text;
+                    string sITEM_GROUP = fData.editGroup.Text;
+                    string sVERSION = fData.editSubPartVer.Text;
+                    string sPROCESS_ID = fData.g_sProcessID;
+                    string sITEM_PART_ID = fData.g_sItemPartID;
+                    string sStepID = fData.g_sStepID;
+                    string[] sLocations = fData.editLocation.Lines;
+                    sKey = fData.combKey.Text;
+                    var sPRIMARY_FLAG = sITEM_GROUP == "0" ? "Y" : "";
+
+                    sSQL = $@" Update SAJET.SYS_BOM 
+                        Set ITEM_GROUP = '{sITEM_GROUP}' 
+                           ,ITEM_COUNT = '{sITEM_COUNT}' 
+                           ,PROCESS_ID = '{sPROCESS_ID}' 
+                           ,VERSION =   '{sVERSION}' 
+                           ,STEP_ITEM_ID = '{sStepID}' 
+                           ,KEY_COMPONENT = '{sKey}'
+                           ,UPDATE_USERID = '{g_sUserID}'
+                           ,UPDATE_TIME = SYSDATE 
+                           ,PRIMARY_FLAG = '{sPRIMARY_FLAG}'
+                         Where Rowid = '{sRowID}' ";
+                    ClientUtils.ExecuteSQL(sSQL);
+                    CopyToHistory(sRowID);
+
+                    // 更新 LVData 畫面
+                    LVData.Items[iRowIndex].SubItems[2].Text = sITEM_COUNT;
+                    LVData.Items[iRowIndex].SubItems[3].Text = sITEM_GROUP;
+                    LVData.Items[iRowIndex].SubItems[4].Text = sVERSION;
+
+                    // 重新整理 LV1
+                    TreeBomData_AfterSelect(sender, new TreeViewEventArgs(TreeBomData.SelectedNode));
+                }
+            }
+        }
+
+        // [Added by 千尋 2026-02-25] LV1 右鍵選單 - 刪除功能
+        private void DeleteLV1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (LV1.SelectedItems.Count == 0)
+            {
+                SajetCommon.Show_Message("Please select an item to delete", 0);
+                return;
+            }
+
+            string sMsg = SajetCommon.SetLanguage("Delete this Part", 1) + " ?";
+            if (SajetCommon.Show_Message(sMsg, 2) != DialogResult.Yes)
+                return;
+
+            // 取得選取的零件編號
+            string sItemPartNo = LV1.SelectedItems[0].SubItems[2].Text;
+
+            // 從 LVData 中找到對應的資料
+            int iRowIndex = -1;
+            for (int i = 0; i < LVData.Items.Count; i++)
+            {
+                if (LVData.Items[i].SubItems[0].Text == sItemPartNo)
+                {
+                    iRowIndex = i;
+                    break;
+                }
+            }
+
+            if (iRowIndex >= 0)
+            {
+                string sProcessID = LVData.Items[iRowIndex].SubItems[9].Text;
+                string sItemPartID = LVData.Items[iRowIndex].SubItems[10].Text;
+                string sItemGroup = LVData.Items[iRowIndex].SubItems[3].Text;
+                string sStepCode = LVData.Items[iRowIndex].SubItems[15].Text;
+                string sStepID = LVData.Items[iRowIndex].SubItems[19].Text;
+
+                string sFilterSQL = $@" WHERE BOM_ID = '{g_sBOMID}' AND PROCESS_ID = '{sProcessID}' AND STEP_ITEM_ID = '{sStepID}' AND ITEM_PART_ID = '{sItemPartID}' ";
+
+                // Copy To History
+                ClientUtils.ExecuteSQL($@"UPDATE SAJET.SYS_BOM SET ENABLED = 'Drop', UPDATE_USERID = '{g_sUserID}', UPDATE_TIME = SYSDATE" + sFilterSQL);
+                ClientUtils.ExecuteSQL($@"INSERT INTO SAJET.SYS_HT_BOM SELECT * FROM SAJET.SYS_BOM" + sFilterSQL);
+
+                // 刪除
+                ClientUtils.ExecuteSQL("DELETE SAJET.SYS_BOM" + sFilterSQL);
+
+                // 刪除 Location
+                ClientUtils.ExecuteSQL($@"DELETE SAJET.SYS_BOM_LOCATION A WHERE A.BOM_ID = '{g_sBOMID}' AND A.ITEM_PART_ID = '{sItemPartID}'");
+
+                // 重新整理畫面
+                ShowPartDetail(editPartNo.Text, combVer.Text);
+            }
+        }
 
 
     }

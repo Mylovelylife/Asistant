@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<繁體中文>
+		<Message Name="Create Inspection" Value="產生送驗單"/>
+		<Message Name="Create Inspection (Not Enough)" Value="產生送驗單(數量未滿)"/>
+		<Message Name="Search" Value="搜尋條件"/>
+		<Message Name="Production Line" Value="生產線別"/>
+		<Message Name="Process" Value="製程"/>
+		<Message Name="Stage" Value="區段"/>
+		<Message Name="Terminal" Value="工作站"/>
+		<Message Name="Select All" Value="全選"/>
+		<Message Name="Select None" Value="取消全選"/>
+		<Message Name="Query" Value="查詢"/>
+		<Message Name="Part No" Value="料號"/>
+		<Message Name="Work Order" Value="工單"/>
+		<Message Name="Panel No" Value="連板"/>
+		<Message Name="Total Qty" Value="總數"/>
+		<Message Name="Group Qty" Value="批量"/>
+		<Message Name="Serial Number" Value="序號"/>
+		<Message Name="Out Process Time" Value="離開製程時間"/>
+		<Message Name="Terminal not be assign!" Value="站別未定義!"/>
+		<Message Name="Terminal data Error!" Value="站別資料錯誤!"/>
+		<Message Name="Work Order Error" Value="工單錯誤"/>
+		<Message Name="No Data" Value="查無資料"/>
+		<Message Name="Group Qty Not Bigger Then Total Qty!" Value="成批數不可大於序號總數"/>
+		<Message Name="Group Qty Not be 0" Value="批量不可為0"/>
+		<Message Name="Create Inspection No?" Value="確定產生送驗單?"/>
+		<Message Name="Group Qty is " Value="批量為"/>
+		<Message Name="Confirm" Value="確定"/>
+		<Message Name="Pallet No" Value="棧板號"/>
+		<Message Name="Close" Value="關閉"/>
+		<Message Name="Select Qty" Value="選擇數量"/>
+		<Message Name="Qty" Value="數量"/>
+		<Message Name="Setup Group Qty" Value="批量設定數"/>
+		<Message Name="Please Select PDLine" Value="請選擇生產線別"/>
+		<Message Name="Group Qty More Then Setup Qty" Value="成批數大於設定批量"/>
+		<Message Name="Group Qty and Setup Qty Different" Value="成批數不等於設定批量"/>
+		<Message Name="Data Is Checked" Value="資料已勾選"/>
+		<Message Name="Reprint" Value="補印"/>
+		<Message Name="Inspection No" Value="送驗單號"/>
+		<Message Name="Pallet No/Carton No" Value="棧板號/箱號"/>
+		<Message Name="Carton No" Value="箱號"/>
+		<Message Name="Carton Qty" Value="數量"/>
+		<Message Name="Inspected Qty" Value="已送驗數量"/>
+		<Message Name="IPQC Not Enought" Value="IPQC抽驗數量不足"/>
+		<Message Name="Same Pallet Not Check" Value="同棧板未勾選"/>
+		<Message Name="Clear Inspection No" Value="清除送驗單號"/>
+		<Message Name="No Inspection No" Value="無此送驗單"/>
+		<Message Name="Inspection No Have QC No" Value="送驗單已有檢驗單號"/>
+		<Message Name="Confirm Clear Inspection No?" Value="確定清除此送驗單號?"/>
+		<Message Name="Clear OK" Value="清除完成"/>
+		<Message Name="Print Qty" Value="列印數量"/>
+		<Message Name="FIFO Part" Value="FIFO料確認"/>
+		<Message Name="FIFO" Value="管制FIFO"/>
+		<Message Name="Yes" Value="確定"/>
+		<Message Name="No" Value="取消"/>
+		<Message Name="Part Check" Value="確認"/>
+		<Message Name="These Parts Haven't Loaded Yet, Sure To Continue?" Value="尚有FIFO料未上料，確定要繼續成批？"/>
+		<Message Name="These Parts Haven't Assembled Yet, Sure To Continue?" Value="尚有KP料未組裝，確定要繼續成批？"/>
+		<Message Name="These Parts Are Not In BOM, Sure To Continue?" Value="有KP料未加入到組裝製程，確定要繼續成批？"/>
+		<Message Name="Control" Value="管制"/>
+		<Message Name="PDLINE_NAME" Value="生產線別"/>
+		<Message Name="WORK_ORDER" Value="工單"/>
+		<Message Name="PART_NO" Value="料號"/>
+		<Message Name="Finished" Value="執行完畢"/>
+		<Message Name="Unselect" Value="取消勾選"/>
+		<Message Name="Pallet not Close" Value="棧板未關閉"/>
+		<Message Name="Carton not Close" Value="箱未關閉"/>
+		<Message Name="Print?  Qty" Value="列印? 數量"/>
+		<Message Name="Inspection No.:" Value="送驗單號:"/>
+		<Message Name="Work Order:" Value="工單:"/>
+		<Message Name="Work Order Target Qty.:" Value="工單目標量:"/>
+		<Message Name="Inspection Qty.:" Value="送驗數:"/>
+		<Message Name="Part No.:" Value="料號:"/>
+		<Message Name="Inspection Date:" Value="送驗日期:"/>
+		<Message Name="Inspection Time:" Value="送驗時間:"/>
+	</繁體中文>
+<Ngôn_ngữ_Việt><Message Name="Create Inspection" Value="Tạo phiếu gửi kiểm"/><Message Name="Create Inspection (Not Enough)" Value="Tạo phiếu gửi kiểm (số lượng chưa đủ)"/><Message Name="Search" Value="Điều kiện tìm kiếm"/><Message Name="Production Line" Value="Dây chuyền sản xuất"/><Message Name="Process" Value="Công đoạn"/><Message Name="Stage" Value="Khu vực"/><Message Name="Terminal" Value="Trạm làm việc"/><Message Name="Select All" Value="Chọn tất cả"/><Message Name="Select None" Value="Bỏ chọn tất cả"/><Message Name="Query" Value="Truy vấn"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="Work Order" Value="Lệnh sản xuất"/><Message Name="Panel No" Value="Bảng liên kết"/><Message Name="Total Qty" Value="Tổng số"/><Message Name="Group Qty" Value="Số lượng theo lô"/><Message Name="Serial Number" Value="Số sê-ri"/><Message Name="Out Process Time" Value="Thời gian rời công đoạn"/><Message Name="Terminal not be assign!" Value="Chưa định nghĩa trạm!"/><Message Name="Terminal data Error!" Value="Dữ liệu trạm sai!"/><Message Name="Work Order Error" Value="Lỗi lệnh sản xuất"/><Message Name="No Data" Value="Không có dữ liệu"/><Message Name="Group Qty Not Bigger Then Total Qty!" Value="Số lô không được lớn hơn tổng số sê-ri"/><Message Name="Group Qty Not be 0" Value="Số lượng theo lô không được bằng 0"/><Message Name="Create Inspection No?" Value="Xác nhận tạo phiếu gửi kiểm?"/><Message Name="Group Qty is " Value="Số lượng theo lô là"/><Message Name="Confirm" Value="OK"/><Message Name="Pallet No" Value="Số pallet"/><Message Name="Close" Value="Đóng"/><Message Name="Select Qty" Value="Chọn số lượng"/><Message Name="Qty" Value="Số lượng"/><Message Name="Setup Group Qty" Value="Số lượng lô đã cài đặt"/><Message Name="Please Select PDLine" Value="Vui lòng chọn dây chuyền sản xuất"/><Message Name="Group Qty More Then Setup Qty" Value="Số lô lớn hơn số lượng cài đặt"/><Message Name="Group Qty and Setup Qty Different" Value="Số lô không bằng số lượng cài đặt"/><Message Name="Data Is Checked" Value="Dữ liệu đã được đánh dấu"/><Message Name="Reprint" Value="In bổ sung"/><Message Name="Inspection No" Value="Số phiếu gửi kiểm"/><Message Name="Pallet No/Carton No" Value="Số pallet / thùng"/><Message Name="Carton No" Value="Số thùng"/><Message Name="Carton Qty" Value="Số lượng"/><Message Name="Inspected Qty" Value="Số lượng đã gửi kiểm"/><Message Name="IPQC Not Enought" Value="Số lượng lấy mẫu IPQC không đủ"/><Message Name="Same Pallet Not Check" Value="Pallet tương ứng chưa được chọn"/><Message Name="Clear Inspection No" Value="Xóa số phiếu gửi kiểm"/><Message Name="No Inspection No" Value="Không có phiếu gửi kiểm này"/><Message Name="Inspection No Have QC No" Value="Phiếu gửi kiểm đã có số phiếu kiểm tra"/><Message Name="Confirm Clear Inspection No?" Value="Xác nhận xóa số phiếu gửi kiểm này?"/><Message Name="Clear OK" Value="Xóa hoàn tất"/><Message Name="Print Qty" Value="Số lượng in"/><Message Name="FIFO Part" Value="Xác nhận vật liệu FIFO"/><Message Name="FIFO" Value="Kiểm soát FIFO"/><Message Name="Yes" Value="OK"/><Message Name="No" Value="Hủy"/><Message Name="Part Check" Value="Xác nhận"/><Message Name="These Parts Haven't Loaded Yet, Sure To Continue?" Value="Vẫn còn vật liệu FIFO chưa lên liệu, tiếp tục tạo lô?"/><Message Name="These Parts Haven't Assembled Yet, Sure To Continue?" Value="Vẫn còn vật liệu KP chưa lắp ráp, tiếp tục tạo lô?"/><Message Name="These Parts Are Not In BOM, Sure To Continue?" Value="Có vật liệu KP chưa đưa vào công đoạn lắp ráp, tiếp tục tạo lô?"/><Message Name="Control" Value="Kiểm soát"/><Message Name="PDLINE_NAME" Value="Dây chuyền sản xuất"/><Message Name="WORK_ORDER" Value="Lệnh sản xuất"/><Message Name="PART_NO" Value="Mã linh kiện"/><Message Name="Finished" Value="Thực hiện hoàn tất"/><Message Name="Unselect" Value="Bỏ đánh dấu"/><Message Name="Pallet not Close" Value="Pallet chưa đóng"/><Message Name="Carton not Close" Value="Thùng chưa đóng"/><Message Name="Print?  Qty" Value="In? Số lượng"/><Message Name="Inspection No.:" Value="Phiếu gửi kiểm:"/><Message Name="Work Order:" Value="Lệnh sản xuất:"/><Message Name="Work Order Target Qty.:" Value="Số lượng mục tiêu của lệnh:"/><Message Name="Inspection Qty.:" Value="Số lượng gửi kiểm:"/><Message Name="Part No.:" Value="Mã linh kiện:"/><Message Name="Inspection Date:" Value="Ngày gửi kiểm:"/><Message Name="Inspection Time:" Value="Thời gian gửi kiểm:"/></Ngôn_ngữ_Việt></Chroma>

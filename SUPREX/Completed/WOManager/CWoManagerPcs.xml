@@ -1,0 +1,726 @@
+﻿<Chroma>
+	<English>
+		<Message Name="CUSTOMER_NAME" Value="Customer Name" />
+		<Message Name="UPDATE_TIME" Value="Update Time" />
+		<Message Name="UPDATE_USER" Value="Employee" />
+		<Message Name="PKSPEC_NAME" Value="Packing Spec" />
+		<Message Name="PALLET_QTY" Value="Pallet Qty" />
+		<Message Name="CARTON_QTY" Value="Carton Qty" />
+		<Message Name="BOX_QTY" Value="Box Qty" />
+		<Message Name="CUSTOMER_SN" Value="Customer SN" />
+		<Message Name="MAP_TIME" Value="Map Time" />
+		<Message Name="SCRAP_FLAG" Value="Scrap Flag" />
+		<Message Name="PANEL_NO" Value="Panel No" />
+		<Message Name="PART_NO" Value="Part No" />
+		<Message Name="VERSION" Value="Version" />
+		<Message Name="PDLINE_NAME" Value="PDLine Name" />
+		<Message Name="STAGE_NAME" Value="Stage Name" />
+		<Message Name="PROCESS_NAME" Value="Process Name" />
+		<Message Name="TERMINAL_NAME" Value="Terminal Name" />
+		<Message Name="OUT_PROCESS_TIME" Value="Out Process Time" />
+		<Message Name="IN_PROCESS_TIME" Value="In Process Time" />
+		<Message Name="OUT_PDLINE_TIME" Value="Out Line Time" />
+		<Message Name="IN_PDLINE_TIME" Value="In Line Time" />
+		<Message Name="REWORK_NO" Value="Rework No" />
+		<Message Name="REWORK_EMPLOYEE" Value="Rework Employee" />
+		<Message Name="REWORK_TIME" Value="Rework Time" />
+		<Message Name="DN_NO" Value="DN No" />
+		<Message Name="QC_NO" Value="QC No" />
+		<Message Name="QC_RESULT" Value="QC Result" />
+		<Message Name="PALLET_NO" Value="Pallet No" />
+		<Message Name="CARTON_NO" Value="Carton No" />
+		<Message Name="BOX_NO" Value="Box No" />
+		<Message Name="SCRAP" Value="Scrap" />
+		<Message Name="NEXT_PROCESS" Value="Next Process" />
+		<Message Name="CURRENT_STATUS" Value="Status" />
+		<Message Name="SERIAL_NUMBER" Value="Serail Number" />
+		<Message Name="WORK_ORDER" Value="Work Order" />
+		<Message Name="A.WORK_ORDER" Value="Work Order" />
+		<Message Name="WO_TYPE" Value="WO Type" />
+		<Message Name="WO_RULE" Value="WO Rule" />
+		<Message Name="MASTER_WO" Value="Master WO" />
+		<Message Name="SALES_ORDER" Value="Sales Order" />
+		<Message Name="PO_NO" Value="PO No" />
+		<Message Name="BURNIN_TIME" Value="Burnin Time" />
+		<Message Name="CUSTOMER_CODE" Value="Customer Code" />
+		<Message Name="END_PROCESS" Value="End Process" />
+		<Message Name="START_PROCESS" Value="Start Process" />
+		<Message Name="ROUTE_NAME" Value="Route Name" />
+		<Message Name="INPUT_QTY" Value="Input Qty" />
+		<Message Name="OUTPUT_QTY" Value="Output Qty" />
+		<Message Name="SCRAP_QTY" Value="Scrap Qty" />
+		<Message Name="WO_CREATE_DATE" Value="WO Create Date" />
+		<Message Name="WO_START_DATE" Value="WO Start Date" />
+		<Message Name="WO_CLOSE_DATE" Value="WO Close Date" />
+		<Message Name="WO_SCHEDULE_DATE" Value="Schedule Date" />
+		<Message Name="WO_DUE_DATE" Value="Due Date" />
+		<Message Name="TARGET_QTY" Value="Target Qty" />
+		<Message Name="REMARK" Value="Remark" />
+		<Message Name="WOSTATUS" Value="Status" />
+		<Message Name="EMP_NAME" Value="Employee" />
+	</English>
+	<繁體中文>
+		<Message Name="Part No" Value="料號" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="Sub Part No" Value="子件料號" />
+		<Message Name="Sub Part Ver" Value="子件版本" />
+		<Message Name="Process" Value="製程名稱" />
+		<Message Name="Qty" Value="數量" />
+		<Message Name="Relation" Value="料件關係" />
+		<Message Name="Location" Value="位置" />
+		<Message Name="0:Non-Substitution" Value="0:無替代料" />
+		<Message Name="Work Order" Value="工單" />
+		<Message Name="Packing Spec" Value="包裝方式" />
+		<Message Name="Pallet" Value="棧板" />
+		<Message Name="Carton" Value="外箱" />
+		<Message Name="Box" Value="彩盒" />
+		<Message Name="Factory "      Value="廠別                        " />
+		<Message Name="Default Line " Value="預設線別                 " />
+		<Message Name="Factory" Value="廠別" />
+		<Message Name="Remark" Value="ERP備註" />
+		<Message Name="Master W/O" Value="母工單" />
+		<Message Name="Sales Order" Value="銷售訂單" />
+		<Message Name="PO" Value="訂單號" />
+		<Message Name="Burnin Time" Value="燒機時間" />
+		<Message Name="Customer" Value="客戶" />
+		<Message Name="Output Process" Value="產出製程" />
+		<Message Name="Input Process" Value="投入製程" />
+		<Message Name="Route Name" Value="途程名稱" />
+		<Message Name="Default Line" Value="預設線別" />
+		<Message Name="Due Date" Value="預計結束日期" />
+		<Message Name="Schedule Date" Value="預計開始日期" />
+		<Message Name="Target Qty" Value="目標量" />
+		<Message Name="W/O Type" Value="工單類型" />
+		<Message Name="W/O Rule" Value="工單規則" />
+		<Message Name="W/O Status" Value="工單狀態" />
+		<Message Name="View Customer SN" Value="顯示出貨序號" />
+		<Message Name="View SN" Value="顯示序號" />
+		<Message Name="View BOM" Value="顯示BOM" />
+		<Message Name="View Wo Data" Value="顯示工單資料" />
+		<Message Name="Status Log" Value="工單狀態紀錄" />
+		<Message Name="Release" Value="核發" />
+		<Message Name="Initial" Value="初始" />
+		<Message Name="Prepare" Value="準備" />
+		<Message Name="Work In Process" Value="生產中" />
+		<Message Name="Hold" Value="暫停" />
+		<Message Name="Complete" Value="完成" />
+		<Message Name="Type" Value="類型" />
+		<Message Name="Spec" Value="規格" />
+		<Message Name="Collapse" Value="摺疊" />
+		<Message Name="Expand" Value="展開" />
+		<Message Name="Wo Bom" Value="工單物料清單" />
+		<Message Name="Input Qty" Value="投入數" />
+		<Message Name="Output Qty" Value="產出數" />
+		<Message Name="Scrap Qty" Value="報廢數" />
+		<Message Name="W/O Create Date" Value="工單建立日期" />
+		<Message Name="W/O Start Date" Value="工單開始日期" />
+		<Message Name="W/O Close Date" Value="工單結束日期" />
+		<Message Name="W/O Schedule Date" Value="預計開始日期" />
+		<Message Name="W/O Due Date" Value="預計結束日期" />
+		<Message Name="Customer Code" Value="客戶代碼" />
+		<Message Name="CUSTOMER_NAME" Value="客戶名稱" />
+		<Message Name="UPDATE_TIME" Value="資料異動時間" />
+		<Message Name="UPDATE_USER" Value="資料異動人員" />
+		<Message Name="PKSPEC_NAME" Value="包裝方式" />
+		<Message Name="PALLET_QTY" Value="棧板數" />
+		<Message Name="CARTON_QTY" Value="箱數" />
+		<Message Name="BOX_QTY" Value="彩盒數" />
+		<Message Name="Count" Value="筆數" />
+		<Message Name="Filter : Part" Value="搜尋:料號" />
+		<Message Name="Spec1" Value="規格" />
+		<Message Name="Read Only" Value="唯讀" />
+		<Message Name="(WO BOM)" Value="(工單物料清單)" />
+		<Message Name="(Default)" Value="(預設物料清單)" />
+		<Message Name="(Minus.)" Value="(分)" />
+		<Message Name="Qty Error" Value="數量錯誤" />
+		<Message Name="Sub Part No Error" Value="子件料號錯誤" />
+		<Message Name="Please Change Relation" Value="有替代料,料件關係不可為0" />
+		<Message Name="Some SN had Input" Value="已有序號投入" />
+		<Message Name="Sure to Change Route" Value="確定修改" />
+		<Message Name="Part No Error" Value="料號錯誤" />
+		<Message Name="Target Qty must be integer" Value="目標量需為數字" />
+		<Message Name="Target Qty Error" Value="目標量錯誤" />
+		<Message Name="Customer Error" Value="客戶錯誤" />
+		<Message Name="Burnin Time must be integer" Value="燒機時間需為數字" />
+		<Message Name="Packing Spec Duplicate" Value="包裝方式重複" />
+		<Message Name="Change Work Order Status to Release" Value="更改工單狀態為Release" />
+		<Message Name="Sub Part No Duplicate" Value="子件料號重複" />
+		<Message Name="Delete this WO BOM" Value="刪除此BOM" />
+		<Message Name="Delete all Part of this Process" Value="刪除此製程下所有料號" />
+		<Message Name="Target Qty Can't Less Than Release Qty" Value="目標量不可小於已展序號數量" />
+		<Message Name="Delete this Part" Value="刪除此料號" />
+		<Message Name="UOM" Value="單位" />
+		<Message Name="Assign MAC" Value="分配MAC" />
+		<Message Name="View Panel SN" Value="顯示小板號" />
+		<Message Name="File not exist" Value="檔案不存在" />
+		<Message Name="Success" Value="成功" />
+		<Message Name="Delete?" Value="刪除?" />
+		<Message Name="WO_TYPE" Value="工單類型" />
+		<Message Name="WO_RULE" Value="工單規則" />
+		<Message Name="MASTER_WO" Value="母工單" />
+		<Message Name="SALES_ORDER" Value="銷售訂單" />
+		<Message Name="PO_NO" Value="訂單號" />
+		<Message Name="BURNIN_TIME" Value="燒機時間" />
+		<Message Name="CUSTOMER_CODE" Value="客戶" />
+		<Message Name="END_PROCESS" Value="產出製程" />
+		<Message Name="START_PROCESS" Value="投入製程" />
+		<Message Name="ROUTE_NAME" Value="途程名稱" />
+		<Message Name="INPUT_QTY" Value="投入數" />
+		<Message Name="OUTPUT_QTY" Value="產出數" />
+		<Message Name="SCRAP_QTY" Value="報廢數" />
+		<Message Name="WO_CREATE_DATE" Value="工單建立日期" />
+		<Message Name="WO_START_DATE" Value="工單開始日期" />
+		<Message Name="WO_CLOSE_DATE" Value="預計結束日期" />
+		<Message Name="WO_SCHEDULE_DATE" Value="預計開始日期" />
+		<Message Name="WO_DUE_DATE" Value="預計結束日期" />
+		<Message Name="WO_DUE_DATE1" Value="預計結束日期" />
+		<Message Name="TARGET_QTY" Value="目標量" />
+		<Message Name="Record Count" Value="筆數" />
+		<Message Name="NOT FOUND" Value="查無資料" />
+		<Message Name="CUSTOMER" Value="客戶" />
+		<Message Name="Must be integer" Value="必須是整數" />
+		<Message Name="Must be decimal" Value="必須是數字" />
+		<Message Name="CUSTOMER_SN" Value="出貨序號" />
+		<Message Name="MAP_TIME" Value="對應時間" />
+		<Message Name="SCRAP_FLAG" Value="報廢標記" />
+		<Message Name="PANEL_NO" Value="大板號" />
+		<Message Name="PART_NO" Value="料號" />
+		<Message Name="VERSION" Value="版本" />
+		<Message Name="PDLINE_NAME" Value="線別" />
+		<Message Name="STAGE_NAME" Value="區段" />
+		<Message Name="PROCESS_NAME" Value="製程" />
+		<Message Name="TERMINAL_NAME" Value="站別" />
+		<Message Name="OUT_PROCESS_TIME" Value="出站時間" />
+		<Message Name="IN_PROCESS_TIME" Value="進站時間" />
+		<Message Name="OUT_PDLINE_TIME" Value="產出時間" />
+		<Message Name="IN_PDLINE_TIME" Value="投產時間" />
+		<Message Name="REWORK_NO" Value="重工單號" />
+		<Message Name="REWORK_EMPLOYEE" Value="重工人員" />
+		<Message Name="REWORK_TIME" Value="重工時間" />
+		<Message Name="DN_NO" Value="出貨單號" />
+		<Message Name="QC_NO" Value="抽驗批號" />
+		<Message Name="QC_RESULT" Value="抽驗結果" />
+		<Message Name="PALLET_NO" Value="棧板號" />
+		<Message Name="CARTON_NO" Value="箱號" />
+		<Message Name="BOX_NO" Value="彩盒號" />
+		<Message Name="SCRAP" Value="報廢" />
+		<Message Name="NEXT_PROCESS" Value="下一製程" />
+		<Message Name="CURRENT_STATUS" Value="狀態" />
+		<Message Name="SERIAL_NUMBER" Value="序號" />
+		<Message Name="CUSTOMER_SN" Value="出貨序號" />
+		<Message Name="WORK_ORDER" Value="工單" />
+		<Message Name="A.WORK_ORDER" Value="工單" />
+		<Message Name="Import Customer SN" Value="匯入出貨序號" />
+		<Message Name="Auto Mapping" Value="序號對應" />
+		<Message Name="SPEC1" Value="規格1" />
+		<Message Name="SPEC2" Value="規格2" />
+		<Message Name="CUSTOMER_ADDR" Value="國別" />
+		<Message Name="REMARK" Value="ERP備註" />
+		<Message Name="MES REMARK" Value="MES備註" />
+		<Message Name="Operative" Value="有效" />
+		<Message Name="WOSTATUS" Value="工單狀態" />
+		<Message Name="WO Dept" Value="工令部門" />
+		<Message Name="WO_DEPT" Value="工令部門" />
+		<Message Name="Software Ver." Value="軟件版本" />
+		<Message Name="Cust SO" Value="客戶SO" />
+		<Message Name="Cust MO" Value="客戶PO" />
+		<Message Name="Cust Delivery" Value="客戶交貨" />
+		<Message Name="Cust Vender" Value="客戶供應商" />
+		<Message Name="MES Process Binding ERP SEQ" Value="MES製程綁定ERP工序" />
+
+		<Message Name="Factory cannot be empty" Value="廠別不可為空" />
+		<Message Name="Property" Value="屬性" />
+		<Message Name="PropertyName" Value="屬性名稱" />
+		<Message Name="PropertyValue" Value="屬性值" />
+		<Message Name="DataType" Value="數值類型" />
+		<Message Name="Varchar" Value="文字" />
+		<Message Name="Number" Value="數字" />
+		<Message Name="Specification" Value="說明" />
+		<Message Name="fMultiSelect" Value="選取項目"/>
+		<Message Name="Please pick option to configration." Value="請選擇欲設定的項目"/>
+		<Message Name="Please confirm the &quot;Rule Set Define&quot; settings" Value="請確認「規則集合」設定" />
+		<Message Name="Please confirm the necessary input settings for &quot;Property&quot;" Value="請確認「屬性」必要輸入設定" />
+		<Message Name="Factory cannot be empty" Value="廠別不可為空" />
+		<Message Name="Please enter less one word to search" Value="請輸入一個詞進行搜索" />
+		<Message Name="Bom Info" Value="物料資訊" />
+		<Message Name="Modify Bom Info" Value="修改物料資訊" />
+		<Message Name="Check KPSN" Value="未做收料時檢查"/>
+		<Message Name="KPSN Length" Value="KPSN長度"/>
+		<Message Name="Check Start Index" Value="檢查開始位"/>
+		<Message Name="Check String" Value="固定文字"/>
+		<Message Name="Copy to SYS_BOM" Value="回寫到機種BOM"/>
+		<Message Name="Start Cust SN" Value="開始出貨序號"/>
+		<Message Name="End Cust SN" Value="結束出貨序號"/>
+		<Message Name="Seq Position" Value="出貨號流水碼位置"/>
+		<Message Name="Cust Seq" Value="出貨號流水碼進制"/>
+		<Message Name="Cust SN Length" Value="出貨序號長度"/>
+		<Message Name="Hexadecimal (16)" Value="十六進位" />
+		<Message Name="Decimal (10)" Value="十進位" />
+		<Message Name="Route Binding Model Part Error" Value="預設途程對應機種料號錯誤" />
+		<Message Name="SEQ not binding" Value="ERP工序未綁定MES製程" />
+		<Message Name="Route not model" Value="途程與機種料號不對應" />
+		<Message Name="Part not model" Value="料號無對應機種" />
+		<Message Name="Pls select route" Value="請選擇途程" />
+		<Message Name="Pls select part" Value="請選擇料號" />
+		<Message Name="Model - Process Link" Value="機種-製程關係" />
+		<Message Name="Filter : Process" Value="過濾:製程" />
+		<Message Name="PROCESS_CODE" Value="製程代碼" />
+		<Message Name="PROCESS_NAME" Value="製程名稱" />
+		<Message Name="Process Code" Value="製程代碼" />
+		<Message Name="Process Name" Value="製程名稱" />
+		<Message Name="Operation SEQ" Value="工序" />
+		<Message Name="Operation SEQ is null" Value="工作站工序為空" />
+		<Message Name="Pls select process" Value="請選擇製程" />
+		<Message Name="Set Process" Value="設置工序" />
+		<Message Name="Pls select default route" Value="請設置預設途程" />
+		<Message Name="Operation SEQ is set" Value="工序序號已設定" />
+		<Message Name="Model Name" Value="機種名稱" />
+		<Message Name="Bom Type" Value="Bom類型" />
+		<Message Name="Master WO Error" Value="母工單錯誤" />
+		<Message Name="Assy Part" Value="組裝料號" />
+		<Message Name="Key Parts" Value="組裝序號" />
+		<Message Name="OPTION4" Value="MAC數量" />
+		<Message Name="OPTION6" Value="子板數量" />
+		<Message Name="MAC Count" Value="MAC數量" />
+		<Message Name="Sub Count" Value="子板數量" />
+		<Message Name="All" Value="全部" />
+		<Message Name="Target QTY is null" Value="工單目標量未維護" />
+		<Message Name="Route is null" Value="工單途程未維護" />
+		<Message Name="Part is null" Value="工單料號未維護" />
+		<Message Name="" Value="" />
+	</繁體中文>
+      <Ngôn_ngữ_Việt>
+ <Message Name="Part No" Value="Mã linh kiện" />
+<Message Name="Version" Value="Phiên bản" />
+<Message Name="Sub Part No" Value="Mã linh kiện con" />
+<Message Name="Sub Part Ver" Value="Phiên bản linh kiện con" />
+<Message Name="Process" Value="Tên công đoạn" />
+<Message Name="Qty" Value="Số lượng" />
+<Message Name="Relation" Value="Quan hệ linh kiện" />
+<Message Name="Location" Value="Vị trí" />
+<Message Name="0:Non-Substitution" Value="0: Không có linh kiện thay thế" />
+<Message Name="Work Order" Value="Lệnh sản xuất" />
+<Message Name="Packing Spec" Value="Phương thức đóng gói" />
+<Message Name="Pallet" Value="Pallet" />
+<Message Name="Carton" Value="Thùng carton" />
+<Message Name="Box" Value="Hộp màu" />
+
+<Message Name="Factory " Value="Nhà máy" />
+<Message Name="Default Line " Value="Dây chuyền mặc định" />
+
+<Message Name="Factory" Value="Nhà máy" />
+<Message Name="Remark" Value="Ghi chú ERP" />
+<Message Name="Master W/O" Value="Lệnh sản xuất mẹ" />
+<Message Name="Sales Order" Value="Đơn bán hàng" />
+<Message Name="PO" Value="Mã đơn đặt hàng" />
+<Message Name="Burnin Time" Value="Thời gian burn-in" />
+<Message Name="Customer" Value="Khách hàng" />
+<Message Name="Output Process" Value="Công đoạn đầu ra" />
+<Message Name="Input Process" Value="Công đoạn đầu vào" />
+<Message Name="Route Name" Value="Tên lộ trình" />
+<Message Name="Default Line" Value="Dây chuyền mặc định" />
+
+<Message Name="Due Date" Value="Ngày kết thúc dự kiến" />
+<Message Name="Schedule Date" Value="Ngày bắt đầu dự kiến" />
+<Message Name="Target Qty" Value="Sản lượng mục tiêu" />
+<Message Name="W/O Type" Value="Loại lệnh sản xuất" />
+<Message Name="W/O Rule" Value="Quy tắc lệnh sản xuất" />
+<Message Name="W/O Status" Value="Trạng thái lệnh sản xuất" />
+
+<Message Name="View Customer SN" Value="Hiển thị số sê-ri xuất hàng" />
+<Message Name="View SN" Value="Hiển thị số sê-ri" />
+<Message Name="View BOM" Value="Hiển thị BOM" />
+<Message Name="View Wo Data" Value="Hiển thị dữ liệu lệnh sản xuất" />
+<Message Name="Status Log" Value="Lịch sử trạng thái lệnh" />
+
+<Message Name="Release" Value="Phê duyệt" />
+<Message Name="Initial" Value="Khởi tạo" />
+<Message Name="Prepare" Value="Chuẩn bị" />
+<Message Name="Work In Process" Value="Đang sản xuất" />
+<Message Name="Hold" Value="Tạm dừng" />
+<Message Name="Complete" Value="Hoàn thành" />
+
+<Message Name="Type" Value="Loại" />
+<Message Name="Spec" Value="Thông số" />
+<Message Name="Collapse" Value="Thu gọn" />
+<Message Name="Expand" Value="Mở rộng" />
+
+<Message Name="Wo Bom" Value="Danh sách vật liệu (WO BOM)" />
+<Message Name="Input Qty" Value="Số lượng đầu vào" />
+<Message Name="Output Qty" Value="Số lượng đầu ra" />
+<Message Name="Scrap Qty" Value="Số lượng phế" />
+
+<Message Name="W/O Create Date" Value="Ngày tạo lệnh sản xuất" />
+<Message Name="W/O Start Date" Value="Ngày bắt đầu lệnh sản xuất" />
+<Message Name="W/O Close Date" Value="Ngày kết thúc lệnh sản xuất" />
+<Message Name="W/O Schedule Date" Value="Ngày bắt đầu dự kiến" />
+<Message Name="W/O Due Date" Value="Ngày kết thúc dự kiến" />
+
+<Message Name="Customer Code" Value="Mã khách hàng" />
+<Message Name="CUSTOMER_NAME" Value="Tên khách hàng" />
+<Message Name="UPDATE_TIME" Value="Thời gian cập nhật" />
+<Message Name="UPDATE_USER" Value="Người cập nhật" />
+
+<Message Name="PKSPEC_NAME" Value="Phương thức đóng gói" />
+<Message Name="PALLET_QTY" Value="Số pallet" />
+<Message Name="CARTON_QTY" Value="Số thùng" />
+<Message Name="BOX_QTY" Value="Số hộp màu" />
+
+<Message Name="Count" Value="Số dòng" />
+<Message Name="Filter : Part" Value="Tìm kiếm: Mã linh kiện" />
+<Message Name="Spec1" Value="Thông số" />
+<Message Name="Read Only" Value="Chỉ đọc" />
+
+<Message Name="(WO BOM)" Value="(Danh sách vật liệu - WO BOM)" />
+<Message Name="(Default)" Value="(Mặc định)" />
+<Message Name="(Minus.)" Value="(Bớt)" />
+
+<Message Name="Qty Error" Value="Lỗi số lượng" />
+<Message Name="Sub Part No Error" Value="Lỗi mã linh kiện con" />
+<Message Name="Please Change Relation" Value="Có linh kiện thay thế, quan hệ không thể là 0" />
+<Message Name="Some SN had Input" Value="Một số sê-ri đã được đưa vào sản xuất" />
+<Message Name="Sure to Change Route" Value="Xác nhận thay đổi?" />
+<Message Name="Part No Error" Value="Lỗi mã linh kiện" />
+
+<Message Name="Target Qty must be integer" Value="Sản lượng mục tiêu phải là số" />
+<Message Name="Target Qty Error" Value="Lỗi sản lượng mục tiêu" />
+<Message Name="Customer Error" Value="Lỗi khách hàng" />
+<Message Name="Burnin Time must be integer" Value="Thời gian burn-in phải là số" />
+<Message Name="Packing Spec Duplicate" Value="Phương thức đóng gói bị trùng" />
+
+<Message Name="Change Work Order Status to Release" Value="Đổi trạng thái lệnh sản xuất sang Phê duyệt" />
+<Message Name="Sub Part No Duplicate" Value="Mã linh kiện con bị trùng" />
+<Message Name="Delete this WO BOM" Value="Xóa BOM này" />
+<Message Name="Delete all Part of this Process" Value="Xóa tất cả linh kiện thuộc công đoạn này" />
+<Message Name="Target Qty Can't Less Than Release Qty" Value="Sản lượng mục tiêu không được nhỏ hơn số lượng đã phát hành" />
+<Message Name="Delete this Part" Value="Xóa linh kiện này" />
+
+<Message Name="UOM" Value="Đơn vị" />
+<Message Name="Assign MAC" Value="Gán địa chỉ MAC" />
+<Message Name="View Panel SN" Value="Hiển thị số bảng nhỏ" />
+<Message Name="File not exist" Value="Tệp không tồn tại" />
+<Message Name="Success" Value="Thành công" />
+<Message Name="Delete?" Value="Xóa?" />
+
+<Message Name="WO_TYPE" Value="Loại lệnh sản xuất" />
+<Message Name="WO_RULE" Value="Quy tắc lệnh sản xuất" />
+<Message Name="MASTER_WO" Value="Lệnh sản xuất mẹ" />
+<Message Name="SALES_ORDER" Value="Đơn bán hàng" />
+<Message Name="PO_NO" Value="Mã đơn đặt hàng" />
+<Message Name="BURNIN_TIME" Value="Thời gian burn-in" />
+<Message Name="CUSTOMER_CODE" Value="Mã khách hàng" />
+<Message Name="END_PROCESS" Value="Công đoạn đầu ra" />
+<Message Name="START_PROCESS" Value="Công đoạn đầu vào" />
+<Message Name="ROUTE_NAME" Value="Tên lộ trình" />
+<Message Name="INPUT_QTY" Value="Số lượng đầu vào" />
+<Message Name="OUTPUT_QTY" Value="Số lượng đầu ra" />
+<Message Name="SCRAP_QTY" Value="Số lượng phế" />
+
+<Message Name="WO_CREATE_DATE" Value="Ngày tạo lệnh sản xuất" />
+<Message Name="WO_START_DATE" Value="Ngày bắt đầu lệnh sản xuất" />
+<Message Name="WO_CLOSE_DATE" Value="Ngày kết thúc dự kiến" />
+<Message Name="WO_SCHEDULE_DATE" Value="Ngày bắt đầu dự kiến" />
+<Message Name="WO_DUE_DATE" Value="Ngày kết thúc dự kiến" />
+<Message Name="WO_DUE_DATE1" Value="Ngày kết thúc dự kiến" />
+<Message Name="TARGET_QTY" Value="Sản lượng mục tiêu" />
+
+<Message Name="Record Count" Value="Số bản ghi" />
+<Message Name="NOT FOUND" Value="Không tìm thấy dữ liệu" />
+<Message Name="CUSTOMER" Value="Khách hàng" />
+<Message Name="Must be integer" Value="Phải là số nguyên" />
+<Message Name="Must be decimal" Value="Phải là số" />
+
+<Message Name="CUSTOMER_SN" Value="Số sê-ri xuất hàng" />
+<Message Name="MAP_TIME" Value="Thời gian đối chiếu" />
+<Message Name="SCRAP_FLAG" Value="Đánh dấu phế" />
+<Message Name="PANEL_NO" Value="Mã bảng lớn" />
+<Message Name="PART_NO" Value="Mã linh kiện" />
+<Message Name="VERSION" Value="Phiên bản" />
+<Message Name="PDLINE_NAME" Value="Dây chuyền" />
+<Message Name="STAGE_NAME" Value="Khu vực" />
+<Message Name="PROCESS_NAME" Value="Công đoạn" />
+<Message Name="TERMINAL_NAME" Value="Trạm" />
+<Message Name="OUT_PROCESS_TIME" Value="Thời gian ra trạm" />
+<Message Name="IN_PROCESS_TIME" Value="Thời gian vào trạm" />
+<Message Name="OUT_PDLINE_TIME" Value="Thời gian sản xuất xong" />
+<Message Name="IN_PDLINE_TIME" Value="Thời gian bắt đầu sản xuất" />
+
+<Message Name="REWORK_NO" Value="Số lệnh tái công" />
+<Message Name="REWORK_EMPLOYEE" Value="Nhân viên tái công" />
+<Message Name="REWORK_TIME" Value="Thời gian tái công" />
+<Message Name="DN_NO" Value="Số phiếu xuất hàng" />
+<Message Name="QC_NO" Value="Mã lô kiểm tra" />
+<Message Name="QC_RESULT" Value="Kết quả kiểm tra" />
+<Message Name="PALLET_NO" Value="Số pallet" />
+<Message Name="CARTON_NO" Value="Số thùng" />
+<Message Name="BOX_NO" Value="Số hộp màu" />
+<Message Name="SCRAP" Value="Phế liệu" />
+<Message Name="NEXT_PROCESS" Value="Công đoạn tiếp theo" />
+<Message Name="CURRENT_STATUS" Value="Trạng thái" />
+<Message Name="SERIAL_NUMBER" Value="Số sê-ri" />
+<Message Name="CUSTOMER_SN" Value="Số sê-ri xuất hàng" />
+<Message Name="WORK_ORDER" Value="Lệnh sản xuất" />
+<Message Name="A.WORK_ORDER" Value="Lệnh sản xuất" />
+
+<Message Name="Import Customer SN" Value="Nhập số sê-ri xuất hàng" />
+<Message Name="Auto Mapping" Value="Tự động đối chiếu sê-ri" />
+
+<Message Name="SPEC1" Value="Thông số 1" />
+<Message Name="SPEC2" Value="Thông số 2" />
+<Message Name="CUSTOMER_ADDR" Value="Quốc gia" />
+<Message Name="REMARK" Value="Ghi chú ERP" />
+<Message Name="MES REMARK" Value="Ghi chú MES" />
+<Message Name="Operative" Value="Có hiệu lực" />
+<Message Name="WOSTATUS" Value="Trạng thái lệnh sản xuất" />
+<Message Name="WO Dept" Value="Bộ phận lệnh sản xuất" />
+<Message Name="WO_DEPT" Value="Bộ phận lệnh sản xuất" />
+<Message Name="Software Ver." Value="Phiên bản phần mềm" />
+<Message Name="Cust SO" Value="SO của khách hàng" />
+<Message Name="Cust MO" Value="PO của khách hàng" />
+<Message Name="Cust Delivery" Value="Giao hàng của khách hàng" />
+<Message Name="Cust Vender" Value="Nhà cung cấp của khách hàng" />
+<Message Name="MES Process Binding ERP SEQ" Value="Công đoạn MES liên kết công đoạn ERP" />
+
+<Message Name="Factory cannot be empty" Value="Nhà máy không được để trống" />
+<Message Name="Property" Value="Thuộc tính" />
+<Message Name="PropertyName" Value="Tên thuộc tính" />
+<Message Name="PropertyValue" Value="Giá trị thuộc tính" />
+<Message Name="DataType" Value="Loại dữ liệu" />
+<Message Name="Varchar" Value="Chuỗi ký tự" />
+<Message Name="Number" Value="Số" />
+<Message Name="Specification" Value="Mô tả" />
+<Message Name="fMultiSelect" Value="Chọn mục" />
+<Message Name="Please pick option to configration." Value="Vui lòng chọn mục cần thiết lập" />
+<Message Name="Please confirm the &quot;Rule Set Define&quot; settings" Value="Vui lòng xác nhận thiết lập trong &quot;Rule Set Define&quot;" />
+<Message Name="Please confirm the necessary input settings for &quot;Property&quot;" Value="Vui lòng xác nhận các thiết lập bắt buộc trong &quot;Thuộc tính&quot;" />
+<Message Name="Factory cannot be empty" Value="Nhà máy không được để trống" />
+<Message Name="Please enter less one word to search" Value="Vui lòng nhập ít nhất một từ để tìm kiếm" />
+
+<Message Name="Bom Info" Value="Thông tin vật liệu (BOM)" />
+<Message Name="Modify Bom Info" Value="Sửa thông tin vật liệu (BOM)" />
+<Message Name="Check KPSN" Value="Kiểm tra khi chưa nhận liệu" />
+<Message Name="KPSN Length" Value="Độ dài KPSN" />
+<Message Name="Check Start Index" Value="Vị trí bắt đầu kiểm tra" />
+<Message Name="Check String" Value="Chuỗi cố định" />
+<Message Name="Copy to SYS_BOM" Value="Ghi trả về BOM model" />
+
+<Message Name="Start Cust SN" Value="Số sê-ri giao hàng bắt đầu" />
+<Message Name="End Cust SN" Value="Số sê-ri giao hàng kết thúc" />
+<Message Name="Seq Position" Value="Vị trí số thứ tự trong số giao hàng" />
+<Message Name="Cust Seq" Value="Hệ cơ số của số thứ tự giao hàng" />
+<Message Name="Cust SN Length" Value="Độ dài số sê-ri giao hàng" />
+<Message Name="Hexadecimal (16)" Value="Hệ thập lục phân (16)" />
+<Message Name="Decimal (10)" Value="Hệ thập phân (10)" />
+
+<Message Name="Route Binding Model Part Error" Value="Lỗi lộ trình mặc định gắn với mã linh kiện model" />
+<Message Name="SEQ not binding" Value="Công đoạn ERP chưa liên kết công đoạn MES" />
+<Message Name="Route not model" Value="Lộ trình không khớp với mã linh kiện model" />
+<Message Name="Part not model" Value="Mã linh kiện không có model tương ứng" />
+<Message Name="Pls select route" Value="Vui lòng chọn lộ trình" />
+<Message Name="Pls select part" Value="Vui lòng chọn mã linh kiện" />
+<Message Name="Model - Process Link" Value="Quan hệ Model - Công đoạn" />
+<Message Name="Filter : Process" Value="Lọc: công đoạn" />
+<Message Name="PROCESS_CODE" Value="Mã công đoạn" />
+<Message Name="PROCESS_NAME" Value="Tên công đoạn" />
+<Message Name="Process Code" Value="Mã công đoạn" />
+<Message Name="Process Name" Value="Tên công đoạn" />
+
+<Message Name="Operation SEQ" Value="Thứ tự công đoạn" />
+<Message Name="Operation SEQ is null" Value="Thứ tự công đoạn của trạm đang trống" />
+<Message Name="Pls select process" Value="Vui lòng chọn công đoạn" />
+<Message Name="Set Process" Value="Thiết lập công đoạn" />
+<Message Name="Pls select default route" Value="Vui lòng thiết lập lộ trình mặc định" />
+<Message Name="Operation SEQ is set" Value="Thứ tự công đoạn đã được thiết lập" />
+
+<Message Name="Model Name" Value="Tên model" />
+<Message Name="Bom Type" Value="Loại BOM" />
+<Message Name="Master WO Error" Value="Lỗi lệnh sản xuất mẹ" />
+<Message Name="Assy Part" Value="Mã lắp ráp" />
+<Message Name="Key Parts" Value="Số sê-ri lắp ráp" />
+<Message Name="OPTION4" Value="Số lượng MAC" />
+<Message Name="OPTION6" Value="Số lượng bảng con" />
+<Message Name="MAC Count" Value="Số lượng MAC" />
+<Message Name="Sub Count" Value="Số lượng bảng con" />
+<Message Name="All" Value="Tất cả" />
+<Message Name="Target QTY is null" Value="Mục tiêu sản lượng của lệnh chưa được thiết lập" />
+<Message Name="Route is null" Value="Lộ trình của lệnh chưa được thiết lập" />
+<Message Name="Part is null" Value="Mã linh kiện của lệnh chưa được thiết lập" />
+<Message Name="" Value="" />
+       </Ngôn_ngữ_Việt>
+	<简体中文>
+		<Message Name="Part No" Value="料号" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="Sub Part No" Value="子件料号" />
+		<Message Name="Sub Part Ver" Value="子件版本" />
+		<Message Name="Process" Value="制程名称" />
+		<Message Name="Qty" Value="数量" />
+		<Message Name="Relation" Value="料件关系" />
+		<Message Name="Location" Value="位置" />
+		<Message Name="0:Non-Substitution" Value="0:无替代料" />
+		<Message Name="Work Order" Value="工单" />
+		<Message Name="Packing Spec" Value="包装方式" />
+		<Message Name="Pallet" Value="栈板" />
+		<Message Name="Carton" Value="外箱" />
+		<Message Name="Box" Value="彩盒" />
+		<Message Name="Factory" Value="厂别" />
+		<Message Name="Remark" Value="备注" />
+		<Message Name="Master W/O" Value="主工单" />
+		<Message Name="Sales Order" Value="出货单号" />
+		<Message Name="PO" Value="订单号" />
+		<Message Name="Burnin Time" Value="烧机时间" />
+		<Message Name="Customer" Value="客户" />
+		<Message Name="Output Process" Value="产出制程" />
+		<Message Name="Input Process" Value="投入制程" />
+		<Message Name="Route Name" Value="途程名称" />
+		<Message Name="Default Line" Value="预设线别" />
+		<Message Name="Due Date" Value="预计结束日期" />
+		<Message Name="Schedule Date" Value="预计开始日期" />
+		<Message Name="Target Qty" Value="目标量" />
+		<Message Name="W/O Type" Value="工单类型" />
+		<Message Name="W/O Rule" Value="工单规则" />
+		<Message Name="W/O Status" Value="工单状态" />
+		<Message Name="View Customer SN" Value="显示出货序号" />
+		<Message Name="View SN" Value="显示序号" />
+		<Message Name="View BOM" Value="显示BOM" />
+		<Message Name="View Wo Data" Value="显示工单资料" />
+		<Message Name="Status Log" Value="工单状态纪录" />
+		<Message Name="Release" Value="核发" />
+		<Message Name="Initial" Value="初始" />
+		<Message Name="Prepare" Value="准备" />
+		<Message Name="Work In Process" Value="生产中" />
+		<Message Name="Hold" Value="暂停" />
+		<Message Name="Complete" Value="完成" />
+		<Message Name="Type" Value="类型" />
+		<Message Name="Spec" Value="规格" />
+		<Message Name="Collapse" Value="摺叠" />
+		<Message Name="Expand" Value="展开" />
+		<Message Name="Wo Bom" Value="工单物料清单" />
+		<Message Name="Input Qty" Value="投入数" />
+		<Message Name="Output Qty" Value="产出数" />
+		<Message Name="Scrap Qty" Value="报废数" />
+		<Message Name="W/O Create Date" Value="工单建立日期" />
+		<Message Name="W/O Start Date" Value="工单开始日期" />
+		<Message Name="W/O Close Date" Value="工单结束日期" />
+		<Message Name="W/O Schedule Date" Value="预计开始日期" />
+		<Message Name="W/O Due Date" Value="预计结束日期" />
+		<Message Name="Customer Code" Value="客户代码" />
+		<Message Name="CUSTOMER_NAME" Value="客户名称" />
+		<Message Name="UPDATE_TIME" Value="资料异动时间" />
+		<Message Name="UPDATE_USER" Value="资料异动人员" />
+		<Message Name="PKSPEC_NAME" Value="包装方式" />
+		<Message Name="PALLET_QTY" Value="栈板数" />
+		<Message Name="CARTON_QTY" Value="箱数" />
+		<Message Name="BOX_QTY" Value="彩盒数" />
+		<Message Name="Count" Value="笔数" />
+		<Message Name="Filter : Part" Value="搜寻:料号" />
+		<Message Name="Spec1" Value="规格" />
+		<Message Name="Read Only" Value="唯读" />
+		<Message Name="(WO_BOM)" Value="(工单物料清单)" />
+		<Message Name="(Default)" Value="(预设物料清单)" />
+		<Message Name="(Minus.)" Value="(分)" />
+		<Message Name="Qty Error" Value="数量错误" />
+		<Message Name="Sub Part No Error" Value="子件料号错误" />
+		<Message Name="Please Change Relation" Value="有替代料,料件关系不可为0" />
+		<Message Name="Some SN had Input" Value="已有序号投入" />
+		<Message Name="Sure to Change Route" Value="确定修改" />
+		<Message Name="Part No Error" Value="料号错误" />
+		<Message Name="Target Qty must be integer" Value="目标量需为数字" />
+		<Message Name="Target Qty Error" Value="目标量错误" />
+		<Message Name="Customer Error" Value="客户错误" />
+		<Message Name="Burnin Time must be integer" Value="烧机时间需为数字" />
+		<Message Name="Packing Spec Duplicate" Value="包装方式重复" />
+		<Message Name="Change Work Order Status to Release" Value="更改工单状态为Release" />
+		<Message Name="Sub Part No Duplicate" Value="子件料号重复" />
+		<Message Name="Delete this WO BOM" Value="删除此BOM" />
+		<Message Name="Delete all Part of this Process" Value="删除此制程下所有料号" />
+		<Message Name="Target Qty Can't Less Than Release Qty" Value="目标量不可小于已展序号数量" />
+		<Message Name="Delete this Part" Value="删除此料号" />
+		<Message Name="Hold" Value="暂停" />
+		<Message Name="UOM" Value="单位" />
+		<Message Name="Assign MAC" Value="分配MAC" />
+		<Message Name="View Panel SN" Value="显示小板号" />
+		<Message Name="File not exist" Value="档案不存在" />
+		<Message Name="Success" Value="成功" />
+		<Message Name="Delete?" Value="删除?" />
+		<Message Name="WO_TYPE" Value="工单类型" />
+		<Message Name="WO_RULE" Value="工单规则" />
+		<Message Name="MASTER_WO" Value="主工单" />
+		<Message Name="SALES_ORDER" Value="出货单号" />
+		<Message Name="PO_NO" Value="订单号" />
+		<Message Name="BURNIN_TIME" Value="烧机时间" />
+		<Message Name="CUSTOMER_CODE" Value="客户" />
+		<Message Name="END_PROCESS" Value="产出制程" />
+		<Message Name="START_PROCESS" Value="投入制程" />
+		<Message Name="ROUTE_NAME" Value="途程名称" />
+		<Message Name="INPUT_QTY" Value="投入数" />
+		<Message Name="OUTPUT_QTY" Value="产出数" />
+		<Message Name="SCRAP_QTY" Value="报废数" />
+		<Message Name="WO_CREATE_DATE" Value="工单建立日期" />
+		<Message Name="WO_START_DATE" Value="工单开始日期" />
+		<Message Name="WO_CLOSE_DATE" Value="预计结束日期" />
+		<Message Name="WO_SCHEDULE_DATE" Value="预计开始日期" />
+		<Message Name="WO_DUE_DATE" Value="预计结束日期" />
+		<Message Name="TARGET_QTY" Value="目标量" />
+		<Message Name="Record Count" Value="笔数" />
+		<Message Name="NOT FOUND" Value="查无资料" />
+		<Message Name="CUSTOMER" Value="客户" />
+		<Message Name="Must be integer" Value="必须是整数" />
+		<Message Name="Must be decimal" Value="必须是数字" />
+		<Message Name="CUSTOMER_SN" Value="出货序号" />
+		<Message Name="MAP_TIME" Value="对应时间" />
+		<Message Name="SCRAP_FLAG" Value="报废标记" />
+		<Message Name="PANEL_NO" Value="大板号" />
+		<Message Name="PART_NO" Value="料号" />
+		<Message Name="VERSION" Value="版本" />
+		<Message Name="PDLINE_NAME" Value="线别" />
+		<Message Name="STAGE_NAME" Value="区段" />
+		<Message Name="PROCESS_NAME" Value="制程" />
+		<Message Name="TERMINAL_NAME" Value="站别" />
+		<Message Name="OUT_PROCESS_TIME" Value="出站时间" />
+		<Message Name="IN_PROCESS_TIME" Value="进站时间" />
+		<Message Name="OUT_PDLINE_TIME" Value="产出时间" />
+		<Message Name="IN_PDLINE_TIME" Value="投产时间" />
+		<Message Name="REWORK_NO" Value="重工单号" />
+		<Message Name="REWORK_EMPLOYEE" Value="重工人员" />
+		<Message Name="REWORK_TIME" Value="重工时间" />
+		<Message Name="DN_NO" Value="出货单号" />
+		<Message Name="QC_NO" Value="抽验批号" />
+		<Message Name="QC_RESULT" Value="抽验结果" />
+		<Message Name="PALLET_NO" Value="栈板号" />
+		<Message Name="CARTON_NO" Value="箱号" />
+		<Message Name="BOX_NO" Value="彩盒号" />
+		<Message Name="SCRAP" Value="报废" />
+		<Message Name="NEXT_PROCESS" Value="下一制程" />
+		<Message Name="CURRENT_STATUS" Value="状态" />
+		<Message Name="SERIAL_NUMBER" Value="序号" />
+		<Message Name="CUSTOMER_SN" Value="出货序号" />
+		<Message Name="WORK_ORDER" Value="工单" />
+		<Message Name="A.WORK_ORDER" Value="工单" />
+		<Message Name="Import Customer SN" Value="汇入出货序号" />
+		<Message Name="Auto Mapping" Value="序号对应" />
+		<Message Name="Factory cannot be empty" Value="厂别不可为空" />
+		<Message Name="Property" Value="属性" />
+		<Message Name="PropertyName" Value="属性名称" />
+		<Message Name="PropertyValue" Value="属性值" />
+		<Message Name="DataType" Value="数值类型" />
+		<Message Name="Varchar" Value="文字" />
+		<Message Name="Number" Value="数字" />
+		<Message Name="Specification" Value="说明" />
+		<Message Name="fMultiSelect" Value="选取项目"/>
+		<Message Name="Please pick option to configration." Value="请选择欲设定的项目"/>
+		<Message Name="Please confirm the &quot;Rule Set Define&quot; settings" Value="请确认「规则集合」设定" />
+		<Message Name="Please confirm the necessary input settings for &quot;Property&quot;" Value="请确认「属性」必要输入设定" />
+		<Message Name="Factory cannot be empty" Value="厂别不可为空" />
+		<Message Name="Please enter less one word to search" Value="请输入一个词进行搜索" />
+		<Message Name="Bom Info" Value="物料资讯" />
+		<Message Name="Modify Bom Info" Value="修改物料资讯" />
+		<Message Name="Check KPSN" Value="未做收料时检查"/>
+		<Message Name="KPSN Length" Value="KPSN长度"/>
+		<Message Name="Check Start Index" Value="检查开始位"/>
+		<Message Name="Check String" Value="固定文字"/>
+		<Message Name="Copy to SYS_BOM" Value="回写到机种BOM"/>
+		<Message Name="Software Ver." Value="软件版本" />
+		<Message Name="Cust SO" Value="客戶SO" />
+		<Message Name="Cust MO" Value="客戶PO" />
+	</简体中文>
+</Chroma>

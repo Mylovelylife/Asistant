@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Chroma>
+  
+	
+  <繁體中文>
+    
+		
+    <Message Name="All" Value="全部"/>
+    
+		
+    <Message Name="Set" Value="已設置"/>
+    
+		
+    <Message Name="NotSet" Value="未設置"/>
+    
+		
+    <Message Name="Process Name" Value="製程名稱"/>
+    
+		
+    <Message Name="Process Code" Value="製程代碼"/>
+    
+		
+    <Message Name="Process Desc" Value="製程描述"/>
+    
+		
+    <Message Name="Part No" Value="物料料號"/>
+    
+		
+    <Message Name="Spec1" Value="規格1"/>
+    
+		
+    <Message Name="Spec2" Value="規格2"/>
+    
+		
+    <Message Name="Necessary" Value="必要原料"/>
+    
+		
+    <Message Name="Checked" Value="選中"/>
+    
+		
+    <Message Name="Item Lot" Value="製造批號"/>
+    
+		
+    <Message Name="Item SN" Value="製造序號"/>
+    
+		
+    <Message Name="Date Code" Value="有效日期"/>
+    
+		
+    <Message Name="Confirm" Value="確認"/>
+    
+		
+    <Message Name="Part No Error" Value="料號無效"/>
+    
+		
+    <Message Name="Lot Error" Value="物料無效"/>
+    
+		
+    <Message Name="Select All" Value="全選"/>
+    
+		
+    <Message Name="Select None" Value="全不選"/>
+    
+		
+    <Message Name="Select Inverse" Value="反選"/>
+    
+		
+    <Message Name="Please select at least one row to do" Value="請至少選擇一筆資料來實作"/>
+    
+		
+    <Message Name="Complete" Value="完成"/>
+    
+		
+    <Message Name="Confirm" Value="確認"/>
+    
+		
+    <Message Name="Cancel" Value="取消"/>
+    
+		
+    <Message Name="Must choose a process to add it's material." Value="請選擇一個製程以新增該製程的物料"/>
+    
+	
+  </繁體中文>
+  
+	
+  <简体中文>
+    
+		
+    <Message Name="All" Value="全部"/>
+    
+		
+    <Message Name="Set" Value="已设置"/>
+    
+		
+    <Message Name="NotSet" Value="未设置"/>
+    
+		
+    <Message Name="Process Name" Value="制程名称"/>
+    
+		
+    <Message Name="Process Code" Value="制程代码"/>
+    
+		
+    <Message Name="Process Desc" Value="制程描述"/>
+    
+		
+    <Message Name="Part No" Value="物料料号"/>
+    
+		
+    <Message Name="Spec1" Value="规格1"/>
+    
+		
+    <Message Name="Spec2" Value="规格2"/>
+    
+		
+    <Message Name="Necessary" Value="必要原料"/>
+    
+		
+    <Message Name="Checked" Value="选中"/>
+    
+		
+    <Message Name="Item Lot" Value="制造批号"/>
+    
+		
+    <Message Name="Item SN" Value="制造序号"/>
+    
+		
+    <Message Name="Date Code" Value="有效日期"/>
+    
+		
+    <Message Name="Confirm" Value="确认"/>
+    
+		
+    <Message Name="Part No Error" Value="料号无效"/>
+    
+		
+    <Message Name="Lot Error" Value="物料无效"/>
+    
+		
+    <Message Name="Select All" Value="全选"/>
+    
+		
+    <Message Name="Select None" Value="全不选"/>
+    
+		
+    <Message Name="Select Inverse" Value="反选"/>
+    
+		
+    <Message Name="Please select at least one row to do" Value="请至少选择一笔数据来实作"/>
+    
+		
+    <Message Name="Complete" Value="完成"/>
+    
+		
+    <Message Name="Confirm" Value="确认"/>
+    
+		
+    <Message Name="Cancel" Value="取消"/>
+    
+		
+    <Message Name="Must choose a process to add it's material." Value="请选择一个制程以新增该制程的物料"/>
+    
+	
+  </简体中文>
+  
+
+  <Ngôn_ngữ_Việt>
+    <Message Name="All" Value="Tất Cả"/>
+    <Message Name="Set" Value="Đã Thiết Lập"/>
+    <Message Name="NotSet" Value="Chưa Thiết Lập"/>
+    <Message Name="Process Name" Value="Tên Công Đoạn"/>
+    <Message Name="Process Code" Value="Mã Công Đoạn"/>
+    <Message Name="Process Desc" Value="Mô Tả Công Đoạn"/>
+    <Message Name="Part No" Value="Mã Nguyên Liệu"/>
+    <Message Name="Spec1" Value="Quy Cách 1"/>
+    <Message Name="Spec2" Value="Quy Cách 2"/>
+    <Message Name="Necessary" Value="Nguyên Liệu Bắt Buộc"/>
+    <Message Name="Checked" Value="Đã Chọn"/>
+    <Message Name="Item Lot" Value="Số Lô Sản Xuất"/>
+    <Message Name="Item SN" Value="Số Serial"/>
+    <Message Name="Date Code" Value="Ngày Hiệu Lực"/>
+    <Message Name="Confirm" Value="Xác Nhận"/>
+    <Message Name="Part No Error" Value="Mã Nguyên Liệu Không Hợp Lệ"/>
+    <Message Name="Lot Error" Value="Lô Nguyên Liệu Không Hợp Lệ"/>
+    <Message Name="Select All" Value="Chọn Tất Cả"/>
+    <Message Name="Select None" Value="Bỏ Chọn Tất Cả"/>
+    <Message Name="Select Inverse" Value="Đảo Chọn"/>
+    <Message Name="Please select at least one row to do" Value="Vui Lòng Chọn Ít Nhất Một Dòng Để Thực Hiện"/>
+    <Message Name="Complete" Value="Hoàn Thành"/>
+    <Message Name="Cancel" Value="Hủy"/>
+    <Message Name="Must choose a process to add it's material." Value="Vui Lòng Chọn Một Công Đoạn Để Thêm Nguyên Liệu"/>
+  </Ngôn_ngữ_Việt>
+</Chroma>

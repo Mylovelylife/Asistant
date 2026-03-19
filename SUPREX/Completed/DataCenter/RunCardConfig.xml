@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Chroma>
+  
+	
+  <繁體中文>
+    
+		
+    <Message Name="Append" Value="新增"/>
+    
+		
+    <Message Name="BARCODE" Value="條碼"/>
+    
+		
+    <Message Name="BORDER" Value="邊框"/>
+    
+		
+    <Message Name="Cancel" Value="取消"/>
+    
+		
+    <Message Name="Cell is not in cell1 and cell2!" Value="輸入單元格必須在源單元格和目的單元格之間"/>
+    
+		
+    <Message Name="CELL is same!" Value="單元格重復"/>
+    
+		
+    <Message Name="CELL" Value="單元格"/>
+    
+		
+    <Message Name="Cell" Value="單元格"/>
+    
+		
+    <Message Name="Cell2 must more than cell1!" Value="目的單元格不能小於源單元格"/>
+    
+		
+    <Message Name="CELLHEIGHT" Value="單元格高度(Excel)"/>
+    
+		
+    <Message Name="CellSize" Value="單元格大小"/>
+    
+		
+    <Message Name="CELLWIDTH" Value="單元格寬度(Excel)"/>
+    
+		
+    <Message Name="cm" Value="公分"/>
+    
+		
+    <Message Name="CONFIG_ID" Value="欄位ID"/>
+    
+		
+    <Message Name="Data is null" Value="未填寫"/>
+    
+		
+    <Message Name="Delete" Value="刪除"/>
+    
+		
+    <Message Name="DgvCellSize is null" Value="顯示為空"/>
+    
+		
+    <Message Name="FIED" Value="欄位"/>
+    
+		
+    <Message Name="Fied" Value="欄位"/>
+    
+		
+    <Message Name="Font" Value="字體"/>
+    
+		
+    <Message Name="FONTSIZE" Value="字體大小"/>
+    
+		
+    <Message Name="Fontsize" Value="字體大小"/>
+    
+		
+    <Message Name="FontSize" Value="字體大小"/>
+    
+		
+    <Message Name="FROMCELL" Value="源單元格"/>
+    
+		
+    <Message Name="HEIGHT" Value="單元格高度"/>
+    
+		
+    <Message Name="Height" Value="單元格高度"/>
+    
+		
+    <Message Name="If need add condition that must write ':RC_NO'" Value="可使用:LOGIN_USER取得登入者名稱；寫where條件時變量只能寫:RC_NO"/>
+    
+		
+    <Message Name="Name" Value="名稱"/>
+    
+		
+    <Message Name="Modify" Value="修改"/>
+    
+		
+    <Message Name="POSITION" Value="位置(水平)"/>
+    
+		
+    <Message Name="Position" Value="位置(水平)"/>
+    
+		
+    <Message Name="POSITION_VERTICAL" Value="位置(垂直)"/>
+    
+		
+    <Message Name="PositionVertical" Value="位置(垂直)"/>
+    
+		
+    <Message Name="RULE_DESC" Value="規則描述"/>
+    
+		
+    <Message Name="RULE_ID" Value="規則ID"/>
+    
+		
+    <Message Name="RULE_NAME" Value="規則名稱"/>
+    
+		
+    <Message Name="Search" Value="查詢"/>
+    
+		
+    <Message Name="SQL is error" Value="Sql語句錯誤"/>
+    
+		
+    <Message Name="Sql length is less than 7!" Value="Sql語句長度小於7"/>
+    
+		
+    <Message Name="SQL_COMMAND" Value="Sql語句"/>
+    
+		
+    <Message Name="SQL_ID" Value="SqlID"/>
+    
+		
+    <Message Name="SQL_NAME" Value="Sql名稱"/>
+    
+		
+    <Message Name="SqlCommand" Value="Sql語句"/>
+    
+		
+    <Message Name="SqlName" Value="Sql名稱"/>
+    
+		
+    <Message Name="STYLE" Value="字體樣式"/>
+    
+		
+    <Message Name="Style" Value="字體樣式"/>
+    
+		
+    <Message Name="To" Value="到"/>
+    
+		
+    <Message Name="TOCELL" Value="目的單元格"/>
+    
+		
+    <Message Name="TRANSLATE" Value="描述"/>
+    
+		
+    <Message Name="translate" Value="描述"/>
+    
+		
+    <Message Name="WIDTH" Value="單元格寬度"/>
+    
+		
+    <Message Name="Width" Value="單元格寬度"/>
+    
+		
+    <Message Name="WrapText" Value="自動換行"/>
+    
+		
+    <Message Name="SQL_SECTION" Value="區段"/>
+    
+		
+    <Message Name="Header" Value="表頭"/>
+    
+		
+    <Message Name="Detail" Value="明細"/>
+    
+		
+    <Message Name="Footer" Value="表尾"/>
+    
+		
+    <Message Name="Print Title" Value="列印標題"/>
+    
+		
+    <Message Name="CELL_FROM" Value="從單元格"/>
+    
+		
+    <Message Name="CELL_TO" Value="到單元格"/>
+    
+		
+    <Message Name="Cell format error. must be excel cell format like A10 or Z7 or something like that" Value="單元格格式錯誤，請使用Excel單元格如A10或Z7之類。"/>
+    
+	
+  </繁體中文>
+  
+	
+  <简体中文>
+    
+		
+    <Message Name="Append" Value="新增"/>
+    
+		
+    <Message Name="BARCODE" Value="条码"/>
+    
+		
+    <Message Name="BORDER" Value="边框"/>
+    
+		
+    <Message Name="Cancel" Value="取消"/>
+    
+		
+    <Message Name="Cell is not in cell1 and cell2!" Value="输入单元格必须在源单元格和目的单元格之间"/>
+    
+		
+    <Message Name="CELL is same!" Value="单元格重复"/>
+    
+		
+    <Message Name="CELL" Value="单元格"/>
+    
+		
+    <Message Name="Cell" Value="单元格"/>
+    
+		
+    <Message Name="Cell2 must more than cell1!" Value="目的单元格不能小于源单元格"/>
+    
+		
+    <Message Name="CELLHEIGHT" Value="单元格高度(Excel)"/>
+    
+		
+    <Message Name="CellSize" Value="单元格大小"/>
+    
+		
+    <Message Name="CELLWIDTH" Value="单元格宽度(Excel)"/>
+    
+		
+    <Message Name="cm" Value="厘米"/>
+    
+		
+    <Message Name="CONFIG_ID" Value="字段ID"/>
+    
+		
+    <Message Name="Data is null" Value="未填写"/>
+    
+		
+    <Message Name="Delete" Value="删除"/>
+    
+		
+    <Message Name="DgvCellSize is null" Value="显示为空"/>
+    
+		
+    <Message Name="FIED" Value="字段"/>
+    
+		
+    <Message Name="Fied" Value="字段"/>
+    
+		
+    <Message Name="Font" Value="字体"/>
+    
+		
+    <Message Name="FONTSIZE" Value="字体大小"/>
+    
+		
+    <Message Name="Fontsize" Value="字体大小"/>
+    
+		
+    <Message Name="FontSize" Value="字体大小"/>
+    
+		
+    <Message Name="FROMCELL" Value="源单元格"/>
+    
+		
+    <Message Name="HEIGHT" Value="单元格高度"/>
+    
+		
+    <Message Name="Height" Value="单元格高度"/>
+    
+		
+    <Message Name="If need add condition that must write ':RC_NO'" Value="可使用:LOGIN_USER取得登入者名稱；写where条件时变量只能写:RC_NO"/>
+    
+		
+    <Message Name="Name" Value="名称"/>
+    
+		
+    <Message Name="Modify" Value="修改"/>
+    
+		
+    <Message Name="Position" Value="位置"/>
+    
+		
+    <Message Name="POSITION" Value="位置(水平)"/>
+    
+		
+    <Message Name="POSITION_VERTICAL" Value="位置(垂直)"/>
+    
+		
+    <Message Name="PositionVertical" Value="位置(垂直)"/>
+    
+		
+    <Message Name="RULE_DESC" Value="规则描述"/>
+    
+		
+    <Message Name="RULE_ID" Value="规则ID"/>
+    
+		
+    <Message Name="RULE_NAME" Value="规则名称"/>
+    
+		
+    <Message Name="Search" Value="查询"/>
+    
+		
+    <Message Name="SQL is error" Value="Sql语句错误"/>
+    
+		
+    <Message Name="Sql length is less than 7!" Value="Sql语句长度小于7"/>
+    
+		
+    <Message Name="SQL_COMMAND" Value="Sql语句"/>
+    
+		
+    <Message Name="SQL_ID" Value="SqlID"/>
+    
+		
+    <Message Name="SQL_NAME" Value="Sql名称"/>
+    
+		
+    <Message Name="SqlCommand" Value="Sql语句"/>
+    
+		
+    <Message Name="SqlName" Value="Sql名称"/>
+    
+		
+    <Message Name="STYLE" Value="字体样式"/>
+    
+		
+    <Message Name="Style" Value="字体样式"/>
+    
+		
+    <Message Name="To" Value="到"/>
+    
+		
+    <Message Name="TOCELL" Value="目的单元格"/>
+    
+		
+    <Message Name="TRANSLATE" Value="描述"/>
+    
+		
+    <Message Name="translate" Value="描述"/>
+    
+		
+    <Message Name="WIDTH" Value="单元格宽度"/>
+    
+		
+    <Message Name="Width" Value="单元格宽度"/>
+    
+		
+    <Message Name="WrapText" Value="自動换行"/>
+    
+		
+    <Message Name="SQL_SECTION" Value="區段"/>
+    
+		
+    <Message Name="Header" Value="表頭"/>
+    
+		
+    <Message Name="Detail" Value="明細"/>
+    
+		
+    <Message Name="Footer" Value="表尾"/>
+    
+		
+    <Message Name="Print Title" Value="列印標題"/>
+    
+		
+    <Message Name="CELL_FROM" Value="從單元格"/>
+    
+		
+    <Message Name="CELL_TO" Value="到單元格"/>
+    
+		
+    <Message Name="Cell format error. must be excel cell format like A10 or Z7 or something like that" Value="單元格格式錯誤，請使用Excel單元格如A10或Z7之類。"/>
+    
+	
+  </简体中文>
+  
+
+
+  <Ngôn_ngữ_Việt>
+    <Message Name="Append" Value="Thêm Mới"/>
+    <Message Name="BARCODE" Value="Mã Vạch"/>
+    <Message Name="BORDER" Value="Đường Viền"/>
+    <Message Name="Cancel" Value="Hủy"/>
+    <Message Name="Cell is not in cell1 and cell2!" Value="Ô Nhập Phải Nằm Giữa Ô Nguồn Và Ô Đích"/>
+    <Message Name="CELL is same!" Value="Ô Bị Trùng"/>
+    <Message Name="CELL" Value="Ô"/>
+    <Message Name="Cell" Value="Ô"/>
+    <Message Name="Cell2 must more than cell1!" Value="Ô Đích Không Thể Nhỏ Hơn Ô Nguồn"/>
+    <Message Name="CELLHEIGHT" Value="Chiều Cao Ô (Excel)"/>
+    <Message Name="CellSize" Value="Kích Thước Ô"/>
+    <Message Name="CELLWIDTH" Value="Chiều Rộng Ô (Excel)"/>
+    <Message Name="cm" Value="Cm"/>
+    <Message Name="CONFIG_ID" Value="ID Trường"/>
+    <Message Name="Data is null" Value="Chưa Nhập Dữ Liệu"/>
+    <Message Name="Delete" Value="Xóa"/>
+    <Message Name="DgvCellSize is null" Value="Kích Thước Hiển Thị Bị Trống"/>
+    <Message Name="FIED" Value="Trường"/>
+    <Message Name="Fied" Value="Trường"/>
+    <Message Name="Font" Value="Phông Chữ"/>
+    <Message Name="FONTSIZE" Value="Cỡ Chữ"/>
+    <Message Name="Fontsize" Value="Cỡ Chữ"/>
+    <Message Name="FontSize" Value="Cỡ Chữ"/>
+    <Message Name="FROMCELL" Value="Ô Nguồn"/>
+    <Message Name="HEIGHT" Value="Chiều Cao Ô"/>
+    <Message Name="Height" Value="Chiều Cao Ô"/>
+    <Message Name="If need add condition that must write ':RC_NO'" Value="Có Thể Dùng :LOGIN_USER Lấy Tên Người Đăng Nhập; Khi Viết Điều Kiện WHERE Chỉ Được Dùng Biến :RC_NO"/>
+    <Message Name="Name" Value="Tên"/>
+    <Message Name="Modify" Value="Chỉnh Sửa"/>
+    <Message Name="POSITION" Value="Vị Trí (Ngang)"/>
+    <Message Name="Position" Value="Vị Trí (Ngang)"/>
+    <Message Name="POSITION_VERTICAL" Value="Vị Trí (Dọc)"/>
+    <Message Name="PositionVertical" Value="Vị Trí (Dọc)"/>
+    <Message Name="RULE_DESC" Value="Mô Tả Quy Tắc"/>
+    <Message Name="RULE_ID" Value="ID Quy Tắc"/>
+    <Message Name="RULE_NAME" Value="Tên Quy Tắc"/>
+    <Message Name="Search" Value="Tìm Kiếm"/>
+    <Message Name="SQL is error" Value="Câu Lệnh SQL Lỗi"/>
+    <Message Name="Sql length is less than 7!" Value="Câu Lệnh SQL Ngắn Hơn 7 Ký Tự"/>
+    <Message Name="SQL_COMMAND" Value="Câu Lệnh SQL"/>
+    <Message Name="SQL_ID" Value="SQL ID"/>
+    <Message Name="SQL_NAME" Value="Tên SQL"/>
+    <Message Name="SqlCommand" Value="Câu Lệnh SQL"/>
+    <Message Name="SqlName" Value="Tên SQL"/>
+    <Message Name="STYLE" Value="Kiểu Chữ"/>
+    <Message Name="Style" Value="Kiểu Chữ"/>
+    <Message Name="To" Value="Đến"/>
+    <Message Name="TOCELL" Value="Ô Đích"/>
+    <Message Name="TRANSLATE" Value="Mô Tả"/>
+    <Message Name="translate" Value="Mô Tả"/>
+    <Message Name="WIDTH" Value="Chiều Rộng Ô"/>
+    <Message Name="Width" Value="Chiều Rộng Ô"/>
+    <Message Name="WrapText" Value="Tự Xuống Dòng"/>
+    <Message Name="SQL_SECTION" Value="Khu Vực"/>
+    <Message Name="Header" Value="Tiêu Đề"/>
+    <Message Name="Detail" Value="Chi Tiết"/>
+    <Message Name="Footer" Value="Chân Trang"/>
+    <Message Name="Print Title" Value="Tiêu Đề In"/>
+    <Message Name="CELL_FROM" Value="Ô Bắt Đầu"/>
+    <Message Name="CELL_TO" Value="Ô Kết Thúc"/>
+    <Message Name="Cell format error. must be excel cell format like A10 or Z7 or something like that" Value="Sai Định Dạng Ô, Vui Lòng Dùng Định Dạng Excel Như A10, Z7..."/>
+  </Ngôn_ngữ_Việt>
+</Chroma>

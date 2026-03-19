@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+	<English>
+		<Message Name="MACHINE_CODE" Value="Machine Code"/>
+		<Message Name="MACHINE_TYPE_NAME" Value="Machine Type Name"/>
+		<Message Name="MACHINE_LOC" Value="Location"/>
+		<Message Name="VENDOR_CODE" Value="Vendor Code"/>
+		<Message Name="VENDOR_NAME" Value="Vendor Name"/>
+		<Message Name="EMP_NO" Value="Employee No"/>
+		<Message Name="EMP_NAME" Value="Employee Name"/>
+		<Message Name="Engineer" Value="Engineer"/>
+		<Message Name="Machine Engineer" Value="Machine Engineer"/>
+		<Message Name="OWNER" Value="Owner"/>
+		<Message Name="Owner_ID" Value="Owner ID"/>
+		<Message Name="Select All" Value="Select All"/>
+		<Message Name="Select None" Value="Select None"/>
+		<Message Name="Employee No" Value="Employee No"/>
+		<Message Name="Employee Name" Value="Employee Name"/>
+		<Message Name="Department" Value="Department"/>
+		<Message Name="Machine Name" Value="Machine Name"/>
+		<Message Name="Machine Code" Value="Machine Code"/>
+		<Message Name="Location" Value="Location"/>
+		<Message Name="Vendor Name" Value="Vendor Name"/>
+		<Message Name="Machine Type" Value="Machine Type"/>
+		<Message Name="Utilization" Value="Utilization"/>
+		<Message Name="Arrival Date" Value="Arrival Date"/>
+		<Message Name="Warranty Date" Value="Warranty Date"/>
+		<Message Name="AUTO RUN" Value="AUTO RUN"/>
+		<Message Name="M_OPTION3" Value="Share file position"/>
+		<Message Name="M_OPTION4" Value="File name of machine"/>
+		<Message Name="Start Date" Value="Start Date"/>
+		<Message Name="End Date" Value="End Date"/>
+		<Message Name="Car Products" Value="Car Products"/>
+		<Message Name="Yes" Value="Yes"/>
+		<Message Name="No" Value="No"/>
+	</English>
+	<繁體中文>
+		<Message Name="MACHINE_CODE" Value="機台代碼"/>
+		<Message Name="MACHINE_TYPE_NAME" Value="機台類型"/>
+		<Message Name="MACHINE_DESC" Value="機台名稱"/>
+		<Message Name="MACHINE_LOC" Value="位置"/>
+		<Message Name="VENDOR_CODE" Value="供應商代碼"/>
+		<Message Name="VENDOR_NAME" Value="供應商名稱"/>
+		<Message Name="EMP_NO" Value="員工編號"/>
+		<Message Name="EMP_NAME" Value="員工名稱"/>
+		<Message Name="Engineer" Value="機台工程師"/>
+		<Message Name="Machine Engineer" Value="機台工程師"/>
+		<Message Name="OWNER" Value="負責人"/>
+		<Message Name="Owner_ID" Value="員工編號"/>
+		<Message Name="Select All" Value="全選"/>
+		<Message Name="Select None" Value="取消全選"/>
+		<Message Name="Employee No" Value="員工編號"/>
+		<Message Name="Employee Name" Value="員工名稱"/>
+		<Message Name="Department" Value="部門"/>
+		<Message Name="Machine Name" Value="機台名稱"/>
+		<Message Name="Machine Code" Value="機台代碼"/>
+		<Message Name="Location" Value="位置"/>
+		<Message Name="Vendor Name" Value="供應商名稱"/>
+		<Message Name="Machine Type" Value="機台類型"/>
+		<Message Name="Utilization" Value="稼動率"/>
+		<Message Name="Arrival Date" Value="到場日期"/>
+		<Message Name="Warranty Date" Value="保固日期"/>
+		<Message Name="AUTO RUN" Value="WIP過站自動變更機況"/>
+		<Message Name="M_OPTION3" Value="機台文件共享位置"/>
+		<Message Name="M_OPTION4" Value="機台檔案名稱"/>
+		<Message Name="Start Date" Value="起始時間"/>
+		<Message Name="End Date" Value="結束時間"/>
+		<Message Name="Car Products" Value="是否可生產車用產品"/>
+		<Message Name="Yes" Value="是"/>
+		<Message Name="No" Value="否"/>
+		<Message Name="Y" Value="是"/>
+		<Message Name="N" Value="否"/>
+		<Message Name="Export completed" Value="資料匯出已完成"/>
+
+		<Message Name="Property" Value="屬性"/>
+		<Message Name="Property_name" Value="屬性名稱"/>
+		<Message Name="Property_value" Value="屬性值"/>
+		<Message Name="Value_type" Value="類型"/>
+		<Message Name="PROPERTY_DESC" Value="屬性說明"/>
+
+		<Message Name="Property Name" Value="屬性名稱"/>
+		<Message Name="Default Value" Value="屬性預設值"/>
+		<Message Name="Property Description" Value="屬性說明"/>
+
+		<Message Name="PropertyName Repeat" Value="此屬性已使用"/>
+		<Message Name="Property List is null" Value="此機台無屬性"/>
+
+		<Message Name="PropertyName is Null" Value="屬性名稱未輸入"/>
+		<Message Name="Data is null" Value="資料未輸入"/>
+		<Message Name="Value type Error" Value="輸入類型錯誤"/>
+
+		<Message Name="Copy" Value="複製"/>
+		<Message Name="Copy?" Value="是否複製此機台之屬性?"/>
+		<Message Name="fCopy" Value="複製"/>
+
+		<Message Name="Over flow{0}~{1}" Value="數值需介於{0}~{1}"/>
+		<Message Name="PropertyName is Null" Value="屬性名稱為空"/>
+		<Message Name="PropertyName Repeat" Value="此屬性已使用"/>
+		<Message Name="Data is null" Value="資料為空"/>
+		<Message Name="Property is read only,can not be delete" Value="屬性為唯獨鎖定無法刪除"/>
+		<Message Name="Property from machine type , can not be delete" Value="屬性來自機台類型無法刪除"/>
+		<Message Name="Please input correct machine name" Value="請輸入正確的機台名稱"/>
+		<Message Name="Option" Value="項目"/>
+		<Message Name="fMultiSelect" Value="選取項目"/>
+		<Message Name="Please pick option to configration." Value="請選擇欲設定的項目"/>
+	</繁體中文>
+	<简体中文>
+		<Message Name="MACHINE_CODE" Value="机台代码"/>
+		<Message Name="MACHINE_TYPE_NAME" Value="机台类型"/>
+		<Message Name="MACHINE_DESC" Value="机台名称"/>
+		<Message Name="MACHINE_LOC" Value="位置"/>
+		<Message Name="VENDOR_CODE" Value="供应商代码"/>
+		<Message Name="VENDOR_NAME" Value="供应商名称"/>
+		<Message Name="EMP_NO" Value="员工编号"/>
+		<Message Name="EMP_NAME" Value="员工名称"/>
+		<Message Name="Engineer" Value="机台工程师"/>
+		<Message Name="Machine Engineer" Value="机台工程师"/>
+		<Message Name="OWNER" Value="负责人"/>
+		<Message Name="Owner_ID" Value="员工编号"/>
+		<Message Name="Select All" Value="全选"/>
+		<Message Name="Select None" Value="取消全选"/>
+		<Message Name="Employee No" Value="员工编号"/>
+		<Message Name="Employee Name" Value="员工名称"/>
+		<Message Name="Department" Value="部门"/>
+		<Message Name="Machine Name" Value="机台名称"/>
+		<Message Name="Machine Code" Value="机台代码"/>
+		<Message Name="Location" Value="位置"/>
+		<Message Name="Vendor Name" Value="供应商名称"/>
+		<Message Name="Machine Type" Value="机台类型"/>
+		<Message Name="Utilization" Value="稼动率"/>
+		<Message Name="Arrival Date" Value="到场日期"/>
+		<Message Name="Warranty Date" Value="保固日期"/>
+		<Message Name="AUTO RUN" Value="WIP过站自动变更机况"/>
+		<Message Name="M_OPTION3" Value="机台文件共享位置"/>
+		<Message Name="M_OPTION4" Value="机台档案名称"/>
+		<Message Name="Start Date" Value="起始时间"/>
+		<Message Name="End Date" Value="结束时间"/>
+		<Message Name="Car Products" Value="是否可生产车用产品"/>
+		<Message Name="Yes" Value="是"/>
+		<Message Name="No" Value="否"/>
+		<Message Name="Y" Value="是"/>
+		<Message Name="N" Value="否"/>
+		<Message Name="Export completed" Value="数据汇出已完成"/>
+
+		<Message Name="Property" Value="属性"/>
+		<Message Name="Property_name" Value="属性名称"/>
+		<Message Name="Property_value" Value="属性值"/>
+		<Message Name="Value_type" Value="类型"/>
+		<Message Name="PROPERTY_DESC" Value="属性说明"/>
+
+		<Message Name="PropertyName Repeat" Value="此属性已使用"/>
+		<Message Name="Property List is null" Value="此机台无属性"/>
+
+		<Message Name="Copy" Value="复制"/>
+		<Message Name="Copy?" Value="是否复制此机台之属性?"/>
+		<Message Name="fCopy" Value="复制"/>
+
+		<Message Name="PropertyName is Null" Value="属性名称未输入"/>
+		<Message Name="Data is null" Value="资料未输入"/>
+		<Message Name="Value type Error" Value="输入类型错误"/>
+
+		<Message Name="Over flow{0}~{1}" Value="数值需介于{0}~{1}"/>
+		<Message Name="PropertyName is Null" Value="属性名称为空"/>
+		<Message Name="PropertyName Repeat" Value="此属性已使用"/>
+		<Message Name="Data is null" Value="资料为空"/>
+		<Message Name="Property is read only,can not be delete" Value="属性为唯读锁定无法删除"/>
+		<Message Name="Property from machine type , can not be delete" Value="属性来自机台类型无法删除"/>
+		<Message Name="Please input correct machine name" Value="请输入正确的机台名称"/>
+		<Message Name="Option" Value="项目"/>
+		<Message Name="fMultiSelect" Value="选取项目"/>
+		<Message Name="Please pick option to configration." Value="请选择欲设定的项目"/>
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="MACHINE_CODE" Value="Mã máy"/><Message Name="MACHINE_TYPE_NAME" Value="Loại máy"/><Message Name="MACHINE_DESC" Value="Tên máy"/><Message Name="MACHINE_LOC" Value="Vị trí"/><Message Name="VENDOR_CODE" Value="Mã nhà cung cấp"/><Message Name="VENDOR_NAME" Value="Tên nhà cung cấp"/><Message Name="EMP_NO" Value="Mã nhân viên"/><Message Name="EMP_NAME" Value="Tên nhân viên"/><Message Name="Engineer" Value="Kỹ sư máy"/><Message Name="Machine Engineer" Value="Kỹ sư máy"/><Message Name="OWNER" Value="Người phụ trách"/><Message Name="Owner_ID" Value="Mã nhân viên"/><Message Name="Select All" Value="Chọn tất cả"/><Message Name="Select None" Value="Bỏ chọn tất cả"/><Message Name="Employee No" Value="Mã nhân viên"/><Message Name="Employee Name" Value="Tên nhân viên"/><Message Name="Department" Value="Bộ phận"/><Message Name="Machine Name" Value="Tên máy"/><Message Name="Machine Code" Value="Mã máy"/><Message Name="Location" Value="Vị trí"/><Message Name="Vendor Name" Value="Tên nhà cung cấp"/><Message Name="Machine Type" Value="Loại máy"/><Message Name="Utilization" Value="Tỷ lệ sử dụng"/><Message Name="Arrival Date" Value="Ngày đến xưởng"/><Message Name="Warranty Date" Value="Ngày bảo hành"/><Message Name="AUTO RUN" Value="Tự động cập nhật trạng thái máy qua WIP"/><Message Name="M_OPTION3" Value="Vị trí chia sẻ tập tin của máy"/><Message Name="M_OPTION4" Value="Tên tập tin của máy"/><Message Name="Start Date" Value="Thời gian bắt đầu"/><Message Name="End Date" Value="Thời gian kết thúc"/><Message Name="Car Products" Value="Có thể sản xuất sản phẩm ô tô"/><Message Name="Yes" Value="Có"/><Message Name="No" Value="Không"/><Message Name="Y" Value="Có"/><Message Name="N" Value="Không"/><Message Name="Export completed" Value="Xuất dữ liệu hoàn tất"/><Message Name="Property" Value="Thuộc tính"/><Message Name="Property_name" Value="Tên thuộc tính"/><Message Name="Property_value" Value="Giá trị thuộc tính"/><Message Name="Value_type" Value="Loại"/><Message Name="PROPERTY_DESC" Value="Mô tả thuộc tính"/><Message Name="Property Name" Value="Tên thuộc tính"/><Message Name="Default Value" Value="Giá trị mặc định"/><Message Name="Property Description" Value="Mô tả thuộc tính"/><Message Name="PropertyName Repeat" Value="Thuộc tính này đã được sử dụng"/><Message Name="Property List is null" Value="Máy này không có thuộc tính"/><Message Name="Copy" Value="Sao chép"/><Message Name="Copy?" Value="Bạn có muốn sao chép thuộc tính từ máy này?"/><Message Name="fCopy" Value="Sao chép"/><Message Name="PropertyName is Null" Value="Tên thuộc tính trống"/><Message Name="Data is null" Value="Dữ liệu trống"/><Message Name="Value type Error" Value="Sai loại dữ liệu"/><Message Name="Over flow{0}~{1}" Value="Giá trị phải nằm trong khoảng {0}~{1}"/><Message Name="Property is read only,can not be delete" Value="Thuộc tính ở chế độ chỉ đọc, không thể xóa"/><Message Name="Property from machine type , can not be delete" Value="Thuộc tính đến từ loại máy, không thể xóa"/><Message Name="Please input correct machine name" Value="Vui lòng nhập đúng tên máy"/><Message Name="Option" Value="Tùy chọn"/><Message Name="fMultiSelect" Value="Chọn mục"/><Message Name="Please pick option to configration." Value="Vui lòng chọn mục cần thiết lập"/></Ngôn_ngữ_Việt></Chroma>

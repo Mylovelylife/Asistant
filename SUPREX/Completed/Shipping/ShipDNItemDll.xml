@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <繁體中文>
+    <Message Name="Customer Name" Value="客戶名稱"/>
+    <Message Name="Customer Code" Value="客戶代碼"/>
+    <Message Name="Delivery Notice" Value="出貨單號"/>
+    <Message Name="Cancel" Value="取消"/>
+    <Message Name="Save" Value="儲存"/>
+    <Message Name="Qty" Value="數量"/>
+    <Message Name="Part No" Value="料號"/>
+    <Message Name="DN Item" Value="出貨項目"/>
+    <Message Name="Customer" Value="客戶"/>
+    <Message Name="OK" Value="確定"/>
+    <Message Name="Search" Value="搜尋條件"/>
+    <Message Name="DN No" Value="出貨單號"/>
+    <Message Name="Show" Value="顯示狀態"/>
+    <Message Name="Delete" Value="刪除"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="DN" Value="出貨單"/>
+    <Message Name="UnFinish" Value="尚未結束"/>
+    <Message Name="Finish" Value="已結束"/>
+    <Message Name="ALL" Value="全部"/>
+    <Message Name="Version" Value="版本"/>
+    <Message Name="Please input DN Item" Value="請輸入出貨項目"/>
+    <Message Name="Please Input Part No" Value="請輸入料號"/>
+    <Message Name="Please select Version" Value="請選擇版本"/>
+    <Message Name="Qty Error" Value="數量錯誤"/>
+    <Message Name="DN Item Duplicate" Value="出貨項目重複"/>
+    <Message Name="DN Item Append OK" Value="出貨項目新增完成"/>
+    <Message Name="Append Other DN Item ?" Value="新增其它出貨項目 ?"/>
+    <Message Name="DN Item Update OK" Value="出貨項目修改完成"/>
+    <Message Name="DN Item Data Maintain Append" Value="出貨項目資料維護 - 新增"/>
+    <Message Name="DN Item Data Maintain Modify" Value="出貨項目資料維護 - 修改"/>
+    <Message Name="Customer Code Error" Value="客戶代碼錯誤"/>
+    <Message Name="Customer Code Invalid" Value="客戶代碼已失效"/>
+    <Message Name="DN Data Update OK" Value="出貨單資料修改完成"/>
+    <Message Name="DN Duplicate" Value="出貨單重複"/>
+    <Message Name="DN Data Maintain Append" Value="出貨單資料維護 - 新增"/>
+    <Message Name="DN Data Maintain Modify" Value="出貨單資料維護 - 修改"/>
+    <Message Name="DN Data Append OK" Value="出貨單新增完成"/>
+    <Message Name="Append Other DN Data ?" Value="新增其它出貨單 ?"/>
+    <Message Name="Please Input Customer Code" Value="請輸入客戶代碼"/>
+    <Message Name="Please input DN NO" Value="請輸入出貨單號"/>
+    <Message Name="Part No Error" Value="料號錯誤"/>
+    <Message Name="Please Input Part No Prefix" Value="請輸入料號前置碼"/>
+    <Message Name="Do you want to delete this data ?" Value="確定要刪除此筆資料 ?"/>
+    <Message Name="DN Item Exist" Value="出貨項目已存在"/>
+    <Message Name="Can not delete this DN" Value="不能刪除此筆出貨單號"/>
+    <Message Name="Ship To" Value="出貨地"/>
+    <Message Name="Invoice No" Value="發票號碼"/>
+    <Message Name="CUSTOMER_CODE" Value="客戶代碼"/>
+    <Message Name="CUSTOMER_NAME" Value="客戶名稱"/>
+    <Message Name="CUSTOMER_DESC" Value="客戶描述"/>
+    <Message Name="PART_NO" Value="料號"/>
+    <Message Name="SPEC1" Value="規格(1)"/>
+    <Message Name="SPEC2" Value="規格(2)"/>
+    <Message Name="VERSION" Value="版本"/>
+	<Message Name="Error" Value="錯誤"/> 
+    <Message Name="GetPartID" Value="取得料號ID"/>	  
+ 
+
+  </繁體中文>
+  <简体中文>
+	  <Message Name="Customer Name" Value="客户名称"/>
+	  <Message Name="Customer Code" Value="客户代码"/>
+	  <Message Name="Delivery Notice" Value="出货单号"/>
+	  <Message Name="Cancel" Value="取消"/>
+	  <Message Name="Save" Value="储存"/>
+	  <Message Name="Qty" Value="数量"/>
+	  <Message Name="Part No" Value="料号"/>
+	  <Message Name="DN Item" Value="出货项目"/>
+	  <Message Name="Customer" Value="客户"/>
+	  <Message Name="OK" Value="确定"/>
+	  <Message Name="Search" Value="搜寻条件"/>
+	  <Message Name="DN No" Value="出货单号"/>
+	  <Message Name="Show" Value="显示状态"/>
+	  <Message Name="Delete" Value="刪除"/>
+	  <Message Name="Modify" Value="修改"/>
+	  <Message Name="Append" Value="新增"/>
+	  <Message Name="DN" Value="出货单"/>
+	  <Message Name="UnFinish" Value="尚未结束"/>
+	  <Message Name="Finish" Value="已结束"/>
+	  <Message Name="ALL" Value="全部"/>
+	  <Message Name="Version" Value="版本"/>
+	  <Message Name="Please input DN Item" Value="请输入出货项目"/>
+	  <Message Name="Please Input Part No" Value="请输入料号"/>
+	  <Message Name="Please select Version" Value="请选择版本"/>
+	  <Message Name="Qty Error" Value="数量错误"/>
+	  <Message Name="DN Item Duplicate" Value="出货项目重复"/>
+	  <Message Name="DN Item Append OK" Value="出货项目新增完成"/>
+	  <Message Name="Append Other DN Item ?" Value="新增其它出货项目 ?"/>
+	  <Message Name="DN Item Update OK" Value="出货项目修改完成"/>
+	  <Message Name="DN Item Data Maintain Append" Value="出货项目资料维护 - 新增"/>
+	  <Message Name="DN Item Data Maintain Modify" Value="出貨項目資料維護 - 修改"/>
+	  <Message Name="Customer Code Error" Value="客户代码错误"/>
+	  <Message Name="Customer Code Invalid" Value="客户代码已失效"/>
+	  <Message Name="DN Data Update OK" Value="出货单资料修改完成"/>
+	  <Message Name="DN Duplicate" Value="出货单重复"/>
+	  <Message Name="DN Data Maintain Append" Value="出货单资料维护 - 新增"/>
+	  <Message Name="DN Data Maintain Modify" Value="出貨單資料維護 - 修改"/>
+	  <Message Name="DN Data Append OK" Value="出货单新增完成"/>
+	  <Message Name="Append Other DN Data ?" Value="新增其它出货单 ?"/>
+	  <Message Name="Please Input Customer Code" Value="请输入客户代码"/>
+	  <Message Name="Please input DN NO" Value="请输入出货单号"/>
+	  <Message Name="Part No Error" Value="料号错误"/>
+	  <Message Name="Please Input Part No Prefix" Value="请输入料号前置码"/>
+	  <Message Name="Do you want to delete this data ?" Value="确定要删除此笔资料 ?"/>
+	  <Message Name="DN Item Exist" Value="出货项目已存在"/>
+	  <Message Name="Can not delete this DN" Value="不能删除此笔出货单号"/>
+	  <Message Name="Ship To" Value="出货地"/>
+	  <Message Name="Invoice No" Value="发票号码"/>
+	  <Message Name="CUSTOMER_CODE" Value="客户代码"/>
+	  <Message Name="CUSTOMER_NAME" Value="客户名称"/>
+	  <Message Name="CUSTOMER_DESC" Value="客户描述"/>
+	  <Message Name="PART_NO" Value="料号"/>
+	  <Message Name="SPEC1" Value="规格(1)"/>
+	  <Message Name="SPEC2" Value="规格(2)"/>
+	  <Message Name="VERSION" Value="版本"/>
+	  <Message Name="GetPartID" Value="取得料号ID"/>
+	  <Message Name="Error" Value="错误"/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="Customer Name" Value="Tên khách hàng"/><Message Name="Customer Code" Value="Mã khách hàng"/><Message Name="Delivery Notice" Value="Mã phiếu xuất hàng"/><Message Name="Cancel" Value="Hủy"/><Message Name="Save" Value="Lưu"/><Message Name="Qty" Value="Số lượng"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="DN Item" Value="Mục xuất hàng"/><Message Name="Customer" Value="Khách hàng"/><Message Name="OK" Value="Đồng ý"/><Message Name="Search" Value="Điều kiện tìm kiếm"/><Message Name="DN No" Value="Mã phiếu xuất hàng"/><Message Name="Show" Value="Trạng thái hiển thị"/><Message Name="Delete" Value="Xóa"/><Message Name="Modify" Value="Chỉnh sửa"/><Message Name="Append" Value="Thêm mới"/><Message Name="DN" Value="Phiếu xuất hàng"/><Message Name="UnFinish" Value="Chưa hoàn tất"/><Message Name="Finish" Value="Đã hoàn tất"/><Message Name="ALL" Value="Tất cả"/><Message Name="Version" Value="Phiên bản"/><Message Name="Please input DN Item" Value="Vui lòng nhập mục xuất hàng"/><Message Name="Please Input Part No" Value="Vui lòng nhập mã linh kiện"/><Message Name="Please select Version" Value="Vui lòng chọn phiên bản"/><Message Name="Qty Error" Value="Lỗi số lượng"/><Message Name="DN Item Duplicate" Value="Mục xuất hàng bị trùng"/><Message Name="DN Item Append OK" Value="Thêm mục xuất hàng thành công"/><Message Name="Append Other DN Item ?" Value="Thêm mục xuất hàng khác?"/><Message Name="DN Item Update OK" Value="Chỉnh sửa mục xuất hàng thành công"/><Message Name="DN Item Data Maintain Append" Value="Bảo trì dữ liệu mục xuất hàng - Thêm mới"/><Message Name="DN Item Data Maintain Modify" Value="Bảo trì dữ liệu mục xuất hàng - Chỉnh sửa"/><Message Name="Customer Code Error" Value="Mã khách hàng không hợp lệ"/><Message Name="Customer Code Invalid" Value="Mã khách hàng đã hết hiệu lực"/><Message Name="DN Data Update OK" Value="Chỉnh sửa dữ liệu phiếu xuất hàng thành công"/><Message Name="DN Duplicate" Value="Phiếu xuất hàng bị trùng"/><Message Name="DN Data Maintain Append" Value="Bảo trì dữ liệu phiếu xuất hàng - Thêm mới"/><Message Name="DN Data Maintain Modify" Value="Bảo trì dữ liệu phiếu xuất hàng - Chỉnh sửa"/><Message Name="DN Data Append OK" Value="Thêm phiếu xuất hàng thành công"/><Message Name="Append Other DN Data ?" Value="Thêm phiếu xuất hàng khác?"/><Message Name="Please Input Customer Code" Value="Vui lòng nhập mã khách hàng"/><Message Name="Please input DN NO" Value="Vui lòng nhập mã phiếu xuất hàng"/><Message Name="Part No Error" Value="Mã linh kiện sai"/><Message Name="Please Input Part No Prefix" Value="Vui lòng nhập tiền tố mã linh kiện"/><Message Name="Do you want to delete this data ?" Value="Bạn có chắc muốn xóa dữ liệu này?"/><Message Name="DN Item Exist" Value="Mục xuất hàng đã tồn tại"/><Message Name="Can not delete this DN" Value="Không thể xóa phiếu xuất hàng này"/><Message Name="Ship To" Value="Địa điểm giao hàng"/><Message Name="Invoice No" Value="Mã hóa đơn"/><Message Name="CUSTOMER_CODE" Value="Mã khách hàng"/><Message Name="CUSTOMER_NAME" Value="Tên khách hàng"/><Message Name="CUSTOMER_DESC" Value="Mô tả khách hàng"/><Message Name="PART_NO" Value="Mã linh kiện"/><Message Name="SPEC1" Value="Quy cách (1)"/><Message Name="SPEC2" Value="Quy cách (2)"/><Message Name="VERSION" Value="Phiên bản"/><Message Name="Error" Value="Lỗi"/><Message Name="GetPartID" Value="Lấy ID mã linh kiện"/></Ngôn_ngữ_Việt></Chroma>

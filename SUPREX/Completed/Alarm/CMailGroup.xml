@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Chroma>
+  <English>
+    <Message Name="Append" Value="Append"/>
+    <Message Name="Modify" Value="Modify"/>
+    <Message Name="Disabled" Value="Disabled"/>
+    <Message Name="Enabled" Value="Enabled"/>
+    <Message Name="Delete" Value="Delete"/>
+    <Message Name="Employee" Value="Role Assign"/>
+    <Message Name="Export" Value="Export"/>
+    <Message Name="Filter" Value="Filter"/>
+
+    <Message Name="Role Assign" Value="Role Assign"/>
+    <Message Name="Select All" Value="Select All"/>
+    <Message Name="Select None" Value="Select None"/>
+    <Message Name="Employee No" Value="Employee No"/>
+    <Message Name="Employee Name" Value="Employee Name"/>
+    <Message Name="Search" Value="Search"/>
+    <Message Name="OK" Value="OK"/>
+    <Message Name="Cancel" Value="Cancel"/>
+
+    <Message Name="Mail Group Name" Value="Mail Group"/>
+    <Message Name="EMP_NO" Value="Employee No"/>
+    <Message Name="EMP_NAME" Value="Employee Name"/>
+    <Message Name="EMAIL" Value="eMail"/>
+    <Message Name="eMail" Value="eMail"/>
+    <Message Name="History Log" Value="History Log"/>
+    <Message Name="History" Value="History Log"/>
+    <Message Name="ENABLED" Value="Enabled"/>
+    <Message Name="UPDATE_TIME" Value="Update Time"/>
+
+    <Message Name="Data Duplicate" Value="Data Duplicate"/>
+  </English>
+<Ngôn_ngữ_Việt>
+  <Message Name="Append" Value="Thêm mới"/>
+<Message Name="Modify" Value="Chỉnh sửa"/>
+<Message Name="Disabled" Value="Vô hiệu lực"/>
+<Message Name="Enabled" Value="Có hiệu lực"/>
+<Message Name="Delete" Value="Xóa"/>
+<Message Name="Employee" Value="Gán vai trò"/>
+<Message Name="Export" Value="Xuất dữ liệu"/>
+<Message Name="Filter" Value="Điều kiện"/>
+<Message Name="Role Assign" Value="Gán vai trò"/>
+<Message Name="Select All" Value="Chọn tất cả"/>
+<Message Name="Select None" Value="Bỏ chọn tất cả"/>
+<Message Name="Employee No" Value="Mã nhân viên"/>
+<Message Name="Employee Name" Value="Tên nhân viên"/>
+<Message Name="Search" Value="Tìm kiếm"/>
+<Message Name="OK" Value="Xác nhận"/>
+<Message Name="Cancel" Value="Hủy"/>
+<Message Name="Mail Group Name" Value="Nhóm email"/>
+<Message Name="EMP_NO" Value="Mã nhân viên"/>
+<Message Name="EMP_NAME" Value="Tên nhân viên"/>
+<Message Name="EMAIL" Value="Email"/>
+<Message Name="eMail" Value="Email"/>
+<Message Name="History Log" Value="Lịch sử ghi nhận"/>
+<Message Name="History" Value="Lịch sử"/>
+<Message Name="ENABLED" Value="Kích hoạt"/>
+<Message Name="UPDATE_TIME" Value="Thời gian thay đổi"/>
+
+<Message Name="Data Duplicate" Value="Dữ liệu trùng lặp"/>
+</Ngôn_ngữ_Việt>
+  <繁體中文>
+    <Message Name="Append" Value="新增"/>
+    <Message Name="Modify" Value="修改"/>
+    <Message Name="Disabled" Value="停用"/>
+    <Message Name="Enabled" Value="啟用"/>
+    <Message Name="Delete" Value="刪除"/>
+    <Message Name="Employee" Value="角色賦予"/>
+    <Message Name="Export" Value="匯出"/>
+    <Message Name="Filter" Value="條件"/>
+
+    <Message Name="Role Assign" Value="角色賦予"/>
+    <Message Name="Select All" Value="全選"/>
+    <Message Name="Select None" Value="取消全選"/>
+    <Message Name="Employee No" Value="員工編號"/>
+    <Message Name="Employee Name" Value="員工姓名"/>
+    <Message Name="Search" Value="搜尋"/>
+    <Message Name="OK" Value="確定"/>
+    <Message Name="Cancel" Value="取消"/>
+
+    <Message Name="Mail Group Name" Value="郵件群組"/>
+    <Message Name="EMP_NO" Value="員工編號"/>
+    <Message Name="EMP_NAME" Value="員工姓名"/>
+    <Message Name="EMAIL" Value="電子信箱"/>
+    <Message Name="eMail" Value="電子信箱"/>
+    <Message Name="History Log" Value="歷史記錄"/>
+    <Message Name="History" Value="歷史記錄"/>
+    <Message Name="ENABLED" Value="啟用"/>
+    <Message Name="UPDATE_TIME" Value="異動時間"/>
+
+    <Message Name="Data Duplicate" Value="資料重複"/>
+  </繁體中文>
+</Chroma>

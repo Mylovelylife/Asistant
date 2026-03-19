@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+  <English/>
+  <繁體中文>
+    <Message Name="Part NO." Value="料號"/>
+    <Message Name="QTY" Value="數量"/>
+    <Message Name="Vendor Code" Value="供應商代碼"/>   
+    <Message Name="Date Code" Value="Date Code"/>
+    <Message Name="Lot NO." Value="Lot NO."/>
+    <Message Name="Lab DC" Value="Lab DC"/>
+    <Message Name="Lab Lot" Value="Lab Lot"/>
+    <Message Name="No Date" Value="找不到來源資料"/>
+    <Message Name="The current ReelID has been stored in the new system. Please use the new system to issue the material" Value="當前ReelID已存儲於新系統中，請使用新系統發放物料"/>
+    <Message Name="Already transferred, cannot be executed again" Value="已轉移，不可再次執行"/>
+    <Message Name="Part No Date" Value="料號在新系統無數據"/>
+  </繁體中文>
+  <简体中文>
+    <Message Name="Part NO." Value="料号"/>
+    <Message Name="QTY" Value="数量"/>
+    <Message Name="Vendor Code" Value="供货商代码"/>   
+    <Message Name="Date Code" Value="Date Code"/>
+    <Message Name="Lot NO." Value="Lot NO."/>
+    <Message Name="Lab DC" Value="Lab DC"/>
+    <Message Name="Lab Lot" Value="Lab Lot"/>
+    <Message Name="No Date" Value="找不到源数据"/>
+    <Message Name="The current ReelID has been stored in the new system. Please use the new system to issue the material" Value="当前ReelID已存储于新系统中，请使用新系统发放物料"/>
+    <Message Name="Already transferred, cannot be executed again" Value="已转移，不可再次执行"/>
+    <Message Name="Part No Date" Value="料号在新系统无数据"/>
+  </简体中文>
+<Ngôn_ngữ_Việt><Message Name="The current ReelID has been stored in the new system. Please use the new system to issue the material" Value="ReelID hiện tại đã được lưu trong hệ thống mới. Vui lòng dùng hệ thống mới để cấp phát vật liệu"/><Message Name="Lab Lot" Value="Lab Lot"/><Message Name="Lot NO." Value="Số Lot"/><Message Name="Date Code" Value="Date Code"/><Message Name="No Date" Value="Không tìm thấy dữ liệu nguồn"/><Message Name="Already transferred, cannot be executed again" Value="Đã chuyển, không thể thực hiện lại"/><Message Name="Part NO." Value="Mã linh kiện"/><Message Name="Part No Date" Value="Mã linh kiện không có dữ liệu trong hệ thống mới"/><Message Name="QTY" Value="Số lượng"/><Message Name="Lab DC" Value="Lab DC"/><Message Name="Vendor Code" Value="Mã nhà cung cấp"/></Ngôn_ngữ_Việt></Chroma>

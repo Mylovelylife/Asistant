@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<繁體中文>
+		<Message Name="Configuration" Value="設定"/>
+		<Message Name="Station" Value="站點"/>
+		<Message Name="Factory" Value="廠別"/>
+		<Message Name="Line" Value="生產線別"/>
+		<Message Name="Clear" Value="清除"/>
+		<Message Name="Production Line" Value="生產線別"/>
+		<Message Name="Stage" Value="區段"/>
+		<Message Name="Process" Value="製程"/>
+		<Message Name="Terminal" Value="工作站"/>
+		<Message Name="File Path - result" Value="初判檔案"/>
+		<Message Name="AOI File Directory - result" Value="目錄"/>
+		<Message Name="File Path - retest" Value="複判檔案"/>
+		<Message Name="AOI File Directory - retest" Value="目錄"/>
+		<Message Name="Import Interval" Value="抓取間隔"/>
+		<Message Name="Auto Transfer" Value="自動執行"/>
+		<Message Name="Interval" Value="間隔"/>
+		<Message Name="Seconds" Value="秒"/>
+		<Message Name="Record Count" Value="資料筆數"/>
+		<Message Name="OK" Value="儲存"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Label Type" Value="標籤類型"/>
+		<Message Name="Print Label" Value="列印標籤"/>
+		<Message Name="Print Qty" Value="張數"/>
+		<Message Name="Print Method" Value="列印類型"/>
+		<Message Name="Print Port" Value="列印埠"/>
+		<Message Name="Label Qty/Piece" Value="標籤數量"/>
+		<Message Name="Configure OK" Value="設定完成"/>
+		<Message Name="" Value=""/>
+	</繁體中文>
+
+	<简体中文>
+		<Message Name="Configuration" Value="设定"/>
+		<Message Name="Station" Value="站点"/>
+		<Message Name="Factory" Value="厂别"/>
+		<Message Name="Line" Value="生产线别"/>
+		<Message Name="Clear" Value="清除"/>
+		<Message Name="Production Line" Value="生产线别"/>
+		<Message Name="Stage" Value="区段"/>
+		<Message Name="Process" Value="製程"/>
+		<Message Name="Terminal" Value="工作站"/>
+		<Message Name="File Path - result" Value="初判档案"/>
+		<Message Name="AOI File Directory - result" Value="目录"/>
+		<Message Name="File Path - retest" Value="複判档案"/>
+		<Message Name="AOI File Directory - retest" Value="目录"/>
+		<Message Name="Import Interval" Value="抓取间隔"/>
+		<Message Name="Auto Transfer" Value="自动执行"/>
+		<Message Name="Interval" Value="间隔"/>
+		<Message Name="Seconds" Value="秒"/>
+		<Message Name="Record Count" Value="资料笔数"/>
+		<Message Name="OK" Value="储存"/>
+		<Message Name="Cancel" Value="取消"/>
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Configuration" Value="Cấu hình"/><Message Name="Station" Value="Trạm"/><Message Name="Factory" Value="Nhà máy"/><Message Name="Line" Value="Dây chuyền sản xuất"/><Message Name="Clear" Value="Xóa"/><Message Name="Production Line" Value="Dây chuyền sản xuất"/><Message Name="Stage" Value="Khu đoạn"/><Message Name="Process" Value="Công đoạn"/><Message Name="Terminal" Value="Trạm làm việc"/><Message Name="File Path - result" Value="Tệp kết quả kiểm tra lần đầu"/><Message Name="AOI File Directory - result" Value="Thư mục"/><Message Name="File Path - retest" Value="Tệp kết quả kiểm tra lại"/><Message Name="AOI File Directory - retest" Value="Thư mục"/><Message Name="Import Interval" Value="Khoảng thời gian lấy dữ liệu"/><Message Name="Auto Transfer" Value="Tự động thực hiện"/><Message Name="Interval" Value="Khoảng thời gian"/><Message Name="Seconds" Value="Giây"/><Message Name="Record Count" Value="Số bản ghi"/><Message Name="OK" Value="Lưu"/><Message Name="Cancel" Value="Hủy"/><Message Name="Label Type" Value="Loại nhãn"/><Message Name="Print Label" Value="In nhãn"/><Message Name="Print Qty" Value="Số lượng in"/><Message Name="Print Method" Value="Phương thức in"/><Message Name="Print Port" Value="Cổng in"/><Message Name="Label Qty/Piece" Value="Số nhãn mỗi sản phẩm"/><Message Name="Configure OK" Value="Cấu hình hoàn tất"/></Ngôn_ngữ_Việt></Chroma>

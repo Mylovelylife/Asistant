@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Chroma>
+  
+	
+  <English>
+    
+		
+    <Message Name="Process Code" Value="Process Code"/>
+    
+		
+    <Message Name="Process Name" Value="Process Name"/>
+    
+		
+    <Message Name="Input Name" Value="Intput Name"/>
+    
+		
+    <Message Name="Input TW" Value="Intput TW"/>
+    
+		
+    <Message Name="Input CN" Value="Intput CN"/>
+    
+		
+    <Message Name="Input Dll" Value="Input Dll"/>
+    
+		
+    <Message Name="Output Name" Value="Output Name"/>
+    
+		
+    <Message Name="Output TW" Value="Output TW"/>
+    
+		
+    <Message Name="Output CN" Value="Output CN"/>
+    
+		
+    <Message Name="Output Dll" Value="Output Dll"/>
+    
+		
+    <Message Name="PROCESS_ID" Value="Process Id"/>
+    
+		
+    <Message Name="PROCESS_NAME" Value="Process Name"/>
+    
+		
+    <Message Name="OK" Value="OK"/>
+    
+		
+    <Message Name="Cancel" Value="Cancel"/>
+    
+	
+  </English>
+  
+	
+  <繁體中文>
+    
+		
+    <Message Name="Process Code" Value="製程代碼"/>
+    
+		
+    <Message Name="PROCESS_NAME" Value="製程名稱"/>
+    
+		
+    <Message Name="Process Name" Value="製程名稱"/>
+    
+		
+    <Message Name="Input TW" Value="輸入Dll名稱（繁體）"/>
+    
+		
+    <Message Name="Input CN" Value="輸入Dll名稱（簡體）"/>
+    
+		
+    <Message Name="Input Name" Value="輸入Dll名稱"/>
+    
+		
+    <Message Name="Input Dll" Value="輸入Dll"/>
+    
+		
+    <Message Name="Output TW" Value="輸出Dll名稱（繁體）"/>
+    
+		
+    <Message Name="Output CN" Value="輸出Dll名稱（簡體）"/>
+    
+		
+    <Message Name="Output Name" Value="輸出Dll名稱"/>
+    
+		
+    <Message Name="Output Dll" Value="輸出Dll"/>
+    
+		
+    <Message Name="PROCESS_ID" Value="製程編號"/>
+    
+		
+    <Message Name="OK" Value="確定"/>
+    
+		
+    <Message Name="Cancel" Value="取消"/>
+    
+		
+    <Message Name="Input Dll is null" Value="輸入的DLL為空值"/>
+    
+		
+    <Message Name="Data Duplicate" Value="輸入資料重覆"/>
+    
+		
+    <Message Name="Process Not Exist" Value="製程不存在"/>
+    
+		
+    <Message Name="Are You Sure to Append Data" Value="你是否確定新增資料"/>
+    
+		
+    <Message Name="Dll Name is null" Value="DLL名稱為空值"/>
+    
+		
+    <Message Name="Data Append OK" Value="數據添加成功"/>
+    
+	
+  </繁體中文>
+  
+	
+  <简体中文>
+    
+		
+    <Message Name="Process Code" Value="制程代码"/>
+    
+		
+    <Message Name="PROCESS_NAME" Value="制程名称"/>
+    
+		
+    <Message Name="Process Name" Value="制程名称"/>
+    
+		
+    <Message Name="Input TW" Value="输入Dll名称（繁体）"/>
+    
+		
+    <Message Name="Input CN" Value="输入Dll名称（简体）"/>
+    
+		
+    <Message Name="Input Name" Value="输入Dll名称"/>
+    
+		
+    <Message Name="Input Dll" Value="输入Dll"/>
+    
+		
+    <Message Name="Output TW" Value="输出Dll名称（繁体）"/>
+    
+		
+    <Message Name="Output CN" Value="输出Dll名称（简体）"/>
+    
+		
+    <Message Name="Output Name" Value="输出Dll名称"/>
+    
+		
+    <Message Name="Output Dll" Value="输出Dll"/>
+    
+		
+    <Message Name="PROCESS_ID" Value="制程编号"/>
+    
+		
+    <Message Name="OK" Value="确定"/>
+    
+		
+    <Message Name="Cancel" Value="取消"/>
+    
+		
+    <Message Name="Input Dll is null" Value="输入的DLL为空值"/>
+    
+		
+    <Message Name="Data Duplicate" Value="输入资料重覆"/>
+    
+		
+    <Message Name="Process Not Exist" Value="制程不存在"/>
+    
+		
+    <Message Name="Are You Sure to Append Data" Value="你是否确定新增资料"/>
+    
+		
+    <Message Name="Dll Name is null" Value="DLL名称为空值"/>
+    
+		
+    <Message Name="Data Append OK" Value="数据添加成功"/>
+    
+	
+  </简体中文>
+  
+
+  <Ngôn_ngữ_Việt>
+    <Message Name="Process Code" Value="Mã Công Đoạn"/>
+    <Message Name="Process Name" Value="Tên Công Đoạn"/>
+    <Message Name="Input Name" Value="Tên DLL Đầu Vào"/>
+    <Message Name="Input TW" Value="DLL Đầu Vào (TW)"/>
+    <Message Name="Input CN" Value="DLL Đầu Vào (CN)"/>
+    <Message Name="Input Dll" Value="DLL Đầu Vào"/>
+    <Message Name="Output Name" Value="Tên DLL Đầu Ra"/>
+    <Message Name="Output TW" Value="DLL Đầu Ra (TW)"/>
+    <Message Name="Output CN" Value="DLL Đầu Ra (CN)"/>
+    <Message Name="Output Dll" Value="DLL Đầu Ra"/>
+    <Message Name="PROCESS_ID" Value="Mã Công Đoạn"/>
+    <Message Name="PROCESS_NAME" Value="Tên Công Đoạn"/>
+    <Message Name="OK" Value="Xác Nhận"/>
+    <Message Name="Cancel" Value="Hủy"/>
+    <Message Name="Input Dll is null" Value="DLL Đầu Vào Không Được Để Trống"/>
+    <Message Name="Data Duplicate" Value="Dữ Liệu Trùng Lặp"/>
+    <Message Name="Process Not Exist" Value="Công Đoạn Không Tồn Tại"/>
+    <Message Name="Are You Sure to Append Data" Value="Bạn Có Chắc Muốn Thêm Dữ Liệu?"/>
+    <Message Name="Dll Name is null" Value="Tên DLL Không Được Để Trống"/>
+    <Message Name="Data Append OK" Value="Thêm Dữ Liệu Thành Công"/>
+  </Ngôn_ngữ_Việt>
+</Chroma>

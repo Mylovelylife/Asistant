@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+		<Message Name="Vendor Code" Value="Vendor Code" />
+		<Message Name="Vendor Name" Value="Vendor Name" />
+		<Message Name="Description" Value="Description" />
+	</English>
+	<繁體中文>
+		<Message Name="Vendor Code" Value="供應商代碼" />
+		<Message Name="Vendor Name" Value="供應商名稱" />
+		<Message Name="Description" Value="供應商描述" />
+	</繁體中文>
+	<简体中文>
+		<Message Name="Vendor Code" Value="供货商代码" />
+		<Message Name="Vendor Name" Value="供货商名称" />
+		<Message Name="Description" Value="供货商描述" />
+	</简体中文>
+
+<Ngôn_ngữ_Việt><Message Name="Vendor Code" Value="Mã Nhà Cung Cấp" /><Message Name="Vendor Name" Value="Tên Nhà Cung Cấp" /><Message Name="Description" Value="Mô Tả Nhà Cung Cấp" /></Ngôn_ngữ_Việt></Chroma>

@@ -1,0 +1,477 @@
+﻿<Chroma>
+	<English>
+		<Message Name="BATCH_ID" Value="BatchID" />
+
+	</English>
+	<繁體中文>
+		<Message Name="Packing Information" Value="包裝作業資訊" />
+		<Message Name="Box No" Value="彩盒號" />
+		<Message Name="Carton No" Value="箱號" />
+		<Message Name="Pallet No" Value="棧板號" />
+		<Message Name="Shipping Information" Value="出貨作業資訊" />
+		<Message Name="Ship No" Value="出貨單號" />
+		<Message Name="Ship Time" Value="出貨時間" />
+		<Message Name="Vehicle" Value="車號" />
+		<Message Name="Warranty Day" Value="保固期限" />
+		<Message Name="Container" Value="貨櫃號碼" />
+		<Message Name="Customer" Value="客戶" />
+		<Message Name="Ship To" Value="出貨地" />
+		<Message Name="Export" Value="匯出" />
+		<Message Name="Status" Value="狀態" />
+		<Message Name="Work Order" Value="工單" />
+		<Message Name="Customer Name" Value="客戶名稱" />
+		<Message Name="W/O Type" Value="工單類型" />
+		<Message Name="Spec" Value="品名" />
+		<Message Name="Next Process" Value="下一製程" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="Serial Number" Value="序號" />
+		<Message Name="Production Line" Value="生產線別" />
+		<Message Name="Master W/O" Value="主工單" />
+		<Message Name="Route Name" Value="途程名稱" />
+		<Message Name="Part No" Value="料號" />
+		<Message Name="Customer SN" Value="出貨序號" />
+		<Message Name="Travel Card" Value="流程卡" />
+		<Message Name="Travel" Value="流程" />
+		<Message Name="Repair" Value="維修" />
+		<Message Name="Keypart" Value="料件" />
+		<Message Name="QC" Value="抽驗" />
+		<Message Name="Rework" Value="重工" />
+		<Message Name="Key Part SN" Value="料件序號" />
+		<Message Name="Customer Part" Value="客戶料號" />
+		<Message Name="Process" Value="製程" />
+		<Message Name="Terminal" Value="工作站" />
+		<Message Name="Time" Value="離開製程時間" />
+		<Message Name="Operator" Value="操作人員" />
+		<Message Name="QC Lot" Value="抽驗編號" />
+		<Message Name="Rework No" Value="重工編號" />
+		<Message Name="Defect Process" Value="不良製程" />
+		<Message Name="Defect" Value="不良" />
+		<Message Name="Reason" Value="原因" />
+		<Message Name="Duty" Value="責任別" />
+		<Message Name="Location" Value="不良位置" />
+		<Message Name="Item No" Value="零件代碼" />
+		<Message Name="Repairer" Value="維修人員" />
+		<Message Name="QC Result" Value="抽驗結果" />
+		<Message Name="QC Time" Value="抽驗時間" />
+		<Message Name="Keypart Spec" Value="料件規格" />
+		<Message Name="Keypart SN" Value="料件序號" />
+		<Message Name="Type" Value="類型" />
+		<Message Name="Assy. Process" Value="組裝製程" />
+		<Message Name="Rework Time" Value="重工時間" />
+		<Message Name="ERP Remark" Value="ERP備註" />
+		<Message Name="Remark" Value="備註" />
+		<Message Name="Assy. Time" Value="組裝時間" />
+		<Message Name="Keypart No" Value="料件編號" />
+		<Message Name="Shipping No" Value="出貨單號" />
+		<Message Name="Defect Desc" Value="不良現象" />
+		<Message Name="Reason Desc" Value="不良原因" />
+		<Message Name="SN Information" Value="序號資訊" />
+		<Message Name="Export Setup" Value="匯出設定" />
+		<Message Name="Export Package" Value="完整匯出" />
+		<Message Name="Po No" Value="訂單號" />
+		<Message Name="Wo Type" Value="工單類型" />
+		<Message Name="Update Time" Value="異動時間" />
+		<Message Name="Employee Name" Value="異動人員" />
+		<Message Name="Original SN" Value="原序號" />
+		<Message Name="Process Remark" Value="工單備註" />
+		<Message Name="Material" Value="物料" />
+		<Message Name="RC_NO" Value="生產批" />
+		<Message Name="LOT_NO" Value="料批批號" />
+		<Message Name="CURRENT_QTY" Value="當前剩餘量" />
+		<Message Name="USED_QTY" Value="當前使用量" />
+		<Message Name="PROCESS_NAME" Value="製程名稱" />
+		<Message Name="EMP_NAME" Value="異動人員" />
+		<Message Name="UPDATE_TIME" Value="異動時間" />
+		<Message Name="PART_NO" Value="料號" />
+		<Message Name="SPEC1" Value="規格一" />
+		<Message Name="Qty" Value="數量" />
+		<Message Name="Route" Value="途程" />
+		<Message Name="CustLot" Value="客戶批次" />
+		<Message Name="Data Collection" Value="資料收集" />
+		<Message Name="WORK_ORDER" Value="工單" />
+		<Message Name="ROUTE_NAME" Value="途程名稱" />
+		<Message Name="PROCESS_CODE" Value="製程代碼" />
+		<Message Name="WIP_IN_TIME" Value="進站時間" />
+		<Message Name="WIP_OUT_TIME" Value="出站時間" />
+		<Message Name="IN_EMP_NAME" Value="進站人員" />
+		<Message Name="WIP_IN_QTY" Value="進站數量" />
+		<Message Name="WIP_IN_MEMO" Value="進站備註" />
+		<Message Name="OUT_EMP_NAME" Value="出站人員" />
+		<Message Name="WIP_OUT_GOOD_QTY" Value="出站良品數" />
+		<Message Name="WIP_OUT_SCRAP_QTY" Value="出站不良品數" />
+		<Message Name="WIP_OUT_MEMO" Value="出站備註" />
+		<Message Name="PROCESS_TIME" Value="製程時間" />
+		<Message Name="MACHINE_CODE" Value="機台" />
+		<Message Name="Name" Value="名稱" />
+		<Message Name="Value" Value="資料" />
+		<Message Name="Machine" Value="機台" />
+		<Message Name="SERIAL_NUMBER" Value="序號" />
+		<Message Name="Change Route" Value="更換途程" />
+		<Message Name="TO_ROUTE" Value="更新後途程" />
+		<Message Name="TO_PROCESS_CODE" Value="更新後製程代碼" />
+		<Message Name="TO_PROCESS" Value="更新後製程" />
+		<Message Name="CHANGEROUTE_DESC" Value="描述" />
+		<Message Name="CHANGE_TYPE" Value="變更類型" />
+		<Message Name="Tooling" Value="治具" />
+		<Message Name="TOOLING_TYPE" Value="治具類型" />
+		<Message Name="TOOLING_NO" Value="治具號碼" />
+		<Message Name="TOOLING_SN" Value="零配件" />
+		<Message Name="USED_CNT" Value="使用次數" />
+		<Message Name="Hold" Value="異常" />
+		<Message Name="HOLD_NO" Value="異常單號" />
+		<Message Name="HOLD_CODE" Value="異常代碼" />
+		<Message Name="STATUS" Value="狀態" />
+		<Message Name="HOLD_USER" Value="更動異常人員" />
+		<Message Name="HOLD_TIME" Value="鎖定時間" />
+		<Message Name="RELEASE_NAME" Value="解除人員" />
+		<Message Name="RELEASE_USER" Value="解除人員" />
+		<Message Name="RELEASE_DESC" Value="解除描述" />
+		<Message Name="RELEASE_TYPE" Value="解除類型" />
+		<Message Name="RELEASE_TIME" Value="解除時間" />
+		<Message Name="MRB_NO" Value="MRB單號" />
+		<Message Name="SN" Value="序號" />
+		<Message Name="SN Property" Value="序號屬性" />
+		<Message Name="GOOD_QTY" Value="良品數" />
+		<Message Name="SCRAP_QTY" Value="不良品數" />
+		<Message Name="REMARK" Value="備註" />
+		<Message Name="HOLD_DESC" Value="異常備註" />
+		<Message Name="MACHINE_DESC" Value="機台備註" />
+		<Message Name="MACHINE_TYPE_NAME" Value="機台類型名稱" />
+		<Message Name="DEFECT_CODE" Value="不良現象代碼" />
+		<Message Name="DEFECT_NAME" Value="不良名稱" />
+		<Message Name="DEFECT_TYPE_CODE" Value="不良類型代碼" />
+		<Message Name="QTY" Value="數量" />
+		<Message Name="TYPE" Value="類型" />
+		<Message Name="ITEM_PHASE" Value="機台類型名稱" />
+		<Message Name="ITEM_TYPE" Value="製程參數項目分類" />
+		<Message Name="ITEM_NAME" Value="製程參數項目名稱" />
+		<Message Name="ITEM_NAME_DESC" Value="製程參數項目名稱備註" />
+		<Message Name="ITEM_VALUE" Value="製程參數值" />
+		<Message Name="REF_RC_NO" Value="參考RC" />
+		<Message Name="REF_SN" Value="參考SN" />
+		<Message Name="Property" Value="屬性" />
+		<Message Name="WoType" Value="工單類型" />
+		<Message Name="RC No" Value="生產批" />
+		<Message Name="LASER_NO" Value="雷射刻號" />
+		<Message Name="ROUTE_CODE" Value="途程代碼" />
+		<Message Name="BATCH_ID" Value="BatchID" />
+	</繁體中文>
+      <Ngôn_ngữ_Việt>
+ <Message Name="Packing Information" Value="Thông tin đóng gói" />
+<Message Name="Box No" Value="Số hộp màu" />
+<Message Name="Carton No" Value="Số thùng carton" />
+<Message Name="Pallet No" Value="Số pallet" />
+<Message Name="Shipping Information" Value="Thông tin xuất hàng" />
+<Message Name="Ship No" Value="Số phiếu xuất hàng" />
+<Message Name="Ship Time" Value="Thời gian xuất hàng" />
+<Message Name="Vehicle" Value="Số xe" />
+<Message Name="Warranty Day" Value="Thời hạn bảo hành" />
+<Message Name="Container" Value="Số container" />
+<Message Name="Customer" Value="Khách hàng" />
+<Message Name="Ship To" Value="Nơi giao hàng" />
+<Message Name="Export" Value="Xuất dữ liệu" />
+<Message Name="Status" Value="Trạng thái" />
+<Message Name="Work Order" Value="Lệnh sản xuất (WO)" />
+<Message Name="Customer Name" Value="Tên khách hàng" />
+<Message Name="W/O Type" Value="Loại lệnh sản xuất" />
+<Message Name="Spec" Value="Tên sản phẩm" />
+<Message Name="Next Process" Value="Công đoạn kế tiếp" />
+<Message Name="Version" Value="Phiên bản" />
+<Message Name="Serial Number" Value="Số sê-ri" />
+<Message Name="Production Line" Value="Dây chuyền sản xuất" />
+<Message Name="Master W/O" Value="Lệnh sản xuất chính" />
+<Message Name="Route Name" Value="Tên lộ trình" />
+<Message Name="Part No" Value="Mã linh kiện" />
+<Message Name="Customer SN" Value="Số sê-ri giao hàng" />
+<Message Name="Travel Card" Value="Thẻ công đoạn" />
+<Message Name="Travel" Value="Quy trình" />
+<Message Name="Repair" Value="Sửa chữa" />
+<Message Name="Keypart" Value="Linh kiện" />
+<Message Name="QC" Value="Kiểm tra (QC)" />
+<Message Name="Rework" Value="Làm lại (Rework)" />
+<Message Name="Key Part SN" Value="Số sê-ri linh kiện" />
+<Message Name="Customer Part" Value="Mã linh kiện khách hàng" />
+<Message Name="Process" Value="Công đoạn" />
+<Message Name="Terminal" Value="Trạm làm việc" />
+<Message Name="Time" Value="Thời gian rời công đoạn" />
+<Message Name="Operator" Value="Người thao tác" />
+<Message Name="QC Lot" Value="Số lô kiểm tra QC" />
+<Message Name="Rework No" Value="Mã làm lại" />
+<Message Name="Defect Process" Value="Công đoạn lỗi" />
+<Message Name="Defect" Value="Lỗi" />
+<Message Name="Reason" Value="Nguyên nhân" />
+<Message Name="Duty" Value="Phân loại trách nhiệm" />
+<Message Name="Location" Value="Vị trí lỗi" />
+<Message Name="Item No" Value="Mã linh kiện" />
+<Message Name="Repairer" Value="Người sửa chữa" />
+<Message Name="QC Result" Value="Kết quả QC" />
+<Message Name="QC Time" Value="Thời gian QC" />
+<Message Name="Keypart Spec" Value="Thông số linh kiện" />
+<Message Name="Keypart SN" Value="Số sê-ri linh kiện" />
+<Message Name="Type" Value="Loại" />
+<Message Name="Assy. Process" Value="Công đoạn lắp ráp" />
+<Message Name="Rework Time" Value="Thời gian làm lại" />
+<Message Name="ERP Remark" Value="Ghi chú ERP" />
+<Message Name="Remark" Value="Ghi chú" />
+<Message Name="Assy. Time" Value="Thời gian lắp ráp" />
+<Message Name="Keypart No" Value="Mã linh kiện" />
+<Message Name="Shipping No" Value="Số phiếu xuất hàng" />
+<Message Name="Defect Desc" Value="Hiện tượng lỗi" />
+<Message Name="Reason Desc" Value="Nguyên nhân lỗi" />
+<Message Name="SN Information" Value="Thông tin số sê-ri" />
+<Message Name="Export Setup" Value="Cài đặt xuất dữ liệu" />
+<Message Name="Export Package" Value="Xuất đầy đủ" />
+<Message Name="Po No" Value="Số đơn đặt hàng (PO)" />
+<Message Name="Wo Type" Value="Loại lệnh sản xuất" />
+<Message Name="Update Time" Value="Thời gian cập nhật" />
+<Message Name="Employee Name" Value="Nhân viên cập nhật" />
+<Message Name="Original SN" Value="Số sê-ri gốc" />
+<Message Name="Process Remark" Value="Ghi chú công đoạn" />
+<Message Name="Material" Value="Vật liệu" />
+<Message Name="RC_NO" Value="Lô sản xuất (RC)" />
+<Message Name="LOT_NO" Value="Lô vật liệu" />
+<Message Name="CURRENT_QTY" Value="Số lượng còn lại" />
+<Message Name="USED_QTY" Value="Số lượng đã dùng" />
+<Message Name="PROCESS_NAME" Value="Tên công đoạn" />
+<Message Name="EMP_NAME" Value="Nhân viên cập nhật" />
+<Message Name="UPDATE_TIME" Value="Thời gian cập nhật" />
+<Message Name="PART_NO" Value="Mã linh kiện" />
+<Message Name="SPEC1" Value="Quy cách 1" />
+<Message Name="Qty" Value="Số lượng" />
+<Message Name="Route" Value="Lộ trình" />
+<Message Name="CustLot" Value="Lô khách hàng" />
+<Message Name="Data Collection" Value="Thu thập dữ liệu" />
+<Message Name="WORK_ORDER" Value="Lệnh sản xuất (WO)" />
+<Message Name="ROUTE_NAME" Value="Tên lộ trình" />
+<Message Name="PROCESS_CODE" Value="Mã công đoạn" />
+<Message Name="WIP_IN_TIME" Value="Thời gian vào trạm" />
+<Message Name="WIP_OUT_TIME" Value="Thời gian ra trạm" />
+<Message Name="IN_EMP_NAME" Value="Nhân viên vào trạm" />
+<Message Name="WIP_IN_QTY" Value="Số lượng vào trạm" />
+<Message Name="WIP_IN_MEMO" Value="Ghi chú vào trạm" />
+<Message Name="OUT_EMP_NAME" Value="Nhân viên ra trạm" />
+<Message Name="WIP_OUT_GOOD_QTY" Value="Số lượng tốt ra trạm" />
+<Message Name="WIP_OUT_SCRAP_QTY" Value="Số lượng lỗi ra trạm" />
+<Message Name="WIP_OUT_MEMO" Value="Ghi chú ra trạm" />
+<Message Name="PROCESS_TIME" Value="Thời gian công đoạn" />
+<Message Name="MACHINE_CODE" Value="Mã máy" />
+<Message Name="Name" Value="Tên" />
+<Message Name="Value" Value="Dữ liệu" />
+<Message Name="Machine" Value="Máy" />
+<Message Name="SERIAL_NUMBER" Value="Số sê-ri" />
+<Message Name="Change Route" Value="Thay đổi lộ trình" />
+<Message Name="TO_ROUTE" Value="Lộ trình sau khi cập nhật" />
+<Message Name="TO_PROCESS_CODE" Value="Mã công đoạn sau cập nhật" />
+<Message Name="TO_PROCESS" Value="Công đoạn sau cập nhật" />
+<Message Name="CHANGEROUTE_DESC" Value="Mô tả" />
+<Message Name="CHANGE_TYPE" Value="Loại thay đổi" />
+
+<!-- 治具 / 工裝相關 -->
+<Message Name="Tooling" Value="Đồ gá (Tooling)" />
+<Message Name="TOOLING_TYPE" Value="Loại đồ gá" />
+<Message Name="TOOLING_NO" Value="Mã đồ gá" />
+<Message Name="TOOLING_SN" Value="Số sê-ri linh kiện đồ gá" />
+<Message Name="USED_CNT" Value="Số lần sử dụng" />
+
+<!-- Hold / 異常管控 -->
+<Message Name="Hold" Value="Giữ lại / Báo lỗi" />
+<Message Name="HOLD_NO" Value="Mã phiếu lỗi" />
+<Message Name="HOLD_CODE" Value="Mã lỗi" />
+<Message Name="STATUS" Value="Trạng thái" />
+<Message Name="HOLD_USER" Value="Nhân viên khóa lỗi" />
+<Message Name="HOLD_TIME" Value="Thời gian khóa" />
+<Message Name="RELEASE_NAME" Value="Nhân viên gỡ lỗi" />
+<Message Name="RELEASE_USER" Value="Nhân viên gỡ lỗi" />
+<Message Name="RELEASE_DESC" Value="Mô tả gỡ lỗi" />
+<Message Name="RELEASE_TYPE" Value="Loại gỡ lỗi" />
+<Message Name="RELEASE_TIME" Value="Thời gian gỡ lỗi" />
+<Message Name="MRB_NO" Value="Số phiếu MRB" />
+
+<!-- 序號 / 良率 -->
+<Message Name="SN" Value="Số sê-ri" />
+<Message Name="SN Property" Value="Thuộc tính số sê-ri" />
+<Message Name="GOOD_QTY" Value="Số lượng tốt" />
+<Message Name="SCRAP_QTY" Value="Số lượng lỗi" />
+<Message Name="REMARK" Value="Ghi chú" />
+<Message Name="HOLD_DESC" Value="Ghi chú lỗi" />
+<Message Name="MACHINE_DESC" Value="Ghi chú máy" />
+<Message Name="MACHINE_TYPE_NAME" Value="Tên loại máy" />
+<Message Name="DEFECT_CODE" Value="Mã hiện tượng lỗi" />
+<Message Name="DEFECT_NAME" Value="Tên lỗi" />
+<Message Name="DEFECT_TYPE_CODE" Value="Mã loại lỗi" />
+<Message Name="QTY" Value="Số lượng" />
+<Message Name="TYPE" Value="Loại" />
+
+<!-- 製程參數 -->
+<Message Name="ITEM_PHASE" Value="Tên loại máy" />
+<Message Name="ITEM_TYPE" Value="Phân loại tham số công đoạn" />
+<Message Name="ITEM_NAME" Value="Tên tham số công đoạn" />
+<Message Name="ITEM_NAME_DESC" Value="Ghi chú tham số công đoạn" />
+<Message Name="ITEM_VALUE" Value="Giá trị tham số công đoạn" />
+
+<!-- RC / SN 參考 -->
+<Message Name="REF_RC_NO" Value="Tham chiếu RC" />
+<Message Name="REF_SN" Value="Tham chiếu SN" />
+
+<Message Name="Property" Value="Thuộc tính" />
+<Message Name="WoType" Value="Loại lệnh sản xuất" />
+<Message Name="RC No" Value="Lô sản xuất (RC)" />
+<Message Name="LASER_NO" Value="Số khắc laser" />
+<Message Name="ROUTE_CODE" Value="Mã lộ trình" />
+<Message Name="BATCH_ID" Value="Batch ID" />
+       </Ngôn_ngữ_Việt>
+	<简体中文>
+		<Message Name="Packing Information" Value="包装作业资讯" />
+		<Message Name="Box No" Value="彩盒号" />
+		<Message Name="Carton No" Value="箱号" />
+		<Message Name="Pallet No" Value="栈板号" />
+		<Message Name="Shipping Information" Value="出货作业资讯" />
+		<Message Name="Ship No" Value="出货单号" />
+		<Message Name="Ship Time" Value="出货时间" />
+		<Message Name="Vehicle" Value="车号" />
+		<Message Name="Warranty Day" Value="保固期限" />
+		<Message Name="Container" Value="货柜号码" />
+		<Message Name="Customer" Value="客户" />
+		<Message Name="Ship To" Value="出货地" />
+		<Message Name="Export" Value="汇出" />
+		<Message Name="Status" Value="状态" />
+		<Message Name="Work Order" Value="工单" />
+		<Message Name="Customer Name" Value="客户名称" />
+		<Message Name="W/O Type" Value="工单类型" />
+		<Message Name="Spec" Value="品名" />
+		<Message Name="Next Process" Value="下一制程" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="Serial Number" Value="序号" />
+		<Message Name="Production Line" Value="生产线别" />
+		<Message Name="Master W/O" Value="主工单" />
+		<Message Name="Route Name" Value="途程名称" />
+		<Message Name="Part No" Value="料号" />
+		<Message Name="Customer SN" Value="出货序号" />
+		<Message Name="Travel Card" Value="流程卡" />
+		<Message Name="Travel" Value="流程" />
+		<Message Name="Repair" Value="维修" />
+		<Message Name="Keypart" Value="料件" />
+		<Message Name="QC" Value="抽验" />
+		<Message Name="Rework" Value="重工" />
+		<Message Name="Key Part SN" Value="料件序号" />
+		<Message Name="Customer Part" Value="客户料号" />
+		<Message Name="Process" Value="制程" />
+		<Message Name="Terminal" Value="工作站" />
+		<Message Name="Time" Value="离开制程时间" />
+		<Message Name="Operator" Value="操作人员" />
+		<Message Name="QC Lot" Value="抽验编号" />
+		<Message Name="Rework No" Value="重工编号" />
+		<Message Name="Defect Process" Value="不良制程" />
+		<Message Name="Defect" Value="不良" />
+		<Message Name="Reason" Value="原因" />
+		<Message Name="Duty" Value="责任别" />
+		<Message Name="Location" Value="不良位置" />
+		<Message Name="Item No" Value="零件代码" />
+		<Message Name="Repairer" Value="维修人员" />
+		<Message Name="QC Result" Value="抽验结果" />
+		<Message Name="QC Time" Value="抽验时间" />
+		<Message Name="Keypart Spec" Value="料件规格" />
+		<Message Name="Keypart SN" Value="料件序号" />
+		<Message Name="Type" Value="类型" />
+		<Message Name="Assy. Process" Value="组装制程" />
+		<Message Name="Rework Time" Value="重工时间" />
+		<Message Name="ERP Remark" Value="ERP备注" />
+		<Message Name="Remark" Value="备注" />
+		<Message Name="Assy. Time" Value="组装时间" />
+		<Message Name="Keypart No" Value="料件编号" />
+		<Message Name="Shipping No" Value="出货单号" />
+		<Message Name="Defect Desc" Value="不良现象" />
+		<Message Name="Reason Desc" Value="不良原因" />
+		<Message Name="SN Information" Value="序号资讯" />
+		<Message Name="Export Setup" Value="汇出设定" />
+		<Message Name="Export Package" Value="完整汇出" />
+		<Message Name="Po No" Value="订单号" />
+		<Message Name="Wo Type" Value="工单类型" />
+		<Message Name="Update Time" Value="异动时间" />
+		<Message Name="Employee Name" Value="异动人员" />
+		<Message Name="Original SN" Value="原序号" />
+		<Message Name="Process Remark" Value="工单备注" />
+		<Message Name="Material" Value="物料" />
+		<Message Name="RC_NO" Value="生产批" />
+		<Message Name="LOT_NO" Value="料批批号" />
+		<Message Name="CURRENT_QTY" Value="当前剩余量" />
+		<Message Name="USED_QTY" Value="当前使用量" />
+		<Message Name="PROCESS_NAME" Value="制程名称" />
+		<Message Name="EMP_NAME" Value="异动人员" />
+		<Message Name="UPDATE_TIME" Value="异动时间" />
+		<Message Name="PART_NO" Value="料号" />
+		<Message Name="SPEC1" Value="规格一" />
+		<Message Name="Qty" Value="数量" />
+		<Message Name="Route" Value="途程" />
+		<Message Name="CustLot" Value="客户批次" />
+		<Message Name="Data Collection" Value="数据采集" />
+		<Message Name="WORK_ORDER" Value="工单" />
+		<Message Name="ROUTE_NAME" Value="途程名称" />
+		<Message Name="PROCESS_CODE" Value="制程代码" />
+		<Message Name="WIP_IN_TIME" Value="进站时间" />
+		<Message Name="WIP_OUT_TIME" Value="出站时间" />
+		<Message Name="IN_EMP_NAME" Value="进站人员" />
+		<Message Name="WIP_IN_QTY" Value="进站数量" />
+		<Message Name="WIP_IN_MEMO" Value="进站备注" />
+		<Message Name="OUT_EMP_NAME" Value="出站人员" />
+		<Message Name="WIP_OUT_GOOD_QTY" Value="出站良品数" />
+		<Message Name="WIP_OUT_SCRAP_QTY" Value="出站不良品数" />
+		<Message Name="WIP_OUT_MEMO" Value="出站备注" />
+		<Message Name="PROCESS_TIME" Value="制程时间" />
+		<Message Name="MACHINE_CODE" Value="机台" />
+		<Message Name="Name" Value="名称" />
+		<Message Name="Value" Value="资料" />
+		<Message Name="Machine" Value="机台" />
+		<Message Name="SERIAL_NUMBER" Value="序号" />
+		<Message Name="Change Route" Value="更换途程" />
+		<Message Name="TO_ROUTE" Value="更新后途程" />
+		<Message Name="TO_PROCESS_CODE" Value="更新后制程代码" />
+		<Message Name="TO_PROCESS" Value="更新后制程" />
+		<Message Name="CHANGEROUTE_DESC" Value="描述" />
+		<Message Name="CHANGE_TYPE" Value="变更类型" />
+		<Message Name="Tooling" Value="治具" />
+		<Message Name="TOOLING_TYPE" Value="治具类型" />
+		<Message Name="TOOLING_NO" Value="治具号码" />
+		<Message Name="TOOLING_SN" Value="零配件" />
+		<Message Name="USED_CNT" Value="使用次数" />
+		<Message Name="Hold" Value="异常" />
+		<Message Name="HOLD_NO" Value="异常单号" />
+		<Message Name="HOLD_CODE" Value="异常代码" />
+		<Message Name="STATUS" Value="状态" />
+		<Message Name="HOLD_USER" Value="更动异常人员" />
+		<Message Name="HOLD_TIME" Value="锁定时间" />
+		<Message Name="RELEASE_NAME" Value="解除人员" />
+		<Message Name="RELEASE_USER" Value="解除人员" />
+		<Message Name="RELEASE_DESC" Value="解除描述" />
+		<Message Name="RELEASE_TYPE" Value="解除类型" />
+		<Message Name="RELEASE_TIME" Value="解除时间" />
+		<Message Name="MRB_NO" Value="MRB单号" />
+		<Message Name="SN" Value="序号" />
+		<Message Name="SN Property" Value="序号属性" />
+		<Message Name="GOOD_QTY" Value="良品数" />
+		<Message Name="SCRAP_QTY" Value="不良品数" />
+		<Message Name="REMARK" Value="备注" />
+		<Message Name="HOLD_DESC" Value="异常备注" />
+		<Message Name="MACHINE_DESC" Value="机台备注" />
+		<Message Name="MACHINE_TYPE_NAME" Value="机台类型名称" />
+		<Message Name="DEFECT_CODE" Value="不良现象代码" />
+		<Message Name="DEFECT_NAME" Value="不良名称" />
+		<Message Name="DEFECT_TYPE_CODE" Value="不良类型代码" />
+		<Message Name="QTY" Value="数量" />
+		<Message Name="TYPE" Value="类型" />
+		<Message Name="ITEM_PHASE" Value="机台类型名称" />
+		<Message Name="ITEM_TYPE" Value="制程参数项目分类" />
+		<Message Name="ITEM_NAME" Value="制程参数项目名称" />
+		<Message Name="ITEM_NAME_DESC" Value="制程参数项目名称备注" />
+		<Message Name="ITEM_VALUE" Value="制程参数值" />
+		<Message Name="REF_RC_NO" Value="参考RC" />
+		<Message Name="REF_SN" Value="参考SN" />
+		<Message Name="Property" Value="属性" />
+		<Message Name="WoType" Value="工单类型" />
+		<Message Name="RC No" Value="生产批" />
+		<Message Name="LASER_NO" Value="激光编号" />
+		<Message Name="ROUTE_CODE" Value="途程代码" />
+		<Message Name="BATCH_ID" Value="BatchID" />
+
+	</简体中文>
+</Chroma>

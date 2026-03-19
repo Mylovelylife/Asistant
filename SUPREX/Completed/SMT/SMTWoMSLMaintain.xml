@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+		<Message Name="LineEmpty" Value="Please select line!"/>
+		<Message Name="WorkOrderEmpty" Value="Please input Work Order!"/>
+		<Message Name="FileNotFound" Value="File not found!"/>
+		<Message Name="WORK_ORDER" Value="Work Order"/>
+		<Message Name="TARGET_QTY" Value="Target Qty"/>
+		<Message Name="PART_NO" Value="Part No"/>
+		<Message Name="PART_TYPE" Value="Part Type"/>
+		<Message Name="SPEC1" Value="Spec1"/>
+		<Message Name="SPEC2" Value="Spec2"/>
+	</English>
+	<繁體中文>
+		<Message Name="LineEmpty" Value="線別未設定!"/>
+		<Message Name="WorkOrderEmpty" Value="工單未設定!"/>
+		<Message Name="FileNotFound" Value="檔案找不到!"/>
+		<Message Name="WORK_ORDER" Value="工單"/>
+		<Message Name="TARGET_QTY" Value="目標量"/>
+		<Message Name="PART_NO" Value="料號"/>
+		<Message Name="PART_TYPE" Value="料號種類"/>
+		<Message Name="SPEC1" Value="規格1"/>
+		<Message Name="SPEC2" Value="規格2"/>
+		<Message Name="OK" Value="確定"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Search" Value="搜尋條件"/>
+		<Message Name="Save" Value="儲存"/>
+		<Message Name="Machine" Value="機台"/>
+		<Message Name="Line Name" Value="線別"/>
+		<Message Name="Station No" Value="站位"/>
+		<Message Name="Side" Value="正反面"/>
+		<Message Name="Part No" Value="料號"/>
+		<Message Name="Qty" Value="數量"/>
+		<Message Name="Location" Value="位置"/>
+		<Message Name="MSL Data Maintain" Value="料站表資料維護"/>
+		<Message Name="Print All" Value="全部列印"/>
+		<Message Name="Preview" Value="預覽"/>
+		<Message Name="Print" Value="列印"/>
+		<Message Name="Material List" Value="料站表"/>
+		<Message Name="Target Qty" Value="目標量"/>
+		<Message Name="Customer" Value="客戶"/>
+		<Message Name="Work Order" Value="工單"/>
+		<Message Name="Line" Value="線別"/>
+		<Message Name="Machine Code" Value="機台"/>
+		<Message Name="Process Name" Value="製程名稱"/>
+		<Message Name="Status" Value="狀態"/>
+		<Message Name="Wo Sequence" Value="料站表編號"/>
+		<Message Name="Station" Value="站位"/>
+		<Message Name="Part" Value="料號"/>
+		<Message Name="Spec" Value="規格"/>
+		<Message Name="Append Substitue Part" Value="新增替代料"/>
+		<Message Name="Append OK." Value="新增完成."/>
+		<Message Name="Modify OK." Value="修改完成."/>
+		<Message Name="Delete" Value="刪除"/>
+		<Message Name="Modify" Value="修改"/>
+		<Message Name="Append" Value="新增"/>
+		<Message Name="Material List Detail:" Value="料站表明細:"/>
+		<Message Name="Substitue Part" Value="替代料"/>
+		<Message Name="Create MSL?" Value="確定要新建料站表?"/>
+		<Message Name="Can not Replace!" Value="料站表不可更新!"/>
+		<Message Name="Replace MSL?" Value="確定要更新料站表?"/>
+		<Message Name="MSL Save OK." Value="料站表儲存完畢."/>
+		<Message Name="Please Save MSL!" Value="請先儲存料站表!"/>
+		<Message Name="Could not start Microsoft Excel." Value="無法開啟Excel!"/>
+		<Message Name="Do you want to delete this data?" Value="確定要刪除此資料?"/>
+		<Message Name="Work Order Not Found!" Value="查無此工單!"/>
+		<Message Name="Can not delete this record!" Value="最後一筆不可刪除!"/>
+		<Message Name="Part Error!" Value="料號錯誤!"/>
+		<Message Name="Substitue Part can not be the same with Main Part!" Value="替代料不可與主料相同!"/>
+		<Message Name="Substitue Part No Duplicate!" Value="替代料重複!"/>
+		<Message Name="Please Input Station No!" Value="請輸入站位!"/>
+		<Message Name="Please Input Part No!" Value="請輸入料號!"/>
+		<Message Name="Station No Duplicate!" Value="站位重複!"/>
+		<Message Name="Main Part can not be the same with Substitue Part!" Value="主料不可與替代料相同!"/>
+		<Message Name="Export" Value="匯出"/>
+		<Message Name="Seq" Value="Seq"/>
+		<Message Name="Range" Value="Range"/>
+		<Message Name="Feeder Type" Value="料架類型"/>
+		<Message Name="Feeder Spec" Value="料架規格"/>
+		<Message Name="Library ID" Value="Library ID"/>
+		<Message Name="Desc1" Value="描述1"/>
+		<Message Name="Desc2" Value="描述2"/>
+		<Message Name="Angle" Value="角度"/>
+		<Message Name="Finish" Value="完成"/>
+		<Message Name="Location No" Value="儲位"/>
+		<Message Name="Version" Value="版本"/>
+		<Message Name="Remark" Value="備註"/>
+		<Message Name="Group W/O" Value="關聯工單"/>
+		<Message Name="Left/Right" Value="左/右"/>
+		<Message Name="Single" Value="單邊"/>
+		<Message Name="Left" Value="左邊"/>
+		<Message Name="Right" Value="右邊"/>
+		<Message Name="Feeder(Left/Right)" Value="料架(左/右)"/>
+		<Message Name="Station No Length must equal 4" Value="站位資料長度必須為4碼"/>
+		<Message Name="MSL Data Maintain Append" Value="工單料站表維護-新增"/>
+		<Message Name="MSL Data Maintain Modify" Value="工單料站表維護-修改"/>
+		<Message Name="Station No Format Error" Value="站位資料格式錯誤(四碼數字或T加三碼數字)"/>
+		<Message Name="Please Input Part No Prefix" Value="請輸入料號查詢條件前置碼至少五碼"/>
+		<Message Name="Part Is Not Belong to The Work Order BOM" Value="不屬於工單BOM之料號"/>
+
+		<Message Name="Please Select Feeder(Single/Left/Right)" Value="請選取料架(單邊/左邊/右邊)"/>
+
+	</繁體中文>
+	<简体中文>
+		<Message Name="LineEmpty" Value="线别未设定!"/>
+		<Message Name="WorkOrderEmpty" Value="工单未设定!"/>
+		<Message Name="FileNotFound" Value="档案找不到!"/>
+		<Message Name="WORK_ORDER" Value="工单"/>
+		<Message Name="TARGET_QTY" Value="目标量"/>
+		<Message Name="PART_NO" Value="料号"/>
+		<Message Name="PART_TYPE" Value="料号种类"/>
+		<Message Name="SPEC1" Value="规格1"/>
+		<Message Name="SPEC2" Value="规格2"/>
+		<Message Name="OK" Value="确定"/>
+		<Message Name="Cancel" Value="取消"/>
+		<Message Name="Search" Value="搜寻条件"/>
+		<Message Name="Save" Value="储存"/>
+		<Message Name="Machine" Value="机台"/>
+		<Message Name="Line Name" Value="线别"/>
+		<Message Name="Station No" Value="站位"/>
+		<Message Name="Side" Value="正反面"/>
+		<Message Name="Part No" Value="料号"/>
+		<Message Name="Qty" Value="数量"/>
+		<Message Name="Location" Value="位置"/>
+		<Message Name="MSL Data Maintain" Value="料站表数据维护"/>
+		<Message Name="Print All" Value="全部打印"/>
+		<Message Name="Preview" Value="预览"/>
+		<Message Name="Print" Value="打印"/>
+		<Message Name="Material List" Value="料站表"/>
+		<Message Name="Target Qty" Value="目标量"/>
+		<Message Name="Customer" Value="客户"/>
+		<Message Name="Work Order" Value="工单"/>
+		<Message Name="Line" Value="线别"/>
+		<Message Name="Machine Code" Value="机台"/>
+		<Message Name="Process Name" Value="制程名称"/>
+		<Message Name="Status" Value="状态"/>
+		<Message Name="Wo Sequence" Value="料站表编号"/>
+		<Message Name="Station" Value="站位"/>
+		<Message Name="Part" Value="料号"/>
+		<Message Name="Spec" Value="规格"/>
+		<Message Name="Append Substitue Part" Value="新增替代料"/>
+		<Message Name="Append OK." Value="新增完成."/>
+		<Message Name="Modify OK." Value="修改完成."/>
+		<Message Name="Delete" Value="删除"/>
+		<Message Name="Modify" Value="修改"/>
+		<Message Name="Append" Value="新增"/>
+		<Message Name="Material List Detail:" Value="料站表明细:"/>
+		<Message Name="Substitue Part" Value="替代料"/>
+		<Message Name="Create MSL?" Value="确定要新建料站表?"/>
+		<Message Name="Can not Replace!" Value="料站表不可更新!"/>
+		<Message Name="Replace MSL?" Value="确定要更新料站表?"/>
+		<Message Name="MSL Save OK." Value="料站表储存完毕."/>
+		<Message Name="Please Save MSL!" Value="请先储存料站表!"/>
+		<Message Name="Could not start Microsoft Excel." Value="无法开启Excel!"/>
+		<Message Name="Do you want to delete this data?" Value="确定要删除此数据?"/>
+		<Message Name="Work Order Not Found!" Value="查无此工单!"/>
+		<Message Name="Can not delete this record!" Value="最后一笔不可删除!"/>
+		<Message Name="Part Error!" Value="料号错误!"/>
+		<Message Name="Substitue Part can not be the same with Main Part!" Value="替代料不可与主料相同!"/>
+		<Message Name="Substitue Part No Duplicate!" Value="替代料重复!"/>
+		<Message Name="Please Input Station No!" Value="请输入站位!"/>
+		<Message Name="Please Input Part No!" Value="请输入料号!"/>
+		<Message Name="Station No Duplicate!" Value="站位重复!"/>
+		<Message Name="Main Part can not be the same with Substitue Part!" Value="主料不可与替代料相同!"/>
+		<Message Name="Export" Value="汇出"/>
+		<Message Name="Seq" Value="Seq"/>
+		<Message Name="Range" Value="Range"/>
+		<Message Name="Feeder Type" Value="料架类型"/>
+		<Message Name="Feeder Spec" Value="料架规格"/>
+		<Message Name="Library ID" Value="Library ID"/>
+		<Message Name="Desc1" Value="描述1"/>
+		<Message Name="Desc2" Value="描述2"/>
+		<Message Name="Angle" Value="角度"/>
+		<Message Name="Finish" Value="完成"/>
+		<Message Name="Location No" Value="储位"/>
+		<Message Name="Version" Value="版本"/>
+		<Message Name="Remark" Value="备注"/>
+		<Message Name="Group W/O" Value="关联工单"/>
+		<Message Name="Left/Right" Value="左/右"/>
+		<Message Name="Single" Value="单边"/>
+		<Message Name="Left" Value="左边"/>
+		<Message Name="Right" Value="右边"/>
+		<Message Name="Feeder(Left/Right)" Value="料架(左/右)"/>
+		<Message Name="Station No Length must equal 4" Value="站位数据长度必须为4码"/>
+		<Message Name="MSL Data Maintain Append" Value="工单料站表维护-新增"/>
+		<Message Name="MSL Data Maintain Modify" Value="工单料站表维护-修改"/>
+		<Message Name="Station No Format Error" Value="站位数据格式错误(四码数字或T加三码数字)"/>
+		<Message Name="Please Input Part No Prefix" Value="请输入料号查询条件前置码至少一码"/>
+		<Message Name="Part Is Not Belong to The Work Order BOM" Value="不属于工单BOM之料号"/>
+
+		<Message Name="Please Select Feeder(Single/Left/Right)" Value="请选取料架(单边/左边/右边)"/>
+
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="LineEmpty" Value="Chưa thiết lập dây chuyền!"/><Message Name="WorkOrderEmpty" Value="Chưa thiết lập lệnh sản xuất!"/><Message Name="FileNotFound" Value="Không tìm thấy tập tin!"/><Message Name="WORK_ORDER" Value="Lệnh sản xuất"/><Message Name="TARGET_QTY" Value="Số lượng mục tiêu"/><Message Name="PART_NO" Value="Mã linh kiện"/><Message Name="PART_TYPE" Value="Loại mã linh kiện"/><Message Name="SPEC1" Value="Quy cách 1"/><Message Name="SPEC2" Value="Quy cách 2"/><Message Name="OK" Value="Đồng ý"/><Message Name="Cancel" Value="Hủy"/><Message Name="Search" Value="Điều kiện tìm kiếm"/><Message Name="Save" Value="Lưu"/><Message Name="Machine" Value="Máy"/><Message Name="Line Name" Value="Dây chuyền"/><Message Name="Station No" Value="Vị trí trạm"/><Message Name="Side" Value="Mặt trước/sau"/><Message Name="Part No" Value="Mã linh kiện"/><Message Name="Qty" Value="Số lượng"/><Message Name="Location" Value="Vị trí"/><Message Name="MSL Data Maintain" Value="Bảo trì dữ liệu bảng trạm"/><Message Name="Print All" Value="In toàn bộ"/><Message Name="Preview" Value="Xem trước"/><Message Name="Print" Value="In"/><Message Name="Material List" Value="Bảng trạm cấp liệu"/><Message Name="Target Qty" Value="Số lượng mục tiêu"/><Message Name="Customer" Value="Khách hàng"/><Message Name="Work Order" Value="Lệnh sản xuất"/><Message Name="Line" Value="Dây chuyền"/><Message Name="Machine Code" Value="Máy"/><Message Name="Process Name" Value="Tên công đoạn"/><Message Name="Status" Value="Trạng thái"/><Message Name="Wo Sequence" Value="Mã bảng trạm"/><Message Name="Station" Value="Vị trí trạm"/><Message Name="Part" Value="Mã linh kiện"/><Message Name="Spec" Value="Quy cách"/><Message Name="Append Substitue Part" Value="Thêm linh kiện thay thế"/><Message Name="Append OK." Value="Thêm mới hoàn tất."/><Message Name="Modify OK." Value="Chỉnh sửa hoàn tất."/><Message Name="Delete" Value="Xóa"/><Message Name="Modify" Value="Chỉnh sửa"/><Message Name="Append" Value="Thêm mới"/><Message Name="Material List Detail:" Value="Chi tiết bảng trạm:"/><Message Name="Substitue Part" Value="Linh kiện thay thế"/><Message Name="Create MSL?" Value="Bạn có chắc muốn tạo bảng trạm mới không?"/><Message Name="Can not Replace!" Value="Bảng trạm không được phép cập nhật!"/><Message Name="Replace MSL?" Value="Bạn có chắc muốn cập nhật bảng trạm không?"/><Message Name="MSL Save OK." Value="Lưu bảng trạm hoàn tất."/><Message Name="Please Save MSL!" Value="Vui lòng lưu bảng trạm trước!"/><Message Name="Could not start Microsoft Excel." Value="Không thể mở Excel!"/><Message Name="Do you want to delete this data?" Value="Bạn có chắc muốn xóa dữ liệu này không?"/><Message Name="Work Order Not Found!" Value="Không tìm thấy lệnh sản xuất!"/><Message Name="Can not delete this record!" Value="Không được xóa bản ghi cuối cùng!"/><Message Name="Part Error!" Value="Sai mã linh kiện!"/><Message Name="Substitue Part can not be the same with Main Part!" Value="Linh kiện thay thế không được trùng với linh kiện chính!"/><Message Name="Substitue Part No Duplicate!" Value="Linh kiện thay thế bị trùng!"/><Message Name="Please Input Station No!" Value="Vui lòng nhập vị trí trạm!"/><Message Name="Please Input Part No!" Value="Vui lòng nhập mã linh kiện!"/><Message Name="Station No Duplicate!" Value="Vị trí trạm bị trùng!"/><Message Name="Main Part can not be the same with Substitue Part!" Value="Mã chính không được trùng với mã thay thế!"/><Message Name="Export" Value="Xuất dữ liệu"/><Message Name="Seq" Value="Seq"/><Message Name="Range" Value="Range"/><Message Name="Feeder Type" Value="Loại giá cấp liệu"/><Message Name="Feeder Spec" Value="Quy cách giá cấp liệu"/><Message Name="Library ID" Value="Library ID"/><Message Name="Desc1" Value="Mô tả 1"/><Message Name="Desc2" Value="Mô tả 2"/><Message Name="Angle" Value="Góc xoay"/><Message Name="Finish" Value="Hoàn tất"/><Message Name="Location No" Value="Vị trí lưu kho"/><Message Name="Version" Value="Phiên bản"/><Message Name="Remark" Value="Ghi chú"/><Message Name="Group W/O" Value="Công đơn liên kết"/><Message Name="Left/Right" Value="Trái/Phải"/><Message Name="Single" Value="Một bên"/><Message Name="Left" Value="Bên trái"/><Message Name="Right" Value="Bên phải"/><Message Name="Feeder(Left/Right)" Value="Giá cấp liệu (Trái/Phải)"/><Message Name="Station No Length must equal 4" Value="Độ dài vị trí trạm phải là 4 ký tự"/><Message Name="MSL Data Maintain Append" Value="Bảo trì bảng trạm theo công đơn - Thêm mới"/><Message Name="MSL Data Maintain Modify" Value="Bảo trì bảng trạm theo công đơn - Chỉnh sửa"/><Message Name="Station No Format Error" Value="Định dạng vị trí trạm sai (4 số hoặc T + 3 số)"/><Message Name="Please Input Part No Prefix" Value="Vui lòng nhập tối thiểu 5 ký tự đầu của mã linh kiện"/><Message Name="Part Is Not Belong to The Work Order BOM" Value="Mã linh kiện không thuộc BOM của lệnh sản xuất"/><Message Name="Please Select Feeder(Single/Left/Right)" Value="Vui lòng chọn giá cấp liệu (Một bên/Trái/Phải)"/></Ngôn_ngữ_Việt></Chroma>

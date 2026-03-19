@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<English>
+		<Message Name="Unit No" Value="Unit No" />
+		<Message Name="Description" Value="Description" />
+	</English>
+	<繁體中文>
+	
+		<Message Name="Unit No" Value="單位名稱" />
+		<Message Name="Description" Value="單位描述" />
+	</繁體中文>
+	<简体中文>
+	
+		<Message Name="Unit No" Value="单位名称" />
+		<Message Name="Description" Value="单位描述" />
+	</简体中文>
+
+<Ngôn_ngữ_Việt><Message Name="Unit No" Value="Tên Đơn Vị" /><Message Name="Description" Value="Mô Tả Đơn Vị" /></Ngôn_ngữ_Việt></Chroma>

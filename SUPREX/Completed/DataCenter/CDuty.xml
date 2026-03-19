@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Chroma>
+	<English>
+		<Message Name="Duty Code" Value="Duty Code"/>
+		<Message Name="Description" Value="Description"/>
+		<Message Name="Description2" Value="Description2"/>
+	</English>
+	<繁體中文>
+		<Message Name="Duty Code" Value="責任類別"/>
+		<Message Name="Description" Value="責任類別描述"/>
+		<Message Name="Description2" Value="責任類別描述(2)"/>
+	</繁體中文>
+	<简体中文>
+		<Message Name="Duty Code" Value="责任类别"/>
+		<Message Name="Description" Value="责任类别描述"/>
+		<Message Name="Description2" Value="责任类别描述(2)"/>
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="Duty Code" Value="Mã trách nhiệm"/><Message Name="Description" Value="Mô tả trách nhiệm"/><Message Name="Description2" Value="Mô tả trách nhiệm (2)"/></Ngôn_ngữ_Việt></Chroma>

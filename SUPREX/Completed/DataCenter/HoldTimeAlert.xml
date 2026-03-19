@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Chroma>
+	<繁體中文>
+		<Message Name="CUSTOMER" Value="客戶" />
+		<Message Name="CUSTOMER_CODE" Value="客戶代碼" />
+		<Message Name="CUSTOMER_NAME" Value="客戶名稱" />
+		<Message Name="ROLE_NAME" Value="角色名稱" />
+		<Message Name="PART_NO" Value="料號" />
+		<Message Name="PROCESS_NAME" Value="製程" />
+		<Message Name="HOLD_TIME" Value="鎖定時間" />
+		<Message Name="UPDATE_EMP_NAME" Value="操作人" />
+		<Message Name="UPDATE_TIME" Value="更新時間" />
+
+		<Message Name="EMP_NO" Value="員工編號" />
+		<Message Name="EMP_NAME" Value="接收人" />
+		<Message Name="EMAIL" Value="電子郵件" />
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+
+		<Message Name="Data is null,Or Key Press Return" Value="資料不存在，或者請按回車鍵！" />
+		
+		<Message Name="Data must be a positive integer" Value="資料必須為正整數！" />
+		
+
+		
+		
+		<Message Name="Data Modify OK" Value="資料修改成功" />
+
+		<Message Name="Minute" Value="分鐘" />
+		<Message Name="ROLE_DESC" Value="角色描述" />
+		<Message Name="ROLE_ID" Value="角色ID" />
+		<Message Name="PROCESS_CODE" Value="製程代碼" />
+		<Message Name="PROCESS_DESC" Value="製程描述" />
+		<Message Name="PROCESS_ID" Value="製程ID" />
+		<Message Name="PART_ID" Value="料號ID" />
+		<Message Name="SPEC1" Value="料號描述" />
+		<Message Name="CUSTOMER_DESC" Value="客戶描述" />
+		<Message Name="CUSTOMER_ID" Value="客戶ID" />
+		<Message Name="Do not all Data is null" Value="不能所有的資料都為空！" />
+		<Message Name="Hold criteria" Value="鎖定基準" />
+		<Message Name="Data does not exist" Value="資料不存在！" />
+		<Message Name="" Value="" />
+
+	</繁體中文>
+	<简体中文>
+		<Message Name="CUSTOMER" Value="客户" />
+		<Message Name="CUSTOMER_CODE" Value="客户代码" />
+		<Message Name="CUSTOMER_NAME" Value="客户名称" />
+		<Message Name="ROLE_NAME" Value="角色名称" />
+		<Message Name="PART_NO" Value="料号" />
+		<Message Name="PROCESS_NAME" Value="制程" />
+		<Message Name="HOLD_TIME" Value="锁定时间" />
+		<Message Name="UPDATE_EMP_NAME" Value="操作人" />
+		<Message Name="UPDATE_TIME" Value="更新时间" />
+
+		<Message Name="EMP_NO" Value="员工编号" />
+		<Message Name="EMP_NAME" Value="接收人" />
+		<Message Name="EMAIL" Value="电子邮件" />
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+
+		<Message Name="Data is null,Or Key Press Return" Value="数据不存在，或者请按回车键！" />
+		
+		<Message Name="Data must be a positive integer" Value="数据必须为正整数！" />
+		
+
+		
+		
+		<Message Name="Data Modify OK" Value="数据修改成功" />
+
+		<Message Name="Minute" Value="分钟" />
+		<Message Name="ROLE_DESC" Value="角色描述" />
+		<Message Name="ROLE_ID" Value="角色ID" />
+		<Message Name="PROCESS_CODE" Value="制程代码" />
+		<Message Name="PROCESS_DESC" Value="制程描述" />
+		<Message Name="PROCESS_ID" Value="制程ID" />
+		<Message Name="PART_ID" Value="料号ID" />
+		<Message Name="SPEC1" Value="料号描述" />
+		<Message Name="CUSTOMER_DESC" Value="客户描述" />
+		<Message Name="CUSTOMER_ID" Value="客户ID" />
+		<Message Name="Do not all Data is null" Value="不能所有的数据都为空！" />
+		<Message Name="Hold criteria" Value="锁定基准" />
+		<Message Name="Data does not exist" Value="数据不存在！" />
+		<Message Name="" Value="" />
+
+	</简体中文>
+<Ngôn_ngữ_Việt><Message Name="CUSTOMER" Value="Khách Hàng" /><Message Name="CUSTOMER_CODE" Value="Mã Khách Hàng" /><Message Name="CUSTOMER_NAME" Value="Tên Khách Hàng" /><Message Name="ROLE_NAME" Value="Tên Vai Trò" /><Message Name="PART_NO" Value="Mã Linh Kiện" /><Message Name="PROCESS_NAME" Value="Công Đoạn" /><Message Name="HOLD_TIME" Value="Thời Gian Khóa" /><Message Name="UPDATE_EMP_NAME" Value="Người Thao Tác" /><Message Name="UPDATE_TIME" Value="Thời Gian Cập Nhật" /><Message Name="EMP_NO" Value="Mã Nhân Viên" /><Message Name="EMP_NAME" Value="Người Nhận" /><Message Name="EMAIL" Value="Email" /><Message Name="Data is null,Or Key Press Return" Value="Dữ Liệu Không Tồn Tại, Hoặc Nhấn Enter!" /><Message Name="Data must be a positive integer" Value="Giá Trị Phải Là Số Nguyên Dương!" /><Message Name="Data Modify OK" Value="Cập Nhật Dữ Liệu Thành Công" /><Message Name="Minute" Value="Phút" /><Message Name="ROLE_DESC" Value="Mô Tả Vai Trò" /><Message Name="ROLE_ID" Value="Mã Vai Trò" /><Message Name="PROCESS_CODE" Value="Mã Công Đoạn" /><Message Name="PROCESS_DESC" Value="Mô Tả Công Đoạn" /><Message Name="PROCESS_ID" Value="ID Công Đoạn" /><Message Name="PART_ID" Value="ID Linh Kiện" /><Message Name="SPEC1" Value="Mô Tả Linh Kiện" /><Message Name="CUSTOMER_DESC" Value="Mô Tả Khách Hàng" /><Message Name="CUSTOMER_ID" Value="ID Khách Hàng" /><Message Name="Do not all Data is null" Value="Không Được Để Tất Cả Dữ Liệu Trống!" /><Message Name="Hold criteria" Value="Tiêu Chuẩn Khóa" /><Message Name="Data does not exist" Value="Dữ Liệu Không Tồn Tại!" />
+<Message Name="" Value="" />
+</Ngôn_ngữ_Việt></Chroma>
