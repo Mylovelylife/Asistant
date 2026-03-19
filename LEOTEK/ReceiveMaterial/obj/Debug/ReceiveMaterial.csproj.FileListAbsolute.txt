@@ -1,0 +1,96 @@
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\ReceiveMaterial.exe.config
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\ReceiveMaterial.exe
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\ReceiveMaterial.pdb
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\BouncyCastle.Cryptography.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\Enums.NET.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\ExtendedNumerics.BigDecimal.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\MathNet.Numerics.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\SixLabors.Fonts.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\SixLabors.ImageSharp.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Buffers.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Memory.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Numerics.Vectors.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Security.AccessControl.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Security.Cryptography.Pkcs.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Security.Principal.Windows.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Text.Encoding.CodePages.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.ValueTuple.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\BouncyCastle.Cryptography.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\Enums.NET.pdb
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\Enums.NET.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\ExtendedNumerics.BigDecimal.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\ICSharpCode.SharpZipLib.pdb
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\ICSharpCode.SharpZipLib.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\MathNet.Numerics.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\NPOI.Core.pdb
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\NPOI.Core.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\NPOI.OOXML.pdb
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\NPOI.OOXML.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\NPOI.OpenXml4Net.pdb
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\NPOI.OpenXml4Net.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\NPOI.OpenXmlFormats.pdb
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\NPOI.OpenXmlFormats.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\SixLabors.Fonts.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\SixLabors.ImageSharp.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Buffers.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Memory.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Numerics.Vectors.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Security.AccessControl.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Security.Cryptography.Pkcs.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Security.Cryptography.Xml.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Security.Principal.Windows.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Text.Encoding.CodePages.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.ValueTuple.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Text.Encodings.Web.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Text.Json.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Text.Encodings.Web.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Text.Json.xml
+D:\專案\光林\BarcodePrint\ReceiveMaterial\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\專案\MES Client\DCT_MES_Client\DataCenter\ReceiveMaterial.pdb
+D:\專案\MES Client\DCT_MES_Client\WOManager\ReceiveMaterial.dll.config
+D:\專案\MES Client\DCT_MES_Client\WOManager\ReceiveMaterial.dll
+D:\專案\MES Client\DCT_MES_Client\WOManager\ReceiveMaterial.pdb
+D:\專案\MES Client\DCT_MES_Client\WOManager\ReceiveMaterial.xml
+D:\專案\customer-client_o\DataCenter\ReceiveMaterial.dll.config
+D:\專案\customer-client_o\DataCenter\ReceiveMaterial.dll
+D:\專案\customer-client_o\DataCenter\ReceiveMaterial.pdb
+C:\Users\jim.sung\Desktop\Chroma Application Client\DataCenter\ReceiveMaterial.dll.config
+C:\Users\jim.sung\Desktop\Chroma Application Client\DataCenter\ReceiveMaterial.dll
+C:\Users\jim.sung\Desktop\Chroma Application Client\DataCenter\ReceiveMaterial.pdb
+D:\專案\MES Client\DCT_MES_Client\DataCenter\ReceiveMaterial.dll.config
+D:\專案\MES Client\DCT_MES_Client\DataCenter\ReceiveMaterial.dll
+D:\專案\MES Client\LEOTEK_MES_Client\DataCenter\ReceiveMaterial.dll.config
+D:\專案\MES Client\LEOTEK_MES_Client\DataCenter\ReceiveMaterial.dll
+D:\專案\MES Client\LEOTEK_MES_Client\DataCenter\ReceiveMaterial.pdb
+D:\專案\光林\BarcodePrint\ReceiveMaterial\obj\Debug\ReceiveMaterial.csproj.AssemblyReference.cache
+D:\專案\光林\BarcodePrint\ReceiveMaterial\obj\Debug\ReceiveMaterial.fExport.resources
+D:\專案\光林\BarcodePrint\ReceiveMaterial\obj\Debug\ReceiveMaterial.fMain.resources
+D:\專案\光林\BarcodePrint\ReceiveMaterial\obj\Debug\ReceiveMaterial.DataInput.resources
+D:\專案\光林\BarcodePrint\ReceiveMaterial\obj\Debug\ReceiveMaterial.Properties.Resources.resources
+D:\專案\光林\BarcodePrint\ReceiveMaterial\obj\Debug\ReceiveMaterial.csproj.GenerateResource.cache
+D:\專案\光林\BarcodePrint\ReceiveMaterial\obj\Debug\ReceiveMaterial.csproj.CoreCompileInputs.cache
+D:\專案\光林\BarcodePrint\ReceiveMaterial\obj\Debug\ReceiveMaterial.dll
+D:\專案\光林\BarcodePrint\ReceiveMaterial\obj\Debug\ReceiveMaterial.pdb
+D:\專案\光林\BarcodePrint\ReceiveMaterial\obj\Debug\ReceiveMaterial.csproj.CopyComplete
+D:\專案\MES Client\LEOTEK_MES_Client\Assembly\ReceiveMaterial.pdb
+D:\專案\光林\leotek\ReceiveMaterial\obj\Debug\ReceiveMaterial.csproj.AssemblyReference.cache
+D:\專案\光林\leotek\ReceiveMaterial\obj\Debug\ReceiveMaterial.fExport.resources
+D:\專案\光林\leotek\ReceiveMaterial\obj\Debug\ReceiveMaterial.fMain.resources
+D:\專案\光林\leotek\ReceiveMaterial\obj\Debug\ReceiveMaterial.DataInput.resources
+D:\專案\光林\leotek\ReceiveMaterial\obj\Debug\ReceiveMaterial.Properties.Resources.resources
+D:\專案\光林\leotek\ReceiveMaterial\obj\Debug\ReceiveMaterial.csproj.GenerateResource.cache
+D:\專案\光林\leotek\ReceiveMaterial\obj\Debug\ReceiveMaterial.csproj.CoreCompileInputs.cache
+D:\專案\光林\leotek\ReceiveMaterial\obj\Debug\ReceiveMaterial.pdb
+D:\專案\光林\leotek\ReceiveMaterial\obj\Debug\ReceiveM.6E22C985.Up2Date
+D:\專案\MES Client\LEOTEK_MES_Client\Assembly\ReceiveMaterial.dll.config
+D:\專案\MES Client\LEOTEK_MES_Client\Assembly\ReceiveMaterial.dll
+D:\專案\光林\leotek\ReceiveMaterial\obj\Debug\ReceiveMaterial.dll
