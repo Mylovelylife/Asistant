@@ -12,9 +12,17 @@ namespace CBOM
 {
     public partial class fMessage : Form
     {
+        public string g_Message = string.Empty;
         public fMessage()
         {
             InitializeComponent();
+        }
+
+        private void bt_confirm_Click(object sender, EventArgs e)
+        {
+            g_Message = txt_message.Text;
+
+            DialogResult = DialogResult.OK;
         }
     }
 }

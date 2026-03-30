@@ -1962,6 +1962,9 @@ SELECT ITEM_GROUP FROM T");
 
                                 if (fMessage.ShowDialog() == DialogResult.OK)
                                 {
+                                    MessageBox.Show(fMessage.g_Message);
+
+
                                     bt_save_Click(bt_save, EventArgs.Empty);
                                 }
 

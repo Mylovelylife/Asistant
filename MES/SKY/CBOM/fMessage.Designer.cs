@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_message = new System.Windows.Forms.TextBox();
             this.lb_Message = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bt_confirm = new System.Windows.Forms.Button();
             this.bt_cancle = new System.Windows.Forms.Button();
+            this.bt_confirm = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txt_message
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Location = new System.Drawing.Point(126, 16);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(348, 25);
-            this.textBox1.TabIndex = 0;
+            this.txt_message.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_message.Location = new System.Drawing.Point(126, 16);
+            this.txt_message.Name = "txt_message";
+            this.txt_message.Size = new System.Drawing.Size(348, 25);
+            this.txt_message.TabIndex = 0;
             // 
             // lb_Message
             // 
@@ -62,7 +62,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80F));
             this.tableLayoutPanel1.Controls.Add(this.lb_Message, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.textBox1, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.txt_message, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
@@ -84,16 +84,6 @@
             this.panel1.Size = new System.Drawing.Size(495, 52);
             this.panel1.TabIndex = 2;
             // 
-            // bt_confirm
-            // 
-            this.bt_confirm.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bt_confirm.Location = new System.Drawing.Point(171, 19);
-            this.bt_confirm.Name = "bt_confirm";
-            this.bt_confirm.Size = new System.Drawing.Size(75, 23);
-            this.bt_confirm.TabIndex = 5;
-            this.bt_confirm.Text = "確定";
-            this.bt_confirm.UseVisualStyleBackColor = true;
-            // 
             // bt_cancle
             // 
             this.bt_cancle.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -103,6 +93,17 @@
             this.bt_cancle.TabIndex = 6;
             this.bt_cancle.Text = "取消";
             this.bt_cancle.UseVisualStyleBackColor = true;
+            // 
+            // bt_confirm
+            // 
+            this.bt_confirm.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bt_confirm.Location = new System.Drawing.Point(171, 19);
+            this.bt_confirm.Name = "bt_confirm";
+            this.bt_confirm.Size = new System.Drawing.Size(75, 23);
+            this.bt_confirm.TabIndex = 5;
+            this.bt_confirm.Text = "確定";
+            this.bt_confirm.UseVisualStyleBackColor = true;
+            this.bt_confirm.Click += new System.EventHandler(this.bt_confirm_Click);
             // 
             // fMessage
             // 
@@ -122,7 +123,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_message;
         private System.Windows.Forms.Label lb_Message;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
