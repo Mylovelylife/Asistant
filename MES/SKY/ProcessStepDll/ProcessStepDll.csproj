@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D2F386C8-DC1F-4BC2-BA81-5B2C16BAB379}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProcessStepDll</RootNamespace>
+    <AssemblyName>ProcessStepDll</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Output\DataCenter\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClientUtils">
+      <HintPath>..\..\..\..\MES Client\SKY_MES_Client\DataCenter\ClientUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\ImportFile.cs" />
+    <Compile Include="Class\ToolingUtils.cs" />
+    <Compile Include="ExportExcel.cs" />
+    <Compile Include="ExportExcelAllVer.cs" />
+    <Compile Include="fCopyTo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCopyTo.Designer.cs">
+      <DependentUpon>fCopyTo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDetailData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDetailData.designer.cs">
+      <DependentUpon>fDetailData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fHistory.designer.cs">
+      <DependentUpon>fHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMain.Designer.cs">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fProcessToolingLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fProcessToolingLink.Designer.cs">
+      <DependentUpon>fProcessToolingLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fQTY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fQTY.Designer.cs">
+      <DependentUpon>fQTY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SajetCommon.cs" />
+    <Compile Include="SajetTable.cs" />
+    <Compile Include="uctlStepItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uctlStepItem.Designer.cs">
+      <DependentUpon>uctlStepItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsetControl\uctlDataGridView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsetControl\uctlDataGridView.designer.cs">
+      <DependentUpon>uctlDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsetControl\uctlMultiSelectItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsetControl\uctlMultiSelectItem.Designer.cs">
+      <DependentUpon>uctlMultiSelectItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsetControl\uctlProcessTooling.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsetControl\uctlProcessTooling.Designer.cs">
+      <DependentUpon>uctlProcessTooling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsetControl\uctlALLTooling.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsetControl\uctlALLTooling.Designer.cs">
+      <DependentUpon>uctlALLTooling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsetControl\uctlALLProcess.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsetControl\uctlALLProcess.Designer.cs">
+      <DependentUpon>uctlALLProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsetControl\uctlProgressStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsetControl\uctlProgressStatus.designer.cs">
+      <DependentUpon>uctlProgressStatus.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="fCopyTo.resx">
+      <DependentUpon>fCopyTo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDetailData.resx">
+      <DependentUpon>fDetailData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fHistory.resx">
+      <DependentUpon>fHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fProcessToolingLink.resx">
+      <DependentUpon>fProcessToolingLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fQTY.resx">
+      <DependentUpon>fQTY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uctlStepItem.resx">
+      <DependentUpon>uctlStepItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsetControl\uctlDataGridView.resx">
+      <DependentUpon>uctlDataGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsetControl\uctlMultiSelectItem.resx">
+      <DependentUpon>uctlMultiSelectItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsetControl\uctlProcessTooling.resx">
+      <DependentUpon>uctlProcessTooling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsetControl\uctlALLTooling.resx">
+      <DependentUpon>uctlALLTooling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsetControl\uctlALLProcess.resx">
+      <DependentUpon>uctlALLProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsetControl\uctlProgressStatus.resx">
+      <DependentUpon>uctlProgressStatus.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

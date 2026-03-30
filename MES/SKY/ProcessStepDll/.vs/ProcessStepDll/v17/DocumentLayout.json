@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u5C08\u6848\\\u5929\u8679\\SKYTech\\DataCenter\\ProcessStepDll\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F386C8-DC1F-4BC2-BA81-5B2C16BAB379}|ProcessStepDll.csproj|d:\\\u5C08\u6848\\\u5929\u8679\\skytech\\datacenter\\processstepdll\\uctlstepitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F386C8-DC1F-4BC2-BA81-5B2C16BAB379}|ProcessStepDll.csproj|solutionrelative:uctlstepitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F386C8-DC1F-4BC2-BA81-5B2C16BAB379}|ProcessStepDll.csproj|d:\\\u5C08\u6848\\\u5929\u8679\\skytech\\datacenter\\processstepdll\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F386C8-DC1F-4BC2-BA81-5B2C16BAB379}|ProcessStepDll.csproj|solutionrelative:fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F386C8-DC1F-4BC2-BA81-5B2C16BAB379}|ProcessStepDll.csproj|d:\\\u5C08\u6848\\\u5929\u8679\\skytech\\datacenter\\processstepdll\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D2F386C8-DC1F-4BC2-BA81-5B2C16BAB379}|ProcessStepDll.csproj|solutionrelative:fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ProcessStepDll||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F386C8-DC1F-4BC2-BA81-5B2C16BAB379}|ProcessStepDll.csproj|D:\\\u5C08\u6848\\\u5929\u8679\\SKYTech\\DataCenter\\ProcessStepDll\\fmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F386C8-DC1F-4BC2-BA81-5B2C16BAB379}|ProcessStepDll.csproj|solutionrelative:fmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "uctlStepItem.cs",
+              "DocumentMoniker": "D:\\\u5C08\u6848\\\u5929\u8679\\SKYTech\\DataCenter\\ProcessStepDll\\uctlStepItem.cs",
+              "RelativeDocumentMoniker": "uctlStepItem.cs",
+              "ToolTip": "D:\\\u5C08\u6848\\\u5929\u8679\\SKYTech\\DataCenter\\ProcessStepDll\\uctlStepItem.cs",
+              "RelativeToolTip": "uctlStepItem.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAMwBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T07:43:53.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fMain.cs",
+              "DocumentMoniker": "D:\\\u5C08\u6848\\\u5929\u8679\\SKYTech\\DataCenter\\ProcessStepDll\\fMain.cs",
+              "RelativeDocumentMoniker": "fMain.cs",
+              "ToolTip": "D:\\\u5C08\u6848\\\u5929\u8679\\SKYTech\\DataCenter\\ProcessStepDll\\fMain.cs",
+              "RelativeToolTip": "fMain.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T07:39:53.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProcessStepDll",
+              "DocumentMoniker": "D:\\\u5C08\u6848\\\u5929\u8679\\SKYTech\\DataCenter\\ProcessStepDll\\ProcessStepDll.csproj",
+              "RelativeDocumentMoniker": "ProcessStepDll.csproj",
+              "ToolTip": "D:\\\u5C08\u6848\\\u5929\u8679\\SKYTech\\DataCenter\\ProcessStepDll\\ProcessStepDll.csproj",
+              "RelativeToolTip": "ProcessStepDll.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-25T06:46:10.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fMain.Designer.cs",
+              "DocumentMoniker": "D:\\\u5C08\u6848\\\u5929\u8679\\SKYTech\\DataCenter\\ProcessStepDll\\fMain.Designer.cs",
+              "RelativeDocumentMoniker": "fMain.Designer.cs",
+              "ToolTip": "D:\\\u5C08\u6848\\\u5929\u8679\\SKYTech\\DataCenter\\ProcessStepDll\\fMain.Designer.cs",
+              "RelativeToolTip": "fMain.Designer.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAArwNQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T06:44:13.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fMain.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "D:\\\u5C08\u6848\\\u5929\u8679\\SKYTech\\DataCenter\\ProcessStepDll\\fMain.cs",
+              "RelativeDocumentMoniker": "fMain.cs",
+              "ToolTip": "D:\\\u5C08\u6848\\\u5929\u8679\\SKYTech\\DataCenter\\ProcessStepDll\\fMain.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "fMain.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T06:44:02.148Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

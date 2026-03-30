@@ -37,6 +37,7 @@ namespace CBOM
         
         public string g_sBOMID;
         private bool g_bSUPER_BOM = false;
+        public string g_Remark;
 
         private CommonHelper myHelper;
 
@@ -863,7 +864,7 @@ SELECT ITEM_GROUP FROM T");
                     dr["STEP_ITEM_ID"] = sStepID;
                     dr["KEY_COMPONENT"] = sKey;
                     dr["STEP_ITEM_VERSION"] = _STEP_ITEM_VERSION;
-
+                    dr["REMARK"] = "";
                     // 4. 將新列加入 DataTable 中
                     dt.Rows.Add(dr);
 
@@ -1683,11 +1684,19 @@ SELECT ITEM_GROUP FROM T");
 
         private void bt_save_Click(object sender, EventArgs e)
         {
-            SaveData();
 
-            ConfirmMessage();
+            fMessage fMessage = new fMessage();
 
-            BomDisplay();
+            if (fMessage.ShowDialog() == DialogResult.OK)
+            {
+                this.g_Remark = fMessage.g_Message;
+
+                SaveData();
+
+                ConfirmMessage();
+
+                BomDisplay();
+            }
         }
 
 
@@ -1801,32 +1810,90 @@ SELECT ITEM_GROUP FROM T");
 
                     #endregion
 
-                    #region 備份更新前的資料
-                    sSQL = $@"INSERT INTO SAJET.SYS_HT_BOM SELECT *
 
-                            FROM SAJET.SYS_BOM WHERE BOM_ID IN 
-                            (
-                              SELECT BOM_ID FROM SAJET.SYS_BOM_INFO TB1 
-                              WHERE TB1.PART_ID IN (SELECT PART_ID FROM SAJET.SYS_PART WHERE {Condition})
-                            )
-                            AND STEP_ITEM_ID = {g_CurrentStepID}";
+                    //全部搬到STORE PROCEDURE
+                    //#region 備份更新前的資料
+                    //sSQL = $@"INSERT INTO SAJET.SYS_HT_BOM SELECT *
 
-                    ClientUtils.ExecuteSQL(sSQL);
-                    #endregion
+                    //        FROM SAJET.SYS_BOM WHERE BOM_ID IN 
+                    //        (
+                    //          SELECT BOM_ID FROM SAJET.SYS_BOM_INFO TB1 
+                    //          WHERE TB1.PART_ID IN (SELECT PART_ID FROM SAJET.SYS_PART WHERE {Condition})
+                    //        )
+                    //        AND STEP_ITEM_ID = {g_CurrentStepID}";
 
-                    #region 刪除相關的資料
-                    sSQL = $@"DELETE FROM SAJET.SYS_BOM WHERE BOM_ID IN
-                        (
-                          SELECT BOM_ID FROM SAJET.SYS_BOM_INFO TB1 
-                          WHERE TB1.PART_ID IN (SELECT PART_ID FROM SAJET.SYS_PART WHERE {Condition})
-                        )
-                        AND STEP_ITEM_ID = {g_CurrentStepID}";
+                    //ClientUtils.ExecuteSQL(sSQL);
+                    //#endregion
 
-                    ClientUtils.ExecuteSQL(sSQL);
-                    #endregion
+                    //#region 更新Remark
+                    ////sSQL = $@"UPDATE SAJET.SYS_HT_BOM 
+                    ////        SET REMARK = '{g_Remark}',UPDATE_TIME = SYSDATE
+                    ////        WHERE BOM_ID IN 
+                    ////        (
+                    ////            SELECT BOM_ID FROM SAJET.SYS_BOM_INFO TB1 
+                    ////            WHERE TB1.PART_ID IN (SELECT PART_ID FROM SAJET.SYS_PART WHERE {Condition})
+                    ////        )
+                    ////        AND STEP_ITEM_ID = {g_CurrentStepID}";
+
+                    //sSQL = $@"MERGE INTO SAJET.SYS_HT_BOM TB1 
+                    //        USING 
+                    //        (
+                    //            SELECT 
+                    //            TB1.BOM_ID, 
+                    //            MAX(TB3.STEP_ITEM_VERSION) as MAX_VER
+                    //            FROM SAJET.SYS_BOM_INFO TB1
+                    //            JOIN SAJET.SYS_PART TB2 ON TB1.PART_ID = TB2.PART_ID
+                    //            JOIN SAJET.SYS_HT_BOM TB3 ON TB1.BOM_ID = TB3.BOM_ID
+                    //            WHERE UPPER(TB2.SPEC2) LIKE '%SUPERBOM%'
+                    //            AND TB3.STEP_ITEM_ID = {g_CurrentStepID}
+                    //            GROUP BY TB1.BOM_ID
+                    //        )TB2 ON 
+                    //        (TB1.BOM_ID = TB2.BOM_ID AND TB1.STEP_ITEM_VERSION = TB2.MAX_VER AND TB1.STEP_ITEM_ID = {g_CurrentStepID})
+                    //        WHEN MATCHED THEN
+                    //            UPDATE SET 
+                    //            TB1.REMARK = '{g_Remark}',
+                    //            TB1.UPDATE_TIME = SYSDATE
+                    //        ";
+
+                    //ClientUtils.ExecuteSQL(sSQL);
+                    //#endregion
+
+                    //#region 刪除相關的資料
+                    //sSQL = $@"DELETE FROM SAJET.SYS_BOM WHERE BOM_ID IN
+                    //    (
+                    //      SELECT BOM_ID FROM SAJET.SYS_BOM_INFO TB1 
+                    //      WHERE TB1.PART_ID IN (SELECT PART_ID FROM SAJET.SYS_PART WHERE {Condition})
+                    //    )
+                    //    AND STEP_ITEM_ID = {g_CurrentStepID}";
+
+                    //ClientUtils.ExecuteSQL(sSQL);
+                    //#endregion
+
+
+                  
+
+                    object[][] Params = new object[5][];
+                    Params[0] = new object[] { ParameterDirection.Input, OracleType.Number, "P_STEP_ITEM_ID", g_CurrentStepID };
+                    Params[1] = new object[] { ParameterDirection.Input, OracleType.Number, "P_PART_ID", g_PartID };
+                    Params[2] = new object[] { ParameterDirection.Input, OracleType.VarChar, "P_IS_SUPER_BOM", g_bSUPER_BOM ? "Y" : "N" };
+                    Params[3] = new object[] { ParameterDirection.Input, OracleType.VarChar, "P_REMARK", g_Remark };
+                    Params[4] = new object[] { ParameterDirection.Output, OracleType.VarChar, "sRESULT", "" };
+
+
+                    var ds1 = ClientUtils.ExecuteProc("SAJET.SP_BOM_VERSION_UP", Params);
+
 
                     #region 新增異動後的資料
-                    myHelper.OracleBulkInsert(result, "SAJET.SYS_BOM");
+
+                    if (ds1.Tables[0].Rows[0][0].ToString() == "OK")
+                    {
+                        myHelper.OracleBulkInsert(result, "SAJET.SYS_BOM");
+                    }
+                    else 
+                    {
+                        Clipboard.SetText(ds.Tables[0].Rows[0][0].ToString());
+                        MessageBox.Show("資料儲存失敗");
+                    }
                     #endregion
 
 
@@ -1962,19 +2029,12 @@ SELECT ITEM_GROUP FROM T");
 
                                 if (fMessage.ShowDialog() == DialogResult.OK)
                                 {
-                                    MessageBox.Show(fMessage.g_Message);
-
+                                    this.g_Remark = fMessage.g_Message;
 
                                     bt_save_Click(bt_save, EventArgs.Empty);
                                 }
 
 
-                                //DialogResult result = MessageBox.Show("是否進行工序進版？", "確認", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-                                //if (result == DialogResult.Yes)
-                                //{
-                                //    bt_save_Click(bt_save, EventArgs.Empty);
-                                //}
 
 
                                 IsUnlock(false);
@@ -2001,7 +2061,7 @@ SELECT ITEM_GROUP FROM T");
 
             sSQL = $@"SELECT TB1.ROWID,TB3.PROCESS_NAME,TB2.PART_NO,TB2.SPEC1,TB1.BOM_ID,TB1.ITEM_PART_ID,TB1.ITEM_GROUP,TB1.ITEM_COUNT,TB1.PROCESS_ID
                     ,TB1.VERSION,TB1.UPDATE_USERID,TB1.UPDATE_TIME,TB1.ENABLED,TB1.LOCATION,TB1.UNIT,TB1.ITEM_SEQ
-                    ,TB1.JOB_EXTEND,TB1.PRIMARY_FLAG,TB1.STEP_ITEM_ID,TB1.KEY_COMPONENT,TB4.STEP_ITEM_NAME,TB1.STEP_ITEM_VERSION
+                    ,TB1.JOB_EXTEND,TB1.PRIMARY_FLAG,TB1.STEP_ITEM_ID,TB1.KEY_COMPONENT,TB4.STEP_ITEM_NAME,TB1.STEP_ITEM_VERSION,TB1.REMARK
                     FROM SAJET.SYS_BOM TB1,SAJET.SYS_PART TB2 ,SAJET.SYS_PROCESS TB3,SAJET.SYS_STEP_ITEM TB4
                     WHERE TB1.ITEM_PART_ID = TB2.PART_ID AND TB1.BOM_ID = {g_sBOMID} 
                     AND TB1.PROCESS_ID = TB3.PROCESS_ID AND TB1.STEP_ITEM_ID = TB4.STEP_ITEM_ID

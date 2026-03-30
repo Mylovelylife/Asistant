@@ -1,0 +1,17 @@
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.csproj.AssemblyReference.cache
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.fCopyTo.resources
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.fDetailData.resources
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.fHistory.resources
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.fMain.resources
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.fProcessToolingLink.resources
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.fQTY.resources
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.Properties.Resources.resources
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.uctlStepItem.resources
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.uctlDataGridView.resources
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.uctlMultiSelectItem.resources
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.uctlProcessTooling.resources
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.uctlALLTooling.resources
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.uctlALLProcess.resources
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.uctlProgressStatus.resources
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.csproj.GenerateResource.cache
+D:\專案\天虹\SKYTech\DataCenter\ProcessStepDll\obj\Debug\ProcessStepDll.csproj.CoreCompileInputs.cache
