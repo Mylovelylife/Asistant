@@ -1,0 +1,127 @@
+<Chroma>
+	<English>
+		<Message Name="Part No" Value="Part No" />
+		<Message Name="Version" Value="Version" />
+		<Message Name="Spec" Value="Spec" />
+		<Message Name="Process" Value="Process" />
+		<Message Name="Qty" Value="Qty" />
+		<Message Name="Relation" Value="Relation" />
+		<Message Name="Type" Value="Type" />
+		<Message Name="Location" Value="Location" />
+		<Message Name="Filter: Part No" Value="Filter: Part No" />
+		<Message Name="Collapse" Value="Collapse" />
+		<Message Name="Expand" Value="Expand" />
+		<Message Name="Sub Part No" Value="Sub Part No" />
+		<Message Name="Sub Part Ver" Value="Sub Part Ver" />
+		<Message Name="0:Non-Substitution" Value="0:Non-Substitution" />
+		<Message Name="Sub Part No = Main Part No" Value="Sub Part No = Main Part No" />
+		<Message Name="Sub Part No Recursive" Value="Sub Part No Recursive" />
+		<Message Name="Bottom Up Level" Value="Bottom Up Level" />
+		<Message Name="Part No Error" Value="Part No Error" />
+		<Message Name="Sub Part No Duplicate" Value="Sub Part No Duplicate" />
+		<Message Name="Delete this BOM" Value="Delete this BOM" />
+		<Message Name="Delete all Part of this Process" Value="Delete all Part of this Process" />
+		<Message Name="Delete this Part" Value="Delete this Part" />
+		<Message Name="Qty Error" Value="Qty Error" />
+		<Message Name="Sub Part No Error" Value="Sub Part No Error" />
+		<Message Name="Please Change Relation" Value="Please Change Relation" />
+	</English>
+	<繁體中文>
+		<Message Name="Part No" Value="料號" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="Spec" Value="規格" />
+		<Message Name="Process" Value="製程" />
+		<Message Name="Qty" Value="數量" />
+		<Message Name="Relation" Value="料件關係" />
+		<Message Name="Type" Value="類型" />
+		<Message Name="Location" Value="位置" />
+		<Message Name="Filter: Part No" Value="搜尋:料號" />
+		<Message Name="Collapse" Value="摺疊" />
+		<Message Name="Expand" Value="展開" />
+		<Message Name="Sub Part No" Value="子件料號" />
+		<Message Name="Sub Part Ver" Value="子件料號版本" />
+		<Message Name="0:Non-Substitution" Value="0:無替代料" />
+		<Message Name="Sub Part No = Main Part No" Value="子件料號 = 父項料號" />
+		<Message Name="Sub Part No Recursive" Value="子件料號造成遞迴" />
+		<Message Name="Bottom Up Level" Value="階層" />
+		<Message Name="Part No Error" Value="料號錯誤" />
+		<Message Name="Sub Part No Duplicate" Value="子件料號重複" />
+		<Message Name="Delete this BOM" Value="刪除此BOM" />
+		<Message Name="Delete all Part of this Process" Value="刪除此製程下所有料號" />
+		<Message Name="Delete this Part" Value="刪除此料號" />
+		<Message Name="Substitutes are also removed" Value="替代料也會一併刪除" />
+		<Message Name="Qty Error" Value="數量錯誤" />
+		<Message Name="Sub Part No Error" Value="子件料號錯誤" />
+		<Message Name="Please Change Relation" Value="有替代料,料件關係不可為0" />
+		<Message Name="Expand Virtual Bom" Value="展開虛擬階" />
+		<Message Name="Please Input Part No" Value="請輸入料號" />
+		<Message Name="The material has substitute material and cannot be a substitute material" Value="料件有替代料，無法成為替代料" />
+
+		<Message Name="Step" Value="工序" />
+		<Message Name="Key" Value="重要物料" />
+		<Message Name="N:Non-Keyomponent" Value="N:不是重要物料" />
+		<Message Name="Sub Part No Step" Value="料號不在該工序" />
+		<Message Name="Step Error" Value="工序錯誤" />
+		<Message Name="Key Error" Value="重要物料錯誤" />
+        <Message Name="Spec1" Value="規格1" />
+		<Message Name="Spec2" Value="規格2" />
+		<Message Name="Import Bom Process" Value="匯入物料工序" />
+		<Message Name="Part Step Error" Value="產品製程工序錯誤" />
+		<Message Name="Item Part" Value="子件料號" />
+		<Message Name="Process Name" Value="製程" />
+		<Message Name="Step Name" Value="工序" />
+		<Message Name="Error Message" Value="錯誤訊息" />
+
+		<Message Name="PART_NO" Value="料號" />
+		<Message Name="SPEC1" Value="品名" />
+		<Message Name="SPEC2" Value="規格" />
+	</繁體中文>
+	<简体中文>
+		<Message Name="Part No" Value="料号" />
+		<Message Name="Version" Value="版本" />
+		<Message Name="Spec" Value="规格" />
+		<Message Name="Process" Value="制程" />
+		<Message Name="Qty" Value="数量" />
+		<Message Name="Relation" Value="料件关系" />
+		<Message Name="Type" Value="类型" />
+		<Message Name="Location" Value="位置" />
+		<Message Name="Filter: Part No" Value="搜寻:料号" />
+		<Message Name="Collapse" Value="摺叠" />
+		<Message Name="Expand" Value="展开" />
+		<Message Name="Sub Part No" Value="子件料号" />
+		<Message Name="Sub Part Ver" Value="子件料号版本" />
+		<Message Name="0:Non-Substitution" Value="0:无替代料" />
+		<Message Name="Sub Part No = Main Part No" Value="子件料号 = 父项料号" />
+		<Message Name="Sub Part No Recursive" Value="子件料号造成递回" />
+		<Message Name="Bottom Up Level" Value="阶层" />
+		<Message Name="Part No Error" Value="料号错误" />
+		<Message Name="Sub Part No Duplicate" Value="子件料号重复" />
+		<Message Name="Delete this BOM" Value="删除此BOM" />
+		<Message Name="Delete all Part of this Process" Value="删除此制程下所有料号" />
+		<Message Name="Delete this Part" Value="删除此料号" />
+		<Message Name="Qty Error" Value="数量错误" />
+		<Message Name="Sub Part No Error" Value="子件料号错误" />
+		<Message Name="Please Change Relation" Value="有替代料,料件关系不可为0" />
+		<Message Name="Expand Virtual Bom" Value="展开虚拟阶" />
+		<Message Name="Please Input Part No" Value="请输入料号" />
+
+		<Message Name="Step" Value="工序" />
+		<Message Name="Key" Value="重要物料" />
+		<Message Name="N:Non-Keyomponent" Value="N:不是重要物料" />
+		<Message Name="Sub Part No Step" Value="料号不在该工序" />
+		<Message Name="Step Error" Value="工序错误" />
+		<Message Name="Key Error" Value="重要物料错误" />
+		<Message Name="Spec1" Value="规格1" />
+		<Message Name="Spec2" Value="规格2" />
+		<Message Name="Import Bom Process" Value="汇入物料工序" />
+		<Message Name="Part Step Error" Value="产品制程工序错误" />
+		<Message Name="Item Part" Value="子件料号" />
+		<Message Name="Process Name" Value="制程" />
+		<Message Name="Step Name" Value="工序" />
+		<Message Name="Error Message" Value="错误讯息" />
+
+		<Message Name="PART_NO" Value="料号" />
+		<Message Name="SPEC1" Value="品名" />
+		<Message Name="SPEC2" Value="规格" />
+	</简体中文>
+</Chroma>
