@@ -184,28 +184,18 @@ namespace CWoManagerPcs
             try
             {
                 int iGenerated = 0;
-                int iSkipped = 0;
                 int iPadding = sStartNo.Length;
 
                 for (int i = iStart; i <= iEnd; i++)
                 {
                     string sSerialNumber = sSpecCode + i.ToString().PadLeft(iPadding, '0');
 
-                    // 檢查該序號是否存在於 G_SN_STATUS
-                    string sWorkOrder = GetWorkOrderBySerialNumber(sSerialNumber);
-                    if (!string.IsNullOrEmpty(sWorkOrder))
-                    {
-                        InsertSpecStatus(sWorkOrder, sSerialNumber, sSpecCode);
-                        iGenerated++;
-                    }
-                    else
-                    {
-                        iSkipped++;
-                    }
+                    // 直接寫入 G_SN_SPEC_STATUS，不檢查 G_SN_STATUS
+                    InsertSpecStatus("", sSerialNumber, sSpecCode);
+                    iGenerated++;
                 }
 
-                SajetCommon.Show_Message("Generate Success: " + iGenerated + " records" + Environment.NewLine +
-                                       "Skipped (not in G_SN_STATUS): " + iSkipped + " records", 3);
+                SajetCommon.Show_Message("Generate Success: " + iGenerated + " records", 3);
             }
             catch (Exception ex)
             {
