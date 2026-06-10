@@ -1,0 +1,1850 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnSearchRoute.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSearchRoute.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSearchRoute.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="btnSearchRoute.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSearchRoute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>904, 65</value>
+  </data>
+  <data name="btnSearchRoute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="btnSearchRoute.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="btnSearchRoute.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnSearchRoute.Name" xml:space="preserve">
+    <value>btnSearchRoute</value>
+  </data>
+  <data name="&gt;&gt;btnSearchRoute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSearchRoute.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnSearchRoute.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSearchRule.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSearchRule.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnSearchRule.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="btnSearchRule.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSearchRule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 155</value>
+  </data>
+  <data name="btnSearchRule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 24</value>
+  </data>
+  <data name="btnSearchRule.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="btnSearchRule.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnSearchRule.Name" xml:space="preserve">
+    <value>btnSearchRule</value>
+  </data>
+  <data name="&gt;&gt;btnSearchRule.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSearchRule.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnSearchRule.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="editTargetQty.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="editTargetQty.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="editTargetQty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 215</value>
+  </data>
+  <data name="editTargetQty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 30</value>
+  </data>
+  <data name="editTargetQty.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;editTargetQty.Name" xml:space="preserve">
+    <value>editTargetQty</value>
+  </data>
+  <data name="&gt;&gt;editTargetQty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editTargetQty.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;editTargetQty.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 32</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Factory </value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnBOM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnBOM.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnBOM.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnBOM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 9pt, style=Bold</value>
+  </data>
+  <data name="btnBOM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 125</value>
+  </data>
+  <data name="btnBOM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 24</value>
+  </data>
+  <data name="btnBOM.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnBOM.Text" xml:space="preserve">
+    <value>BOM</value>
+  </data>
+  <data name="&gt;&gt;btnBOM.Name" xml:space="preserve">
+    <value>btnBOM</value>
+  </data>
+  <data name="&gt;&gt;btnBOM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBOM.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnBOM.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="editRemark.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="editRemark.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="editRemark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>600, 215</value>
+  </data>
+  <data name="editRemark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 30</value>
+  </data>
+  <data name="editRemark.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;editRemark.Name" xml:space="preserve">
+    <value>editRemark</value>
+  </data>
+  <data name="&gt;&gt;editRemark.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editRemark.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;editRemark.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LabRemark.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabRemark.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabRemark.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LabRemark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabRemark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 212</value>
+  </data>
+  <data name="LabRemark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 30</value>
+  </data>
+  <data name="LabRemark.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="LabRemark.Text" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="LabRemark.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabRemark.Name" xml:space="preserve">
+    <value>LabRemark</value>
+  </data>
+  <data name="&gt;&gt;LabRemark.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabRemark.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabRemark.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dtScheduleDate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dtScheduleDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="dtScheduleDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>600, 155</value>
+  </data>
+  <data name="dtScheduleDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 30</value>
+  </data>
+  <data name="dtScheduleDate.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;dtScheduleDate.Name" xml:space="preserve">
+    <value>dtScheduleDate</value>
+  </data>
+  <data name="&gt;&gt;dtScheduleDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtScheduleDate.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;dtScheduleDate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LabFactory.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabFactory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabFactory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt, style=Bold</value>
+  </data>
+  <data name="LabFactory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabFactory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 0</value>
+  </data>
+  <data name="LabFactory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 32</value>
+  </data>
+  <data name="LabFactory.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="LabFactory.Text" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="LabFactory.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabFactory.Name" xml:space="preserve">
+    <value>LabFactory</value>
+  </data>
+  <data name="&gt;&gt;LabFactory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabFactory.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabFactory.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnSearchPart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSearchPart.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnSearchPart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="btnSearchPart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSearchPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 95</value>
+  </data>
+  <data name="btnSearchPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 24</value>
+  </data>
+  <data name="btnSearchPart.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btnSearchPart.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnSearchPart.Name" xml:space="preserve">
+    <value>btnSearchPart</value>
+  </data>
+  <data name="&gt;&gt;btnSearchPart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSearchPart.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnSearchPart.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="LabWO.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabWO.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabWO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LabWO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 32</value>
+  </data>
+  <data name="LabWO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 30</value>
+  </data>
+  <data name="LabWO.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabWO.Text" xml:space="preserve">
+    <value>Work Order</value>
+  </data>
+  <data name="LabWO.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabWO.Name" xml:space="preserve">
+    <value>LabWO</value>
+  </data>
+  <data name="&gt;&gt;LabWO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabWO.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabWO.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="editWO.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="editWO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="editWO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 35</value>
+  </data>
+  <data name="editWO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 30</value>
+  </data>
+  <data name="editWO.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;editWO.Name" xml:space="preserve">
+    <value>editWO</value>
+  </data>
+  <data name="&gt;&gt;editWO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editWO.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;editWO.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="LabOutProcess.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabOutProcess.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabOutProcess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LabOutProcess.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabOutProcess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 122</value>
+  </data>
+  <data name="LabOutProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 30</value>
+  </data>
+  <data name="LabOutProcess.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="LabOutProcess.Text" xml:space="preserve">
+    <value>Output Process</value>
+  </data>
+  <data name="LabOutProcess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabOutProcess.Name" xml:space="preserve">
+    <value>LabOutProcess</value>
+  </data>
+  <data name="&gt;&gt;LabOutProcess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabOutProcess.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabOutProcess.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="combOutProcess.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="combOutProcess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="combOutProcess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>600, 125</value>
+  </data>
+  <data name="combOutProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 27</value>
+  </data>
+  <data name="combOutProcess.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;combOutProcess.Name" xml:space="preserve">
+    <value>combOutProcess</value>
+  </data>
+  <data name="&gt;&gt;combOutProcess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;combOutProcess.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;combOutProcess.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="combInProcess.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="combInProcess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="combInProcess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>600, 95</value>
+  </data>
+  <data name="combInProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 27</value>
+  </data>
+  <data name="combInProcess.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;combInProcess.Name" xml:space="preserve">
+    <value>combInProcess</value>
+  </data>
+  <data name="&gt;&gt;combInProcess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;combInProcess.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;combInProcess.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="combRoute.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="combRoute.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="combRoute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>600, 65</value>
+  </data>
+  <data name="combRoute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 27</value>
+  </data>
+  <data name="combRoute.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;combRoute.Name" xml:space="preserve">
+    <value>combRoute</value>
+  </data>
+  <data name="&gt;&gt;combRoute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;combRoute.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;combRoute.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="LabInProcess.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabInProcess.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabInProcess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LabInProcess.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabInProcess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 92</value>
+  </data>
+  <data name="LabInProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 30</value>
+  </data>
+  <data name="LabInProcess.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="LabInProcess.Text" xml:space="preserve">
+    <value>Input Process</value>
+  </data>
+  <data name="LabInProcess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabInProcess.Name" xml:space="preserve">
+    <value>LabInProcess</value>
+  </data>
+  <data name="&gt;&gt;LabInProcess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabInProcess.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabInProcess.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="LabRoute.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabRoute.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabRoute.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LabRoute.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabRoute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 62</value>
+  </data>
+  <data name="LabRoute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 30</value>
+  </data>
+  <data name="LabRoute.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="LabRoute.Text" xml:space="preserve">
+    <value>Route Name</value>
+  </data>
+  <data name="LabRoute.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabRoute.Name" xml:space="preserve">
+    <value>LabRoute</value>
+  </data>
+  <data name="&gt;&gt;LabRoute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabRoute.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabRoute.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="LabStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabStatus.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LabStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 62</value>
+  </data>
+  <data name="LabStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 30</value>
+  </data>
+  <data name="LabStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LabStatus.Text" xml:space="preserve">
+    <value>W/O Status</value>
+  </data>
+  <data name="LabStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabStatus.Name" xml:space="preserve">
+    <value>LabStatus</value>
+  </data>
+  <data name="&gt;&gt;LabStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabStatus.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabStatus.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="LabLine.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabLine.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LabLine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 32</value>
+  </data>
+  <data name="LabLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 30</value>
+  </data>
+  <data name="LabLine.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="LabLine.Text" xml:space="preserve">
+    <value>Default Line </value>
+  </data>
+  <data name="LabLine.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabLine.Name" xml:space="preserve">
+    <value>LabLine</value>
+  </data>
+  <data name="&gt;&gt;LabLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabLine.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabLine.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="LabWoStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabWoStatus.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabWoStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt, style=Bold</value>
+  </data>
+  <data name="LabWoStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabWoStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 62</value>
+  </data>
+  <data name="LabWoStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 30</value>
+  </data>
+  <data name="LabWoStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="LabWoStatus.Text" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="LabWoStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabWoStatus.Name" xml:space="preserve">
+    <value>LabWoStatus</value>
+  </data>
+  <data name="&gt;&gt;LabWoStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabWoStatus.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabWoStatus.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="LabPart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabPart.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabPart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LabPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 92</value>
+  </data>
+  <data name="LabPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 30</value>
+  </data>
+  <data name="LabPart.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LabPart.Text" xml:space="preserve">
+    <value>Part No</value>
+  </data>
+  <data name="LabPart.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabPart.Name" xml:space="preserve">
+    <value>LabPart</value>
+  </data>
+  <data name="&gt;&gt;LabPart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabPart.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabPart.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="editPart.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="editPart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="editPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 95</value>
+  </data>
+  <data name="editPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 30</value>
+  </data>
+  <data name="editPart.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;editPart.Name" xml:space="preserve">
+    <value>editPart</value>
+  </data>
+  <data name="&gt;&gt;editPart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editPart.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;editPart.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="LabVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabVersion.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LabVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 122</value>
+  </data>
+  <data name="LabVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 30</value>
+  </data>
+  <data name="LabVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LabVersion.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="LabVersion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabVersion.Name" xml:space="preserve">
+    <value>LabVersion</value>
+  </data>
+  <data name="&gt;&gt;LabVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabVersion.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabVersion.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="combVersion.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="combVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="combVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 125</value>
+  </data>
+  <data name="combVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 27</value>
+  </data>
+  <data name="combVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;combVersion.Name" xml:space="preserve">
+    <value>combVersion</value>
+  </data>
+  <data name="&gt;&gt;combVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;combVersion.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;combVersion.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="LabDueDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabDueDate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabDueDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LabDueDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabDueDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 182</value>
+  </data>
+  <data name="LabDueDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 30</value>
+  </data>
+  <data name="LabDueDate.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="LabDueDate.Text" xml:space="preserve">
+    <value>Due Date</value>
+  </data>
+  <data name="LabDueDate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabDueDate.Name" xml:space="preserve">
+    <value>LabDueDate</value>
+  </data>
+  <data name="&gt;&gt;LabDueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabDueDate.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabDueDate.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="LabWoRule.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabWoRule.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabWoRule.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LabWoRule.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabWoRule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 152</value>
+  </data>
+  <data name="LabWoRule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 30</value>
+  </data>
+  <data name="LabWoRule.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LabWoRule.Text" xml:space="preserve">
+    <value>W/O Rule</value>
+  </data>
+  <data name="LabWoRule.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabWoRule.Name" xml:space="preserve">
+    <value>LabWoRule</value>
+  </data>
+  <data name="&gt;&gt;LabWoRule.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabWoRule.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabWoRule.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="LabScheduleDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabScheduleDate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabScheduleDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LabScheduleDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabScheduleDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 152</value>
+  </data>
+  <data name="LabScheduleDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 30</value>
+  </data>
+  <data name="LabScheduleDate.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="LabScheduleDate.Text" xml:space="preserve">
+    <value>Schedule Date</value>
+  </data>
+  <data name="LabScheduleDate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabScheduleDate.Name" xml:space="preserve">
+    <value>LabScheduleDate</value>
+  </data>
+  <data name="&gt;&gt;LabScheduleDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabScheduleDate.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabScheduleDate.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="combWoRule.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="combWoRule.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="combWoRule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 155</value>
+  </data>
+  <data name="combWoRule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 27</value>
+  </data>
+  <data name="combWoRule.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;combWoRule.Name" xml:space="preserve">
+    <value>combWoRule</value>
+  </data>
+  <data name="&gt;&gt;combWoRule.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;combWoRule.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;combWoRule.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="LabWoType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabWoType.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabWoType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LabWoType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabWoType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 182</value>
+  </data>
+  <data name="LabWoType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 30</value>
+  </data>
+  <data name="LabWoType.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="LabWoType.Text" xml:space="preserve">
+    <value>W/O Type</value>
+  </data>
+  <data name="LabWoType.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabWoType.Name" xml:space="preserve">
+    <value>LabWoType</value>
+  </data>
+  <data name="&gt;&gt;LabWoType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabWoType.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabWoType.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="combWoType.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="combWoType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="combWoType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 185</value>
+  </data>
+  <data name="combWoType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 27</value>
+  </data>
+  <data name="combWoType.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;combWoType.Name" xml:space="preserve">
+    <value>combWoType</value>
+  </data>
+  <data name="&gt;&gt;combWoType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;combWoType.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;combWoType.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="LabTargetQty.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabTargetQty.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LabTargetQty.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LabTargetQty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 212</value>
+  </data>
+  <data name="LabTargetQty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 30</value>
+  </data>
+  <data name="LabTargetQty.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="LabTargetQty.Text" xml:space="preserve">
+    <value>Target Qty</value>
+  </data>
+  <data name="LabTargetQty.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabTargetQty.Name" xml:space="preserve">
+    <value>LabTargetQty</value>
+  </data>
+  <data name="&gt;&gt;LabTargetQty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabTargetQty.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;LabTargetQty.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="tableLayoutPanel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnBindingSEQ.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="btnBindingSEQ.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnBindingSEQ.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnBindingSEQ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 9pt, style=Bold</value>
+  </data>
+  <data name="btnBindingSEQ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnBindingSEQ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 3</value>
+  </data>
+  <data name="btnBindingSEQ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 24</value>
+  </data>
+  <data name="btnBindingSEQ.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="btnBindingSEQ.Text" xml:space="preserve">
+    <value>MES Process Binding ERP SEQ</value>
+  </data>
+  <data name="&gt;&gt;btnBindingSEQ.Name" xml:space="preserve">
+    <value>btnBindingSEQ</value>
+  </data>
+  <data name="&gt;&gt;btnBindingSEQ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBindingSEQ.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;btnBindingSEQ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="combLine.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="combLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="combLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 27</value>
+  </data>
+  <data name="combLine.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;combLine.Name" xml:space="preserve">
+    <value>combLine</value>
+  </data>
+  <data name="&gt;&gt;combLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;combLine.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;combLine.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 32</value>
+  </data>
+  <data name="tableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 30</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnBindingSEQ" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="combLine" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,140,Percent,100" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tableLayoutPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>957, 242</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnSearchRoute" Row="2" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="btnSearchRule" Row="5" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="editTargetQty" Row="7" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnBOM" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="editRemark" Row="7" RowSpan="1" Column="4" ColumnSpan="2" /&gt;&lt;Control Name="LabRemark" Row="7" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="dtScheduleDate" Row="5" RowSpan="1" Column="4" ColumnSpan="2" /&gt;&lt;Control Name="dtDueDate" Row="6" RowSpan="1" Column="4" ColumnSpan="2" /&gt;&lt;Control Name="LabFactory" Row="0" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="btnSearchPart" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="LabWO" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editWO" Row="1" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="LabOutProcess" Row="4" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="combOutProcess" Row="4" RowSpan="1" Column="4" ColumnSpan="2" /&gt;&lt;Control Name="combInProcess" Row="3" RowSpan="1" Column="4" ColumnSpan="2" /&gt;&lt;Control Name="combRoute" Row="2" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="LabInProcess" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="LabRoute" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="LabStatus" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="LabLine" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="LabWoStatus" Row="2" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="LabPart" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editPart" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="LabVersion" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="combVersion" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="LabDueDate" Row="6" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="LabWoRule" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="LabScheduleDate" Row="5" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="combWoRule" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="LabWoType" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="combWoType" Row="6" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="LabTargetQty" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,50,Absolute,60,AutoSize,0,Percent,50,Absolute,50" /&gt;&lt;Rows Styles="Absolute,32,Absolute,30,Absolute,30,Absolute,30,Absolute,30,Absolute,30,Absolute,30,Absolute,30,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="dtDueDate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dtDueDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>600, 185</value>
+  </data>
+  <data name="dtDueDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 30</value>
+  </data>
+  <data name="dtDueDate.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;dtDueDate.Name" xml:space="preserve">
+    <value>dtDueDate</value>
+  </data>
+  <data name="&gt;&gt;dtDueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtDueDate.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;dtDueDate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="MenuAppend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 24</value>
+  </data>
+  <data name="MenuAppend.Text" xml:space="preserve">
+    <value>Append</value>
+  </data>
+  <data name="MenuRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 24</value>
+  </data>
+  <data name="MenuRemove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 52</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>859, 9</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>772, 9</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 379</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>959, 44</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>3, 23</value>
+  </metadata>
+  <data name="toolStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFKSURBVDhPYxi84O4C9v+35nH+vzqH6//FGbz/ocLEg+tA
+        jX8eNf7/87Dh/8nJAqQbcH46L9yAgz0ipBtwfJIgUHPd/z8Pqv7vaBcnbMClmTz/z07l+38SqPFIv9D/
+        fd0iQM3l///eK/q/vkHm/6oauf9LKxX/zy9V/j+rSBXTwFNAf/55WA/UVAvElf//3CsB4rz/f+9m/v97
+        J/n/39tx///djADikP+TcjQxDTjUKwx27t/7pUCNBUCN2UCNqUCNCf//3YoGagz7/+9G0P9/1/3+d6Xp
+        Yhqws13i/5Zmqf/rwM6V/7+kQvH/31sxQI3h/6fmafyfkKX1vztD9397qv7/5kRDwmEyG+hPkHP/3Qj4
+        35OhQ1gDOgD5898NfyD2+9+arE+6Ad3pumD/gnB9nBHpBrQkGfxviDf8XxNr/L8y2oR0A+gEGBgAJCPY
+        nnX8iGkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 24</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAE3SURBVDhPrZMhSENhEMdfXFw0KizswYJrGicYtubAoGAY
+        siCyIMMgw2JYEoOYRGwWg0GwCBq35oLwGYQZFhYXX/x5d++DMd7b5oZ/ON5799397//d3Qv+BXw7aFSh
+        18G7FgNPD1CvQE3s/WUuCY93kzE8C8HJfkygRPc3qSSq0M7bzeQ5nx8xyU4R9jbt3R8ZODuM/det2QpV
+        HuUQdiX4/Bh++nDVgoMte/qw2WAgSVpN5aoiJTudVDQX9ORKmqgEYt79d5iCjRWi9azZQiRWubRGVJfd
+        0B2RhkYFIZFx+5DpsGZJcr8UEnXHi6WjczlRI9PyriRsVNshriDSX5MLNSoXGdWq6QR03+zObjXD8Gh6
+        xzu5DLoz/nMMbi8Z5iVZqugYvTsBLprw5VIIxGkLs+wPtRyC4BemjepAypFSRwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton2.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 24</value>
+  </data>
+  <data name="toolStripButton2.Text" xml:space="preserve">
+    <value>toolStripButton2</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 95</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>tpPackingSpec</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>959, 244</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="columnPKSpec.Text" xml:space="preserve">
+    <value>Packing Spec</value>
+  </data>
+  <data name="columnPKSpec.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="splitter1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="splitter1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="splitter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 244</value>
+  </data>
+  <data name="splitter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>959, 5</value>
+  </data>
+  <data name="splitter1.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Name" xml:space="preserve">
+    <value>splitter1</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitter1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LVPkSPec.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="PKSPEC_NAME.Text" xml:space="preserve">
+    <value>Packing Spec</value>
+  </data>
+  <data name="PKSPEC_NAME.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="BOX_QTY.Text" xml:space="preserve">
+    <value>Box</value>
+  </data>
+  <data name="BOX_QTY.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="CARTON_QTY.Text" xml:space="preserve">
+    <value>Carton</value>
+  </data>
+  <data name="CARTON_QTY.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="PALLET_QTY.Text" xml:space="preserve">
+    <value>Pallet</value>
+  </data>
+  <data name="PALLET_QTY.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="LVPkSPec.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體-ExtB, 11.25pt</value>
+  </data>
+  <data name="LVPkSPec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 3</value>
+  </data>
+  <data name="LVPkSPec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>917, 95</value>
+  </data>
+  <data name="LVPkSPec.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LVPkSPec.Name" xml:space="preserve">
+    <value>LVPkSPec</value>
+  </data>
+  <data name="&gt;&gt;LVPkSPec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LVPkSPec.Parent" xml:space="preserve">
+    <value>tpPackingSpec</value>
+  </data>
+  <data name="&gt;&gt;LVPkSPec.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tpPackingSpec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tpPackingSpec.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpPackingSpec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>951, 101</value>
+  </data>
+  <data name="tpPackingSpec.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpPackingSpec.Text" xml:space="preserve">
+    <value>Packing Spec</value>
+  </data>
+  <data name="&gt;&gt;tpPackingSpec.Name" xml:space="preserve">
+    <value>tpPackingSpec</value>
+  </data>
+  <data name="&gt;&gt;tpPackingSpec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpPackingSpec.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tpPackingSpec.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgvProperty.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvProperty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="dgvProperty.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dgvProperty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>945, 95</value>
+  </data>
+  <data name="dgvProperty.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dgvProperty.Name" xml:space="preserve">
+    <value>dgvProperty</value>
+  </data>
+  <data name="&gt;&gt;dgvProperty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvProperty.Parent" xml:space="preserve">
+    <value>tpProperty</value>
+  </data>
+  <data name="&gt;&gt;dgvProperty.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpProperty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tpProperty.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpProperty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>951, 101</value>
+  </data>
+  <data name="tpProperty.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpProperty.Text" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="&gt;&gt;tpProperty.Name" xml:space="preserve">
+    <value>tpProperty</value>
+  </data>
+  <data name="&gt;&gt;tpProperty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpProperty.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tpProperty.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 249</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>959, 130</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>959, 423</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="&gt;&gt;MenuAppend.Name" xml:space="preserve">
+    <value>MenuAppend</value>
+  </data>
+  <data name="&gt;&gt;MenuAppend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuRemove.Name" xml:space="preserve">
+    <value>MenuRemove</value>
+  </data>
+  <data name="&gt;&gt;MenuRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton2.Name" xml:space="preserve">
+    <value>toolStripButton2</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnPKSpec.Name" xml:space="preserve">
+    <value>columnPKSpec</value>
+  </data>
+  <data name="&gt;&gt;columnPKSpec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PKSPEC_NAME.Name" xml:space="preserve">
+    <value>PKSPEC_NAME</value>
+  </data>
+  <data name="&gt;&gt;PKSPEC_NAME.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BOX_QTY.Name" xml:space="preserve">
+    <value>BOX_QTY</value>
+  </data>
+  <data name="&gt;&gt;BOX_QTY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CARTON_QTY.Name" xml:space="preserve">
+    <value>CARTON_QTY</value>
+  </data>
+  <data name="&gt;&gt;CARTON_QTY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PALLET_QTY.Name" xml:space="preserve">
+    <value>PALLET_QTY</value>
+  </data>
+  <data name="&gt;&gt;PALLET_QTY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>fData</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

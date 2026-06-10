@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PackingDll</name>
+    </assembly>
+    <members>
+        <member name="F:SajetFilter.fFilter.components">
+            <summary>
+            設計工具所需的變數。
+            </summary>
+        </member>
+        <member name="M:SajetFilter.fFilter.Dispose(System.Boolean)">
+            <summary>
+            清除任何使用中的資源。
+            </summary>
+            <param name="disposing">如果應該公開 Managed 資源則為 true，否則為 false。</param>
+        </member>
+        <member name="M:SajetFilter.fFilter.InitializeComponent">
+             <summary>
+             此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改這個方法的內容。
+            
+             </summary>
+        </member>
+        <member name="F:PackingDll.fMain.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PackingDll.fMain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PackingDll.fMain.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:PackingDll.fPasswd.components">
+            <summary>
+            設計工具所需的變數。
+            </summary>
+        </member>
+        <member name="M:PackingDll.fPasswd.Dispose(System.Boolean)">
+            <summary>
+            清除任何使用中的資源。
+            </summary>
+            <param name="disposing">如果應該公開 Managed 資源則為 true，否則為 false。</param>
+        </member>
+        <member name="M:PackingDll.fPasswd.InitializeComponent">
+             <summary>
+             此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改這個方法的內容。
+            
+             </summary>
+        </member>
+        <member name="F:PackingDll.fPKSpec.components">
+            <summary>
+            設計工具所需的變數。
+            </summary>
+        </member>
+        <member name="M:PackingDll.fPKSpec.Dispose(System.Boolean)">
+            <summary>
+            清除任何使用中的資源。
+            </summary>
+            <param name="disposing">如果應該公開 Managed 資源則為 true，否則為 false。</param>
+        </member>
+        <member name="M:PackingDll.fPKSpec.InitializeComponent">
+             <summary>
+             此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改這個方法的內容。
+            
+             </summary>
+        </member>
+        <member name="F:PackingDll.fSettings.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PackingDll.fSettings.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PackingDll.fSettings.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:PackingDll.fUnfinish.components">
+            <summary>
+            設計工具所需的變數。
+            </summary>
+        </member>
+        <member name="M:PackingDll.fUnfinish.Dispose(System.Boolean)">
+            <summary>
+            清除任何使用中的資源。
+            </summary>
+            <param name="disposing">如果應該公開 Managed 資源則為 true，否則為 false。</param>
+        </member>
+        <member name="M:PackingDll.fUnfinish.InitializeComponent">
+             <summary>
+             此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改這個方法的內容。
+            
+             </summary>
+        </member>
+        <member name="M:PackingDll.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:PackingDll.Properties.Resources">
+            <summary>
+              用於查詢當地語系化字串等的強類型資源類別。
+            </summary>
+        </member>
+        <member name="P:PackingDll.Properties.Resources.ResourceManager">
+            <summary>
+              傳回這個類別使用的快取的 ResourceManager 執行個體。
+            </summary>
+        </member>
+        <member name="P:PackingDll.Properties.Resources.Culture">
+            <summary>
+              覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+              使用這個強類型資源類別的資源查閱。
+            </summary>
+        </member>
+        <member name="P:PackingDll.Properties.Resources.ARROWDown">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:PackingDll.Properties.Resources.ARROWUp">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:PackingDll.Properties.Resources.background">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,93 @@
+﻿<Chroma>
+  <繁體中文>
+ <Message Name="Current / Total" Value="目前箱數/總箱數" />
+<Message Name="Target Qty" Value="目標量" />
+<Message Name="Carton Lot Number is " Value="此批總箱數" />
+<Message Name="This Lot Close" Value="此批已完成" />
+<Message Name="Input Carton Lot Number " Value="請輸入正確總箱數" />
+<Message Name="Input Number in Carton Lot Number" Value="請輸入數字" />
+<Message Name="OK" Value="版本" />
+    <Message Name="OK" Value="確定" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Search" Value="搜尋條件" />
+    <Message Name="Clear" Value="清除" />
+    <Message Name="Work Order" Value="工單" />
+    <Message Name="Part No" Value="料號" />
+    <Message Name="Packing Base" Value="包裝依據" />
+    <Message Name="Packing Spec" Value="包裝方式" />
+    <Message Name="Box" Value="內盒UDI" />
+    <Message Name="Carton" Value="外箱UDI" />
+    <Message Name="Pallet" Value="箱號" />
+    <Message Name="Change Spec" Value="更改規格" />
+    <Message Name="Close Pallet" Value="關閉箱號" />
+    <Message Name="Pallet No" Value="箱號" />
+    <Message Name="Close Carton" Value="關閉外箱UDI" />
+    <Message Name="Carton No" Value="外箱UDI" />
+    <Message Name="Close Box" Value="關閉內盒UDI" />
+    <Message Name="Box No" Value="內盒UDI" />
+    <Message Name="Close Inner Box" Value="關閉內袋" />
+    <Message Name="Inner Box" Value="內袋號" />
+    <Message Name="Inner" Value="內袋" />
+    <Message Name="Serial Number" Value="序號" />
+    <Message Name="Customer SN" Value="機台UDI" />
+    <Message Name="Defect Code" Value="不良現象代碼" />
+    <Message Name="Description" Value="描述說明" />
+    <Message Name="Packing Action" Value="包裝動作" />
+    <Message Name="S/N" Value="序號" />
+    <Message Name="Packing Spec." Value="包裝方式" />
+    <Message Name="Capacity" Value="容量" />
+    <Message Name="Quantity" Value="數量" />
+    <Message Name="Employee No" Value="員工帳號" />
+    <Message Name="Password" Value="密碼" />
+    <Message Name="All Pack Spec" Value="所有包裝方式" />
+    <Message Name="Sort" Value="排序" />
+    <Message Name="Work Order OK" Value="工單正確" />
+
+    <Message Name="By Work Order" Value="依工單" />
+    <Message Name="By Part No" Value="依料號" />
+    <Message Name="Customer SN Duplicate" Value="機台UDI重複" />
+    <Message Name="NO SN" Value="序號錯誤" />
+    <Message Name="No CSN Rule" Value="機台UDI規則未設定" />
+
+	  <Message Name="XT CODE NOT IN WO" Value="機台UDI不屬於目前工單" />
+	  <Message Name="BOX CODE NOT IN WO" Value="內盒UDI不屬於目前工單" />
+	  <Message Name="CARTOON CODE NOT IN WO" Value="外箱UDI不屬於目前工單" />
+	  <Message Name="XT CODE NOT IN BOX CODE" Value="機台UDI不屬於目前內盒UDI" />
+	  <Message Name="BOX CODE NOT IN CARTOON CODE" Value="內盒UDI不屬於目前外箱UDI" />
+	  <Message Name="Not Find WO Serial Number" Value="目前工單此站點沒有序號" />
+    <Message Name="OK" Value="確定" />
+    <Message Name="Factory" Value="廠別" />
+    <Message Name="Production Line" Value="生產線別" />
+    <Message Name="Terminal" Value="工作站" />
+    <Message Name="Process" Value="製程" />
+    <Message Name="Stage" Value="區段" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Station" Value="作業站" />
+    <Message Name="CapsLock On" Value="字元轉大寫" />
+    <Message Name="Input Defect" Value="允許輸入不良" />
+    <Message Name="Packing Action" Value="包裝動作" />
+    <Message Name="Rule Function" Value="檢查規則" />
+    <Message Name="Packing Base" Value="包裝依據" />
+    <Message Name="Create Type" Value="產生方式" />
+    <Message Name="Print Label" Value="標籤列印" />
+    <Message Name="Print Port" Value="列印埠" />
+    <Message Name="Print Method" Value="列印方式" />
+    <Message Name="Print Qty" Value="張數" />
+    <Message Name="Pallet No" Value="箱號" />
+    <Message Name="Create Type" Value="產生方式" />
+    <Message Name="Carton No" Value="外箱UDI" />
+    <Message Name="Box No" Value="內盒UDI" />
+    <Message Name="Customer SN" Value="機台UDI" />
+    <Message Name="Option" Value="選項" />
+    <Message Name="Work Order" Value="工單" />
+    <Message Name="Part No" Value="料號" />
+    <Message Name="Input" Value="手動輸入" />
+    <Message Name="System Create" Value="系統自動產生" />
+    <Message Name="Don't Change" Value="不變(或沒有)" />
+    <Message Name="CSN=SN" Value="機台UDI=廠內序號" />
+    <Message Name="Input (Released)" Value="手動輸入(已展開)" />
+    <Message Name="CSN=SN (Check)" Value="機台UDI=廠內序號 (需檢查)" />
+    <Message Name="Remove Customer SN(Defect)" Value="移除機台UDI(不良時)" />
+
+  </繁體中文>
+</Chroma>

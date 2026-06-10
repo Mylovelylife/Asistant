@@ -1,0 +1,22 @@
+D:\Project\協益\sirtec\Chroma Application Client\WOManager\CWoManagerPcs.xml
+D:\Project\協益\sirtec\Chroma Application Client\WOManager\CWoManagerPcs.dll
+D:\Project\協益\sirtec\Chroma Application Client\WOManager\CWoManagerPcs.pdb
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.csproj.AssemblyReference.cache
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.fAssignMAC.resources
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.fBomData.resources
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.fBomData_New.resources
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.fData.resources
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\SajetFilter.fFilter.resources
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.fHistory.resources
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.fFilterSelect.resources
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.fLog.resources
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.fMain.resources
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.fMultiSelect.resources
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.fPKSpec.resources
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.fProcessLink.resources
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.fWoBom.resources
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.csproj.GenerateResource.cache
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.csproj.CoreCompileInputs.cache
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManag.612D9940.Up2Date
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.dll
+D:\Project\協益\sirtec\WOManager\CWoManagerPcs\obj\Debug\CWoManagerPcs.pdb
