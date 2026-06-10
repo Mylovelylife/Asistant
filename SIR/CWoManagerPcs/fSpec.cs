@@ -98,6 +98,7 @@ namespace CWoManagerPcs
 
                 int iRowCount = range.Rows.Count;
                 int iImported = 0;
+                int iSkipped = 0;
 
                 for (int i = 2; i <= iRowCount; i++) // 從第2行開始（跳過標題）
                 {
@@ -106,8 +107,8 @@ namespace CWoManagerPcs
 
                     try
                     {
-                        sWorkOrder = ((Excel.Range)range.Cells[i, 1]).Text.ToString();
-                        sSerialNumber = ((Excel.Range)range.Cells[i, 2]).Text.ToString();
+                        sWorkOrder = ((Excel.Range)range.Cells[i, 1]).Text.ToString().Trim();
+                        sSerialNumber = ((Excel.Range)range.Cells[i, 2]).Text.ToString().Trim();
                     }
                     catch
                     {
@@ -117,15 +118,23 @@ namespace CWoManagerPcs
                     if (string.IsNullOrEmpty(sWorkOrder) && string.IsNullOrEmpty(sSerialNumber))
                         continue;
 
-                    // 寫入 G_SN_SPEC_STATUS
-                    InsertSpecStatus(sWorkOrder, sSerialNumber, "");
-                    iImported++;
+                    // 檢查資料是否存在於 G_SN_STATUS
+                    if (CheckSNStatusExists(sWorkOrder, sSerialNumber))
+                    {
+                        InsertSpecStatus(sWorkOrder, sSerialNumber, "");
+                        iImported++;
+                    }
+                    else
+                    {
+                        iSkipped++;
+                    }
                 }
 
                 wb.Close(false);
                 app.Quit();
 
-                SajetCommon.Show_Message("Import Success: " + iImported + " records", 3);
+                SajetCommon.Show_Message("Import Success: " + iImported + " records" + Environment.NewLine + 
+                                       "Skipped (not in G_SN_STATUS): " + iSkipped + " records", 3);
             }
             catch (Exception ex)
             {
@@ -175,14 +184,28 @@ namespace CWoManagerPcs
             try
             {
                 int iGenerated = 0;
+                int iSkipped = 0;
+                int iPadding = sStartNo.Length;
+
                 for (int i = iStart; i <= iEnd; i++)
                 {
-                    string sSerialNumber = sSpecCode + i.ToString().PadLeft(sStartNo.Length, '0');
-                    InsertSpecStatus("", sSerialNumber, sSpecCode);
-                    iGenerated++;
+                    string sSerialNumber = sSpecCode + i.ToString().PadLeft(iPadding, '0');
+
+                    // 檢查該序號是否存在於 G_SN_STATUS
+                    string sWorkOrder = GetWorkOrderBySerialNumber(sSerialNumber);
+                    if (!string.IsNullOrEmpty(sWorkOrder))
+                    {
+                        InsertSpecStatus(sWorkOrder, sSerialNumber, sSpecCode);
+                        iGenerated++;
+                    }
+                    else
+                    {
+                        iSkipped++;
+                    }
                 }
 
-                SajetCommon.Show_Message("Generate Success: " + iGenerated + " records", 3);
+                SajetCommon.Show_Message("Generate Success: " + iGenerated + " records" + Environment.NewLine +
+                                       "Skipped (not in G_SN_STATUS): " + iSkipped + " records", 3);
             }
             catch (Exception ex)
             {
@@ -203,12 +226,19 @@ namespace CWoManagerPcs
             try
             {
                 // 從 G_SN_STATUS 取得該工單的所有序號
-                string sSQL = @"SELECT SERIAL_NUMBER FROM SAJET.G_SN_STATUS 
+                string sSQL = @"SELECT WORK_ORDER, SERIAL_NUMBER 
+                               FROM SAJET.G_SN_STATUS 
                                WHERE WORK_ORDER = :WORK_ORDER 
                                ORDER BY SERIAL_NUMBER";
                 object[][] Params = new object[1][];
                 Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "WORK_ORDER", sWorkOrder };
                 DataSet ds = ClientUtils.ExecuteSQL(sSQL, Params);
+
+                if (ds.Tables[0].Rows.Count == 0)
+                {
+                    SajetCommon.Show_Message("Work Order not found in G_SN_STATUS", 0);
+                    return;
+                }
 
                 int iImported = 0;
                 foreach (DataRow dr in ds.Tables[0].Rows)
@@ -226,16 +256,56 @@ namespace CWoManagerPcs
             }
         }
 
+        /// <summary>
+        /// 檢查資料是否存在於 G_SN_STATUS
+        /// </summary>
+        private bool CheckSNStatusExists(string sWorkOrder, string sSerialNumber)
+        {
+            string sSQL = @"SELECT COUNT(*) as CNT 
+                          FROM SAJET.G_SN_STATUS 
+                          WHERE WORK_ORDER = :WORK_ORDER 
+                          AND SERIAL_NUMBER = :SERIAL_NUMBER";
+            object[][] Params = new object[2][];
+            Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "WORK_ORDER", sWorkOrder };
+            Params[1] = new object[] { ParameterDirection.Input, OracleType.VarChar, "SERIAL_NUMBER", sSerialNumber };
+            DataSet ds = ClientUtils.ExecuteSQL(sSQL, Params);
+            
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                return Convert.ToInt32(ds.Tables[0].Rows[0]["CNT"]) > 0;
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// 透過序號取得工單編號
+        /// </summary>
+        private string GetWorkOrderBySerialNumber(string sSerialNumber)
+        {
+            string sSQL = @"SELECT WORK_ORDER 
+                          FROM SAJET.G_SN_STATUS 
+                          WHERE SERIAL_NUMBER = :SERIAL_NUMBER";
+            object[][] Params = new object[1][];
+            Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "SERIAL_NUMBER", sSerialNumber };
+            DataSet ds = ClientUtils.ExecuteSQL(sSQL, Params);
+
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                return ds.Tables[0].Rows[0]["WORK_ORDER"].ToString();
+            }
+            return "";
+        }
+
         private void InsertSpecStatus(string sWorkOrder, string sSerialNumber, string sSpecCode)
         {
             string sSQL = @"INSERT INTO SAJET.G_SN_SPEC_STATUS 
-                          (WORK_ORDER, SERIAL_NUMBER, SPEC_CODE, UPDATE_TIME, UPDATE_USERID)
+                          (WORK_ORDER, SERIAL_NUMBER, SERIAL_STATUS, CREATE_TIME, UPDATE_USERID)
                           VALUES 
-                          (:WORK_ORDER, :SERIAL_NUMBER, :SPEC_CODE, SYSDATE, :UPDATE_USERID)";
+                          (:WORK_ORDER, :SERIAL_NUMBER, :SERIAL_STATUS, SYSDATE, :UPDATE_USERID)";
             object[][] Params = new object[4][];
             Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "WORK_ORDER", sWorkOrder };
             Params[1] = new object[] { ParameterDirection.Input, OracleType.VarChar, "SERIAL_NUMBER", sSerialNumber };
-            Params[2] = new object[] { ParameterDirection.Input, OracleType.VarChar, "SPEC_CODE", sSpecCode };
+            Params[2] = new object[] { ParameterDirection.Input, OracleType.VarChar, "SERIAL_STATUS", sSpecCode };
             Params[3] = new object[] { ParameterDirection.Input, OracleType.VarChar, "UPDATE_USERID", ClientUtils.UserPara1 };
             ClientUtils.ExecuteSQL(sSQL, Params);
         }
