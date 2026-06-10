@@ -216,7 +216,7 @@ namespace CWoManagerPcs
                 if (!string.IsNullOrEmpty(TableDefine.tGridField[i].sFieldName))
                 {
                     lablTemp = new Label();
-                    lablTemp.Font = new Font("ÐÂ?Ã÷ów", 11);
+                    lablTemp.Font = new Font("ï¿½ï¿½?ï¿½ï¿½ï¿½w", 11);
                     lablTemp.Text = TableDefine.tGridField[i].sCaption;
                     lablTemp.TextAlign = ContentAlignment.MiddleLeft;
                     //lablTemp.Dock = DockStyle.Fill;
@@ -228,7 +228,7 @@ namespace CWoManagerPcs
                         ddlTemp = new ComboBox();
                         //ddlTemp.Dock = DockStyle.Fill;
                         ddlTemp.DropDownStyle = ComboBoxStyle.DropDownList;
-                        ddlTemp.Font = new Font("ÐÂ?Ã÷ów", 11);
+                        ddlTemp.Font = new Font("ï¿½ï¿½?ï¿½ï¿½ï¿½w", 11);
                         ddlTemp.Anchor = AnchorStyles.Left | AnchorStyles.Right;
                         tableLayoutPanel1.Controls.Add(ddlTemp, iCol + 1, iRow);
                         m_tControlData[i].combControl = ddlTemp;
@@ -242,7 +242,7 @@ namespace CWoManagerPcs
                         //txtTemp.Dock = DockStyle.Fill;
                         txtTemp.Anchor = AnchorStyles.Left | AnchorStyles.Right;
                         txtTemp.Name = "labl" + TableDefine.tGridField[i].sFieldName;
-                        txtTemp.Font = new Font("ÐÂ?Ã÷ów", 11, FontStyle.Bold);
+                        txtTemp.Font = new Font("ï¿½ï¿½?ï¿½ï¿½ï¿½w", 11, FontStyle.Bold);
                         tableLayoutPanel1.Controls.Add(txtTemp, iCol + 1, iRow);
                         m_tControlData[i].txtControl = txtTemp;
                     }
@@ -283,10 +283,10 @@ namespace CWoManagerPcs
             toolStrip1.Items.Insert(10, host2);
             dtpCreateDate2.CloseUp += new EventHandler(dtpCreateDate2_CloseUp);
 
-            //DateTimepicker¹w³]®É¶¡¬°·í¤Ñ¤é´Á
-            //¤C¤Ñ«eªº00:00:00
+            //DateTimepickerï¿½wï¿½]ï¿½É¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¤ï¿½ï¿½
+            //ï¿½Cï¿½Ñ«eï¿½ï¿½00:00:00
             this.dtpCreateDate1.Value = DateTime.Today.AddDays(-7);
-            //¤µ¤Ñ23:59:59
+            //ï¿½ï¿½ï¿½ï¿½23:59:59
             this.dtpCreateDate2.Value = DateTime.Today.AddDays(1).AddSeconds(-1);
 
             this.Text = this.Text + "(" + SajetCommon.g_sFileVersion + ")";
@@ -329,9 +329,9 @@ namespace CWoManagerPcs
 
             }
             combFactory.SelectedIndexChanged += new EventHandler(combFactory_SelectedIndexChanged);
-            //Åª¨úSYS_BASE³]©w­È
+            //Åªï¿½ï¿½SYS_BASEï¿½]ï¿½wï¿½ï¿½
             int iSelectInx = combWoStatus.Items.Count - 1;
-            dsTemp = ClientUtils.GetSysBaseData(g_sProgram, "Default Search Wo Status"); //¹w³]¿ï¾ÜWO Status
+            dsTemp = ClientUtils.GetSysBaseData(g_sProgram, "Default Search Wo Status"); //ï¿½wï¿½]ï¿½ï¿½ï¿½WO Status
             string sDefaultWoStatus = iSelectInx.ToString();
             if (dsTemp.Tables[0].Rows.Count > 0)
             {
@@ -467,7 +467,7 @@ namespace CWoManagerPcs
                 if (chkWOBom.Checked)
                     sCondition += "AND (a.WO_CREATE_DATE >= to_date('" + sCreateDate1 + @"','YYYY/MM/DD HH24:MI:SS') AND a.WO_CREATE_DATE <= to_date(' " + sCreateDate2 + "','YYYY/MM/DD HH24:MI:SS'))";
 
-                //2015/10/5 for±]¶T ¼W¥[¤@­Ó¤u³æª¬ºA¿z¿ï±ø¥ó¡u¦³®Ä¤u³æ¡v¡A¬O¥]§t¦h­Ó¤u³æª¬ºA¡A§Y©Ò¦³ª¬ºA¦©±¼¼È°±¸ò¨ú®ø
+                //2015/10/5 forï¿½]ï¿½T ï¿½Wï¿½[ï¿½@ï¿½Ó¤uï¿½æª¬ï¿½Aï¿½zï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½Ä¤uï¿½ï¿½vï¿½Aï¿½Oï¿½]ï¿½tï¿½hï¿½Ó¤uï¿½æª¬ï¿½Aï¿½Aï¿½Yï¿½Ò¦ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½È°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
                 if (combWoStatus.SelectedIndex < 7)
                 {
                     sCondition += " AND A.WO_STATUS = :WO_STATUS ";
@@ -515,7 +515,7 @@ namespace CWoManagerPcs
                 gvData.DataSource = dsTemp.Tables[0];
                 //(new MESGridView.DisplayGridView()).GetGridView(gvData, sSQL, Params, out memoryCache);
                 gvData.SelectionChanged += new EventHandler(gvData_SelectionChanged);
-                //Äæ¦ìTitle 
+                //ï¿½ï¿½ï¿½Title 
                 foreach (DataGridViewColumn dc in gvData.Columns)
                 {
                     if (g_DBInitial[g_sProgramType + "Grid"].slValue.IndexOf(dc.Name) > -1)
@@ -527,7 +527,7 @@ namespace CWoManagerPcs
                         dc.Visible = false;
                 }
 
-                //¨Ì·ÓSYS_BASE_PARAM.Gird±Æ§ÇÄæ¦ì
+                //ï¿½Ì·ï¿½SYS_BASE_PARAM.Girdï¿½Æ§ï¿½ï¿½ï¿½ï¿½
                 foreach (string sColName in g_DBInitial[g_sProgramType + "Grid"].slValue)
                 {
                     gvData.Columns[sColName].DisplayIndex = g_DBInitial[g_sProgramType + "Grid"].slValue.IndexOf(sColName);
@@ -651,7 +651,7 @@ namespace CWoManagerPcs
                 {
                     if (GridData.Columns[i].Visible)
                     {
-                        //²Ä¤@­Ó¦³Åã¥ÜªºÄæ¦ì(focus¨ìÁôÂÃÄæ¦ì·|¿ù»~)
+                        //ï¿½Ä¤@ï¿½Ó¦ï¿½ï¿½ï¿½Üªï¿½ï¿½ï¿½ï¿½(focusï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½~)
                         sShowField = GridData.Columns[i].Name;
                         break;
                     }
@@ -670,7 +670,7 @@ namespace CWoManagerPcs
                             sCondition = sCondition + " and " + tsField[j].ToString() + "='" + tsValue[j].ToString() + "' ";
 
                     }
-                    //§ï¥ÎSQL§ä,¤£¥ÑGridÅª­È,§_«h³t«×·|ºC
+                    //ï¿½ï¿½ï¿½SQLï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½GridÅªï¿½ï¿½,ï¿½_ï¿½hï¿½tï¿½×·|ï¿½C
                     string sText = "select idx from ("
                                  + " Select aa.*,rownum-1 idx from ("
                                  + sSQL
@@ -818,7 +818,7 @@ namespace CWoManagerPcs
                 }
                 else
                 {
-                    //¥u¥i¥HÅª,¤£¥i­×§ï
+                    //ï¿½uï¿½iï¿½HÅª,ï¿½ï¿½ï¿½iï¿½×§ï¿½
                     fB.LabType.Text = "Read Only";
                     fB.TreeBomData.AllowDrop = false;
                     fB.LVPart.AllowDrop = false;
@@ -863,7 +863,7 @@ namespace CWoManagerPcs
                 fH.LabCount.Text = dsTemp.Tables[0].Rows.Count.ToString();
                 fH.LabWO.Text = sFieldID;
 
-                //´À´«Äæ¦ì¦WºÙ
+                //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½
                 for (int i = 0; i <= fH.dgvHistory.Columns.Count - 1; i++)
                 {
                     string sGridField = fH.dgvHistory.Columns[i].HeaderText;
@@ -927,7 +927,7 @@ namespace CWoManagerPcs
             if (g_iReleasePri >= 1)
             {
                 //if ((combWoStatus.SelectedIndex == combWoStatus.Items.Count - 1 && sStatus == "1") || (combWoStatus.SelectedIndex == 1))
-                //­×§ï¬°combWoStatus.Items.Count - 2  ¬O¼W¥[¤u³æ¿z¿ï¶µ¥Ø©Ò½Õ¾ãªº  (¥þ³¡»P¦³®Ä¤u³æ¬Ò­n¥i®i¶}§Ç¸¹)
+                //ï¿½×§ï¬°combWoStatus.Items.Count - 2  ï¿½Oï¿½Wï¿½[ï¿½uï¿½ï¿½zï¿½ï¶µï¿½Ø©Ò½Õ¾ãªº  (ï¿½ï¿½ï¿½ï¿½ï¿½Pï¿½ï¿½ï¿½Ä¤uï¿½ï¿½Ò­nï¿½iï¿½iï¿½}ï¿½Ç¸ï¿½)
                 if ((combWoStatus.SelectedIndex >= combWoStatus.Items.Count - 2 && sStatus == "1") || (combWoStatus.SelectedIndex == 1))
                     btnRelease.Visible = true;
             }
@@ -1045,7 +1045,7 @@ namespace CWoManagerPcs
             if (SajetCommon.Show_Message(sMsg + " ?" + Environment.NewLine + sData, 2) != DialogResult.Yes)
                 return;
 
-            //§ó§ïª¬ºA
+            //ï¿½ï¿½ïª¬ï¿½A
             sSQL = @"UPDATE SAJET.G_WO_BASE
    SET WO_STATUS     = '2',
        UPDATE_USERID = :UPDATE_USERID,
@@ -1056,7 +1056,7 @@ namespace CWoManagerPcs
             Params[1] = new object[] { ParameterDirection.Input, OracleType.VarChar, "WORK_ORDER", sWO };
             ClientUtils.ExecuteSQL(sSQL, Params);
 
-            // ¬ö¿ýª¬ºAÅÜ§ó                     
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ü§ï¿½                     
             sSQL = @"Insert into SAJET.G_WO_STATUS 
                  (Work_Order,WO_Status,Memo,update_userid) 
                  values 
@@ -1246,7 +1246,7 @@ namespace CWoManagerPcs
             }
             else 
             {
-                MessageBox.Show("½Ð¿ï¾Ü¤u³æ");
+                MessageBox.Show("ï¿½Ð¿ï¿½Ü¤uï¿½ï¿½");
             }
         }
 
@@ -1290,6 +1290,13 @@ namespace CWoManagerPcs
         private void chkWOBom_ValueChanged(object sender, EventArgs e)
         {
             ShowData();
+        }
+
+        private void btnSpec_Click(object sender, EventArgs e)
+        {
+            fSpec f = new fSpec();
+            f.ShowDialog();
+            f.Dispose();
         }
     }
 }

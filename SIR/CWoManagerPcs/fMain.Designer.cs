@@ -85,6 +85,7 @@
             this.btnAssignMAC = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.button1 = new System.Windows.Forms.Button();
+            this.btnSpec = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gvData)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -486,11 +487,23 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnSpec
+            // 
+            this.btnSpec.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.btnSpec.Location = new System.Drawing.Point(750, 10);
+            this.btnSpec.Name = "btnSpec";
+            this.btnSpec.Size = new System.Drawing.Size(100, 25);
+            this.btnSpec.TabIndex = 100;
+            this.btnSpec.Text = "SPEC RULE";
+            this.btnSpec.UseVisualStyleBackColor = true;
+            this.btnSpec.Click += new System.EventHandler(this.btnSpec_Click);
+            // 
             // fMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             resources.ApplyResources(this, "$this");
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSpec);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.splitter1);
             this.Controls.Add(this.panel2);
@@ -573,5 +586,6 @@
         private System.Windows.Forms.ToolStripButton btnAssignMAC;
         private System.Windows.Forms.BindingNavigator bindingNavigator1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSpec;
     }
 }
