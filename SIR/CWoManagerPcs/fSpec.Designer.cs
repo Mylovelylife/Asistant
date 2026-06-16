@@ -17,31 +17,30 @@ namespace CWoManagerPcs
 
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnClose = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.rbtWorkOrder = new System.Windows.Forms.RadioButton();
             this.rbtSpecCode = new System.Windows.Forms.RadioButton();
             this.rbtImportExcel = new System.Windows.Forms.RadioButton();
             this.panelWorkOrder = new System.Windows.Forms.Panel();
+            this.btnQueryWorkOrder = new System.Windows.Forms.Button();
             this.txtWorkOrder = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnQueryWorkOrder = new System.Windows.Forms.Button();
             this.panelSpecCode = new System.Windows.Forms.Panel();
+            this.btnGenerateSpec = new System.Windows.Forms.Button();
             this.txtEndNo = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtStartNo = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtSpecCode = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnGenerateSpec = new System.Windows.Forms.Button();
             this.panelImportExcel = new System.Windows.Forms.Panel();
             this.btnImportExcel = new System.Windows.Forms.Button();
             this.btnBrowse = new System.Windows.Forms.Button();
             this.txtExcelPath = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnClose = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -54,21 +53,10 @@ namespace CWoManagerPcs
             // 
             this.panel1.Controls.Add(this.btnClose);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 427);
+            this.panel1.Location = new System.Drawing.Point(0, 482);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(684, 50);
+            this.panel1.Size = new System.Drawing.Size(829, 50);
             this.panel1.TabIndex = 0;
-            // 
-            // btnClose
-            // 
-            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.btnClose.Location = new System.Drawing.Point(292, 10);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(100, 30);
-            this.btnClose.TabIndex = 0;
-            this.btnClose.Text = "關閉";
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // panel2
             // 
@@ -76,7 +64,7 @@ namespace CWoManagerPcs
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(684, 427);
+            this.panel2.Size = new System.Drawing.Size(829, 482);
             this.panel2.TabIndex = 1;
             // 
             // groupBox1
@@ -87,10 +75,11 @@ namespace CWoManagerPcs
             this.groupBox1.Controls.Add(this.panelWorkOrder);
             this.groupBox1.Controls.Add(this.panelSpecCode);
             this.groupBox1.Controls.Add(this.panelImportExcel);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(660, 403);
+            this.groupBox1.Size = new System.Drawing.Size(829, 482);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "SPEC 維護";
@@ -99,9 +88,9 @@ namespace CWoManagerPcs
             // 
             this.rbtWorkOrder.AutoSize = true;
             this.rbtWorkOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.rbtWorkOrder.Location = new System.Drawing.Point(20, 130);
+            this.rbtWorkOrder.Location = new System.Drawing.Point(30, 350);
             this.rbtWorkOrder.Name = "rbtWorkOrder";
-            this.rbtWorkOrder.Size = new System.Drawing.Size(105, 24);
+            this.rbtWorkOrder.Size = new System.Drawing.Size(98, 24);
             this.rbtWorkOrder.TabIndex = 2;
             this.rbtWorkOrder.TabStop = true;
             this.rbtWorkOrder.Text = "指定工單";
@@ -112,9 +101,9 @@ namespace CWoManagerPcs
             // 
             this.rbtSpecCode.AutoSize = true;
             this.rbtSpecCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.rbtSpecCode.Location = new System.Drawing.Point(20, 70);
+            this.rbtSpecCode.Location = new System.Drawing.Point(23, 193);
             this.rbtSpecCode.Name = "rbtSpecCode";
-            this.rbtSpecCode.Size = new System.Drawing.Size(105, 24);
+            this.rbtSpecCode.Size = new System.Drawing.Size(115, 24);
             this.rbtSpecCode.TabIndex = 1;
             this.rbtSpecCode.TabStop = true;
             this.rbtSpecCode.Text = "指定特徵碼";
@@ -126,7 +115,7 @@ namespace CWoManagerPcs
             this.rbtImportExcel.AutoSize = true;
             this.rbtImportExcel.Checked = true;
             this.rbtImportExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.rbtImportExcel.Location = new System.Drawing.Point(20, 20);
+            this.rbtImportExcel.Location = new System.Drawing.Point(30, 54);
             this.rbtImportExcel.Name = "rbtImportExcel";
             this.rbtImportExcel.Size = new System.Drawing.Size(105, 24);
             this.rbtImportExcel.TabIndex = 0;
@@ -140,29 +129,11 @@ namespace CWoManagerPcs
             this.panelWorkOrder.Controls.Add(this.btnQueryWorkOrder);
             this.panelWorkOrder.Controls.Add(this.txtWorkOrder);
             this.panelWorkOrder.Controls.Add(this.label4);
-            this.panelWorkOrder.Location = new System.Drawing.Point(30, 160);
+            this.panelWorkOrder.Location = new System.Drawing.Point(144, 335);
             this.panelWorkOrder.Name = "panelWorkOrder";
             this.panelWorkOrder.Size = new System.Drawing.Size(600, 100);
             this.panelWorkOrder.TabIndex = 5;
             this.panelWorkOrder.Visible = false;
-            // 
-            // txtWorkOrder
-            // 
-            this.txtWorkOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtWorkOrder.Location = new System.Drawing.Point(120, 20);
-            this.txtWorkOrder.Name = "txtWorkOrder";
-            this.txtWorkOrder.Size = new System.Drawing.Size(300, 30);
-            this.txtWorkOrder.TabIndex = 0;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label4.Location = new System.Drawing.Point(20, 25);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 20);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "工單編號：";
             // 
             // btnQueryWorkOrder
             // 
@@ -175,6 +146,24 @@ namespace CWoManagerPcs
             this.btnQueryWorkOrder.UseVisualStyleBackColor = true;
             this.btnQueryWorkOrder.Click += new System.EventHandler(this.btnQueryWorkOrder_Click);
             // 
+            // txtWorkOrder
+            // 
+            this.txtWorkOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtWorkOrder.Location = new System.Drawing.Point(120, 20);
+            this.txtWorkOrder.Name = "txtWorkOrder";
+            this.txtWorkOrder.Size = new System.Drawing.Size(300, 26);
+            this.txtWorkOrder.TabIndex = 0;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label4.Location = new System.Drawing.Point(20, 25);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(94, 20);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "工單編號：";
+            // 
             // panelSpecCode
             // 
             this.panelSpecCode.Controls.Add(this.btnGenerateSpec);
@@ -184,65 +173,11 @@ namespace CWoManagerPcs
             this.panelSpecCode.Controls.Add(this.label2);
             this.panelSpecCode.Controls.Add(this.txtSpecCode);
             this.panelSpecCode.Controls.Add(this.label1);
-            this.panelSpecCode.Location = new System.Drawing.Point(30, 100);
+            this.panelSpecCode.Location = new System.Drawing.Point(144, 150);
             this.panelSpecCode.Name = "panelSpecCode";
             this.panelSpecCode.Size = new System.Drawing.Size(600, 150);
             this.panelSpecCode.TabIndex = 4;
             this.panelSpecCode.Visible = false;
-            // 
-            // txtEndNo
-            // 
-            this.txtEndNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtEndNo.Location = new System.Drawing.Point(320, 60);
-            this.txtEndNo.Name = "txtEndNo";
-            this.txtEndNo.Size = new System.Drawing.Size(150, 30);
-            this.txtEndNo.TabIndex = 0;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label3.Location = new System.Drawing.Point(230, 65);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 20);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "結束單號：";
-            // 
-            // txtStartNo
-            // 
-            this.txtStartNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtStartNo.Location = new System.Drawing.Point(120, 60);
-            this.txtStartNo.Name = "txtStartNo";
-            this.txtStartNo.Size = new System.Drawing.Size(100, 30);
-            this.txtStartNo.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label2.Location = new System.Drawing.Point(20, 65);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 20);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "起始單號：";
-            // 
-            // txtSpecCode
-            // 
-            this.txtSpecCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtSpecCode.Location = new System.Drawing.Point(120, 15);
-            this.txtSpecCode.Name = "txtSpecCode";
-            this.txtSpecCode.Size = new System.Drawing.Size(200, 30);
-            this.txtSpecCode.TabIndex = 4;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label1.Location = new System.Drawing.Point(20, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 20);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "特徵碼(前輟)：";
             // 
             // btnGenerateSpec
             // 
@@ -255,13 +190,67 @@ namespace CWoManagerPcs
             this.btnGenerateSpec.UseVisualStyleBackColor = true;
             this.btnGenerateSpec.Click += new System.EventHandler(this.btnGenerateSpec_Click);
             // 
+            // txtEndNo
+            // 
+            this.txtEndNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtEndNo.Location = new System.Drawing.Point(320, 60);
+            this.txtEndNo.Name = "txtEndNo";
+            this.txtEndNo.Size = new System.Drawing.Size(150, 26);
+            this.txtEndNo.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label3.Location = new System.Drawing.Point(230, 65);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(94, 20);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "結束單號：";
+            // 
+            // txtStartNo
+            // 
+            this.txtStartNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtStartNo.Location = new System.Drawing.Point(120, 60);
+            this.txtStartNo.Name = "txtStartNo";
+            this.txtStartNo.Size = new System.Drawing.Size(100, 26);
+            this.txtStartNo.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label2.Location = new System.Drawing.Point(20, 65);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(94, 20);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "起始單號：";
+            // 
+            // txtSpecCode
+            // 
+            this.txtSpecCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtSpecCode.Location = new System.Drawing.Point(120, 15);
+            this.txtSpecCode.Name = "txtSpecCode";
+            this.txtSpecCode.Size = new System.Drawing.Size(200, 26);
+            this.txtSpecCode.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label1.Location = new System.Drawing.Point(20, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(123, 20);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "特徵碼(前輟)：";
+            // 
             // panelImportExcel
             // 
             this.panelImportExcel.Controls.Add(this.btnImportExcel);
             this.panelImportExcel.Controls.Add(this.btnBrowse);
             this.panelImportExcel.Controls.Add(this.txtExcelPath);
             this.panelImportExcel.Controls.Add(this.label5);
-            this.panelImportExcel.Location = new System.Drawing.Point(30, 50);
+            this.panelImportExcel.Location = new System.Drawing.Point(144, 41);
             this.panelImportExcel.Name = "panelImportExcel";
             this.panelImportExcel.Size = new System.Drawing.Size(600, 50);
             this.panelImportExcel.TabIndex = 3;
@@ -293,7 +282,7 @@ namespace CWoManagerPcs
             this.txtExcelPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.txtExcelPath.Location = new System.Drawing.Point(120, 10);
             this.txtExcelPath.Name = "txtExcelPath";
-            this.txtExcelPath.Size = new System.Drawing.Size(290, 30);
+            this.txtExcelPath.Size = new System.Drawing.Size(290, 26);
             this.txtExcelPath.TabIndex = 2;
             // 
             // label5
@@ -302,14 +291,26 @@ namespace CWoManagerPcs
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label5.Location = new System.Drawing.Point(20, 15);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 20);
+            this.label5.Size = new System.Drawing.Size(101, 20);
             this.label5.TabIndex = 3;
             this.label5.Text = "Excel檔案：";
+            // 
+            // btnClose
+            // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.btnClose.Location = new System.Drawing.Point(333, 8);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(100, 30);
+            this.btnClose.TabIndex = 0;
+            this.btnClose.Text = "關閉";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // fSpec
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
-            this.ClientSize = new System.Drawing.Size(684, 477);
+            this.ClientSize = new System.Drawing.Size(829, 532);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "fSpec";
@@ -327,12 +328,12 @@ namespace CWoManagerPcs
             this.panelImportExcel.ResumeLayout(false);
             this.panelImportExcel.PerformLayout();
             this.ResumeLayout(false);
+
         }
 
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton rbtImportExcel;
@@ -355,5 +356,6 @@ namespace CWoManagerPcs
         private System.Windows.Forms.Button btnQueryWorkOrder;
         private System.Windows.Forms.TextBox txtWorkOrder;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnClose;
     }
 }

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\\u5354\u76CA\\sirtec\\WMS Inventory\\WMSPick\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F3909D-A69A-4FBB-9683-F42FF3CD6FEB}|WMSPick.csproj|d:\\project\\\u5354\u76CA\\sirtec\\wms inventory\\wmspick\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F3909D-A69A-4FBB-9683-F42FF3CD6FEB}|WMSPick.csproj|solutionrelative:fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F3909D-A69A-4FBB-9683-F42FF3CD6FEB}|WMSPick.csproj|d:\\project\\\u5354\u76CA\\sirtec\\wms inventory\\wmspick\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3F3909D-A69A-4FBB-9683-F42FF3CD6FEB}|WMSPick.csproj|solutionrelative:fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a011b5aff891df77b7e1ebe55612f237b0da759fb977ee425dbda96145b4ef6c\\MainWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WMSPick||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F3909D-A69A-4FBB-9683-F42FF3CD6FEB}|WMSPick.csproj|D:\\Project\\\u5354\u76CA\\sirtec\\WMS Inventory\\WMSPick\\wmspick.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B3F3909D-A69A-4FBB-9683-F42FF3CD6FEB}|WMSPick.csproj|solutionrelative:wmspick.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F3909D-A69A-4FBB-9683-F42FF3CD6FEB}|WMSPick.csproj|d:\\project\\\u5354\u76CA\\sirtec\\wms inventory\\wmspick\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fMain.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "D:\\Project\\\u5354\u76CA\\sirtec\\WMS Inventory\\WMSPick\\fMain.cs",
+              "RelativeDocumentMoniker": "fMain.cs",
+              "ToolTip": "D:\\Project\\\u5354\u76CA\\sirtec\\WMS Inventory\\WMSPick\\fMain.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "fMain.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T03:09:26.853Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WMSPick.xml",
+              "DocumentMoniker": "D:\\Project\\\u5354\u76CA\\sirtec\\WMS Inventory\\WMSPick\\WMSPick.xml",
+              "RelativeDocumentMoniker": "WMSPick.xml",
+              "ToolTip": "D:\\Project\\\u5354\u76CA\\sirtec\\WMS Inventory\\WMSPick\\WMSPick.xml",
+              "RelativeToolTip": "WMSPick.xml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-06-15T15:31:49.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a011b5aff891df77b7e1ebe55612f237b0da759fb977ee425dbda96145b4ef6c\\MainWindow.cs",
+              "ToolTip": "C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a011b5aff891df77b7e1ebe55612f237b0da759fb977ee425dbda96145b4ef6c\\MainWindow.cs",
+              "ViewState": "AgIAACwEAAAAAAAAAAAqwDYEAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T14:11:14.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WMSPick",
+              "DocumentMoniker": "D:\\Project\\\u5354\u76CA\\sirtec\\WMS Inventory\\WMSPick\\WMSPick.csproj",
+              "RelativeDocumentMoniker": "WMSPick.csproj",
+              "ToolTip": "D:\\Project\\\u5354\u76CA\\sirtec\\WMS Inventory\\WMSPick\\WMSPick.csproj",
+              "RelativeToolTip": "WMSPick.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-11T07:15:46.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fMain.cs",
+              "DocumentMoniker": "D:\\Project\\\u5354\u76CA\\sirtec\\WMS Inventory\\WMSPick\\fMain.cs",
+              "RelativeDocumentMoniker": "fMain.cs",
+              "ToolTip": "D:\\Project\\\u5354\u76CA\\sirtec\\WMS Inventory\\WMSPick\\fMain.cs",
+              "RelativeToolTip": "fMain.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAWwLEAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T06:25:55.863Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

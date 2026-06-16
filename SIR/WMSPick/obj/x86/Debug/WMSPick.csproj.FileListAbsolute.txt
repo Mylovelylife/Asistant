@@ -1,0 +1,11 @@
+D:\Project\協益\sirtec\Chroma Application Client\WMS Inventory\WMSPick.xml
+D:\Project\協益\sirtec\Chroma Application Client\WMS Inventory\WMSPick.dll
+D:\Project\協益\sirtec\Chroma Application Client\WMS Inventory\WMSPick.pdb
+D:\Project\協益\sirtec\WMS Inventory\WMSPick\obj\x86\Debug\WMSPick.csproj.AssemblyReference.cache
+D:\Project\協益\sirtec\WMS Inventory\WMSPick\obj\x86\Debug\WMSPick.fMain.resources
+D:\Project\協益\sirtec\WMS Inventory\WMSPick\obj\x86\Debug\WMSPick.Properties.Resources.resources
+D:\Project\協益\sirtec\WMS Inventory\WMSPick\obj\x86\Debug\WMSPick.csproj.GenerateResource.cache
+D:\Project\協益\sirtec\WMS Inventory\WMSPick\obj\x86\Debug\WMSPick.csproj.CoreCompileInputs.cache
+D:\Project\協益\sirtec\WMS Inventory\WMSPick\obj\x86\Debug\WMSPick.csproj.Up2Date
+D:\Project\協益\sirtec\WMS Inventory\WMSPick\obj\x86\Debug\WMSPick.dll
+D:\Project\協益\sirtec\WMS Inventory\WMSPick\obj\x86\Debug\WMSPick.pdb

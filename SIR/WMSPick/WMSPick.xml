@@ -1,0 +1,106 @@
+<Chroma>
+  <English />
+  <简体中文>
+    <Message Name="&amp;Exit" Value="离开(&amp;X)" />
+    <Message Name="Clear" Value="清除" />
+    <Message Name="Part No" Value="料号" />
+    <Message Name="Sub QTY" Value="最小用量" />
+    <Message Name="Sub QTY Error" Value="最小用量错误" />
+    <Message Name="QTY" Value="数量" />
+    <Message Name="Box No" Value="箱号" />
+    <Message Name="Box" Value="箱号/Reel" />
+    <Message Name="New Box No" Value="新箱号" />
+    <Message Name="Request ID" Value="单号" />
+    <Message Name="Part No" Value="料号" />
+    <Message Name="Desc" Value="描述" />
+    <Message Name="Part Error" Value="料号错误" />
+    <Message Name="New Box" Value="新箱号" />
+    <Message Name="RECEIPT ERROR" Value="单号错误" />
+    <Message Name="FINISHED" Value="杂发单据已完成" />
+    <Message Name="Unpick Qty" Value="未发量" />
+    <Message Name="BE USED" Value="已被使用" />
+    <Message Name="Request QTY" Value="需求量" />
+    <Message Name="Stock QTY" Value="库存" />
+    <Message Name="OK" Value="确定" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Work Order" Value="工单" />
+    <Message Name="WO" Value="工单" />
+    <Message Name="Location" Value="储位" />
+    <Message Name="Confirmed" Value="结单完成" />
+    <Message Name="Confirm" Value="结单" />
+    <Message Name="NOT FOUND" Value="查无资料" />
+    <Message Name="Request ID NOT FOUND" Value="查无单号" />
+    <Message Name="WAREHOUSE NG" Value="此仓别不可执行当前作业" />
+    <Message Name="CANNT USE" Value="不可使用" />
+    <Message Name="FINISHED" Value="已完成捡领" />
+    <Message Name="QTY Error" Value="数量错误" />
+    <Message Name="DateCode Error" Value="DateCode未填" />
+    <Message Name="Box/QTY" Value="箱号/数量" />
+    <Message Name="Append" Value="拆箱号" />
+    <Message Name="Pick Qty" Value="已发量" />
+    <Message Name="Qty" Value="总量" />
+    <Message Name="Warehouse" Value="仓库" />
+    <Message Name="OK-FINISHED" Value="单据完成" />
+    <Message Name="Need/Total" Value="需求量/总量" />
+    <Message Name="REMARK" Value="备注" />
+    <Message Name="Refresh" Value="刷新" />
+    <Message Name="Finish" Value="结单" />
+    <Message Name="Confirm finish Request？" Value="确认强制结单？" />
+    <Message Name="Warning" Value="警告" />
+    <Message Name="Finish Request OK" Value="结单完成" />
+  </简体中文>
+  <繁體中文>
+    <Message Name="&amp;Exit" Value="離開(&amp;X)" />
+    <Message Name="Clear" Value="清除" />
+    <Message Name="Part No" Value="料號" />
+    <Message Name="Sub QTY" Value="最小用量" />
+    <Message Name="Sub QTY Error" Value="最小用量錯誤" />
+    <Message Name="QTY" Value="數量" />
+    <Message Name="Box NoBox No" Value="箱號" />
+    <Message Name="Box" Value="箱號/Reel" />
+    <Message Name="New Box No" Value="新箱號" />
+    <Message Name="Request ID" Value="單號" />
+    <Message Name="Part No" Value="料號" />
+    <Message Name="Desc" Value="描述" />
+    <Message Name="Part Error" Value="料號錯誤" />
+    <Message Name="New Box" Value="新箱號" />
+    <Message Name="RECEIPT ERROR" Value="單號錯誤" />
+    <Message Name="FINISHED" Value="雜發單據已完成" />
+    <Message Name="Unpick Qty" Value="未發量" />
+    <Message Name="BE USED" Value="已被使用" />
+    <Message Name="Request QTY" Value="需求量" />
+    <Message Name="Stock QTY" Value="庫存" />
+    <Message Name="OK" Value="確定" />
+    <Message Name="Cancel" Value="取消" />
+    <Message Name="Work Order" Value="工單" />
+    <Message Name="WO" Value="工單" />
+    <Message Name="Location" Value="儲位" />
+    <Message Name="Confirmed" Value="結單完成" />
+    <Message Name="Confirm" Value="結單" />
+    <Message Name="NOT FOUND" Value="查無資料" />
+    <Message Name="Request ID NOT FOUND" Value="查無單號" />
+    <Message Name="WAREHOUSE NG" Value="此倉別不可執行當前作業" />
+    <Message Name="CANNT USE" Value="不可使用" />
+    <Message Name="FINISHED" Value="已完成撿領" />
+    <Message Name="QTY Error" Value="數量錯誤" />
+    <Message Name="DateCode Error" Value="DateCode未填" />
+    <Message Name="Box/QTY" Value="箱號/數量" />
+    <Message Name="Append" Value="拆箱號" />
+    <Message Name="Pick Qty" Value="已發量" />
+    <Message Name="Qty" Value="總量" />
+    <Message Name="Warehouse" Value="倉庫" />
+    <Message Name="OK-FINISHED" Value="單據完成" />
+    <Message Name="Need/Total" Value="需求量/總量" />
+    <Message Name="REMARK" Value="備注" />
+    <Message Name="Refresh" Value="刷新" />
+    <Message Name="Finish" Value="結單" />
+    <Message Name="Confirm finish Request？" Value="確認強制結單？" />
+    <Message Name="Warning" Value="警告" />
+	<Message Name="Finish Request OK" Value="結單完成" />
+    <Message Name="SELECT" Value="選擇" />
+    <Message Name="LOCATION" Value="儲位" />
+    <Message Name="STATUS" Value="狀態" />
+
+	<Message Name="DC FACTORY" Value="工廠內部管控" />
+	</繁體中文>
+</Chroma>
