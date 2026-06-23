@@ -497,7 +497,7 @@ namespace CWoManagerPcs
                     ,SAJET.SJ_WOStatus_Result(A.WO_STATUS) WOSTATUS  
                     ,b.part_no,c.route_name,d.pdline_name 
                     ,e.process_name START_PROCESS,f.process_name END_PROCESS ,g.customer_code || '/' || g.customer_name customer_code
-                    ,B.MODEL_ID AS MODEL_ID_NEW
+                    ,B.MODEL_ID AS MODEL_ID_NEW,
                     (SELECT MODEL_NAME FROM SAJET.SYS_MODEL WHERE MODEL_ID = B.MODEL_ID AND ROWNUM = 1 ) MODEL_NAME_NEW
                     from sajet.g_wo_base a Left JOIN sajet.sys_part b ON a.part_id = b.part_id
                     LEFT JOIN sajet.sys_route c ON a.ROUTE_ID = c.route_id 
@@ -1231,10 +1231,10 @@ namespace CWoManagerPcs
                 if (ds.Tables[0].Rows.Count > 0)
                 {
 
-                    string _ModelID = _row.Cells["MODEL_ID_NEW"].ToString();
-                    string _ModelName = _row.Cells["MODEL_NAME_NEW"].ToString();
-                    string _RouteID = _row.Cells["ROUTE_ID"].ToString();
-                    string _WO = _row.Cells["WORK_ORDER"].ToString();
+                    string _ModelID = _row.Cells["MODEL_ID_NEW"].Value.ToString();
+                    string _ModelName = _row.Cells["MODEL_NAME_NEW"].Value.ToString();
+                    string _RouteID = _row.Cells["ROUTE_ID"].Value.ToString();
+                    string _WO = _row.Cells["WORK_ORDER"].Value.ToString();
 
                     fProcessLink f = new fProcessLink();
                     f.g_sModelID = _ModelID;
@@ -1262,6 +1262,25 @@ namespace CWoManagerPcs
             }
             if (sFlag == "Y")
                 MenuMACRequestNo.Enabled = true;
+
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            var _CurrentRwo = gvData.CurrentRow;
+
+            if (_CurrentRwo != null)
+            {
+                var _WO = _CurrentRwo.Cells["WORK_ORDER"].Value.ToString();
+                fSpec f = new fSpec();
+                f._WO = _WO;
+                f.ShowDialog();
+                f.Dispose();
+            }
+        }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
 
         }
 
@@ -1294,9 +1313,19 @@ namespace CWoManagerPcs
 
         private void btnSpec_Click(object sender, EventArgs e)
         {
-            fSpec f = new fSpec();
-            f.ShowDialog();
-            f.Dispose();
+            var _CurrentRwo = gvData.CurrentRow;
+
+            if (_CurrentRwo != null)
+            {
+                var _WO = _CurrentRwo.Cells["WORK_ORDER"].Value.ToString();
+                fSpec f = new fSpec();
+                f._WO = _WO;
+                f.ShowDialog();
+                f.Dispose();
+            }
+
+
+
         }
     }
 }

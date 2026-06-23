@@ -8,12 +8,17 @@ using System.Windows.Forms;
 using SajetClass;
 using System.Data.OracleClient;
 using System.IO;
-using Excel = Microsoft.Office.Interop.Excel;
+using NPOI.SS.UserModel;
 
 namespace CWoManagerPcs
 {
     public partial class fSpec : Form
     {
+        public string _WO = string.Empty;
+
+        private string _SQL = string.Empty;
+
+        private bool _Result = true;
         public fSpec()
         {
             InitializeComponent();
@@ -28,40 +33,34 @@ namespace CWoManagerPcs
             panel2.BackgroundImageLayout = ImageLayout.Stretch;
 
             // 初始化選項
-            rbtImportExcel.Checked = true;
             panelImportExcel.Visible = true;
-            panelSpecCode.Visible = false;
-            panelWorkOrder.Visible = false;
+            panelSpecCode.Visible = true;
+            panelWorkOrder.Visible = true;
+
+
+
+            GB.Text += $@"({_WO})";
         }
 
         private void rbtImportExcel_CheckedChanged(object sender, EventArgs e)
         {
-            if (rbtImportExcel.Checked)
-            {
-                panelImportExcel.Visible = true;
-                panelSpecCode.Visible = false;
-                panelWorkOrder.Visible = false;
-            }
+            panelImportExcel.Visible = true;
+            panelSpecCode.Visible = true;
+            panelWorkOrder.Visible = true;
         }
 
         private void rbtSpecCode_CheckedChanged(object sender, EventArgs e)
         {
-            if (rbtSpecCode.Checked)
-            {
-                panelImportExcel.Visible = false;
-                panelSpecCode.Visible = true;
-                panelWorkOrder.Visible = false;
-            }
+            panelImportExcel.Visible = true;
+            panelSpecCode.Visible = true;
+            panelWorkOrder.Visible = true;
         }
 
         private void rbtWorkOrder_CheckedChanged(object sender, EventArgs e)
         {
-            if (rbtWorkOrder.Checked)
-            {
-                panelImportExcel.Visible = false;
-                panelSpecCode.Visible = false;
-                panelWorkOrder.Visible = true;
-            }
+            panelImportExcel.Visible = true;
+            panelSpecCode.Visible = true;
+            panelWorkOrder.Visible = true;
         }
 
         private void btnBrowse_Click(object sender, EventArgs e)
@@ -75,8 +74,10 @@ namespace CWoManagerPcs
             }
         }
 
+
         private void btnImportExcel_Click(object sender, EventArgs e)
         {
+            // 1. 保留原本的防呆檢查
             if (string.IsNullOrEmpty(txtExcelPath.Text))
             {
                 SajetCommon.Show_Message("Please select Excel file", 0);
@@ -89,56 +90,100 @@ namespace CWoManagerPcs
                 return;
             }
 
+            var _Result = true;
+            // 2. 核心 NPOI 讀取與處理邏輯
             try
             {
-                Excel.Application app = new Excel.Application();
-                Excel.Workbook wb = app.Workbooks.Open(txtExcelPath.Text);
-                Excel.Worksheet ws = (Excel.Worksheet)wb.Sheets[1];
-                Excel.Range range = ws.UsedRange;
-
-                int iRowCount = range.Rows.Count;
+                string filePath = txtExcelPath.Text.Trim();
                 int iImported = 0;
                 int iSkipped = 0;
 
-                for (int i = 2; i <= iRowCount; i++) // 從第2行開始（跳過標題）
+                // 使用 FileStream 開啟檔案，FileShare.ReadWrite 可避免檔案被其他程式鎖定時出錯
+                using (FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
                 {
-                    string sWorkOrder = "";
-                    string sSerialNumber = "";
+                    IWorkbook wb;
 
-                    try
+                    // 自動判斷是新版副檔名 (.xlsx) 還是舊版 (.xls)
+                    if (Path.GetExtension(filePath).ToLower() == ".xls")
                     {
-                        sWorkOrder = ((Excel.Range)range.Cells[i, 1]).Text.ToString().Trim();
-                        sSerialNumber = ((Excel.Range)range.Cells[i, 2]).Text.ToString().Trim();
-                    }
-                    catch
-                    {
-                        continue;
-                    }
-
-                    if (string.IsNullOrEmpty(sWorkOrder) && string.IsNullOrEmpty(sSerialNumber))
-                        continue;
-
-                    // 檢查資料是否存在於 G_SN_STATUS
-                    if (CheckSNStatusExists(sWorkOrder, sSerialNumber))
-                    {
-                        InsertSpecStatus(sWorkOrder, sSerialNumber, "");
-                        iImported++;
+                        wb = new NPOI.HSSF.UserModel.HSSFWorkbook(fs); // 處理 97-2003 格式
                     }
                     else
                     {
-                        iSkipped++;
+                        wb = new NPOI.XSSF.UserModel.XSSFWorkbook(fs); // 處理 2007 以上格式
                     }
-                }
 
-                wb.Close(false);
-                app.Quit();
+                    ISheet ws = wb.GetSheetAt(0); // 取得第一個工作表 (NPOI 索引從 0 開始)
 
-                SajetCommon.Show_Message("Import Success: " + iImported + " records" + Environment.NewLine + 
-                                       "Skipped (not in G_SN_STATUS): " + iSkipped + " records", 3);
+                    if (ws != null)
+                    {
+                        // LastRowNum 是最後一行的索引（從 0 開始）
+                        int iRowCount = ws.LastRowNum;
+
+                        // 從第 2 行開始（原本 Interop 的 i = 2，在 NPOI 索引中對應 i = 1，跳過標題）
+                        for (int i = 1; i <= iRowCount; i++)
+                        {
+                            IRow row = ws.GetRow(i);
+                            if (row == null) continue; // 略過空行
+
+                            string sWorkOrder = "";
+                            string sSerialNumber = "";
+
+                            try
+                            {
+                                // 原本的 Cells[i, 1] (第一欄) 對應 NPOI 的 GetCell(0)
+                                // 原本的 Cells[i, 2] (第二欄) 對應 NPOI 的 GetCell(1)
+                                // ?. 與 ?? "" 語法可完美替代 ToString() 並防止 NullReferenceException
+                                sWorkOrder = row.GetCell(0)?.ToString()?.Trim() ?? "";
+                                sSerialNumber = row.GetCell(1)?.ToString()?.Trim() ?? "";
+                            }
+                            catch
+                            {
+                                continue; // 單列讀取失敗則跳過，繼續下一列
+                            }
+
+                            if (string.IsNullOrEmpty(sWorkOrder) && string.IsNullOrEmpty(sSerialNumber))
+                                continue;
+
+
+                            InsertSpecStatus(sWorkOrder, sSerialNumber, "");
+                            iImported++;
+
+                            //和Hunter討論後，決定不需要檢查SN  ~~ by Jim 20260615
+                            // 檢查資料是否存在於 G_SN_STATUS
+                            //if (CheckSNStatusExists(sWorkOrder, sSerialNumber))
+                            //{
+
+                            //}
+                            //else
+                            //{
+                            //    iSkipped++;
+                            //}
+                        }
+                    }
+                } // 離開 using 區塊時，FileStream 會自動關閉，不佔用記憶體，也完全不需要手動 app.Quit()
+
+
+
+                // 3. 保留原本的成功提示訊息
+                SajetCommon.Show_Message("Import Success: " + iImported + " records", 3);
             }
             catch (Exception ex)
             {
+                _Result = false;
+                // 4. 保留原本的異常提示訊息
                 SajetCommon.Show_Message("Import Error: " + ex.Message, 0);
+            }
+            finally 
+            {
+                if (_Result)
+                {
+                    if (!string.IsNullOrEmpty(_WO))
+                    {
+                        _SQL = $@"UPDATE SAJET.G_WO_BASE SET WO_OPTION2 = 1 WHERE WORK_ORDER = '{_WO}'";
+                        ClientUtils.ExecuteSQL(_SQL);
+                    }
+                }
             }
         }
 
@@ -175,9 +220,9 @@ namespace CWoManagerPcs
             }
 
             int iCount = iEnd - iStart + 1;
-            if (iCount > 10000)
+            if (iCount > 1000000)
             {
-                SajetCommon.Show_Message("Too many records (max 10000)", 0);
+                SajetCommon.Show_Message("Too many records (max 1000000)", 0);
                 return;
             }
 
@@ -191,7 +236,7 @@ namespace CWoManagerPcs
                     string sSerialNumber = sSpecCode + i.ToString().PadLeft(iPadding, '0');
 
                     // 直接寫入 G_SN_SPEC_STATUS，不檢查 G_SN_STATUS
-                    InsertSpecStatus("", sSerialNumber, sSpecCode);
+                    InsertSpecStatus(_WO, sSerialNumber, "");
                     iGenerated++;
                 }
 
@@ -199,7 +244,19 @@ namespace CWoManagerPcs
             }
             catch (Exception ex)
             {
+                _Result = false;
                 SajetCommon.Show_Message("Generate Error: " + ex.Message, 0);
+            }
+            finally
+            {
+                if (_Result)
+                {
+                    if (!string.IsNullOrEmpty(_WO))
+                    {
+                        _SQL = $@"UPDATE SAJET.G_WO_BASE SET WO_OPTION2 = 2 WHERE WORK_ORDER = '{_WO}'";
+                        ClientUtils.ExecuteSQL(_SQL);
+                    }
+                }
             }
         }
 
@@ -234,7 +291,7 @@ namespace CWoManagerPcs
                 foreach (DataRow dr in ds.Tables[0].Rows)
                 {
                     string sSerialNumber = dr["SERIAL_NUMBER"].ToString();
-                    InsertSpecStatus(sWorkOrder, sSerialNumber, "");
+                    InsertSpecStatus(_WO, sSerialNumber, "");
                     iImported++;
                 }
 
@@ -242,7 +299,19 @@ namespace CWoManagerPcs
             }
             catch (Exception ex)
             {
+                _Result = false;
                 SajetCommon.Show_Message("Error: " + ex.Message, 0);
+            }
+            finally
+            {
+                if (_Result)
+                {
+                    if (!string.IsNullOrEmpty(_WO))
+                    {
+                        _SQL = $@"UPDATE SAJET.G_WO_BASE SET WO_OPTION2 = 3 WHERE WORK_ORDER = '{_WO}'";
+                        ClientUtils.ExecuteSQL(_SQL);
+                    }
+                }
             }
         }
 
@@ -303,6 +372,50 @@ namespace CWoManagerPcs
         private void btnClose_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtExcelPath.Text = "";
+            txtSpecCode.Text = "";
+            txtStartNo.Text = "";
+            txtEndNo.Text = "";
+            txtWorkOrder.Text = "";
+        }
+
+        private void txtExcelPath_Enter(object sender, EventArgs e)
+        {
+            txtExcelPath.Enabled = true;
+            btnGenerateSpec.Enabled = false;
+            btnQueryWorkOrder.Enabled = false;
+        }
+
+        private void txtSpecCode_Enter(object sender, EventArgs e)
+        {
+            btnImportExcel.Enabled = false;
+            btnQueryWorkOrder.Enabled = false;
+            txtSpecCode.Enabled = true;
+        }
+
+        private void btnQueryWorkOrder_Enter(object sender, EventArgs e)
+        {
+            btnImportExcel.Enabled = false;
+            btnGenerateSpec.Enabled = false;
+            btnQueryWorkOrder.Enabled = true;
+        }
+
+        private void txtStartNo_Enter(object sender, EventArgs e)
+        {
+            btnImportExcel.Enabled = false;
+            btnQueryWorkOrder.Enabled = false;
+            txtSpecCode.Enabled = true;
+        }
+
+        private void txtEndNo_Enter(object sender, EventArgs e)
+        {
+            btnImportExcel.Enabled = false;
+            btnQueryWorkOrder.Enabled = false;
+            txtSpecCode.Enabled = true;
         }
     }
 }

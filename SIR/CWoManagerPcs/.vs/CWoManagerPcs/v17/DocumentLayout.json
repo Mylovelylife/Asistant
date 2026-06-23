@@ -1,10 +1,35 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Project\\Asistant\\SIR\\CWoManagerPcs\\",
+  "WorkspaceRootPath": "D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\Asistant\\SIR\\CWoManagerPcs\\fSpec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:fSpec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7119DFFF-EAE5-417D-AF23-67F024D93155}|CWoManagerPcs.csproj|d:\\project\\\u5354\u76CA\\sirtec\\womanager\\cwomanagerpcs\\fspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7119DFFF-EAE5-417D-AF23-67F024D93155}|CWoManagerPcs.csproj|solutionrelative:fspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7119DFFF-EAE5-417D-AF23-67F024D93155}|CWoManagerPcs.csproj|D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\fspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7119DFFF-EAE5-417D-AF23-67F024D93155}|CWoManagerPcs.csproj|solutionrelative:fspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a011b5aff891df77b7e1ebe55612f237b0da759fb977ee425dbda96145b4ef6c\\MainWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|CWoManagerPcs||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7119DFFF-EAE5-417D-AF23-67F024D93155}|CWoManagerPcs.csproj|D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7119DFFF-EAE5-417D-AF23-67F024D93155}|CWoManagerPcs.csproj|solutionrelative:fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7119DFFF-EAE5-417D-AF23-67F024D93155}|CWoManagerPcs.csproj|D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\fmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7119DFFF-EAE5-417D-AF23-67F024D93155}|CWoManagerPcs.csproj|solutionrelative:fmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7119DFFF-EAE5-417D-AF23-67F024D93155}|CWoManagerPcs.csproj|D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7119DFFF-EAE5-417D-AF23-67F024D93155}|CWoManagerPcs.csproj|solutionrelative:fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\74b97e881a54c8d4168b7fb9a221f4f7788bf6d4bcb87e6f5c78a195e544ab42\\HwndWrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +39,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,16 +63,95 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a011b5aff891df77b7e1ebe55612f237b0da759fb977ee425dbda96145b4ef6c\\MainWindow.cs",
+              "ToolTip": "C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a011b5aff891df77b7e1ebe55612f237b0da759fb977ee425dbda96145b4ef6c\\MainWindow.cs [\u552F\u8B80]",
+              "ViewState": "AgIAACoEAAAAAAAAAAAUwDUEAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T09:18:12.841Z",
+              "EditorCaption": " [\u552F\u8B80]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fMain.Designer.cs",
+              "DocumentMoniker": "D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\fMain.Designer.cs",
+              "RelativeDocumentMoniker": "fMain.Designer.cs",
+              "ToolTip": "D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\fMain.Designer.cs",
+              "RelativeToolTip": "fMain.Designer.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAWwFcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T08:50:23.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HwndWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\74b97e881a54c8d4168b7fb9a221f4f7788bf6d4bcb87e6f5c78a195e544ab42\\HwndWrapper.cs",
+              "ToolTip": "C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\74b97e881a54c8d4168b7fb9a221f4f7788bf6d4bcb87e6f5c78a195e544ab42\\HwndWrapper.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAawNEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T09:28:52.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fMain.cs",
+              "DocumentMoniker": "D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\fMain.cs",
+              "RelativeDocumentMoniker": "fMain.cs",
+              "ToolTip": "D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\fMain.cs",
+              "RelativeToolTip": "fMain.cs",
+              "ViewState": "AgIAAOkEAAAAAAAAAAAQwP4EAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T08:12:46.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fMain.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\fMain.cs",
+              "RelativeDocumentMoniker": "fMain.cs",
+              "ToolTip": "D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\fMain.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "fMain.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T08:12:23.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CWoManagerPcs",
+              "DocumentMoniker": "D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\CWoManagerPcs.csproj",
+              "RelativeDocumentMoniker": "CWoManagerPcs.csproj",
+              "ToolTip": "D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\CWoManagerPcs.csproj",
+              "RelativeToolTip": "CWoManagerPcs.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-11T08:35:39.386Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "fSpec.cs",
-              "DocumentMoniker": "D:\\Project\\Asistant\\SIR\\CWoManagerPcs\\fSpec.cs",
+              "DocumentMoniker": "D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\fSpec.cs",
               "RelativeDocumentMoniker": "fSpec.cs",
-              "ToolTip": "D:\\Project\\Asistant\\SIR\\CWoManagerPcs\\fSpec.cs",
+              "ToolTip": "D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\fSpec.cs",
               "RelativeToolTip": "fSpec.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAUwIoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAWwLYAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T23:56:16.763Z",
+              "WhenOpened": "2026-06-11T06:35:01.368Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fSpec.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\fSpec.cs",
+              "RelativeDocumentMoniker": "fSpec.cs",
+              "ToolTip": "D:\\Project\\\u5354\u76CA\\sirtec\\WOManager\\CWoManagerPcs\\fSpec.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "fSpec.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T06:31:48.61Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
             }
           ]
         }

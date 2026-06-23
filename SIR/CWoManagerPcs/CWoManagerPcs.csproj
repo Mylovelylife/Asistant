@@ -160,6 +160,12 @@
     <Compile Include="fProcessLink.designer.cs">
       <DependentUpon>fProcessLink.cs</DependentUpon>
     </Compile>
+    <Compile Include="fSpec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSpec.Designer.cs">
+      <DependentUpon>fSpec.cs</DependentUpon>
+    </Compile>
     <Compile Include="fWoBom.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -168,6 +174,11 @@
     </Compile>
     <Compile Include="Models.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="SajetCommon.cs" />
     <Compile Include="SajetTable.cs" />
   </ItemGroup>
@@ -217,9 +228,16 @@
     <EmbeddedResource Include="fProcessLink.resx">
       <DependentUpon>fProcessLink.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fSpec.resx">
+      <DependentUpon>fSpec.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fWoBom.resx">
       <DependentUpon>fWoBom.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
