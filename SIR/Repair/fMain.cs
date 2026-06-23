@@ -362,18 +362,11 @@ namespace RepairDll
             // 如果有 cached defect，只顯示在畫面（等 btnRepairKP_Click 時才寫入資料庫）
             if (g_bHasCachedDefect && !string.IsNullOrEmpty(g_sCachedDefectCode))
             {
-                // 產生新的 RECID 並顯示在畫面
-                string sNewRecID = GetDefectRECID();
-                if (sNewRecID == "0")
-                {
-                    ClientUtils.ShowMessage("Get Defect RECID Error", 0);
-                    return;
-                }
-
+                // 只顯示在畫面，RECID 等 btnRepairKP_Click 時才產生
                 LVDefect.Items.Add(g_sCachedDefectCode);
                 LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(g_sCachedDefectDesc);
                 LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(g_sCachedLocation);
-                LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(sNewRecID);
+                LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(""); // RECID 稍後產生
                 LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(RepairUtility.sProcessID);
                 LVDefect.Items[LVDefect.Items.Count - 1].ImageIndex = 0;
                 LVDefect.Items[LVDefect.Items.Count - 1].Selected = true;
@@ -1525,27 +1518,106 @@ namespace RepairDll
                 g_lSNList.Clear();
             }
 
-            string sKPSN = dgvKP.CurrentRow.Cells["ITEM_PART_SN"].Value.ToString();
-            string sKPPartID = dgvKP.CurrentRow.Cells["ITEM_PART_ID"].Value.ToString();
-            RepairUtility.sDefectSN = g_sSN;
-            RepairUtility.sDefectSNPartID = g_sPartID;
-            RepairUtility.sDefectSNWO = LabWO.Text;
-            RepairUtility.sProgram = g_sProgram;
-            RepairUtility.sRepairType = "KEYPART";
-            RepairUtility.sDefectRecID = LVDefect.SelectedItems[0].SubItems[3].Text;
-            RepairUtility.sDefectCode = LVDefect.SelectedItems[0].Text;
-            RepairUtility.sDefectLoc = LVDefect.SelectedItems[0].SubItems[3].Text;
-            RepairUtility.sRepairSN = sKPSN;
-            RepairUtility.sRepairSNPartID = sKPPartID;
-            RepairUtility.sRepairSNWO = "N/A";
-            fRepairData fRepair = new fRepairData();
-            try
+            // 對每個序號：寫入 defect + 維修理由，然後彈出 fRepairData 選 keypart
+            for (int i = 0; i < LVDefect.Items.Count; i++)
             {
-                fRepair.ShowDialog();
-            }
-            finally
-            {
-                fRepair.Dispose();
+                string sRecID = LVDefect.Items[i].SubItems[3].Text;
+                string sSN = (g_lSNList.Count > i) ? g_lSNList[i] : g_sSN;
+
+                // 取得該 SN 的 WO 和 PartID
+                string sWO = "", sPartID = "";
+                sSQL = "Select WORK_ORDER, PART_ID From SAJET.G_SN_STATUS Where SERIAL_NUMBER = '" + sSN + "' And ROWNUM = 1";
+                DataSet dsSN = ClientUtils.ExecuteSQL(sSQL);
+                if (dsSN.Tables[0].Rows.Count > 0)
+                {
+                    sWO = dsSN.Tables[0].Rows[0]["WORK_ORDER"].ToString();
+                    sPartID = dsSN.Tables[0].Rows[0]["PART_ID"].ToString();
+                }
+                else
+                {
+                    sWO = LabWO.Text;
+                    sPartID = g_sPartID;
+                }
+
+                // 寫入 G_SN_DEFECT（如果還沒寫入的話）
+                sSQL = " Insert Into SAJET.G_SN_DEFECT "
+                     + " (DEFECT_SN_ID,RECID,SERIAL_NUMBER,WORK_ORDER,PART_ID,DEFECT_ID "
+                     + " ,TERMINAL_ID,PROCESS_ID,STAGE_ID,PDLINE_ID,TEST_EMP_ID,RP_STATUS,LOCATION) "
+                     + " Select  '" + g_sDefectSNID + "','" + sRecID + "','" + sSN + "','" + sWO + "','" + sPartID + "','" + g_sCachedDefectID + "'"
+                     + " ,TERMINAL_ID,PROCESS_ID,STAGE_ID,PDLINE_ID,'" + g_sUserID + "','1','" + g_sCachedLocation + "' "
+                     + " From SAJET.SYS_TERMINAL "
+                     + " Where TERMINAL_ID = '" + RepairUtility.sTerminalID + "' ";
+                dsTemp = ClientUtils.ExecuteSQL(sSQL);
+
+                // 複製維修理由
+                sSQL = @"INSERT INTO SAJET.G_SN_REPAIR 
+                        (RECID, SERIAL_NUMBER, REASON_ID, DUTY_ID, RP_PROCESS_ID, REPAIR_EMP_ID, REPAIR_TIME)
+                        SELECT '" + sRecID + "', '" + sSN + "', REASON_ID, DUTY_ID, RP_PROCESS_ID, REPAIR_EMP_ID, SYSDATE
+                        FROM SAJET.G_SN_REPAIR 
+                        WHERE RECID = '" + g_sCachedRecID + "'";
+                dsTemp = ClientUtils.ExecuteSQL(sSQL);
+
+                // 複製維修 location 資料
+                sSQL = @"INSERT INTO SAJET.G_SN_REPAIR_LOCATION 
+                        (RECID, ITEM_ID, REASON_ID, REPAIR_ID, LOCATION, IS_MAIN_DEFECT, UPDATE_USERID, UPDATE_TIME)
+                        SELECT '" + sRecID + "', ITEM_ID, REASON_ID, REPAIR_ID, LOCATION, IS_MAIN_DEFECT, UPDATE_USERID, SYSDATE
+                        FROM SAJET.G_SN_REPAIR_LOCATION 
+                        WHERE RECID = '" + g_sCachedRecID + "'";
+                dsTemp = ClientUtils.ExecuteSQL(sSQL);
+
+                // 設定 RepairUtility 並顯示 KP
+                RepairUtility.sDefectSN = sSN;
+                RepairUtility.sDefectSNPartID = sPartID;
+                RepairUtility.sDefectSNWO = sWO;
+                RepairUtility.sProgram = g_sProgram;
+                RepairUtility.sRepairType = "KEYPART";
+                RepairUtility.sDefectRecID = sRecID;
+                RepairUtility.sDefectCode = LVDefect.Items[i].Text;
+                RepairUtility.sDefectLoc = LVDefect.Items[i].SubItems[2].Text;
+
+                // 取得該 SN 的 KP 資料
+                sSQL = @" SELECT A.SERIAL_NUMBER, A.work_order, A.ITEM_PART_ID, A.Item_Group, A.Process_Id 
+                         ,B.PART_NO, ITEM_PART_SN, B.SPEC1 
+                         FROM SAJET.G_SN_KEYPARTS A 
+                         ,SAJET.SYS_PART B 
+                         WHERE A.SERIAL_NUMBER = :SERIAL_NUMBER 
+                         AND A.ITEM_PART_ID = B.PART_ID(+) ";
+                object[][] Params = new object[1][];
+                Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "SERIAL_NUMBER", sSN };
+                DataSet dsKP = ClientUtils.ExecuteSQL(sSQL, Params);
+
+                dgvKP.Rows.Clear();
+                for (int j = 0; j < dsKP.Tables[0].Rows.Count; j++)
+                {
+                    DataRow dr = dsKP.Tables[0].Rows[j];
+                    dgvKP.Rows.Add();
+                    dgvKP.Rows[dgvKP.Rows.Count - 1].Cells["SERIAL_NUMBER"].Value = dr["SERIAL_NUMBER"].ToString();
+                    dgvKP.Rows[dgvKP.Rows.Count - 1].Cells["WORK_ORDER"].Value = dr["WORK_ORDER"].ToString();
+                    dgvKP.Rows[dgvKP.Rows.Count - 1].Cells["ITEM_PART_SN"].Value = dr["ITEM_PART_SN"].ToString();
+                    dgvKP.Rows[dgvKP.Rows.Count - 1].Cells["ITEM_PART_ID"].Value = dr["ITEM_PART_ID"].ToString();
+                    dgvKP.Rows[dgvKP.Rows.Count - 1].Cells["ITEM_PART_NO"].Value = dr["PART_NO"].ToString();
+                }
+
+                if (dgvKP.Rows.Count == 0 || dgvKP.CurrentRow == null)
+                {
+                    ClientUtils.ShowMessage(SajetCommon.SetLanguage("Please Select Keypart"), 0);
+                    continue;
+                }
+
+                string sKPSN = dgvKP.CurrentRow.Cells["ITEM_PART_SN"].Value.ToString();
+                string sKPPartID = dgvKP.CurrentRow.Cells["ITEM_PART_ID"].Value.ToString();
+                RepairUtility.sRepairSN = sKPSN;
+                RepairUtility.sRepairSNPartID = sKPPartID;
+                RepairUtility.sRepairSNWO = "N/A";
+                fRepairData fRepair = new fRepairData();
+                try
+                {
+                    fRepair.ShowDialog();
+                }
+                finally
+                {
+                    fRepair.Dispose();
+                }
             }
 
             // 恢復 btnAdd/btnDelete/btnRepair 為啟用狀態
