@@ -357,19 +357,11 @@ namespace RepairDll
             if (e.KeyChar != (char)Keys.Return)
                 return;
 
-            // 如果已有 cached defect，先自動帶入，再顯示 SN 資料
+            // 如果已有 cached defect，只顯示在畫面上，不寫入資料庫
+            // 等使用者按 btnRepairKP_Click 時才會正式寫入
             if (g_bHasCachedDefect && !string.IsNullOrEmpty(g_sCachedDefectCode))
             {
-                // 自動新增 cached defect 到 LVDefect
-                sSQL = " Insert Into SAJET.G_SN_DEFECT "
-                     + " (DEFECT_SN_ID,RECID,SERIAL_NUMBER,WORK_ORDER,PART_ID,DEFECT_ID "
-                     + " ,TERMINAL_ID,PROCESS_ID,STAGE_ID,PDLINE_ID,TEST_EMP_ID,RP_STATUS,LOCATION) "
-                     + " Select  '" + g_sDefectSNID + "','" + g_sCachedRecID + "','" + editSN.Text + "','" + LabWO.Text + "','" + g_sPartID + "','" + g_sCachedDefectID + "'"
-                     + " ,TERMINAL_ID,PROCESS_ID,STAGE_ID,PDLINE_ID,'" + g_sUserID + "','1','" + g_sCachedLocation + "' "
-                     + " From SAJET.SYS_TERMINAL "
-                     + " Where TERMINAL_ID = '" + RepairUtility.sTerminalID + "' ";
-                dsTemp = ClientUtils.ExecuteSQL(sSQL);
-
+                // 只顯示在 LVDefect 畫面，不寫入資料庫
                 LVDefect.Items.Add(g_sCachedDefectCode);
                 LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(g_sCachedDefectDesc);
                 LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(g_sCachedLocation);
@@ -378,22 +370,6 @@ namespace RepairDll
                 LVDefect.Items[LVDefect.Items.Count - 1].ImageIndex = 0; // 0 = 已維修完成
                 LVDefect.Items[LVDefect.Items.Count - 1].Selected = true;
                 LVDefect.Focus();
-
-                // 複製維修理由從第一個 SN
-                sSQL = @"INSERT INTO SAJET.G_SN_REPAIR 
-                        (RECID, SERIAL_NUMBER, REASON_ID, DUTY_ID, RP_PROCESS_ID, REPAIR_EMP_ID, REPAIR_TIME)
-                        SELECT '" + g_sCachedRecID + "', '" + editSN.Text + "', REASON_ID, DUTY_ID, RP_PROCESS_ID, REPAIR_EMP_ID, SYSDATE
-                        FROM SAJET.G_SN_REPAIR 
-                        WHERE RECID = '" + g_sCachedRecID + "'";
-                dsTemp = ClientUtils.ExecuteSQL(sSQL);
-
-                // 複製維修 location 資料
-                sSQL = @"INSERT INTO SAJET.G_SN_REPAIR_LOCATION 
-                        (RECID, ITEM_ID, REASON_ID, REPAIR_ID, LOCATION, IS_MAIN_DEFECT, UPDATE_USERID, UPDATE_TIME)
-                        SELECT '" + g_sCachedRecID + "', ITEM_ID, REASON_ID, REPAIR_ID, LOCATION, IS_MAIN_DEFECT, UPDATE_USERID, SYSDATE
-                        FROM SAJET.G_SN_REPAIR_LOCATION 
-                        WHERE RECID = '" + g_sCachedRecID + "'";
-                dsTemp = ClientUtils.ExecuteSQL(sSQL);
             }
 
             Show_SNData();
@@ -936,6 +912,11 @@ namespace RepairDll
             g_sCachedLocation = sLocation;
             g_sCachedRecID = sRecID;
             g_sCachedDefectID = sDefectID;
+
+            // 禁用 btnAdd/btnDelete/btnRepair，因為後續序號會自動帶入
+            btnAdd.Enabled = false;
+            btnDelete.Enabled = false;
+            btnRepair.Enabled = false;
 
         }
 
@@ -1494,6 +1475,12 @@ namespace RepairDll
             {
                 fRepair.Dispose();
             }
+
+            // 恢復 btnAdd/btnDelete/btnRepair 為啟用狀態
+            btnAdd.Enabled = true;
+            btnDelete.Enabled = true;
+            btnRepair.Enabled = true;
+            g_bHasCachedDefect = false;
         }
 
         private void btnRepairSNHistory_Click(object sender, EventArgs e)
