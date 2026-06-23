@@ -166,6 +166,12 @@
     <Compile Include="fSpec.Designer.cs">
       <DependentUpon>fSpec.cs</DependentUpon>
     </Compile>
+    <Compile Include="fSnSpecStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSnSpecStatus.Designer.cs">
+      <DependentUpon>fSnSpecStatus.cs</DependentUpon>
+    </Compile>
     <Compile Include="fWoBom.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -230,6 +236,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fSpec.resx">
       <DependentUpon>fSpec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSnSpecStatus.resx">
+      <DependentUpon>fSnSpecStatus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fWoBom.resx">
       <DependentUpon>fWoBom.cs</DependentUpon>
