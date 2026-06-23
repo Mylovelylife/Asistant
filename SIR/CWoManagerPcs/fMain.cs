@@ -1281,7 +1281,18 @@ namespace CWoManagerPcs
 
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
+            if (gvData.Rows.Count == 0 || gvData.CurrentRow == null)
+            {
+                SajetCommon.Show_Message("Please select a work order first", 0);
+                return;
+            }
 
+            string sWorkOrder = gvData.CurrentRow.Cells["WORK_ORDER"].Value.ToString();
+
+            fSnSpecStatus f = new fSnSpecStatus();
+            f.g_sWorkOrder = sWorkOrder;
+            f.ShowDialog();
+            f.Dispose();
         }
 
         private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
