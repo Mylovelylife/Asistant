@@ -63,6 +63,8 @@ namespace RepairDll
         string g_sCachedReasonID = "";
         string g_sCachedDutyID = "";
         string g_sCachedRepairProcessID = "";
+        // 追蹤所有輸入過的序號
+        List<string> g_lSNList = new List<string>();
 
         string sSQL;
         DataSet dsTemp;
@@ -357,25 +359,16 @@ namespace RepairDll
             if (e.KeyChar != (char)Keys.Return)
                 return;
 
-            // 如果已有 cached defect，自動帶入並寫入資料庫
+            // 如果有 cached defect，只顯示在畫面（等 btnRepairKP_Click 時才寫入資料庫）
             if (g_bHasCachedDefect && !string.IsNullOrEmpty(g_sCachedDefectCode))
             {
+                // 產生新的 RECID 並顯示在畫面
                 string sNewRecID = GetDefectRECID();
                 if (sNewRecID == "0")
                 {
                     ClientUtils.ShowMessage("Get Defect RECID Error", 0);
                     return;
                 }
-
-                // 寫入 G_SN_DEFECT
-                sSQL = " Insert Into SAJET.G_SN_DEFECT "
-                     + " (DEFECT_SN_ID,RECID,SERIAL_NUMBER,WORK_ORDER,PART_ID,DEFECT_ID "
-                     + " ,TERMINAL_ID,PROCESS_ID,STAGE_ID,PDLINE_ID,TEST_EMP_ID,RP_STATUS,LOCATION) "
-                     + " Select  '" + g_sDefectSNID + "','" + sNewRecID + "','" + editSN.Text + "','" + LabWO.Text + "','" + g_sPartID + "','" + g_sCachedDefectID + "'"
-                     + " ,TERMINAL_ID,PROCESS_ID,STAGE_ID,PDLINE_ID,'" + g_sUserID + "','1','" + g_sCachedLocation + "' "
-                     + " From SAJET.SYS_TERMINAL "
-                     + " Where TERMINAL_ID = '" + RepairUtility.sTerminalID + "' ";
-                dsTemp = ClientUtils.ExecuteSQL(sSQL);
 
                 LVDefect.Items.Add(g_sCachedDefectCode);
                 LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(g_sCachedDefectDesc);
@@ -386,21 +379,13 @@ namespace RepairDll
                 LVDefect.Items[LVDefect.Items.Count - 1].Selected = true;
                 LVDefect.Focus();
 
-                // 複製維修理由
-                sSQL = @"INSERT INTO SAJET.G_SN_REPAIR 
-                        (RECID, SERIAL_NUMBER, REASON_ID, DUTY_ID, RP_PROCESS_ID, REPAIR_EMP_ID, REPAIR_TIME)
-                        SELECT '" + sNewRecID + "', '" + editSN.Text + "', REASON_ID, DUTY_ID, RP_PROCESS_ID, REPAIR_EMP_ID, SYSDATE
-                        FROM SAJET.G_SN_REPAIR 
-                        WHERE RECID = '" + g_sCachedRecID + "'";
-                dsTemp = ClientUtils.ExecuteSQL(sSQL);
-
-                // 複製維修 location 資料
-                sSQL = @"INSERT INTO SAJET.G_SN_REPAIR_LOCATION 
-                        (RECID, ITEM_ID, REASON_ID, REPAIR_ID, LOCATION, IS_MAIN_DEFECT, UPDATE_USERID, UPDATE_TIME)
-                        SELECT '" + sNewRecID + "', ITEM_ID, REASON_ID, REPAIR_ID, LOCATION, IS_MAIN_DEFECT, UPDATE_USERID, SYSDATE
-                        FROM SAJET.G_SN_REPAIR_LOCATION 
-                        WHERE RECID = '" + g_sCachedRecID + "'";
-                dsTemp = ClientUtils.ExecuteSQL(sSQL);
+                // 加入序號清單
+                g_lSNList.Add(editSN.Text);
+            }
+            else
+            {
+                // 第一次，沒有 cache，加入序號清單
+                g_lSNList.Add(editSN.Text);
             }
 
             Show_SNData();
@@ -1484,6 +1469,62 @@ namespace RepairDll
                 ClientUtils.ShowMessage(SajetCommon.SetLanguage("Please Select Keypart"), 0);
                 return;
             }
+
+            // 如果有 cached defect，把所有序號寫入資料庫
+            if (g_bHasCachedDefect && !string.IsNullOrEmpty(g_sCachedDefectCode))
+            {
+                // 取得每個序號對應的 WO、PartID
+                for (int i = 0; i < g_lSNList.Count; i++)
+                {
+                    string sSN = g_lSNList[i];
+                    string sRecID = LVDefect.Items[i].SubItems[3].Text;
+                    
+                    // 取得該 SN 的 WO 和 PartID
+                    string sWO = "", sPartID = "";
+                    sSQL = "Select WORK_ORDER, PART_ID From SAJET.G_SN_STATUS Where SERIAL_NUMBER = '" + sSN + "' And ROWNUM = 1";
+                    DataSet dsSN = ClientUtils.ExecuteSQL(sSQL);
+                    if (dsSN.Tables[0].Rows.Count > 0)
+                    {
+                        sWO = dsSN.Tables[0].Rows[0]["WORK_ORDER"].ToString();
+                        sPartID = dsSN.Tables[0].Rows[0]["PART_ID"].ToString();
+                    }
+                    else
+                    {
+                        sWO = LabWO.Text;
+                        sPartID = g_sPartID;
+                    }
+
+                    // 寫入 G_SN_DEFECT
+                    sSQL = " Insert Into SAJET.G_SN_DEFECT "
+                         + " (DEFECT_SN_ID,RECID,SERIAL_NUMBER,WORK_ORDER,PART_ID,DEFECT_ID "
+                         + " ,TERMINAL_ID,PROCESS_ID,STAGE_ID,PDLINE_ID,TEST_EMP_ID,RP_STATUS,LOCATION) "
+                         + " Select  '" + g_sDefectSNID + "','" + sRecID + "','" + sSN + "','" + sWO + "','" + sPartID + "','" + g_sCachedDefectID + "'"
+                         + " ,TERMINAL_ID,PROCESS_ID,STAGE_ID,PDLINE_ID,'" + g_sUserID + "','1','" + g_sCachedLocation + "' "
+                         + " From SAJET.SYS_TERMINAL "
+                         + " Where TERMINAL_ID = '" + RepairUtility.sTerminalID + "' ";
+                    dsTemp = ClientUtils.ExecuteSQL(sSQL);
+
+                    // 複製維修理由
+                    sSQL = @"INSERT INTO SAJET.G_SN_REPAIR 
+                            (RECID, SERIAL_NUMBER, REASON_ID, DUTY_ID, RP_PROCESS_ID, REPAIR_EMP_ID, REPAIR_TIME)
+                            SELECT '" + sRecID + "', '" + sSN + "', REASON_ID, DUTY_ID, RP_PROCESS_ID, REPAIR_EMP_ID, SYSDATE
+                            FROM SAJET.G_SN_REPAIR 
+                            WHERE RECID = '" + g_sCachedRecID + "'";
+                    dsTemp = ClientUtils.ExecuteSQL(sSQL);
+
+                    // 複製維修 location 資料
+                    sSQL = @"INSERT INTO SAJET.G_SN_REPAIR_LOCATION 
+                            (RECID, ITEM_ID, REASON_ID, REPAIR_ID, LOCATION, IS_MAIN_DEFECT, UPDATE_USERID, UPDATE_TIME)
+                            SELECT '" + sRecID + "', ITEM_ID, REASON_ID, REPAIR_ID, LOCATION, IS_MAIN_DEFECT, UPDATE_USERID, SYSDATE
+                            FROM SAJET.G_SN_REPAIR_LOCATION 
+                            WHERE RECID = '" + g_sCachedRecID + "'";
+                    dsTemp = ClientUtils.ExecuteSQL(sSQL);
+                }
+
+                // 清空序號清單
+                g_lSNList.Clear();
+            }
+
             string sKPSN = dgvKP.CurrentRow.Cells["ITEM_PART_SN"].Value.ToString();
             string sKPPartID = dgvKP.CurrentRow.Cells["ITEM_PART_ID"].Value.ToString();
             RepairUtility.sDefectSN = g_sSN;
