@@ -184,7 +184,7 @@
     <value>3, 25</value>
   </data>
   <data name="LVDefect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 174</value>
+    <value>512, 174</value>
   </data>
   <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>261, 17</value>
@@ -341,7 +341,7 @@
     <value>3, 199</value>
   </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 30</value>
+    <value>512, 30</value>
   </data>
   <data name="panel2.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -368,7 +368,7 @@
     <value>0, 0</value>
   </data>
   <data name="gbDefect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>398, 232</value>
+    <value>518, 232</value>
   </data>
   <data name="gbDefect.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -539,7 +539,7 @@
     <value>25</value>
   </data>
   <data name="dgvReason.Size" type="System.Drawing.Size, System.Drawing">
-    <value>511, 189</value>
+    <value>672, 189</value>
   </data>
   <data name="dgvReason.TabIndex" type="System.Int32, mscorlib">
     <value>51</value>
@@ -563,7 +563,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>517, 195</value>
+    <value>678, 195</value>
   </data>
   <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -743,7 +743,7 @@
     <value>0, 0</value>
   </data>
   <data name="tabControl3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>525, 232</value>
+    <value>686, 232</value>
   </data>
   <data name="tabControl3.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -773,10 +773,10 @@
     <value>1</value>
   </data>
   <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>927, 232</value>
+    <value>1208, 232</value>
   </data>
   <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>398</value>
+    <value>518</value>
   </data>
   <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -920,7 +920,7 @@
     <value>25</value>
   </data>
   <data name="dgvKP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>913, 103</value>
+    <value>1194, 272</value>
   </data>
   <data name="dgvKP.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
@@ -1058,10 +1058,10 @@
     <value>Bottom</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 106</value>
+    <value>3, 275</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>913, 34</value>
+    <value>1194, 34</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1313,7 +1313,7 @@
     <value>0, 0</value>
   </data>
   <data name="btnRepairHistory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>927, 31</value>
+    <value>1208, 31</value>
   </data>
   <data name="btnRepairHistory.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1352,7 +1352,7 @@
     <value>5, 2</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 24</value>
+    <value>232, 24</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1385,10 +1385,10 @@
     <value>NoControl</value>
   </data>
   <data name="LabDefectTerminal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>648, 54</value>
+    <value>844, 54</value>
   </data>
   <data name="LabDefectTerminal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 26</value>
+    <value>353, 26</value>
   </data>
   <data name="LabDefectTerminal.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -1421,10 +1421,10 @@
     <value>NoControl</value>
   </data>
   <data name="LabRemark.Location" type="System.Drawing.Point, System.Drawing">
-    <value>189, 54</value>
+    <value>245, 54</value>
   </data>
   <data name="LabRemark.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 26</value>
+    <value>351, 26</value>
   </data>
   <data name="LabRemark.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -1460,10 +1460,10 @@
     <value>NoControl</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>464, 54</value>
+    <value>604, 54</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 26</value>
+    <value>232, 26</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1496,10 +1496,10 @@
     <value>NoControl</value>
   </data>
   <data name="LabWO.Location" type="System.Drawing.Point, System.Drawing">
-    <value>189, 2</value>
+    <value>245, 2</value>
   </data>
   <data name="LabWO.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 24</value>
+    <value>351, 24</value>
   </data>
   <data name="LabWO.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1538,7 +1538,7 @@
     <value>5, 54</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 26</value>
+    <value>232, 26</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -1574,10 +1574,10 @@
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>464, 2</value>
+    <value>604, 2</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 24</value>
+    <value>232, 24</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1610,10 +1610,10 @@
     <value>NoControl</value>
   </data>
   <data name="LabDefectProcess.Location" type="System.Drawing.Point, System.Drawing">
-    <value>648, 28</value>
+    <value>844, 28</value>
   </data>
   <data name="LabDefectProcess.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 24</value>
+    <value>353, 24</value>
   </data>
   <data name="LabDefectProcess.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1646,10 +1646,10 @@
     <value>NoControl</value>
   </data>
   <data name="LabDefectLine.Location" type="System.Drawing.Point, System.Drawing">
-    <value>648, 2</value>
+    <value>844, 2</value>
   </data>
   <data name="LabDefectLine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 24</value>
+    <value>353, 24</value>
   </data>
   <data name="LabDefectLine.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1688,7 +1688,7 @@
     <value>5, 28</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 24</value>
+    <value>232, 24</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1721,10 +1721,10 @@
     <value>NoControl</value>
   </data>
   <data name="LabPart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>189, 28</value>
+    <value>245, 28</value>
   </data>
   <data name="LabPart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 24</value>
+    <value>351, 24</value>
   </data>
   <data name="LabPart.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1760,10 +1760,10 @@
     <value>NoControl</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>464, 28</value>
+    <value>604, 28</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 24</value>
+    <value>232, 24</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1796,7 +1796,7 @@
     <value>3</value>
   </data>
   <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>921, 82</value>
+    <value>1202, 82</value>
   </data>
   <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -1883,7 +1883,7 @@
     <value>3, 22</value>
   </data>
   <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>921, 25</value>
+    <value>1202, 25</value>
   </data>
   <data name="panel3.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -1913,7 +1913,7 @@
     <value>3, 0, 3, 5</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>927, 134</value>
+    <value>1208, 134</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1964,10 +1964,10 @@
     <value>Bottom</value>
   </data>
   <data name="panelFinish.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 581</value>
+    <value>0, 750</value>
   </data>
   <data name="panelFinish.Size" type="System.Drawing.Size, System.Drawing">
-    <value>927, 33</value>
+    <value>1208, 33</value>
   </data>
   <data name="panelFinish.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -1991,7 +1991,7 @@
     <value>0, 397</value>
   </data>
   <data name="splitter1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>927, 3</value>
+    <value>1208, 3</value>
   </data>
   <data name="splitter1.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -2378,7 +2378,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tPageKP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>919, 143</value>
+    <value>1200, 312</value>
   </data>
   <data name="tPageKP.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2411,7 +2411,7 @@
     <value>6, 5</value>
   </data>
   <data name="tabControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>927, 184</value>
+    <value>1208, 353</value>
   </data>
   <data name="tabControl2.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -2438,7 +2438,7 @@
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>948, 573</value>
+    <value>1208, 783</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Repair</value>

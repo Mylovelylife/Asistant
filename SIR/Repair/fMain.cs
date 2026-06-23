@@ -47,24 +47,10 @@ namespace RepairDll
         public string g_sOutTime;
         public string g_sRouteStep;
         //public int g_iLocateItem;
-        public string g_sPanel_SN; //ÔøΩÔøΩPepair PanelÔøΩœ•ÔøΩ
-        public string g_sComfirmID; //ÔøΩÔøΩÔøΩ◊ΩTÔøΩ{ÔøΩHÔøΩÔøΩ
+        public string g_sPanel_SN; //®—Pepair Panel®œ•Œ
+        public string g_sComfirmID; //∫˚≠◊ΩTª{§H≠˚
         public string g_sDefectSNID;
         string g_sRepairType;//PANEL or SN
-
-        // Áî®ÊñºÊö´Â≠òÁ¨¨‰∏ÄÊ¨°ÁöÑ defect/repair Ë≥áÊñôÔºå‰æõÂæåÁ∫åÂ∫èËôü‰ΩøÁî®
-        bool g_bHasCachedDefect = false;
-        string g_sCachedDefectCode = "";
-        string g_sCachedDefectDesc = "";
-        string g_sCachedLocation = "";
-        string g_sCachedRecID = "";
-        string g_sCachedDefectID = "";
-        // Á∂≠‰øÆÁêÜÁî± cache
-        string g_sCachedReasonID = "";
-        string g_sCachedDutyID = "";
-        string g_sCachedRepairProcessID = "";
-        // ËøΩËπ§ÊâÄÊúâËº∏ÂÖ•ÈÅéÁöÑÂ∫èËôü
-        List<string> g_lSNList = new List<string>();
 
         string sSQL;
         DataSet dsTemp;
@@ -139,16 +125,16 @@ namespace RepairDll
             splitContainer1.Enabled = false;
             //            splitContainer2.Enabled = false;
             tabControl1.SelectedIndex = 0;
-            //≈™ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩTerminal
+            //≈™®˙•ªØ∏Terminal
             if (!GetTerminalID())
             {
                 return;
             }
 
-            //≈™ÔøΩÔøΩSYS_BASEÔøΩ]ÔøΩw            
+            //≈™®˙SYS_BASE≥]©w            
             string sMsg = "";
-            btnSearchSN.Visible = (SajetCommon.GetSysBaseData(g_sProgram, "Search SN", ref sMsg) == "Y"); //SNÔøΩOÔøΩ_ÔøΩiÔøΩŒøÔ™∫
-            string sLoc = SajetCommon.GetSysBaseData(g_sProgram, "Location@Item Input", ref sMsg); ////ÔøΩÔøΩÔøΩ◊ÆÔøΩLocation&ItemÔøΩOÔøΩ_ÔøΩ@ÔøΩwÔøΩnÔøΩÔøΩJ
+            btnSearchSN.Visible = (SajetCommon.GetSysBaseData(g_sProgram, "Search SN", ref sMsg) == "Y"); //SN¨Oß_•i•ŒøÔ™∫
+            string sLoc = SajetCommon.GetSysBaseData(g_sProgram, "Location@Item Input", ref sMsg); ////∫˚≠◊Æ…Location&Item¨Oß_§@©w≠nøÈ§J
             if (!string.IsNullOrEmpty(sMsg))
             {
                 sMsg = "Please Setup System Parameter:" + Environment.NewLine + Environment.NewLine + sMsg;
@@ -162,7 +148,7 @@ namespace RepairDll
             splitContainer1.Enabled = true;
             //            splitContainer2.Enabled = true;
 
-            //ÔøΩÔøΩÔøΩ◊ÆÔøΩLocation&ItemÔøΩOÔøΩ_ÔøΩ@ÔøΩwÔøΩnÔøΩÔøΩJ            
+            //∫˚≠◊Æ…Location&Item¨Oß_§@©w≠nøÈ§J            
             int iLocationParams = 0;
             switch (sLoc)
             {
@@ -277,7 +263,7 @@ namespace RepairDll
 
         private bool Check_Repairer()
         {
-            //ÔøΩYRepairerÔøΩ≈•ÔøΩ,ÔøΩhÔøΩ€∞ ±aÔøΩXlogin user
+            //≠YRepairer™≈•’,´h¶€∞ ±a•Xlogin user
             editRepairer.Text = editRepairer.Text.Trim();
             if (editRepairer.Text == "")
             {
@@ -358,29 +344,6 @@ namespace RepairDll
             ClearData();
             if (e.KeyChar != (char)Keys.Return)
                 return;
-
-            // Â¶ÇÊûúÊúâ cached defectÔºåÂè™È°ØÁ§∫Âú®Áï´Èù¢ÔºàÁ≠â btnRepairKP_Click ÊôÇÊâçÂØ´ÂÖ•Ë≥áÊñôÂ∫´Ôºâ
-            if (g_bHasCachedDefect && !string.IsNullOrEmpty(g_sCachedDefectCode))
-            {
-                // Âè™È°ØÁ§∫Âú®Áï´Èù¢ÔºåRECID Á≠â btnRepairKP_Click ÊôÇÊâçÁî¢Áîü
-                LVDefect.Items.Add(g_sCachedDefectCode);
-                LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(g_sCachedDefectDesc);
-                LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(g_sCachedLocation);
-                LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(""); // RECID Á®çÂæåÁî¢Áîü
-                LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(RepairUtility.sProcessID);
-                LVDefect.Items[LVDefect.Items.Count - 1].ImageIndex = 0;
-                LVDefect.Items[LVDefect.Items.Count - 1].Selected = true;
-                LVDefect.Focus();
-
-                // Âä†ÂÖ•Â∫èËôüÊ∏ÖÂñÆ
-                g_lSNList.Add(editSN.Text);
-            }
-            else
-            {
-                // Á¨¨‰∏ÄÊ¨°ÔºåÊ≤íÊúâ cacheÔºåÂä†ÂÖ•Â∫èËôüÊ∏ÖÂñÆ
-                g_lSNList.Add(editSN.Text);
-            }
-
             Show_SNData();
         }
         private void Show_KP()
@@ -433,7 +396,7 @@ namespace RepairDll
         {
             LabAlarm.Visible = false;
 
-            //ÔøΩÀ¨dSNÔøΩOÔøΩ_ÔøΩÔøΩÔøΩT
+            //¿À¨dSN¨Oß_•øΩT
             if (!CheckSN())
             {
                 editSN.Focus();
@@ -441,7 +404,7 @@ namespace RepairDll
                 g_sSN = "";
                 return;
             }
-            //ÔøΩÔøΩÔøΩDefect Data
+            //≈„•‹Defect Data
             ShowDefect();
 
             if (LVDefect.Items.Count > 0)
@@ -563,7 +526,7 @@ namespace RepairDll
                 return false;
             }
 
-            //ÔøΩÔøΩSNÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ
+            //¶πSN™∫¨ˆø˝
             sSQL = " Select A.PROCESS_ID,A.WORK_ORDER,A.PART_ID, to_char(A.OUT_PROCESS_TIME,'yyyy/mm/dd hh24:mi:ss') OUT_PROCESS_TIME, a.route_id ,d.remark "
                  + "       ,B.PART_NO,c.process_name,NVL(A.PANEL_NO,'N/A') PANEL_NO "
                  + " From SAJET.G_SN_STATUS A "
@@ -592,7 +555,7 @@ namespace RepairDll
             LabRemark.Text = dsTemp.Tables[0].Rows[0]["REMARK"].ToString();
             RepairUtility.sPreviousProcessID = dsTemp.Tables[0].Rows[0]["PROCESS_ID"].ToString();
 
-            //ÔøΩÔøΩRouteÔøΩÔøΩÔøΩÔøΩStep,FinishÔøΩ…ßÔøΩ^ÔøΩyÔøΩÔøΩÔøΩœ•ÔøΩ
+            //ß‰Route§§™∫Step,FinishÆ…ß‰¶^¨yØ∏®œ•Œ
             sSQL = " Select Step "
                  + " From sajet.sys_route_detail "
                  + " Where route_id = '" + g_sRouteID + "' "
@@ -816,7 +779,7 @@ namespace RepairDll
             if (LVDefect.SelectedItems.Count == 0)
                 return;
 
-            //ÔøΩuÔøΩiÔøΩRÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩWÔøΩ[ÔøΩÔøΩDefect
+            //•u•ißR∞£•ªØ∏ºW•[™∫Defect
             if (LVDefect.SelectedItems[0].SubItems[4].Text != RepairUtility.sProcessID)
             {
                 ClientUtils.ShowMessage("Can't Delete this Defect Code", 1);
@@ -914,14 +877,6 @@ namespace RepairDll
             LVDefect.Focus();
             ShowReason(LVDefect.SelectedItems[0].SubItems[3].Text);
 
-            // Cache defect data for subsequent SNs
-            g_bHasCachedDefect = true;
-            g_sCachedDefectCode = sDefectCode;
-            g_sCachedDefectDesc = sDefectDesc;
-            g_sCachedLocation = sLocation;
-            g_sCachedRecID = sRecID;
-            g_sCachedDefectID = sDefectID;
-
         }
 
         private string GetDefectRECID()
@@ -984,24 +939,6 @@ namespace RepairDll
                     LVDefect.SelectedItems[0].ImageIndex = 0;
                     ShowReason(LVDefect.SelectedItems[0].SubItems[3].Text);
                     ShowItemReplace();
-
-                    // Cache Á∂≠‰øÆÁêÜÁî±Ë≥áË®äÔºàÂæûÁ¨¨‰∏ÄÂÄãÁ∂≠‰øÆË®òÈåÑÂèñÂæóÔºâ
-                    string sRecID = LVDefect.SelectedItems[0].SubItems[3].Text;
-                    sSQL = @"SELECT REASON_ID, DUTY_ID, RP_PROCESS_ID 
-                            FROM SAJET.G_SN_REPAIR 
-                            WHERE RECID = '" + sRecID + "'";
-                    dsTemp = ClientUtils.ExecuteSQL(sSQL);
-                    if (dsTemp.Tables[0].Rows.Count > 0)
-                    {
-                        g_sCachedReasonID = dsTemp.Tables[0].Rows[0]["REASON_ID"].ToString();
-                        g_sCachedDutyID = dsTemp.Tables[0].Rows[0]["DUTY_ID"].ToString();
-                        g_sCachedRepairProcessID = dsTemp.Tables[0].Rows[0]["RP_PROCESS_ID"].ToString();
-                    }
-
-                    // Á¶ÅÁî® btnAdd/btnDelete/btnRepairÔºåÂõ†ÁÇ∫ÂæåÁ∫åÂ∫èËôüÊúÉËá™ÂãïÂ∏∂ÂÖ•
-                    btnAdd.Enabled = false;
-                    btnDelete.Enabled = false;
-                    btnRepair.Enabled = false;
                 }
             }
             finally
@@ -1054,7 +991,7 @@ namespace RepairDll
                     return;
             }
 
-            //ÔøΩOÔøΩ_ÔøΩ“¶ÔøΩDefectÔøΩÔøΩÔøΩwÔøΩ◊ßÔøΩ
+            //¨Oß_©“¶≥Defect≥£§w≠◊ßπ
             for (int i = 0; i <= LVDefect.Items.Count - 1; i++)
             {
                 if (LVDefect.Items[i].ImageIndex != 0)
@@ -1068,7 +1005,7 @@ namespace RepairDll
             string sMsg = "";
             string sComfirmEmp = (SajetCommon.GetSysBaseData(g_sProgram, "Confirm Employee", ref sMsg));
 
-            //ÔøΩÔøΩ^ÔøΩyÔøΩÔøΩ
+            //ß‰¶^¨yØ∏
             string sReturn_ProcessID = "0";
             string sReturnProcessName = String.Empty;
             sSQL = " select  b.process_name,a.next_process_id "
@@ -1122,7 +1059,7 @@ namespace RepairDll
                 }
             }
 
-            // ÔøΩLÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ
+            // πLØ∏¨ˆø˝
             //====SAJET.SJ_REPAIR_GO                         
             try
             {
@@ -1268,7 +1205,7 @@ namespace RepairDll
             LVReplaceHistory.Items.Clear();
             if (chkbAll.Checked)
             {
-                //SNÔøΩ“¶ÔøΩReplaceÔøΩÔøΩÔøΩÔøΩ(ÔøΩÔøΩÔøΩgÔøΩ›©ÔøΩSNÔøΩÔøΩKeypartsÔøΩÔøΩÔøΩÔøΩ)
+                //SN©“¶≥Replace¨ˆø˝(¥ø∏gƒ›©Û¶πSN™∫Keyparts≥£∫‚)
                 sSQL = "Select c.PART_NO , b.old_part_sn , b.new_part_sn,b.replace_time , Remark "
                      + "From SAJET.G_sn_repair_replace_kp b "
                      + "    ,sajet.sys_part c "
@@ -1279,7 +1216,7 @@ namespace RepairDll
             }
             else
             {
-                //SNÔøΩÿ´eÔøΩÔøΩKeypartsÔøΩÔøΩÔøΩeÔøΩÔøΩReplaceÔøΩÔøΩÔøΩÔøΩ
+                //SN•ÿ´e™∫Keyparts§ß´e™∫Replace¨ˆø˝
                 sSQL = "Select c.PART_NO , b.old_part_sn , b.new_part_sn ,b.replace_time ,Remark  "
                      + "From SAJET.g_sn_keyparts a "
                      + "    ,SAJET.G_sn_repair_replace_kp b "
@@ -1304,7 +1241,7 @@ namespace RepairDll
         {
             /*
             LVRepairHistory.Items.Clear();
-            //SNÔøΩ“¶ÔøΩReplaceÔøΩÔøΩÔøΩÔøΩ(ÔøΩÔøΩÔøΩgÔøΩ›©ÔøΩSNÔøΩÔøΩKeypartsÔøΩÔøΩÔøΩÔøΩ)
+            //SN©“¶≥Replace¨ˆø˝(¥ø∏gƒ›©Û¶πSN™∫Keyparts≥£∫‚)
             sSQL = "SELECT C.PROCESS_NAME \"Defect Process\", E.DEFECT_CODE||','||E.DEFECT_DESC \"Defect\" "
                  + "       ,D.PROCESS_NAME \"RP Process\", F.REASON_DESC, G.DUTY_CODE||','||G.DUTY_DESC  \"Duty\" "
                  + "       ,A.REC_TIME "
@@ -1462,169 +1399,28 @@ namespace RepairDll
                 ClientUtils.ShowMessage(SajetCommon.SetLanguage("Please Select Keypart"), 0);
                 return;
             }
-
-            // Â¶ÇÊûúÊúâ cached defectÔºåÊääÊâÄÊúâÂ∫èËôüÂØ´ÂÖ•Ë≥áÊñôÂ∫´
-            if (g_bHasCachedDefect && !string.IsNullOrEmpty(g_sCachedDefectCode))
+            string sKPSN = dgvKP.CurrentRow.Cells["ITEM_PART_SN"].Value.ToString();
+            string sKPPartID = dgvKP.CurrentRow.Cells["ITEM_PART_ID"].Value.ToString();
+            RepairUtility.sDefectSN = g_sSN;
+            RepairUtility.sDefectSNPartID = g_sPartID;
+            RepairUtility.sDefectSNWO = LabWO.Text;
+            RepairUtility.sProgram = g_sProgram;
+            RepairUtility.sRepairType = "KEYPART";
+            RepairUtility.sDefectRecID = LVDefect.SelectedItems[0].SubItems[3].Text;
+            RepairUtility.sDefectCode = LVDefect.SelectedItems[0].Text;
+            RepairUtility.sDefectLoc = LVDefect.SelectedItems[0].SubItems[3].Text;
+            RepairUtility.sRepairSN = sKPSN;
+            RepairUtility.sRepairSNPartID = sKPPartID;
+            RepairUtility.sRepairSNWO = "N/A";
+            fRepairData fRepair = new fRepairData();
+            try
             {
-                // ÂèñÂæóÊØèÂÄãÂ∫èËôüÂ∞çÊáâÁöÑ WO„ÄÅPartID
-                for (int i = 0; i < g_lSNList.Count; i++)
-                {
-                    string sSN = g_lSNList[i];
-                    string sRecID = LVDefect.Items[i].SubItems[3].Text;
-                    
-                    // ÂèñÂæóË©≤ SN ÁöÑ WO Âíå PartID
-                    string sWO = "", sPartID = "";
-                    sSQL = "Select WORK_ORDER, PART_ID From SAJET.G_SN_STATUS Where SERIAL_NUMBER = '" + sSN + "' And ROWNUM = 1";
-                    DataSet dsSN = ClientUtils.ExecuteSQL(sSQL);
-                    if (dsSN.Tables[0].Rows.Count > 0)
-                    {
-                        sWO = dsSN.Tables[0].Rows[0]["WORK_ORDER"].ToString();
-                        sPartID = dsSN.Tables[0].Rows[0]["PART_ID"].ToString();
-                    }
-                    else
-                    {
-                        sWO = LabWO.Text;
-                        sPartID = g_sPartID;
-                    }
-
-                    // ÂØ´ÂÖ• G_SN_DEFECT
-                    sSQL = " Insert Into SAJET.G_SN_DEFECT "
-                         + " (DEFECT_SN_ID,RECID,SERIAL_NUMBER,WORK_ORDER,PART_ID,DEFECT_ID "
-                         + " ,TERMINAL_ID,PROCESS_ID,STAGE_ID,PDLINE_ID,TEST_EMP_ID,RP_STATUS,LOCATION) "
-                         + " Select  '" + g_sDefectSNID + "','" + sRecID + "','" + sSN + "','" + sWO + "','" + sPartID + "','" + g_sCachedDefectID + "'"
-                         + " ,TERMINAL_ID,PROCESS_ID,STAGE_ID,PDLINE_ID,'" + g_sUserID + "','1','" + g_sCachedLocation + "' "
-                         + " From SAJET.SYS_TERMINAL "
-                         + " Where TERMINAL_ID = '" + RepairUtility.sTerminalID + "' ";
-                    dsTemp = ClientUtils.ExecuteSQL(sSQL);
-
-                    // Ë§áË£ΩÁ∂≠‰øÆÁêÜÁî±
-                    sSQL = @"INSERT INTO SAJET.G_SN_REPAIR 
-                            (RECID, SERIAL_NUMBER, REASON_ID, DUTY_ID, RP_PROCESS_ID, REPAIR_EMP_ID, REPAIR_TIME)
-                            SELECT '" + sRecID + "', '" + sSN + "', REASON_ID, DUTY_ID, RP_PROCESS_ID, REPAIR_EMP_ID, SYSDATE
-                            FROM SAJET.G_SN_REPAIR 
-                            WHERE RECID = '" + g_sCachedRecID + "'";
-                    dsTemp = ClientUtils.ExecuteSQL(sSQL);
-
-                    // Ë§áË£ΩÁ∂≠‰øÆ location Ë≥áÊñô
-                    sSQL = @"INSERT INTO SAJET.G_SN_REPAIR_LOCATION 
-                            (RECID, ITEM_ID, REASON_ID, REPAIR_ID, LOCATION, IS_MAIN_DEFECT, UPDATE_USERID, UPDATE_TIME)
-                            SELECT '" + sRecID + "', ITEM_ID, REASON_ID, REPAIR_ID, LOCATION, IS_MAIN_DEFECT, UPDATE_USERID, SYSDATE
-                            FROM SAJET.G_SN_REPAIR_LOCATION 
-                            WHERE RECID = '" + g_sCachedRecID + "'";
-                    dsTemp = ClientUtils.ExecuteSQL(sSQL);
-                }
-
-                // Ê∏ÖÁ©∫Â∫èËôüÊ∏ÖÂñÆ
-                g_lSNList.Clear();
+                fRepair.ShowDialog();
             }
-
-            // Â∞çÊØèÂÄãÂ∫èËôüÔºöÂØ´ÂÖ• defect + Á∂≠‰øÆÁêÜÁî±ÔºåÁÑ∂ÂæåÂΩàÂá∫ fRepairData ÈÅ∏ keypart
-            for (int i = 0; i < LVDefect.Items.Count; i++)
+            finally
             {
-                string sRecID = LVDefect.Items[i].SubItems[3].Text;
-                string sSN = (g_lSNList.Count > i) ? g_lSNList[i] : g_sSN;
-
-                // ÂèñÂæóË©≤ SN ÁöÑ WO Âíå PartID
-                string sWO = "", sPartID = "";
-                sSQL = "Select WORK_ORDER, PART_ID From SAJET.G_SN_STATUS Where SERIAL_NUMBER = '" + sSN + "' And ROWNUM = 1";
-                DataSet dsSN = ClientUtils.ExecuteSQL(sSQL);
-                if (dsSN.Tables[0].Rows.Count > 0)
-                {
-                    sWO = dsSN.Tables[0].Rows[0]["WORK_ORDER"].ToString();
-                    sPartID = dsSN.Tables[0].Rows[0]["PART_ID"].ToString();
-                }
-                else
-                {
-                    sWO = LabWO.Text;
-                    sPartID = g_sPartID;
-                }
-
-                // ÂØ´ÂÖ• G_SN_DEFECTÔºàÂ¶ÇÊûúÈÇÑÊ≤íÂØ´ÂÖ•ÁöÑË©±Ôºâ
-                sSQL = " Insert Into SAJET.G_SN_DEFECT "
-                     + " (DEFECT_SN_ID,RECID,SERIAL_NUMBER,WORK_ORDER,PART_ID,DEFECT_ID "
-                     + " ,TERMINAL_ID,PROCESS_ID,STAGE_ID,PDLINE_ID,TEST_EMP_ID,RP_STATUS,LOCATION) "
-                     + " Select  '" + g_sDefectSNID + "','" + sRecID + "','" + sSN + "','" + sWO + "','" + sPartID + "','" + g_sCachedDefectID + "'"
-                     + " ,TERMINAL_ID,PROCESS_ID,STAGE_ID,PDLINE_ID,'" + g_sUserID + "','1','" + g_sCachedLocation + "' "
-                     + " From SAJET.SYS_TERMINAL "
-                     + " Where TERMINAL_ID = '" + RepairUtility.sTerminalID + "' ";
-                dsTemp = ClientUtils.ExecuteSQL(sSQL);
-
-                // Ë§áË£ΩÁ∂≠‰øÆÁêÜÁî±
-                sSQL = @"INSERT INTO SAJET.G_SN_REPAIR 
-                        (RECID, SERIAL_NUMBER, REASON_ID, DUTY_ID, RP_PROCESS_ID, REPAIR_EMP_ID, REPAIR_TIME)
-                        SELECT '" + sRecID + "', '" + sSN + "', REASON_ID, DUTY_ID, RP_PROCESS_ID, REPAIR_EMP_ID, SYSDATE
-                        FROM SAJET.G_SN_REPAIR 
-                        WHERE RECID = '" + g_sCachedRecID + "'";
-                dsTemp = ClientUtils.ExecuteSQL(sSQL);
-
-                // Ë§áË£ΩÁ∂≠‰øÆ location Ë≥áÊñô
-                sSQL = @"INSERT INTO SAJET.G_SN_REPAIR_LOCATION 
-                        (RECID, ITEM_ID, REASON_ID, REPAIR_ID, LOCATION, IS_MAIN_DEFECT, UPDATE_USERID, UPDATE_TIME)
-                        SELECT '" + sRecID + "', ITEM_ID, REASON_ID, REPAIR_ID, LOCATION, IS_MAIN_DEFECT, UPDATE_USERID, SYSDATE
-                        FROM SAJET.G_SN_REPAIR_LOCATION 
-                        WHERE RECID = '" + g_sCachedRecID + "'";
-                dsTemp = ClientUtils.ExecuteSQL(sSQL);
-
-                // Ë®≠ÂÆö RepairUtility ‰∏¶È°ØÁ§∫ KP
-                RepairUtility.sDefectSN = sSN;
-                RepairUtility.sDefectSNPartID = sPartID;
-                RepairUtility.sDefectSNWO = sWO;
-                RepairUtility.sProgram = g_sProgram;
-                RepairUtility.sRepairType = "KEYPART";
-                RepairUtility.sDefectRecID = sRecID;
-                RepairUtility.sDefectCode = LVDefect.Items[i].Text;
-                RepairUtility.sDefectLoc = LVDefect.Items[i].SubItems[2].Text;
-
-                // ÂèñÂæóË©≤ SN ÁöÑ KP Ë≥áÊñô
-                sSQL = @" SELECT A.SERIAL_NUMBER, A.work_order, A.ITEM_PART_ID, A.Item_Group, A.Process_Id 
-                         ,B.PART_NO, ITEM_PART_SN, B.SPEC1 
-                         FROM SAJET.G_SN_KEYPARTS A 
-                         ,SAJET.SYS_PART B 
-                         WHERE A.SERIAL_NUMBER = :SERIAL_NUMBER 
-                         AND A.ITEM_PART_ID = B.PART_ID(+) ";
-                object[][] Params = new object[1][];
-                Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "SERIAL_NUMBER", sSN };
-                DataSet dsKP = ClientUtils.ExecuteSQL(sSQL, Params);
-
-                dgvKP.Rows.Clear();
-                for (int j = 0; j < dsKP.Tables[0].Rows.Count; j++)
-                {
-                    DataRow dr = dsKP.Tables[0].Rows[j];
-                    dgvKP.Rows.Add();
-                    dgvKP.Rows[dgvKP.Rows.Count - 1].Cells["SERIAL_NUMBER"].Value = dr["SERIAL_NUMBER"].ToString();
-                    dgvKP.Rows[dgvKP.Rows.Count - 1].Cells["WORK_ORDER"].Value = dr["WORK_ORDER"].ToString();
-                    dgvKP.Rows[dgvKP.Rows.Count - 1].Cells["ITEM_PART_SN"].Value = dr["ITEM_PART_SN"].ToString();
-                    dgvKP.Rows[dgvKP.Rows.Count - 1].Cells["ITEM_PART_ID"].Value = dr["ITEM_PART_ID"].ToString();
-                    dgvKP.Rows[dgvKP.Rows.Count - 1].Cells["ITEM_PART_NO"].Value = dr["PART_NO"].ToString();
-                }
-
-                if (dgvKP.Rows.Count == 0 || dgvKP.CurrentRow == null)
-                {
-                    ClientUtils.ShowMessage(SajetCommon.SetLanguage("Please Select Keypart"), 0);
-                    continue;
-                }
-
-                string sKPSN = dgvKP.CurrentRow.Cells["ITEM_PART_SN"].Value.ToString();
-                string sKPPartID = dgvKP.CurrentRow.Cells["ITEM_PART_ID"].Value.ToString();
-                RepairUtility.sRepairSN = sKPSN;
-                RepairUtility.sRepairSNPartID = sKPPartID;
-                RepairUtility.sRepairSNWO = "N/A";
-                fRepairData fRepair = new fRepairData();
-                try
-                {
-                    fRepair.ShowDialog();
-                }
-                finally
-                {
-                    fRepair.Dispose();
-                }
+                fRepair.Dispose();
             }
-
-            // ÊÅ¢Âæ© btnAdd/btnDelete/btnRepair ÁÇ∫ÂïüÁî®ÁãÄÊÖã
-            btnAdd.Enabled = true;
-            btnDelete.Enabled = true;
-            btnRepair.Enabled = true;
-            g_bHasCachedDefect = false;
         }
 
         private void btnRepairSNHistory_Click(object sender, EventArgs e)
@@ -1637,7 +1433,7 @@ namespace RepairDll
             object obj = null;
             Type type = null;
             string strApplicationPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            if (!File.Exists(strApplicationPath + "\\RepairSNHistorydll.dll"))//ÔøΩbÔøΩÔøΩÔøΩaÔøΩ›µoÔøΩ{DLLÔøΩ…Æ◊´hÔøΩÔøΩÔøΩtÔøΩ~ÔøΩ’¶rÔøΩÔøΩAÔøΩ_ÔøΩhÔøΩqÔøΩÔøΩ∆ÆwÔøΩÔøΩÔøΩjÔøΩMÔøΩ{ÔøΩÔøΩÔøΩbÔøΩÔøΩ!
+            if (!File.Exists(strApplicationPath + "\\RepairSNHistorydll.dll"))//¶b•ª¶a∫›µo≤{DLL¿…Æ◊´h§£•t•~≤’¶r¶Í°Aß_´h±q∏ÍÆ∆Æw§§∑j¥Mµ{¶°¶b≠˛!
             {
                 ClientUtils.ShowMessage(SajetCommon.SetLanguage("File Not Exist") + Environment.NewLine
                                        + SajetCommon.SetLanguage("File") + " : " + strApplicationPath + "\\RepairSNHistorydll.dll", 0);
@@ -1645,7 +1441,7 @@ namespace RepairDll
             }
             try
             {
-                //ÔøΩ’∏À∏ÔøΩT
+                //≤’∏À∏Í∞T
                 assembly = Assembly.LoadFrom(strApplicationPath + "\\RepairSNHistorydll.dll");
                 type = assembly.GetType(("RepairSNHistorydll.fMain"));
                 obj = assembly.CreateInstance(type.FullName, true, BindingFlags.CreateInstance, null, new object[] { g_sExeName, g_sProgram, g_sUserID, sSN }, null, null);
