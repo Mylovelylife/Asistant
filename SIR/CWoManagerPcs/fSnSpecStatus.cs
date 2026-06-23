@@ -1,6 +1,9 @@
 using SajetClass;
 using System;
 using System.Data;
+using System.Data.OracleClient;
+using System.Diagnostics;
+using System.IO;
 using System.Windows.Forms;
 
 namespace CWoManagerPcs
@@ -37,77 +40,86 @@ namespace CWoManagerPcs
             dgvSpecStatus.DataSource = dsTemp.Tables[0];
         }
 
-        private void txtFilter_TextChanged(object sender, EventArgs e)
+        private void btnDeleteAll_Click(object sender, EventArgs e)
         {
-            string filterText = txtFilter.Text.Trim().ToUpper();
+            var dr = MessageBox.Show(
+                $"Delete all records for Work Order: {g_sWorkOrder}?",
+                SajetCommon.SetLanguage("Warning"),
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
 
-            if (string.IsNullOrEmpty(filterText))
-            {
-                dsTemp.Tables[0].DefaultView.RowFilter = "";
-            }
-            else
+            if (dr == DialogResult.Yes)
             {
                 try
                 {
-                    dsTemp.Tables[0].DefaultView.RowFilter = 
-                        $"SERIAL_NUMBER LIKE '%{filterText}%' OR SERIAL_STATUS LIKE '%{filterText}%'";
+                    sSQL = "DELETE FROM SAJET.G_SN_SPEC_STATUS " +
+                           "WHERE WORK_ORDER = :WORK_ORDER";
+
+                    object[][] Params = new object[1][];
+                    Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "WORK_ORDER", g_sWorkOrder };
+
+                    ClientUtils.ExecuteSQL(sSQL, Params);
+
+                    SajetCommon.Show_Message("Delete All OK", 3);
+                    LoadData();
                 }
-                catch
+                catch (Exception ex)
                 {
-                    // Invalid filter expression, ignore
+                    SajetCommon.Show_Message(ex.Message, 0);
                 }
             }
         }
 
-        private void dgvSpecStatus_KeyDown(object sender, KeyEventArgs e)
+        private void btnExportExcel_Click(object sender, EventArgs e)
         {
-            if (e.KeyCode == Keys.Delete)
-            {
-                if (dgvSpecStatus.CurrentRow == null)
-                {
-                    return;
-                }
-
-                var dr = MessageBox.Show(
-                    SajetCommon.SetLanguage("Confirm Delete?"),
-                    SajetCommon.SetLanguage("Warning"),
-                    MessageBoxButtons.YesNo,
-                    MessageBoxIcon.Question);
-
-                if (dr == DialogResult.Yes)
-                {
-                    DeleteSelectedRow();
-                }
-            }
-        }
-
-        private void DeleteSelectedRow()
-        {
-            if (dgvSpecStatus.CurrentRow == null)
-                return;
-
             try
             {
-                string sWorkOrder = dgvSpecStatus.CurrentRow.Cells["WORK_ORDER"].Value?.ToString();
-                string sSerialNumber = dgvSpecStatus.CurrentRow.Cells["SERIAL_NUMBER"].Value?.ToString();
+                SaveFileDialog sfd = new SaveFileDialog();
+                sfd.Filter = "Excel Files|*.xls";
+                sfd.FileName = $"SN_SPEC_STATUS_{g_sWorkOrder}_{DateTime.Now:yyyyMMddHHmmss}.xls";
 
-                if (string.IsNullOrEmpty(sWorkOrder) || string.IsNullOrEmpty(sSerialNumber))
+                if (sfd.ShowDialog() == DialogResult.OK)
                 {
-                    SajetCommon.Show_Message("Data error", 0);
-                    return;
+                    string filePath = sfd.FileName;
+
+                    // Write to Excel using HTML format
+                    using (StreamWriter sw = new StreamWriter(filePath, false, System.Text.Encoding.UTF8))
+                    {
+                        // HTML header for Excel
+                        sw.WriteLine("<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body>");
+                        sw.WriteLine("<table border='1' cellpadding='3' cellspacing='0' style='border-collapse:collapse; font-size:12px;'>");
+
+                        // Header
+                        sw.WriteLine("<tr style='background-color:#CCCCCC; font-weight:bold;'>");
+                        foreach (DataGridViewColumn col in dgvSpecStatus.Columns)
+                        {
+                            sw.WriteLine($"<td>{col.HeaderText}</td>");
+                        }
+                        sw.WriteLine("</tr>");
+
+                        // Data rows
+                        foreach (DataGridViewRow row in dgvSpecStatus.Rows)
+                        {
+                            if (!row.IsNewRow)
+                            {
+                                sw.WriteLine("<tr>");
+                                foreach (DataGridViewCell cell in row.Cells)
+                                {
+                                    string value = cell.Value?.ToString() ?? "";
+                                    sw.WriteLine($"<td>{System.Security.SecurityElement.Escape(value)}</td>");
+                                }
+                                sw.WriteLine("</tr>");
+                            }
+                        }
+
+                        sw.WriteLine("</table></body></html>");
+                    }
+
+                    SajetCommon.Show_Message("Export OK: " + filePath, 3);
+
+                    // Open the file
+                    Process.Start(filePath);
                 }
-
-                sSQL = "DELETE FROM SAJET.G_SN_SPEC_STATUS " +
-                       "WHERE WORK_ORDER = :WORK_ORDER AND SERIAL_NUMBER = :SERIAL_NUMBER";
-
-                object[][] Params = new object[2][];
-                Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "WORK_ORDER", sWorkOrder };
-                Params[1] = new object[] { ParameterDirection.Input, OracleType.VarChar, "SERIAL_NUMBER", sSerialNumber };
-
-                ClientUtils.ExecuteSQL(sSQL, Params);
-
-                SajetCommon.Show_Message("Delete OK", 3);
-                LoadData();
             }
             catch (Exception ex)
             {

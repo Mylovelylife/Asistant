@@ -17,8 +17,8 @@ namespace CWoManagerPcs
 
         private void InitializeComponent()
         {
-            this.txtFilter = new System.Windows.Forms.TextBox();
-            this.lblFilter = new System.Windows.Forms.Label();
+            this.btnDeleteAll = new System.Windows.Forms.Button();
+            this.btnExportExcel = new System.Windows.Forms.Button();
             this.dgvSpecStatus = new System.Windows.Forms.DataGridView();
             this.colWorkOrder = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSerialNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -28,24 +28,27 @@ namespace CWoManagerPcs
             ((System.ComponentModel.ISupportInitialize)(this.dgvSpecStatus)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtFilter
+            // btnDeleteAll
             // 
-            this.txtFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtFilter.Location = new System.Drawing.Point(80, 15);
-            this.txtFilter.Name = "txtFilter";
-            this.txtFilter.Size = new System.Drawing.Size(300, 29);
-            this.txtFilter.TabIndex = 0;
-            this.txtFilter.TextChanged += new System.EventHandler(this.txtFilter_TextChanged);
+            this.btnDeleteAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnDeleteAll.Location = new System.Drawing.Point(15, 15);
+            this.btnDeleteAll.Name = "btnDeleteAll";
+            this.btnDeleteAll.Size = new System.Drawing.Size(150, 35);
+            this.btnDeleteAll.TabIndex = 0;
+            this.btnDeleteAll.Text = "Delete All";
+            this.btnDeleteAll.UseVisualStyleBackColor = true;
+            this.btnDeleteAll.Click += new System.EventHandler(this.btnDeleteAll_Click);
             // 
-            // lblFilter
+            // btnExportExcel
             // 
-            this.lblFilter.AutoSize = true;
-            this.lblFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblFilter.Location = new System.Drawing.Point(15, 20);
-            this.lblFilter.Name = "lblFilter";
-            this.lblFilter.Size = new System.Drawing.Size(59, 25);
-            this.lblFilter.TabIndex = 1;
-            this.lblFilter.Text = "Filter:";
+            this.btnExportExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnExportExcel.Location = new System.Drawing.Point(180, 15);
+            this.btnExportExcel.Name = "btnExportExcel";
+            this.btnExportExcel.Size = new System.Drawing.Size(150, 35);
+            this.btnExportExcel.TabIndex = 1;
+            this.btnExportExcel.Text = "Export Excel";
+            this.btnExportExcel.UseVisualStyleBackColor = true;
+            this.btnExportExcel.Click += new System.EventHandler(this.btnExportExcel_Click);
             // 
             // dgvSpecStatus
             // 
@@ -65,7 +68,6 @@ namespace CWoManagerPcs
             this.dgvSpecStatus.RowTemplate.Height = 27;
             this.dgvSpecStatus.Size = new System.Drawing.Size(800, 340);
             this.dgvSpecStatus.TabIndex = 2;
-            this.dgvSpecStatus.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dgvSpecStatus_KeyDown);
             // 
             // colWorkOrder
             // 
@@ -108,21 +110,20 @@ namespace CWoManagerPcs
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 400);
             this.Controls.Add(this.dgvSpecStatus);
-            this.Controls.Add(this.lblFilter);
-            this.Controls.Add(this.txtFilter);
+            this.Controls.Add(this.btnExportExcel);
+            this.Controls.Add(this.btnDeleteAll);
             this.Name = "fSnSpecStatus";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "G_SN_SPEC_STATUS";
             this.Load += new System.EventHandler(this.fSnSpecStatus_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvSpecStatus)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtFilter;
-        private System.Windows.Forms.Label lblFilter;
+        private System.Windows.Forms.Button btnDeleteAll;
+        private System.Windows.Forms.Button btnExportExcel;
         private System.Windows.Forms.DataGridView dgvSpecStatus;
         private System.Windows.Forms.DataGridViewTextBoxColumn colWorkOrder;
         private System.Windows.Forms.DataGridViewTextBoxColumn colSerialNumber;
