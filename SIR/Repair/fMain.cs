@@ -357,19 +357,50 @@ namespace RepairDll
             if (e.KeyChar != (char)Keys.Return)
                 return;
 
-            // 如果已有 cached defect，只顯示在畫面上，不寫入資料庫
-            // 等使用者按 btnRepairKP_Click 時才會正式寫入
+            // 如果已有 cached defect，自動帶入並寫入資料庫
             if (g_bHasCachedDefect && !string.IsNullOrEmpty(g_sCachedDefectCode))
             {
-                // 只顯示在 LVDefect 畫面，不寫入資料庫
+                string sNewRecID = GetDefectRECID();
+                if (sNewRecID == "0")
+                {
+                    ClientUtils.ShowMessage("Get Defect RECID Error", 0);
+                    return;
+                }
+
+                // 寫入 G_SN_DEFECT
+                sSQL = " Insert Into SAJET.G_SN_DEFECT "
+                     + " (DEFECT_SN_ID,RECID,SERIAL_NUMBER,WORK_ORDER,PART_ID,DEFECT_ID "
+                     + " ,TERMINAL_ID,PROCESS_ID,STAGE_ID,PDLINE_ID,TEST_EMP_ID,RP_STATUS,LOCATION) "
+                     + " Select  '" + g_sDefectSNID + "','" + sNewRecID + "','" + editSN.Text + "','" + LabWO.Text + "','" + g_sPartID + "','" + g_sCachedDefectID + "'"
+                     + " ,TERMINAL_ID,PROCESS_ID,STAGE_ID,PDLINE_ID,'" + g_sUserID + "','1','" + g_sCachedLocation + "' "
+                     + " From SAJET.SYS_TERMINAL "
+                     + " Where TERMINAL_ID = '" + RepairUtility.sTerminalID + "' ";
+                dsTemp = ClientUtils.ExecuteSQL(sSQL);
+
                 LVDefect.Items.Add(g_sCachedDefectCode);
                 LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(g_sCachedDefectDesc);
                 LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(g_sCachedLocation);
-                LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(g_sCachedRecID);
+                LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(sNewRecID);
                 LVDefect.Items[LVDefect.Items.Count - 1].SubItems.Add(RepairUtility.sProcessID);
-                LVDefect.Items[LVDefect.Items.Count - 1].ImageIndex = 0; // 0 = 已維修完成
+                LVDefect.Items[LVDefect.Items.Count - 1].ImageIndex = 0;
                 LVDefect.Items[LVDefect.Items.Count - 1].Selected = true;
                 LVDefect.Focus();
+
+                // 複製維修理由
+                sSQL = @"INSERT INTO SAJET.G_SN_REPAIR 
+                        (RECID, SERIAL_NUMBER, REASON_ID, DUTY_ID, RP_PROCESS_ID, REPAIR_EMP_ID, REPAIR_TIME)
+                        SELECT '" + sNewRecID + "', '" + editSN.Text + "', REASON_ID, DUTY_ID, RP_PROCESS_ID, REPAIR_EMP_ID, SYSDATE
+                        FROM SAJET.G_SN_REPAIR 
+                        WHERE RECID = '" + g_sCachedRecID + "'";
+                dsTemp = ClientUtils.ExecuteSQL(sSQL);
+
+                // 複製維修 location 資料
+                sSQL = @"INSERT INTO SAJET.G_SN_REPAIR_LOCATION 
+                        (RECID, ITEM_ID, REASON_ID, REPAIR_ID, LOCATION, IS_MAIN_DEFECT, UPDATE_USERID, UPDATE_TIME)
+                        SELECT '" + sNewRecID + "', ITEM_ID, REASON_ID, REPAIR_ID, LOCATION, IS_MAIN_DEFECT, UPDATE_USERID, SYSDATE
+                        FROM SAJET.G_SN_REPAIR_LOCATION 
+                        WHERE RECID = '" + g_sCachedRecID + "'";
+                dsTemp = ClientUtils.ExecuteSQL(sSQL);
             }
 
             Show_SNData();
