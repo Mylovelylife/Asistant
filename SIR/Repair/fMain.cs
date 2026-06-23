@@ -944,11 +944,6 @@ namespace RepairDll
             g_sCachedRecID = sRecID;
             g_sCachedDefectID = sDefectID;
 
-            // 禁用 btnAdd/btnDelete/btnRepair，因為後續序號會自動帶入
-            btnAdd.Enabled = false;
-            btnDelete.Enabled = false;
-            btnRepair.Enabled = false;
-
         }
 
         private string GetDefectRECID()
@@ -1024,6 +1019,11 @@ namespace RepairDll
                         g_sCachedDutyID = dsTemp.Tables[0].Rows[0]["DUTY_ID"].ToString();
                         g_sCachedRepairProcessID = dsTemp.Tables[0].Rows[0]["RP_PROCESS_ID"].ToString();
                     }
+
+                    // 禁用 btnAdd/btnDelete/btnRepair，因為後續序號會自動帶入
+                    btnAdd.Enabled = false;
+                    btnDelete.Enabled = false;
+                    btnRepair.Enabled = false;
                 }
             }
             finally
