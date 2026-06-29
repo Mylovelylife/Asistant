@@ -1,10 +1,12 @@
 using SajetClass;
 using SajetFilter;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.OracleClient;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
@@ -36,6 +38,11 @@ namespace RepairDll
         public static string g_sExeName;
         string g_sProgram, g_sFunction;
 
+
+        public List<List<Dictionary<string, string>>> BatchData;
+        public List<string> g_LSN = new List<string>();
+
+
         /*public string g_sRTerminalID;
         public string g_sRProcessID;
         public string g_sRStageID;
@@ -54,6 +61,8 @@ namespace RepairDll
 
         string sSQL;
         DataSet dsTemp;
+
+        bool g_RepairType = false;
 
         public void check_privilege()
         {
@@ -341,10 +350,26 @@ namespace RepairDll
 
         private void editSN_KeyPress(object sender, KeyPressEventArgs e)
         {
-            ClearData();
+
+
             if (e.KeyChar != (char)Keys.Return)
                 return;
+
+
+            if (g_RepairType)
+            {
+                LVDefect.SelectedItems[0].ImageIndex = 0;
+                ShowReason(LVDefect.SelectedItems[0].SubItems[3].Text);
+                ShowItemReplace();
+            }
+            else 
+            {
+                ClearData();
+            }
+
             Show_SNData();
+
+
         }
         private void Show_KP()
         {
@@ -465,6 +490,30 @@ namespace RepairDll
 
                     //SajetCommon.Show_Message("The same type of defect is judged more than 3 times", 3);
                     btnScrap_Click(null, null);
+                }
+            }
+
+            //批次維修
+            if (g_RepairType)
+            {
+                //代表第二次輸入
+                if (BatchData[0].Count > 0)
+                {
+
+                    List<Dictionary<string, string>> myDataList = new List<Dictionary<string, string>>();
+
+                    myDataList = BatchData[0];
+
+                    if (myDataList.Count > 0)
+                    {
+                        // 取得第一個 Dictionary
+                        Dictionary<string, string> targetDict = myDataList[0];
+
+                        // 更改既有的 Key 的內容（例如：把 TSN 改掉）
+                        targetDict["TSN"] = g_sSN;
+                    }
+
+                    BatchData.Add(myDataList);
                 }
             }
 
@@ -892,59 +941,62 @@ namespace RepairDll
 
         private void btnRepair_Click(object sender, EventArgs e)
         {
+            Repair();
+        }
+
+
+        private void Repair(bool _RepairType = false) 
+        {
+            BatchData = new List<List<Dictionary<string, string>>> ();
+
             if (g_sSN == "")
                 return;
             if (LVDefect.SelectedItems.Count == 0)
                 return;
 
-            RepairUtility.sDefectSN = g_sSN;
-            RepairUtility.sDefectSNPartID = g_sPartID;
-            RepairUtility.sDefectSNWO = LabWO.Text;
-            RepairUtility.sProgram = g_sProgram;
-            RepairUtility.sRepairSN = g_sSN;
-            RepairUtility.sRepairType = "SERIAL NUMBER";
-            RepairUtility.sDefectRecID = LVDefect.SelectedItems[0].SubItems[3].Text;
-            RepairUtility.sDefectCode = LVDefect.SelectedItems[0].Text;
-            RepairUtility.sDefectLoc = LVDefect.SelectedItems[0].SubItems[2].Text;
-            RepairUtility.sRepairSN = g_sSN;
-            RepairUtility.sRepairSNPartID = g_sPartID;
-            RepairUtility.sRepairSNWO = LabWO.Text;
 
-            fRepairData fRepair = new fRepairData();
-            try
-            {
-                //fRepair.g_sDefectRecID = LVDefect.SelectedItems[0].SubItems[4].Text;
-                //fRepair.LabDefCode.Text = LVDefect.SelectedItems[0].Text;
-                //fRepair.LabDefDesc.Text = LVDefect.SelectedItems[0].SubItems[1].Text;
-                // fRepair.editLC.Text = LVDefect.SelectedItems[0].SubItems[3].Text;
-                // if (LVDefect.SelectedItems[0].SubItems[3].Text == "N/A" || LVDefect.SelectedItems[0].SubItems[3].Text == "NA")
-                //     fRepair.editErrorPoint.Text = "0";                                                   
-                //   fRepair.LabSN.Text = g_sSN;
-                //fRepair.LabReasonDesc.Text = "";
-                // fRepair.LabDutyDesc.Text = "";
-                // fRepair.g_sSN = g_sSN;
-                // fRepair.g_sWO = LabWO.Text;
-                //fRepair.g_iLocateItem = g_iLocateItem;
-                //  fRepair.g_sUserID = g_sUserID;
-                //  fRepair.g_sPartID = g_sPartID;
-                /*
-                fRepair.g_sRTerminalID = g_sRTerminalID;
-                fRepair.g_sRProcessID = g_sRProcessID;
-                fRepair.g_sRStageID = g_sRStageID;
-                fRepair.g_sRPDLineID = g_sRPDLineID;
-                fRepair.g_sProgram = g_sProgram;
-                 */
-                if (fRepair.ShowDialog() == DialogResult.OK)
+            
+ 
+                RepairUtility.sDefectSN = g_sSN;
+                RepairUtility.sDefectSNPartID = g_sPartID;
+                RepairUtility.sDefectSNWO = LabWO.Text;
+                RepairUtility.sProgram = g_sProgram;
+                RepairUtility.sRepairSN = g_sSN;
+                RepairUtility.sRepairType = "SERIAL NUMBER";
+                RepairUtility.sDefectRecID = LVDefect.SelectedItems[0].SubItems[3].Text;
+                RepairUtility.sDefectCode = LVDefect.SelectedItems[0].Text;
+                RepairUtility.sDefectLoc = LVDefect.SelectedItems[0].SubItems[2].Text;
+                RepairUtility.sRepairSNPartID = g_sPartID;
+                RepairUtility.sRepairSNWO = LabWO.Text;
+
+
+                fRepairData fRepair = new fRepairData();
+                try
                 {
-                    LVDefect.SelectedItems[0].ImageIndex = 0;
-                    ShowReason(LVDefect.SelectedItems[0].SubItems[3].Text);
-                    ShowItemReplace();
+                    fRepair.g_RepairType = _RepairType;
+
+                    //批次輸入只有第一次需要開窗  ~~ by Jim 20260625
+                    if (fRepair.ShowDialog() == DialogResult.OK && (BatchData.Count == 0))
+                    {
+                        LVDefect.SelectedItems[0].ImageIndex = 0;
+                        ShowReason(LVDefect.SelectedItems[0].SubItems[3].Text);
+                        ShowItemReplace();
+                    }
+
                 }
-            }
-            finally
-            {
-                fRepair.Dispose();
-            }
+                finally
+                {
+                    //批次維修：將第一次的記錄抓回 ~~ by Jim 20260626  
+                    BatchData.Add(fRepair.innerList);
+
+                    g_RepairType = _RepairType;
+
+                    fRepair.Dispose();
+                }
+            
+
+            
+
         }
         private bool CheckBGAReplaceCount()
         {
@@ -1000,6 +1052,7 @@ namespace RepairDll
                     return;
                 }
             }
+
             if (!CheckBGAReplaceCount())
                 return;
             string sMsg = "";
@@ -1063,28 +1116,99 @@ namespace RepairDll
             //====SAJET.SJ_REPAIR_GO                         
             try
             {
-                object[][] Params = new object[6][];
-                Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TTERMINALID", RepairUtility.sTerminalID };
-                Params[1] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TSN", g_sSN };
-                Params[2] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TEMPID", g_sUserID };
-                Params[3] = new object[] { ParameterDirection.Input, OracleType.VarChar, "NPROCESSID", sReturn_ProcessID };
-                Params[4] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TCOMFIRMID", g_sComfirmID };
-                Params[5] = new object[] { ParameterDirection.Output, OracleType.VarChar, "TRES", "" };
-                DataSet ds = ClientUtils.ExecuteProc("SAJET.SJ_REPAIR_GO", Params);
-
-                string sRes = ds.Tables[0].Rows[0]["TRES"].ToString();
-
-                if (sRes != "OK")
+               
+                //批次維修
+                if (g_RepairType)
                 {
-                    ClientUtils.ShowMessage(sRes, 0);
-                    return;
+                    #region 批次維修
+                    if (BatchData.Count > 0)
+                    {
+                        foreach (var myDataList in BatchData)
+                        {
+                            Dictionary<string, string> targetDict = myDataList[0];
+
+                            var _TSN = targetDict["TSN"];
+                            var _TWO = targetDict["TWO"];
+                            var _TRECID = targetDict["TRECID"];
+                            var _TREASONID = targetDict["TREASONID"];
+                            var _TDUTYID = targetDict["TDUTYID"];
+                            var _TREMARK = targetDict["TREMARK"];
+                            var _TREPAIRMETHOD = targetDict["TREPAIRMETHOD"];
+                            var _TLOCATIONDATA = targetDict["TLOCATIONDATA"];
+
+
+                            object[][] _Params = new object[12][];
+                            _Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TSN", _TSN };
+                            _Params[1] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TWO", _TWO };
+                            _Params[2] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TPARTID", g_sPartID };
+                            _Params[3] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TRECID", _TRECID };
+                            _Params[4] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREASONID", _TREASONID };
+                            _Params[5] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TDUTYID", _TDUTYID };
+                            _Params[6] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TEMPID", RepairUtility.sUserID };
+                            _Params[7] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TTERMINALID", RepairUtility.sTerminalID };
+                            _Params[8] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREMARK", _TREMARK };
+                            _Params[9] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREPAIRMETHOD", _TREPAIRMETHOD };
+                            _Params[10] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TLOCATIONDATA", _TLOCATIONDATA };
+                            _Params[11] = new object[] { ParameterDirection.Output, OracleType.VarChar, "TRES", "" };
+                            var _ds = ClientUtils.ExecuteProc("SAJET.SJ_REPAIR_REASON", _Params);
+
+
+
+                            object[][] Params = new object[6][];
+                            Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TTERMINALID", RepairUtility.sTerminalID };
+                            Params[1] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TSN", _TSN };
+                            Params[2] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TEMPID", g_sUserID };
+                            Params[3] = new object[] { ParameterDirection.Input, OracleType.VarChar, "NPROCESSID", sReturn_ProcessID };
+                            Params[4] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TCOMFIRMID", g_sComfirmID };
+                            Params[5] = new object[] { ParameterDirection.Output, OracleType.VarChar, "TRES", "" };
+                            DataSet ds = ClientUtils.ExecuteProc("SAJET.SJ_REPAIR_GO", Params);
+
+                            string sRes = ds.Tables[0].Rows[0]["TRES"].ToString();
+
+                            if (sRes != "OK")
+                            {
+                                ClientUtils.ShowMessage(sRes, 0);
+                                return;
+                            }
+                        }
+
+                        //清除批次維修的紀錄
+                        BatchData.Clear();
+                        g_RepairType = false;
+                    }
+                    #endregion
                 }
-                if (!string.IsNullOrEmpty(sReturnProcessName))
+                else 
                 {
-                    ClientUtils.ShowMessage(SajetCommon.SetLanguage("Serial Number") + " : " + g_sSN + Environment.NewLine + Environment.NewLine
-                                           + SajetCommon.SetLanguage("Repair Finish") + Environment.NewLine + Environment.NewLine
-                                           + SajetCommon.SetLanguage("Next Process Is") + " : " + sReturnProcessName, 3);
+                    object[][] Params = new object[6][];
+                    Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TTERMINALID", RepairUtility.sTerminalID };
+                    Params[1] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TSN", g_sSN };
+                    Params[2] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TEMPID", g_sUserID };
+                    Params[3] = new object[] { ParameterDirection.Input, OracleType.VarChar, "NPROCESSID", sReturn_ProcessID };
+                    Params[4] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TCOMFIRMID", g_sComfirmID };
+                    Params[5] = new object[] { ParameterDirection.Output, OracleType.VarChar, "TRES", "" };
+                    DataSet ds = ClientUtils.ExecuteProc("SAJET.SJ_REPAIR_GO", Params);
+
+                    string sRes = ds.Tables[0].Rows[0]["TRES"].ToString();
+
+                    if (sRes != "OK")
+                    {
+                        ClientUtils.ShowMessage(sRes, 0);
+                        return;
+                    }
+                    if (!string.IsNullOrEmpty(sReturnProcessName))
+                    {
+                        ClientUtils.ShowMessage(SajetCommon.SetLanguage("Serial Number") + " : " + g_sSN + Environment.NewLine + Environment.NewLine
+                                               + SajetCommon.SetLanguage("Repair Finish") + Environment.NewLine + Environment.NewLine
+                                               + SajetCommon.SetLanguage("Next Process Is") + " : " + sReturnProcessName, 3);
+                    }
                 }
+                
+
+
+
+
+                
             }
             catch (Exception ex)
             {
@@ -1552,6 +1676,11 @@ namespace RepairDll
             ShowRepairSNHistory(sKPSN);
         }
 
+        private void BtnBatch_Click(object sender, EventArgs e)
+        {
+            Repair(true);
+            
+        }
 
         private void btnSNHistory_Click(object sender, EventArgs e)
         {

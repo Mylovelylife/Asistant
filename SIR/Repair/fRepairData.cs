@@ -17,10 +17,14 @@ namespace RepairDll
 {
     public partial class fRepairData : Form
     {
+        
         public fRepairData()
         {
             InitializeComponent();
         }
+
+
+        public bool g_RepairType = false;
         public string g_sDupReason;
         public string g_sDefectRecID;
         public string sServerName;
@@ -46,6 +50,9 @@ namespace RepairDll
         fMain fM = new fMain();
         //add by rita 2014/11/24
         Dictionary<string, string> g_dtItemPartSN = new Dictionary<string, string>();
+
+        //提供資料給開啟該頁面的視窗
+        public List<Dictionary<string, string>> innerList;
 
 
         private void btnSearchReason_Click(object sender, EventArgs e)
@@ -158,20 +165,51 @@ namespace RepairDll
                 DataSet ds;
                 if (RepairUtility.sRepairType == "SERIAL NUMBER")
                 {
-                    object[][] Params = new object[12][];
-                    Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TSN", g_sSN };
-                    Params[1] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TWO", g_sWO };
-                    Params[2] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TPARTID", g_sPartID };
-                    Params[3] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TRECID", g_sDefectRecID };
-                    Params[4] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREASONID", g_sReasonID };
-                    Params[5] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TDUTYID", g_sDutyID };
-                    Params[6] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TEMPID", RepairUtility.sUserID };
-                    Params[7] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TTERMINALID", RepairUtility.sTerminalID };
-                    Params[8] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREMARK", RTextRemark.Text.Trim() };
-                    Params[9] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREPAIRMETHOD", rtRepairMethod.Text.Trim() };
-                    Params[10] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TLOCATIONDATA", sLocationData };
-                    Params[11] = new object[] { ParameterDirection.Output, OracleType.VarChar, "TRES", "" };
-                    ds = ClientUtils.ExecuteProc("SAJET.SJ_REPAIR_REASON", Params);
+                    //批次輸入的時候把相關資料先記錄下來 ~~ by Jim 20260626
+                    if (g_RepairType)
+                    {
+                        innerList = new List<Dictionary<string, string>>();
+
+                        Dictionary<string, string> paramDict = new Dictionary<string, string>();
+
+                        paramDict.Add("TSN", g_sSN);
+                        paramDict.Add("TWO", g_sWO);
+                        paramDict.Add("TPARTID", g_sPartID);
+                        paramDict.Add("TRECID", g_sDefectRecID);
+                        paramDict.Add("TREASONID", g_sReasonID);
+                        paramDict.Add("TDUTYID", g_sDutyID);
+                        paramDict.Add("TEMPID", RepairUtility.sUserID);
+                        paramDict.Add("TTERMINALID", RepairUtility.sTerminalID);
+                        paramDict.Add("TREMARK", RTextRemark.Text.Trim());
+                        paramDict.Add("TREPAIRMETHOD", rtRepairMethod.Text.Trim());
+                        paramDict.Add("TLOCATIONDATA", sLocationData);
+
+                        innerList.Add(paramDict);
+                    }
+                    else
+                    {
+                        object[][] Params = new object[12][];
+                        Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TSN", g_sSN };
+                        Params[1] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TWO", g_sWO };
+                        Params[2] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TPARTID", g_sPartID };
+                        Params[3] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TRECID", g_sDefectRecID };
+                        Params[4] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREASONID", g_sReasonID };
+                        Params[5] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TDUTYID", g_sDutyID };
+                        Params[6] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TEMPID", RepairUtility.sUserID };
+                        Params[7] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TTERMINALID", RepairUtility.sTerminalID };
+                        Params[8] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREMARK", RTextRemark.Text.Trim() };
+                        Params[9] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREPAIRMETHOD", rtRepairMethod.Text.Trim() };
+                        Params[10] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TLOCATIONDATA", sLocationData };
+                        Params[11] = new object[] { ParameterDirection.Output, OracleType.VarChar, "TRES", "" };
+                        ds = ClientUtils.ExecuteProc("SAJET.SJ_REPAIR_REASON", Params);
+
+                        string sRes = ds.Tables[0].Rows[0]["TRES"].ToString();
+                        if (sRes != "OK")
+                        {
+                            ClientUtils.ShowMessage( $@"{g_sSN}：{sRes}" , 0);
+                            return;
+                        }
+                    }
                 }
                 else
                 {
@@ -189,13 +227,16 @@ namespace RepairDll
                     Params[10] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TLOCATIONDATA", sLocationData };
                     Params[11] = new object[] { ParameterDirection.Output, OracleType.VarChar, "TRES", "" };
                     ds = ClientUtils.ExecuteProc("SAJET.SJ_REPAIR_REASON_SUBPARTS", Params);
+
+                    string sRes = ds.Tables[0].Rows[0]["TRES"].ToString();
+                    if (sRes != "OK")
+                    {
+                        ClientUtils.ShowMessage(sRes, 0);
+                        return;
+                    }
                 }
-                string sRes = ds.Tables[0].Rows[0]["TRES"].ToString();
-                if (sRes != "OK")
-                {
-                    ClientUtils.ShowMessage(sRes, 0);
-                    return;
-                }
+
+                
             }
             catch (Exception ex)
             {

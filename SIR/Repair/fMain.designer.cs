@@ -45,6 +45,7 @@ namespace RepairDll
             this.MenuItemDelete = new System.Windows.Forms.ToolStripMenuItem();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
+            this.BtnBatch = new System.Windows.Forms.Button();
             this.btnRepair = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
@@ -272,11 +273,20 @@ namespace RepairDll
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.BtnBatch);
             this.panel2.Controls.Add(this.btnRepair);
             this.panel2.Controls.Add(this.btnDelete);
             this.panel2.Controls.Add(this.btnAdd);
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
+            // 
+            // BtnBatch
+            // 
+            resources.ApplyResources(this.BtnBatch, "BtnBatch");
+            this.BtnBatch.ForeColor = System.Drawing.Color.Black;
+            this.BtnBatch.Name = "BtnBatch";
+            this.BtnBatch.UseVisualStyleBackColor = true;
+            this.BtnBatch.Click += new System.EventHandler(this.BtnBatch_Click);
             // 
             // btnRepair
             // 
@@ -1225,5 +1235,6 @@ namespace RepairDll
         private System.Windows.Forms.DataGridViewTextBoxColumn REPAIR_CODE;
         private System.Windows.Forms.DataGridViewTextBoxColumn REPAIR_TYPE;
         private System.Windows.Forms.DataGridViewTextBoxColumn REPAIR_DESC;
+        private System.Windows.Forms.Button BtnBatch;
     }
 }
