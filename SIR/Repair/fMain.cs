@@ -1218,9 +1218,12 @@ namespace RepairDll
                     #region �妸����
                     if (BatchData.Count > 0)
                     {
+                        // 遍歷所有批次的維修資料
                         foreach (var myDataList in BatchData)
                         {
-                            Dictionary<string, string> targetDict = myDataList[0];
+                            // 遍歷每個 List 中的所有 Dictionary
+                            foreach (Dictionary<string, string> targetDict in myDataList)
+                            {
 
                             var _TSN = targetDict["TSN"];
                             var _TWO = targetDict["TWO"];
