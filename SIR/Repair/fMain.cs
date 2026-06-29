@@ -42,6 +42,14 @@ namespace RepairDll
         public List<List<Dictionary<string, string>>> BatchData;
         public List<string> g_LSN = new List<string>();
 
+        // ç”¨æ–¼æ‰¹æ¬¡ç¶­ä¿®æ™‚ï¼Œå„²å­˜ç¬¬ä¸€æ¬¡å¡«å¯«çš„ç¶­ä¿®è³‡æ–™
+        public string g_sBatchReasonID = "0";
+        public string g_sBatchDutyID = "0";
+        public string g_sBatchRepairID = "0";
+        public string g_sBatchRemark = "";
+        public string g_sBatchRepairMethod = "";
+        public string g_sBatchLocationData = "";
+
 
         /*public string g_sRTerminalID;
         public string g_sRProcessID;
@@ -54,8 +62,8 @@ namespace RepairDll
         public string g_sOutTime;
         public string g_sRouteStep;
         //public int g_iLocateItem;
-        public string g_sPanel_SN; //¨ÑPepair Panel¨Ï¥Î
-        public string g_sComfirmID; //ºû­×½T»{¤H­û
+        public string g_sPanel_SN; //ï¿½ï¿½Pepair Panelï¿½Ï¥ï¿½
+        public string g_sComfirmID; //ï¿½ï¿½ï¿½×½Tï¿½{ï¿½Hï¿½ï¿½
         public string g_sDefectSNID;
         string g_sRepairType;//PANEL or SN
 
@@ -134,16 +142,16 @@ namespace RepairDll
             splitContainer1.Enabled = false;
             //            splitContainer2.Enabled = false;
             tabControl1.SelectedIndex = 0;
-            //Åª¨ú¥»¯¸Terminal
+            //Åªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Terminal
             if (!GetTerminalID())
             {
                 return;
             }
 
-            //Åª¨úSYS_BASE³]©w            
+            //Åªï¿½ï¿½SYS_BASEï¿½]ï¿½w            
             string sMsg = "";
-            btnSearchSN.Visible = (SajetCommon.GetSysBaseData(g_sProgram, "Search SN", ref sMsg) == "Y"); //SN¬O§_¥i¥Î¿ïªº
-            string sLoc = SajetCommon.GetSysBaseData(g_sProgram, "Location@Item Input", ref sMsg); ////ºû­×®ÉLocation&Item¬O§_¤@©w­n¿é¤J
+            btnSearchSN.Visible = (SajetCommon.GetSysBaseData(g_sProgram, "Search SN", ref sMsg) == "Y"); //SNï¿½Oï¿½_ï¿½iï¿½Î¿ïªº
+            string sLoc = SajetCommon.GetSysBaseData(g_sProgram, "Location@Item Input", ref sMsg); ////ï¿½ï¿½ï¿½×®ï¿½Location&Itemï¿½Oï¿½_ï¿½@ï¿½wï¿½nï¿½ï¿½J
             if (!string.IsNullOrEmpty(sMsg))
             {
                 sMsg = "Please Setup System Parameter:" + Environment.NewLine + Environment.NewLine + sMsg;
@@ -157,7 +165,7 @@ namespace RepairDll
             splitContainer1.Enabled = true;
             //            splitContainer2.Enabled = true;
 
-            //ºû­×®ÉLocation&Item¬O§_¤@©w­n¿é¤J            
+            //ï¿½ï¿½ï¿½×®ï¿½Location&Itemï¿½Oï¿½_ï¿½@ï¿½wï¿½nï¿½ï¿½J            
             int iLocationParams = 0;
             switch (sLoc)
             {
@@ -272,7 +280,7 @@ namespace RepairDll
 
         private bool Check_Repairer()
         {
-            //­YRepairerªÅ¥Õ,«h¦Û°Ê±a¥Xlogin user
+            //ï¿½YRepairerï¿½Å¥ï¿½,ï¿½hï¿½Û°Ê±aï¿½Xlogin user
             editRepairer.Text = editRepairer.Text.Trim();
             if (editRepairer.Text == "")
             {
@@ -358,18 +366,103 @@ namespace RepairDll
 
             if (g_RepairType)
             {
-                LVDefect.SelectedItems[0].ImageIndex = 0;
-                ShowReason(LVDefect.SelectedItems[0].SubItems[3].Text);
-                ShowItemReplace();
+                // æ‰¹æ¬¡ç¶­ä¿®æ¨¡å¼
+                if (BatchData.Count > 0)
+                {
+                    // ç¬¬äºŒæ¬¡ï¼ˆå«ï¼‰ä»¥ä¸Šè¼¸å…¥åºè™Ÿæ™‚
+                    // å…ˆåŸ·è¡Œ Show_SNData() è¨­å®š g_sSN ç­‰è³‡è¨Š
+                    ClearData();
+                    Show_SNData();
+
+                    // ç„¶å¾Œç”¨ç¬¬ä¸€æ¬¡çš„ç¶­ä¿®è³‡æ–™åŸ·è¡Œ
+                    ExecuteBatchRepairReason();
+                }
+                else
+                {
+                    ClearData();
+                    Show_SNData();
+                    LVDefect.SelectedItems[0].ImageIndex = 0;
+                    ShowReason(LVDefect.SelectedItems[0].SubItems[3].Text);
+                    ShowItemReplace();
+                }
             }
             else 
             {
                 ClearData();
+                Show_SNData();
             }
 
-            Show_SNData();
 
+        }
 
+        // æ‰¹æ¬¡ç¶­ä¿®æ™‚ï¼ŒåŸ·è¡Œ SAJET.SJ_REPAIR_REASONï¼ˆç”¨ç¬¬ä¸€æ¬¡å¡«å¯«çš„ç¶­ä¿®è³‡æ–™ï¼‰
+        private void ExecuteBatchRepairReason()
+        {
+            if (g_sSN == "" || LVDefect.SelectedItems.Count == 0)
+                return;
+
+            // å–å¾—ç¬¬ä¸€ç­†ç¶­ä¿®è³‡æ–™çš„å…§å®¹
+            Dictionary<string, string> firstBatchData = BatchData[0][0];
+            
+            string _TSN = g_sSN;
+            string _TWO = LabWO.Text;
+            string _TRECID = LVDefect.SelectedItems[0].SubItems[3].Text;
+            string _TREASONID = firstBatchData["TREASONID"];
+            string _TDUTYID = firstBatchData["TDUTYID"];
+            string _TREMARK = firstBatchData["TREMARK"];
+            string _TREPAIRMETHOD = firstBatchData["TREPAIRMETHOD"];
+            string _TLOCATIONDATA = firstBatchData["TLOCATIONDATA"];
+
+            try
+            {
+                object[][] _Params = new object[12][];
+                _Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TSN", _TSN };
+                _Params[1] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TWO", _TWO };
+                _Params[2] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TPARTID", g_sPartID };
+                _Params[3] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TRECID", _TRECID };
+                _Params[4] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREASONID", _TREASONID };
+                _Params[5] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TDUTYID", _TDUTYID };
+                _Params[6] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TEMPID", RepairUtility.sUserID };
+                _Params[7] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TTERMINALID", RepairUtility.sTerminalID };
+                _Params[8] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREMARK", _TREMARK };
+                _Params[9] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREPAIRMETHOD", _TREPAIRMETHOD };
+                _Params[10] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TLOCATIONDATA", _TLOCATIONDATA };
+                _Params[11] = new object[] { ParameterDirection.Output, OracleType.VarChar, "TRES", "" };
+                var _ds = ClientUtils.ExecuteProc("SAJET.SJ_REPAIR_REASON", _Params);
+
+                string sRes = _ds.Tables[0].Rows[0]["TRES"].ToString();
+                if (sRes != "OK")
+                {
+                    ClientUtils.ShowMessage(sRes, 0);
+                    return;
+                }
+
+                // å°‡é€™ç­†è³‡æ–™åŠ å…¥ BatchData
+                Dictionary<string, string> newBatchItem = new Dictionary<string, string>();
+                newBatchItem.Add("TSN", _TSN);
+                newBatchItem.Add("TWO", _TWO);
+                newBatchItem.Add("TPARTID", g_sPartID);
+                newBatchItem.Add("TRECID", _TRECID);
+                newBatchItem.Add("TREASONID", _TREASONID);
+                newBatchItem.Add("TDUTYID", _TDUTYID);
+                newBatchItem.Add("TEMPID", RepairUtility.sUserID);
+                newBatchItem.Add("TTERMINALID", RepairUtility.sTerminalID);
+                newBatchItem.Add("TREMARK", _TREMARK);
+                newBatchItem.Add("TREPAIRMETHOD", _TREPAIRMETHOD);
+                newBatchItem.Add("TLOCATIONDATA", _TLOCATIONDATA);
+
+                BatchData[0].Add(newBatchItem);
+
+                // æ›´æ–°ç•«é¢
+                LVDefect.SelectedItems[0].ImageIndex = 0;
+                ShowReason(LVDefect.SelectedItems[0].SubItems[3].Text);
+                ShowItemReplace();
+            }
+            catch (Exception ex)
+            {
+                ClientUtils.ShowMessage(ex.Message, 0);
+                return;
+            }
         }
         private void Show_KP()
         {
@@ -421,7 +514,7 @@ namespace RepairDll
         {
             LabAlarm.Visible = false;
 
-            //ÀË¬dSN¬O§_¥¿½T
+            //ï¿½Ë¬dSNï¿½Oï¿½_ï¿½ï¿½ï¿½T
             if (!CheckSN())
             {
                 editSN.Focus();
@@ -429,7 +522,7 @@ namespace RepairDll
                 g_sSN = "";
                 return;
             }
-            //Åã¥ÜDefect Data
+            //ï¿½ï¿½ï¿½Defect Data
             ShowDefect();
 
             if (LVDefect.Items.Count > 0)
@@ -493,29 +586,31 @@ namespace RepairDll
                 }
             }
 
-            //§å¦¸ºû­×
-            if (g_RepairType)
-            {
-                //¥Nªí²Ä¤G¦¸¿é¤J
-                if (BatchData[0].Count > 0)
-                {
+            //æ‰¹æ¬¡ç¶­ä¿®ï¼ˆå·²åœ¨ editSN_KeyPress ä¸­è™‹ç†ï¼Œé€™è£¡ä¸éœ€è¦å†è™‹ï¼‰
+            //if (g_RepairType)
+            //{
+            //    //å°‡ç¬¬äºŒç­†åŠ å…¥
+            //    if (BatchData[0].Count > 0)
+            //    {
 
-                    List<Dictionary<string, string>> myDataList = new List<Dictionary<string, string>>();
+            //        List<Dictionary<string, string>> myDataList = new List<Dictionary<string, string>>();
 
-                    myDataList = BatchData[0];
 
-                    if (myDataList.Count > 0)
-                    {
-                        // ¨ú±o²Ä¤@­Ó Dictionary
-                        Dictionary<string, string> targetDict = myDataList[0];
+            //        myDataList = BatchData[0];
 
-                        // §ó§ï¬J¦³ªº Key ªº¤º®e¡]¨Ò¦p¡G§â TSN §ï±¼¡^
-                        targetDict["TSN"] = g_sSN;
-                    }
+            //        if (myDataList.Count > 0)
+            //        {
+            //            // å–å¾—ç¬¬ä¸€ç­† Dictionary
+            //            Dictionary<string, string> targetDict = myDataList[0];
 
-                    BatchData.Add(myDataList);
-                }
-            }
+
+            //            // æ›´æ–°è£¡é‡Œçš„ Key è³‡æ–‚ï¼ˆä¾‹å‰‡æŠŠ TSN æ›´æ–°ï¼‰
+            //            targetDict["TSN"] = g_sSN;
+            //        }
+
+            //        BatchData.Add(myDataList);
+            //    }
+            //}
 
 
         }
@@ -575,7 +670,7 @@ namespace RepairDll
                 return false;
             }
 
-            //¦¹SNªº¬ö¿ı
+            //ï¿½ï¿½SNï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             sSQL = " Select A.PROCESS_ID,A.WORK_ORDER,A.PART_ID, to_char(A.OUT_PROCESS_TIME,'yyyy/mm/dd hh24:mi:ss') OUT_PROCESS_TIME, a.route_id ,d.remark "
                  + "       ,B.PART_NO,c.process_name,NVL(A.PANEL_NO,'N/A') PANEL_NO "
                  + " From SAJET.G_SN_STATUS A "
@@ -604,7 +699,7 @@ namespace RepairDll
             LabRemark.Text = dsTemp.Tables[0].Rows[0]["REMARK"].ToString();
             RepairUtility.sPreviousProcessID = dsTemp.Tables[0].Rows[0]["PROCESS_ID"].ToString();
 
-            //§äRoute¤¤ªºStep,Finish®É§ä¦^¬y¯¸¨Ï¥Î
+            //ï¿½ï¿½Routeï¿½ï¿½ï¿½ï¿½Step,Finishï¿½É§ï¿½^ï¿½yï¿½ï¿½ï¿½Ï¥ï¿½
             sSQL = " Select Step "
                  + " From sajet.sys_route_detail "
                  + " Where route_id = '" + g_sRouteID + "' "
@@ -828,7 +923,7 @@ namespace RepairDll
             if (LVDefect.SelectedItems.Count == 0)
                 return;
 
-            //¥u¥i§R°£¥»¯¸¼W¥[ªºDefect
+            //ï¿½uï¿½iï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½[ï¿½ï¿½Defect
             if (LVDefect.SelectedItems[0].SubItems[4].Text != RepairUtility.sProcessID)
             {
                 ClientUtils.ShowMessage("Can't Delete this Defect Code", 1);
@@ -975,7 +1070,7 @@ namespace RepairDll
                 {
                     fRepair.g_RepairType = _RepairType;
 
-                    //§å¦¸¿é¤J¥u¦³²Ä¤@¦¸»İ­n¶}µ¡  ~~ by Jim 20260625
+                    //ï¿½å¦¸ï¿½ï¿½Jï¿½uï¿½ï¿½ï¿½Ä¤@ï¿½ï¿½ï¿½İ­nï¿½}ï¿½ï¿½  ~~ by Jim 20260625
                     if (fRepair.ShowDialog() == DialogResult.OK && (BatchData.Count == 0))
                     {
                         LVDefect.SelectedItems[0].ImageIndex = 0;
@@ -986,7 +1081,7 @@ namespace RepairDll
                 }
                 finally
                 {
-                    //§å¦¸ºû­×¡G±N²Ä¤@¦¸ªº°O¿ı§ì¦^ ~~ by Jim 20260626  
+                    //ï¿½å¦¸ï¿½ï¿½ï¿½×¡Gï¿½Nï¿½Ä¤@ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½^ ~~ by Jim 20260626  
                     BatchData.Add(fRepair.innerList);
 
                     g_RepairType = _RepairType;
@@ -1043,7 +1138,7 @@ namespace RepairDll
                     return;
             }
 
-            //¬O§_©Ò¦³Defect³£¤w­×§¹
+            //ï¿½Oï¿½_ï¿½Ò¦ï¿½Defectï¿½ï¿½ï¿½wï¿½×§ï¿½
             for (int i = 0; i <= LVDefect.Items.Count - 1; i++)
             {
                 if (LVDefect.Items[i].ImageIndex != 0)
@@ -1058,7 +1153,7 @@ namespace RepairDll
             string sMsg = "";
             string sComfirmEmp = (SajetCommon.GetSysBaseData(g_sProgram, "Confirm Employee", ref sMsg));
 
-            //§ä¦^¬y¯¸
+            //ï¿½ï¿½^ï¿½yï¿½ï¿½
             string sReturn_ProcessID = "0";
             string sReturnProcessName = String.Empty;
             sSQL = " select  b.process_name,a.next_process_id "
@@ -1112,15 +1207,15 @@ namespace RepairDll
                 }
             }
 
-            // ¹L¯¸¬ö¿ı
+            // ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             //====SAJET.SJ_REPAIR_GO                         
             try
             {
                
-                //§å¦¸ºû­×
+                //ï¿½å¦¸ï¿½ï¿½ï¿½ï¿½
                 if (g_RepairType)
                 {
-                    #region §å¦¸ºû­×
+                    #region ï¿½å¦¸ï¿½ï¿½ï¿½ï¿½
                     if (BatchData.Count > 0)
                     {
                         foreach (var myDataList in BatchData)
@@ -1172,7 +1267,7 @@ namespace RepairDll
                             }
                         }
 
-                        //²M°£§å¦¸ºû­×ªº¬ö¿ı
+                        //ï¿½Mï¿½ï¿½ï¿½å¦¸ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ï¿½
                         BatchData.Clear();
                         g_RepairType = false;
                     }
@@ -1329,7 +1424,7 @@ namespace RepairDll
             LVReplaceHistory.Items.Clear();
             if (chkbAll.Checked)
             {
-                //SN©Ò¦³Replace¬ö¿ı(´¿¸gÄİ©ó¦¹SNªºKeyparts³£ºâ)
+                //SNï¿½Ò¦ï¿½Replaceï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½gï¿½İ©ï¿½SNï¿½ï¿½Keypartsï¿½ï¿½ï¿½ï¿½)
                 sSQL = "Select c.PART_NO , b.old_part_sn , b.new_part_sn,b.replace_time , Remark "
                      + "From SAJET.G_sn_repair_replace_kp b "
                      + "    ,sajet.sys_part c "
@@ -1340,7 +1435,7 @@ namespace RepairDll
             }
             else
             {
-                //SN¥Ø«eªºKeyparts¤§«eªºReplace¬ö¿ı
+                //SNï¿½Ø«eï¿½ï¿½Keypartsï¿½ï¿½ï¿½eï¿½ï¿½Replaceï¿½ï¿½ï¿½ï¿½
                 sSQL = "Select c.PART_NO , b.old_part_sn , b.new_part_sn ,b.replace_time ,Remark  "
                      + "From SAJET.g_sn_keyparts a "
                      + "    ,SAJET.G_sn_repair_replace_kp b "
@@ -1365,7 +1460,7 @@ namespace RepairDll
         {
             /*
             LVRepairHistory.Items.Clear();
-            //SN©Ò¦³Replace¬ö¿ı(´¿¸gÄİ©ó¦¹SNªºKeyparts³£ºâ)
+            //SNï¿½Ò¦ï¿½Replaceï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½gï¿½İ©ï¿½SNï¿½ï¿½Keypartsï¿½ï¿½ï¿½ï¿½)
             sSQL = "SELECT C.PROCESS_NAME \"Defect Process\", E.DEFECT_CODE||','||E.DEFECT_DESC \"Defect\" "
                  + "       ,D.PROCESS_NAME \"RP Process\", F.REASON_DESC, G.DUTY_CODE||','||G.DUTY_DESC  \"Duty\" "
                  + "       ,A.REC_TIME "
@@ -1557,7 +1652,7 @@ namespace RepairDll
             object obj = null;
             Type type = null;
             string strApplicationPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            if (!File.Exists(strApplicationPath + "\\RepairSNHistorydll.dll"))//¦b¥»¦aºİµo²{DLLÀÉ®×«h¤£¥t¥~²Õ¦r¦ê¡A§_«h±q¸ê®Æ®w¤¤·j´Mµ{¦¡¦b­ş!
+            if (!File.Exists(strApplicationPath + "\\RepairSNHistorydll.dll"))//ï¿½bï¿½ï¿½ï¿½aï¿½İµoï¿½{DLLï¿½É®×«hï¿½ï¿½ï¿½tï¿½~ï¿½Õ¦rï¿½ï¿½Aï¿½_ï¿½hï¿½qï¿½ï¿½Æ®wï¿½ï¿½ï¿½jï¿½Mï¿½{ï¿½ï¿½ï¿½bï¿½ï¿½!
             {
                 ClientUtils.ShowMessage(SajetCommon.SetLanguage("File Not Exist") + Environment.NewLine
                                        + SajetCommon.SetLanguage("File") + " : " + strApplicationPath + "\\RepairSNHistorydll.dll", 0);
@@ -1565,7 +1660,7 @@ namespace RepairDll
             }
             try
             {
-                //²Õ¸Ë¸ê°T
+                //ï¿½Õ¸Ë¸ï¿½T
                 assembly = Assembly.LoadFrom(strApplicationPath + "\\RepairSNHistorydll.dll");
                 type = assembly.GetType(("RepairSNHistorydll.fMain"));
                 obj = assembly.CreateInstance(type.FullName, true, BindingFlags.CreateInstance, null, new object[] { g_sExeName, g_sProgram, g_sUserID, sSN }, null, null);
