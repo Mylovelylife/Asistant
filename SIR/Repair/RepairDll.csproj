@@ -39,7 +39,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\Chroma Application Client\Repair\</OutputPath>
+    <OutputPath>..\..\..\協益\sirtec\Chroma Application Client\Repair\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -57,14 +57,11 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ClientUtils, Version=3.9.2106.1088, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Chroma Application Client\ClientUtils.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="ClientUtils">
+      <HintPath>..\..\..\協益\sirtec\Chroma Application Client\ClientUtils.dll</HintPath>
     </Reference>
     <Reference Include="showMessageBox">
-      <HintPath>..\..\Chroma Application Client\showMessageBox.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\協益\sirtec\Chroma Application Client\showMessageBox.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

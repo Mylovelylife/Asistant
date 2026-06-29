@@ -45,7 +45,6 @@ namespace RepairDll
             this.MenuItemDelete = new System.Windows.Forms.ToolStripMenuItem();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
-            this.BtnBatch = new System.Windows.Forms.Button();
             this.btnRepair = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
@@ -154,6 +153,8 @@ namespace RepairDll
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tPageKP = new System.Windows.Forms.TabPage();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.ck_Batch = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -273,20 +274,12 @@ namespace RepairDll
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.BtnBatch);
+            this.panel2.Controls.Add(this.ck_Batch);
             this.panel2.Controls.Add(this.btnRepair);
             this.panel2.Controls.Add(this.btnDelete);
             this.panel2.Controls.Add(this.btnAdd);
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
-            // 
-            // BtnBatch
-            // 
-            resources.ApplyResources(this.BtnBatch, "BtnBatch");
-            this.BtnBatch.ForeColor = System.Drawing.Color.Black;
-            this.BtnBatch.Name = "BtnBatch";
-            this.BtnBatch.UseVisualStyleBackColor = true;
-            this.BtnBatch.Click += new System.EventHandler(this.BtnBatch_Click);
             // 
             // btnRepair
             // 
@@ -1065,9 +1058,23 @@ namespace RepairDll
             this.tPageKP.Name = "tPageKP";
             this.tPageKP.UseVisualStyleBackColor = true;
             // 
+            // checkBox1
+            // 
+            resources.ApplyResources(this.checkBox1, "checkBox1");
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // ck_Batch
+            // 
+            resources.ApplyResources(this.ck_Batch, "ck_Batch");
+            this.ck_Batch.Name = "ck_Batch";
+            this.ck_Batch.UseVisualStyleBackColor = true;
+            this.ck_Batch.CheckedChanged += new System.EventHandler(this.ck_Batch_CheckedChanged);
+            // 
             // fMain
             // 
             resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.splitter1);
             this.Controls.Add(this.tabControl2);
             this.Controls.Add(this.tabControl1);
@@ -1086,6 +1093,7 @@ namespace RepairDll
             this.gbDefect.ResumeLayout(false);
             this.contextMenuStrip1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.tabControl3.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvReason)).EndInit();
@@ -1110,6 +1118,7 @@ namespace RepairDll
             this.tabControl2.ResumeLayout(false);
             this.tPageKP.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1235,6 +1244,7 @@ namespace RepairDll
         private System.Windows.Forms.DataGridViewTextBoxColumn REPAIR_CODE;
         private System.Windows.Forms.DataGridViewTextBoxColumn REPAIR_TYPE;
         private System.Windows.Forms.DataGridViewTextBoxColumn REPAIR_DESC;
-        private System.Windows.Forms.Button BtnBatch;
+        private System.Windows.Forms.CheckBox ck_Batch;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

@@ -186,29 +186,28 @@ namespace RepairDll
 
                         innerList.Add(paramDict);
                     }
-                    else
-                    {
-                        object[][] Params = new object[12][];
-                        Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TSN", g_sSN };
-                        Params[1] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TWO", g_sWO };
-                        Params[2] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TPARTID", g_sPartID };
-                        Params[3] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TRECID", g_sDefectRecID };
-                        Params[4] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREASONID", g_sReasonID };
-                        Params[5] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TDUTYID", g_sDutyID };
-                        Params[6] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TEMPID", RepairUtility.sUserID };
-                        Params[7] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TTERMINALID", RepairUtility.sTerminalID };
-                        Params[8] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREMARK", RTextRemark.Text.Trim() };
-                        Params[9] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREPAIRMETHOD", rtRepairMethod.Text.Trim() };
-                        Params[10] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TLOCATIONDATA", sLocationData };
-                        Params[11] = new object[] { ParameterDirection.Output, OracleType.VarChar, "TRES", "" };
-                        ds = ClientUtils.ExecuteProc("SAJET.SJ_REPAIR_REASON", Params);
 
-                        string sRes = ds.Tables[0].Rows[0]["TRES"].ToString();
-                        if (sRes != "OK")
-                        {
-                            ClientUtils.ShowMessage( $@"{g_sSN}¡G{sRes}" , 0);
-                            return;
-                        }
+
+                    object[][] Params = new object[12][];
+                    Params[0] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TSN", g_sSN };
+                    Params[1] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TWO", g_sWO };
+                    Params[2] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TPARTID", g_sPartID };
+                    Params[3] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TRECID", g_sDefectRecID };
+                    Params[4] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREASONID", g_sReasonID };
+                    Params[5] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TDUTYID", g_sDutyID };
+                    Params[6] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TEMPID", RepairUtility.sUserID };
+                    Params[7] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TTERMINALID", RepairUtility.sTerminalID };
+                    Params[8] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREMARK", RTextRemark.Text.Trim() };
+                    Params[9] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TREPAIRMETHOD", rtRepairMethod.Text.Trim() };
+                    Params[10] = new object[] { ParameterDirection.Input, OracleType.VarChar, "TLOCATIONDATA", sLocationData };
+                    Params[11] = new object[] { ParameterDirection.Output, OracleType.VarChar, "TRES", "" };
+                    ds = ClientUtils.ExecuteProc("SAJET.SJ_REPAIR_REASON", Params);
+
+                    string sRes = ds.Tables[0].Rows[0]["TRES"].ToString();
+                    if (sRes != "OK")
+                    {
+                        ClientUtils.ShowMessage($@"{g_sSN}¡G{sRes}", 0);
+                        return;
                     }
                 }
                 else

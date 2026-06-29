@@ -1040,7 +1040,7 @@ namespace RepairDll
         }
 
 
-        private void Repair(bool _RepairType = false) 
+        private void Repair() 
         {
             BatchData = new List<List<Dictionary<string, string>>> ();
 
@@ -1068,7 +1068,7 @@ namespace RepairDll
                 fRepairData fRepair = new fRepairData();
                 try
                 {
-                    fRepair.g_RepairType = _RepairType;
+                    fRepair.g_RepairType = g_RepairType;
 
                     //�妸��J�u���Ĥ@���ݭn�}��  ~~ by Jim 20260625
                     if (fRepair.ShowDialog() == DialogResult.OK && (BatchData.Count == 0))
@@ -1084,14 +1084,8 @@ namespace RepairDll
                     //�妸���סG�N�Ĥ@�����O����^ ~~ by Jim 20260626  
                     BatchData.Add(fRepair.innerList);
 
-                    g_RepairType = _RepairType;
-
                     fRepair.Dispose();
                 }
-            
-
-            
-
         }
         private bool CheckBGAReplaceCount()
         {
@@ -1216,14 +1210,11 @@ namespace RepairDll
                 if (g_RepairType)
                 {
                     #region �妸����
-                    if (BatchData.Count > 0)
+                    if (BatchData[0].Count > 0)
                     {
                         // 遍歷所有批次的維修資料
-                        foreach (var myDataList in BatchData)
+                        foreach (var targetDict in BatchData[0])
                         {
-                            // 遍歷每個 List 中的所有 Dictionary
-                            foreach (Dictionary<string, string> targetDict in myDataList)
-                            {
                                 // 批次模式下，維修原因已在 ExecuteBatchRepairReason() 寫入，這裡只跑 SJ_REPAIR_GO
                                 var _TSN = targetDict["TSN"];
 
@@ -1243,7 +1234,7 @@ namespace RepairDll
                                     ClientUtils.ShowMessage(sRes, 0);
                                     return;
                                 }
-                            }
+                            
                         }
 
                         //�M���妸���ת�����
@@ -1750,10 +1741,9 @@ namespace RepairDll
             ShowRepairSNHistory(sKPSN);
         }
 
-        private void BtnBatch_Click(object sender, EventArgs e)
+        private void ck_Batch_CheckedChanged(object sender, EventArgs e)
         {
-            Repair(true);
-            
+            g_RepairType = ck_Batch.Checked;
         }
 
         private void btnSNHistory_Click(object sender, EventArgs e)
