@@ -45,7 +45,8 @@ namespace RepairDll
             this.MenuItemDelete = new System.Windows.Forms.ToolStripMenuItem();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnRepair = new System.Windows.Forms.Button();
+            this.RB2 = new System.Windows.Forms.RadioButton();
+            this.RB1 = new System.Windows.Forms.RadioButton();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.tabControl3 = new System.Windows.Forms.TabControl();
@@ -153,8 +154,6 @@ namespace RepairDll
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tPageKP = new System.Windows.Forms.TabPage();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.ck_Batch = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -274,20 +273,28 @@ namespace RepairDll
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.ck_Batch);
-            this.panel2.Controls.Add(this.btnRepair);
+            this.panel2.Controls.Add(this.RB2);
+            this.panel2.Controls.Add(this.RB1);
             this.panel2.Controls.Add(this.btnDelete);
             this.panel2.Controls.Add(this.btnAdd);
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
-            // btnRepair
+            // RB2
             // 
-            resources.ApplyResources(this.btnRepair, "btnRepair");
-            this.btnRepair.ForeColor = System.Drawing.Color.Black;
-            this.btnRepair.Name = "btnRepair";
-            this.btnRepair.UseVisualStyleBackColor = true;
-            this.btnRepair.Click += new System.EventHandler(this.btnRepair_Click);
+            resources.ApplyResources(this.RB2, "RB2");
+            this.RB2.Name = "RB2";
+            this.RB2.TabStop = true;
+            this.RB2.UseVisualStyleBackColor = true;
+            this.RB2.Click += new System.EventHandler(this.RB2_Click);
+            // 
+            // RB1
+            // 
+            resources.ApplyResources(this.RB1, "RB1");
+            this.RB1.Name = "RB1";
+            this.RB1.TabStop = true;
+            this.RB1.UseVisualStyleBackColor = true;
+            this.RB1.Click += new System.EventHandler(this.RB1_Click);
             // 
             // btnDelete
             // 
@@ -1058,23 +1065,9 @@ namespace RepairDll
             this.tPageKP.Name = "tPageKP";
             this.tPageKP.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
-            // 
-            resources.ApplyResources(this.checkBox1, "checkBox1");
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // ck_Batch
-            // 
-            resources.ApplyResources(this.ck_Batch, "ck_Batch");
-            this.ck_Batch.Name = "ck_Batch";
-            this.ck_Batch.UseVisualStyleBackColor = true;
-            this.ck_Batch.CheckedChanged += new System.EventHandler(this.ck_Batch_CheckedChanged);
-            // 
             // fMain
             // 
             resources.ApplyResources(this, "$this");
-            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.splitter1);
             this.Controls.Add(this.tabControl2);
             this.Controls.Add(this.tabControl1);
@@ -1118,7 +1111,6 @@ namespace RepairDll
             this.tabControl2.ResumeLayout(false);
             this.tPageKP.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1155,7 +1147,6 @@ namespace RepairDll
         private System.Windows.Forms.ToolStripMenuItem MenuItemRepair;
         private System.Windows.Forms.ToolStripMenuItem MenuItemAdd;
         private System.Windows.Forms.ToolStripMenuItem MenuItemDelete;
-        private System.Windows.Forms.Button btnRepair;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Panel panel2;
@@ -1244,7 +1235,7 @@ namespace RepairDll
         private System.Windows.Forms.DataGridViewTextBoxColumn REPAIR_CODE;
         private System.Windows.Forms.DataGridViewTextBoxColumn REPAIR_TYPE;
         private System.Windows.Forms.DataGridViewTextBoxColumn REPAIR_DESC;
-        private System.Windows.Forms.CheckBox ck_Batch;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.RadioButton RB2;
+        private System.Windows.Forms.RadioButton RB1;
     }
 }

@@ -194,7 +194,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACs
-        CQAAAk1TRnQBSQFMAgEBAgEAAVQBAQFUAQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        CQAAAk1TRnQBSQFMAgEBAgEAAXQBAQF0AQEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -253,65 +253,65 @@
   <data name="&gt;&gt;LVDefect.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="ck_Batch.AutoSize" type="System.Boolean, mscorlib">
+  <data name="RB2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="ck_Batch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>269, 6</value>
+  <data name="RB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 3</value>
   </data>
-  <data name="ck_Batch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 28</value>
+  <data name="RB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 28</value>
   </data>
-  <data name="ck_Batch.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="RB2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
   </data>
-  <data name="ck_Batch.Text" xml:space="preserve">
-    <value>BatchRepair</value>
+  <data name="RB2.Text" xml:space="preserve">
+    <value>BRepair</value>
   </data>
-  <data name="&gt;&gt;ck_Batch.Name" xml:space="preserve">
-    <value>ck_Batch</value>
+  <data name="&gt;&gt;RB2.Name" xml:space="preserve">
+    <value>RB2</value>
   </data>
-  <data name="&gt;&gt;ck_Batch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;RB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ck_Batch.Parent" xml:space="preserve">
+  <data name="&gt;&gt;RB2.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
-  <data name="&gt;&gt;ck_Batch.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;RB2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="btnRepair.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
+  <data name="RB1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="btnRepair.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 3</value>
+  <data name="RB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 3</value>
   </data>
-  <data name="btnRepair.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
+  <data name="RB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 28</value>
   </data>
-  <data name="btnRepair.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="RB1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
-  <data name="btnRepair.Text" xml:space="preserve">
+  <data name="RB1.Text" xml:space="preserve">
     <value>Repair</value>
   </data>
-  <data name="&gt;&gt;btnRepair.Name" xml:space="preserve">
-    <value>btnRepair</value>
+  <data name="&gt;&gt;RB1.Name" xml:space="preserve">
+    <value>RB1</value>
   </data>
-  <data name="&gt;&gt;btnRepair.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;RB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnRepair.Parent" xml:space="preserve">
+  <data name="&gt;&gt;RB1.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
-  <data name="&gt;&gt;btnRepair.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;RB1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="btnDelete.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 3</value>
+    <value>297, 2</value>
   </data>
   <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 25</value>
@@ -338,7 +338,7 @@
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 3</value>
+    <value>200, 2</value>
   </data>
   <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 25</value>
@@ -818,7 +818,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <metadata name="SERIAL_NUMBER.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1355,7 +1355,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnRepairHistory.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="tableLayoutPanel1.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
     <value>Inset</value>
@@ -1955,7 +1955,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="btnScrap.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -2009,7 +2009,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panelFinish.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="splitter1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -2033,7 +2033,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;splitter1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>546, 17</value>
@@ -2396,7 +2396,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="tPageKP.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 37</value>
@@ -2453,34 +2453,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tabControl2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 19</value>
-  </data>
-  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="checkBox1.Text" xml:space="preserve">
-    <value>checkBox1</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
-    <value>checkBox1</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

@@ -52,7 +52,7 @@ namespace RepairDll
         Dictionary<string, string> g_dtItemPartSN = new Dictionary<string, string>();
 
         //提供資料給開啟該頁面的視窗
-        public List<Dictionary<string, string>> innerList;
+        public List<Dictionary<string, string>> innerList = new List<Dictionary<string, string>>();
 
 
         private void btnSearchReason_Click(object sender, EventArgs e)
@@ -168,7 +168,6 @@ namespace RepairDll
                     //批次輸入的時候把相關資料先記錄下來 ~~ by Jim 20260626
                     if (g_RepairType)
                     {
-                        innerList = new List<Dictionary<string, string>>();
 
                         Dictionary<string, string> paramDict = new Dictionary<string, string>();
 
@@ -770,7 +769,7 @@ namespace RepairDll
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-
+            innerList.Clear();
         }
 
         private void editReason_TextChanged(object sender, EventArgs e)

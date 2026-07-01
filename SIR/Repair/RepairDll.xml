@@ -47,6 +47,7 @@
 		<Message Name="Work Order" Value="工單" />
 		<Message Name="S/N Information" Value="序號資訊" />
 		<Message Name="Repair" Value="維修" />
+		<Message Name="BRepair" Value="批次維修" />
 		<Message Name="Defect Information" Value="不良現象資訊" />
 		<Message Name="Reason Information" Value="不良原因資訊" />
 		<Message Name="Scrap" Value="報廢" />

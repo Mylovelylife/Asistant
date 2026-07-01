@@ -3,26 +3,37 @@
   "WorkspaceRootPath": "D:\\Project\\Asistant\\SIR\\Repair\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|d:\\project\\asistant\\sir\\repair\\frepairdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|solutionrelative:frepairdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|d:\\project\\asistant\\sir\\repair\\frepairdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|solutionrelative:frepairdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|d:\\project\\asistant\\sir\\repair\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|solutionrelative:fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a011b5aff891df77b7e1ebe55612f237b0da759fb977ee425dbda96145b4ef6c\\MainWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RepairDll||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|D:\\Project\\Asistant\\SIR\\Repair\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|solutionrelative:fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RepairDll||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|d:\\project\\asistant\\sir\\repair\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|solutionrelative:fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|d:\\project\\asistant\\sir\\repair\\frepairdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|solutionrelative:frepairdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|d:\\project\\asistant\\sir\\repair\\frepairdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|solutionrelative:frepairdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|d:\\project\\asistant\\sir\\repair\\fmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|solutionrelative:fmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\5b86774778aff0ce3cec52deedde3e68e73999a1df9f25a32d2212d4f3b14744\\ThreadHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a011b5aff891df77b7e1ebe55612f237b0da759fb977ee425dbda96145b4ef6c\\MainWindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|d:\\project\\asistant\\sir\\repair\\repairdll.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|solutionrelative:repairdll.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{741B2162-A4ED-41D9-B51E-7063D93048FF}|RepairDll.csproj|D:\\Project\\Asistant\\SIR\\Repair\\sajetcommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,7 +74,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "ThreadHelper.cs",
+              "DocumentMoniker": "C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\5b86774778aff0ce3cec52deedde3e68e73999a1df9f25a32d2212d4f3b14744\\ThreadHelper.cs",
+              "ToolTip": "C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\5b86774778aff0ce3cec52deedde3e68e73999a1df9f25a32d2212d4f3b14744\\ThreadHelper.cs [\u552F\u8B80]",
+              "ViewState": "AgIAABcAAAAAAAAAAAAawDMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T04:40:34.175Z",
+              "EditorCaption": " [\u552F\u8B80]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a011b5aff891df77b7e1ebe55612f237b0da759fb977ee425dbda96145b4ef6c\\MainWindow.cs",
+              "ToolTip": "C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a011b5aff891df77b7e1ebe55612f237b0da759fb977ee425dbda96145b4ef6c\\MainWindow.cs [\u552F\u8B80]",
+              "ViewState": "AgIAACoEAAAAAAAAAAAawDcEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T04:30:14.899Z",
+              "EditorCaption": " [\u552F\u8B80]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RepairDll.xml",
+              "DocumentMoniker": "D:\\Project\\Asistant\\SIR\\Repair\\RepairDll.xml",
+              "RelativeDocumentMoniker": "RepairDll.xml",
+              "ToolTip": "D:\\Project\\Asistant\\SIR\\Repair\\RepairDll.xml",
+              "RelativeToolTip": "RepairDll.xml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAlwCkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-06-30T02:27:38.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fMain.designer.cs",
+              "DocumentMoniker": "D:\\Project\\Asistant\\SIR\\Repair\\fMain.designer.cs",
+              "RelativeDocumentMoniker": "fMain.designer.cs",
+              "ToolTip": "D:\\Project\\Asistant\\SIR\\Repair\\fMain.designer.cs",
+              "RelativeToolTip": "fMain.designer.cs",
+              "ViewState": "AgIAABQBAAAAAAAAAAAnwBsBAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T02:25:51.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "fRepairData.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "D:\\Project\\Asistant\\SIR\\Repair\\fRepairData.cs",
               "RelativeDocumentMoniker": "fRepairData.cs",
@@ -81,38 +140,27 @@
               "RelativeDocumentMoniker": "fMain.cs",
               "ToolTip": "D:\\Project\\Asistant\\SIR\\Repair\\fMain.cs",
               "RelativeToolTip": "fMain.cs",
-              "ViewState": "AgIAAAgDAAAAAAAAAAAowBwDAABGAAAAAAAAAA==",
+              "ViewState": "AgIAABwFAAAAAAAAAAAuwCkFAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-29T17:19:27.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "fRepairData.cs",
               "DocumentMoniker": "D:\\Project\\Asistant\\SIR\\Repair\\fRepairData.cs",
               "RelativeDocumentMoniker": "fRepairData.cs",
               "ToolTip": "D:\\Project\\Asistant\\SIR\\Repair\\fRepairData.cs",
               "RelativeToolTip": "fRepairData.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAWwI8AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAuwLsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-29T17:09:04.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.cs",
-              "DocumentMoniker": "C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a011b5aff891df77b7e1ebe55612f237b0da759fb977ee425dbda96145b4ef6c\\MainWindow.cs",
-              "ToolTip": "C:\\Users\\jim.sung\\AppData\\Local\\Temp\\1\\.vsdbgsrc\\a011b5aff891df77b7e1ebe55612f237b0da759fb977ee425dbda96145b4ef6c\\MainWindow.cs [\u552F\u8B80]",
-              "ViewState": "AgIAACYEAAAAAAAAAAAUwDYEAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T14:42:39.668Z",
-              "EditorCaption": " [\u552F\u8B80]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "SajetCommon.cs",
               "DocumentMoniker": "D:\\Project\\Asistant\\SIR\\Repair\\SajetCommon.cs",
               "RelativeDocumentMoniker": "SajetCommon.cs",
@@ -124,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "RepairDll",
               "DocumentMoniker": "D:\\Project\\Asistant\\SIR\\Repair\\RepairDll.csproj",
               "RelativeDocumentMoniker": "RepairDll.csproj",
@@ -136,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "fMain.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "D:\\Project\\Asistant\\SIR\\Repair\\fMain.cs",
               "RelativeDocumentMoniker": "fMain.cs",
